@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>防抖示例</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+      }
+      #errTip {
+        margin-top: 20px;
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>防抖（Debounce）示例</h1>
+    <input type="text" id="inputField" placeholder="输入内容..." />
+    <div id="errTip"></div>
+
+    <script>
+      function debounce(fn, delay) {
+        let timer = null
+        return function (...args) {
+          if (timer) clearTimeout(timer)
+          timer = setTimeout(() => {
+            timer = null
+            fn.apply(this, args)
+          }, delay || 1000 / 60)
+        }
+      }
+
+      const inputField = document.getElementById('inputField')
+      const errTip = document.getElementById('errTip')
+
+      function handleInput(event) {
+        errTip.textContent = `${event.target.value} 不满足要求 ...`
+      }
+
+      const debouncedHandleInput = debounce(handleInput, 300)
+
+      inputField.addEventListener('input', debouncedHandleInput)
+    </script>
+  </body>
+</html>
