@@ -29,7 +29,8 @@ import {
   socialLinks,
   VP_TOC_PATH,
   VP_SIDEBAR_PATH,
-  sidebar_isNotesIDVisible
+  sidebar_isNotesIDVisible,
+  sidebar_isCollapsed
 } from './constants.js'
 import { genHierarchicalSidebar } from './utils/index.js'
 
@@ -53,6 +54,7 @@ class ReadmeUpdater {
     this.repoName = repoName
     this.ignoreDirs = ignore_dirs || []
     this.sidebar_isNotesIDVisible = sidebar_isNotesIDVisible || false
+    this.sidebar_isCollapsed = sidebar_isCollapsed || false
     this.socialLinks = socialLinks
     this.menuItems = menuItems
 
@@ -611,7 +613,8 @@ class ReadmeUpdater {
           genHierarchicalSidebar(
             itemList,
             this.homeReadme.titles,
-            this.homeReadme.titlesNotesCount
+            this.homeReadme.titlesNotesCount,
+            this.sidebar_isCollapsed
           )
         )
       )

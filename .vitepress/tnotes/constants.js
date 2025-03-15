@@ -8,7 +8,8 @@ const {
   repoName,
   socialLinks,
   menuItems,
-  sidebar_isNotesIDVisible
+  sidebar_isNotesIDVisible,
+  sidebar_isCollapsed
 } = getTnotesConfig()
 
 export {
@@ -17,7 +18,8 @@ export {
   repoName,
   socialLinks,
   menuItems,
-  sidebar_isNotesIDVisible
+  sidebar_isNotesIDVisible,
+  sidebar_isCollapsed
 }
 
 export const BILIBILI_VIDEO_BASE_URL = "https://www.bilibili.com/video/"

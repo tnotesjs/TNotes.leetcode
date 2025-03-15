@@ -1,4 +1,4 @@
-export const genHierarchicalSidebar = (itemList, titles, titlesNotesCount) => {
+export const genHierarchicalSidebar = (itemList, titles, titlesNotesCount, sidebar_isCollapsed) => {
   const stack = []
   const root = []
 
@@ -9,7 +9,7 @@ export const genHierarchicalSidebar = (itemList, titles, titlesNotesCount) => {
 
     const node = {
       text,
-      collapsed: true,
+      collapsed: sidebar_isCollapsed,
       items: noteItems.length > 0 ? noteItems : [],
     }
 
