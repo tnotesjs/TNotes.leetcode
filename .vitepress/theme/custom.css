@@ -12,3 +12,8 @@
 a {
     text-decoration: none !important;
 }
+
+.VPDoc.has-aside .content-container {
+  /* ! 修复 Discussions 两个主题 noborder light、noborder dark 的边框渲染不完整的问题 */
+  padding: 0 2px !important;
+}

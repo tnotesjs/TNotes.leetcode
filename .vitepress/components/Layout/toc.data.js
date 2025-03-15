@@ -1,3 +1,4 @@
+// .vitepress/components/Layout/toc.data.js
 import fs from 'node:fs'
 
 export default {

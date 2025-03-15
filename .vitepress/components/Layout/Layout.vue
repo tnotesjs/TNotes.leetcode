@@ -2,7 +2,8 @@
     <Layout>
         <template #doc-top>
             <!-- <pre>vscodesNoteDir: {{ vscodeNotesDir }}</pre> -->
-            <!-- <pre>vpData.page.value: {{ vpData.page.value }}</pre> -->
+            <!-- <pre>vpData.page.value: {{ vpData.page.value }}</pre>
+            <pre>currentNoteConfig: {{ currentNoteConfig }}</pre> -->
             <!-- <button @click="copyRawFile" title="Copy raw file">raw</button> -->
             <!-- <pre>{{ tocData }}</pre> -->
         </template>
@@ -46,7 +47,13 @@
                 更新于：{{ formatDate(vpData.page.value.lastUpdated) }}
             </div>
         </template>
-        <!-- <template #doc-after>doc-after</template> -->
+        <template #doc-after>
+            <!-- {{ REPO_NAME + '.' + currentNoteId }} -->
+            <Discussions v-if="isDiscussionsVisible" :id="REPO_NAME + '.' + currentNoteId" />
+        </template>
+        <!-- <template #doc-bottom>
+            <Discussions id="TNotes.template.0003" />
+        </template> -->
 
         <template #aside-top>
             <!-- aside-top -->
@@ -79,23 +86,45 @@
 </template>
 
 <script setup>
-import DefaultTheme from 'vitepress/theme'
-import { useData } from 'vitepress'
-import { data as tocData } from './toc.data.js'
-import { ref, computed, onMounted, onBeforeUnmount, watch } from 'vue'
-import { formatDate, scrollToTop } from '../utils.js'
-
-import { NOTES_DIR_KEY, TOC_MD } from '../constants.js'
-
 import icon__vscode from "/icon__vscode.svg"
 import icon__totop from "/icon__totop.svg"
 import m2mm from "/m2mm.png"
 import icon__github from "/icon__github.svg"
 
+import DefaultTheme from 'vitepress/theme'
+import { useData } from 'vitepress'
+import { ref, computed, onMounted, onBeforeUnmount, watch } from 'vue'
+
+import Discussions from '../Discussions/Discussions.vue'
+
+import { data as tocData } from './toc.data.js'
+import { data as allNotesConfig } from '../notesConfig.data.js'
+
+import { formatDate, scrollToTop } from '../utils.js'
+
+import { NOTES_DIR_KEY, TOC_MD, REPO_NAME } from '../constants.js'
+
 const { Layout } = DefaultTheme
 const vpData = useData()
 // console.log('notesData:', notesData)
 // console.log('vpData:', vpData)
+// 提取当前笔记的 ID（前 4 个数字）
+const currentNoteId = computed(() => {
+  const match = vpData.page.value.relativePath.match(/notes\/(\d{4})\./)
+  return match ? match[1] : null
+})
+
+// 根据当前笔记 ID 获取配置数据
+const currentNoteConfig = computed(() => {
+  return currentNoteId.value && allNotesConfig[currentNoteId.value]
+    ? allNotesConfig[currentNoteId.value]
+    : {
+        bilibili: [],
+        done: false,
+        enableDiscussions: false, // 默认值
+      }
+})
+const isDiscussionsVisible = computed(() => currentNoteConfig.value.enableDiscussions)
 
 const vscodeNotesDir = ref('');
 

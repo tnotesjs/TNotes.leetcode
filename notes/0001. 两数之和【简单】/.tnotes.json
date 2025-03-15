@@ -1,4 +1,5 @@
 {
   "bilibili": [],
-  "done": false
+  "done": true,
+  "enableDiscussions": true
 }

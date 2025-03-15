@@ -1,4 +1,16 @@
-import { repoName } from '../../.tnotes.json'
+import { repoName, ignore_dirs } from '../../.tnotes.json'
+
+/**
+ * 笔记仓库名儿
+ */
+export const REPO_NAME = repoName
+
+/**
+ * notes 目录下需要忽略的笔记目录
+ * @example
+ * [".vscode", "0000", "assets", "node_modules"]
+ */
+export const IGNORE_DIRS = ignore_dirs
 
 /**
  * 存储本地笔记文件夹所在位置的 key
