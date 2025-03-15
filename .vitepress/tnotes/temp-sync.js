@@ -1,7 +1,11 @@
 // .vitepress/tnotes/template-sync.js
 import fs from 'fs'
 import path from 'path'
-import { VP_DIR_PATH, ROOT_PKG_PATH } from './constants.js'
+import {
+  VP_DIR_PATH,
+  ROOT_PKG_PATH,
+  GITHUB_DEPLOYYML_PATH,
+} from './constants.js'
 
 const VP_SYNC_LIST = ['components', 'theme', 'tnotes', 'config.mts']
 
@@ -88,21 +92,20 @@ const copyWhitelistedFiles = (source, target) => {
 }
 
 /**
- * 复制 package.json 文件
- * @param {string} sourcePkgPath - 源 package.json 路径
- * @param {string} targetDir - 目标目录路径
+ * 复制文件
+ * @param {string} sourceFilePath - 源文件路径
+ * @param {string} targetFilePath - 目标文件路径
  */
-const copyPackageJson = (sourcePkgPath, targetDir) => {
+const copyFile = (sourceFilePath, targetFilePath) => {
   try {
-    const targetPkgPath = path.join(targetDir, 'package.json')
-    if (fs.existsSync(sourcePkgPath)) {
-      fs.copyFileSync(sourcePkgPath, targetPkgPath)
-      console.log(`✅ 已复制 package.json 到 ${targetDir}`)
+    if (fs.existsSync(sourceFilePath)) {
+      fs.copyFileSync(sourceFilePath, targetFilePath)
+      console.log(`✅ 已复制 ${sourceFilePath} 到 ${targetFilePath}`)
     } else {
-      console.warn(`⚠️ 源路径中不存在：${sourcePkgPath}`)
+      console.warn(`⚠️ 源路径中不存在：${sourceFilePath}`)
     }
   } catch (error) {
-    console.error(`❌ 复制 package.json 失败：${error.message}`)
+    console.error(`❌ 复制 ${sourceFilePath} 失败：${error.message}`)
   }
 }
 
@@ -123,6 +126,7 @@ export async function tempSync() {
 
     // 遍历目标目录并同步内容
     for (const targetDir of targetDirs) {
+      console.log('targetDir =>', targetDir)
       const targetVitepressDir = path.join(targetDir, '.vitepress')
       deleteDirectory(targetVitepressDir) // 删除目标目录下的整个 .vitepress 文件夹
 
@@ -130,7 +134,12 @@ export async function tempSync() {
       copyWhitelistedFiles(VP_DIR_PATH, targetVitepressDir)
 
       // 复制 package.json 文件
-      copyPackageJson(ROOT_PKG_PATH, targetDir)
+      copyFile(ROOT_PKG_PATH, path.resolve(targetDir, 'package.json'))
+      // 复制 .github/workflows/deploy.yml 文件
+      copyFile(
+        GITHUB_DEPLOYYML_PATH,
+        path.resolve(targetDir, '.github', 'workflows', 'deploy.yml')
+      )
 
       console.log('---------------')
     }
@@ -140,6 +149,7 @@ export async function tempSync() {
     // 调试信息
     // console.log('VP_DIR_PATH', VP_DIR_PATH)
     // console.log('ROOT_PKG_PATH', ROOT_PKG_PATH)
+    // console.log('GITHUB_DEPLOYYML_PATH', GITHUB_DEPLOYYML_PATH)
     // console.log('baseDir', baseDir)
     // console.log('currentModuleDir', currentModuleDir)
     // console.log('targetDirs', targetDirs)

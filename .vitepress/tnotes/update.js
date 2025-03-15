@@ -28,7 +28,8 @@ import {
   ROOT_README_PATH,
   socialLinks,
   VP_TOC_PATH,
-  VP_SIDEBAR_PATH
+  VP_SIDEBAR_PATH,
+  sidebar_isNotesIDVisible
 } from './constants.js'
 import { genHierarchicalSidebar } from './utils/index.js'
 
@@ -36,22 +37,24 @@ const slugger = new GithubSlugger();
 
 class ReadmeUpdater {
   constructor() {
-    this.author = author
     this.EOL = EOL
     this.githubPageNotesUrl = GITHUB_PAGE_NOTES_URL
-    this.ignoreDirs = ignore_dirs || []
-    this.menuItems = menuItems
     this.newNotesReadmeMdTemplate = NEW_NOTES_README_MD_TEMPLATE
     this.notesDir = NOTES_DIR
     // this.repoBolbUrl = REPO_BOLB_URL
-    this.repoName = repoName
     this.repoNotesUrl = REPO_NOTES_URL
     this.rootReadmePath = ROOT_README_PATH
-    this.socialLinks = socialLinks
     this.tocEndTag = NOTES_TOC_END_TAG
     this.tocStartTag = NOTES_TOC_START_TAG
     this.vpTocPath = VP_TOC_PATH
     this.vpSidebarPath = VP_SIDEBAR_PATH
+
+    this.author = author
+    this.repoName = repoName
+    this.ignoreDirs = ignore_dirs || []
+    this.sidebar_isNotesIDVisible = sidebar_isNotesIDVisible || false
+    this.socialLinks = socialLinks
+    this.menuItems = menuItems
 
     this.notesInfo = {
       /**
@@ -590,8 +593,9 @@ class ReadmeUpdater {
         // console.log('notesDirName', notesDirName)
         if (notesDirName) {
           const done = this.notesInfo.doneIds.has(id) ? true : false
+          const text = this.sidebar_isNotesIDVisible ? notesDirName : notesDirName.replace(/\d\d\d\d. /, '')
           itemList.push({
-            text: (done ? '✅ ' : '⏰ ') + notesDirName.replace(/\d\d\d\d. /, ''),
+            text: (done ? '✅ ' : '⏰ ') + text,
             link: `/notes/${notesDirName}/README`,
           })
         }

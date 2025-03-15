@@ -3,6 +3,7 @@
   "repoName": "TNotes.leetcode",
   "keywords": ["TNotes.leetcode"],
   "ignore_dirs": [".vscode", "0000", "assets", "node_modules"],
+  "sidebar_isNotesIDVisible": true,
   "socialLinks": [
     {
       "ariaLabel": "Tdahuyou 语雀主页链接",

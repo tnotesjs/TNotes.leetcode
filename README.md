@@ -3,41 +3,6 @@
 <!-- region:toc -->
 - [leetcode](#leetcode)
   - [1. 🎯 题目列表](#1--题目列表)
-    - [1.1. 0000～0099](#11-00000099)
-    - [1.2. 0100～0199](#12-01000199)
-    - [1.3. 0200～0299](#13-02000299)
-    - [1.4. 0300～0399](#14-03000399)
-    - [1.5. 0400～0499](#15-04000499)
-    - [1.6. 0500～0599](#16-05000599)
-    - [1.7. 0600～0699](#17-06000699)
-    - [1.8. 0700～0799](#18-07000799)
-    - [1.9. 0800～0899](#19-08000899)
-    - [1.10. 0900～0999](#110-09000999)
-    - [1.11. 1000～1099](#111-10001099)
-    - [1.12. 1100～1199](#112-11001199)
-    - [1.13. 1200～1299](#113-12001299)
-    - [1.14. 1300～1399](#114-13001399)
-    - [1.15. 1400～1499](#115-14001499)
-    - [1.16. 1500～1599](#116-15001599)
-    - [1.17. 1600～1699](#117-16001699)
-    - [1.18. 1700～1799](#118-17001799)
-    - [1.19. 1800～1899](#119-18001899)
-    - [1.20. 1900～1999](#120-19001999)
-    - [1.21. 2000～2099](#121-20002099)
-    - [1.22. 2100～2199](#122-21002199)
-    - [1.23. 2200～2299](#123-22002299)
-    - [1.24. 2300～2399](#124-23002399)
-    - [1.25. 2400～2499](#125-24002499)
-    - [1.26. 2500～2599](#126-25002599)
-    - [1.27. 2600～2699](#127-26002699)
-    - [1.28. 2700～2799](#128-27002799)
-    - [1.29. 2800～2899](#129-28002899)
-    - [1.30. 2900～2999](#130-29002999)
-    - [1.31. 3000～3099](#131-30003099)
-    - [1.32. 3100～3199](#132-31003199)
-    - [1.33. 3200～3299](#133-32003299)
-    - [1.34. 3300～3399](#134-33003399)
-    - [1.35. 3400～3499](#135-34003499)
   - [2. 其他](#2-其他)
     - [2.1. 一键提取题目内容为 markdown 的油猴脚本](#21-一键提取题目内容为-markdown-的油猴脚本)
     - [2.2. GitHub 技术社区 Doocs 开源项目 leetcode](#22-github-技术社区-doocs-开源项目-leetcode)
@@ -45,9 +10,8 @@
 
 ## 1. 🎯 题目列表
 
-### 1.1. 0000～0099
 
-- [ ] [0001. 两数之和【简单】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0001.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) <!-- [locale](./notes/0001.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->  
+- [x] [0001. 两数之和【简单】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0001.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) <!-- [locale](./notes/0001.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->  
   - [1. 📝 Description](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0001.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#1--description)
   - [2. 💻 题解.1 - 双指针暴力求解](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0001.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#2--题解1---双指针暴力求解)
   - [3. 💻 题解.2 - 静态哈希表](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0001.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#3--题解2---静态哈希表)
@@ -286,8 +250,6 @@
   
   
 
-### 1.2. 0100～0199
-
 - [ ] [0105. 从前序与中序遍历序列构造二叉树【中等】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0105.%20%E4%BB%8E%E5%89%8D%E5%BA%8F%E4%B8%8E%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) <!-- [locale](./notes/0105.%20%E4%BB%8E%E5%89%8D%E5%BA%8F%E4%B8%8E%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) -->  
   - [1. 📝 Description](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0105.%20%E4%BB%8E%E5%89%8D%E5%BA%8F%E4%B8%8E%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#1--description)
   - [2. 💻 题解.1](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0105.%20%E4%BB%8E%E5%89%8D%E5%BA%8F%E4%B8%8E%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#2--题解1)
@@ -412,8 +374,6 @@
     - 本题的解题思路有很多，很多思路可能没问题，但是在 leetcode 提交后会提示超时。
   
 
-### 1.3. 0200～0299
-
 - [ ] [0203. 移除链表元素【简单】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0203.%20%E7%A7%BB%E9%99%A4%E9%93%BE%E8%A1%A8%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) <!-- [locale](./notes/0203.%20%E7%A7%BB%E9%99%A4%E9%93%BE%E8%A1%A8%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->  
   - [1. 📝 Description](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0203.%20%E7%A7%BB%E9%99%A4%E9%93%BE%E8%A1%A8%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#1--description)
   - [2. 💻 题解.1 - 遍历](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0203.%20%E7%A7%BB%E9%99%A4%E9%93%BE%E8%A1%A8%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#2--题解1---遍历)
@@ -466,8 +426,6 @@
   
   
 
-### 1.4. 0300～0399
-
 - [ ] [0344. 反转字符串【简单】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0344.%20%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) <!-- [locale](./notes/0344.%20%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->  
   - [1. 📝 Description](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0344.%20%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#1--description)
   - [2. 💻 题解.1 - 暴力解法 - 直接调用原生 API](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0344.%20%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#2--题解1---暴力解法---直接调用原生-api)
@@ -478,8 +436,6 @@
   - https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse
     - mdn - `Array.prototype.reverse()`
   
-
-### 1.5. 0400～0499
 
 - [ ] [0485. 最大连续 1 的个数【简单】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0485.%20%E6%9C%80%E5%A4%A7%E8%BF%9E%E7%BB%AD%201%20%E7%9A%84%E4%B8%AA%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) <!-- [locale](./notes/0485.%20%E6%9C%80%E5%A4%A7%E8%BF%9E%E7%BB%AD%201%20%E7%9A%84%E4%B8%AA%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->  
   - [1. 📝 Description](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0485.%20%E6%9C%80%E5%A4%A7%E8%BF%9E%E7%BB%AD%201%20%E7%9A%84%E4%B8%AA%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#1--description)
@@ -497,8 +453,6 @@
   - [leetcode](https://leetcode.cn/problems/next-greater-element-i/)
   
   
-
-### 1.6. 0500～0599
 
 - [ ] [0509. 斐波那契数【简单】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0509.%20%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) <!-- [locale](./notes/0509.%20%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->  
   - [1. 📝 Description](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0509.%20%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#1--description)
@@ -521,8 +475,6 @@
   - [leetcode](https://leetcode.cn/problems/reverse-words-in-a-string-iii/)
   
   
-
-### 1.7. 0600～0699
 
 - [ ] [0617. 合并二叉树【简单】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0617.%20%E5%90%88%E5%B9%B6%E4%BA%8C%E5%8F%89%E6%A0%91%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) <!-- [locale](./notes/0617.%20%E5%90%88%E5%B9%B6%E4%BA%8C%E5%8F%89%E6%A0%91%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->  
   - [1. 📝 Description](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0617.%20%E5%90%88%E5%B9%B6%E4%BA%8C%E5%8F%89%E6%A0%91%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#1--description)
@@ -568,8 +520,6 @@
   
   
 
-### 1.8. 0700～0799
-
 - [ ] [0704. 二分查找【简单】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0704.%20%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) <!-- [locale](./notes/0704.%20%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->  
   - [1. 📝 Description](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0704.%20%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#1--description)
   - [2. 💻 题解.1 - 暴力解法](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0704.%20%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#2--题解1---暴力解法)
@@ -592,8 +542,6 @@
   
   
 
-### 1.9. 0800～0899
-
 - [ ] [0876. 链表的中间结点【简单】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0876.%20%E9%93%BE%E8%A1%A8%E7%9A%84%E4%B8%AD%E9%97%B4%E7%BB%93%E7%82%B9%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) <!-- [locale](./notes/0876.%20%E9%93%BE%E8%A1%A8%E7%9A%84%E4%B8%AD%E9%97%B4%E7%BB%93%E7%82%B9%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->  
   - [1. 📝 Description](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0876.%20%E9%93%BE%E8%A1%A8%E7%9A%84%E4%B8%AD%E9%97%B4%E7%BB%93%E7%82%B9%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#1--description)
   - [2. 💻 题解.1 - 暴力解法 - 先找长度，再找中间](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0876.%20%E9%93%BE%E8%A1%A8%E7%9A%84%E4%B8%AD%E9%97%B4%E7%BB%93%E7%82%B9%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#2--题解1---暴力解法---先找长度再找中间)
@@ -610,8 +558,6 @@
   - [leetcode](https://leetcode.cn/problems/boats-to-save-people)
   
   
-
-### 1.10. 0900～0999
 
 - [ ] [0912. 排序数组【中等】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0912.%20%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) <!-- [locale](./notes/0912.%20%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) -->  
   - [1. 🔗 links](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0912.%20%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#1--links)
@@ -644,31 +590,12 @@
   
   
 
-### 1.11. 1000～1099
-
-
-### 1.12. 1100～1199
-
-
-### 1.13. 1200～1299
-
-
-### 1.14. 1300～1399
-
-
-### 1.15. 1400～1499
-
 - [ ] [1456. 定长子串中元音的最大数目【中等】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/1456.%20%E5%AE%9A%E9%95%BF%E5%AD%90%E4%B8%B2%E4%B8%AD%E5%85%83%E9%9F%B3%E7%9A%84%E6%9C%80%E5%A4%A7%E6%95%B0%E7%9B%AE%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) <!-- [locale](./notes/1456.%20%E5%AE%9A%E9%95%BF%E5%AD%90%E4%B8%B2%E4%B8%AD%E5%85%83%E9%9F%B3%E7%9A%84%E6%9C%80%E5%A4%A7%E6%95%B0%E7%9B%AE%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) -->  
   - [1. 📝 Description](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/1456.%20%E5%AE%9A%E9%95%BF%E5%AD%90%E4%B8%B2%E4%B8%AD%E5%85%83%E9%9F%B3%E7%9A%84%E6%9C%80%E5%A4%A7%E6%95%B0%E7%9B%AE%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#1--description)
   - [2. 💻 题解.1](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/1456.%20%E5%AE%9A%E9%95%BF%E5%AD%90%E4%B8%B2%E4%B8%AD%E5%85%83%E9%9F%B3%E7%9A%84%E6%9C%80%E5%A4%A7%E6%95%B0%E7%9B%AE%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#2--题解1)
   - [leetcode](https://leetcode.cn/problems/maximum-number-of-vowels-in-a-substring-of-given-length)
   
   
-
-### 1.16. 1500～1599
-
-
-### 1.17. 1600～1699
 
 - [ ] [1695. 删除子数组的最大得分【中等】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/1695.%20%E5%88%A0%E9%99%A4%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%BE%97%E5%88%86%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) <!-- [locale](./notes/1695.%20%E5%88%A0%E9%99%A4%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%BE%97%E5%88%86%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) -->  
   - [1. 📝 Description](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/1695.%20%E5%88%A0%E9%99%A4%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%A4%A7%E5%BE%97%E5%88%86%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#1--description)
@@ -678,40 +605,12 @@
   
   
 
-### 1.18. 1700～1799
-
-
-### 1.19. 1800～1899
-
-
-### 1.20. 1900～1999
-
-
-### 1.21. 2000～2099
-
-
-### 1.22. 2100～2199
-
-
-### 1.23. 2200～2299
-
-
-### 1.24. 2300～2399
-
-
-### 1.25. 2400～2499
-
 - [ ] [2414. 最长的字母序连续子字符串的长度【中等】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/2414.%20%E6%9C%80%E9%95%BF%E7%9A%84%E5%AD%97%E6%AF%8D%E5%BA%8F%E8%BF%9E%E7%BB%AD%E5%AD%90%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E9%95%BF%E5%BA%A6%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) <!-- [locale](./notes/2414.%20%E6%9C%80%E9%95%BF%E7%9A%84%E5%AD%97%E6%AF%8D%E5%BA%8F%E8%BF%9E%E7%BB%AD%E5%AD%90%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E9%95%BF%E5%BA%A6%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) -->  
   - [1. 📝 Description](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/2414.%20%E6%9C%80%E9%95%BF%E7%9A%84%E5%AD%97%E6%AF%8D%E5%BA%8F%E8%BF%9E%E7%BB%AD%E5%AD%90%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E9%95%BF%E5%BA%A6%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#1--description)
   - [2. 💻 题解.1](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/2414.%20%E6%9C%80%E9%95%BF%E7%9A%84%E5%AD%97%E6%AF%8D%E5%BA%8F%E8%BF%9E%E7%BB%AD%E5%AD%90%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E9%95%BF%E5%BA%A6%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#2--题解1)
   - [leetcode](https://leetcode.cn/problems/length-of-the-longest-alphabetical-continuous-substring)
   
   
-
-### 1.26. 2500～2599
-
-
-### 1.27. 2600～2699
 
 - [ ] [2618. 检查是否是类的对象实例【中等】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/2618.%20%E6%A3%80%E6%9F%A5%E6%98%AF%E5%90%A6%E6%98%AF%E7%B1%BB%E7%9A%84%E5%AF%B9%E8%B1%A1%E5%AE%9E%E4%BE%8B%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) <!-- [locale](./notes/2618.%20%E6%A3%80%E6%9F%A5%E6%98%AF%E5%90%A6%E6%98%AF%E7%B1%BB%E7%9A%84%E5%AF%B9%E8%B1%A1%E5%AE%9E%E4%BE%8B%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) -->  
   - [1. 🔗 links](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/2618.%20%E6%A3%80%E6%9F%A5%E6%98%AF%E5%90%A6%E6%98%AF%E7%B1%BB%E7%9A%84%E5%AF%B9%E8%B1%A1%E5%AE%9E%E4%BE%8B%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#1--links)
@@ -993,8 +892,6 @@
   - 只要我们的函数在调用的时候，加上了 new 关键字的话，那么被注释掉的两条语句，相当于是自动执行，是不可见的行为。（这两条语句的内部实际实现应该不是这么简单地写，不过在做题时，我们可以先简单地这么理解。）
   
 
-### 1.28. 2700～2799
-
 - [ ] [2700. 两个对象之间的差异（Plus）【中等】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/2700.%20%E4%B8%A4%E4%B8%AA%E5%AF%B9%E8%B1%A1%E4%B9%8B%E9%97%B4%E7%9A%84%E5%B7%AE%E5%BC%82%EF%BC%88Plus%EF%BC%89%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) <!-- [locale](./notes/2700.%20%E4%B8%A4%E4%B8%AA%E5%AF%B9%E8%B1%A1%E4%B9%8B%E9%97%B4%E7%9A%84%E5%B7%AE%E5%BC%82%EF%BC%88Plus%EF%BC%89%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md) -->  
   - [1. 📝 Description](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/2700.%20%E4%B8%A4%E4%B8%AA%E5%AF%B9%E8%B1%A1%E4%B9%8B%E9%97%B4%E7%9A%84%E5%B7%AE%E5%BC%82%EF%BC%88Plus%EF%BC%89%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#1--description)
   - [2. 💻 题解.1](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/2700.%20%E4%B8%A4%E4%B8%AA%E5%AF%B9%E8%B1%A1%E4%B9%8B%E9%97%B4%E7%9A%84%E5%B7%AE%E5%BC%82%EF%BC%88Plus%EF%BC%89%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#2--题解1)
@@ -1164,8 +1061,6 @@
   
   
 
-### 1.29. 2800～2899
-
 - [ ] [2803. 阶乘生成器（Plus）【简单】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/2803.%20%E9%98%B6%E4%B9%98%E7%94%9F%E6%88%90%E5%99%A8%EF%BC%88Plus%EF%BC%89%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) <!-- [locale](./notes/2803.%20%E9%98%B6%E4%B9%98%E7%94%9F%E6%88%90%E5%99%A8%EF%BC%88Plus%EF%BC%89%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md) -->  
   - [1. 📝 Description](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/2803.%20%E9%98%B6%E4%B9%98%E7%94%9F%E6%88%90%E5%99%A8%EF%BC%88Plus%EF%BC%89%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#1--description)
   - [2. 💻 题解.1](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/2803.%20%E9%98%B6%E4%B9%98%E7%94%9F%E6%88%90%E5%99%A8%EF%BC%88Plus%EF%BC%89%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md#2--题解1)
@@ -1218,30 +1113,6 @@
   - [leetcode](https://leetcode.cn/problems/deep-object-filter)
   
   
-
-### 1.30. 2900～2999
-
-
-
-### 1.31. 3000～3099
-
-
-
-### 1.32. 3100～3199
-
-
-
-### 1.33. 3200～3299
-
-
-
-### 1.34. 3300～3399
-
-
-
-### 1.35. 3400～3499
-
-
 
 ## 2. 其他
 
