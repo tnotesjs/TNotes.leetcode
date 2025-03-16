@@ -64,7 +64,7 @@ export const REPO_NOTES_URL = `https://github.com/${author}/${repoName}/tree/mai
  * @example
  * https://github.com/Tdahuyou/TNotes.html-css-js/blob/main/notes/0000/%E5%B0%81%E9%9D%A2/JavaScript.png?raw=true
  */
-export const REPO_BLOB_URL_1 = `https://github.com/${author}/${repoName}/blob/main/notes/`
+export const REPO_BLOB_URL_1 = `https://github.com/${author}/${repoName}/blob/main/notes`
 export const REPO_BLOB_URL_2 = `?raw=true`
 
 export const GITHUB_PAGE_URL = `https://tdahuyou.github.io/${repoName}`

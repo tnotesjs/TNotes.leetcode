@@ -276,9 +276,7 @@ class ReadmeUpdater {
             const suffix = isImage ? "]" : "]";
             const baseUrl = isImage ? this.repoBlobUrl1 : this.repoNotesUrl;
             const baseUrl_end = isImage ? this.repoBlobUrl2 : "";
-            return `${prefix}${p1}${suffix}(${baseUrl}/${encodeURIComponent(
-              notesDirName
-            )}/${encodeURIComponent(p2)}${baseUrl_end})`;
+            return `${prefix}${p1}${suffix}(${baseUrl}/${encodeURIComponent(notesDirName)}/${p2}${baseUrl_end})`;
           }
         })
       })
