@@ -59,12 +59,13 @@ export const NOTES_TOC_END_TAG = '<!-- endregion:toc -->'
 export const REPO_URL = `https://github.com/${author}/${repoName}/tree/main`
 export const REPO_NOTES_URL = `https://github.com/${author}/${repoName}/tree/main/notes`
 
-// !Deprecated
-// export const REPO_BOLB_URL = `https://raw.githubusercontent.com/${author}/${repoName}/main`
-// 原先主要为了渲染存储在 github 上的图片资源。在 2025 年 3 月 14 日 22:28:06 测试发现 github 给图片添加了 token，现在已经没法直接将图片资源通过上述这种方式做成站外访问的形式了。
-// 在 github 上预览图片，然后右键图片，在新窗口中打开，观察 URL 的变化
-// https://github.com/Tdahuyou/TNotes.0/blob/main/notes/0004.%20electron--%E6%B8%A1%E4%B8%80--%E8%B0%A2%E6%9D%B0/assets/2024-11-26-22-21-40.png
-// https://raw.githubusercontent.com/Tdahuyou/TNotes.0/refs/heads/main/notes/0004.%20electron--%E6%B8%A1%E4%B8%80--%E8%B0%A2%E6%9D%B0/assets/2024-11-26-22-21-40.png?token=GHSAT0AAAAAACXSBQ2Y3CVQKZYVNU4CUI5IZ6UHSMA
+/**
+ * 处理图片资源路径
+ * @example
+ * https://github.com/Tdahuyou/TNotes.html-css-js/blob/main/notes/0000/%E5%B0%81%E9%9D%A2/JavaScript.png?raw=true
+ */
+export const REPO_BLOB_URL_1 = `https://github.com/${author}/${repoName}/blob/main/notes/`
+export const REPO_BLOB_URL_2 = `?raw=true`
 
 export const GITHUB_PAGE_URL = `https://tdahuyou.github.io/${repoName}`
 export const GITHUB_PAGE_NOTES_URL = `https://tdahuyou.github.io/${repoName}/notes`

@@ -1,9 +1,6 @@
 /**
- * - 更新 home README 目录
- * - 更新 note README 目录
- * - 目录编号自动更新
- * - 读取笔记头部信息，更新 home README
- * - 自动将 notes 推送到 TNotes 中
+ * - 更新 notes README 笔记内容 - 自动生成标题编号、更新目录。
+ * - 读取笔记头部信息，更新 home README，动态生成目录。
  */
 import fs from 'fs';
 import path from 'path';
@@ -22,7 +19,8 @@ import {
   NOTES_DIR,
   NOTES_TOC_END_TAG,
   NOTES_TOC_START_TAG,
-  // REPO_BOLB_URL,
+  REPO_BLOB_URL_1,
+  REPO_BLOB_URL_2,
   REPO_NOTES_URL,
   repoName,
   ROOT_README_PATH,
@@ -42,7 +40,8 @@ class ReadmeUpdater {
     this.githubPageNotesUrl = GITHUB_PAGE_NOTES_URL
     this.newNotesReadmeMdTemplate = NEW_NOTES_README_MD_TEMPLATE
     this.notesDir = NOTES_DIR
-    // this.repoBolbUrl = REPO_BOLB_URL
+    this.repoBlobUrl1 = REPO_BLOB_URL_1
+    this.repoBlobUrl2 = REPO_BLOB_URL_2
     this.repoNotesUrl = REPO_NOTES_URL
     this.rootReadmePath = ROOT_README_PATH
     this.tocEndTag = NOTES_TOC_END_TAG
@@ -272,19 +271,14 @@ class ReadmeUpdater {
             )}/README.md${p2})`
           } else {
             // 图片引用或者是其它静态资源（比如 pdf）
-            const prefix = '['
-            const suffix = ']'
-            const baseUrl = this.repoNotesUrl
+            const isImage = match.startsWith("![");
+            const prefix = isImage ? "![" : "[";
+            const suffix = isImage ? "]" : "]";
+            const baseUrl = isImage ? this.repoBlobUrl1 : this.repoNotesUrl;
+            const baseUrl_end = isImage ? this.repoBlobUrl2 : "";
             return `${prefix}${p1}${suffix}(${baseUrl}/${encodeURIComponent(
               notesDirName
-            )}/${encodeURIComponent(p2)})`
-            // const isImage = match.startsWith("![");
-            // const prefix = isImage ? "![" : "[";
-            // const suffix = isImage ? "]" : "]";
-            // const baseUrl = isImage ? this.repoBolbUrl : this.repoNotesUrl;
-            // return `${prefix}${p1}${suffix}(${baseUrl}/${encodeURIComponent(
-            //   notesDirName
-            // )}/${encodeURIComponent(p2)})`;
+            )}/${encodeURIComponent(p2)}${baseUrl_end})`;
           }
         })
       })
