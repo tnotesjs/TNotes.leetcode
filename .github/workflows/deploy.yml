@@ -46,6 +46,8 @@ jobs:
         uses: actions/configure-pages@v4
       - name: Install dependencies
         run: npm ci # npm ci 或 pnpm install / yarn install / bun install
+      - name: Gen Toc
+        run: npm run tn:update
       - name: Build with VitePress
         run: npm run tn:build
       - name: Upload artifact
