@@ -26,6 +26,18 @@ export const BILIBILI_VIDEO_BASE_URL = "https://www.bilibili.com/video/"
 
 export const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
+/**
+ * TNotes.* 笔记仓库的基路径
+ * @example
+ * `/Users/huyouda/zm/notes/` 【在此目录下存放其它 TNotes.* 笔记仓库】
+ */
+export const TNOTES_BASE_DIR = path.resolve(__dirname, '..', '..', '..') 
+
+/**
+ * TNotes.* 当前的笔记仓库根路径
+ * @example
+ * `/Users/huyouda/zm/notes/TNotes.template/`
+ */
 export const ROOT_DIR = path.resolve(__dirname, '..', '..')
 export const ROOT_README_PATH = path.resolve(ROOT_DIR, 'README.md')
 export const NOTES_DIR = path.resolve(ROOT_DIR, 'notes')

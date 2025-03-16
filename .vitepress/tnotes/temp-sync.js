@@ -1,59 +1,19 @@
 // .vitepress/tnotes/template-sync.js
 import fs from 'fs'
 import path from 'path'
+import { deleteDirectory, copyFile, getTargetDirs } from './utils/index.js'
 import {
+  TNOTES_BASE_DIR,
+  ROOT_DIR,
   VP_DIR_PATH,
   ROOT_PKG_PATH,
   GITHUB_DEPLOYYML_PATH,
 } from './constants.js'
 
+/**
+ * .vitepress 目录下需要同步的目录/文件列表
+ */
 const VP_SYNC_LIST = ['components', 'theme', 'tnotes', 'config.mts']
-
-/**
- * 获取父目录路径
- * @param {string} dir - 当前目录路径
- * @returns {string} 父目录路径
- */
-const getParentDir = (dir) => {
-  return path.dirname(dir)
-}
-
-/**
- * 获取目标目录列表（排除当前模块所在目录）
- * @param {string} baseDir - 基础目录路径
- * @param {string} excludeDir - 需要排除的目录路径
- * @returns {string[]} 符合条件的目标目录列表
- */
-const getTargetDirs = (baseDir, excludeDir) => {
-  try {
-    const entries = fs.readdirSync(baseDir, { withFileTypes: true })
-    const targetDirs = entries
-      .filter(
-        (entry) => entry.isDirectory() && entry.name.startsWith('TNotes.')
-      )
-      .map((entry) => path.join(baseDir, entry.name))
-      .filter((dir) => dir !== excludeDir)
-    return targetDirs
-  } catch (error) {
-    console.error(`读取目录 ${baseDir} 时出错：${error.message}`)
-    return []
-  }
-}
-
-/**
- * 删除整个目录
- * @param {string} dir - 要删除的目录路径
- */
-const deleteDirectory = (dir) => {
-  try {
-    if (fs.existsSync(dir)) {
-      fs.rmSync(dir, { recursive: true })
-      console.log(`✅ 已删除目录：${dir}`)
-    }
-  } catch (error) {
-    console.error(`❌ 删除目录失败：${dir}: ${error.message}`)
-  }
-}
 
 /**
  * 复制白名单中的文件或目录
@@ -92,32 +52,12 @@ const copyWhitelistedFiles = (source, target) => {
 }
 
 /**
- * 复制文件
- * @param {string} sourceFilePath - 源文件路径
- * @param {string} targetFilePath - 目标文件路径
- */
-const copyFile = (sourceFilePath, targetFilePath) => {
-  try {
-    if (fs.existsSync(sourceFilePath)) {
-      fs.copyFileSync(sourceFilePath, targetFilePath)
-      console.log(`✅ 已复制 ${sourceFilePath} 到 ${targetFilePath}`)
-    } else {
-      console.warn(`⚠️ 源路径中不存在：${sourceFilePath}`)
-    }
-  } catch (error) {
-    console.error(`❌ 复制 ${sourceFilePath} 失败：${error.message}`)
-  }
-}
-
-/**
  * 实现模板同步功能
  */
 export async function tempSync() {
   try {
     // 获取基础目录和当前模块所在的目录
-    const baseDir = getParentDir(getParentDir(VP_DIR_PATH)) // /Users/huyouda/zm/notes/
-    const currentModuleDir = getParentDir(VP_DIR_PATH) // 当前模块所在目录，例如 /Users/huyouda/zm/notes/TNotes.template/.vitepress
-    const targetDirs = getTargetDirs(baseDir, currentModuleDir)
+    const targetDirs = getTargetDirs(TNOTES_BASE_DIR, 'TNotes.', [ROOT_DIR])
 
     if (targetDirs.length === 0) {
       console.log('未找到符合条件的目标目录')

@@ -8,8 +8,11 @@
     "tn:merge": "       node ./.vitepress/tnotes --merge",
     "tn:new": "         node ./.vitepress/tnotes --new",
     "tn:pull": "        node ./.vitepress/tnotes --pull",
+    "tn:pullAll": "     node ./.vitepress/tnotes --pullAll",
     "tn:push": "        node ./.vitepress/tnotes --push",
+    "tn:pushAll": "     node ./.vitepress/tnotes --pushAll",
     "tn:sync": "        node ./.vitepress/tnotes --sync",
+    "tn:syncAll": "     node ./.vitepress/tnotes --sync",
     "tn:update": "      node ./.vitepress/tnotes --update",
     "tn:tempSync": "    node ./.vitepress/tnotes --tempSync"
   },

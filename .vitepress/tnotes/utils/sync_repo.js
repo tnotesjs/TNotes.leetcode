@@ -1,5 +1,6 @@
 import { runCommand } from './run_command.js'
-import { ROOT_DIR } from '../constants.js'
+import { TNOTES_BASE_DIR, ROOT_DIR } from '../constants.js'
+import { getTargetDirs } from './get_target_dirs.js'
 
 /**
  * 确保目录是一个有效的 Git 仓库
@@ -88,7 +89,9 @@ export async function pushRepo(dir = ROOT_DIR) {
       `✅ 笔记同步完成 ${remoteMatch ? remoteMatch[0] : '（无法解析远程 URL）'}`
     )
   } catch (error) {
-    console.error(`推送 ${dir} 时出错：${error.message}\n请检查网络环境，可尝试手动执行 git push 推送`)
+    console.error(
+      `推送 ${dir} 时出错：${error.message}\n请检查网络环境，可尝试手动执行 git push 推送`
+    )
   }
 }
 
@@ -103,5 +106,56 @@ export async function syncRepo(dir = ROOT_DIR) {
     await pushRepo(dir)
   } catch (error) {
     console.error(`同步 ${dir} 时出错：${error.message}`)
+  }
+}
+
+/**
+ * 在所有 TNotes.* 中执行 npm run tn:push 命令
+ */
+export async function pushAllRepos() {
+  const targetDirs = getTargetDirs(TNOTES_BASE_DIR, 'TNotes.')
+  console.log('开始推送所有仓库...')
+  for (const dir of targetDirs) {
+    try {
+      console.log(`正在推送 ${dir}...`)
+      await runCommand('npm run tn:push', dir)
+      console.log(`✅ 完成推送 ${dir}`)
+    } catch (error) {
+      console.error(`推送 ${dir} 时出错：${error.message}`)
+    }
+  }
+}
+
+/**
+ * 在所有 TNotes.* 中执行 npm run tn:pull 命令
+ */
+export async function pullAllRepos() {
+  const targetDirs = getTargetDirs(TNOTES_BASE_DIR, 'TNotes.')
+  console.log('开始拉取所有仓库...')
+  for (const dir of targetDirs) {
+    try {
+      console.log(`正在拉取 ${dir}...`)
+      await runCommand('npm run tn:pull', dir)
+      console.log(`✅ 完成拉取 ${dir}`)
+    } catch (error) {
+      console.error(`拉取 ${dir} 时出错：${error.message}`)
+    }
+  }
+}
+
+/**
+ * 在所有 TNotes.* 中执行 npm run tn:sync 命令
+ */
+export async function syncAllRepos() {
+  const targetDirs = getTargetDirs(TNOTES_BASE_DIR, 'TNotes.')
+  console.log('开始同步所有仓库...')
+  for (const dir of targetDirs) {
+    try {
+      console.log(`正在同步 ${dir}...`)
+      await runCommand('npm run tn:sync', dir)
+      console.log(`✅ 完成同步 ${dir}`)
+    } catch (error) {
+      console.error(`同步 ${dir} 时出错：${error.message}`)
+    }
   }
 }
