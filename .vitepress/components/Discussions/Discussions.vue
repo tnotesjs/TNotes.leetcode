@@ -26,8 +26,15 @@ const GISCUS_LIGHT_THEME = 'noborder_light';
 // 获取 VitePress 的数据 - 主题状态
 const { isDark } = useData();
 
-onMounted(() => {
-  // 动态注入 giscus 评论脚本
+// 动态注入 giscus 评论脚本
+const loadGiscusScript = () => {
+  // 清除旧的 giscus 脚本和 iframe
+  const oldScript = document.getElementById('giscus-script');
+  const oldIframe = document.querySelector('iframe.giscus-frame');
+  if (oldScript) oldScript.remove();
+  if (oldIframe) oldIframe.remove();
+
+  // 创建新的 giscus 脚本
   const giscusScript = document.createElement('script');
   giscusScript.src = "https://giscus.app/client.js";
   giscusScript.setAttribute('data-repo', 'Tdahuyou/TNotes.discussions');
@@ -42,33 +49,37 @@ onMounted(() => {
   giscusScript.setAttribute('data-input-position', 'top');
   giscusScript.setAttribute('data-lang', 'zh-CN');
   giscusScript.setAttribute('data-loading', 'lazy');
+  giscusScript.setAttribute('data-theme', isDark.value ? GISCUS_DARK_THEME : GISCUS_LIGHT_THEME);
   giscusScript.setAttribute('crossorigin', 'anonymous');
   giscusScript.async = true;
+  giscusScript.id = 'giscus-script';
 
-  // 设置初始主题
-  giscusScript.setAttribute('data-theme', isDark.value ? GISCUS_DARK_THEME : GISCUS_LIGHT_THEME);
+  document.getElementById('giscus-comments')?.appendChild(giscusScript);
+};
 
-  // 确保脚本仅注入一次
-  if (!document.getElementById('giscus-script')) {
-    giscusScript.id = 'giscus-script';
-    document.getElementById('giscus-comments')?.appendChild(giscusScript);
-  }
+onMounted(() => {
+  loadGiscusScript();
+});
 
-  watch(isDark, (newVal) => {
-    const iframe = document.querySelector<HTMLIFrameElement>('iframe.giscus-frame');
-    if (iframe) {
-      iframe.contentWindow?.postMessage(
-        {
-          giscus: {
-            setConfig: {
-              theme: newVal ? GISCUS_DARK_THEME : GISCUS_LIGHT_THEME,
-            }
+watch([() => props.id], ([newId]) => {
+  loadGiscusScript();
+});
+
+// 切换主题的时候，动态修改 giscus 评论主题，不需要重新 loadGiscusScript。
+watch(isDark, (newVal) => {
+  const iframe = document.querySelector<HTMLIFrameElement>('iframe.giscus-frame');
+  if (iframe) {
+    iframe.contentWindow?.postMessage(
+      {
+        giscus: {
+          setConfig: {
+            theme: newVal ? GISCUS_DARK_THEME : GISCUS_LIGHT_THEME,
           }
-        },
-        'https://giscus.app'
-      );
-    }
-  });
+        }
+      },
+      'https://giscus.app'
+    );
+  }
 });
 </script>
 

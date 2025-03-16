@@ -26,27 +26,31 @@ function newNotes() {
 
   // 计算新笔记的 ID
   let nextNoteId = null
-  for (let i = 0; i < noteIdList.length; i++) {
-    const currentId = parseInt(noteIdList[i], 10)
-    if (i === 0 && currentId !== 1) {
-      nextNoteId = '0001'
-      break
-    }
-    if (i > 0) {
-      const previousId = parseInt(noteIdList[i - 1], 10)
-      if (currentId - previousId > 1) {
-        nextNoteId = String(previousId + 1).padStart(4, '0')
+  if (noteIdList.length > 0) {
+    for (let i = 0; i < noteIdList.length; i++) {
+      const currentId = parseInt(noteIdList[i], 10)
+      if (i === 0 && currentId !== 1) {
+        nextNoteId = '0001'
         break
       }
+      if (i > 0) {
+        const previousId = parseInt(noteIdList[i - 1], 10)
+        if (currentId - previousId > 1) {
+          nextNoteId = String(previousId + 1).padStart(4, '0')
+          break
+        }
+      }
     }
+  
+    // 如果没有中断处，则在最大编号后创建新笔记
+    if (!nextNoteId) {
+      const maxId = parseInt(noteIdList[noteIdList.length - 1], 10)
+      nextNoteId = String(maxId + 1).padStart(4, '0')
+    }
+  } else {
+    nextNoteId = '0001'
   }
-
-  // 如果没有中断处，则在最大编号后创建新笔记
-  if (!nextNoteId) {
-    const maxId = parseInt(noteIdList[noteIdList.length - 1], 10)
-    nextNoteId = String(maxId + 1).padStart(4, '0')
-  }
-
+  
   // 新笔记初始化
   const newNoteDirName = `${nextNoteId}. new`
   const newNoteDirPath = path.join(NOTES_DIR, newNoteDirName)
