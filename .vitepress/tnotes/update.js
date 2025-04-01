@@ -2,10 +2,10 @@
  * - 更新 notes README 笔记内容 - 自动生成标题编号、更新目录。
  * - 读取笔记头部信息，更新 home README，动态生成目录。
  */
-import fs from 'fs';
-import path from 'path';
+import fs from 'fs'
+import path from 'path'
 
-import GithubSlugger from 'github-slugger'; // doc: https://www.npmjs.com/package/github-slugger
+import GithubSlugger from 'github-slugger' // doc: https://www.npmjs.com/package/github-slugger
 import {
   __dirname,
   author,
@@ -28,11 +28,11 @@ import {
   VP_TOC_PATH,
   VP_SIDEBAR_PATH,
   sidebar_isNotesIDVisible,
-  sidebar_isCollapsed
+  sidebar_isCollapsed,
 } from './constants.js'
 import { genHierarchicalSidebar } from './utils/index.js'
 
-const slugger = new GithubSlugger();
+const slugger = new GithubSlugger()
 
 class ReadmeUpdater {
   constructor() {
@@ -271,12 +271,14 @@ class ReadmeUpdater {
             )}/README.md${p2})`
           } else {
             // 图片引用或者是其它静态资源（比如 pdf）
-            const isImage = match.startsWith("![");
-            const prefix = isImage ? "![" : "[";
-            const suffix = isImage ? "]" : "]";
-            const baseUrl = isImage ? this.repoBlobUrl1 : this.repoNotesUrl;
-            const baseUrl_end = isImage ? this.repoBlobUrl2 : "";
-            return `${prefix}${p1}${suffix}(${baseUrl}/${encodeURIComponent(notesDirName)}/${p2}${baseUrl_end})`;
+            const isImage = match.startsWith('![')
+            const prefix = isImage ? '![' : '['
+            const suffix = isImage ? ']' : ']'
+            const baseUrl = isImage ? this.repoBlobUrl1 : this.repoNotesUrl
+            const baseUrl_end = isImage ? this.repoBlobUrl2 : ''
+            return `${prefix}${p1}${suffix}(${baseUrl}/${encodeURIComponent(
+              notesDirName
+            )}/${p2}${baseUrl_end})`
           }
         })
       })
@@ -286,7 +288,9 @@ class ReadmeUpdater {
       // 删除 toc startTag 和 endTag
       topInfoLines = topInfoLines.filter(
         (line) =>
-          !line.includes(this.tocStartTag) && !line.includes(this.tocEndTag)
+          !line.includes(this.tocStartTag) &&
+          !line.includes(this.tocEndTag) &&
+          line.trim() !== ''
       )
       // console.log('topInfoLines:', topInfoLines);
 
@@ -297,7 +301,7 @@ class ReadmeUpdater {
         notesDirName
       )}/README.md) <!-- [locale](./notes/${encodeURIComponent(
         notesDirName
-      )}/README.md) -->${topInfoLines.join(this.EOL)}${this.EOL}`
+      )}/README.md) -->${this.EOL}${topInfoLines.join(this.EOL)}`
     }
   }
 
@@ -340,6 +344,7 @@ class ReadmeUpdater {
    * 根据 this.notesInfo.topInfoMap 重置首页目录。
    */
   setHomeTopInfos() {
+    console.log('this.homeReadme.lines', this.homeReadme.lines)
     // console.log('this.notes.map:', this.notes.map);
     this.homeReadme.lines.forEach((line, index) => {
       const match = line.match(this.homeReadme.noteTitleReg)
@@ -364,6 +369,7 @@ class ReadmeUpdater {
         }
       }
     })
+    console.log('this.notesInfo.topInfoMap', this.notesInfo.topInfoMap)
   }
 
   /**
@@ -444,7 +450,7 @@ class ReadmeUpdater {
     }
 
     const toc = generateToc(titles, this.EOL)
-    // console.log('toc =>', toc);
+    // console.log('toc =>', toc)
 
     let bilibiliUrl = ''
     // let BilibiliOutsidePlayerCompStr = '';
@@ -493,8 +499,8 @@ class ReadmeUpdater {
           return ' '.repeat((level - baseLevel) * 2) + `- [${text}](#${anchor})`
         })
         .join(EOL)
-
-      return toc
+      // !添加换行符 - 适配 prettier 格式化
+      return `${EOL}${toc}${EOL}`
     }
 
     function addNumberToTitle(title, titleNumbers) {
@@ -587,7 +593,9 @@ class ReadmeUpdater {
         // console.log('notesDirName', notesDirName)
         if (notesDirName) {
           const done = this.notesInfo.doneIds.has(id) ? true : false
-          const text = this.sidebar_isNotesIDVisible ? notesDirName : notesDirName.replace(/\d\d\d\d. /, '')
+          const text = this.sidebar_isNotesIDVisible
+            ? notesDirName
+            : notesDirName.replace(/\d\d\d\d. /, '')
           itemList.push({
             text: (done ? '✅ ' : '⏰ ') + text,
             link: `/notes/${notesDirName}/README`,
@@ -634,4 +642,4 @@ class ReadmeUpdater {
   }
 }
 
-export default ReadmeUpdater;
+export default ReadmeUpdater
