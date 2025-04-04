@@ -53,6 +53,11 @@ export const GITHUB_DEPLOYYML_PATH = path.resolve(
 export const VP_TOC_PATH = path.resolve(ROOT_DIR, 'TOC.md')
 export const VP_SIDEBAR_PATH = path.resolve(ROOT_DIR, 'sidebar.json')
 export const ROOT_PKG_PATH = path.resolve(ROOT_DIR, 'package.json')
+export const VSCODE_SETTINGS_PATH = path.resolve(
+  ROOT_DIR,
+  '.vscode',
+  'settings.json'
+)
 
 export const EOL = '\n'
 export const MERGED_README_FILENAME = 'MERGED_README.md'

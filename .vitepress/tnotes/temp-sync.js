@@ -8,6 +8,7 @@ import {
   VP_DIR_PATH,
   ROOT_PKG_PATH,
   GITHUB_DEPLOYYML_PATH,
+  VSCODE_SETTINGS_PATH,
 } from './constants.js'
 
 /**
@@ -75,6 +76,13 @@ export async function tempSync() {
 
       // 复制 package.json 文件
       copyFile(ROOT_PKG_PATH, path.resolve(targetDir, 'package.json'))
+
+      // 复制 .vscode/settings.json 文件
+      copyFile(
+        VSCODE_SETTINGS_PATH,
+        path.resolve(targetDir, '.vscode', 'settings.json')
+      )
+
       // 复制 .github/workflows/deploy.yml 文件
       copyFile(
         GITHUB_DEPLOYYML_PATH,
@@ -86,7 +94,7 @@ export async function tempSync() {
 
     console.log('✅ 模板同步完成')
 
-    // 调试信息
+    // debug
     // console.log('VP_DIR_PATH', VP_DIR_PATH)
     // console.log('ROOT_PKG_PATH', ROOT_PKG_PATH)
     // console.log('GITHUB_DEPLOYYML_PATH', GITHUB_DEPLOYYML_PATH)
