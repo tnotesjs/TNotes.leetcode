@@ -9,7 +9,8 @@ const {
   socialLinks,
   menuItems,
   sidebar_isNotesIDVisible,
-  sidebar_isCollapsed
+  sidebar_isCollapsed,
+  port,
 } = getTnotesConfig()
 
 export {
@@ -19,10 +20,11 @@ export {
   socialLinks,
   menuItems,
   sidebar_isNotesIDVisible,
-  sidebar_isCollapsed
+  sidebar_isCollapsed,
+  port,
 }
 
-export const BILIBILI_VIDEO_BASE_URL = "https://www.bilibili.com/video/"
+export const BILIBILI_VIDEO_BASE_URL = 'https://www.bilibili.com/video/'
 
 export const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
@@ -31,7 +33,7 @@ export const __dirname = path.dirname(fileURLToPath(import.meta.url))
  * @example
  * `/Users/huyouda/zm/notes/` 【在此目录下存放其它 TNotes.* 笔记仓库】
  */
-export const TNOTES_BASE_DIR = path.resolve(__dirname, '..', '..', '..') 
+export const TNOTES_BASE_DIR = path.resolve(__dirname, '..', '..', '..')
 
 /**
  * TNotes.* 当前的笔记仓库根路径
@@ -43,7 +45,11 @@ export const ROOT_README_PATH = path.resolve(ROOT_DIR, 'README.md')
 export const NOTES_DIR = path.resolve(ROOT_DIR, 'notes')
 export const VP_DIR_PATH = path.resolve(ROOT_DIR, '.vitepress')
 export const GITHUB_DIR_PATH = path.resolve(ROOT_DIR, '.github')
-export const GITHUB_DEPLOYYML_PATH = path.resolve(GITHUB_DIR_PATH, 'workflows', 'deploy.yml')
+export const GITHUB_DEPLOYYML_PATH = path.resolve(
+  GITHUB_DIR_PATH,
+  'workflows',
+  'deploy.yml'
+)
 export const VP_TOC_PATH = path.resolve(ROOT_DIR, 'TOC.md')
 export const VP_SIDEBAR_PATH = path.resolve(ROOT_DIR, 'sidebar.json')
 export const ROOT_PKG_PATH = path.resolve(ROOT_DIR, 'package.json')

@@ -2,15 +2,33 @@ import minimist from 'minimist'
 
 import ReadmeUpdater from './update.js'
 import { mergeNotes, distributeNotes } from './merge_distribute.js'
-import { syncRepo, pushRepo, pullRepo, syncAllRepos, pushAllRepos, pullAllRepos } from './utils/index.js'
+import {
+  syncRepo,
+  pushRepo,
+  pullRepo,
+  syncAllRepos,
+  pushAllRepos,
+  pullAllRepos,
+  runCommand_spawn,
+} from './utils/index.js'
 import { newNotes } from './new.js'
-import { __dirname } from './constants.js'
+import { __dirname, ROOT_DIR, port } from './constants.js'
 import { tempSync } from './temp-sync.js'
-
 ;(async () => {
   const args = minimist(process.argv)
 
   switch (true) {
+    case args.dev:
+      console.log('dev mode', port) // dev mode 9914
+      const port_ = port || 5173
+      await runCommand_spawn(`vitepress dev --host --port ${port_}`, ROOT_DIR)
+      break
+    case args.build:
+      runCommand_spawn(`vitepress build`, ROOT_DIR)
+      break
+    case args.preview:
+      runCommand_spawn(`vitepress preview`, ROOT_DIR)
+      break
     case args.update:
       const updater = new ReadmeUpdater()
       updater.updateReadme()

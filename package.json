@@ -1,9 +1,9 @@
 {
   "type": "module",
   "scripts": {
-    "tn:dev": "         vitepress dev --host",
-    "tn:build": "       vitepress build",
-    "tn:preview": "     vitepress preview",
+    "tn:dev": "         node ./.vitepress/tnotes --dev",
+    "tn:build": "       node ./.vitepress/tnotes --build",
+    "tn:preview": "     node ./.vitepress/tnotes --preview",
     "tn:distribute": "  node ./.vitepress/tnotes --distribute",
     "tn:merge": "       node ./.vitepress/tnotes --merge",
     "tn:new": "         node ./.vitepress/tnotes --new",

@@ -13,7 +13,7 @@ import {
 /**
  * .vitepress 目录下需要同步的目录/文件列表
  */
-const VP_SYNC_LIST = ['components', 'theme', 'tnotes', 'config.mts']
+const VP_SYNC_LIST = ['components', 'theme', 'plugins', 'tnotes', 'config.mts']
 
 /**
  * 复制白名单中的文件或目录
@@ -70,7 +70,7 @@ export async function tempSync() {
       const targetVitepressDir = path.join(targetDir, '.vitepress')
       deleteDirectory(targetVitepressDir) // 删除目标目录下的整个 .vitepress 文件夹
 
-      // 创建新的 .vitepress 文件夹，并复制 NEED_TO_SYNC_LIST 中的内容
+      // 创建新的 .vitepress 文件夹，并复制 VP_SYNC_LIST 中的内容
       copyWhitelistedFiles(VP_DIR_PATH, targetVitepressDir)
 
       // 复制 package.json 文件

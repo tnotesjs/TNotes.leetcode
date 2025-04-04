@@ -16,10 +16,13 @@ import {
   keywords,
   socialLinks,
   menuItems,
+  ignore_dirs,
 } from '../.tnotes.json'
 
 import sidebar from '../sidebar.json'
+import TN_HMR_Plugin from './plugins/hmr'
 
+const IGNORE_LIST = ['./README.md', ...ignore_dirs.map((dir) => `**/${dir}/**`)]
 const slugger = new GithubSlugger()
 
 const github_page_url =
@@ -46,6 +49,15 @@ const vpConfig = defineConfig({
   // https://vitepress.dev/reference/default-theme-config
   themeConfig: themeConfig(),
   title: repoName,
+  srcExclude: IGNORE_LIST,
+  vite: {
+    server: {
+      watch: {
+        ignored: IGNORE_LIST,
+      },
+    },
+    plugins: [TN_HMR_Plugin()],
+  },
 })
 
 function head() {
@@ -140,19 +152,16 @@ function themeConfig() {
     },
     nav: [
       {
+        text: '👀 TOC',
+        link: '/TOC',
+      },
+      {
         text: 'Menus',
         items: menuItems,
       },
     ],
     search: { provider: 'local' },
-    sidebar: [
-      {
-        text: 'Menus',
-        collapsed: true,
-        items: menuItems,
-      },
-      ...sidebar,
-    ],
+    sidebar: [...sidebar],
     socialLinks,
   }
 

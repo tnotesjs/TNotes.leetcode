@@ -297,11 +297,9 @@ class ReadmeUpdater {
       // 以 notes ID 作为 key，初始化 notes map，value 为笔记头部信息。
       this.notesInfo.topInfoMap[notesID] = `[${notesDirName}](${
         this.repoNotesUrl
-      }/${encodeURIComponent(
-        notesDirName
-      )}/README.md) <!-- [locale](./notes/${encodeURIComponent(
-        notesDirName
-      )}/README.md) -->${this.EOL}${topInfoLines.join(this.EOL)}`
+      }/${encodeURIComponent(notesDirName)}/README.md)${
+        this.EOL
+      }${topInfoLines.join(this.EOL)}`
     }
   }
 
@@ -317,6 +315,7 @@ class ReadmeUpdater {
 
     const headers = ['# ', '## ', '### ', '#### ', '##### ', '###### ']
 
+    // 内容处理 - 目录重置
     for (let i = 0; i < lines.length; i++) {
       const line = lines[i]
 
@@ -337,14 +336,57 @@ class ReadmeUpdater {
       if (!deleteMode) result.push(line)
     }
 
-    return result
+    // 格式化处理 - 确保每个标题前、后有且仅有一个空行。
+    let finalResult = []
+    for (let i = 0; i < result.length; i++) {
+      const line = result[i]
+      const prevLine = result[i - 1] || ''
+      const nextLine = result[i + 1] || ''
+
+      // 如果当前行是标题
+      if (headers.some((header) => line.startsWith(header))) {
+        // 确保标题前有且仅有一个空行
+        if (prevLine.trim() !== '') {
+          finalResult.push('')
+        }
+
+        // 添加标题本身
+        finalResult.push(line)
+
+        // 确保标题后有且仅有一个空行
+        if (nextLine.trim() !== '') {
+          finalResult.push('')
+        }
+      } else {
+        // 如果当前行不是标题，直接添加到结果中
+        finalResult.push(line)
+      }
+    }
+
+    finalResult = finalResult.filter((line, index, array) => {
+      const prevLine = array[index - 1] || ''
+      const nextLine = array[index + 1] || ''
+      // 如果当前行是空行，且前后也都是空行，则过滤掉
+      return !(
+        line.trim() === '' &&
+        prevLine.trim() === '' &&
+        nextLine.trim() === ''
+      )
+    })
+
+    // 如果 finalResult 最后一行非空，则添加一个空行
+    if (finalResult[finalResult.length - 1].trim() !== '') {
+      finalResult.push('')
+    }
+
+    return finalResult
   }
 
   /**
    * 根据 this.notesInfo.topInfoMap 重置首页目录。
    */
   setHomeTopInfos() {
-    console.log('this.homeReadme.lines', this.homeReadme.lines)
+    // console.log('this.homeReadme.lines', this.homeReadme.lines)
     // console.log('this.notes.map:', this.notes.map);
     this.homeReadme.lines.forEach((line, index) => {
       const match = line.match(this.homeReadme.noteTitleReg)
@@ -369,7 +411,7 @@ class ReadmeUpdater {
         }
       }
     })
-    console.log('this.notesInfo.topInfoMap', this.notesInfo.topInfoMap)
+    // console.log('this.notesInfo.topInfoMap', this.notesInfo.topInfoMap)
   }
 
   /**
@@ -606,7 +648,6 @@ class ReadmeUpdater {
       // console.log('this.homeReadme.titles', this.homeReadme.titles);
       // console.log('this.homeReadme.titlesNotesCount', this.homeReadme.titlesNotesCount);
 
-      // Write the final JSON to file
       fs.writeFileSync(
         this.vpSidebarPath,
         JSON.stringify(
