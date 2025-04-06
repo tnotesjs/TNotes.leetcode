@@ -9,10 +9,10 @@
     "tn:merge": "       node ./.vitepress/tnotes --merge",
     "tn:distribute": "  node ./.vitepress/tnotes --distribute",
     "tn:tempSync": "    node ./.vitepress/tnotes --tempSync",
+    "tn:pushAll": "     node ./.vitepress/tnotes --pushAll",
     "tn:build": "       node ./.vitepress/tnotes --build",
     "tn:preview": "     node ./.vitepress/tnotes --preview",
     "tn:pullAll": "     node ./.vitepress/tnotes --pullAll",
-    "tn:pushAll": "     node ./.vitepress/tnotes --pushAll",
     "tn:sync": "        node ./.vitepress/tnotes --sync",
     "tn:syncAll": "     node ./.vitepress/tnotes --syncAll"
   },
