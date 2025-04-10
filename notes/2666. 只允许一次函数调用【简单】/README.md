@@ -1,8 +1,10 @@
 # [2666. 只允许一次函数调用【简单】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/2666.%20%E5%8F%AA%E5%85%81%E8%AE%B8%E4%B8%80%E6%AC%A1%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
+
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解.1](#2--题解1)
+
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/allow-one-function-call)
 

@@ -1,8 +1,10 @@
 # [2723. 两个 Promise 对象相加【简单】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/2723.%20%E4%B8%A4%E4%B8%AA%20Promise%20%E5%AF%B9%E8%B1%A1%E7%9B%B8%E5%8A%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
+
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解.1](#2--题解1)
+
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/add-two-promises)
 

@@ -1,12 +1,14 @@
 # [0011. 盛最多水的容器【中等】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0011.%20%E7%9B%9B%E6%9C%80%E5%A4%9A%E6%B0%B4%E7%9A%84%E5%AE%B9%E5%99%A8%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
+
 - [1. 🔗 links](#1--links)
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解.1 - 暴力枚举](#3--题解1---暴力枚举)
 - [4. 💻 题解.2 - 碰撞指针](#4--题解2---碰撞指针)
 - [5. ❌ 问题解法 - 栈溢出](#5--问题解法---栈溢出)
 - [6. ❌ 问题解法 - 超时](#6--问题解法---超时)
+
 <!-- endregion:toc -->
 
 ## 1. 🔗 links
@@ -143,16 +145,27 @@ var maxArea = function (height) {
 ![](assets/2025-02-04-23-50-37.png)
 
 ::: swiper
+
 ![image](assets/2-0.png)
+
 ![image](assets/2-1.png)
+
 ![image](assets/2-2.png)
+
 ![image](assets/2-3.png)
+
 ![image](assets/2-4.png)
+
 ![image](assets/2-5.png)
+
 ![image](assets/2-6.png)
+
 ![image](assets/2-7.png)
+
 ![image](assets/2-8.png)
+
 ![image](assets/2-9.png)
+
 :::
 
 > 【备注】切换主题为 light 查看，dark 预览效果不好。

@@ -1,10 +1,12 @@
 # [0125. 验证回文串【简单】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0125.%20%E9%AA%8C%E8%AF%81%E5%9B%9E%E6%96%87%E4%B8%B2%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
+
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解.1 - 暴力解法](#2--题解1---暴力解法)
 - [3. 💻 题解.2 - 双指针](#3--题解2---双指针)
 - [4. 📒 正则 `\w`、`\W`](#4--正则-ww)
+
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/valid-palindrome)
 

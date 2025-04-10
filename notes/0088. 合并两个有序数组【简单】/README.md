@@ -1,9 +1,11 @@
 # [0088. 合并两个有序数组【简单】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0088.%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
+
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解.1 - 暴力解法](#2--题解1---暴力解法)
 - [3. 💻 题解.2 - 尾插法](#3--题解2---尾插法)
+
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/merge-sorted-array)
 

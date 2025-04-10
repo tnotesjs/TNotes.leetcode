@@ -1,9 +1,11 @@
 # [2774. 数组的上界（Plus）【简单】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/2774.%20%E6%95%B0%E7%BB%84%E7%9A%84%E4%B8%8A%E7%95%8C%EF%BC%88Plus%EF%BC%89%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
+
 - [1. 🔗 links](#1--links)
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解.1](#3--题解1)
+
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/array-upper-bound)
 

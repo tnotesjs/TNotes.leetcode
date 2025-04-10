@@ -1,8 +1,10 @@
 # [0019. 删除链表的倒数第 N 个结点【中等】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0019.%20%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E7%9A%84%E5%80%92%E6%95%B0%E7%AC%AC%20N%20%E4%B8%AA%E7%BB%93%E7%82%B9%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
+
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解.1 - 三指针暴力解法](#2--题解1---三指针暴力解法)
+
 <!-- endregion:toc -->
 - 本文的题解中提到了一个概念【哑节点（dummy node）、哨兵节点（sentinel node）】这个东西在处理链表中还是蛮常用的，如果不清楚什么是【哑节点（dummy node）、哨兵节点（sentinel node）】，可以结合这道题来了解一下。
 

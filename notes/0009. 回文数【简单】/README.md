@@ -1,10 +1,12 @@
 # [0009. 回文数【简单】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0009.%20%E5%9B%9E%E6%96%87%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
+
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解.1 - 暴力解法（转为字符串来比较）](#2--题解1---暴力解法转为字符串来比较)
 - [3. 💻 题解.2 - 先反转再比较](#3--题解2---先反转再比较)
 - [4. 💻 题解.3 - 二分对比](#4--题解3---二分对比)
+
 <!-- endregion:toc -->
 
 ## 1. 📝 Description

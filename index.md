@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: "leetcode notes"
+  name: 'leetcode notes'
   image:
     src: /logo.png
     alt: TNotes logo
@@ -13,8 +13,4 @@ hero:
     - theme: alt
       text: 👀 TOC
       link: /TOC
-    - theme: alt
-      text: ⚙️ Settings
-      link: /Settings
 ---
-

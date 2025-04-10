@@ -1,8 +1,10 @@
 # [0026. 删除有序数组中的重复项【简单】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0026.%20%E5%88%A0%E9%99%A4%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E9%A1%B9%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
+
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解.1 - 双指针](#2--题解1---双指针)
+
 <!-- endregion:toc -->
 
 ## 1. 📝 Description

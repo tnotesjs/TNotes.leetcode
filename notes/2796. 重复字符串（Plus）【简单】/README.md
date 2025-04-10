@@ -1,10 +1,12 @@
 # [2796. 重复字符串（Plus）【简单】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/2796.%20%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E4%B8%B2%EF%BC%88Plus%EF%BC%89%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
+
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解.1 - 循环拼接](#2--题解1---循环拼接)
 - [3. 💻 题解.2 - 分治法，递归拼接](#3--题解2---分治法递归拼接)
 - [4. 📒 双百提交](#4--双百提交)
+
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/repeat-string/description/)
 

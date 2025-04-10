@@ -1,8 +1,10 @@
 # [0058. 最后一个单词的长度【简单】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0058.%20%E6%9C%80%E5%90%8E%E4%B8%80%E4%B8%AA%E5%8D%95%E8%AF%8D%E7%9A%84%E9%95%BF%E5%BA%A6%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
+
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解.1 - 暴力解法 - 直接调用原生 API - trim、split、pop](#2--题解1---暴力解法---直接调用原生-api---trimsplitpop)
+
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/length-of-last-word/)
 

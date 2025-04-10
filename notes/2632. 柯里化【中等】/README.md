@@ -1,10 +1,12 @@
 # [2632. 柯里化【中等】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/2632.%20%E6%9F%AF%E9%87%8C%E5%8C%96%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
+
 - [1. 📝 Description](#1--description)
 - [2. 📒 函数的 length 属性](#2--函数的-length-属性)
 - [3. 💻 题解.1](#3--题解1)
 - [4. 💻 题解.2](#4--题解2)
+
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/curry)
 

@@ -1,9 +1,11 @@
 # [0977. 有序数组的平方【简单】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0977.%20%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E7%9A%84%E5%B9%B3%E6%96%B9%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
+
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解.1 - 暴力解法 - 调用原生 API - map、sort](#2--题解1---暴力解法---调用原生-api---mapsort)
 - [3. 💻 题解.2 - 双指针](#3--题解2---双指针)
+
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/squares-of-a-sorted-array)
 

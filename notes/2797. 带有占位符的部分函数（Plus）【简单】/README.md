@@ -1,8 +1,10 @@
 # [2797. 带有占位符的部分函数（Plus）【简单】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/2797.%20%E5%B8%A6%E6%9C%89%E5%8D%A0%E4%BD%8D%E7%AC%A6%E7%9A%84%E9%83%A8%E5%88%86%E5%87%BD%E6%95%B0%EF%BC%88Plus%EF%BC%89%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
+
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解.1](#2--题解1)
+
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/partial-function-with-placeholders)
 

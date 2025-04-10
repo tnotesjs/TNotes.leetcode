@@ -1,10 +1,12 @@
 # [0169. 多数元素【简单】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0169.%20%E5%A4%9A%E6%95%B0%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
+
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解.1 - 排序](#2--题解1---排序)
 - [3. 💻 题解.2 - hash-table](#3--题解2---hash-table)
 - [4. 💻 题解.3 - 分治](#4--题解3---分治)
+
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/majority-element/)
 

@@ -1,10 +1,12 @@
 # [2623. 记忆函数【中等】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/2623.%20%E8%AE%B0%E5%BF%86%E5%87%BD%E6%95%B0%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
+
 - [1. 📝 Description](#1--description)
 - [2. 📒 将数字数组直接作为 key](#2--将数字数组直接作为-key)
 - [3. 💻 题解.哈希表](#3--题解哈希表)
 - [4. 💻 题解.双哈希表](#4--题解双哈希表)
+
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/memoize)
 

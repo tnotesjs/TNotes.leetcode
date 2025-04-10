@@ -1,8 +1,10 @@
 # [0643. 子数组最大平均数 I【简单】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0643.%20%E5%AD%90%E6%95%B0%E7%BB%84%E6%9C%80%E5%A4%A7%E5%B9%B3%E5%9D%87%E6%95%B0%20I%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
+
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解.1](#2--题解1)
+
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/maximum-average-subarray-i/)
 

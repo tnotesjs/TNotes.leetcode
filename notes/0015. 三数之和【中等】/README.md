@@ -1,8 +1,10 @@
 # [0015. 三数之和【中等】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0015.%20%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
+
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解.1 - 排序 + 双指针【📺 leetcode.0015.1】](#2--题解1---排序--双指针-leetcode00151)
+
 <!-- endregion:toc -->
 
 ## 1. 📝 Description
@@ -45,7 +47,35 @@
 
 ## 2. 💻 题解.1 - 排序 + 双指针【📺 leetcode.0015.1】
 
-```javascript
+::: swiper
+
+![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-04-10-08-36-41.png)
+
+![图 1](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-04-10-08-36-48.png)
+
+![图 2](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-04-10-08-36-56.png)
+
+![图 3](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-04-10-08-37-04.png)
+
+![图 4](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-04-10-08-37-13.png)
+
+![图 5](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-04-10-08-37-22.png)
+
+![图 6](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-04-10-08-37-40.png)
+
+![图 7](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-04-10-08-37-48.png)
+
+![图 8](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-04-10-08-37-55.png)
+
+![图 9](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-04-10-08-38-03.png)
+
+![图 10](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-04-10-08-38-12.png)
+
+:::
+
+::: code-group
+
+```js {13,25,26}
 /**
  * @param {number[]} nums
  * @return {number[][]}
@@ -83,45 +113,36 @@ var threeSum = function (nums) {
     }
   }
   return ans
-};
+}
 ```
 
-![](assets/0015.%20三数之和-题解-排序+双指针.gif)
+:::
 
-**实现流程**
+::: details
 
-1. **初始化结果数组**
+- **重点**：
+  - 理解跳过重复项的逻辑。
+- **实现流程**；
+  - **初始化结果数组**
+    - 创建一个空数组 `ans`，用于存储所有符合条件的三元组结果。
+  - **排序**
+    - 首先对数组 `nums` 进行升序排序。
+    - 这一步非常重要，因为它将有助于后续使用双指针技巧来寻找满足条件的三元组，并且排序后的数组使得相同数字可以集中在一起，便于跳过重复元素。
+    - TIP：但凡题目中含有“数组去重”含义的题目，通常都会先做排序。
+  - **外层循环遍历数组**
+    - 使用一个 `for` 循环，遍历数组中的每一个元素，设定当前元素为 `nums[i]`。该元素将作为三元组的第一个数字。
+    - 为了避免重复计算，跳过与 **前一个** 元素相同的元素（通过 `if (i > 0 && nums[i] === nums[i - 1]) continue` 实现），从而避免生成重复的三元组。
+  - **双指针初始化**
+    - 在每次外层循环中，设定两个指针：`left` 指向当前元素 `i` 后面的第一个元素（`i + 1`），`right` 指向数组的最后一个元素（`len - 1`）。
+    - 这两个指针用于寻找与 `nums[i]` 组合成和为 0 的两个数字。
+  - **双指针查找**
+    - 进入 `while (left < right)` 循环，计算当前三元组的和 `sum = nums[i] + nums[left] + nums[right]`。根据 `sum` 的值，进行以下操作：
+    - 如果 `sum === 0`：表示找到一个符合条件的三元组，将其添加到结果数组 `ans` 中。然后：
+      - **跳过重复元素**：如果 `left` 和 `right` 所指向的元素有重复，分别跳过这些重复的元素（即 `while (left < right && nums[left] === nums[left + 1]) left++` 和 `while (left < right && nums[right] === nums[right - 1]) right--`）。
+      - 然后同时移动 `left` 和 `right` 指针，以继续查找新的三元组。
+    - 如果 `sum < 0`：表示当前三元组的和小于 0，需要通过移动 `left` 指针向右来增加总和。
+    - 如果 `sum > 0`：表示当前三元组的和大于 0，需要通过移动 `right` 指针向左来减少总和。
+  - **返回结果**
+    - 外层循环结束后，所有可能的三元组都已经被检查并加入到 `ans` 数组中。返回结果数组 `ans`，其中包含所有符合条件的不重复的三元组。
 
-创建一个空数组 `ans`，用于存储所有符合条件的三元组结果。
-
-2. **排序**
-
-首先对数组 `nums` 进行升序排序。
-
-这一步非常重要，因为它将有助于后续使用双指针技巧来寻找满足条件的三元组，并且排序后的数组使得相同数字可以集中在一起，便于跳过重复元素。
-
-3. **外层循环遍历数组**
-
-使用一个 `for` 循环，遍历数组中的每一个元素，设定当前元素为 `nums[i]`。该元素将作为三元组的第一个数字。
-
-为了避免重复计算，跳过与 **前一个**元素相同的元素（通过 `if (i > 0 && nums[i] === nums[i - 1]) continue` 实现），从而避免生成重复的三元组。
-
-4. **双指针初始化**
-
-在每次外层循环中，设定两个指针：`left` 指向当前元素 `i` 后面的第一个元素（`i + 1`），`right` 指向数组的最后一个元素（`len - 1`）。
-
-这两个指针用于寻找与 `nums[i]` 组合成和为 0 的两个数字。
-
-5. **双指针查找**
-
-进入 `while (left < right)` 循环，计算当前三元组的和 `sum = nums[i] + nums[left] + nums[right]`。根据 `sum` 的值，进行以下操作：
-
-- **如果 **`sum === 0`：表示找到一个符合条件的三元组，将其添加到结果数组 `ans` 中。然后：
-    - **跳过重复元素**：如果 `left` 和 `right` 所指向的元素有重复，分别跳过这些重复的元素（即 `while (left < right && nums[left] === nums[left + 1]) left++` 和 `while (left < right && nums[right] === nums[right - 1]) right--`）。
-    - 然后同时移动 `left` 和 `right` 指针，以继续查找新的三元组。
-- **如果 **`sum < 0`：表示当前三元组的和小于 0，需要通过移动 `left` 指针向右来增加总和。
-- **如果 **`sum > 0`：表示当前三元组的和大于 0，需要通过移动 `right` 指针向左来减少总和。
-
-6. **返回结果**
-
-外层循环结束后，所有可能的三元组都已经被检查并加入到 `ans` 数组中。返回结果数组 `ans`，其中包含所有符合条件的不重复的三元组。
+:::

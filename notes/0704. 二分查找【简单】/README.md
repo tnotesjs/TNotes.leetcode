@@ -1,10 +1,12 @@
 # [0704. 二分查找【简单】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0704.%20%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
+
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解.1 - 暴力解法](#2--题解1---暴力解法)
 - [3. 💻 题解.2 - 二分查找](#3--题解2---二分查找)
 - [4. 💻 题解.3 - 暴力解法 - 使用原生 API - indexOf](#4--题解3---暴力解法---使用原生-api---indexof)
+
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/binary-search)
 

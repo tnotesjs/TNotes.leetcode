@@ -1,6 +1,7 @@
 # [0007. 整数反转【中等】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0007.%20%E6%95%B4%E6%95%B0%E5%8F%8D%E8%BD%AC%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
+
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解.1 - 暴力解法（转为字符串求解）](#2--题解1---暴力解法转为字符串求解)
 - [3. 💻 题解.2 - 数学方法](#3--题解2---数学方法)
@@ -12,6 +13,7 @@
   - [5.4. 示例](#54-示例)
 - [6. 🤖 整数位数和它的大小之间对数关系](#6--整数位数和它的大小之间对数关系)
 - [7. 🤖 对比 $O(log_{10} N)$ 和 $O(log N)$](#7--对比-olog_10-n-和-olog-n)
+
 <!-- endregion:toc -->
 
 ## 1. 📝 Description

@@ -1,8 +1,10 @@
 # [2704. 相等还是不相等【简单】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/2704.%20%E7%9B%B8%E7%AD%89%E8%BF%98%E6%98%AF%E4%B8%8D%E7%9B%B8%E7%AD%89%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
+
 - [1. 📝 Description](#1--description)
 - [2. 💻 题解.1](#2--题解1)
+
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/to-be-or-not-to-be)
 

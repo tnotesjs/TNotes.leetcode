@@ -1,6 +1,7 @@
 # [0153. 寻找旋转排序数组中的最小值【中等】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0153.%20%E5%AF%BB%E6%89%BE%E6%97%8B%E8%BD%AC%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9C%80%E5%B0%8F%E5%80%BC%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
+
 - [1. 🔗 links](#1--links)
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解.1 - 双指针1](#3--题解1---双指针1)
@@ -15,6 +16,7 @@
   - [5.3. 等效性分析](#53-等效性分析)
   - [5.4. 示例](#54-示例)
   - [5.5. 结论](#55-结论)
+
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array)
 

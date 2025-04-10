@@ -1,9 +1,11 @@
 # [2627. 函数防抖【中等】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/2627.%20%E5%87%BD%E6%95%B0%E9%98%B2%E6%8A%96%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
+
 - [1. 🔗 links](#1--links)
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解.1](#3--题解1)
+
 <!-- endregion:toc -->
 - [leetcode](https://leetcode.cn/problems/debounce/)
 
