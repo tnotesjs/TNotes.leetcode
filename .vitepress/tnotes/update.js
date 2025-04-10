@@ -634,12 +634,17 @@ class ReadmeUpdater {
         )
         // console.log('notesDirName', notesDirName)
         if (notesDirName) {
-          const done = this.notesInfo.doneIds.has(id) ? true : false
+          const notesConfig = this.notesInfo.configMap[id]
+
+          let prefixIcon = '⏰'
+          // if (this.notesInfo.doneIds.has(id)) prefixIcon = '✅'
+          if (notesConfig && notesConfig.done) prefixIcon = '✅'
+          if (notesConfig && notesConfig.deprecated) prefixIcon = '❌'
           const text = this.sidebar_isNotesIDVisible
             ? notesDirName
             : notesDirName.replace(/\d\d\d\d. /, '')
           itemList.push({
-            text: (done ? '✅ ' : '⏰ ') + text,
+            text: `${prefixIcon} ${text}`,
             link: `/notes/${notesDirName}/README`,
           })
         }
