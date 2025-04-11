@@ -3,6 +3,7 @@
   "repoName": "TNotes.leetcode",
   "keywords": ["TNotes.leetcode"],
   "sidebar_isNotesIDVisible": true,
+  "sidebar_isCollapsed": true,
   "ignore_dirs": [
     ".vscode",
     "0000",

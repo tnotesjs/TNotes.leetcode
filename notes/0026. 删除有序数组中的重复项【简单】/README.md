@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1 - 双指针](#2--题解1---双指针)
+- [2. 💻 题解.1 - 快慢指针](#2--题解1---快慢指针)
 
 <!-- endregion:toc -->
 
@@ -15,12 +15,13 @@
 
 考虑 `nums` 的唯一元素的数量为 `k` ，你需要做以下事情确保你的题解可以被通过：
 
-- 更改数组 `nums` ，使 `nums` 的前 `k` 个元素包含唯一元素，并按照它们最初在 `nums` 中出现的顺序排列。`nums` 的其余元素与 `nums` 的大小不重要。
+- 更改数组 `nums` ，使 `nums` 的前 `k` 个元素包含唯一元素，并按照它们最初在 `nums` 中出现的顺序排列。`nums`  的其余元素与 `nums` 的大小不重要。
 - 返回 `k` 。
 
 **判题标准:**
 
 系统会用下面的代码来测试你的题解:
+
 ```
 int[] nums = [...]; // 输入数组
 int[] expectedNums = [...]; // 长度正确的期望答案
@@ -32,9 +33,11 @@ for (int i = 0; i < k; i++) {
     assert nums[i] == expectedNums[i];
 }
 ```
+
 如果所有断言都通过，那么您的题解将被 **通过**。
 
 **示例 1：**
+
 ```
 输入：nums = [1,1,2]
 输出：2, nums = [1,2,_]
@@ -42,6 +45,7 @@ for (int i = 0; i < k; i++) {
 ```
 
 **示例 2：**
+
 ```
 输入：nums = [0,0,1,1,1,2,2,3,3,4]
 输出：5, nums = [0,1,2,3,4]
@@ -52,11 +56,29 @@ for (int i = 0; i < k; i++) {
 
 - `1 <= nums.length <= 3 * 10^4`
 - `-10^4 <= nums[i] <= 10^4`
-- `nums` 已按 **非严格递增** 排列
+- `nums` 已按 **非严格递增**  排列
 
 :::
 
-## 2. 💻 题解.1 - 双指针
+## 2. 💻 题解.1 - 快慢指针
+
+::: swiper
+
+![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-04-11-08-47-33.png)
+
+![图 1](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-04-11-08-47-43.png)
+
+![图 2](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-04-11-08-48-33.png)
+
+![图 3](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-04-11-08-48-42.png)
+
+![图 4](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-04-11-08-48-51.png)
+
+![图 5](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-04-11-08-49-00.png)
+
+:::
+
+::: code-group
 
 ```js
 /**
@@ -64,16 +86,22 @@ for (int i = 0; i < k; i++) {
  * @param {number[]} nums
  * @return {number}
  */
-var removeDuplicates = function(nums) {
-  let slow = 0, fast = 1
-  while(fast < nums.length) {
+var removeDuplicates = function (nums) {
+  let slow = 0,
+    fast = 1
+  while (fast < nums.length) {
     if (nums[fast] !== nums[slow]) nums[++slow] = nums[fast++]
     else fast++
   }
   return slow + 1
-};
+}
 ```
+
+:::
+
+::: details
 
 - **题解说明：**
   - 定义俩指针 `fast` `slow`，其中快指针 `fast` 不断往后探索，一旦发现 `fast` 指向的成员和 `slow` 指向的成员不等时，`slow` 指针才会往后移动，并将此时 `fast` 指针指向的值赋值给 `slow` 指向的值。直到 `fast` 遍历完整个 `nums`，最后将 `slow + 1` 返回即可。
-  - ![](assets/2024-11-10-14-21-40.png)
+
+:::
