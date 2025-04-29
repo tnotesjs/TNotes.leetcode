@@ -1,9 +1,7 @@
 {
   "author": "Tdahuyou",
   "repoName": "TNotes.leetcode",
-  "keywords": [
-    "TNotes.leetcode"
-  ],
+  "keywords": ["TNotes.leetcode"],
   "sidebar_isNotesIDVisible": true,
   "sidebar_isCollapsed": true,
   "ignore_dirs": [
@@ -16,6 +14,7 @@
     "assets"
   ],
   "port": 9389,
+  "rootDocsSrcDir": "../_/docs/src",
   "menuItems": [
     {
       "text": "🏠 Home",

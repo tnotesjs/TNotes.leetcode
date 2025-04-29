@@ -29,6 +29,8 @@ import {
   VP_SIDEBAR_PATH,
   sidebar_isNotesIDVisible,
   sidebar_isCollapsed,
+  rootDocsSrcDir,
+  ROOT_DIR,
 } from './constants.js'
 import { genHierarchicalSidebar } from './utils/index.js'
 
@@ -53,9 +55,12 @@ class ReadmeUpdater {
     this.repoName = repoName
     this.ignoreDirs = ignore_dirs || []
     this.sidebar_isNotesIDVisible = sidebar_isNotesIDVisible || false
-    this.sidebar_isCollapsed = sidebar_isCollapsed || false
+    this.sidebar_isCollapsed = sidebar_isCollapsed || true
     this.socialLinks = socialLinks
     this.menuItems = menuItems
+    this.rootDocsSrcDir = rootDocsSrcDir
+      ? path.resolve(ROOT_DIR, rootDocsSrcDir)
+      : ''
 
     this.notesInfo = {
       /**
@@ -626,7 +631,7 @@ class ReadmeUpdater {
       }
     }
 
-    const updateFile_SIDEBAT_JSON = () => {
+    const updateFile_SIDEBAT_JSON = (sidebarPath, linkPrefix) => {
       const itemList = []
       this.homeReadme.idList.forEach((id) => {
         const notesDirName = this.notesInfo.dirNameList.find((dirName) =>
@@ -645,7 +650,7 @@ class ReadmeUpdater {
             : notesDirName.replace(/\d\d\d\d. /, '')
           itemList.push({
             text: `${prefixIcon} ${text}`,
-            link: `/notes/${notesDirName}/README`,
+            link: `${linkPrefix}/${notesDirName}/README`,
           })
         }
       })
@@ -654,7 +659,7 @@ class ReadmeUpdater {
       // console.log('this.homeReadme.titlesNotesCount', this.homeReadme.titlesNotesCount);
 
       fs.writeFileSync(
-        this.vpSidebarPath,
+        sidebarPath,
         JSON.stringify(
           genHierarchicalSidebar(
             itemList,
@@ -667,7 +672,61 @@ class ReadmeUpdater {
     }
 
     updateFile_TOC_MD()
-    updateFile_SIDEBAT_JSON()
+    updateFile_SIDEBAT_JSON(this.vpSidebarPath, '/notes')
+
+    // 将笔记数据同步到根知识库的指定位置
+    if (this.rootDocsSrcDir) {
+      if (
+        fs.existsSync(this.rootDocsSrcDir) &&
+        fs.statSync(this.rootDocsSrcDir).isDirectory()
+      ) {
+        const repoDir = path.resolve(this.rootDocsSrcDir, this.repoName)
+        if (!fs.existsSync(repoDir) || !fs.statSync(repoDir).isDirectory()) {
+          fs.mkdirSync(repoDir)
+        }
+        updateFile_SIDEBAT_JSON(
+          path.resolve(repoDir, 'sidebar.json'),
+          `/${this.repoName}`
+        )
+        this.notesInfo.dirNameList.forEach((dirName) => {
+          const notesDir = path.resolve(repoDir, dirName)
+          if (
+            !fs.existsSync(notesDir) ||
+            !fs.statSync(notesDir).isDirectory()
+          ) {
+            fs.mkdirSync(notesDir)
+          }
+          const sourceREADMEPath = path.resolve(
+            ROOT_DIR,
+            'notes',
+            dirName,
+            'README.md'
+          )
+          const targetREADMEPath = path.resolve(notesDir, 'README.md')
+          fs.copyFileSync(sourceREADMEPath, targetREADMEPath)
+          const sourceAssetsPath = path.resolve(
+            ROOT_DIR,
+            'notes',
+            dirName,
+            'assets'
+          )
+          if (fs.existsSync(sourceAssetsPath)) {
+            const targetAssetsPath = path.resolve(notesDir, 'assets')
+            fs.cpSync(sourceAssetsPath, targetAssetsPath, { recursive: true })
+          }
+          const sourceDemosPath = path.resolve(
+            ROOT_DIR,
+            'notes',
+            dirName,
+            'demos'
+          )
+          if (fs.existsSync(sourceDemosPath)) {
+            const targetDemosPath = path.resolve(notesDir, 'demos')
+            fs.cpSync(sourceDemosPath, targetDemosPath, { recursive: true })
+          }
+        })
+      }
+    }
   }
 
   updateReadme() {
