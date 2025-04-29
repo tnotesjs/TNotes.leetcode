@@ -1,7 +1,9 @@
 {
   "author": "Tdahuyou",
   "repoName": "TNotes.leetcode",
-  "keywords": ["TNotes.leetcode"],
+  "keywords": [
+    "TNotes.leetcode"
+  ],
   "sidebar_isNotesIDVisible": true,
   "sidebar_isCollapsed": true,
   "ignore_dirs": [
@@ -52,5 +54,6 @@
       "link": "https://github.com/Tdahuyou/TNotes.template",
       "icon": "github"
     }
-  ]
+  ],
+  "id": "b21928bb-10f5-47d8-9af5-e9f714decc34"
 }
