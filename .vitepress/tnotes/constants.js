@@ -1,6 +1,7 @@
 import { fileURLToPath } from 'url'
 import path from 'path'
 import { getTnotesConfig } from './utils/index.js'
+import { v4 as uuidv4 } from 'uuid'
 
 const {
   author,
@@ -99,5 +100,6 @@ export const NEW_NOTES_README_MD_TEMPLATE = `
 export const NEW_NOTES_TNOTES_JSON_TEMPLATE = `{
   "bilibili": [],
   "done": false,
-  "enableDiscussions": false
+  "enableDiscussions": false,
+  "id": "${uuidv4()}"
 }`

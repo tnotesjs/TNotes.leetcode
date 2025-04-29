@@ -41,7 +41,7 @@ function newNotes() {
         }
       }
     }
-  
+
     // 如果没有中断处，则在最大编号后创建新笔记
     if (!nextNoteId) {
       const maxId = parseInt(noteIdList[noteIdList.length - 1], 10)
@@ -50,9 +50,9 @@ function newNotes() {
   } else {
     nextNoteId = '0001'
   }
-  
+
   // 新笔记初始化
-  const newNoteDirName = `${nextNoteId}. new`
+  const newNoteDirName = `${nextNoteId}. xxx`
   const newNoteDirPath = path.join(NOTES_DIR, newNoteDirName)
   fs.mkdirSync(newNoteDirPath)
 
@@ -71,10 +71,9 @@ function newNotes() {
   // 打印 README.md 的绝对路径，并对路径进行编码以便快速跳转
   const readmeAbsolutePath = path.resolve(readmeFilePath)
   console.log(
-    `\n\n"${newNoteDirName}" 笔记已创建 👉 ${encodeURI(`file://${readmeAbsolutePath}`).replace(
-      /#/g,
-      '%23'
-    )}`
+    `\n\n"${newNoteDirName}" 笔记已创建 👉 ${encodeURI(
+      `file://${readmeAbsolutePath}`
+    ).replace(/#/g, '%23')}`
   )
 
   // 在 ROOT_README_PATH 文件末尾插入新笔记标题

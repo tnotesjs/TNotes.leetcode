@@ -45,18 +45,13 @@
           </div>
         </div>
         <div class="right-area" v-show="isHomeReadme">
-          <div class="notes-length" title="已完成笔记数量">
-            {{ doneNotesLen }}｜
-          </div>
-          <div class="update-time">
-            更新于：{{ formatDate(vpData.page.value.lastUpdated) }}
-          </div>
+          <span title="已完成笔记数量">✅ 已完成：{{ doneNotesLen }}</span>
         </div>
       </div>
     </template>
     <template #doc-footer-before>
-      <div class="footer-update-time" v-show="!isHomeReadme">
-        更新于：{{ formatDate(vpData.page.value.lastUpdated) }}
+      <div class="footer-update-time" title="笔记更新时间">
+        {{ formatDate(vpData.page.value.lastUpdated) }}
       </div>
     </template>
     <template #doc-after>
