@@ -714,16 +714,16 @@ class ReadmeUpdater {
             const targetAssetsPath = path.resolve(notesDir, 'assets')
             fs.cpSync(sourceAssetsPath, targetAssetsPath, { recursive: true })
           }
-          const sourceDemosPath = path.resolve(
-            ROOT_DIR,
-            'notes',
-            dirName,
-            'demos'
-          )
-          if (fs.existsSync(sourceDemosPath)) {
-            const targetDemosPath = path.resolve(notesDir, 'demos')
-            fs.cpSync(sourceDemosPath, targetDemosPath, { recursive: true })
-          }
+          // const sourceDemosPath = path.resolve(
+          //   ROOT_DIR,
+          //   'notes',
+          //   dirName,
+          //   'demos'
+          // )
+          // if (fs.existsSync(sourceDemosPath)) {
+          //   const targetDemosPath = path.resolve(notesDir, 'demos')
+          //   fs.cpSync(sourceDemosPath, targetDemosPath, { recursive: true })
+          // }
         })
       }
     }
