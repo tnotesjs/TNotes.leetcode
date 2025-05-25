@@ -2,15 +2,8 @@
 layout: home
 
 hero:
-  name: 'leetcode notes'
+  name: 'leetcode 刷题笔记'
   image:
     src: /logo.png
     alt: TNotes logo
-  actions:
-    - theme: brand
-      text: 📒 TNotes
-      link: https://tdahuyou.github.io/notes
-    - theme: alt
-      text: 👀 TOC
-      link: /TOC
 ---

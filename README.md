@@ -7,6 +7,7 @@
   - [2. 其他](#2-其他)
     - [2.1. 一键提取题目内容为 markdown 的油猴脚本](#21-一键提取题目内容为-markdown-的油猴脚本)
     - [2.2. GitHub 技术社区 Doocs 开源项目 leetcode](#22-github-技术社区-doocs-开源项目-leetcode)
+  - [3. ⏰ pending](#3--pending)
 
 <!-- endregion:toc -->
 
@@ -722,3 +723,9 @@
 - [ ] [9998. leetcode 刷题指南 - 新手快速入门 - 数据结构、算法](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/9998.%20leetcode%20%E5%88%B7%E9%A2%98%E6%8C%87%E5%8D%97%20-%20%E6%96%B0%E6%89%8B%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%20-%20%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E3%80%81%E7%AE%97%E6%B3%95/README.md)
   - [1. 📒 LeetCode 刷题指南 - 新手快速入门](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/9998.%20leetcode%20%E5%88%B7%E9%A2%98%E6%8C%87%E5%8D%97%20-%20%E6%96%B0%E6%89%8B%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%20-%20%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E3%80%81%E7%AE%97%E6%B3%95/README.md#1--leetcode-刷题指南---新手快速入门)
   - 通过思维导图的形式，记录了一些适合入门刷的数据结构、算法例题。
+
+## 3. ⏰ pending
+
+- [ ] [2131. 连接两字母单词得到的最长回文串【中等】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/2131.%20%E8%BF%9E%E6%8E%A5%E4%B8%A4%E5%AD%97%E6%AF%8D%E5%8D%95%E8%AF%8D%E5%BE%97%E5%88%B0%E7%9A%84%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E4%B8%B2%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
+  - [1. 📝 Description](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/2131.%20%E8%BF%9E%E6%8E%A5%E4%B8%A4%E5%AD%97%E6%AF%8D%E5%8D%95%E8%AF%8D%E5%BE%97%E5%88%B0%E7%9A%84%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E4%B8%B2%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#1--description)
+  - [2. 💻 题解](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/2131.%20%E8%BF%9E%E6%8E%A5%E4%B8%A4%E5%AD%97%E6%AF%8D%E5%8D%95%E8%AF%8D%E5%BE%97%E5%88%B0%E7%9A%84%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E4%B8%B2%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md#2--题解)
