@@ -4,7 +4,7 @@ import { runCommand } from '../tnotes/utils/run_command.js'
 import { ROOT_DIR } from '../tnotes/constants.js'
 
 // 定义一个时间窗口（单位：毫秒）
-const DEBOUNCE_TIME = 300
+const DEBOUNCE_TIME = 1000
 
 let debounceTimer = null // 用于存储定时器
 
