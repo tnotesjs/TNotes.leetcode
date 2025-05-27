@@ -148,7 +148,7 @@ class ReadmeUpdater {
     const stats = await fs.promises.lstat(
       path.resolve(this.notesDirPath, notesDirName)
     )
-    return stats.isDirectory() && notesDirName.match(/^\d{4}/)
+    return stats.isDirectory() && notesDirName.match(/^\d{4}.\s/)
   }
 
   /**
@@ -279,7 +279,7 @@ class ReadmeUpdater {
    * 6. 确保笔记头部信息中的链接有效。
    * @returns {Array} 笔记目录列表
    */
-  async getNotesInfo() {
+  async initNotesInfo() {
     for (let notesDirName of this.notesInfo.dirNameList) {
       const notesReadmePath = this.getNotesReadmePath(notesDirName)
       const notesID = notesDirName.slice(0, 4)
@@ -307,7 +307,7 @@ class ReadmeUpdater {
         notesLines.pop()
       }
 
-      fs.writeFileSync(
+      await fs.promises.writeFile(
         notesReadmePath,
         notesLines.join(this.EOL) + this.EOL,
         'utf8'
@@ -525,7 +525,7 @@ class ReadmeUpdater {
       const line = lines[i]
       const isHeader = headers.some((header) => line.startsWith(header))
       if (isHeader) {
-        const [numberedTitle] = addNumberToTitle(line, titleNumbers)
+        const [numberedTitle] = addNumberToTitle(line)
         titles.push(numberedTitle)
         lines[i] = numberedTitle // 更新原行内容
       }
@@ -753,13 +753,13 @@ class ReadmeUpdater {
   async updateReadme() {
     await this.initNotesDirNameList()
     await this.ensureNoteFilesExist()
-    await this.getNotesInfo()
+    await this.initNotesInfo()
     this.homeReadme.contents = await fs.promises.readFile(
       this.homeReadme.path,
       'utf8'
     )
     this.homeReadme.lines = this.resetHomeTopInfos()
-    // console.log(this.homeReadme.lines)
+    console.log('this.homeReadme.lines:', this.homeReadme.lines)
     this.setHomeTopInfos()
 
     // console.log(this.notes.ids, this.homeReadme.ids);
