@@ -1,7 +1,7 @@
-import { statSync } from 'fs'
+import fs from 'fs'
 import { resolve } from 'path'
 import { runCommand } from '../tnotes/utils/run_command.js'
-import { ROOT_DIR } from '../tnotes/constants.js'
+import { ROOT_DIR_PATH, ignore_dirs } from '../tnotes/constants.js'
 
 // 定义一个时间窗口（单位：毫秒）
 const DEBOUNCE_TIME = 1000
@@ -13,13 +13,13 @@ export default function TN_HMR_Plugin() {
     name: 'tn-hmr-plugin',
     configureServer(server) {
       // 监听文件变化事件
-      server.watcher.on('all', (event, filePath) => {
-        const fullPath = resolve(ROOT_DIR, filePath)
+      server.watcher.on('all', async (event, filePath) => {
+        const fullPath = resolve(ROOT_DIR_PATH, filePath)
 
         // 判断路径是否为目录
         let isDirectory = false
         try {
-          const stats = statSync(fullPath)
+          const stats = fs.statSync(fullPath)
           isDirectory = stats.isDirectory()
         } catch (err) {
           // 如果路径不存在（例如删除操作），仍然可以处理事件
@@ -38,7 +38,7 @@ export default function TN_HMR_Plugin() {
           // 设置新的定时器，在时间窗口结束后执行命令
           debounceTimer = setTimeout(async () => {
             console.log('♻️ update doing...')
-            await runCommand('npm run tn:update', ROOT_DIR)
+            // await runCommand('npm run tn:update', ROOT_DIR_PATH)
             console.log('✅ update done')
           }, DEBOUNCE_TIME)
         }
