@@ -1,6 +1,6 @@
+import { fileURLToPath } from 'url'
 import fs from 'fs'
 import path from 'path'
-import { runCommand } from '../tnotes/utils/run_command.js'
 import {
   ROOT_DIR_PATH,
   ignore_dirs,
@@ -10,22 +10,31 @@ import {
   BILIBILI_VIDEO_BASE_URL,
   EOL,
 } from '../tnotes/constants.js'
-import { createAddNumberToTitle, generateToc } from '../tnotes/utils'
+import {
+  createAddNumberToTitle,
+  generateToc,
+  isEnableHRM,
+  ensureConfigExists,
+} from '../tnotes/utils'
 
-export default function TN_HMR_Plugin() {
-  // 防止递归更新
-  let updatingFiles = new Set()
-  const UPDATE_TIMEOUT = 1000
+export default async function TN_HMR_Plugin() {
+  await ensureConfigExists()
   return {
     name: 'tn-hmr-plugin',
     configureServer(server) {
+      const UPDATE_TIMEOUT = 1000
+      let lastUpdateTime = 0
       // 监听文件变化事件
       server.watcher.on('all', async (event, filePath) => {
         // console.log('filePath:', filePath)
         // /Users/huyouda/zm/notes/TNotes.leetcode/notes/0002. xxx/README.md
         // console.log('path.basename(filePath)', path.basename(filePath))
 
-        if (updatingFiles.has(filePath)) return
+        // console.log('Date.now()', Date.now())
+        // console.log('lastUpdateTime', lastUpdateTime)
+        // console.log('Date.now() - lastUpdateTime', Date.now() - lastUpdateTime)
+        if (Date.now() - lastUpdateTime < UPDATE_TIMEOUT) return
+        if (!(await isEnableHRM())) return
 
         try {
           const basename = path.basename(filePath)
@@ -39,11 +48,11 @@ export default function TN_HMR_Plugin() {
             !ignore_dirs.includes(notesDirName)
           ) {
             const startTime = Date.now()
-            console.log(
-              `⌛️ update start => ${notesDirName} => ${encodeURIComponent(
-                filePath
-              )}`
-            )
+            // console.log(
+            //   `⌛️ update start => ${notesDirName} => ${encodeURIComponent(
+            //     filePath
+            //   )}`
+            // )
             let lines = await fs.promises.readFile(filePath, 'utf-8')
             lines = lines.split(EOL)
             // console.log('lines', lines)
@@ -112,19 +121,17 @@ export default function TN_HMR_Plugin() {
             }
 
             // 写入前标记
-            updatingFiles.add(filePath)
+            lastUpdateTime = Date.now()
             await fs.promises.writeFile(filePath, lines.join(EOL))
-            setTimeout(() => updatingFiles.delete(filePath), UPDATE_TIMEOUT)
 
-            console.log(
-              `✅ update end => ${notesDirName} => ${encodeURIComponent(
-                filePath
-              )}`
-            )
-            console.log(`🚀 ${Date.now() - startTime} ms`)
+            // console.log(
+            //   `✅ update end => ${notesDirName} => ${encodeURIComponent(
+            //     filePath
+            //   )}`
+            // )
+            // console.log(`🚀 ${Date.now() - startTime} ms`)
           }
         } catch (err) {
-          updatingFiles.delete(filePath)
           if (
             event !== 'unlinkDir' &&
             !['ENOENT', 'ENOTDIR'].includes(err.code)

@@ -285,16 +285,16 @@ class ReadmeUpdater {
       const notesID = notesDirName.slice(0, 4)
       this.notesInfo.ids.add(notesID)
 
-      const notesConfig = await this.getNotesConfig(notesReadmePath)
+      const notesConfig = await this.getNotesConfig(notesDirName)
       this.notesInfo.configMap[notesID] = notesConfig
       if (notesConfig.done) {
         this.notesInfo.doneIds.add(notesID)
       }
 
       // 读取笔记内容
-      const notesLines = await fs.promises
-        .readFile(notesReadmePath, 'utf8')
-        .split(this.EOL)
+      const notesLines = (
+        await fs.promises.readFile(notesReadmePath, 'utf8')
+      ).split(this.EOL)
 
       // 更新笔记标题
       notesLines[0] = this.genNotesTitleLine(notesDirName)
@@ -579,7 +579,7 @@ class ReadmeUpdater {
       const match = line.match(this.homeReadme.noteTitleReg)
       if (isHeader) {
         this.homeReadme.titlesNotesCount.push(notesCount)
-        const [numberedTitle] = addNumberToTitle(line, titleNumbers)
+        const [numberedTitle] = addNumberToTitle(line)
         titles.push(numberedTitle)
         lines[i] = numberedTitle
         notesCount = 0
@@ -758,17 +758,34 @@ class ReadmeUpdater {
       this.homeReadme.path,
       'utf8'
     )
+
+    // console.time('resetHomeTopInfos')
     this.homeReadme.lines = this.resetHomeTopInfos()
-    console.log('this.homeReadme.lines:', this.homeReadme.lines)
+    // console.timeEnd('resetHomeTopInfos')
+
+    // console.time('setHomeTopInfos')
     this.setHomeTopInfos()
+    // console.timeEnd('setHomeTopInfos')
 
     // console.log(this.notes.ids, this.homeReadme.ids);
 
+    // console.time('handleUnassignedNotes')
     this.handleUnassignedNotes()
+    // console.timeEnd('handleUnassignedNotes')
+
+    // console.time('updateHomeToc')
     this.updateHomeToc(this.homeReadme.lines)
+    // console.timeEnd('updateHomeToc')
+
     fs.writeFileSync(this.homeReadme.path, this.homeReadme.lines.join(this.EOL))
+
+    // console.time('updateVitepressDocs')
     this.updateVitepressDocs()
+    // console.timeEnd('updateVitepressDocs')
+
+    // console.time('updateRootConfig')
     this.updateRootConfig()
+    // console.timeEnd('updateRootConfig')
 
     console.log(`✅ ${this.repoName} \t README.md updated.`)
   }
