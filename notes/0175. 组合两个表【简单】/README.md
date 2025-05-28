@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解](#2--题解)
+- [2. 💻 题解.1 - 使用 `outer join`](#2--题解1---使用-outer-join)
 
 <!-- endregion:toc -->
 
@@ -81,8 +81,14 @@ addressId = 1 包含了 personId = 2 的地址信息。
 
 :::
 
-## 2. 💻 题解
+## 2. 💻 题解.1 - 使用 `outer join`
 
+::: code-group
+
+```sql [mysql]
+SELECT FirstName, LastName, City, State
+FROM Person LEFT JOIN Address
+ON Person.PersonId = Address.PersonId;
 ```
 
-```
+:::
