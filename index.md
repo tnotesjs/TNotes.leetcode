@@ -7,3 +7,5 @@ hero:
     src: /logo.png
     alt: TNotes logo
 ---
+
+<SidebarCard pending />
