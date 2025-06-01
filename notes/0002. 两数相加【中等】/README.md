@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1 - 模拟](#2--题解1---模拟)
+- [2. 💻 solutions.1 - 模拟法](#2--solutions1---模拟法)
 
 <!-- endregion:toc -->
 
@@ -21,7 +21,7 @@
 
 - **示例 1：**
 
-![](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2021/01/02/addtwonumber1.jpg)
+![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-06-01-22-52-32.png)
 
 ```
 输入：l1 = [2,4,3], l2 = [5,6,4]
@@ -53,46 +53,37 @@
 
 :::
 
-## 2. 💻 题解.1 - 模拟
+## 2. 💻 solutions.1 - 模拟法
 
-```js
-/**
- * Definition for singly-linked list.
- * function ListNode(val, next) {
- *     this.val = (val===undefined ? 0 : val)
- *     this.next = (next===undefined ? null : next)
- * }
- */
-/**
- * @param {ListNode} l1
- * @param {ListNode} l2
- * @return {ListNode}
- */
-var addTwoNumbers = function (l1, l2) {
-  let head = null,
-    tail = null
-  let carry = 0
-  while (l1 || l2) {
-    const n1 = l1 ? l1.val : 0
-    const n2 = l2 ? l2.val : 0
-    const sum = n1 + n2 + carry
-    if (!head) {
-      head = tail = new ListNode(sum % 10)
-    } else {
-      tail.next = new ListNode(sum % 10)
-      tail = tail.next
-    }
-    carry = Math.floor(sum / 10)
-    if (l1) {
-      l1 = l1.next
-    }
-    if (l2) {
-      l2 = l2.next
-    }
-  }
-  if (carry > 0) {
-    tail.next = new ListNode(carry)
-  }
-  return head
-}
-```
+::: swiper
+
+![图 5](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-06-01-23-57-11.png)
+
+![图 6](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-06-01-23-57-18.png)
+
+![图 7](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-06-01-23-57-25.png)
+
+![图 8](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-06-01-23-57-33.png)
+
+:::
+
+::: code-group
+
+<<< ./solutions/1/1.js [js]
+
+:::
+
+::: details
+
+- 时间复杂度：$O(max(m, n))$
+- 空间复杂度：$O(max(m, n))$ 或 $O(max(m, n) + 1)$
+  - 该算法会构建一个新的链表作为返回值。
+  - 新链表的长度最多为 `max(m, n) + 1`（当最后有进位时）。
+  - 这部分空间与输入规模相关。
+- 头指针 `head` 指向低位。
+- 尾指针 `tail` 指向高位。
+- 由于输入的两个链表都是逆序存储数字的位数的，因此两个链表中同一位置的数字可以直接相加。
+- 如果两个链表的长度不同，则可以认为长度短的链表的后面有若干个 `0`。
+- 可以同时遍历两个链表，逐位计算它们的和，并与当前位置的进位值相加。
+
+:::
