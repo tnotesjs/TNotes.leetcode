@@ -27,10 +27,10 @@
 
   // #region - Editor（编辑器相关配置）
 
-  "editor.fontSize": 12,
+  "editor.fontSize": 14,
   "editor.minimap.sectionHeaderFontSize": 10,
   "editor.tabSize": 2,
-  "editor.fontFamily": "'Fira Code', 'Consolas', 'Menlo'",
+  "editor.fontFamily": "'Consolas', 'Fira Code', 'Menlo'",
   "editor.detectIndentation": false,
   "editor.cursorBlinking": "expand",
   "editor.largeFileOptimizations": false,
@@ -111,7 +111,7 @@
   "terminal.integrated.scrollback": 10000,
   "terminal.integrated.stickyScroll.enabled": true,
   "terminal.integrated.smoothScrolling": true,
-  "terminal.integrated.fontSize": 12,
+  "terminal.integrated.fontSize": 14,
   // "terminal.integrated.cursorStyle": "underline",
 
   // #endregion - Terminal（终端相关配置）

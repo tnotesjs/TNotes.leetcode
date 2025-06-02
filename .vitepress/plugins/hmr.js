@@ -97,7 +97,7 @@ export default async function TN_HMR_Plugin() {
               let notesConfig = await fs.promises.readFile(configPath, 'utf8')
               notesConfig = JSON.parse(notesConfig)
               if (notesConfig) {
-                if (notesConfig.bilibili && notesConfig.bilibili.length > 0) {
+                if (notesConfig.bilibili.length > 0) {
                   bilibiliTOCItems = notesConfig.bilibili.map(
                     (bvid, i) =>
                       `  - [bilibili.${repoName}.${notesID}.${i + 1}](${
@@ -105,7 +105,7 @@ export default async function TN_HMR_Plugin() {
                       })`
                   )
                 }
-                if (notesConfig.yuque && notesConfig.yuque.length > 0) {
+                if (notesConfig.yuque.length > 0) {
                   yuqueTOCItems = notesConfig.yuque.map(
                     (slug, i) =>
                       `  - [TNotes.yuque.${repoName.replace(
