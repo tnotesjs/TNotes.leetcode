@@ -2,8 +2,10 @@
 
 <!-- region:toc -->
 
+- [📂 TNotes.yuque](https://www.yuque.com/tdahuyou/tnotes.yuque/)
+  - [TNotes.yuque.leetcode.0015](https://www.yuque.com/tdahuyou/tnotes.yuque/leetcode.0015)
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1 - 排序 + 双指针【📺 leetcode.0015.1】](#2--题解1---排序--双指针-leetcode00151)
+- [2. 💻 solutions.1 - 排序 + 双指针](#2--solutions1---排序--双指针)
 
 <!-- endregion:toc -->
 
@@ -45,7 +47,7 @@
 
 :::
 
-## 2. 💻 题解.1 - 排序 + 双指针【📺 leetcode.0015.1】
+## 2. 💻 solutions.1 - 排序 + 双指针
 
 ::: swiper
 

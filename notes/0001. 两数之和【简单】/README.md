@@ -2,10 +2,12 @@
 
 <!-- region:toc -->
 
+- [📂 TNotes.yuque](https://www.yuque.com/tdahuyou/tnotes.yuque/)
+  - [TNotes.yuque.leetcode.0001](https://www.yuque.com/tdahuyou/tnotes.yuque/leetcode.0001)
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1 - 双指针暴力求解](#2--题解1---双指针暴力求解)
-- [3. 💻 题解.2 - 静态哈希表](#3--题解2---静态哈希表)
-- [4. 💻 题解.3 - 动态哈希表](#4--题解3---动态哈希表)
+- [2. 💻 solutions.1 - 双指针暴力求解](#2--solutions1---双指针暴力求解)
+- [3. 💻 solutions.2 - 静态哈希表](#3--solutions2---静态哈希表)
+- [4. 💻 solutions.3 - 动态哈希表](#4--solutions3---动态哈希表)
 
 <!-- endregion:toc -->
 
@@ -50,7 +52,7 @@
 
 :::
 
-## 2. 💻 题解.1 - 双指针暴力求解
+## 2. 💻 solutions.1 - 双指针暴力求解
 
 ::: swiper
 
@@ -64,7 +66,7 @@
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js
 
 :::
 
@@ -77,7 +79,7 @@
 
 :::
 
-## 3. 💻 题解.2 - 静态哈希表
+## 3. 💻 solutions.2 - 静态哈希表
 
 ::: swiper
 
@@ -91,7 +93,7 @@
 
 ::: code-group
 
-<<< ./solutions/2/1.js [js]
+<<< ./solutions/2/1.js
 
 :::
 
@@ -106,7 +108,7 @@
 
 :::
 
-## 4. 💻 题解.3 - 动态哈希表
+## 4. 💻 solutions.3 - 动态哈希表
 
 ::: swiper
 
@@ -122,9 +124,9 @@
 
 ::: code-group
 
-<<< ./solutions/3/1.js [js]
+<<< ./solutions/3/1.js
 
-<<< ./solutions/3/1.ts [ts]
+<<< ./solutions/3/1.ts
 
 :::
 

@@ -2,6 +2,8 @@
 
 <!-- region:toc -->
 
+- [📂 TNotes.yuque](https://www.yuque.com/tdahuyou/tnotes.yuque/)
+  - [TNotes.yuque.leetcode.0011](https://www.yuque.com/tdahuyou/tnotes.yuque/leetcode.0011)
 - [1. 🔗 links](#1--links)
 - [2. 📝 Description](#2--description)
 - [3. 💻 题解.1 - 暴力枚举](#3--题解1---暴力枚举)

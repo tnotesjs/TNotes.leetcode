@@ -1,6 +1,8 @@
 {
   "bilibili": [],
-  "yuque": [],
+  "yuque": [
+    "leetcode.0622"
+  ],
   "done": false,
   "enableDiscussions": false,
   "id": "20216884-c039-4f49-89aa-0e0b36ecf8bf"

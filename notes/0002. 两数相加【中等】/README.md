@@ -69,7 +69,7 @@
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js
 
 :::
 
