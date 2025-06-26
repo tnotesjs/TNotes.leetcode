@@ -21,9 +21,9 @@
     "icon": {
       "src": "https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/assets/icon--leetcode.svg"
     },
-    "title": "Leetcode 刷题笔记",
+    "title": "leetcode",
     "completed_notes_count": 5,
-    "details": "数据结构与算法",
+    "details": "Leetcode 刷题笔记",
     "link": "https://tdahuyou.github.io/TNotes.leetcode/"
   },
   "menuItems": [
