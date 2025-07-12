@@ -91,7 +91,8 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[svg]": {
-    "editor.defaultFormatter": "jock.svg"
+    "editor.defaultFormatter": "jock.svg",
+    "editor.formatOnSave": false
   },
 
   // #endregion - Editor（编辑器相关配置）
