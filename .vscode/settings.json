@@ -12,7 +12,7 @@
   "workbench.editor.limit.enabled": true,
   "workbench.editor.limit.perEditorGroup": true,
   // "workbench.editor.limit.value": 5,
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "vscode-icons",
   "workbench.startupEditor": "none",
   "workbench.colorTheme": "Default Dark Modern",
   "workbench.editor.empty.hint": "hidden",
@@ -23,10 +23,17 @@
   },
   "workbench.editor.wrapTabs": true,
 
-  // #endregion - Workbench（工作台相关配置）
+  // #endregion
 
   // #region - Editor（编辑器相关配置）
 
+  "editor.codeLens": true,
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "off",
+    "strings": "off"
+  },
   "editor.fontSize": 14,
   "editor.minimap.sectionHeaderFontSize": 10,
   "editor.tabSize": 2,
@@ -95,7 +102,7 @@
     "editor.formatOnSave": false
   },
 
-  // #endregion - Editor（编辑器相关配置）
+  // #endregion
 
   // #region - Extensions（扩展相关配置）
 
@@ -195,10 +202,23 @@
     "package.json": ".gitignore,package-lock.json",
     "eslint.config.mjs": ".eslintignore,.prettierignore,.stylelintignore,.commitlintrc.*,.prettierrc.*,stylelint.config.*,.lintstagedrc.mjs,cspell.json",
     "tailwind.config.mjs": "postcss.*",
-    ".tnotes.json": "Settings.md,sidebar.json,TOC.md"
+    ".tnotes.json": "Settings.md,sidebar.json,TOC.md,Words.md,References.md"
   },
 
   // #endregion - Explorer（资源管理器相关配置）
+
+  // #region - breadcrumbs（面包屑导航）
+
+  "breadcrumbs.symbolPath": "last",
+
+  // #endregion - breadcrumbs（面包屑导航）
+
+  // #region - markdown
+  "markdownlint.config": {
+    "no-bare-urls": false,
+    "no-inline-html": false
+  },
+  // #endregion - markdown
 
   // #region - Others（其他相关配置）
 
@@ -209,9 +229,19 @@
   "css.validate": false,
   "less.validate": false,
   "scss.validate": false,
-  "npm-scripts.showStartNotification": false
 
   // #endregion - Others（其他相关配置）
+
+  // #region - regionHighlighter 插件配置
+  "regionHighlighter.ignoreFlag": "!",
+  "regionHighlighter.allowLanguageIDs": "*",
+  "regionHighlighter.borderStyle": "dashed",
+  "regionHighlighter.borderWidth": "0px",
+  "regionHighlighter.decorationStyle": "background",
+  "regionHighlighter.defaultColor": "#C9C4E930",
+  "regionHighlighter.defaultTheme": "Default Color",
+  "regionHighlighter.extraColorStrategy": "Default Color"
+  // #endregion
 
   // -------------------------------------------
   // #endregion - TNotes 所使用的 VSCode 内置配置
