@@ -202,7 +202,7 @@
     "package.json": ".gitignore,package-lock.json",
     "eslint.config.mjs": ".eslintignore,.prettierignore,.stylelintignore,.commitlintrc.*,.prettierrc.*,stylelint.config.*,.lintstagedrc.mjs,cspell.json",
     "tailwind.config.mjs": "postcss.*",
-    ".tnotes.json": "Settings.md,sidebar.json,TOC.md,Words.md,References.md"
+    ".tnotes.json": "Settings.md,sidebar.json,TOC.md,Words.md,References.md,Introduction.md"
   },
 
   // #endregion - Explorer（资源管理器相关配置）
