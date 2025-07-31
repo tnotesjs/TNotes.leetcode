@@ -33,8 +33,7 @@
       "type": "shell",
       "command": "npm run tn:push",
       "group": "build",
-      "problemMatcher": ["$tsc"],
-      "dependsOn": ["proxy"]
+      "problemMatcher": ["$tsc"]
     },
     {
       "label": "tn:pull",
@@ -42,8 +41,7 @@
       "type": "shell",
       "command": "npm run tn:pull",
       "group": "build",
-      "problemMatcher": ["$tsc"],
-      "dependsOn": ["proxy"]
+      "problemMatcher": ["$tsc"]
     },
     {
       "label": "tn:merge",
@@ -75,8 +73,7 @@
       "type": "shell",
       "command": "npm run tn:pushAll",
       "group": "build",
-      "problemMatcher": ["$tsc"],
-      "dependsOn": ["proxy"]
+      "problemMatcher": ["$tsc"]
     },
     {
       "label": "tn:build",
@@ -100,8 +97,7 @@
       "type": "shell",
       "command": "npm run tn:pullAll",
       "group": "build",
-      "problemMatcher": ["$tsc"],
-      "dependsOn": ["proxy"]
+      "problemMatcher": ["$tsc"]
     },
     {
       "label": "tn:sync",
@@ -109,8 +105,7 @@
       "type": "shell",
       "command": "npm run tn:sync",
       "group": "build",
-      "problemMatcher": ["$tsc"],
-      "dependsOn": ["proxy"]
+      "problemMatcher": ["$tsc"]
     },
     {
       "label": "tn:syncAll",
@@ -118,14 +113,7 @@
       "type": "shell",
       "command": "npm run tn:syncAll",
       "group": "build",
-      "problemMatcher": ["$tsc"],
-      "dependsOn": ["proxy"]
-    },
-    {
-      "label": "proxy",
-      "detail": "设置终端代理",
-      "type": "shell",
-      "command": "export https_proxy=http://127.0.0.1:7897 http_proxy=http://127.0.0.1:7897 all_proxy=socks5://127.0.0.1:7897"
+      "problemMatcher": ["$tsc"]
     }
   ]
 }
