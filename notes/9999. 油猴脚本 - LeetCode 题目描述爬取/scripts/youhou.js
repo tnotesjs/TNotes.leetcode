@@ -100,7 +100,7 @@ function copyDescHandler() {
         .replace(/\*\*(提示[:：])\*\*(?:\n| )/g, (match, p1) => {
           return `\`\`\`\n**${p1}**\n`
         }) +
-      `\n\n## 💻 题解\n\n\`\`\`\n\n\`\`\`\n` // 题解模板
+      `\n\n## 🎯 Solutions\n\n\`\`\`\n\n\`\`\`\n` // 题解模板
   )
   message.success({
     text: '【题目描述】复制成功',

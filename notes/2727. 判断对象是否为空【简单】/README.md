@@ -3,11 +3,11 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1](#2--题解1)
+- [2. 🎯 Solutions.1](#2--solutions1)
 
 <!-- endregion:toc -->
-- [leetcode](https://leetcode.cn/problems/is-object-empty)
 
+- [leetcode](https://leetcode.cn/problems/is-object-empty)
 
 ## 1. 📝 Description
 
@@ -45,14 +45,14 @@
 
 **你可以在 `O(1)` 时间复杂度内解决这个问题吗？**
 
-## 2. 💻 题解.1
+## 2. 🎯 Solutions.1
 
 ```javascript
 /**
  * @param {Object|Array} obj
  * @return {boolean}
  */
-var isEmpty = function(obj) {
+var isEmpty = function (obj) {
   return Object.keys(obj).length === 0
 }
 ```

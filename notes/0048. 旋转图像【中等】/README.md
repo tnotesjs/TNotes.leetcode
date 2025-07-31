@@ -3,18 +3,18 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1 - 暴力解法](#2--题解1---暴力解法)
-- [3. 💻 题解.2 - 翻转](#3--题解2---翻转)
+- [2. 🎯 Solutions.1 - 暴力解法](#2--solutions1---暴力解法)
+- [3. 🎯 Solutions.2 - 翻转](#3--solutions2---翻转)
 
 <!-- endregion:toc -->
-- [leetcode](https://leetcode.cn/problems/rotate-image)
 
+- [leetcode](https://leetcode.cn/problems/rotate-image)
 
 ## 1. 📝 Description
 
 ::: details [leetcode](https://leetcode.cn)
 
-给定一个 *n* × *n* 的二维矩阵 `matrix` 表示一个图像。请你将图像顺时针旋转 90 度。
+给定一个 *n* × *n* 的二维矩阵  `matrix` 表示一个图像。请你将图像顺时针旋转 90 度。
 
 你必须在 **[原地](https://baike.baidu.com/item/%E5%8E%9F%E5%9C%B0%E7%AE%97%E6%B3%95)** 旋转图像，这意味着你需要直接修改输入的二维矩阵。**请不要** 使用另一个矩阵来旋转图像。
 
@@ -42,7 +42,7 @@
 - `1 <= n <= 20`
 - `-1000 <= matrix[i][j] <= 1000`
 
-## 2. 💻 题解.1 - 暴力解法
+## 2. 🎯 Solutions.1 - 暴力解法
 
 ```js
 /**
@@ -51,7 +51,8 @@
  * @return {void} Do not return anything, modify matrix in-place instead.
  */
 var rotate = function (matrix) {
-  const n = matrix.length, arr = []
+  const n = matrix.length,
+    arr = []
 
   for (let c = 0; c < n; c++) {
     for (let r = n - 1; r >= 0; r--) {
@@ -61,12 +62,12 @@ var rotate = function (matrix) {
   // console.log(arr)
   // => [7, 4, 1, 8, 5, 2, 9, 6, 3]
 
-  for(let i = 0; i < n * n; i++) {
+  for (let i = 0; i < n * n; i++) {
     const r = Math.floor(i / n)
     const c = i % n
     matrix[r][c] = arr[i]
   }
-};
+}
 ```
 
 - 思路：
@@ -74,7 +75,7 @@ var rotate = function (matrix) {
   - 把图像顺时针 🔃 旋转 90° 后来看，其实就是从每一列的最后一行开始遍历到第一行的内容。
 - 【注意】这种解法不符合题目要求的 **原地** 旋转。
 
-## 3. 💻 题解.2 - 翻转
+## 3. 🎯 Solutions.2 - 翻转
 
 ```js
 /**
@@ -84,15 +85,20 @@ var rotate = function (matrix) {
  */
 var rotate = function (matrix) {
   const n = matrix.length
-  for (let i = 0; i < Math.floor(n / 2); i++) {// 上下翻转
+  for (let i = 0; i < Math.floor(n / 2); i++) {
+    // 上下翻转
     for (let j = 0; j < n; j++) {
-      [matrix[i][j], matrix[n - i - 1][j]] = [matrix[n - i - 1][j], matrix[i][j]]
+      ;[matrix[i][j], matrix[n - i - 1][j]] = [
+        matrix[n - i - 1][j],
+        matrix[i][j],
+      ]
     }
   }
-  for (let i = 0; i < n; i++) {// 对角线不动，以对角线为对称轴交换两侧位置
+  for (let i = 0; i < n; i++) {
+    // 对角线不动，以对角线为对称轴交换两侧位置
     for (let j = 0; j < i; j++) {
       if (i === j) continue
-      [matrix[i][j], matrix[j][i]] = [matrix[j][i], matrix[i][j]]
+      ;[matrix[i][j], matrix[j][i]] = [matrix[j][i], matrix[i][j]]
     }
   }
 }
@@ -114,13 +120,15 @@ var rotate = function (matrix) {
  */
 var rotate = function (matrix) {
   const n = matrix.length
-  for (let i = 0; i < Math.floor(n / 2); i++) {// 上下翻转
-    [matrix[i], matrix[n - i - 1]] = [matrix[n - i - 1], matrix[i]]
+  for (let i = 0; i < Math.floor(n / 2); i++) {
+    // 上下翻转
+    ;[matrix[i], matrix[n - i - 1]] = [matrix[n - i - 1], matrix[i]]
   }
-  for (let i = 0; i < n; i++) {// 对角线不动，以对角线为对称轴交换两侧位置
+  for (let i = 0; i < n; i++) {
+    // 对角线不动，以对角线为对称轴交换两侧位置
     for (let j = 0; j < i; j++) {
       if (i === j) continue
-      [matrix[i][j], matrix[j][i]] = [matrix[j][i], matrix[i][j]]
+      ;[matrix[i][j], matrix[j][i]] = [matrix[j][i], matrix[i][j]]
     }
   }
 }

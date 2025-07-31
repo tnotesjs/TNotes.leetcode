@@ -3,12 +3,11 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1](#2--题解1)
+- [2. 🎯 Solutions.1](#2--solutions1)
 
 <!-- endregion:toc -->
+
 - [leetcode](https://leetcode.cn/problems/function-composition)
-
-
 
 ## 1. 📝 Description
 
@@ -55,7 +54,7 @@
 - `0 <= functions.length <= 1000`
 - 所有函数都接受并返回一个整型
 
-## 2. 💻 题解.1
+## 2. 🎯 Solutions.1
 
 ```javascript
 /**
@@ -63,10 +62,9 @@
  * @return {Function}
  */
 var compose = function (functions) {
-
   return function (x) {
-
-    let ans, i = functions.length - 1
+    let ans,
+      i = functions.length - 1
 
     while (i >= 0) {
       const func = functions[i]
@@ -76,7 +74,7 @@ var compose = function (functions) {
 
     return ans ? ans : x
   }
-};
+}
 
 /**
  * const fn = compose([x => x + 1, x => 2 * x])
@@ -93,6 +91,7 @@ var compose = function (functions) {
 
 1. **入参：**输入的参数 `functions` 是一个函数数组，每个函数接收一个整型数据作为参数并返回一个整型数据作为输出。
 2. **返回：**最终返回一个整数。
+
 - `compose` 函数返回一个复合函数，这个复合函数接受一个参数 `x`，并 **从最后一个开始** 依次调用 `functions` 数组中的函数。
 - 将第 `i` 个函数的输出作为第 `i - 1` 个函数的输入，直到将 `functions` 中的函数都遍历完，将最终的结果返回。
 

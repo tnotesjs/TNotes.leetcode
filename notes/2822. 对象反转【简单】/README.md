@@ -3,11 +3,11 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1](#2--题解1)
+- [2. 🎯 Solutions.1](#2--solutions1)
 
 <!-- endregion:toc -->
-- [leetcode](https://leetcode.cn/problems/inversion-of-object)
 
+- [leetcode](https://leetcode.cn/problems/inversion-of-object)
 
 ## 1. 📝 Description
 
@@ -41,7 +41,7 @@
 - `typeof obj[key] === "string"`
 - `2 <= JSON.stringify(obj).length <= 10**5`
 
-## 2. 💻 题解.1
+## 2. 🎯 Solutions.1
 
 ```javascript
 /**
@@ -62,7 +62,7 @@ var invertObject = function (obj) {
     }
   }
   return ans
-};
+}
 ```
 
 `ans[v] = Array.isArray(ans[v]) ? [...ans[v], k] : [ans[v], k]`
@@ -88,8 +88,8 @@ else ans[v] = [ans[v], k]
 var invertObject = function (obj) {
   return Object.entries(obj).reduce((ans, [k, v]) => {
     if (!Object.hasOwn(ans, v)) ans[v] = k
-    else Array.isArray(ans[v]) ? ans[v].push(k) : ans[v] = [ans[v], k]
+    else Array.isArray(ans[v]) ? ans[v].push(k) : (ans[v] = [ans[v], k])
     return ans
   }, {})
-};
+}
 ```

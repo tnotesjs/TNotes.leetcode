@@ -3,12 +3,11 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1 - 滑动窗口](#2--题解1---滑动窗口)
+- [2. 🎯 Solutions.1 - 滑动窗口](#2--solutions1---滑动窗口)
 
 <!-- endregion:toc -->
+
 - [leetcode](https://leetcode.cn/problems/maximum-erasure-value/)
-
-
 
 ## 1. 📝 Description
 
@@ -18,7 +17,7 @@
 
 返回 **只删除一个** 子数组可获得的 **最大得分**。
 
-如果数组 `b` 是数组 `a` 的一个连续子序列，即如果它等于 `a[l],a[l+1],...,a[r]` ，那么它就是 `a` 的一个子数组。
+如果数组 `b` 是数组 `a` 的一个连续子序列，即如果它等于 `a[l],a[l+1],...,a[r]` ，那么它就是  `a` 的一个子数组。
 
 **示例 1：**
 
@@ -37,16 +36,19 @@
 - `1 <= nums.length <= 10^5`
 - `1 <= nums[i] <= 10^4`
 
-## 2. 💻 题解.1 - 滑动窗口
+## 2. 🎯 Solutions.1 - 滑动窗口
 
 ```javascript
 /**
  * @param {number[]} nums
  * @return {number}
  */
-var maximumUniqueSubarray = function(nums) {
+var maximumUniqueSubarray = function (nums) {
   const set = new Set()
-  let ans = 0, left = 0, right = 0, sum = 0
+  let ans = 0,
+    left = 0,
+    right = 0,
+    sum = 0
 
   while (right < nums.length) {
     if (!set.has(nums[right])) {
@@ -61,7 +63,7 @@ var maximumUniqueSubarray = function(nums) {
     }
   }
   return ans
-};
+}
 ```
 
 题解参考：0003. 无重复字符的最长子串

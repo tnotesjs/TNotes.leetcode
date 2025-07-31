@@ -3,11 +3,11 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1](#2--题解1)
+- [2. 🎯 Solutions.1](#2--solutions1)
 
 <!-- endregion:toc -->
-- [leetcode](https://leetcode.cn/problems/detect-capital)
 
+- [leetcode](https://leetcode.cn/problems/detect-capital)
 
 ## 1. 📝 Description
 
@@ -17,33 +17,31 @@
 
 - 全部字母都是大写，比如 `"USA"` 。
 - 单词中所有字母都不是大写，比如 `"leetcode"` 。
-- 如果单词不只含有一个字母，只有首字母大写， 比如 `"Google"` 。
+- 如果单词不只含有一个字母，只有首字母大写，  比如  `"Google"` 。
 
 给你一个字符串 `word` 。如果大写用法正确，返回 `true` ；否则，返回 `false` 。
 
 **示例 1：**
 
-输入：word = "USA"
-输出：true
+输入：word = "USA" 输出：true
 
 **示例 2：**
 
-输入：word = "FlaG"
-输出：false
+输入：word = "FlaG" 输出：false
 
 **提示：**
 
 - `1 <= word.length <= 100`
 - `word` 由小写和大写英文字母组成
 
-## 2. 💻 题解.1
+## 2. 🎯 Solutions.1
 
 ```javascript
 /**
  * @param {string} word
  * @return {boolean}
  */
-var detectCapitalUse = function(word) {
+var detectCapitalUse = function (word) {
   // 'A'.charCodeAt() // 65
   // 'a'.charCodeAt() // 97
   if (isUpperCase(0)) {
@@ -66,5 +64,5 @@ var detectCapitalUse = function(word) {
   function isUpperCase(index) {
     return word[index].charCodeAt() < 97
   }
-};
+}
 ```

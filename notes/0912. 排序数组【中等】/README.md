@@ -4,19 +4,18 @@
 
 - [1. 🔗 links](#1--links)
 - [2. 📝 Description](#2--description)
-- [3. 💻 题解.1 - 原生排序方法](#3--题解1---原生排序方法)
-- [4. 💻 题解.2 - 冒泡排序](#4--题解2---冒泡排序)
+- [3. 🎯 Solutions.1 - 原生排序方法](#3--solutions1---原生排序方法)
+- [4. 🎯 Solutions.2 - 冒泡排序](#4--solutions2---冒泡排序)
   - [4.1. 冒泡排序 - 标准版](#41-冒泡排序---标准版)
   - [4.2. 冒泡排序 - 加入提前终止标志](#42-冒泡排序---加入提前终止标志)
   - [4.3. 冒泡排序 - 鸡尾酒排序 Cocktail Shaker Sort](#43-冒泡排序---鸡尾酒排序-cocktail-shaker-sort)
-- [5. 💻 题解.3 - 选择排序](#5--题解3---选择排序)
-- [6. 💻 题解.4 - 快速排序](#6--题解4---快速排序)
+- [5. 🎯 Solutions.3 - 选择排序](#5--solutions3---选择排序)
+- [6. 🎯 Solutions.4 - 快速排序](#6--solutions4---快速排序)
 - [7. 📒 排序的本质](#7--排序的本质)
 
 <!-- endregion:toc -->
+
 - [leetcode](https://leetcode.cn/problems/sort-an-array)
-
-
 
 ## 1. 🔗 links
 
@@ -27,7 +26,7 @@
 
 ## 2. 📝 Description
 
-给你一个整数数组 `nums`，请你将该数组升序排列。
+给你一个整数数组  `nums`，请你将该数组升序排列。
 
 **示例 1：**
 
@@ -44,14 +43,14 @@
 - `1 <= nums.length <= 5 * 10^4`
 - `-5 * 10^4 <= nums[i] <= 5 * 10^4`
 
-## 3. 💻 题解.1 - 原生排序方法
+## 3. 🎯 Solutions.1 - 原生排序方法
 
 ```javascript
 /**
  * @param {number[]} nums
  * @return {number[]}
  */
-var sortArray = function(nums) {
+var sortArray = function (nums) {
   // 在 JavaScript 中，数组的原生排序方法是 Array.prototype.sort
   return nums.sort((a, b) => a - b)
 }
@@ -61,11 +60,9 @@ var sortArray = function(nums) {
 
 ![](assets/2024-09-25-17-19-13.png)
 
-## 4. 💻 题解.2 - 冒泡排序
+## 4. 🎯 Solutions.2 - 冒泡排序
 
-> 提示：
-> 尝试通过冒泡排序来解答此题，无论如何修改，提交后始终无法通过。
-> 逻辑或许是正确的，不过提交后始终会 **超出时间限制**。
+> 提示：尝试通过冒泡排序来解答此题，无论如何修改，提交后始终无法通过。逻辑或许是正确的，不过提交后始终会 **超出时间限制**。
 
 ### 4.1. 冒泡排序 - 标准版
 
@@ -76,7 +73,7 @@ var sortArray = function(nums) {
  * @param {number[]} nums
  * @return {number[]}
  */
-var sortArray = function(nums) {
+var sortArray = function (nums) {
   const len = nums.length
   for (let i = 0; i < len; i++) {
     for (let j = 0; j < len - i - 1; j++) {
@@ -84,7 +81,7 @@ var sortArray = function(nums) {
     }
   }
   return nums
-};
+}
 
 function compare(arr, a, b) {
   return arr[a] - arr[b] > 0
@@ -108,7 +105,7 @@ function swap(arr, a, b) {
  * @param {number[]} nums
  * @return {number[]}
  */
-var sortArray = function(nums) {
+var sortArray = function (nums) {
   const len = nums.length
   let swapped
   for (let i = 0; i < len; i++) {
@@ -123,7 +120,7 @@ var sortArray = function(nums) {
     if (!swapped) break
   }
   return nums
-};
+}
 
 function compare(arr, a, b) {
   return arr[a] - arr[b] > 0
@@ -155,41 +152,41 @@ function swap(arr, a, b) {
 ![](assets/2024-09-25-17-20-55.png)
 
 ```javascript
-var sortArray = function(nums) {
-  const len = nums.length;
-  let start = 0;
-  let end = len - 1;
-  let swapped;
+var sortArray = function (nums) {
+  const len = nums.length
+  let start = 0
+  let end = len - 1
+  let swapped
 
   while (start < end) {
-    swapped = false;
+    swapped = false
 
     for (let i = start; i < end; i++) {
       if (nums[i] > nums[i + 1]) {
-        swap(nums, i, i + 1);
-        swapped = true;
+        swap(nums, i, i + 1)
+        swapped = true
       }
     }
-    end--;
+    end--
 
     for (let i = end; i > start; i--) {
       if (nums[i] < nums[i - 1]) {
-        swap(nums, i, i - 1);
-        swapped = true;
+        swap(nums, i, i - 1)
+        swapped = true
       }
     }
-    start++;
+    start++
 
-    if (!swapped) break;
+    if (!swapped) break
   }
 
-  return nums;
-};
+  return nums
+}
 
 function swap(arr, a, b) {
-  const temp = arr[a];
-  arr[a] = arr[b];
-  arr[b] = temp;
+  const temp = arr[a]
+  arr[a] = arr[b]
+  arr[b] = temp
 }
 ```
 
@@ -197,7 +194,7 @@ function swap(arr, a, b) {
 
 ![](assets/2024-09-25-17-20-34.png)
 
-## 5. 💻 题解.3 - 选择排序
+## 5. 🎯 Solutions.3 - 选择排序
 
 ```javascript
 /**
@@ -231,16 +228,16 @@ function swap(arr, a, b) {
 
 ![](assets/2024-09-25-17-21-40.png)
 
-## 6. 💻 题解.4 - 快速排序
+## 6. 🎯 Solutions.4 - 快速排序
 
 ```javascript
 /**
  * @param {number[]} nums
  * @return {number[]}
  */
-var sortArray = function(nums) {
+var sortArray = function (nums) {
   return quickSort(nums, 0, nums.length)
-};
+}
 
 function swap(arr, a, b) {
   const temp = arr[a]

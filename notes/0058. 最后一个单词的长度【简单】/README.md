@@ -3,11 +3,11 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1 - 暴力解法 - 直接调用原生 API - trim、split、pop](#2--题解1---暴力解法---直接调用原生-api---trimsplitpop)
+- [2. 🎯 Solutions.1 - 暴力解法 - 直接调用原生 API - trim、split、pop](#2--solutions1---暴力解法---直接调用原生-api---trimsplitpop)
 
 <!-- endregion:toc -->
-- [leetcode](https://leetcode.cn/problems/length-of-last-word/)
 
+- [leetcode](https://leetcode.cn/problems/length-of-last-word/)
 
 ## 1. 📝 Description
 
@@ -20,37 +20,43 @@
 > **子字符串** 是字符串中连续的 **非空** 字符序列。
 
 **示例 1：**
+
 ```
 输入：s = "Hello World"
 输出：5
 解释：最后一个单词是“World”，长度为 5。
 ```
+
 **示例 2：**
+
 ```
 输入：s = "   fly me   to   the moon  "
 输出：4
 解释：最后一个单词是“moon”，长度为 4。
 ```
+
 **示例 3：**
+
 ```
 输入：s = "luffy is still joyboy"
 输出：6
 解释：最后一个单词是长度为 6 的“joyboy”。
 ```
+
 **提示：**
 
 - `1 <= s.length <= 10^4`
 - `s` 仅有英文字母和空格 `' '` 组成
 - `s` 中至少存在一个单词
 
-## 2. 💻 题解.1 - 暴力解法 - 直接调用原生 API - trim、split、pop
+## 2. 🎯 Solutions.1 - 暴力解法 - 直接调用原生 API - trim、split、pop
 
 ```javascript
 /**
  * @param {string} s
  * @return {number}
  */
-var lengthOfLastWord = function(s) {
+var lengthOfLastWord = function (s) {
   return s.trim().split(/\s+/).pop().length
 }
 ```

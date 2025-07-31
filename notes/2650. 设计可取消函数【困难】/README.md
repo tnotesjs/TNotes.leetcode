@@ -3,19 +3,17 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1](#2--题解1)
+- [2. 🎯 Solutions.1](#2--solutions1)
 
 <!-- endregion:toc -->
-- [leetcode](https://leetcode.cn/problems/design-cancellable-function/)
 
+- [leetcode](https://leetcode.cn/problems/design-cancellable-function/)
 
 ## 1. 📝 Description
 
 ::: details [leetcode](https://leetcode.cn)
 
-
-
-## 2. 💻 题解.1
+## 2. 🎯 Solutions.1
 
 ```
 

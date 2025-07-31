@@ -3,11 +3,11 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1 - 双指针](#2--题解1---双指针)
+- [2. 🎯 Solutions.1 - 双指针](#2--solutions1---双指针)
 
 <!-- endregion:toc -->
-- [leetcode](https://leetcode.cn/problems/move-zeroes/)
 
+- [leetcode](https://leetcode.cn/problems/move-zeroes/)
 
 ## 1. 📝 Description
 
@@ -18,23 +18,27 @@
 **请注意** ，必须在不复制数组的情况下原地对数组进行操作。
 
 **示例 1:**
+
 ```
 输入: nums = [0,1,0,3,12]
 输出: [1,3,12,0,0]
 ```
+
 **示例 2:**
+
 ```
 输入: nums = [0]
 输出: [0]
 ```
+
 **提示**:
 
 - `1 <= nums.length <= 10^4`
-- `-2^31 <= nums[i] <= 2^31 - 1`
+- `-2^31 <= nums[i] <= 2^31 - 1`
 
 **进阶：** 你能尽量减少完成的操作次数吗？
 
-## 2. 💻 题解.1 - 双指针
+## 2. 🎯 Solutions.1 - 双指针
 
 ```js
 var moveZeroes = function (nums) {
@@ -42,11 +46,11 @@ var moveZeroes = function (nums) {
     if (nums[i] !== 0) continue
     for (let j = i + 1; j < nums.length; j++) {
       if (nums[j] === 0) continue
-      [nums[i], nums[j]] = [nums[j], nums[i]]
+      ;[nums[i], nums[j]] = [nums[j], nums[i]]
       break
     }
   }
-};
+}
 ```
 
 - 实现思路：

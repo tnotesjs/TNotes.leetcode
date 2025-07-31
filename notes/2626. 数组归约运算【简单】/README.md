@@ -3,11 +3,11 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1](#2--题解1)
+- [2. 🎯 Solutions.1](#2--solutions1)
 
 <!-- endregion:toc -->
-- [leetcode](https://leetcode.cn/problems/array-reduce-transformation)
 
+- [leetcode](https://leetcode.cn/problems/array-reduce-transformation)
 
 ## 1. 📝 Description
 
@@ -19,14 +19,17 @@
 
 如果数组的长度为 0，则函数应返回 `init`。
 
-请你在不使用内置数组方法的 `Array.reduce` 前提下解决这个问题。
+请你在不使用内置数组方法的  `Array.reduce`  前提下解决这个问题。
 
 **示例 1：**
 
 输入：
+
 ```js
-nums = [1,2,3,4]
-fn = function sum(accum, curr) { return accum + curr; }
+nums = [1, 2, 3, 4]
+fn = function sum(accum, curr) {
+  return accum + curr
+}
 init = 0
 ```
 
@@ -50,8 +53,10 @@ Val 最终值为 10。
 输入：
 
 ```js
-nums = [1,2,3,4]
-fn = function sum(accum, curr) { return accum + curr * curr; }
+nums = [1, 2, 3, 4]
+fn = function sum(accum, curr) {
+  return accum + curr * curr
+}
 init = 100
 ```
 
@@ -70,13 +75,15 @@ init = 100
 
 Val 最终值为 130。
 
-**示例3:**
+**示例 3:**
 
 输入：
 
 ```js
 nums = []
-fn = function sum(accum, curr) { return 0; }
+fn = function sum(accum, curr) {
+  return 0
+}
 init = 25
 ```
 
@@ -90,11 +97,11 @@ init = 25
 - `0 <= nums[i] <= 1000`
 - `0 <= init <= 1000`
 
-## 2. 💻 题解.1
+## 2. 🎯 Solutions.1
 
 ```javascript
-var reduce = function(nums, fn, init) {
-  for(let i = 0; i < nums.length; i++) {
+var reduce = function (nums, fn, init) {
+  for (let i = 0; i < nums.length; i++) {
     init = fn(init, nums[i])
   }
   return init

@@ -4,11 +4,11 @@
 
 - [1. 📝 Description](#1--description)
 - [2. 📒 在 js 中，null 参与加法运算的时候自动被视作 0 处理](#2--在-js-中null-参与加法运算的时候自动被视作-0-处理)
-- [3. 💻 题解.1 - DFS + 递归](#3--题解1---dfs--递归)
+- [3. 🎯 Solutions.1 - DFS + 递归](#3--solutions1---dfs--递归)
 
 <!-- endregion:toc -->
-- [leetcode](https://leetcode.cn/problems/merge-two-binary-trees/)
 
+- [leetcode](https://leetcode.cn/problems/merge-two-binary-trees/)
 
 ## 1. 📝 Description
 
@@ -30,7 +30,9 @@
 输入：root1 = [1,3,2,5], root2 = [2,1,3,null,4,null,7]
 输出：[3,4,5,5,4,null,7]
 ```
+
 **示例 2：**
+
 ```
 输入：root1 = [1], root2 = [1,2]
 输出：[2,2]
@@ -47,7 +49,7 @@
 1 + 2 + null // => 3
 ```
 
-## 3. 💻 题解.1 - DFS + 递归
+## 3. 🎯 Solutions.1 - DFS + 递归
 
 ```js
 var mergeTrees = function (root1, root2) {
@@ -56,8 +58,8 @@ var mergeTrees = function (root1, root2) {
     root1.left = mergeTrees(root1.left, root2.left) // 处理左边的树
     root1.right = mergeTrees(root1.right, root2.right) // 处理右边的树
   }
-  return root1 || root2;
-};
+  return root1 || root2
+}
 ```
 
 - 优先处理 root1，优先返回 root1。

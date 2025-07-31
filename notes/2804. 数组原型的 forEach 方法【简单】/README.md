@@ -4,11 +4,11 @@
 
 - [1. 🔗 links](#1--links)
 - [2. 📝 Description](#2--description)
-- [3. 💻 题解.1](#3--题解1)
+- [3. 🎯 Solutions.1](#3--solutions1)
 
 <!-- endregion:toc -->
-- [leetcode](https://leetcode.cn/problems/array-prototype-foreach/)
 
+- [leetcode](https://leetcode.cn/problems/array-prototype-foreach/)
 
 ## 1. 🔗 links
 
@@ -32,17 +32,19 @@
 **示例 1：**
 
 输入：
+
 ```js
-arr = [1,2,3],
-callback = (val, i, arr) => arr[i] = val * 2,
-context = {"context":true}
+;(arr = [1, 2, 3]),
+  (callback = (val, i, arr) => (arr[i] = val * 2)),
+  (context = { context: true })
 ```
 
 输出：`[2,4,6]`
 
 解释：
+
 ```js
-arr.forEach(callback, context) 
+arr.forEach(callback, context)
 console.log(arr) // [2,4,6]
 ```
 
@@ -51,17 +53,19 @@ console.log(arr) // [2,4,6]
 **示例 2：**
 
 输入：
+
 ```js
-arr = [true, true, false, false],
-callback = (val, i, arr) => arr[i] = this,
-context = {"context": false}
+;(arr = [true, true, false, false]),
+  (callback = (val, i, arr) => (arr[i] = this)),
+  (context = { context: false })
 ```
 
 输出：`[{"context":false},{"context":false},{"context":false},{"context":false}]`
 
 解释：
+
 ```js
-arr.forEach(callback, context) 
+arr.forEach(callback, context)
 console.log(arr) // [{"context":false},{"context":false},{"context":false},{"context":false}]
 ```
 
@@ -70,10 +74,11 @@ console.log(arr) // [{"context":false},{"context":false},{"context":false},{"con
 **示例 3：**
 
 输入：
+
 ```js
-arr = [true, true, false, false],
-callback = (val, i, arr) => arr[i] = !val,
-context = {"context": 5}
+;(arr = [true, true, false, false]),
+  (callback = (val, i, arr) => (arr[i] = !val)),
+  (context = { context: 5 })
 ```
 
 输出：`[false,false,true,true]`
@@ -82,10 +87,10 @@ context = {"context": 5}
 
 - `arr` 是一个有效的 JSON 数组
 - `context` 是一个有效的 JSON 对象
-- `fn` 是一个函数
+- `fn`  是一个函数
 - `0 <= arr.length <= 10^5`
 
-## 3. 💻 题解.1
+## 3. 🎯 Solutions.1
 
 ```javascript
 /**
@@ -93,7 +98,7 @@ context = {"context": 5}
  * @param {Object} context
  * @return {void}
  */
-Array.prototype.forEach = function(callback, context) {
+Array.prototype.forEach = function (callback, context) {
   for (let i = 0; i < this.length; i++) {
     callback.call(context, this[i], i, this)
   }

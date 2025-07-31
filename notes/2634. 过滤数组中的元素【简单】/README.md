@@ -3,24 +3,24 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1](#2--题解1)
+- [2. 🎯 Solutions.1](#2--solutions1)
 
 <!-- endregion:toc -->
-- [leetcode](https://leetcode.cn/problems/filter-elements-from-array/)
 
+- [leetcode](https://leetcode.cn/problems/filter-elements-from-array/)
 
 ## 1. 📝 Description
 
 ::: details [leetcode](https://leetcode.cn)
 
-给定一个整数数组 `arr` 和一个过滤函数 `fn`，并返回一个过滤后的数组 `filteredArr` 。
+给定一个整数数组  `arr` 和一个过滤函数 `fn`，并返回一个过滤后的数组 `filteredArr` 。
 
 `fn` 函数接受一个或两个参数：
 
 - `arr[i]` - `arr` 中的数字
 - `i` - `arr[i]` 的索引
 
-`filteredArr` 应该只包含使表达式 `fn(arr[i], i)` 的值为 **真值** 的 `arr` 中的元素。**真值** 是指 `Boolean(value)` 返回参数为 `true` 的值。
+`filteredArr` 应该只包含使表达式 `fn(arr[i], i)` 的值为 **真值** 的 `arr` 中的元素。**真值** 是指 `Boolean(value)`  返回参数为  `true` 的值。
 
 请在不使用内置的 `Array.filter` 方法的情况下解决该问题。
 
@@ -45,9 +45,9 @@
 **提示：**
 
 - `0 <= arr.length <= 1000`
-- `-10^9 <= arr[i] <= 10^9`
+- `-10^9 <= arr[i] <= 10^9`
 
-## 2. 💻 题解.1
+## 2. 🎯 Solutions.1
 
 ```javascript
 var filter = function (arr, fn) {

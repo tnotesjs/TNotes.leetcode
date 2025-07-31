@@ -3,17 +3,17 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1 - 暴力解法 - 使用队列 queue](#2--题解1---暴力解法---使用队列-queue)
+- [2. 🎯 Solutions.1 - 暴力解法 - 使用队列 queue](#2--solutions1---暴力解法---使用队列-queue)
 
 <!-- endregion:toc -->
-- [leetcode](https://leetcode.cn/problems/number-of-recent-calls)
 
+- [leetcode](https://leetcode.cn/problems/number-of-recent-calls)
 
 ## 1. 📝 Description
 
 ::: details [leetcode](https://leetcode.cn)
 
-写一个 `RecentCounter` 类来计算特定时间范围内最近的请求。
+写一个  `RecentCounter`  类来计算特定时间范围内最近的请求。
 
 请你实现 `RecentCounter` 类：
 
@@ -23,6 +23,7 @@
 **保证** 每次对 `ping` 的调用都使用比之前更大的 `t` 值。
 
 **示例 1：**
+
 ```
 输入：
 ["RecentCounter", "ping", "ping", "ping", "ping"]
@@ -37,18 +38,19 @@ recentCounter.ping(100);   // requests = [1, 100]，范围是 [-2900,100]，返�
 recentCounter.ping(3001);  // requests = [1, 100, 3001]，范围是 [1,3001]，返回 3
 recentCounter.ping(3002);  // requests = [1, 100, 3001, 3002]，范围是 [2,3002]，返回 3
 ```
+
 **提示：**
 
 - `1 <= t <= 10^9`
 - 保证每次对 `ping` 调用所使用的 `t` 值都 **严格递增**
 - 至多调用 `ping` 方法 `10^4` 次
 
-## 2. 💻 题解.1 - 暴力解法 - 使用队列 queue
+## 2. 🎯 Solutions.1 - 暴力解法 - 使用队列 queue
 
 ```js
 var RecentCounter = function () {
   this.queue = []
-};
+}
 
 /**
  * @param {number} t
@@ -57,7 +59,7 @@ var RecentCounter = function () {
 RecentCounter.prototype.ping = function (t) {
   this.queue.push(t) // 入队
   while (this.queue[0] < t - 3000) this.queue.shift() // 出队
-  return this.queue.length; // 返回符合条件的队列成员数量
+  return this.queue.length // 返回符合条件的队列成员数量
 }
 
 /**

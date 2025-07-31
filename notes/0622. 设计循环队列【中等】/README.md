@@ -5,12 +5,11 @@
 - [📂 TNotes.yuque](https://www.yuque.com/tdahuyou/tnotes.yuque/)
   - [TNotes.yuque.leetcode.0622](https://www.yuque.com/tdahuyou/tnotes.yuque/leetcode.0622)
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1 - 设计循环队列](#2--题解1---设计循环队列)
+- [2. 🎯 Solutions.1 - 设计循环队列](#2--solutions1---设计循环队列)
 
 <!-- endregion:toc -->
+
 - [leetcode](https://leetcode.cn/problems/design-circular-queue)
-
-
 
 ## 1. 📝 Description
 
@@ -47,11 +46,11 @@ circularQueue.Rear();  // 返回 4
 
 **提示：**
 
-- 所有的值都在 0 至 1000 的范围内；
+- 所有的值都在 0  至 1000 的范围内；
 - 操作数将在 1 至 1000 的范围内；
 - 请不要使用内置的队列库。
 
-## 2. 💻 题解.1 - 设计循环队列
+## 2. 🎯 Solutions.1 - 设计循环队列
 
 ![](assets/622.%20设计循环队列-题解.gif)
 
@@ -59,65 +58,65 @@ circularQueue.Rear();  // 返回 4
 /**
  * @param {number} k
  */
-var MyCircularQueue = function(k) {
+var MyCircularQueue = function (k) {
   this.queue = new Array(k)
   this.count = 0 // 当前共有多少个成员
   this.capacity = k // 容量上限
   this.head = 0
   this.tail = 0
-};
+}
 
 /**
  * @param {number} value
  * @return {boolean}
  */
-MyCircularQueue.prototype.enQueue = function(value) {
+MyCircularQueue.prototype.enQueue = function (value) {
   if (this.isFull()) return false
 
   this.tail = (this.head + this.count) % this.capacity
   this.queue[this.tail] = value
   this.count++
   return true
-};
+}
 
 /**
  * @return {boolean}
  */
-MyCircularQueue.prototype.deQueue = function() {
+MyCircularQueue.prototype.deQueue = function () {
   if (this.isEmpty()) return false
 
   this.head = (this.head + 1) % this.capacity
   this.count--
   return true
-};
+}
 
 /**
  * @return {number}
  */
-MyCircularQueue.prototype.Front = function() {
+MyCircularQueue.prototype.Front = function () {
   return this.isEmpty() ? -1 : this.queue[this.head]
-};
+}
 
 /**
  * @return {number}
  */
-MyCircularQueue.prototype.Rear = function() {
+MyCircularQueue.prototype.Rear = function () {
   return this.isEmpty() ? -1 : this.queue[this.tail]
-};
+}
 
 /**
  * @return {boolean}
  */
-MyCircularQueue.prototype.isEmpty = function() {
+MyCircularQueue.prototype.isEmpty = function () {
   return this.count === 0
-};
+}
 
 /**
  * @return {boolean}
  */
-MyCircularQueue.prototype.isFull = function() {
+MyCircularQueue.prototype.isFull = function () {
   return this.count === this.capacity
-};
+}
 
 /**
  * Your MyCircularQueue object will be instantiated and called as such:

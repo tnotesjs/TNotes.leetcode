@@ -4,9 +4,10 @@
 
 - [1. 🔗 links](#1--links)
 - [2. 📝 Description](#2--description)
-- [3. 💻 题解.1](#3--题解1)
+- [3. 🎯 Solutions.1](#3--solutions1)
 
 <!-- endregion:toc -->
+
 - [leetcode](https://leetcode.cn/problems/chunk-array)
 
 - 备注：本题是仿照 Lodash 中的 `_.chunk` 的实现手写一个 `chunk` 函数。
@@ -18,13 +19,13 @@
 
 ## 2. 📝 Description
 
-给定一个数组 `arr` 和一个块大小 `size` ，返回一个 **分块** 的数组。
+给定一个数组  `arr`  和一个块大小  `size` ，返回一个 **分块**  的数组。
 
-**分块** 的数组包含了 `arr` 中的原始元素，但是每个子数组的长度都是 `size` 。如果 `arr.length` 不能被 `size` 整除，那么最后一个子数组的长度可能小于 `size` 。
+**分块**  的数组包含了  `arr`  中的原始元素，但是每个子数组的长度都是  `size` 。如果  `arr.length`  不能被  `size`  整除，那么最后一个子数组的长度可能小于  `size` 。
 
-你可以假设该数组是 `JSON.parse` 的输出结果。换句话说，它是有效的JSON。
+你可以假设该数组是  `JSON.parse`  的输出结果。换句话说，它是有效的 JSON。
 
-请你在不使用 lodash 的函数 `_.chunk` 的情况下解决这个问题。
+请你在不使用 lodash 的函数  `_.chunk`  的情况下解决这个问题。
 
 **示例 1：**
 
@@ -52,11 +53,11 @@
 
 **提示：**
 
-- `arr` 是一个有效的 JSON 数组
+- `arr`  是一个有效的 JSON 数组
 - `2 <= JSON.stringify(arr).length <= 10^5`
 - `1 <= size <= arr.length + 1`
 
-## 3. 💻 题解.1
+## 3. 🎯 Solutions.1
 
 ```javascript
 /**
@@ -64,7 +65,7 @@
  * @param {number} size
  * @return {Array}
  */
-var chunk = function(arr, size) {
+var chunk = function (arr, size) {
   const len = arr.length
   if (len === 0) return []
   if (size >= len) return [[...arr]]
@@ -74,5 +75,5 @@ var chunk = function(arr, size) {
     ans[i] = arr.slice(i * size, i * size + size)
   }
   return ans
-};
+}
 ```

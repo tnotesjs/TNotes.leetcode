@@ -3,11 +3,11 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1](#2--题解1)
+- [2. 🎯 Solutions.1](#2--solutions1)
 
 <!-- endregion:toc -->
-- [leetcode](https://leetcode.cn/problems/timeout-cancellation)
 
+- [leetcode](https://leetcode.cn/problems/timeout-cancellation)
 
 ## 1. 📝 Description
 
@@ -15,7 +15,7 @@
 
 给定一个函数 `fn` ，一个参数数组 `args` 和一个以毫秒为单位的超时时间 `t` ，返回一个取消函数 `cancelFn` 。
 
-在 `cancelTimeMs` 的延迟后，返回的取消函数 `cancelFn` 将被调用。
+在 `cancelTimeMs`  的延迟后，返回的取消函数 `cancelFn` 将被调用。
 
 `setTimeout(cancelFn, cancelTimeMs)`
 
@@ -32,7 +32,7 @@
   - `const cancelFn = cancellable((x) => x * 5, [2], 20);`
   - `setTimeout(cancelFn, cancelTimeMs);`
 
-取消操作被安排在延迟了 cancelTimeMs（50毫秒）后进行，这发生在 fn(2) 在20毫秒时执行之后。
+取消操作被安排在延迟了 cancelTimeMs（50 毫秒）后进行，这发生在 fn(2) 在 20 毫秒时执行之后。
 
 **示例 2：**
 
@@ -43,7 +43,7 @@
   - `const cancelFn = cancellable((x) => x**2, [2], 100);`
   - `setTimeout(cancelFn, cancelTimeMs);`
 
-取消操作被安排在延迟了 cancelTimeMs（50毫秒）后进行，这发生在 fn(2) 在100毫秒时执行之前，导致 fn(2) 从未被调用。
+取消操作被安排在延迟了 cancelTimeMs（50 毫秒）后进行，这发生在 fn(2) 在 100 毫秒时执行之前，导致 fn(2) 从未被调用。
 
 **示例 3：**
 
@@ -54,7 +54,7 @@
   - `const cancelFn = cancellable((x1, x2) => x1 * x2, [2,4], 30);`
   - `setTimeout(cancelFn, cancelTimeMs);`
 
-取消操作被安排在延迟了 cancelTimeMs（100毫秒）后进行，这发生在 fn(2,4) 在30毫秒时执行之后。
+取消操作被安排在延迟了 cancelTimeMs（100 毫秒）后进行，这发生在 fn(2,4) 在 30 毫秒时执行之后。
 
 **提示：**
 
@@ -62,13 +62,13 @@
 - `args` 是一个有效的 JSON 数组
 - `1 <= args.length <= 10`
 - `20 <= t <= 1000`
-- `10 <= cancelTimeMs <= 1000`
+- `10 <= cancelTimeMs <= 1000`
 
-## 2. 💻 题解.1
+## 2. 🎯 Solutions.1
 
 ```javascript
 var cancellable = function (fn, args, t) {
-  const timer = setTimeout(_ => fn(...args), t)
-  return _ => clearInterval(timer)
+  const timer = setTimeout((_) => fn(...args), t)
+  return (_) => clearInterval(timer)
 }
 ```

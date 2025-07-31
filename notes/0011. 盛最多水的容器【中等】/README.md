@@ -6,8 +6,8 @@
   - [TNotes.yuque.leetcode.0011](https://www.yuque.com/tdahuyou/tnotes.yuque/leetcode.0011)
 - [1. 🔗 links](#1--links)
 - [2. 📝 Description](#2--description)
-- [3. 💻 题解.1 - 暴力枚举](#3--题解1---暴力枚举)
-- [4. 💻 题解.2 - 碰撞指针](#4--题解2---碰撞指针)
+- [3. 🎯 Solutions.1 - 暴力枚举](#3--solutions1---暴力枚举)
+- [4. 🎯 Solutions.2 - 碰撞指针](#4--solutions2---碰撞指针)
 - [5. ❌ 问题解法 - 栈溢出](#5--问题解法---栈溢出)
 - [6. ❌ 问题解法 - 超时](#6--问题解法---超时)
 
@@ -22,9 +22,9 @@
 
 ::: details [leetcode](https://leetcode.cn/problems/container-with-most-water/)
 
-给定一个长度为 `n` 的整数数组 `height` 。有 `n` 条垂线，第 `i` 条线的两个端点是 `(i, 0)` 和 `(i, height[i])` 。
+给定一个长度为 `n` 的整数数组  `height` 。有  `n`  条垂线，第 `i` 条线的两个端点是  `(i, 0)`  和  `(i, height[i])` 。
 
-找出其中的两条线，使得它们与 `x` 轴共同构成的容器可以容纳最多的水。
+找出其中的两条线，使得它们与  `x`  轴共同构成的容器可以容纳最多的水。
 
 返回容器可以储存的最大水量。
 
@@ -36,7 +36,7 @@
 
 - 输入：[1,8,6,2,5,4,8,3,7]
 - 输出：49
-- 解释：图中垂直线代表输入数组 [1,8,6,2,5,4,8,3,7]。在此情况下，容器能够容纳水（表示为蓝色部分）的最大值为 49。
+- 解释：图中垂直线代表输入数组 [1,8,6,2,5,4,8,3,7]。在此情况下，容器能够容纳水（表示为蓝色部分）的最大值为  49。
 
 **示例 2：**
 
@@ -51,7 +51,7 @@
 
 :::
 
-## 3. 💻 题解.1 - 暴力枚举
+## 3. 🎯 Solutions.1 - 暴力枚举
 
 ![](assets/2024-09-25-16-18-33.png)
 
@@ -70,7 +70,7 @@ var maxArea = function (height) {
       if (height[r] >= height[l]) {
         const area = (r - l) * height[l]
         maxArea = maxArea > area ? maxArea : area
-        break;
+        break
       }
     }
   }
@@ -81,7 +81,7 @@ var maxArea = function (height) {
       if (height[l] >= height[r]) {
         const area = (r - l) * height[r]
         maxArea = maxArea > area ? maxArea : area
-        break;
+        break
       }
     }
   }
@@ -108,12 +108,14 @@ var maxArea = function (height) {
 
 [暴力枚举导致超时问题](#Qxt3W)
 
-## 4. 💻 题解.2 - 碰撞指针
+## 4. 🎯 Solutions.2 - 碰撞指针
 
 ```javascript
 var maxArea = function (height) {
   const len = height.length
-  let l = 0, r = len - 1, max_area = 0
+  let l = 0,
+    r = len - 1,
+    max_area = 0
 
   while (l < r) {
     max_area = Math.max(max_area, (r - l) * Math.min(height[l], height[r]))
@@ -180,14 +182,15 @@ var maxArea = function (height) {
  * @return {number}
  */
 var maxArea = function (height) {
-  const areaArr = [], len = height.length
+  const areaArr = [],
+    len = height.length
 
   for (let i = 0; i < len; i++)
     for (let j = i + 1; j < len; j++)
       areaArr.push((j - i) * Math.min(height[i], height[j]))
 
   return Math.max(...areaArr)
-};
+}
 ```
 
 ![](assets/2025-02-04-23-49-35.png)
@@ -253,7 +256,7 @@ function findMaxArgs() {
   // 用二分查找法来查你当前开发环境下，函数最大支持的参数数量。
   while (l < r - 1) {
     mid = Math.floor((l + r) / 2)
-    testMaxArgs(mid) ? l = mid : r = mid
+    testMaxArgs(mid) ? (l = mid) : (r = mid)
   }
   return l // low 应该是最大的支持参数数量
 }
@@ -262,8 +265,6 @@ console.log(findMaxArgs()) // 110223
 ```
 
 `testMaxArgs` 一旦参数溢出，就会报错，并 `return false`，否则正常执行，并 `return true`。以此来判断二分查找区间应该如何变化，通过不断的试错，直到头尾指针相撞。
-
-
 
 ```javascript
 function testStackDepth(depth) {
@@ -280,7 +281,6 @@ console.log(testStackDepth(0)) // 9186
 每次递归调用时，将参数 depth 的值加 1，并尝试继续递归调用 testStackDepth 函数。当调用栈的深度超过 JavaScript 引擎的限制时，会抛出异常，并通过 catch 语句捕获异常并返回当前的调用栈深度。
 
 ## 6. ❌ 问题解法 - 超时
-
 
 ```javascript
 var maxArea = function (height) {

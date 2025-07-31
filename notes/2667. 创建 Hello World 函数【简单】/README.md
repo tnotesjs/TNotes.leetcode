@@ -3,11 +3,11 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1](#2--题解1)
+- [2. 🎯 Solutions.1](#2--solutions1)
 
 <!-- endregion:toc -->
-- [leetcode](https://leetcode.cn/problems/create-hello-world-function)
 
+- [leetcode](https://leetcode.cn/problems/create-hello-world-function)
 
 - 备注：太看得起我了……
 
@@ -41,18 +41,17 @@
 
 - `0 <= args.length <= 10`
 
-## 2. 💻 题解.1
+## 2. 🎯 Solutions.1
 
 ```javascript
 /**
  * @return {Function}
  */
 var createHelloWorld = function () {
-
   return function (...args) {
     return 'Hello World'
   }
-};
+}
 
 /**
  * const f = createHelloWorld();

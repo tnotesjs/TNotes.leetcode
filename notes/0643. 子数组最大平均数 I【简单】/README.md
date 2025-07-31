@@ -3,11 +3,11 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1](#2--题解1)
+- [2. 🎯 Solutions.1](#2--solutions1)
 
 <!-- endregion:toc -->
-- [leetcode](https://leetcode.cn/problems/maximum-average-subarray-i/)
 
+- [leetcode](https://leetcode.cn/problems/maximum-average-subarray-i/)
 
 ## 1. 📝 Description
 
@@ -20,23 +20,27 @@
 任何误差小于 `10^-5` 的答案都将被视为正确答案。
 
 **示例 1：**
+
 ```
 输入：nums = [1,12,-5,-6,50,3], k = 4
 输出：12.75
 解释：最大平均数 (12-5-6+50)/4 = 51/4 = 12.75
 ```
+
 **示例 2：**
+
 ```
 输入：nums = [5], k = 1
 输出：5.00000
 ```
+
 **提示：**
 
 - `n == nums.length`
 - `1 <= k <= n <= 10^5`
 - `-10^4 <= nums[i] <= 10^4`
 
-## 2. 💻 题解.1
+## 2. 🎯 Solutions.1
 
 ```
 

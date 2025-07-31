@@ -3,11 +3,11 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1](#2--题解1)
+- [2. 🎯 Solutions.1](#2--solutions1)
 
 <!-- endregion:toc -->
-- [leetcode](https://leetcode.cn/problems/factorial-generator)
 
+- [leetcode](https://leetcode.cn/problems/factorial-generator)
 
 ## 1. 📝 Description
 
@@ -24,6 +24,7 @@
 - 输入：`n = 5`
 - 输出：`[1,2,6,24,120]`
 - 解释：
+
 ```js
 const gen = factorial(5)
 gen.next().value // 1
@@ -38,6 +39,7 @@ gen.next().value // 120
 - 输入：`n = 2`
 - 输出：`[1,2]`
 - 解释：
+
 ```js
 const gen = factorial(2)
 gen.next().value // 1
@@ -49,6 +51,7 @@ gen.next().value // 2
 - 输入：`n = 0`
 - 输出：`[1]`
 - 解释：
+
 ```js
 const gen = factorial(0)
 gen.next().value // 1
@@ -58,7 +61,7 @@ gen.next().value // 1
 
 - `0 <= n <= 18`
 
-## 2. 💻 题解.1
+## 2. 🎯 Solutions.1
 
 ```javascript
 /**
@@ -66,16 +69,16 @@ gen.next().value // 1
  * @yields {number}
  */
 function* factorial(n) {
-  let result = 1;
+  let result = 1
   if (n === 0) {
-    yield 1;
+    yield 1
   } else {
     for (let i = 1; i <= n; i++) {
-      result *= i;
-      yield result;
+      result *= i
+      yield result
     }
   }
-};
+}
 
 /**
  * const gen = factorial(2);

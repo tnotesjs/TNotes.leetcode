@@ -3,11 +3,11 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1 - 递归](#2--题解1---递归)
+- [2. 🎯 Solutions.1 - 递归](#2--solutions1---递归)
 
 <!-- endregion:toc -->
-- [leetcode](https://leetcode.cn/problems/undefined-to-null/)
 
+- [leetcode](https://leetcode.cn/problems/undefined-to-null/)
 
 ## 1. 📝 Description
 
@@ -16,7 +16,6 @@
 给定一个深层嵌套的对象或数组 obj ，并创建该对象 obj 的副本，将其中的任何 undefined 值替换为 null 。
 
 当使用 JSON.stringify() 将对象转换为 JSON 字符串时，undefined 值与 null 值的处理方式不同。该函数有助于确保序列化数据不会出现意外错误。
-
 
 **示例 1：**
 
@@ -35,18 +34,18 @@
 - `obj` 是一个有效的 JSON 对象或数组
 - `2 <= JSON.stringify(obj).length <= 105`
 
-## 2. 💻 题解.1 - 递归
+## 2. 🎯 Solutions.1 - 递归
 
 ```js
 function undefinedToNull(obj) {
-    for (const key in obj) {
-        if (typeof obj[key] === 'object') {
-            obj[key] = undefinedToNull(obj[key]);
-        }
-        if (obj[key] === undefined) {
-            obj[key] = null;
-        }
+  for (const key in obj) {
+    if (typeof obj[key] === 'object') {
+      obj[key] = undefinedToNull(obj[key])
     }
-    return obj;
+    if (obj[key] === undefined) {
+      obj[key] = null
+    }
+  }
+  return obj
 }
 ```

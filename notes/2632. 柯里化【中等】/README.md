@@ -4,30 +4,32 @@
 
 - [1. 📝 Description](#1--description)
 - [2. 📒 函数的 length 属性](#2--函数的-length-属性)
-- [3. 💻 题解.1](#3--题解1)
-- [4. 💻 题解.2](#4--题解2)
+- [3. 🎯 Solutions.1](#3--solutions1)
+- [4. 🎯 Solutions.2](#4--solutions2)
 
 <!-- endregion:toc -->
+
 - [leetcode](https://leetcode.cn/problems/curry)
-
-
 
 ## 1. 📝 Description
 
 ::: details [leetcode](https://leetcode.cn)
 
-请你编写一个函数，它接收一个其他的函数，并返回该函数的 **柯里化** 后的形式。
+请你编写一个函数，它接收一个其他的函数，并返回该函数的  **柯里化**  后的形式。
 
-**柯里化** 函数的定义是接受与原函数相同数量或更少数量的参数，并返回另一个 **柯里化** 后的函数或与原函数相同的值。
+**柯里化**  函数的定义是接受与原函数相同数量或更少数量的参数，并返回另一个 **柯里化** 后的函数或与原函数相同的值。
 
-实际上，当你调用原函数，如 `sum(1,2,3)` 时，它将调用 **柯里化** 函数的某个形式，如 `csum(1)(2)(3)`， `csum(1)(2,3)`， `csum(1,2)(3)`，或 `csum(1,2,3)` 。所有调用 **柯里化** 函数的方法都应该返回与原始函数相同的值。
+实际上，当你调用原函数，如 `sum(1,2,3)`  时，它将调用 **柯里化** 函数的某个形式，如 `csum(1)(2)(3)`， `csum(1)(2,3)`， `csum(1,2)(3)`，或 `csum(1,2,3)` 。所有调用 **柯里化** 函数的方法都应该返回与原始函数相同的值。
 
 **示例 1：**
 
 输入：
+
 ```js
-fn = function sum(a, b, c) { return a + b + c; }
-inputs = [[1],[2],[3]]
+fn = function sum(a, b, c) {
+  return a + b + c
+}
+inputs = [[1], [2], [3]]
 ```
 
 输出：`6`
@@ -41,6 +43,7 @@ inputs = [[1],[2],[3]]
 **示例 2：**
 
 输入：
+
 ```js
 fn = function sum(a, b, c) { return a + b + c; }
 inputs = [[1,2],[3]]]
@@ -53,9 +56,12 @@ inputs = [[1,2],[3]]]
 **示例 3：**
 
 输入：
+
 ```js
-fn = function sum(a, b, c) { return a + b + c; }
-inputs = [[],[],[1,2,3]]
+fn = function sum(a, b, c) {
+  return a + b + c
+}
+inputs = [[], [], [1, 2, 3]]
 ```
 
 输出：`6`
@@ -65,8 +71,11 @@ inputs = [[],[],[1,2,3]]
 **示例 4：**
 
 输入：
+
 ```js
-fn = function life() { return 42; }
+fn = function life() {
+  return 42
+}
 inputs = [[]]
 ```
 
@@ -81,8 +90,8 @@ inputs = [[]]
 - `0 <= fn.length <= 1000`
 - `inputs.flat().length == fn.length`
 - `函数参数需要被显式定义`
-- 如果 `fn.length > 0` 则最后一个数组 `inputs` 不为空
-- 如果 `fn.length === 0` 则 `inputs.length === 1`
+- 如果  `fn.length > 0`  则最后一个数组  `inputs`  不为空
+- 如果  `fn.length === 0`  则  `inputs.length === 1`
 
 ## 2. 📒 函数的 length 属性
 
@@ -91,10 +100,9 @@ inputs = [[]]
 
 ```javascript
 function testFunction(a, b, c) {
-  return a + b + c;
+  return a + b + c
 }
-console.log(testFunction.length); // 输出 3
-
+console.log(testFunction.length) // 输出 3
 
 const arr = [1, 2, 3]
 arr // [1, 2, 3]
@@ -102,7 +110,7 @@ arr.length = 0
 arr // []
 ```
 
-## 3. 💻 题解.1
+## 3. 🎯 Solutions.1
 
 ```javascript
 /**
@@ -116,7 +124,7 @@ var curry = function (fn) {
     if (receivedArgs.length >= fn.length) return fn(...receivedArgs)
     else return curried
   }
-};
+}
 
 /**
  * function sum(a, b) { return a + b; }
@@ -181,8 +189,7 @@ var curry = function (fn) {
       const res = fn(...receivedArgs) // 缓存结果
       receivedArgs.length = 0 // 清空之前调用的参数
       return res // 返回结果
-    }
-    else return curried
+    } else return curried
   }
 }
 
@@ -197,7 +204,7 @@ var curry = function (fn) {
 
 ![](assets/2024-09-26-21-57-46.png)
 
-## 4. 💻 题解.2
+## 4. 🎯 Solutions.2
 
 ```javascript
 /**
@@ -207,9 +214,9 @@ var curry = function (fn) {
 var curry = function (fn, ...rest1) {
   return (...rest2) => {
     const receivedArgs = rest1.concat(rest2)
-    return receivedArgs.length >= fn.length ?
-      fn(...receivedArgs) :
-      curry(fn, ...receivedArgs)
+    return receivedArgs.length >= fn.length
+      ? fn(...receivedArgs)
+      : curry(fn, ...receivedArgs)
   }
 }
 

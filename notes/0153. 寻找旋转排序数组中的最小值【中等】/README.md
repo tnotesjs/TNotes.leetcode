@@ -4,8 +4,8 @@
 
 - [1. 🔗 links](#1--links)
 - [2. 📝 Description](#2--description)
-- [3. 💻 题解.1 - 双指针1](#3--题解1---双指针1)
-- [4. 💻 题解.2 - 二分查找](#4--题解2---二分查找)
+- [3. 🎯 Solutions.1 - 双指针 1](#3--solutions1---双指针-1)
+- [4. 🎯 Solutions.2 - 二分查找](#4--solutions2---二分查找)
 - [5. 🤖 AI - `pivot = low + ((high - low) >> 1)`、`pivot = (high + low) >> 1` 这两种写法等效吗？](#5--ai---pivot--low--high---low--1pivot--high--low--1-这两种写法等效吗)
   - [5.1. `pivot = low + ((high - low) >> 1)`](#51-pivot--low--high---low--1)
     - [5.1.1. 优点](#511-优点)
@@ -18,9 +18,8 @@
   - [5.5. 结论](#55-结论)
 
 <!-- endregion:toc -->
+
 - [leetcode](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array)
-
-
 
 ## 1. 🔗 links
 
@@ -38,9 +37,10 @@
 
 给你一个元素值 **互不相同** 的数组 `nums` ，它原来是一个升序排列的数组，并按上述情形进行了多次旋转。请你找出并返回数组中的 **最小元素** 。
 
-你必须设计一个时间复杂度为 `O(log n)` 的算法解决此问题。
+你必须设计一个时间复杂度为  `O(log n)` 的算法解决此问题。
 
 **示例 1：**
+
 ```
 输入：nums = [3,4,5,1,2]
 输出：1
@@ -48,6 +48,7 @@
 ```
 
 **示例 2：**
+
 ```
 输入：nums = [4,5,6,7,0,1,2]
 输出：0
@@ -55,10 +56,11 @@
 ```
 
 **示例 3：**
+
 ```
 输入：nums = [11,13,15,17]
 输出：11
-解释：原数组为 [11,13,15,17] ，旋转 4 次得到输入数组。  
+解释：原数组为 [11,13,15,17] ，旋转 4 次得到输入数组。
 ```
 
 **提示：**
@@ -69,7 +71,7 @@
 - `nums` 中的所有整数 **互不相同**
 - `nums` 原来是一个升序排序的数组，并进行了 `1` 至 `n` 次旋转
 
-## 3. 💻 题解.1 - 双指针1
+## 3. 🎯 Solutions.1 - 双指针 1
 
 ```js
 /**
@@ -77,12 +79,13 @@
  * @param {number[]} nums
  * @return {number}
  */
-var findMin = function(nums) {
+var findMin = function (nums) {
   const len = nums.length
 
   if (len === 1) return nums[0]
 
-  let slow = 0, fast = 1
+  let slow = 0,
+    fast = 1
 
   while (fast < len) {
     if (nums[slow] > nums[fast]) return nums[fast]
@@ -92,13 +95,13 @@ var findMin = function(nums) {
   }
 
   return nums[0]
-};
+}
 ```
 
 - 图解：
   - ![](assets/2024-11-23-17-51-26.png)
 
-## 4. 💻 题解.2 - 二分查找
+## 4. 🎯 Solutions.2 - 二分查找
 
 ```js
 /**
@@ -106,19 +109,21 @@ var findMin = function(nums) {
  * @param {number[]} nums
  * @return {number}
  */
-var findMin = function(nums) {
+var findMin = function (nums) {
   const n = nums.length
   if (n === 1) return nums[0]
 
-  let low = 0, high = n - 1, pivot = low + ((high - low) >> 1)
+  let low = 0,
+    high = n - 1,
+    pivot = low + ((high - low) >> 1)
   while (low < high) {
     if (nums[pivot] < nums[high]) high = pivot
     else low = pivot + 1
     pivot = low + ((high - low) >> 1)
   }
-  
+
   return nums[pivot]
-};
+}
 ```
 
 - 图解：
@@ -135,11 +140,13 @@ var findMin = function(nums) {
   - 本题中的 `pivot = low + ((high - low) >> 1)` 可以简写为 `pivot = (high + low) >> 1`
 
 ```js
-var findMin = function(nums) {
+var findMin = function (nums) {
   const n = nums.length
   if (n === 1) return nums[0]
 
-  let low = 0, high = n - 1, pivot = high >> 1
+  let low = 0,
+    high = n - 1,
+    pivot = high >> 1
   while (low < high) {
     if (nums[pivot] < nums[high]) high = pivot
     else low = pivot + 1
@@ -159,9 +166,11 @@ var findMin = function(nums) {
 这种写法是为了防止整数溢出。在某些编程语言中，特别是当 `low` 和 `high` 都是大整数时，`high + low` 可能会导致整数溢出。为了避免这种情况，使用 `low + ((high - low) >> 1)` 可以确保计算结果不会溢出。
 
 #### 5.1.1. 优点
+
 - **防止整数溢出**：适用于大整数的情况，避免 `high + low` 导致的溢出。
 
 #### 5.1.2. 缺点
+
 - **稍微复杂**：相对于 `(high + low) >> 1`，这种写法稍微复杂一些。
 
 ### 5.2. `pivot = (high + low) >> 1`
@@ -169,9 +178,11 @@ var findMin = function(nums) {
 这种写法更简洁，直接计算 `low` 和 `high` 的平均值并右移一位（相当于除以 2）。
 
 #### 5.2.1. 优点
+
 - **简洁**：代码更简洁，易于理解。
 
 #### 5.2.2. 缺点
+
 - **可能溢出**：在某些编程语言中，当 `low` 和 `high` 都是大整数时，`high + low` 可能会导致整数溢出。
 
 ### 5.3. 等效性分析
@@ -186,6 +197,7 @@ var findMin = function(nums) {
 假设 `low = 2` 和 `high = 8`：
 
 1. **`pivot = low + ((high - low) >> 1)`**：
+
    - `high - low = 8 - 2 = 6`
    - `(high - low) >> 1 = 6 >> 1 = 3`
    - `pivot = low + 3 = 2 + 3 = 5`

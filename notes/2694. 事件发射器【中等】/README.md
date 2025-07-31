@@ -3,9 +3,10 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1](#2--题解1)
+- [2. 🎯 Solutions.1](#2--solutions1)
 
 <!-- endregion:toc -->
+
 - [leetcode](https://leetcode.cn/problems/event-emitter)
 
 - 备注：模拟 NodeJS 中的 EventEmitter 模块的效果，仿写一个 EventEmitter 类。
@@ -24,28 +25,45 @@
 **示例 1：**
 
 输入：
+
 ```js
-actions = ["EventEmitter", "emit", "subscribe", "subscribe", "emit"],
-values = [[], ["firstEvent", "function cb1() { return 5; }"],  ["firstEvent", "function cb1() { return 5; }"], ["firstEvent"]]
+;(actions = ['EventEmitter', 'emit', 'subscribe', 'subscribe', 'emit']),
+  (values = [
+    [],
+    ['firstEvent', 'function cb1() { return 5; }'],
+    ['firstEvent', 'function cb1() { return 5; }'],
+    ['firstEvent'],
+  ])
 ```
 
 输出：`[[],["emitted",[]],["subscribed"],["subscribed"],["emitted",[5,6]]]`
 
 解释：
+
 ```js
-const emitter = new EventEmitter();
-emitter.emit("firstEvent"); // [], 还没有订阅任何回调函数
-emitter.subscribe("firstEvent", function cb1() { return 5; });
-emitter.subscribe("firstEvent", function cb2() { return 6; });
-emitter.emit("firstEvent"); // [5, 6], 返回 cb1 和 cb2 的输出
+const emitter = new EventEmitter()
+emitter.emit('firstEvent') // [], 还没有订阅任何回调函数
+emitter.subscribe('firstEvent', function cb1() {
+  return 5
+})
+emitter.subscribe('firstEvent', function cb2() {
+  return 6
+})
+emitter.emit('firstEvent') // [5, 6], 返回 cb1 和 cb2 的输出
 ```
 
 **示例 2：**
 
 输入：
+
 ```js
-actions = ["EventEmitter", "subscribe", "emit", "emit"],
-values = [[], ["firstEvent", "function cb1(...args) { return args.join(','); }"], ["firstEvent", [1,2,3]], ["firstEvent", [3,4,6]]]
+;(actions = ['EventEmitter', 'subscribe', 'emit', 'emit']),
+  (values = [
+    [],
+    ['firstEvent', "function cb1(...args) { return args.join(','); }"],
+    ['firstEvent', [1, 2, 3]],
+    ['firstEvent', [3, 4, 6]],
+  ])
 ```
 
 输出：`[[],["subscribed"],["emitted",["1,2,3"]],["emitted",["3,4,6"]]]`
@@ -62,39 +80,55 @@ emitter.emit("firstEvent", [3, 4, 6]); // ["3,4,6"]
 **示例 3：**
 
 输入：
+
 ```js
-actions = ["EventEmitter", "subscribe", "emit", "unsubscribe", "emit"],
-values = [[], ["firstEvent", "(...args) => args.join(',')"], ["firstEvent", [1,2,3]], [0], ["firstEvent", [4,5,6]]]
+;(actions = ['EventEmitter', 'subscribe', 'emit', 'unsubscribe', 'emit']),
+  (values = [
+    [],
+    ['firstEvent', "(...args) => args.join(',')"],
+    ['firstEvent', [1, 2, 3]],
+    [0],
+    ['firstEvent', [4, 5, 6]],
+  ])
 ```
 
 输出：`[[],["subscribed"],["emitted",["1,2,3"]],["unsubscribed",0],["emitted",[]]]`
 
 解释：
+
 ```js
-const emitter = new EventEmitter();
-const sub = emitter.subscribe("firstEvent", (...args) => args.join(','));
-emitter.emit("firstEvent", [1, 2, 3]); // ["1,2,3"]
-sub.unsubscribe(); // undefined
-emitter.emit("firstEvent", [4, 5, 6]); // [], 没有订阅者
+const emitter = new EventEmitter()
+const sub = emitter.subscribe('firstEvent', (...args) => args.join(','))
+emitter.emit('firstEvent', [1, 2, 3]) // ["1,2,3"]
+sub.unsubscribe() // undefined
+emitter.emit('firstEvent', [4, 5, 6]) // [], 没有订阅者
 ```
 
 **示例 4：**
 
 输入：
+
 ```js
-actions = ["EventEmitter", "subscribe", "subscribe", "unsubscribe", "emit"],
-values = [[], ["firstEvent", "x => x + 1"], ["firstEvent", "x => x + 2"], [0], ["firstEvent", [5]]]
+;(actions = ['EventEmitter', 'subscribe', 'subscribe', 'unsubscribe', 'emit']),
+  (values = [
+    [],
+    ['firstEvent', 'x => x + 1'],
+    ['firstEvent', 'x => x + 2'],
+    [0],
+    ['firstEvent', [5]],
+  ])
 ```
 
 输出：`[[],["subscribed"],["emitted",["1,2,3"]],["unsubscribed",0],["emitted",[7]]]`
 
 解释：
+
 ```js
-const emitter = new EventEmitter();
-const sub1 = emitter.subscribe("firstEvent", x => x + 1);
-const sub2 = emitter.subscribe("firstEvent", x => x + 2);
-sub1.unsubscribe(); // undefined
-emitter.emit("firstEvent", [5]); // [7]
+const emitter = new EventEmitter()
+const sub1 = emitter.subscribe('firstEvent', (x) => x + 1)
+const sub2 = emitter.subscribe('firstEvent', (x) => x + 2)
+sub1.unsubscribe() // undefined
+emitter.emit('firstEvent', [5]) // [7]
 ```
 
 **提示：**
@@ -107,9 +141,7 @@ emitter.emit("firstEvent", [5]); // [7]
 - `subscribe` 操作接收 2 个参数，第一个是事件名，第二个是回调函数。
 - `unsubscribe` 操作接收一个参数，即之前进行订阅的顺序（从 0 开始）。
 
-
-
-## 2. 💻 题解.1
+## 2. 🎯 Solutions.1
 
 ```javascript
 class EventEmitter {
@@ -124,13 +156,13 @@ class EventEmitter {
    */
   subscribe(eventName, callback) {
     const eventId = Math.random().toString().slice(2)
-    this.handlers.push({eventName, callback, eventId})
+    this.handlers.push({ eventName, callback, eventId })
 
     return {
       unsubscribe: () => {
-        this.handlers = this.handlers.filter(h => h.eventId !== eventId)
-      }
-    };
+        this.handlers = this.handlers.filter((h) => h.eventId !== eventId)
+      },
+    }
   }
 
   /**
@@ -140,7 +172,7 @@ class EventEmitter {
    */
   emit(eventName, args = []) {
     const ans = []
-    const handlers = this.handlers.filter(h => h.eventName === eventName)
+    const handlers = this.handlers.filter((h) => h.eventName === eventName)
     const len = handlers.length
     if (len === 0) return ans
     for (let i = 0; i < len; i++) ans.push(handlers[i].callback(...args))

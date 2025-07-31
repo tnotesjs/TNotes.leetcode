@@ -3,16 +3,17 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1 - 三指针暴力解法](#2--题解1---三指针暴力解法)
+- [2. 🎯 Solutions.1 - 三指针暴力解法](#2--solutions1---三指针暴力解法)
 
 <!-- endregion:toc -->
+
 - 本文的题解中提到了一个概念【哑节点（dummy node）、哨兵节点（sentinel node）】这个东西在处理链表中还是蛮常用的，如果不清楚什么是【哑节点（dummy node）、哨兵节点（sentinel node）】，可以结合这道题来了解一下。
 
 ## 1. 📝 Description
 
 ::: details [leetcode](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/description/)
 
-给你一个链表，删除链表的倒数第 `n` 个结点，并且返回链表的头结点。
+给你一个链表，删除链表的倒数第  `n`  个结点，并且返回链表的头结点。
 
 **示例 1：**
 
@@ -48,18 +49,19 @@
 
 :::
 
-## 2. 💻 题解.1 - 三指针暴力解法
+## 2. 🎯 Solutions.1 - 三指针暴力解法
 
 ```javascript
 var removeNthFromEnd = function (head, n) {
-  let p1 = p2 = p3 = new ListNode(-1, head), len = 0;
-  while (p1 = p1.next) len++;
-  let target = len - n + 1;
+  let p1 = (p2 = p3 = new ListNode(-1, head)),
+    len = 0
+  while ((p1 = p1.next)) len++
+  let target = len - n + 1
   // console.log('链表长度：', len, '需要删除的目标元素是第几个元素：', target);
-  while (--target) p2 = p2.next;
-  p2.next = p2.next.next;
-  return p3.next;
-};
+  while (--target) p2 = p2.next
+  p2.next = p2.next.next
+  return p3.next
+}
 ```
 
 - 解题思路：

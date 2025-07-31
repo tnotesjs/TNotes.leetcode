@@ -3,11 +3,12 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1 - 暴力解法 - 直接调用原生 API](#2--题解1---暴力解法---直接调用原生-api)
-- [3. 💻 题解.2 - 双指针](#3--题解2---双指针)
-- [4. 💻 题解.3 - 递归](#4--题解3---递归)
+- [2. 🎯 Solutions.1 - 暴力解法 - 直接调用原生 API](#2--solutions1---暴力解法---直接调用原生-api)
+- [3. 🎯 Solutions.2 - 双指针](#3--solutions2---双指针)
+- [4. 🎯 Solutions.3 - 递归](#4--solutions3---递归)
 
 <!-- endregion:toc -->
+
 - [leetcode](https://leetcode.cn/problems/reverse-string/)
 
 - https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse
@@ -22,21 +23,25 @@
 不要给另外的数组分配额外的空间，你必须 **[原地](https://baike.baidu.com/item/原地算法)修改输入数组**、使用 O(1) 的额外空间解决这一问题。
 
 **示例 1：**
+
 ```
 输入：s = ["h","e","l","l","o"]
 输出：["o","l","l","e","h"]
 ```
+
 **示例 2：**
+
 ```
 输入：s = ["H","a","n","n","a","h"]
 输出：["h","a","n","n","a","H"]
 ```
+
 **提示：**
 
 - `1 <= s.length <= 10^5`
 - `s[i]` 都是 [ASCII](https://baike.baidu.com/item/ASCII) 码表中的可打印字符
 
-## 2. 💻 题解.1 - 暴力解法 - 直接调用原生 API
+## 2. 🎯 Solutions.1 - 暴力解法 - 直接调用原生 API
 
 ```js
 var reverseString = function (s) {
@@ -44,13 +49,14 @@ var reverseString = function (s) {
 }
 ```
 
-## 3. 💻 题解.2 - 双指针
+## 3. 🎯 Solutions.2 - 双指针
 
 ```js
 var reverseString = function (s) {
-  let l = 0, r = s.length - 1
+  let l = 0,
+    r = s.length - 1
   while (l < r) {
-    [s[l], s[r]] = [s[r], s[l]]
+    ;[s[l], s[r]] = [s[r], s[l]]
     l++
     r--
   }
@@ -59,17 +65,17 @@ var reverseString = function (s) {
 
 - ![](assets/2024-11-16-20-17-45.png)
 
-## 4. 💻 题解.3 - 递归
+## 4. 🎯 Solutions.3 - 递归
 
 ```js
 var reverseString = function (s) {
   const convert = (l, r) => {
     if (l > r) return
-    [s[l], s[r]] = [s[r], s[l]]
+    ;[s[l], s[r]] = [s[r], s[l]]
     convert(l + 1, r - 1)
   }
   convert(0, s.length - 1)
-};
+}
 ```
 
 - 思路和双指针是相同的。

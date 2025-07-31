@@ -3,11 +3,11 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1](#2--题解1)
+- [2. 🎯 Solutions.1](#2--solutions1)
 
 <!-- endregion:toc -->
-- [leetcode](https://leetcode.cn/problems/partial-function-with-placeholders)
 
+- [leetcode](https://leetcode.cn/problems/partial-function-with-placeholders)
 
 ## 1. 📝 Description
 
@@ -15,7 +15,7 @@
 
 给定函数 `fn` 和数组 `args`，返回一个函数 `partialFn`。
 
-`args` 中的占位符 `"_"` 需要用 `restArgs` 中索引从 `0` 开始的值替换。 `restArgs` 中剩余的值则添加到 `args` 的末尾。
+`args` 中的占位符 `"_"` 需要用  `restArgs` 中索引从  `0` 开始的值替换。 `restArgs` 中剩余的值则添加到 `args` 的末尾。
 
 `partialFn` 应该返回 `fn` 的结果。`fn` 应该使用修改后的 `args` 的元素作为单独的参数调用。
 
@@ -45,7 +45,7 @@ const result = partialFn(...restArgs)
 console.log(result) // [1,2,3,4,5,6]
 ```
 
-占位符 "_" 被 restArgs 中的值替换。然后将 args 的元素作为单独的参数传递给 fn，fn 返回传递的参数作为数组。
+占位符 "\_" 被 restArgs 中的值替换。然后将 args 的元素作为单独的参数传递给 fn，fn 返回传递的参数作为数组。
 
 **示例 3：**
 
@@ -59,17 +59,17 @@ const result = partialFn(...restArgs)
 console.log(result) // -10
 ```
 
-占位符 "_" 被替换为 5，并将 20 添加到 args 的末尾。然后将 args 的元素作为单独的参数传递给 fn，fn 返回 -10（5 + 5 - 20）。
+占位符 "\_" 被替换为 5，并将 20 添加到 args 的末尾。然后将 args 的元素作为单独的参数传递给 fn，fn 返回 -10（5 + 5 - 20）。
 
 **提示：**
 
 - `fn` 是一个函数
 - `args` 和 `restArgs` 都是有效的 JSON 数组
 - `1 <= args.length <= 5 * 10^4`
-- `1 <= restArgs.length <= 5 * 10^4`
+- `1 <= restArgs.length <= 5 * 10^4`
 - `0 <= number of placeholders <= restArgs.length`
 
-## 2. 💻 题解.1
+## 2. 🎯 Solutions.1
 
 ```javascript
 /**
@@ -83,12 +83,14 @@ var partial = function (fn, args) {
     const arr = [...args]
     for (let i = 0; i < restArgs.length; i++) {
       const targetIndex = arr.indexOf('_')
-      targetIndex === -1 ? arr.push(restArgs[i]) : arr[targetIndex] = restArgs[i]
+      targetIndex === -1
+        ? arr.push(restArgs[i])
+        : (arr[targetIndex] = restArgs[i])
     }
 
     return fn(...arr)
   }
-};
+}
 ```
 
 - 时间复杂度：$O(n^2)$

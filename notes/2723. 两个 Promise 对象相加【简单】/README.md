@@ -3,9 +3,10 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1](#2--题解1)
+- [2. 🎯 Solutions.1](#2--solutions1)
 
 <!-- endregion:toc -->
+
 - [leetcode](https://leetcode.cn/problems/add-two-promises)
 
 - 备注：考察对 Promise 的理解。
@@ -14,14 +15,15 @@
 
 ::: details [leetcode](https://leetcode.cn)
 
-给定两个 promise 对象 `promise1` 和 `promise2`，返回一个新的 promise。`promise1` 和 `promise2` 都会被解析为一个数字。返回的 Promise 应该解析为这两个数字的和。
+给定两个 promise 对象  `promise1` 和 `promise2`，返回一个新的 promise。`promise1` 和 `promise2` 都会被解析为一个数字。返回的 Promise 应该解析为这两个数字的和。
 
 **示例 1：**
 
 输入：
+
 ```js
-promise1 = new Promise(resolve => setTimeout(() => resolve(2), 20)),
-promise2 = new Promise(resolve => setTimeout(() => resolve(5), 60))
+;(promise1 = new Promise((resolve) => setTimeout(() => resolve(2), 20))),
+  (promise2 = new Promise((resolve) => setTimeout(() => resolve(5), 60)))
 ```
 
 输出：`7`
@@ -31,9 +33,10 @@ promise2 = new Promise(resolve => setTimeout(() => resolve(5), 60))
 **示例 2：**
 
 输入：
+
 ```js
-promise1 = new Promise(resolve => setTimeout(() => resolve(10), 50)),
-promise2 = new Promise(resolve => setTimeout(() => resolve(-12), 30))
+;(promise1 = new Promise((resolve) => setTimeout(() => resolve(10), 50))),
+  (promise2 = new Promise((resolve) => setTimeout(() => resolve(-12), 30)))
 ```
 
 输出：`-2`
@@ -44,7 +47,7 @@ promise2 = new Promise(resolve => setTimeout(() => resolve(-12), 30))
 
 - `promise1 和 promise2` 都是被解析为一个数字的 promise 对象
 
-## 2. 💻 题解.1
+## 2. 🎯 Solutions.1
 
 ```javascript
 /**
@@ -52,9 +55,9 @@ promise2 = new Promise(resolve => setTimeout(() => resolve(-12), 30))
  * @param {Promise} promise2
  * @return {Promise}
  */
-var addTwoPromises = async function(promise1, promise2) {
-  return await promise1 + await promise2
-};
+var addTwoPromises = async function (promise1, promise2) {
+  return (await promise1) + (await promise2)
+}
 
 /**
  * addTwoPromises(Promise.resolve(2), Promise.resolve(2))

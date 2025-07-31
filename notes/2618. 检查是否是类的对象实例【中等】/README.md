@@ -5,11 +5,11 @@
 - [1. 🔗 links](#1--links)
 - [2. 📝 Description](#2--description)
 - [3. 📒 使用 Object() 将原始类型的值转为对应的包装对象](#3--使用-object-将原始类型的值转为对应的包装对象)
-- [4. 💻 题解.1](#4--题解1)
+- [4. 🎯 Solutions.1](#4--solutions1)
 
 <!-- endregion:toc -->
-- [leetcode](https://leetcode.cn/problems/check-if-object-instance-of-class)
 
+- [leetcode](https://leetcode.cn/problems/check-if-object-instance-of-class)
 
 ## 1. 🔗 links
 
@@ -19,7 +19,7 @@
 
 请你编写一个函数，检查给定的值是否是给定类或超类的实例。
 
-**可以传递给函数的数据类型没有限制。**例如，值或类可能是  `undefined` 。
+**可以传递给函数的数据类型没有限制。**例如，值或类可能是   `undefined` 。
 
 **示例 1：**
 
@@ -55,20 +55,20 @@ Dog 是 Animal 的子类。因此，Dog 对象同时是 Dog 和 Animal 的实例
 **提示：**`Object` 函数的参数是各种原始类型的值，转换成对象就是原始类型值对应的包装对象。
 
 ```javascript
-var obj = Object(1);
+var obj = Object(1)
 obj instanceof Object // true
 obj instanceof Number // true
 
-var obj = Object('foo');
+var obj = Object('foo')
 obj instanceof Object // true
 obj instanceof String // true
 
-var obj = Object(true);
+var obj = Object(true)
 obj instanceof Object // true
 obj instanceof Boolean // true
 ```
 
-## 4. 💻 题解.1
+## 4. 🎯 Solutions.1
 
 ```javascript
 /**
@@ -77,10 +77,11 @@ obj instanceof Boolean // true
  * @return {boolean}
  */
 var checkIfInstanceOf = function (obj, classFunction) {
-  if ([null, undefined].includes(obj) || !(classFunction instanceof Function)) return false
+  if ([null, undefined].includes(obj) || !(classFunction instanceof Function))
+    return false
   // else if (['object', 'function', 'array'].includes(typeof obj)) return obj instanceof classFunction
   else return Object(obj) instanceof classFunction
-};
+}
 
 /**
  * checkIfInstanceOf(new Date(), Date); // true
@@ -96,7 +97,7 @@ var checkIfInstanceOf = function (obj, classFunction) {
 程序中的 `Object(obj)` 作用是将一个原始类型的值转为引用类型，以便通过 `instanceof` 关键字来检查其类型。引用类型判断可加可不加，效果都一样，若 obj 已经是引用类型了，那么 `Object(obj) === obj`。
 
 ```javascript
-if (['object', 'function', 'array'].includes(typeof obj)){
+if (['object', 'function', 'array'].includes(typeof obj)) {
   return obj instanceof classFunction
   // 若 if 条件成立，则 Object(obj) === obj
   // 因此上述写法和下面的写法是等价的

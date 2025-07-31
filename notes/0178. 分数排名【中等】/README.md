@@ -3,9 +3,9 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1 - DENSE_RANK](#2--题解1---dense_rank)
-- [3. 💻 题解.2 - 使用 `COUNT(DISTINCT ...)` 的相关子查询](#3--题解2---使用-countdistinct--的相关子查询)
-- [4. 💻 题解.3 - 使用 `INNER JOIN` 和 `COUNT(DISTINCT...)`](#4--题解3---使用-inner-join-和-countdistinct)
+- [2. 🎯 Solutions.1 - DENSE_RANK](#2--solutions1---dense_rank)
+- [3. 🎯 Solutions.2 - 使用 `COUNT(DISTINCT ...)` 的相关子查询](#3--solutions2---使用-countdistinct--的相关子查询)
+- [4. 🎯 Solutions.3 - 使用 `INNER JOIN` 和 `COUNT(DISTINCT...)`](#4--solutions3---使用-inner-join-和-countdistinct)
 
 <!-- endregion:toc -->
 
@@ -68,7 +68,7 @@ Scores 表:
 
 :::
 
-## 2. 💻 题解.1 - DENSE_RANK
+## 2. 🎯 Solutions.1 - DENSE_RANK
 
 ::: code-group
 
@@ -85,7 +85,7 @@ FROM
 
 :::
 
-## 3. 💻 题解.2 - 使用 `COUNT(DISTINCT ...)` 的相关子查询
+## 3. 🎯 Solutions.2 - 使用 `COUNT(DISTINCT ...)` 的相关子查询
 
 ::: code-group
 
@@ -108,7 +108,7 @@ ORDER BY
 
 :::
 
-## 4. 💻 题解.3 - 使用 `INNER JOIN` 和 `COUNT(DISTINCT...)`
+## 4. 🎯 Solutions.3 - 使用 `INNER JOIN` 和 `COUNT(DISTINCT...)`
 
 ::: code-group
 

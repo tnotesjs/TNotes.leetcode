@@ -3,9 +3,10 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1](#2--题解1)
+- [2. 🎯 Solutions.1](#2--solutions1)
 
 <!-- endregion:toc -->
+
 - [leetcode](https://leetcode.cn/problems/sort-by)
 
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort - MDN，Array.prototype.sort
@@ -14,7 +15,7 @@
 
 ::: details [leetcode](https://leetcode.cn)
 
-给定一个数组 `arr` 和一个函数 `fn`，返回一个排序后的数组 `sortedArr`。你可以假设 `fn` 只返回数字，并且这些数字决定了 `sortedArr` 的排序顺序。`sortedArr` 必须按照 `fn` 的输出值 **升序** 排序。
+给定一个数组 `arr` 和一个函数 `fn`，返回一个排序后的数组 `sortedArr`。你可以假设 `fn` 只返回数字，并且这些数字决定了 `sortedArr` 的排序顺序。`sortedArr` 必须按照 `fn` 的输出值  **升序** 排序。
 
 你可以假设对于给定的数组，`fn` 不会返回重复的数字。
 
@@ -40,9 +41,9 @@
 
 - `arr` 是一个有效的 JSON 数组
 - `fn` 是一个函数，返回一个数字
-- `1 <= arr.length <= 5 * 10^5`
+- `1 <= arr.length <= 5 * 10^5`
 
-## 2. 💻 题解.1
+## 2. 🎯 Solutions.1
 
 ```javascript
 /**
@@ -50,9 +51,9 @@
  * @param {Function} fn
  * @return {Array}
  */
-var sortBy = function(arr, fn) {
+var sortBy = function (arr, fn) {
   return arr.sort((next, cur) => fn(next) - fn(cur))
-};
+}
 ```
 
 可以通过 `Array.prototype.sort` 快速解题，题目描述中提到：按照 fn 的输出值排序。最先想到的就是数组的 sort 方法，只需要将数组的每一项作为 fn 函数的入参丢给它然后做差即可。

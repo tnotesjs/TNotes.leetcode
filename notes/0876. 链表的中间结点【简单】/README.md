@@ -3,10 +3,11 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1 - 暴力解法 - 先找长度，再找中间](#2--题解1---暴力解法---先找长度再找中间)
-- [3. 💻 题解.2 - 快慢指针 - 一步两步](#3--题解2---快慢指针---一步两步)
+- [2. 🎯 Solutions.1 - 暴力解法 - 先找长度，再找中间](#2--solutions1---暴力解法---先找长度再找中间)
+- [3. 🎯 Solutions.2 - 快慢指针 - 一步两步](#3--solutions2---快慢指针---一步两步)
 
 <!-- endregion:toc -->
+
 - [leetcode](https://leetcode.cn/problems/middle-of-the-linked-list)
 
 - https://leetcode.cn/problems/middle-of-the-linked-list/solutions/165152/kuai-man-zhi-zhen-zhu-yao-zai-yu-diao-shi-by-liwei/
@@ -44,7 +45,7 @@
 - 链表的结点数范围是 `[1, 100]`
 - `1 <= Node.val <= 100`
 
-## 2. 💻 题解.1 - 暴力解法 - 先找长度，再找中间
+## 2. 🎯 Solutions.1 - 暴力解法 - 先找长度，再找中间
 
 ```js
 var middleNode = function(head) {
@@ -63,11 +64,11 @@ var middleNode = function(head) {
 }
 ```
 
-## 3. 💻 题解.2 - 快慢指针 - 一步两步
+## 3. 🎯 Solutions.2 - 快慢指针 - 一步两步
 
 ```js
-var middleNode = function(head) {
-  let slow = fast = head
+var middleNode = function (head) {
+  let slow = (fast = head)
   while (fast.next !== null && fast.next.next !== null) {
     slow = slow.next
     fast = fast.next.next

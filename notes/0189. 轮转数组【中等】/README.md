@@ -3,11 +3,11 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1 - 暴力解法 1 - 使用原生 API - unshift、pop](#2--题解1---暴力解法-1---使用原生-api---unshiftpop)
-- [3. 💻 题解.2 - 暴力解法 2](#3--题解2---暴力解法-2)
-- [4. 💻 题解.3 - 暴力解法 3 - 使用原生 API - splice、reverse](#4--题解3---暴力解法-3---使用原生-api---splicereverse)
-- [5. 💻 题解.4 - 暴力解法 4](#5--题解4---暴力解法-4)
-- [6. 💻 题解.5 - 双指针](#6--题解5---双指针)
+- [2. 🎯 Solutions.1 - 暴力解法 1 - 使用原生 API - unshift、pop](#2--solutions1---暴力解法-1---使用原生-api---unshiftpop)
+- [3. 🎯 Solutions.2 - 暴力解法 2](#3--solutions2---暴力解法-2)
+- [4. 🎯 Solutions.3 - 暴力解法 3 - 使用原生 API - splice、reverse](#4--solutions3---暴力解法-3---使用原生-api---splicereverse)
+- [5. 🎯 Solutions.4 - 暴力解法 4](#5--solutions4---暴力解法-4)
+- [6. 🎯 Solutions.5 - 双指针](#6--solutions5---双指针)
 
 <!-- endregion:toc -->
 
@@ -57,7 +57,7 @@
 
 :::
 
-## 2. 💻 题解.1 - 暴力解法 1 - 使用原生 API - unshift、pop
+## 2. 🎯 Solutions.1 - 暴力解法 1 - 使用原生 API - unshift、pop
 
 ```js
 var rotate = function (nums, k) {
@@ -72,7 +72,7 @@ var rotate = function (nums, k) {
   - 思路或许没问题，不过这么写在 leetcode 上提交后会提示运行超时。
   - ![](assets/2024-11-16-20-22-55.png)
 
-## 3. 💻 题解.2 - 暴力解法 2
+## 3. 🎯 Solutions.2 - 暴力解法 2
 
 ```js
 var rotate = function (nums, k) {
@@ -92,7 +92,7 @@ var rotate = function (nums, k) {
 
 - 会超时
 
-## 4. 💻 题解.3 - 暴力解法 3 - 使用原生 API - splice、reverse
+## 4. 🎯 Solutions.3 - 暴力解法 3 - 使用原生 API - splice、reverse
 
 ```js
 var rotate = function (nums, k) {
@@ -125,7 +125,7 @@ console.log(months)
 // Expected output: Array ["Jan", "Feb", "March", "April", "May"]
 ```
 
-## 5. 💻 题解.4 - 暴力解法 4
+## 5. 🎯 Solutions.4 - 暴力解法 4
 
 ```js
 var rotate = function (nums, k) {
@@ -149,7 +149,7 @@ var rotate = function (nums, k) {
   - 先把后半部分装入原数组
   - 再把前半部分装入原数组
 
-## 6. 💻 题解.5 - 双指针
+## 6. 🎯 Solutions.5 - 双指针
 
 ```js
 // 反转数组(left_index ~ right_index)

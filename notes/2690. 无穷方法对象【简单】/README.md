@@ -3,11 +3,11 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1](#2--题解1)
+- [2. 🎯 Solutions.1](#2--solutions1)
 
 <!-- endregion:toc -->
-- [leetcode](https://leetcode.cn/problems/infinite-method-object)
 
+- [leetcode](https://leetcode.cn/problems/infinite-method-object)
 
 ## 1. 📝 Description
 
@@ -38,18 +38,21 @@
 
 - `0 <= method.length <= 1000`
 
-## 2. 💻 题解.1
+## 2. 🎯 Solutions.1
 
 ```javascript
 /**
  * @return {Object}
  */
 var createInfiniteObject = function () {
-  return new Proxy({}, {
-    get(target, prop) {
-      if (typeof prop === 'string') return () => prop
+  return new Proxy(
+    {},
+    {
+      get(target, prop) {
+        if (typeof prop === 'string') return () => prop
+      },
     }
-  })
+  )
 }
 
 /**

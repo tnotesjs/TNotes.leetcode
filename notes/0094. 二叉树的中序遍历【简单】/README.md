@@ -4,13 +4,12 @@
 
 - [1. 🔗 links](#1--links)
 - [2. 📝 Description](#2--description)
-- [3. 💻 题解.1 - 递归](#3--题解1---递归)
+- [3. 🎯 Solutions.1 - 递归](#3--solutions1---递归)
 - [4. 📒 二叉树的遍历](#4--二叉树的遍历)
 
 <!-- endregion:toc -->
+
 - [leetcode](https://leetcode.cn/problems/binary-tree-inorder-traversal)
-
-
 
 ## 1. 🔗 links
 
@@ -18,7 +17,7 @@
 
 ## 2. 📝 Description
 
-给定一个二叉树的根节点 `root` ，返回它的 **中序** 遍历。
+给定一个二叉树的根节点 `root` ，返回它的 **中序**  遍历。
 
 **示例 1：**
 
@@ -42,9 +41,9 @@
 - 树中节点数目在范围 `[0, 100]` 内
 - `-100 <= Node.val <= 100`
 
-**进阶:** 递归算法很简单，你可以通过迭代算法完成吗？
+**进阶:**  递归算法很简单，你可以通过迭代算法完成吗？
 
-## 3. 💻 题解.1 - 递归
+## 3. 🎯 Solutions.1 - 递归
 
 ```javascript
 /**
@@ -59,7 +58,7 @@
  * @param {TreeNode} root
  * @return {number[]}
  */
-var inorderTraversal = function(root, res = []) {
+var inorderTraversal = function (root, res = []) {
   if (!root) return res
   inorderTraversal(root.left, res)
   res.push(root.val)
@@ -67,7 +66,6 @@ var inorderTraversal = function(root, res = []) {
   return res
 }
 ```
-
 
 ## 4. 📒 二叉树的遍历
 

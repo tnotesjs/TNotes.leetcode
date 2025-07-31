@@ -3,9 +3,9 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1 - 利用二维矩阵模拟](#2--题解1---利用二维矩阵模拟)
-- [3. 💻 题解.2 - 压缩矩阵空间](#3--题解2---压缩矩阵空间)
-- [4. 💻 题解.3 - 直接构造](#4--题解3---直接构造)
+- [2. 🎯 Solutions.1 - 利用二维矩阵模拟](#2--solutions1---利用二维矩阵模拟)
+- [3. 🎯 Solutions.2 - 压缩矩阵空间](#3--solutions2---压缩矩阵空间)
+- [4. 🎯 Solutions.3 - 直接构造](#4--solutions3---直接构造)
 
 <!-- endregion:toc -->
 
@@ -57,7 +57,7 @@ P     I
 
 :::
 
-## 2. 💻 题解.1 - 利用二维矩阵模拟
+## 2. 🎯 Solutions.1 - 利用二维矩阵模拟
 
 ```js
 /**
@@ -95,7 +95,7 @@ var convert = function (s, numRows) {
 }
 ```
 
-## 3. 💻 题解.2 - 压缩矩阵空间
+## 3. 🎯 Solutions.2 - 压缩矩阵空间
 
 ```js
 /**
@@ -129,7 +129,7 @@ var convert = function (s, numRows) {
 }
 ```
 
-## 4. 💻 题解.3 - 直接构造
+## 4. 🎯 Solutions.3 - 直接构造
 
 ```js
 /**

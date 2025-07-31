@@ -3,11 +3,11 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1](#2--题解1)
+- [2. 🎯 Solutions.1](#2--solutions1)
 
 <!-- endregion:toc -->
-- [leetcode](https://leetcode.cn/problems/length-of-the-longest-alphabetical-continuous-substring)
 
+- [leetcode](https://leetcode.cn/problems/length-of-the-longest-alphabetical-continuous-substring)
 
 ## 1. 📝 Description
 
@@ -37,18 +37,18 @@
 - `1 <= s.length <= 10^5`
 - `s` 由小写英文字母组成
 
-## 2. 💻 题解.1
+## 2. 🎯 Solutions.1
 
 ```javascript
 /**
  * @param {string} s
  * @return {number}
  */
-var longestContinuousSubstring = function(s) {
+var longestContinuousSubstring = function (s) {
   const len = s.length
   if (len === 1) return len
 
-  let ans = curMax = 1
+  let ans = (curMax = 1)
   for (let i = 0; i + 1 < len; i++) {
     if (s[i + 1].codePointAt() - s[i].codePointAt() === 1) {
       curMax++
@@ -59,5 +59,5 @@ var longestContinuousSubstring = function(s) {
   }
 
   return ans
-};
+}
 ```

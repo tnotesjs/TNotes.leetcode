@@ -3,9 +3,9 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1 - 暴力解法（转为字符串来比较）](#2--题解1---暴力解法转为字符串来比较)
-- [3. 💻 题解.2 - 先反转再比较](#3--题解2---先反转再比较)
-- [4. 💻 题解.3 - 二分对比](#4--题解3---二分对比)
+- [2. 🎯 Solutions.1 - 暴力解法（转为字符串来比较）](#2--solutions1---暴力解法转为字符串来比较)
+- [3. 🎯 Solutions.2 - 先反转再比较](#3--solutions2---先反转再比较)
+- [4. 🎯 Solutions.3 - 二分对比](#4--solutions3---二分对比)
 
 <!-- endregion:toc -->
 
@@ -17,15 +17,14 @@
 
 **回文数** 是指正序（从左向右）和倒序（从右向左）读都是一样的整数。例如，`121` 是回文，而 `123` 不是。
 
-> 回文数：
-> 如果一个数向前和向后读都相同，则它是一个 **回文数**。例如，`121` 是回文数，而 `123` 不是。
+> 回文数：如果一个数向前和向后读都相同，则它是一个 **回文数**。例如，`121` 是回文数，而 `123` 不是。
 
 **示例 1：**
 
 - 输入：x = 121
 - 输出：true
 
-**示例 2：**
+**示例  2：**
 
 - 输入：x = -121
 - 输出：false
@@ -39,13 +38,13 @@
 
 **提示：**
 
-- `-2^31 <= x <= 2^31 - 1`
+- `-2^31 <= x <= 2^31 - 1`
 
 **进阶：** 你能不将整数转为字符串来解决这个问题吗？
 
 :::
 
-## 2. 💻 题解.1 - 暴力解法（转为字符串来比较）
+## 2. 🎯 Solutions.1 - 暴力解法（转为字符串来比较）
 
 ```javascript
 var isPalindrome = function (x) {
@@ -61,7 +60,7 @@ var isPalindrome = function (x) {
 
 如果 `x` 是负数的话，直接 `return false` 即可。
 
-## 3. 💻 题解.2 - 先反转再比较
+## 3. 🎯 Solutions.2 - 先反转再比较
 
 ```javascript
 var isPalindrome = function (x) {
@@ -69,7 +68,7 @@ var isPalindrome = function (x) {
   const originalNum = x // 原始值
   let resultNum = 0 // 经过反转后的结果
   while (x !== 0) {
-    resultNum = resultNum * 10 + x % 10
+    resultNum = resultNum * 10 + (x % 10)
     x = parseInt(x / 10)
   }
   return originalNum === resultNum
@@ -81,7 +80,7 @@ var isPalindrome = function (x) {
 
 核心逻辑跟【0007. 整数反转】中的【solutions - 数学方法】是一样的。
 
-## 4. 💻 题解.3 - 二分对比
+## 4. 🎯 Solutions.3 - 二分对比
 
 ![](assets/2024-09-25-16-13-37.png)
 

@@ -3,11 +3,12 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1 - 循环拼接](#2--题解1---循环拼接)
-- [3. 💻 题解.2 - 分治法，递归拼接](#3--题解2---分治法递归拼接)
+- [2. 🎯 Solutions.1 - 循环拼接](#2--solutions1---循环拼接)
+- [3. 🎯 Solutions.2 - 分治法，递归拼接](#3--solutions2---分治法递归拼接)
 - [4. 📒 双百提交](#4--双百提交)
 
 <!-- endregion:toc -->
+
 - [leetcode](https://leetcode.cn/problems/repeat-string/description/)
 
 - replicate 复制
@@ -41,19 +42,19 @@
 
 **提示：**
 
-- `1 <= times <= 10^5`
+- `1 <= times <= 10^5`
 - `1 <= str.length <= 1000`
 
-**进阶**：为了简化分析，让我们假设连接字符串是一个常数时间操作 `O(1)`。考虑到这个假设，您能编写时间复杂度为 `O(log n)` 的算法吗？
+**进阶**：为了简化分析，让我们假设连接字符串是一个常数时间操作 `O(1)`。考虑到这个假设，您能编写时间复杂度为 `O(log n)`  的算法吗？
 
-## 2. 💻 题解.1 - 循环拼接
+## 2. 🎯 Solutions.1 - 循环拼接
 
 ```javascript
 /**
  * @param {number} times
  * @return {string}
  */
-String.prototype.replicate = function(times) {
+String.prototype.replicate = function (times) {
   let ans = ''
   for (let i = 0; i < times; i++) {
     ans += this
@@ -69,7 +70,7 @@ String.prototype.replicate = function(times) {
 
 题目中提到 m 是 1（假设连接字符串是一个常数时间操作 `O(1)`），因此时间复杂度 `O(m * n)` 可以简写为 `O(n)`。
 
-## 3. 💻 题解.2 - 分治法，递归拼接
+## 3. 🎯 Solutions.2 - 分治法，递归拼接
 
 ```javascript
 /**

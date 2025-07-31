@@ -3,8 +3,8 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1 - 遍历](#2--题解1---遍历)
-- [3. 💻 题解.2 - 递归](#3--题解2---递归)
+- [2. 🎯 Solutions.1 - 遍历](#2--solutions1---遍历)
+- [3. 🎯 Solutions.2 - 递归](#3--solutions2---递归)
 
 <!-- endregion:toc -->
 
@@ -45,7 +45,7 @@
 
 :::
 
-## 2. 💻 题解.1 - 遍历
+## 2. 🎯 Solutions.1 - 遍历
 
 ```js
 var removeElements = function (head, val) {
@@ -100,7 +100,7 @@ flowchart TD
 
 :::
 
-## 3. 💻 题解.2 - 递归
+## 3. 🎯 Solutions.2 - 递归
 
 ```js
 var removeElements = function (head, val) {

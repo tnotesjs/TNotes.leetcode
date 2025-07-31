@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解](#2--题解)
+- [2. 🎯 Solutions](#2--solutions)
 
 <!-- endregion:toc -->
 
@@ -71,7 +71,7 @@ Employee 表：
 
 :::
 
-## 2. 💻 题解
+## 2. 🎯 Solutions
 
 ```
 

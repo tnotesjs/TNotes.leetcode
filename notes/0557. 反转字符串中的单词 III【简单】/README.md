@@ -3,25 +3,28 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1 - 暴力解法 - 使用原生 API](#2--题解1---暴力解法---使用原生-api)
-- [3. 💻 题解.2 - 双指针](#3--题解2---双指针)
+- [2. 🎯 Solutions.1 - 暴力解法 - 使用原生 API](#2--solutions1---暴力解法---使用原生-api)
+- [3. 🎯 Solutions.2 - 双指针](#3--solutions2---双指针)
 
 <!-- endregion:toc -->
-- [leetcode](https://leetcode.cn/problems/reverse-words-in-a-string-iii/)
 
+- [leetcode](https://leetcode.cn/problems/reverse-words-in-a-string-iii/)
 
 ## 1. 📝 Description
 
 ::: details [leetcode](https://leetcode.cn)
 
-给定一个字符串 `s` ，你需要反转字符串中每个单词的字符顺序，同时仍保留空格和单词的初始顺序。
+给定一个字符串  `s` ，你需要反转字符串中每个单词的字符顺序，同时仍保留空格和单词的初始顺序。
 
 **示例 1：**
+
 ```
 输入：s = "Let's take LeetCode contest"
 输出："s'teL ekat edoCteeL tsetnoc"
 ```
+
 **示例 2:**
+
 ```
 输入： s = "Mr Ding"
 输出："rM gniD"
@@ -30,16 +33,19 @@
 **提示：**
 
 - `1 <= s.length <= 5 * 10^4`
-- `s` 包含可打印的 **ASCII** 字符。
-- `s` 不包含任何开头或结尾空格。
-- `s` 里 **至少** 有一个词。
-- `s` 中的所有单词都用一个空格隔开。
+- `s`  包含可打印的 **ASCII** 字符。
+- `s`  不包含任何开头或结尾空格。
+- `s`  里 **至少** 有一个词。
+- `s`  中的所有单词都用一个空格隔开。
 
-## 2. 💻 题解.1 - 暴力解法 - 使用原生 API
+## 2. 🎯 Solutions.1 - 暴力解法 - 使用原生 API
 
 ```js
-var reverseWords = function(s) {
-  return s.split(" ").map(item => item.split("").reverse().join("")).join(" ")
+var reverseWords = function (s) {
+  return s
+    .split(' ')
+    .map((item) => item.split('').reverse().join(''))
+    .join(' ')
 }
 ```
 
@@ -47,19 +53,24 @@ var reverseWords = function(s) {
 
 ```js
 // 1. 先将字符串按照空格进行拆分，得到一个新数组
-"Let's take LeetCode contest".split(" ")
+"Let's take LeetCode contest".split(' ')
 // => ["Let's", "take", "LeetCode", "contest"]
 
 // 2. 再对每一项进行反转，在反转过程中，需要将其转为 Array 类型
-"Let's take LeetCode contest".split(" ").map(item => item.split("").reverse().join(""))
+"Let's take LeetCode contest"
+  .split(' ')
+  .map((item) => item.split('').reverse().join(''))
 // => ["s'teL", 'ekat', 'edoCteeL', 'tsetnoc']
 
 // 3. 最后将结果拼接为一个字符串即可
-"Let's take LeetCode contest".split(" ").map(item => item.split("").reverse().join("")).join(" ")
+"Let's take LeetCode contest"
+  .split(' ')
+  .map((item) => item.split('').reverse().join(''))
+  .join(' ')
 // => "s'teL ekat edoCteeL tsetnoc"
 ```
 
-## 3. 💻 题解.2 - 双指针
+## 3. 🎯 Solutions.2 - 双指针
 
 ```js
 /**
@@ -70,22 +81,28 @@ var reverseWords = function(s) {
 类似于 344. 反转字符串
  */
 var reverseString = function (s) {
-  let left = 0, len = s.length, right = len - 1, newArr = new Array(len)
+  let left = 0,
+    len = s.length,
+    right = len - 1,
+    newArr = new Array(len)
   while (left <= right) {
     newArr[left] = s[right]
     newArr[right] = s[left]
     left++, right--
   }
-  return newArr.join("")
-};
+  return newArr.join('')
+}
 
 /**
  * @param {string} s
  * @return {string}
  */
 var reverseWords = function (s) {
-  return s.split(" ").map(item => reverseString(item)).join(" ");
-};
+  return s
+    .split(' ')
+    .map((item) => reverseString(item))
+    .join(' ')
+}
 ```
 
 - `newArr = new Array(len)`

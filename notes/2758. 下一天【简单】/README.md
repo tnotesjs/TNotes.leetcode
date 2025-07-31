@@ -3,11 +3,11 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1](#2--题解1)
+- [2. 🎯 Solutions.1](#2--solutions1)
 
 <!-- endregion:toc -->
-- [leetcode](https://leetcode.cn/problems/next-day)
 
+- [leetcode](https://leetcode.cn/problems/next-day)
 
 ## 1. 📝 Description
 
@@ -24,8 +24,8 @@
 解释：
 
 ```js
-const date = new Date("2014-06-20");
-date.nextDay(); // "2014-06-21"
+const date = new Date('2014-06-20')
+date.nextDay() // "2014-06-21"
 ```
 
 **示例 2：**
@@ -38,21 +38,21 @@ date.nextDay(); // "2014-06-21"
 
 - `new Date(date)` 是一个有效的日期对象
 
-## 2. 💻 题解.1
+## 2. 🎯 Solutions.1
 
 ```javascript
 /**
  * @return {string}
  */
 Date.prototype.nextDay = function () {
-  const nextDate = new Date(this.valueOf());
-  nextDate.setDate(this.getDate() + 1);
+  const nextDate = new Date(this.valueOf())
+  nextDate.setDate(this.getDate() + 1)
 
-  const year = nextDate.getFullYear();
-  const month = (nextDate.getMonth() + 1).toString().padStart(2, '0');
-  const day = nextDate.getDate().toString().padStart(2, '0');
+  const year = nextDate.getFullYear()
+  const month = (nextDate.getMonth() + 1).toString().padStart(2, '0')
+  const day = nextDate.getDate().toString().padStart(2, '0')
 
-  return `${year}-${month}-${day}`;
+  return `${year}-${month}-${day}`
 }
 
 /**

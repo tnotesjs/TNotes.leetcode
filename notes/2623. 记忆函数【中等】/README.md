@@ -4,12 +4,12 @@
 
 - [1. 📝 Description](#1--description)
 - [2. 📒 将数字数组直接作为 key](#2--将数字数组直接作为-key)
-- [3. 💻 题解.哈希表](#3--题解哈希表)
-- [4. 💻 题解.双哈希表](#4--题解双哈希表)
+- [3. 🎯 Solutions.哈希表](#3--solutions哈希表)
+- [4. 🎯 Solutions.双哈希表](#4--solutions双哈希表)
 
 <!-- endregion:toc -->
-- [leetcode](https://leetcode.cn/problems/memoize)
 
+- [leetcode](https://leetcode.cn/problems/memoize)
 
 ## 1. 📝 Description
 
@@ -22,8 +22,8 @@
 你可以假设有 **3** 个可能的输入函数：`sum` 、`fib` 和 `factorial` 。
 
 - `sum` 接收两个整型参数 `a` 和 `b` ，并返回 `a + b` 。假设如果参数 `(b, a)` 已经缓存了值，其中 `a != b`，它不能用于参数 `(a, b)`。例如，如果参数是 `(3, 2)` 和 `(2, 3)`，则应进行两个单独的调用。
-- `fib` 接收一个整型参数 `n` ，如果 `n <= 1` 则返回 `1`，否则返回 `fib (n - 1) + fib (n - 2)`。
-- `factorial` 接收一个整型参数 `n` ，如果 `n <= 1` 则返回  `1` ，否则返回 `factorial(n - 1) * n` 。
+- `fib` 接收一个整型参数  `n` ，如果 `n <= 1` 则返回 `1`，否则返回 `fib (n - 1) + fib (n - 2)`。
+- `factorial` 接收一个整型参数 `n` ，如果 `n <= 1` 则返回   `1` ，否则返回 `factorial(n - 1) * n` 。
 
 **示例 1：**
 
@@ -80,7 +80,7 @@ fib(5) = 8 // "call"
 - `0 <= a, b <= 10^5`
 - `1 <= n <= 10`
 - `actions.length === values.length`
-- `actions[i]` 为 "call" 和 "getCallCount" 中的一个
+- `actions[i]` 为  "call" 和 "getCallCount" 中的一个
 - `fnName` 为 "sum", "factorial" 和 "fib" 中的一个
 
 ## 2. 📒 将数字数组直接作为 key
@@ -90,44 +90,44 @@ const arr = [1, 2]
 const cache = {}
 cache[arr] = 3
 
-console.log(arr in cache)                   // true
+console.log(arr in cache) // true
 
-console.log(JSON.stringify(arr))            // [1,2]
+console.log(JSON.stringify(arr)) // [1,2]
 
-console.log(cache[arr])                     // 3
-console.log(cache['[1,2]'])                 // undefined
-console.log(cache[JSON.stringify(arr)])     // undefined
+console.log(cache[arr]) // 3
+console.log(cache['[1,2]']) // undefined
+console.log(cache[JSON.stringify(arr)]) // undefined
 
-console.log(cache)                          // { '1,2': 3 }
+console.log(cache) // { '1,2': 3 }
 
-console.log(arr.join(','))                  // 1,2
-console.log(cache['1,2'])                   // 3
-console.log(cache[arr.join(',')])           // 3
+console.log(arr.join(',')) // 1,2
+console.log(cache['1,2']) // 3
+console.log(cache[arr.join(',')]) // 3
 ```
 
-## 3. 💻 题解.哈希表
+## 3. 🎯 Solutions.哈希表
 
 ```js
 function memoize(fn) {
-    const cache = {};
+  const cache = {}
 
-    return function (...args) {
-        if (args in cache) {
-            return cache[args];
-        }
-        const result = fn(...args);
-        cache[args] = result;
-        return result;
-    };
+  return function (...args) {
+    if (args in cache) {
+      return cache[args]
+    }
+    const result = fn(...args)
+    cache[args] = result
+    return result
+  }
 }
 ```
 
-
-## 4. 💻 题解.双哈希表
+## 4. 🎯 Solutions.双哈希表
 
 如果使用上述的单哈希表 cache 来缓存函数的返回值，当参数是两个对象时，例如 `[{}, {}]`，`[{}, {}]`，`[{}, {}]`，则 `[{}, {}]` 和 `[{}, {}]` 的索引值是相同的，导致缓存命中。
 
 **示例**
+
 ```
 输入：
 getInputs = () => [[{},{}],[{},{}],[{},{}]]
@@ -136,29 +136,30 @@ fn = function (a, b) { return a + b; }
 解释：
 将两个空对象合并总是会得到一个空对象。尽管看起来应该缓存命中并只调用一次 fn()，但是这些空对象彼此之间都不是 === 相等的。
 ```
+
 > 这是来自【2630. 记忆函数 II】的示例 2。【solutions - 哈希表】无法满足这个示例的要求。而双哈希表的解决，可以同时满足【2623. 记忆函数】和【2630. 记忆函数 II】两道题。根本原因在于内部单独维护了一个 idxMap 用来映射每一个参数的索引值。
 
 ```ts
-type Fn = (...params: any) => any;
+type Fn = (...params: any) => any
 
 function memoize(fn: Fn): Fn {
-    const idxMap: Map<string, number> = new Map();
-    const cache: Map<string, any> = new Map();
+  const idxMap: Map<string, number> = new Map()
+  const cache: Map<string, any> = new Map()
 
-    const getIdx = (obj: any): number => {
-        if (!idxMap.has(obj)) {
-            idxMap.set(obj, idxMap.size);
-        }
-        return idxMap.get(obj)!;
-    };
+  const getIdx = (obj: any): number => {
+    if (!idxMap.has(obj)) {
+      idxMap.set(obj, idxMap.size)
+    }
+    return idxMap.get(obj)!
+  }
 
-    return function (...params: any) {
-        const key = params.map(getIdx).join(',');
-        if (!cache.has(key)) {
-            cache.set(key, fn(...params));
-        }
-        return cache.get(key)!;
-    };
+  return function (...params: any) {
+    const key = params.map(getIdx).join(',')
+    if (!cache.has(key)) {
+      cache.set(key, fn(...params))
+    }
+    return cache.get(key)!
+  }
 }
 
 /**

@@ -3,11 +3,11 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1](#2--题解1)
+- [2. 🎯 Solutions.1](#2--solutions1)
 
 <!-- endregion:toc -->
-- [leetcode](https://leetcode.cn/problems/join-two-arrays-by-id)
 
+- [leetcode](https://leetcode.cn/problems/join-two-arrays-by-id)
 
 ## 1. 📝 Description
 
@@ -27,22 +27,22 @@
 **示例 1：**
 
 输入：
+
 ```js
-arr1 = [
-    {"id": 1, "x": 1},
-    {"id": 2, "x": 9}
-],
-arr2 = [
-    {"id": 3, "x": 5}
-]
+;(arr1 = [
+  { id: 1, x: 1 },
+  { id: 2, x: 9 },
+]),
+  (arr2 = [{ id: 3, x: 5 }])
 ```
 
 输出：
+
 ```js
-[
-    {"id": 1, "x": 1},
-    {"id": 2, "x": 9},
-    {"id": 3, "x": 5}
+;[
+  { id: 1, x: 1 },
+  { id: 2, x: 9 },
+  { id: 3, x: 5 },
 ]
 ```
 
@@ -51,23 +51,25 @@ arr2 = [
 **示例 2：**
 
 输入：
+
 ```js
-arr1 = [
-    {"id": 1, "x": 2, "y": 3},
-    {"id": 2, "x": 3, "y": 6}
-],
-arr2 = [
-    {"id": 2, "x": 10, "y": 20},
-    {"id": 3, "x": 0, "y": 0}
-]
+;(arr1 = [
+  { id: 1, x: 2, y: 3 },
+  { id: 2, x: 3, y: 6 },
+]),
+  (arr2 = [
+    { id: 2, x: 10, y: 20 },
+    { id: 3, x: 0, y: 0 },
+  ])
 ```
 
 输出：
+
 ```js
-[
-    {"id": 1, "x": 2, "y": 3},
-    {"id": 2, "x": 10, "y": 20},
-    {"id": 3, "x": 0, "y": 0}
+;[
+  { id: 1, x: 2, y: 3 },
+  { id: 2, x: 10, y: 20 },
+  { id: 3, x: 0, y: 0 },
 ]
 ```
 
@@ -76,13 +78,10 @@ arr2 = [
 **示例 3：**
 
 输入：
+
 ```js
-arr1 = [
-    {"id": 1, "b": {"b": 94},"v": [4, 3], "y": 48}
-]
-arr2 = [
-    {"id": 1, "b": {"c": 84}, "v": [1, 3]}
-]
+arr1 = [{ id: 1, b: { b: 94 }, v: [4, 3], y: 48 }]
+arr2 = [{ id: 1, b: { c: 84 }, v: [1, 3] }]
 ```
 
 输出：`[ {"id": 1, "b": {"c": 84}, "v": [1, 3], "y": 48} ]`
@@ -96,7 +95,7 @@ arr2 = [
 - `2 <= JSON.stringify(arr1).length <= 10^6`
 - `2 <= JSON.stringify(arr2).length <= 10^6`
 
-## 2. 💻 题解.1
+## 2. 🎯 Solutions.1
 
 ```javascript
 /**
@@ -114,15 +113,17 @@ var join = function (arr1, arr2) {
   // 查 arr2
   for (let i = 0; i < arr2.length; i++) {
     const item = arr2[i]
-    if (!map.has(item.id)) { // id 不存在
+    if (!map.has(item.id)) {
+      // id 不存在
       ans.push(item)
       map.set(item.id, ans.length - 1)
-    } else { // id 存在
+    } else {
+      // id 存在
       const existedItem = ans[map.get(item.id)]
       ans[map.get(item.id)] = { ...existedItem, ...item }
     }
   }
 
   return ans.sort((a, b) => a.id - b.id) // 按照 id 升序排序
-};
+}
 ```

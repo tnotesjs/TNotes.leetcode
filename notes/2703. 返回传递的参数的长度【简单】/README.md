@@ -3,11 +3,11 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1](#2--题解1)
+- [2. 🎯 Solutions.1](#2--solutions1)
 
 <!-- endregion:toc -->
-- [leetcode](https://leetcode.cn/problems/return-length-of-arguments-passed)
 
+- [leetcode](https://leetcode.cn/problems/return-length-of-arguments-passed)
 
 ## 1. 📝 Description
 
@@ -33,13 +33,13 @@
 
 **提示：**
 
-- `args` 是一个有效的 JSON 数组
+- `args`  是一个有效的 JSON 数组
 - `0 <= args.length <= 100`
 
-## 2. 💻 题解.1
+## 2. 🎯 Solutions.1
 
 ```javascript
-var argumentsLength = function(...args) {
+var argumentsLength = function (...args) {
   return args.length
 }
 ```

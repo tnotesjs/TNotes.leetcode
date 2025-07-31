@@ -3,11 +3,11 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1](#2--题解1)
+- [2. 🎯 Solutions.1](#2--solutions1)
 
 <!-- endregion:toc -->
-- [leetcode](https://leetcode.cn/problems/interval-cancellation)
 
+- [leetcode](https://leetcode.cn/problems/interval-cancellation)
 
 ## 1. 📝 Description
 
@@ -28,29 +28,29 @@
 输出：
 
 ```js
-[
-  {"time": 0, "returned": 8},
-  {"time": 35, "returned": 8},
-  {"time": 70, "returned": 8},
-  {"time": 105, "returned": 8},
-  {"time": 140, "returned": 8},
-  {"time": 175, "returned": 8}
+;[
+  { time: 0, returned: 8 },
+  { time: 35, returned: 8 },
+  { time: 70, returned: 8 },
+  { time: 105, returned: 8 },
+  { time: 140, returned: 8 },
+  { time: 175, returned: 8 },
 ]
 ```
 
 解释：
 
 ```js
-const cancelTimeMs = 190;
-const cancelFn = cancellable((x) => x * 2, [4], 35);
-setTimeout(cancelFn, cancelTimeMs);
+const cancelTimeMs = 190
+const cancelFn = cancellable((x) => x * 2, [4], 35)
+setTimeout(cancelFn, cancelTimeMs)
 ```
 
 - 每隔 35ms，调用 fn(4)。直到 t=190ms，然后取消。
 - 第一次调用 fn 是在 0ms。fn(4) 返回 8。
 - 第二次调用 fn 是在 35ms。fn(4) 返回 8。
 - 第三次调用 fn 是在 70ms。fn(4) 返回 8。
-- 第四次调用 fn 是在 105ms。fn(4) 返回 8。
+- 第四次调用 fn 是在  105ms。fn(4) 返回 8。
 - 第五次调用 fn 是在 140ms。fn(4) 返回 8。
 - 第六次调用 fn 是在 175ms。fn(4) 返回 8。
 - 在 t=190ms 时取消
@@ -62,21 +62,21 @@ setTimeout(cancelFn, cancelTimeMs);
 输出：
 
 ```js
-[
-  {"time": 0, "returned": 10},
-  {"time": 30, "returned": 10},
-  {"time": 60, "returned": 10},
-  {"time": 90, "returned": 10},
-  {"time": 120, "returned": 10},
-  {"time": 150, "returned": 10}
+;[
+  { time: 0, returned: 10 },
+  { time: 30, returned: 10 },
+  { time: 60, returned: 10 },
+  { time: 90, returned: 10 },
+  { time: 120, returned: 10 },
+  { time: 150, returned: 10 },
 ]
 ```
 
 解释：
 
 ```js
-const cancelTimeMs = 165;
-const cancelFn = cancellable((x1, x2) => (x1 * x2), [2, 5], 30)
+const cancelTimeMs = 165
+const cancelFn = cancellable((x1, x2) => x1 * x2, [2, 5], 30)
 setTimeout(cancelFn, cancelTimeMs)
 ```
 
@@ -84,7 +84,7 @@ setTimeout(cancelFn, cancelTimeMs)
 - 第一次调用 fn 是在 0ms
 - 第二次调用 fn 是在 30ms
 - 第三次调用 fn 是在 60ms
-- 第四次调用 fn 是在 90ms
+- 第四次调用 fn 是在  90ms
 - 第五次调用 fn 是在 120ms
 - 第六次调用 fn 是在 150ms
 - 在 165ms 取消
@@ -96,19 +96,19 @@ setTimeout(cancelFn, cancelTimeMs)
 输出：
 
 ```js
-[
-  {"time": 0, "returned": 9},
-  {"time": 50, "returned": 9},
-  {"time": 100, "returned": 9},
-  {"time": 150, "returned": 9}
+;[
+  { time: 0, returned: 9 },
+  { time: 50, returned: 9 },
+  { time: 100, returned: 9 },
+  { time: 150, returned: 9 },
 ]
 ```
 
 解释：
 
 ```js
-const cancelTimeMs = 180;
-const cancelFn = cancellable((x1, x2, x3) => (x1 + x2 + x3), [5, 1, 3], 50)
+const cancelTimeMs = 180
+const cancelFn = cancellable((x1, x2, x3) => x1 + x2 + x3, [5, 1, 3], 50)
 setTimeout(cancelFn, cancelTimeMs)
 ```
 
@@ -116,7 +116,7 @@ setTimeout(cancelFn, cancelTimeMs)
 - 第一次调用 fn 是在 0ms
 - 第二次调用 fn 是在 50ms
 - 第三次调用 fn 是在 100ms
-- 第四次调用 fn 是在 150ms
+- 第四次调用 fn 是在  150ms
 - 在 180ms 取消
 
 **提示：**
@@ -127,7 +127,7 @@ setTimeout(cancelFn, cancelTimeMs)
 - `30 <= t <= 100`
 - `10 <= cancelT <= 500`
 
-## 2. 💻 题解.1
+## 2. 🎯 Solutions.1
 
 ```javascript
 /**
@@ -136,13 +136,13 @@ setTimeout(cancelFn, cancelTimeMs)
  * @param {number} t
  * @return {Function}
  */
-var cancellable = function(fn, args, t) {
+var cancellable = function (fn, args, t) {
   fn(...args)
   const timer = setInterval(() => {
     fn(...args)
   }, t)
   return () => clearInterval(timer)
-};
+}
 
 /**
  *  const result = [];

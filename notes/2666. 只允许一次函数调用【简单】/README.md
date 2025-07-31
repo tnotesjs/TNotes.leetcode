@@ -3,12 +3,11 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1](#2--题解1)
+- [2. 🎯 Solutions.1](#2--solutions1)
 
 <!-- endregion:toc -->
+
 - [leetcode](https://leetcode.cn/problems/allow-one-function-call)
-
-
 
 ## 1. 📝 Description
 
@@ -45,7 +44,7 @@
 - `1 <= calls[i].length <= 100`
 - `2 <= JSON.stringify(calls).length <= 1000`
 
-## 2. 💻 题解.1
+## 2. 🎯 Solutions.1
 
 ```javascript
 /**
@@ -62,7 +61,7 @@ var once = function (fn) {
       return undefined
     }
   }
-};
+}
 
 /**
  * let fn = (a,b,c) => (a + b + c)

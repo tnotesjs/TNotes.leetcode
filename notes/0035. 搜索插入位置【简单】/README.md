@@ -3,12 +3,12 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1 - 二分查找](#2--题解1---二分查找)
-- [3. 💻 题解.2 - 暴力解法](#3--题解2---暴力解法)
+- [2. 🎯 Solutions.1 - 二分查找](#2--solutions1---二分查找)
+- [3. 🎯 Solutions.2 - 暴力解法](#3--solutions2---暴力解法)
 
 <!-- endregion:toc -->
-- [leetcode](https://leetcode.cn/problems/search-insert-position/)
 
+- [leetcode](https://leetcode.cn/problems/search-insert-position/)
 
 ## 1. 📝 Description
 
@@ -19,44 +19,52 @@
 请必须使用时间复杂度为 `O(log n)` 的算法。
 
 **示例 1:**
+
 ```
 输入: nums = [1,3,5,6], target = 5
 输出: 2
 ```
-**示例 2:**
+
+**示例  2:**
+
 ```
 输入: nums = [1,3,5,6], target = 2
 输出: 1
 ```
+
 **示例 3:**
+
 ```
 输入: nums = [1,3,5,6], target = 7
 输出: 4
 ```
+
 **提示:**
 
 - `1 <= nums.length <= 10^4`
 - `-10^4 <= nums[i] <= 10^4`
-- `nums` 为 **无重复元素** 的 **升序** 排列数组
+- `nums` 为  **无重复元素**  的  **升序**  排列数组
 - `-10^4 <= target <= 10^4`
 
-## 2. 💻 题解.1 - 二分查找
+## 2. 🎯 Solutions.1 - 二分查找
 
 ```javascript
 var searchInsert = function (nums, target) {
-  const len = nums.length;
+  const len = nums.length
   // 特殊情况处理
-  if (target > nums[len - 1]) return len;
+  if (target > nums[len - 1]) return len
   // 二分
-  let l = 0, r = len - 1, mid = (r - l >> 1) + l;
+  let l = 0,
+    r = len - 1,
+    mid = ((r - l) >> 1) + l
   while (l < r) {
-    if (target === nums[mid]) return mid;
-    else if (target > nums[mid]) l = mid + 1;
-    else r = mid;
-    mid = (r - l >> 1) + l;
+    if (target === nums[mid]) return mid
+    else if (target > nums[mid]) l = mid + 1
+    else r = mid
+    mid = ((r - l) >> 1) + l
   }
-  return mid;
-};
+  return mid
+}
 ```
 
 - ![](assets/2024-11-03-21-30-01.png)
@@ -69,16 +77,17 @@ var searchInsert = function (nums, target) {
   4. 循环以上 3 步，直到循环结束「区间不能再细分了，即 `l === r === mid`」，此时区间所指的位置，就是要找的插入位置。
 
 ```js
-var searchInsert = function(nums, target) {
+var searchInsert = function (nums, target) {
   const len = nums.length
 
   // 处理特殊情况
   if (target > nums[len - 1]) return len
 
   // 处理结果在 0 ~ nums.length - 1 的情况
-  let l = 0, r = len - 1
-  while(l < r) {
-    const mid = (r - l >> 1) + l
+  let l = 0,
+    r = len - 1
+  while (l < r) {
+    const mid = ((r - l) >> 1) + l
 
     if (nums[mid] < target) l = mid + 1
     else r = mid
@@ -87,13 +96,13 @@ var searchInsert = function(nums, target) {
 }
 ```
 
-## 3. 💻 题解.2 - 暴力解法
+## 3. 🎯 Solutions.2 - 暴力解法
 
 ```javascript
 var searchInsert = function (nums, target) {
-  for (let i = 0; i < nums.length; i++) if (nums[i] >= target) return i;
-  return nums.length;
-};
+  for (let i = 0; i < nums.length; i++) if (nums[i] >= target) return i
+  return nums.length
+}
 ```
 
 - 思路：
@@ -111,5 +120,5 @@ var searchInsert = function (nums, target) {
   for (let i = 0; i < len; i++) if (target <= nums[i]) return i
 
   return nums.length
-};
+}
 ```

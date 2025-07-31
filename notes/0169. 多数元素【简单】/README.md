@@ -3,28 +3,31 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1 - 排序](#2--题解1---排序)
-- [3. 💻 题解.2 - hash-table](#3--题解2---hash-table)
-- [4. 💻 题解.3 - 分治](#4--题解3---分治)
+- [2. 🎯 Solutions.1 - 排序](#2--solutions1---排序)
+- [3. 🎯 Solutions.2 - hash-table](#3--solutions2---hash-table)
+- [4. 🎯 Solutions.3 - 分治](#4--solutions3---分治)
 
 <!-- endregion:toc -->
-- [leetcode](https://leetcode.cn/problems/majority-element/)
 
+- [leetcode](https://leetcode.cn/problems/majority-element/)
 
 ## 1. 📝 Description
 
 ::: details [leetcode](https://leetcode.cn)
 
-给定一个大小为 `n` 的数组 `nums` ，返回其中的多数元素。多数元素是指在数组中出现次数 **大于** `⌊ n/2 ⌋` 的元素。
+给定一个大小为 `n` 的数组  `nums` ，返回其中的多数元素。多数元素是指在数组中出现次数 **大于** `⌊ n/2 ⌋`  的元素。
 
 你可以假设数组是非空的，并且给定的数组总是存在多数元素。
 
-**示例 1：**
+**示例  1：**
+
 ```
 输入：nums = [3,2,3]
 输出：3
 ```
-**示例 2：**
+
+**示例  2：**
+
 ```
 输入：nums = [2,2,1,1,1,2,2]
 输出：2
@@ -38,28 +41,29 @@
 
 **进阶：** 尝试设计时间复杂度为 O(n)、空间复杂度为 O(1) 的算法解决此问题。
 
-## 2. 💻 题解.1 - 排序
+## 2. 🎯 Solutions.1 - 排序
 
 ```js
-var majorityElement = function(nums) {
-  return nums.sort((a, b) => a - b)[Math.floor(nums.length / 2)];
-};
-```
-
-## 3. 💻 题解.2 - hash-table
-
-```js
-var majorityElement = function(nums) {
-    const len = nums.length, map = new Map()
-    for (let i = 0; i < len; i++) {
-      const item = nums[i]
-      map.set(item, (map.get(item) || 0) + 1)
-      if (map.get(item) > (len / 2)) return item
-    }
+var majorityElement = function (nums) {
+  return nums.sort((a, b) => a - b)[Math.floor(nums.length / 2)]
 }
 ```
 
-## 4. 💻 题解.3 - 分治
+## 3. 🎯 Solutions.2 - hash-table
+
+```js
+var majorityElement = function (nums) {
+  const len = nums.length,
+    map = new Map()
+  for (let i = 0; i < len; i++) {
+    const item = nums[i]
+    map.set(item, (map.get(item) || 0) + 1)
+    if (map.get(item) > len / 2) return item
+  }
+}
+```
+
+## 4. 🎯 Solutions.3 - 分治
 
 ```js
 /**
@@ -74,7 +78,7 @@ var majorityElement = function (nums) {
       if (nums[i] === num) count++
     }
     return count
-  };
+  }
 
   // 获取数组 nums 的区间 [start, end] 中的众数。
   const majorityElementRec = (start, end) => {
@@ -90,7 +94,7 @@ var majorityElement = function (nums) {
     const l_count = countInRange(start, end, l_majority)
     const r_count = countInRange(start, end, r_majority)
     return l_count > r_count ? l_majority : r_majority
-  };
+  }
 
   return majorityElementRec(0, nums.length - 1)
 }

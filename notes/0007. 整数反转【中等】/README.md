@@ -3,8 +3,8 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1 - 暴力解法（转为字符串求解）](#2--题解1---暴力解法转为字符串求解)
-- [3. 💻 题解.2 - 数学方法](#3--题解2---数学方法)
+- [2. 🎯 Solutions.1 - 暴力解法（转为字符串求解）](#2--solutions1---暴力解法转为字符串求解)
+- [3. 🎯 Solutions.2 - 数学方法](#3--solutions2---数学方法)
 - [4. 📒 Math.trunc 的基本用法](#4--mathtrunc-的基本用法)
 - [5. 🤖 markdown 书写数学公式的语法](#5--markdown-书写数学公式的语法)
   - [5.1. 内联公式](#51-内联公式)
@@ -52,7 +52,7 @@
 
 :::
 
-## 2. 💻 题解.1 - 暴力解法（转为字符串求解）
+## 2. 🎯 Solutions.1 - 暴力解法（转为字符串求解）
 
 ![](assets/2024-09-25-15-46-13.png)
 
@@ -95,12 +95,11 @@ var reverse = function (x) {
 
 :::
 
-## 3. 💻 题解.2 - 数学方法
+## 3. 🎯 Solutions.2 - 数学方法
 
 ![](assets/2024-09-25-15-48-44.png)
 
-> 记录：
-> 作图的时候，平板横屏看，感觉图的大小刚好，如果是在手机或者 PC 上预览（限制宽度的话），显然偏小了很多，需要放大来看。接下来作图的时候尽可能不要横向扩展 —— 把宽度弄得太宽，可以纵向扩展 - 让图片长一些，这样预览的效果也许会更好一些。
+> 记录：作图的时候，平板横屏看，感觉图的大小刚好，如果是在手机或者 PC 上预览（限制宽度的话），显然偏小了很多，需要放大来看。接下来作图的时候尽可能不要横向扩展 —— 把宽度弄得太宽，可以纵向扩展 - 让图片长一些，这样预览的效果也许会更好一些。
 
 ```javascript
 var reverse = function (x) {
@@ -249,8 +248,7 @@ console.log(Math.trunc(-4.1)) // 输出: -4
 ```markdown
 Euler's identity is $e^{i\pi} + 1 = 0$.
 
-The quadratic formula is:
-$$ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
+The quadratic formula is: $$ x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$
 
 A matrix:
 
@@ -262,11 +260,7 @@ $$
 \end{pmatrix}
 $$
 
-A system of equations:
-\begin{align*}
-x + y &= 2 \\
-2x - y &= 4
-\end{align*}
+A system of equations: \begin{align*} x + y &= 2 \\ 2x - y &= 4 \end{align*}
 ```
 
 这些示例应该能够帮助你在 Markdown 中正确地书写数学公式。如果你使用的 Markdown 解析器不直接支持 LaTeX 语法，你可能需要查看该解析器的具体文档，了解它支持的数学公式格式。

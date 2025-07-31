@@ -3,11 +3,11 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1](#2--题解1)
+- [2. 🎯 Solutions.1](#2--solutions1)
 
 <!-- endregion:toc -->
-- [leetcode](https://leetcode.cn/problems/sleep/)
 
+- [leetcode](https://leetcode.cn/problems/sleep/)
 
 ## 1. 📝 Description
 
@@ -22,10 +22,10 @@
 - 解释：在 100ms 后此异步函数执行完时返回一个 Promise 对象
 
 ```js
-let t = Date.now();
+let t = Date.now()
 sleep(100).then(() => {
-  console.log(Date.now() - t); // 100
-});
+  console.log(Date.now() - t) // 100
+})
 ```
 
 **示例 2：**
@@ -38,7 +38,7 @@ sleep(100).then(() => {
 
 - `1 <= millis <= 1000`
 
-## 2. 💻 题解.1
+## 2. 🎯 Solutions.1
 
 ```javascript
 /**

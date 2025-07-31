@@ -4,11 +4,11 @@
 
 - [1. 🔗 links](#1--links)
 - [2. 📝 Description](#2--description)
-- [3. 💻 题解.1](#3--题解1)
+- [3. 🎯 Solutions.1](#3--solutions1)
 
 <!-- endregion:toc -->
-- [leetcode](https://leetcode.cn/problems/create-object-from-two-arrays)
 
+- [leetcode](https://leetcode.cn/problems/create-object-from-two-arrays)
 
 ## 1. 🔗 links
 
@@ -43,10 +43,10 @@
 **提示：**
 
 - `keysArr` 和 `valuesArr` 都是有效的 JSON 数组
-- `2 <= JSON.stringify(keysArr).length, JSON.stringify(valuesArr).length <= 5 * 10^5`
+- `2 <= JSON.stringify(keysArr).length, JSON.stringify(valuesArr).length <= 5 * 10^5`
 - `keysArr.length === valuesArr.length`
 
-## 3. 💻 题解.1
+## 3. 🎯 Solutions.1
 
 ```javascript
 /**
@@ -61,7 +61,7 @@ var createObject = function (keysArr, valuesArr) {
     if (!Object.hasOwn(obj, key)) obj[key] = valuesArr[i]
   }
   return obj
-};
+}
 ```
 
 `Object.hasOwn(obj, key)`

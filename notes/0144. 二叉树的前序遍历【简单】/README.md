@@ -4,13 +4,12 @@
 
 - [1. 🔗 links](#1--links)
 - [2. 📝 Description](#2--description)
-- [3. 💻 题解.1 - 递归](#3--题解1---递归)
+- [3. 🎯 Solutions.1 - 递归](#3--solutions1---递归)
 - [4. 📒 二叉树的遍历](#4--二叉树的遍历)
 
 <!-- endregion:toc -->
+
 - [leetcode](https://leetcode.cn/problems/binary-tree-preorder-traversal)
-
-
 
 ## 1. 🔗 links
 
@@ -18,7 +17,7 @@
 
 ## 2. 📝 Description
 
-给你二叉树的根节点 `root` ，返回它节点值的 **前序** 遍历。
+给你二叉树的根节点 `root` ，返回它节点值的  **前序**  遍历。
 
 **示例 1：**
 
@@ -58,7 +57,7 @@
 
 **进阶：**递归算法很简单，你可以通过迭代算法完成吗？
 
-## 3. 💻 题解.1 - 递归
+## 3. 🎯 Solutions.1 - 递归
 
 ```javascript
 /**
@@ -73,7 +72,7 @@
  * @param {TreeNode} root
  * @return {number[]}
  */
-var preorderTraversal = function(root, res = []) {
+var preorderTraversal = function (root, res = []) {
   if (!root) return res
   res.push(root.val)
   preorderTraversal(root.left, res)

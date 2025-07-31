@@ -4,11 +4,11 @@
 
 - [1. 🔗 links](#1--links)
 - [2. 📝 Description](#2--description)
-- [3. 💻 题解.1](#3--题解1)
+- [3. 🎯 Solutions.1](#3--solutions1)
 
 <!-- endregion:toc -->
-- [leetcode](https://leetcode.cn/problems/snail-traversal/)
 
+- [leetcode](https://leetcode.cn/problems/snail-traversal/)
 
 ## 1. 🔗 links
 
@@ -17,13 +17,14 @@
 
 ## 2. 📝 Description
 
-请你编写一段代码为所有数组实现  `snail(rowsCount，colsCount)` 方法，该方法将 1D 数组转换为以蜗牛排序的模式的 2D 数组。无效的输入值应该输出一个空数组。当 `rowsCount * colsCount !==``nums.length` 时。这个输入被认为是无效的。
+请你编写一段代码为所有数组实现   `snail(rowsCount，colsCount)` 方法，该方法将 1D 数组转换为以蜗牛排序的模式的 2D 数组。无效的输入值应该输出一个空数组。当 ` rowsCount * colsCount !==``nums.length `  时。这个输入被认为是无效的。
 
-蜗牛排序从左上角的单元格开始，从当前数组的第一个值开始。然后，它从上到下遍历第一列，接着移动到右边的下一列，并从下到上遍历它。将这种模式持续下去，每列交替变换遍历方向，直到覆盖整个数组。例如，当给定输入数组  `[19, 10, 3, 7, 9, 8, 5, 2, 1, 17, 16, 14, 12, 18, 6, 13, 11, 20, 4, 15]` ，当 `rowsCount = 5` 且 `colsCount = 4` 时，需要输出矩阵如下图所示。注意，矩阵沿箭头方向对应于原数组中数字的顺序
+蜗牛排序从左上角的单元格开始，从当前数组的第一个值开始。然后，它从上到下遍历第一列，接着移动到右边的下一列，并从下到上遍历它。将这种模式持续下去，每列交替变换遍历方向，直到覆盖整个数组。例如，当给定输入数组   `[19, 10, 3, 7, 9, 8, 5, 2, 1, 17, 16, 14, 12, 18, 6, 13, 11, 20, 4, 15]` ，当 `rowsCount = 5`  且  `colsCount = 4` 时，需要输出矩阵如下图所示。注意，矩阵沿箭头方向对应于原数组中数字的顺序
 
 ![](assets/2024-09-29-16-47-15.png)
 
 **示例 1：**
+
 ```
 输入：
 nums = [19, 10, 3, 7, 9, 8, 5, 2, 1, 17, 16, 14, 12, 18, 6, 13, 11, 20, 4, 15]
@@ -38,7 +39,9 @@ colsCount = 4
  [9,8,6,13]
 ]
 ```
+
 **示例 2：**
+
 ```
 输入：
 nums = [1,2,3,4]
@@ -46,7 +49,9 @@ rowsCount = 1
 colsCount = 4
 输出：[[1, 2, 3, 4]]
 ```
+
 **示例 3：**
+
 ```
 输入：
 nums = [1,3]
@@ -63,11 +68,11 @@ Explanation: 2 * 2 = 4, 且原数组 [1,3] 的长度为 2; 所以，输入是无
 - `1 <= rowsCount <= 250`
 - `1 <= colsCount <= 250`
 
-## 3. 💻 题解.1
+## 3. 🎯 Solutions.1
 
 ```ts
 interface Array<T> {
-  snail(rowsCount: number, colsCount: number): number[][];
+  snail(rowsCount: number, colsCount: number): number[][]
 }
 
 Array.prototype.snail = function (
@@ -76,28 +81,28 @@ Array.prototype.snail = function (
 ): number[][] {
   // 处理无效输入
   if (rowsCount * colsCount !== this.length) {
-    return [];
+    return []
   }
 
   // 二维数组初始化
   const ans: number[][] = Array.from({ length: rowsCount }, () =>
     Array(colsCount)
-  );
+  )
 
   for (let i = 0, j = 1, r = 0, c = 0; i < this.length; i++) {
-    ans[r][c] = this[i];
+    ans[r][c] = this[i]
 
-    r += j; // 偏移
+    r += j // 偏移
 
     // 越界处理
     if (r === rowsCount || r === -1) {
-      r -= j;
-      j = -j;
-      c++;
+      r -= j
+      j = -j
+      c++
     }
   }
-  return ans;
-};
+  return ans
+}
 
 /**
  * const arr = [1,2,3,4];

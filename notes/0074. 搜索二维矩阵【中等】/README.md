@@ -4,13 +4,13 @@
 
 - [1. 🔗 links](#1--links)
 - [2. 📝 Description](#2--description)
-- [3. 💻 题解.1 - flat](#3--题解1---flat)
-- [4. 💻 题解.1 - 循环二维数组](#4--题解1---循环二维数组)
-- [5. 💻 题解.1 - 二分查找](#5--题解1---二分查找)
+- [3. 🎯 Solutions.1 - flat](#3--solutions1---flat)
+- [4. 🎯 Solutions.1 - 循环二维数组](#4--solutions1---循环二维数组)
+- [5. 🎯 Solutions.1 - 二分查找](#5--solutions1---二分查找)
 
 <!-- endregion:toc -->
-- [leetcode](https://leetcode.cn/problems/search-a-2d-matrix/)
 
+- [leetcode](https://leetcode.cn/problems/search-a-2d-matrix/)
 
 ## 1. 🔗 links
 
@@ -51,35 +51,38 @@
 - `1 <= m, n <= 100`
 - `-10^4 <= matrix[i][j], target <= 10^4`
 
-## 3. 💻 题解.1 - flat
+## 3. 🎯 Solutions.1 - flat
 
 ```javascript
-var searchMatrix = function(matrix, target) {
-  return matrix.flat().includes(target);
-};
+var searchMatrix = function (matrix, target) {
+  return matrix.flat().includes(target)
+}
 ```
 
 - 将二维数组转换为一维 - `Array.prototype.flat()` - 将数组拍扁。
+
 ```js
-[0, 1, 2, [3, 4]].flat(); // => [0, 1, 2, 3, 4]
-[0, 1, 2, [[[3, 4]]]].flat(2); // => [0, 1, 2, [3, 4]]
+;[0, 1, 2, [3, 4]].flat() // => [0, 1, 2, 3, 4]
+;[0, 1, 2, [[[3, 4]]]].flat(2) // => [0, 1, 2, [3, 4]]
 // flat() 参数默认值为 1
 ```
+
 - ![](assets/2024-11-03-21-45-21.png)
 
-## 4. 💻 题解.1 - 循环二维数组
+## 4. 🎯 Solutions.1 - 循环二维数组
 
 ```javascript
-var searchMatrix = function(matrix, target) {
-  const rows = matrix.length, cols = matrix[0].length;
+var searchMatrix = function (matrix, target) {
+  const rows = matrix.length,
+    cols = matrix[0].length
   for (let r = 0; r < rows; r++) {
     for (let c = 0; c < cols; c++) {
-      const item = matrix[r][c];
-      if (item === target) return true;
+      const item = matrix[r][c]
+      if (item === target) return true
     }
   }
-  return false;
-};
+  return false
+}
 ```
 
 - 两个 for 循环，暴力循环二维数组的每一项。
@@ -87,25 +90,25 @@ var searchMatrix = function(matrix, target) {
   - 若找完所有项都没找到与目标值相等的值，则返回 false，表明该二维数组 matrix 中不存在目标值。
 - ![](assets/2024-11-03-21-47-00.png)
 
-## 5. 💻 题解.1 - 二分查找
+## 5. 🎯 Solutions.1 - 二分查找
 
 ```javascript
-var searchMatrix = function(matrix, target) {
+var searchMatrix = function (matrix, target) {
   const rows = matrix.length,
-    cols = matrix[0].length;
+    cols = matrix[0].length
   let start = 0,
-    end = rows * cols - 1;
+    end = rows * cols - 1
   while (start <= end) {
     const mid = start + ((end - start) >> 1),
       r = parseInt(mid / cols),
       c = mid % cols,
-      item = matrix[r][c];
-    if (item === target) return true;
-    else if (item < target) start = mid + 1;
-    else end = mid - 1;
+      item = matrix[r][c]
+    if (item === target) return true
+    else if (item < target) start = mid + 1
+    else end = mid - 1
   }
-  return false;
-};
+  return false
+}
 ```
 
 - 将二维数组视作一维数组来做，并且题目明确该二维数组是有序的。

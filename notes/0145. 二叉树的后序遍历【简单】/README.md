@@ -4,18 +4,16 @@
 
 - [1. 🔗 links](#1--links)
 - [2. 📝 Description](#2--description)
-- [3. 💻 题解.1 - 递归](#3--题解1---递归)
+- [3. 🎯 Solutions.1 - 递归](#3--solutions1---递归)
 - [4. 📒 二叉树的遍历](#4--二叉树的遍历)
 
 <!-- endregion:toc -->
+
 - [leetcode](https://leetcode.cn/problems/binary-tree-postorder-traversal)
-
-
 
 ## 1. 🔗 links
 
 - https://wansuanfa.com/index.php/701 - 玩算法，二叉树的 DFS 遍历。
-
 
 ## 2. 📝 Description
 
@@ -45,7 +43,7 @@
 
 **进阶：**递归算法很简单，你可以通过迭代算法完成吗？
 
-## 3. 💻 题解.1 - 递归
+## 3. 🎯 Solutions.1 - 递归
 
 ```javascript
 /**
@@ -60,7 +58,7 @@
  * @param {TreeNode} root
  * @return {number[]}
  */
-var postorderTraversal = function(root, res = []) {
+var postorderTraversal = function (root, res = []) {
   if (!root) return res
   postorderTraversal(root.left, res)
   postorderTraversal(root.right, res)

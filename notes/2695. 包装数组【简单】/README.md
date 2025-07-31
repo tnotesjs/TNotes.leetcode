@@ -3,9 +3,10 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1](#2--题解1)
+- [2. 🎯 Solutions.1](#2--solutions1)
 
 <!-- endregion:toc -->
+
 - [leetcode](https://leetcode.cn/problems/array-wrapper)
 
 - 总感觉这题考察的点有点儿偏，你需要知道对象类型的加法运算，实际上会先走 valueOf 然后走 toString。但是平时谁没事会那对象来做加法运算呢？？？除此之外，你还需要知道在 JS 中，当一个函数被 new 关键字调用的时候，会隐式的在函数作用域的头部新建一个 this，然后在结尾将 this 返回。
@@ -38,10 +39,11 @@ new ArrayWrapper(...)
 输出：`10`
 
 解释：
+
 ```js
-const obj1 = new ArrayWrapper([1,2]);
-const obj2 = new ArrayWrapper([3,4]);
-obj1 + obj2; // 10
+const obj1 = new ArrayWrapper([1, 2])
+const obj2 = new ArrayWrapper([3, 4])
+obj1 + obj2 // 10
 ```
 
 **示例 2：**
@@ -51,9 +53,10 @@ obj1 + obj2; // 10
 输出：`"[23,98,42,70]"`
 
 解释：
+
 ```js
-const obj = new ArrayWrapper([23,98,42,70]);
-String(obj); // "[23,98,42,70]"
+const obj = new ArrayWrapper([23, 98, 42, 70])
+String(obj) // "[23,98,42,70]"
 ```
 
 **示例 3：**
@@ -63,40 +66,41 @@ String(obj); // "[23,98,42,70]"
 输出：`0`
 
 解释：
+
 ```js
-const obj1 = new ArrayWrapper([]);
-const obj2 = new ArrayWrapper([]);
-obj1 + obj2; // 0
+const obj1 = new ArrayWrapper([])
+const obj2 = new ArrayWrapper([])
+obj1 + obj2 // 0
 ```
 
 **提示：**
 
 - `0 <= nums.length <= 1000`
-- `0 <= nums[i] <= 1000`
+- `0 <= nums[i] <= 1000`
 - `注意：nums 是传递给构造函数的数组。`
 
-## 2. 💻 题解.1
+## 2. 🎯 Solutions.1
 
 ```javascript
 /**
  * @param {number[]} nums
  * @return {void}
  */
-var ArrayWrapper = function(nums) {
+var ArrayWrapper = function (nums) {
   this.nums = nums
-};
+}
 
 /**
  * @return {number}
  */
-ArrayWrapper.prototype.valueOf = function() {
+ArrayWrapper.prototype.valueOf = function () {
   return this.nums.reduce((pre, cur) => pre + cur, 0)
 }
 
 /**
  * @return {string}
  */
-ArrayWrapper.prototype.toString = function() {
+ArrayWrapper.prototype.toString = function () {
   return `[${this.nums.toString()}]`
 }
 

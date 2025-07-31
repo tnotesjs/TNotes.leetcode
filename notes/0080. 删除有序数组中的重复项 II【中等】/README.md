@@ -3,13 +3,13 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1 - 暴力解法](#2--题解1---暴力解法)
-- [3. 💻 题解.2 - 快慢指针](#3--题解2---快慢指针)
+- [2. 🎯 Solutions.1 - 暴力解法](#2--solutions1---暴力解法)
+- [3. 🎯 Solutions.2 - 快慢指针](#3--solutions2---快慢指针)
 - [4. 📒 尝试正则解法失败](#4--尝试正则解法失败)
 
 <!-- endregion:toc -->
-- [leetcode](https://leetcode.cn/problems/remove-duplicates-from-sorted-array-ii)
 
+- [leetcode](https://leetcode.cn/problems/remove-duplicates-from-sorted-array-ii)
 
 ## 1. 📝 Description
 
@@ -26,6 +26,7 @@
 请注意，输入数组是以 **「引用」** 方式传递的，这意味着在函数里修改输入数组对于调用者是可见的。
 
 你可以想象内部操作如下:
+
 ```
 // nums 是以“引用”方式传递的。也就是说，不对实参做任何拷贝
 int len = removeDuplicates(nums);
@@ -38,6 +39,7 @@ for (int i = 0; i < len; i++) {
 ```
 
 **示例 1：**
+
 ```
 输入：nums = [1,1,1,2,2,3]
 输出：5, nums = [1,1,2,2,3]
@@ -45,6 +47,7 @@ for (int i = 0; i < len; i++) {
 ```
 
 **示例 2：**
+
 ```
 输入：nums = [0,0,1,1,1,1,2,3,3]
 输出：7, nums = [0,0,1,1,2,3,3]
@@ -57,7 +60,7 @@ for (int i = 0; i < len; i++) {
 - `-10^4 <= nums[i] <= 10^4`
 - `nums` 已按升序排列
 
-## 2. 💻 题解.1 - 暴力解法
+## 2. 🎯 Solutions.1 - 暴力解法
 
 ```js
 /**
@@ -65,8 +68,10 @@ for (int i = 0; i < len; i++) {
  * @param {number[]} nums
  * @return {number}
  */
-var removeDuplicates = function(nums) {
-  let i = j = 0, len = nums.length, n = 2
+var removeDuplicates = function (nums) {
+  let i = (j = 0),
+    len = nums.length,
+    n = 2
   while (i < len) {
     // 找第一个和 nums[i] 不等的成员
     while (++j < len) if (nums[j] !== nums[i]) break
@@ -75,11 +80,11 @@ var removeDuplicates = function(nums) {
       i = j
     } else {
       // 缩减 len
-      len -= (j - i - n)
+      len -= j - i - n
       // 移动 i
       i += n
       // 将后续片段往前挪
-      for (let k = i; k < len;) nums[k++] = nums[j++]
+      for (let k = i; k < len; ) nums[k++] = nums[j++]
       // j 复位，以便下次查找
       j = i
     }
@@ -94,7 +99,7 @@ var removeDuplicates = function(nums) {
   - ![](assets/2024-11-10-18-40-59.png)
 - 这种解法的优势在于 n 可配置，本题要求重复次数最大两次，如果修改要求，改为 3、4 次，只需要将 n 赋值为 3、4 即可。
 
-## 3. 💻 题解.2 - 快慢指针
+## 3. 🎯 Solutions.2 - 快慢指针
 
 ```js
 /**
@@ -106,19 +111,21 @@ var removeDuplicates = function (nums) {
   let len = nums.length
   if (len <= 2) return len
 
-  let i = 1, k = i - 1, j = i + 1
+  let i = 1,
+    k = i - 1,
+    j = i + 1
   for (; j < len; j++) {
     // 3 者相等，不做任何处理，j 继续往后挪。
     if (nums[j] === nums[k] && nums[j] === nums[i]) continue
     // 3 者不相等，i、k 往后挪一步
-    k++;
-    i++;
+    k++
+    i++
     // 更新 i，相当于将 nums[j] 插入“新数组”
     nums[i] = nums[j]
   }
 
   return i + 1
-};
+}
 ```
 
 - 时间复杂度：O(n)
@@ -133,9 +140,12 @@ var removeDuplicates = function (nums) {
 ## 4. 📒 尝试正则解法失败
 
 ```js
-var removeDuplicates = function(nums) {
+var removeDuplicates = function (nums) {
   const reg = /(\d)\1{0,}/g
-  const ansArr = nums.join('').replace(reg, (match) => match.slice(0, 2)).split('')
+  const ansArr = nums
+    .join('')
+    .replace(reg, (match) => match.slice(0, 2))
+    .split('')
   for (let i = 0; i < ansArr.length; i++) nums[i] = Number(ansArr[i])
   return ansArr.length
 }

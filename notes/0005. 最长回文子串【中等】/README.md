@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1 - 中心扩散](#2--题解1---中心扩散)
+- [2. 🎯 Solutions.1 - 中心扩散](#2--solutions1---中心扩散)
 
 <!-- endregion:toc -->
 
@@ -31,7 +31,7 @@
 
 :::
 
-## 2. 💻 题解.1 - 中心扩散
+## 2. 🎯 Solutions.1 - 中心扩散
 
 ```javascript
 var longestPalindrome = function (s) {
@@ -55,7 +55,7 @@ var longestPalindrome = function (s) {
   }
 
   return s.slice(ans[0], ans[0] + ans[1])
-};
+}
 
 function centerSpread(s, l, r) {
   let len = s.length

@@ -3,12 +3,12 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1 - 暴力解法](#2--题解1---暴力解法)
-- [3. 💻 题解.2 - 动态规划](#3--题解2---动态规划)
+- [2. 🎯 Solutions.1 - 暴力解法](#2--solutions1---暴力解法)
+- [3. 🎯 Solutions.2 - 动态规划](#3--solutions2---动态规划)
 
 <!-- endregion:toc -->
-- [leetcode](https://leetcode.cn/problems/maximum-subarray/)
 
+- [leetcode](https://leetcode.cn/problems/maximum-subarray/)
 
 ## 1. 📝 Description
 
@@ -21,21 +21,27 @@
 是数组中的一个连续部分。
 
 **示例 1：**
+
 ```
 输入：nums = [-2,1,-3,4,-1,2,1,-5,4]
 输出：6
 解释：连续子数组 [4,-1,2,1] 的和最大，为 6 。
 ```
+
 **示例 2：**
+
 ```
 输入：nums = [1]
 输出：1
 ```
+
 **示例 3：**
+
 ```
 输入：nums = [5,4,-1,7,8]
 输出：23
 ```
+
 **提示：**
 
 - `1 <= nums.length <= 10^5`
@@ -43,38 +49,39 @@
 
 **进阶：** 如果你已经实现复杂度为 `O(n)` 的解法，尝试使用更为精妙的 **分治法** 求解。
 
-## 2. 💻 题解.1 - 暴力解法
+## 2. 🎯 Solutions.1 - 暴力解法
 
 ```javascript
-var maxSubArray = function(nums) {
-  const len = nums.length;
-  if(len === 1) return nums[0];
-  let ans = Math.min(...nums); // 有可能 nums 都是负数
+var maxSubArray = function (nums) {
+  const len = nums.length
+  if (len === 1) return nums[0]
+  let ans = Math.min(...nums) // 有可能 nums 都是负数
   for (let i = 0; i < len; i++) {
-    let count = 0;
+    let count = 0
     for (let j = i; j < len; j++) {
-      count += nums[j];
-      ans = Math.max(count, ans);
+      count += nums[j]
+      ans = Math.max(count, ans)
     }
   }
-  return ans;
-};
+  return ans
+}
 ```
 
 - 思想很简单，就是两层循环，将所有可能的子数组都判断一遍，取最值。
 - 注：回看提交记录时，发现一开始是通过的，但是现在运行提示超时，应该是新增了一些测试用例，对于一些新的测试用例，该暴力解法在执行后被判定为超时。
 
-## 3. 💻 题解.2 - 动态规划
+## 3. 🎯 Solutions.2 - 动态规划
 
 ```javascript
- var maxSubArray = function(nums) {
-  let sum = 0, ans = nums[0];
+var maxSubArray = function (nums) {
+  let sum = 0,
+    ans = nums[0]
   for (let i = 0; i < nums.length; i++) {
-    sum = Math.max(sum + nums[i], nums[i]);
-    ans = Math.max(ans, sum);
+    sum = Math.max(sum + nums[i], nums[i])
+    ans = Math.max(ans, sum)
   }
-  return ans;
-};
+  return ans
+}
 ```
 
 - 动态规划

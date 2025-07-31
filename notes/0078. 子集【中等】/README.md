@@ -4,10 +4,11 @@
 
 - [1. 🔗 links](#1--links)
 - [2. 📝 Description](#2--description)
-- [3. 💻 题解.1 - 循环遍历](#3--题解1---循环遍历)
-- [4. 💻 题解.2 - 回溯](#4--题解2---回溯)
+- [3. 🎯 Solutions.1 - 循环遍历](#3--solutions1---循环遍历)
+- [4. 🎯 Solutions.2 - 回溯](#4--solutions2---回溯)
 
 <!-- endregion:toc -->
+
 - [leetcode](https://leetcode.cn/problems/subsets/)
 
 - **⏰ TODO**
@@ -22,71 +23,75 @@
 
 ## 2. 📝 Description
 
-给你一个整数数组 `nums` ，数组中的元素 **互不相同** 。返回该数组所有可能的 **子集** （幂集）。
+给你一个整数数组  `nums` ，数组中的元素 **互不相同** 。返回该数组所有可能的 **子集** （幂集）。
 
 > 数组的 **子集** 是从数组中选择一些元素（可能为空）。
 
 解集 **不能** 包含重复的子集。你可以按 **任意顺序** 返回解集。
 
 **示例 1：**
+
 ```
 输入：nums = [1,2,3]
 输出：[[],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]]
 ```
+
 **示例 2：**
+
 ```
 输入：nums = [0]
 输出：[[],[0]]
 ```
+
 **提示：**
 
 - `1 <= nums.length <= 10`
 - `-10 <= nums[i] <= 10`
 - `nums` 中的所有元素 **互不相同**
 
-## 3. 💻 题解.1 - 循环遍历
+## 3. 🎯 Solutions.1 - 循环遍历
 
 ```javascript
-var subsets = function(nums) {
-  let ans = [[]];
-  for(let i = 0; i < nums.length; i++) {
-    const temps = [];
-    for(let k = 0; k < ans.length; k++) {
-      temps.push(ans[k].slice());
+var subsets = function (nums) {
+  let ans = [[]]
+  for (let i = 0; i < nums.length; i++) {
+    const temps = []
+    for (let k = 0; k < ans.length; k++) {
+      temps.push(ans[k].slice())
     }
     // const temps = [...ans]; // 由于 js 中引用类型的值在赋值时，赋的值是地址，所以这么写不行。
-    for(let j = 0; j < temps.length; j++) {
-      temps[j].push(nums[i]);
+    for (let j = 0; j < temps.length; j++) {
+      temps[j].push(nums[i])
     }
-    ans = [...ans, ...temps];
+    ans = [...ans, ...temps]
   }
-  return ans;
-};
+  return ans
+}
 ```
 
 - ![](assets/2024-11-03-21-55-18.png)
   - 参考 leetcode 官方题解：https://leetcode-cn.com/problems/subsets/solution/zi-ji-by-leetcode-solution/
 
-## 4. 💻 题解.2 - 回溯
+## 4. 🎯 Solutions.2 - 回溯
 
 ```javascript
-var subsets = function(nums) {
-  const t = [];
-  const ans = [];
+var subsets = function (nums) {
+  const t = []
+  const ans = []
   const dfs = (deep) => {
     if (deep === nums.length) {
       // console.log(t);
-      ans.push([...t]);
-      return;
+      ans.push([...t])
+      return
     }
-    t.push(nums[deep]);
-    dfs(deep + 1);
-    t.pop();
-    dfs(deep + 1);
+    t.push(nums[deep])
+    dfs(deep + 1)
+    t.pop()
+    dfs(deep + 1)
   }
-  dfs(0);
-  return ans;
-};
+  dfs(0)
+  return ans
+}
 ```
 
 - ![](assets/2024-11-03-21-53-54.png)

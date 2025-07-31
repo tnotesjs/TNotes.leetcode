@@ -3,11 +3,11 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1](#2--题解1)
+- [2. 🎯 Solutions.1](#2--solutions1)
 
 <!-- endregion:toc -->
-- [leetcode](https://leetcode.cn/problems/to-be-or-not-to-be)
 
+- [leetcode](https://leetcode.cn/problems/to-be-or-not-to-be)
 
 ## 1. 📝 Description
 
@@ -36,7 +36,7 @@
 - 输出：`{"value": true}`
 - 解释：`5 !== null` 因此该表达式返回 `true`.
 
-## 2. 💻 题解.1
+## 2. 🎯 Solutions.1
 
 ```javascript
 /**
@@ -52,7 +52,7 @@ var expect = function (val) {
     notToBe(newVal) {
       if (newVal !== val) return true
       else throw new Error('Equal')
-    }
+    },
   }
 }
 

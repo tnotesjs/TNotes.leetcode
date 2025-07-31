@@ -4,7 +4,7 @@
 
 - [1. 🔗 links](#1--links)
 - [2. 📝 Description](#2--description)
-- [3. 💻 题解.1 - 回溯算法](#3--题解1---回溯算法)
+- [3. 🎯 Solutions.1 - 回溯算法](#3--solutions1---回溯算法)
 
 <!-- endregion:toc -->
 
@@ -17,45 +17,48 @@
 
 ::: details [leetcode](https://leetcode.cn/problems/generate-parentheses/)
 
-数字 `n` 代表生成括号的对数，请你设计一个函数，用于能够生成所有可能的并且 **有效的** 括号组合。
+数字 `n`  代表生成括号的对数，请你设计一个函数，用于能够生成所有可能的并且 **有效的** 括号组合。
 
 **示例 1：**
+
 ```
 输入：n = 3
 输出：["((()))","(()())","(())()","()(())","()()()"]
 ```
+
 **示例 2：**
+
 ```
 输入：n = 1
 输出：["()"]
 ```
+
 **提示：**
 
 - `1 <= n <= 8`
 
 :::
 
-## 3. 💻 题解.1 - 回溯算法
+## 3. 🎯 Solutions.1 - 回溯算法
 
 ```js
 var generateParenthesis = function (n) {
-  const ans = [];
+  const ans = []
 
   const dfs = (lRemain, rRemain, str) => {
     if (str.length === n * 2) {
-      ans.push(str);
-      return;
+      ans.push(str)
+      return
     }
 
-    if (lRemain > 0) dfs(lRemain - 1, rRemain, str + '(');
-    if (rRemain > lRemain) dfs(lRemain, rRemain - 1, str + ')');
+    if (lRemain > 0) dfs(lRemain - 1, rRemain, str + '(')
+    if (rRemain > lRemain) dfs(lRemain, rRemain - 1, str + ')')
   }
 
-  dfs(n, n, "");
-  return ans;
-};
+  dfs(n, n, '')
+  return ans
+}
 ```
-
 
 - ![](assets/2024-10-27-00-17-34.png)
   - from: 「手画图解」从 22. 括号生成 看回溯算法的三个要点

@@ -3,11 +3,11 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1](#2--题解1)
+- [2. 🎯 Solutions.1](#2--solutions1)
 
 <!-- endregion:toc -->
-- [leetcode](https://leetcode.cn/problems/counter-ii)
 
+- [leetcode](https://leetcode.cn/problems/counter-ii)
 
 - 备注：这道题和 2620 类似，都是考察闭包，只不过这个题目做了一些扩展。可以在衍生作用域的时候多维护一个变量来解决本题。
 
@@ -15,13 +15,13 @@
 
 ::: details [leetcode](https://leetcode.cn)
 
-请你写一个函数 `createCounter`。这个函数接收一个初始的整数值 `init`。并返回一个包含三个函数的对象。
+请你写一个函数  `createCounter`。这个函数接收一个初始的整数值 `init`。并返回一个包含三个函数的对象。
 
 这三个函数是：
 
-- `increment()` 将当前值加 1 并返回。
-- `decrement()` 将当前值减 1 并返回。
-- `reset()` 将当前值设置为 `init` 并返回。
+- `increment()`  将当前值加 1 并返回。
+- `decrement()`  将当前值减 1 并返回。
+- `reset()`  将当前值设置为 `init` 并返回。
 
 **示例 1：**
 
@@ -51,7 +51,7 @@
 - `0 <= calls.length <= 1000`
 - `calls[i]` 是 “increment”、“decrement” 和 “reset” 中的一个
 
-## 2. 💻 题解.1
+## 2. 🎯 Solutions.1
 
 ```javascript
 /**
@@ -65,13 +65,13 @@ var createCounter = function (init) {
       return ++changedInit
     },
     reset() {
-      return changedInit = init
+      return (changedInit = init)
     },
     decrement() {
       return --changedInit
-    }
+    },
   }
-};
+}
 
 /**
  * const counter = createCounter(5)

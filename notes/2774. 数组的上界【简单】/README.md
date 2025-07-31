@@ -4,11 +4,11 @@
 
 - [1. 🔗 links](#1--links)
 - [2. 📝 Description](#2--description)
-- [3. 💻 题解.1](#3--题解1)
+- [3. 🎯 Solutions.1](#3--solutions1)
 
 <!-- endregion:toc -->
-- [leetcode](https://leetcode.cn/problems/array-upper-bound)
 
+- [leetcode](https://leetcode.cn/problems/array-upper-bound)
 
 ## 1. 🔗 links
 
@@ -16,7 +16,7 @@
 
 ## 2. 📝 Description
 
-请你编写代码实现一个数组方法，任何数组都可以调用 `upperBound()` 方法，并返回给定目标数字的 **最后** 一个索引。`nums` 是一个可能包含重复数字的按升序排序的数组。如果在数组中找不到目标数字，则返回 -1。
+请你编写代码实现一个数组方法，任何数组都可以调用  `upperBound()`  方法，并返回给定目标数字的 **最后** 一个索引。`nums`  是一个可能包含重复数字的按升序排序的数组。如果在数组中找不到目标数字，则返回 -1。
 
 **示例 1：**
 
@@ -39,27 +39,26 @@
 **提示：**
 
 - `1 <= nums.length <= 10^4`
-- `-10^4 <= nums[i], target <= 10^4`
-- `nums` 按升序排序。
+- `-10^4 <= nums[i], target <= 10^4`
+- `nums`  按升序排序。
 
 **进阶：**你能编写一个时间复杂度为 `O(log n)` 的算法吗？
 
-## 3. 💻 题解.1
+## 3. 🎯 Solutions.1
 
 ```javascript
 /**
  * @param {number} target
  * @return {number}
  */
-Array.prototype.upperBound = function(target) {
+Array.prototype.upperBound = function (target) {
   // 倒序遍历
   const len = this.length
   for (let i = len - 1; i >= 0; i--) {
     if (target === this[i]) return i
   }
   return -1
-};
-
+}
 
 // [3,4,5].upperBound(5); // 2
 // [1,4,5].upperBound(2); // -1

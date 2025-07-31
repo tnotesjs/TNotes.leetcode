@@ -3,14 +3,13 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 💻 题解.1 - 暴力解法](#2--题解1---暴力解法)
-- [3. 💻 题解.2 - 双指针](#3--题解2---双指针)
+- [2. 🎯 Solutions.1 - 暴力解法](#2--solutions1---暴力解法)
+- [3. 🎯 Solutions.2 - 双指针](#3--solutions2---双指针)
 - [4. 📒 正则 `\w`、`\W`](#4--正则-ww)
 
 <!-- endregion:toc -->
+
 - [leetcode](https://leetcode.cn/problems/valid-palindrome)
-
-
 
 ## 1. 📝 Description
 
@@ -23,6 +22,7 @@
 给你一个字符串 `s`，如果它是 **回文串** ，返回 `true` ；否则，返回 `false` 。
 
 **示例 1：**
+
 ```
 输入: s = "A man, a plan, a canal: Panama"
 输出：true
@@ -30,6 +30,7 @@
 ```
 
 **示例 2：**
+
 ```
 输入：s = "race a car"
 输出：false
@@ -37,6 +38,7 @@
 ```
 
 **示例 3：**
+
 ```
 输入：s = " "
 输出：true
@@ -49,7 +51,7 @@
 - `1 <= s.length <= 2 * 10^5`
 - `s` 仅由可打印的 ASCII 字符组成
 
-## 2. 💻 题解.1 - 暴力解法
+## 2. 🎯 Solutions.1 - 暴力解法
 
 ```js
 var isPalindrome = function (s) {
@@ -58,7 +60,7 @@ var isPalindrome = function (s) {
   // 3. 字符串逆置
   // 4. 返回比较原字符串和逆置后的字符串的结果
   s = s.toLowerCase().replace(/[^a-z0-9]|\s/g, '')
-  return s === [...s].reverse().join("")
+  return s === [...s].reverse().join('')
 }
 ```
 
@@ -67,11 +69,13 @@ var isPalindrome = function (s) {
 3. 字符串逆置 `[...s].reverse().join("")`
 4. 返回比较原字符串和逆置后的字符串的结果 `return s === [...s].reverse().join("")`
 
-## 3. 💻 题解.2 - 双指针
+## 3. 🎯 Solutions.2 - 双指针
 
 ```js
 var isPalindrome = function (s) {
-  let i = 0, j = s.length - 1, reg = /[a-zA-Z0-9]/
+  let i = 0,
+    j = s.length - 1,
+    reg = /[a-zA-Z0-9]/
   while (i < j) {
     if (!reg.test(s[i])) ++i
     else if (!reg.test(s[j])) --j
@@ -102,7 +106,6 @@ var isPalindrome = function (s) {
 3. **处理完毕**：
    - 当 `i` 不再小于 `j` 时，说明已经检查完所有需要比较的字符。
    - 返回 `true`，表示字符串是回文。
-
 
 ---
 
@@ -147,15 +150,17 @@ function isAlphanumeric(char) {
  * @param {string} s
  * @return {boolean}
  */
-var isPalindrome = function(s) {
+var isPalindrome = function (s) {
   s = s.toLowerCase().replace(/[\W|_]/g, '')
-  
+
   const len = s.length
   if (len === 0 || len === 1) return true
-  
-  let ans = true, start = 0, end = len - 1
+
+  let ans = true,
+    start = 0,
+    end = len - 1
   while (start < end) if (s[start++] !== s[end--]) ans = false
-  
+
   return ans
-};
+}
 ```
