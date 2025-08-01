@@ -70,7 +70,7 @@ var rotate = function (nums, k) {
 
 - 会超时
   - 思路或许没问题，不过这么写在 leetcode 上提交后会提示运行超时。
-  - ![](assets/2024-11-16-20-22-55.png)
+  - ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-11-16-20-22-55.png)
 
 ## 3. 🎯 Solutions.2 - 暴力解法 2
 

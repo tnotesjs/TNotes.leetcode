@@ -47,7 +47,7 @@
 
 ## 2. 🎯 Solutions.1
 
-![](assets/2024-09-26-23-10-13.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-26-23-10-13.png)
 
 ```javascript
 var accountBalanceAfterPurchase = function (purchaseAmount) {
@@ -70,7 +70,7 @@ var accountBalanceAfterPurchase = function (purchaseAmount) {
 
 规律有很多，所以解法也有很多。
 
-![](assets/2024-09-26-23-10-44.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-26-23-10-44.png)
 
 ## 3. 🎯 Solutions.2
 

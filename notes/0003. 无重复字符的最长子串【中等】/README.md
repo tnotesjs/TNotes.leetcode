@@ -49,9 +49,9 @@
 
 ::: code-group
 
-<<< ./solutions/1/1.js
+<<< ./solutions/1/1.js [js]
 
-<<< ./solutions/1/1.ts
+<<< ./solutions/1/1.ts [ts]
 
 :::
 
@@ -116,11 +116,11 @@
 
 ::: code-group
 
-<<< ./solutions/2/1.js
+<<< ./solutions/2/1.js [js-1]
 
-<<< ./solutions/2/2.js
+<<< ./solutions/2/2.js [js-2]
 
-<<< ./solutions/2/1.ts
+<<< ./solutions/2/1.ts [ts]
 
 :::
 

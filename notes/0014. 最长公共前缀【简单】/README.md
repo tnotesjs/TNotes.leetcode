@@ -38,7 +38,7 @@
 
 ## 2. 🎯 Solutions.1 - 暴力解法
 
-![](assets/2024-09-25-16-39-11.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-25-16-39-11.png)
 
 ```javascript
 var longestCommonPrefix = function (strs) {
@@ -70,7 +70,7 @@ var longestCommonPrefix = function (strs) {
 
 ## 3. 🎯 Solutions.2 - 横向扫描
 
-![](assets/2024-09-25-16-41-28.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-25-16-41-28.png)
 
 > 为了方便演示，再插入一个 foo。
 
@@ -103,7 +103,7 @@ var longestCommonPrefix = function (strs) {
 
 ## 4. 🎯 Solutions.3 - 纵向扫描
 
-![](assets/2024-09-25-16-42-01.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-25-16-42-01.png)
 
 ```javascript
 var longestCommonPrefix = function (strs) {

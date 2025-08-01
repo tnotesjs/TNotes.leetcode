@@ -15,14 +15,14 @@
 
 **示例 1：**
 
-![](assets/2024-09-25-17-04-27.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-25-17-04-27.png)
 
 - 输入：head = [1,2,3,4,5]
 - 输出：[5,4,3,2,1]
 
 **示例 2：**
 
-![](assets/2024-09-25-17-04-34.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-25-17-04-34.png)
 
 - 输入：head = [1,2]
 - 输出：[2,1]

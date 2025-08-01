@@ -9,19 +9,19 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/binary-tree-postorder-traversal)
-
 ## 1. 🔗 links
 
 - https://wansuanfa.com/index.php/701 - 玩算法，二叉树的 DFS 遍历。
 
 ## 2. 📝 Description
 
+::: details [leetcode](https://leetcode.cn/problems/binary-tree-postorder-traversal)
+
 给你一棵二叉树的根节点 `root` ，返回其节点值的 **后序遍历** 。
 
 **示例 1：**
 
-![](assets/2024-09-25-17-02-44.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-25-17-02-44.png)
 
 - 输入：root = [1,null,2,3]
 - 输出：[3,2,1]
@@ -41,7 +41,9 @@
 - 树中节点的数目在范围 `[0, 100]` 内
 - `-100 <= Node.val <= 100`
 
-**进阶：**递归算法很简单，你可以通过迭代算法完成吗？
+**进阶：** 递归算法很简单，你可以通过迭代算法完成吗？
+
+:::
 
 ## 3. 🎯 Solutions.1 - 递归
 
@@ -73,6 +75,6 @@ var postorderTraversal = function (root, res = []) {
 - 中序遍历（中根次序遍历）：左子树 -> **根节点** -> 右子树
 - 后序遍历（后根次序遍历）：左子树 -> 右子树 -> **根节点**
 
-![](assets/2024-09-25-17-01-44.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-25-17-01-44.png)
 
 > 图片来源：https://wansuanfa.com/index.php/701

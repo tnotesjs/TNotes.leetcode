@@ -26,7 +26,7 @@
 
 **示例 1:**
 
-![](assets/2024-11-03-15-11-43.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-11-03-15-11-43.png)
 
 ```
 输入：image = [[1,1,1],[1,1,0],[1,0,1]]，sr = 1, sc = 1, color = 2

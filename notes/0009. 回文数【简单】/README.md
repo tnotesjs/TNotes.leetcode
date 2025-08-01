@@ -82,7 +82,7 @@ var isPalindrome = function (x) {
 
 ## 4. 🎯 Solutions.3 - 二分对比
 
-![](assets/2024-09-25-16-13-37.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-25-16-13-37.png)
 
 ```javascript
 var isPalindrome = function (x) {

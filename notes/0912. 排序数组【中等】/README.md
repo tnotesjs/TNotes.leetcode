@@ -58,7 +58,7 @@ var sortArray = function (nums) {
 
 写法最简单，并且性能表现也是最优秀的那一批。
 
-![](assets/2024-09-25-17-19-13.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-25-17-19-13.png)
 
 ## 4. 🎯 Solutions.2 - 冒泡排序
 
@@ -94,7 +94,7 @@ function swap(arr, a, b) {
 }
 ```
 
-![](assets/2024-09-25-17-19-58.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-25-17-19-58.png)
 
 ### 4.2. 冒泡排序 - 加入提前终止标志
 
@@ -135,7 +135,7 @@ function swap(arr, a, b) {
 
 优化完之后依旧是超出时间限制。
 
-![](assets/2024-09-25-17-20-34.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-25-17-20-34.png)
 
 ### 4.3. 冒泡排序 - 鸡尾酒排序 Cocktail Shaker Sort
 
@@ -149,7 +149,7 @@ function swap(arr, a, b) {
 
 **示例 **`**nums: [8, 7, 6, 5, 4, 3, 2, 1]**`** 执行流程**
 
-![](assets/2024-09-25-17-20-55.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-25-17-20-55.png)
 
 ```javascript
 var sortArray = function (nums) {
@@ -192,7 +192,7 @@ function swap(arr, a, b) {
 
 优化完之后依旧是超出时间限制。
 
-![](assets/2024-09-25-17-20-34.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-25-17-20-34.png)
 
 ## 5. 🎯 Solutions.3 - 选择排序
 
@@ -226,7 +226,7 @@ function swap(arr, a, b) {
 }
 ```
 
-![](assets/2024-09-25-17-21-40.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-25-17-21-40.png)
 
 ## 6. 🎯 Solutions.4 - 快速排序
 

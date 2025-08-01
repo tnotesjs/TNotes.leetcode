@@ -17,7 +17,7 @@
 
 **示例 1：**
 
-- ![](assets/2024-10-26-21-07-31.png)
+- ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-26-21-07-31.png)
 
 ```
 输入：head = [1,2,3,4,5], n = 2

@@ -45,4 +45,4 @@ var argumentsLength = function (...args) {
 ```
 
 - 评论区点个赞～
-  - ![](assets/2024-09-26-22-26-49.png)
+  - ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-26-22-26-49.png)

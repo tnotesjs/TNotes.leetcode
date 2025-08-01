@@ -79,7 +79,7 @@ var merge = function (intervals) {
 ```
 
 - **思路：**
-  - ![](assets/2024-11-10-12-14-08.png)
+  - ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-11-10-12-14-08.png)
   1. 先对数组按照区间左侧值的大小进行升序排序。
   2. 再逐一比较 **当前项的左侧** 和 **前一项的右侧** 判断区间是否有重叠。
   3. 根据不同的情况做不同的处理：

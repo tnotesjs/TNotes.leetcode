@@ -54,7 +54,7 @@
 
 ## 2. 🎯 Solutions.1 - 暴力解法（转为字符串求解）
 
-![](assets/2024-09-25-15-46-13.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-25-15-46-13.png)
 
 ```javascript
 var reverse = function (x) {
@@ -97,7 +97,7 @@ var reverse = function (x) {
 
 ## 3. 🎯 Solutions.2 - 数学方法
 
-![](assets/2024-09-25-15-48-44.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-25-15-48-44.png)
 
 > 记录：作图的时候，平板横屏看，感觉图的大小刚好，如果是在手机或者 PC 上预览（限制宽度的话），显然偏小了很多，需要放大来看。接下来作图的时候尽可能不要横向扩展 —— 把宽度弄得太宽，可以纵向扩展 - 让图片长一些，这样预览的效果也许会更好一些。
 
@@ -137,9 +137,9 @@ var reverse = function (x) {
 - `ans = ans * 10 + x % 10;`
 - `x = Math.trunc(x / 10);`
 
-![](assets/2024-09-25-15-56-08.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-25-15-56-08.png)
 
-![](assets/2024-09-25-15-56-15.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-25-15-56-15.png)
 
 ## 4. 📒 Math.trunc 的基本用法
 
@@ -267,12 +267,12 @@ A system of equations: \begin{align*} x + y &= 2 \\ 2x - y &= 4 \end{align*}
 
 ## 6. 🤖 整数位数和它的大小之间对数关系
 
-![](assets/2024-09-25-15-57-25.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-25-15-57-25.png)
 
 ## 7. 🤖 对比 $O(log_{10} N)$ 和 $O(log N)$
 
-![](assets/2024-09-25-15-58-44.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-25-15-58-44.png)
 
-![](assets/2024-09-25-15-59-02.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-25-15-59-02.png)
 
 :::

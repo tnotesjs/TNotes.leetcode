@@ -63,7 +63,7 @@ var reverseString = function (s) {
 }
 ```
 
-- ![](assets/2024-11-16-20-17-45.png)
+- ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-11-16-20-17-45.png)
 
 ## 4. 🎯 Solutions.3 - 递归
 

@@ -21,7 +21,7 @@
 
 **示例 1：**
 
-![](assets/2024-09-25-16-52-06.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-25-16-52-06.png)
 
 - 输入：root = [1,null,2,3]
 - 输出：[1,3,2]
@@ -73,6 +73,6 @@ var inorderTraversal = function (root, res = []) {
 - 中序遍历（中根次序遍历）：左子树 -> **根节点** -> 右子树
 - 后序遍历（后根次序遍历）：左子树 -> 右子树 -> **根节点**
 
-![](assets/2024-09-25-17-01-39.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-25-17-01-39.png)
 
 > 图片来源：https://wansuanfa.com/index.php/701

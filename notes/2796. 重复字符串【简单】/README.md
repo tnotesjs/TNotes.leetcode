@@ -108,4 +108,4 @@ String.prototype.replicate = function (times) {
 
 - 首次见到的双百的提交，记录一下……
   - https://leetcode.cn/problems/repeat-string/submissions/539803907
-  - ![](assets/2024-09-26-22-49-34.png)
+  - ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-26-22-49-34.png)

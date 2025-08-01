@@ -59,102 +59,24 @@ P     I
 
 ## 2. 🎯 Solutions.1 - 利用二维矩阵模拟
 
-```js
-/**
- * @param {string} s
- * @param {number} numRows
- * @return {string}
- */
-var convert = function (s, numRows) {
-  const n = s.length,
-    r = numRows
-  if (r === 1 || r >= n) {
-    return s
-  }
-  const t = r * 2 - 2
-  const c = Math.floor((n + t - 1) / t) * (r - 1)
-  const mat = new Array(r).fill(0).map(() => new Array(c).fill(0))
-  for (let i = 0, x = 0, y = 0; i < n; ++i) {
-    mat[x][y] = s[i]
-    if (i % t < r - 1) {
-      ++x // 向下移动
-    } else {
-      --x
-      ++y // 向右上移动
-    }
-  }
-  const ans = []
-  for (const row of mat) {
-    for (const ch of row) {
-      if (ch !== 0) {
-        ans.push(ch)
-      }
-    }
-  }
-  return ans.join('')
-}
-```
+::: code-group
+
+<<< ./solutions/1/1.js [js]
+
+:::
 
 ## 3. 🎯 Solutions.2 - 压缩矩阵空间
 
-```js
-/**
- * @param {string} s
- * @param {number} numRows
- * @return {string}
- */
-var convert = function (s, numRows) {
-  const n = s.length,
-    r = numRows
-  if (r === 1 || r >= n) {
-    return s
-  }
-  const mat = new Array(r).fill(0)
-  for (let i = 0; i < r; ++i) {
-    mat[i] = []
-  }
-  for (let i = 0, x = 0, t = r * 2 - 2; i < n; ++i) {
-    mat[x].push(s[i])
-    if (i % t < r - 1) {
-      ++x
-    } else {
-      --x
-    }
-  }
-  const ans = []
-  for (const row of mat) {
-    ans.push(row.join(''))
-  }
-  return ans.join('')
-}
-```
+::: code-group
+
+<<< ./solutions/2/1.js [js]
+
+:::
 
 ## 4. 🎯 Solutions.3 - 直接构造
 
-```js
-/**
- * @param {string} s
- * @param {number} numRows
- * @return {string}
- */
-var convert = function (s, numRows) {
-  const n = s.length,
-    r = numRows
-  if (r === 1 || r >= n) {
-    return s
-  }
-  const t = r * 2 - 2
-  const ans = []
-  for (let i = 0; i < r; i++) {
-    // 枚举矩阵的行
-    for (let j = 0; j < n - i; j += t) {
-      // 枚举每个周期的起始下标
-      ans.push(s[j + i]) // 当前周期的第一个字符
-      if (0 < i && i < r - 1 && j + t - i < n) {
-        ans.push(s[j + t - i]) // 当前周期的第二个字符
-      }
-    }
-  }
-  return ans.join('')
-}
-```
+::: code-group
+
+<<< ./solutions/3/1.js [js]
+
+:::

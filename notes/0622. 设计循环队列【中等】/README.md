@@ -139,6 +139,6 @@ MyCircularQueue.prototype.isFull = function () {
 
 在第二次执行 `circularQueue.enQueue(4)` 的时候可以往循环队列中插入新成员，此时维护的数组内部每个位置其实都已经是有值的状态了。由此可见在判断循环队列是否已经满了的逻辑，并非看数组的每个位置是否都有值了。
 
-![](assets/2024-09-25-17-16-45.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-25-17-16-45.png)
 
 其中一种正确的做法是在内部维护一个变量 count，在每次 enQueue 成功的时候 count++，在每次 deQueue 成功的时候 count--，如果 count 的值和初始化时传入的 k 相同，那么意味着满了，否则没满。

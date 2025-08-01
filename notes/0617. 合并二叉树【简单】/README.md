@@ -24,7 +24,7 @@
 
 **示例 1：**
 
-- ![](assets/2024-11-03-10-15-50.png)
+- ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-11-03-10-15-50.png)
 
 ```
 输入：root1 = [1,3,2,5], root2 = [2,1,3,null,4,null,7]

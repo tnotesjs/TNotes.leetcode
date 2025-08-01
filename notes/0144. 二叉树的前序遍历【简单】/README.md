@@ -21,7 +21,7 @@
 
 **示例 1：**
 
-![](assets/2024-09-25-16-58-03.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-25-16-58-03.png)
 
 - 输入：root = [1,null,2,3]
 - 输出：[1,2,3]
@@ -38,14 +38,14 @@
 
 **示例 4：**
 
-![](assets/2024-09-25-16-58-12.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-25-16-58-12.png)
 
 - 输入：root = [1,2]
 - 输出：[1,2]
 
 **示例 5：**
 
-![](assets/2024-09-25-16-58-20.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-25-16-58-20.png)
 
 - 输入：root = [1,null,2]
 - 输出：[1,2]
@@ -91,6 +91,6 @@ var preorderTraversal = function (root, res = []) {
 - 中序遍历（中根次序遍历）：左子树 -> **根节点** -> 右子树
 - 后序遍历（后根次序遍历）：左子树 -> 右子树 -> **根节点**
 
-![](assets/2024-09-25-16-59-31.png)
+![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-25-16-59-31.png)
 
 > 图片来源：https://wansuanfa.com/index.php/701

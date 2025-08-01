@@ -57,4 +57,4 @@ var fib = function (n) {
 }
 ```
 
-- ![](assets/2024-11-16-19-07-29.png)
+- ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-11-16-19-07-29.png)

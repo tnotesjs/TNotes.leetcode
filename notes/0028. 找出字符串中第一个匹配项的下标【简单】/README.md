@@ -164,9 +164,9 @@ var strStr = function (haystack, needle) {
       - 示例：`needle = "sad"` 对应的 next 数组为 `[0, 0, 0]`。
       - 示例：`leeto` 对应的 next 数组为 `[0, 0, 0, 0, 0]`。
       - 示例：`needle = "ababca"` 对应的 next 数组为 `[0, 0, 1, 2, 0, 1]`。
-        - ![](assets/2024-11-17-12-17-38.png)
+        - ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-11-17-12-17-38.png)
       - 官方提供的示例：
-        - ![](assets/2024-11-17-12-27-49.png)
+        - ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-11-17-12-27-49.png)
   - **步骤 2. 匹配过程**：使用两个指针 i 和 j 分别遍历主串和模式串。当字符匹配时，两个指针都向前移动；如果不匹配，模式串指针 j 会根据 next 数组进行调整，以尝试新的匹配位置。如果模式串完全匹配，则返回匹配的起始位置。
   - 步骤 1、2 的实现流程是 KMP 算法的核心，它们的实现逻辑是非常类似的。
 
