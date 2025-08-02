@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode.cn id=303 lang=javascript
+ *
+ * [303] 区域和检索 - 数组不可变
+ */
+
+// @lc code=start
 /**
  * @param {number[]} nums
  */
@@ -27,3 +34,4 @@ NumArray.prototype.sumRange = function (left, right) {
  * var obj = new NumArray(nums)
  * var param_1 = obj.sumRange(left,right)
  */
+// @lc code=end

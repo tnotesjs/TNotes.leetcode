@@ -2,8 +2,55 @@
 
 <!-- region:toc -->
 
-- [1. 📝 概述](#1--概述)
+- [1. 📝 Description](#1--description)
+- [2. 🎯 Solutions.1 - 暴力解法](#2--solutions1---暴力解法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 概述
+## 1. 📝 Description
+
+::: details [leetcode](https://leetcode.cn/problems/convert-sorted-array-to-binary-search-tree)
+
+给你一个整数数组 `nums` ，其中元素已经按 **升序** 排列，请你将其转换为一棵 平衡 二叉搜索树。
+
+---
+
+- **示例 1：**
+
+![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-08-02-07-02-27.png)
+
+> 输入：nums = [-10,-3,0,5,9]
+>
+> 输出：[0,-3,9,-10,null,5]
+>
+> 解释：[0,-10,5,null,-3,null,9] 也将被视为正确答案：
+>
+> ![图 1](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-08-02-07-02-39.png)
+
+- **示例 2：**
+
+![图 2](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-08-02-07-02-55.png)
+
+> 输入：nums = [1,3]
+>
+> 输出：[3,1]
+>
+> 解释：[1,null,3] 和 [3,1] 都是高度平衡二叉搜索树。
+
+---
+
+**提示：**
+
+- `1 <= nums.length <= 10^4`
+- `-10^4 <= nums[i] <= 10^4`
+- `nums` 按 **严格递增** 顺序排列
+
+:::
+
+## 2. 🎯 Solutions.1 - 暴力解法
+
+::: code-group
+
+<<< ./solutions/1/1.js [js]
+
+:::
