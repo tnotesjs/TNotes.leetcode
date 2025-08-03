@@ -11,43 +11,46 @@
  * @return {string}
  */
 var shortestCompletingWord = function (licensePlate, words) {
-  // 直接使用哈希表统计 licensePlate 中字母及其出现次数
-  const plateMap = new Map()
-
-  // 遍历 licensePlate，统计字母出现次数
-  for (const char of licensePlate) {
-    if (/[a-zA-Z]/.test(char)) {
-      const lowerChar = char.toLowerCase()
-      plateMap.set(lowerChar, (plateMap.get(lowerChar) || 0) + 1)
-    }
-  }
+  // 使用哈希表统计 licensePlate 中字母出现次数
+  const licenseCount = getCountWithMap(licensePlate)
 
   let result = ''
 
-  // 遍历 words 查找最短补全词
+  // 遍历 words 数组查找最短补全词
   for (const word of words) {
-    // 统计当前单词中字母出现次数
-    const wordMap = new Map()
-    for (const char of word) {
-      const lowerChar = char.toLowerCase()
-      wordMap.set(lowerChar, (wordMap.get(lowerChar) || 0) + 1)
-    }
+    const wordCount = getCountWithMap(word)
 
-    // 检查当前单词是否为补全词
-    let isCompleting = true
-    for (const [char, count] of plateMap) {
-      if ((wordMap.get(char) || 0) < count) {
-        isCompleting = false
-        break
+    // 检查 word 是否包含 licensePlate 中所有字母且数量足够
+    if (isCompletingWordWithMap(licenseCount, wordCount)) {
+      // 更新最短补全词
+      if (!result || word.length < result.length) {
+        result = word
       }
-    }
-
-    // 如果是补全词且长度更短，则更新结果
-    if (isCompleting && (!result || word.length < result.length)) {
-      result = word
     }
   }
 
   return result
+}
+
+// 使用哈希表统计字符串中字母出现次数（忽略大小写）
+function getCountWithMap(str) {
+  const count = new Map()
+  for (const char of str) {
+    if (/[a-zA-Z]/.test(char)) {
+      const lowerChar = char.toLowerCase()
+      count.set(lowerChar, (count.get(lowerChar) || 0) + 1)
+    }
+  }
+  return count
+}
+
+// 使用哈希表检查 word 是否是 license 的补全词
+function isCompletingWordWithMap(licenseCount, wordCount) {
+  for (const [char, neededCount] of licenseCount) {
+    if ((wordCount.get(char) || 0) < neededCount) {
+      return false
+    }
+  }
+  return true
 }
 // @lc code=end

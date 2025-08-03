@@ -60,6 +60,6 @@
 
 <<< ./solutions/1/1.js [js（array）]
 
-<<< ./solutions/1/1.js [js（map）]
+<<< ./solutions/1/2.js [js（map）]
 
 :::

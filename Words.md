@@ -1,5 +1,5 @@
 <E
   needSort
   :words="[
-    'vocabulary',
+    'complete',
 ]" />
