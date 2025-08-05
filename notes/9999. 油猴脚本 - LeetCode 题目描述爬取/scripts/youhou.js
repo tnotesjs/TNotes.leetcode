@@ -84,23 +84,28 @@ function copyDescHandler() {
       document.querySelectorAll(
         '.text-difficulty-easy, .text-difficulty-hard, .text-difficulty-medium'
       )[0].innerText +
-      '】' +
-      '\n\n' + // 生成标题
-      `- [leetcode](${location.href.replace(/\/?description\/?/, '')})\n\n` + // 生成原题链接
+      '】\n\n' + // 生成标题
+      `<!-- region:toc -->\n\n<!-- endregion:toc -->\n\n` + // 生成 toc 区域
       `## 📝 Description\n\n` + // 题目描述开始
+      `::: details [leetcode](${location.href.replace(
+        /\/?description\/?/,
+        ''
+      )})\n\n` + // details begin 生成原题链接
       getDescMd()
         .replaceAll('-   ', '- ') // 处理【提示】部分的无序列表缩进
         .replace(/\*\*(示例 (\d+)[:：])\*\*(?:\n| )/g, (match, p1, num) => {
           if (num === '1') {
-            return `**${p1}**\n\`\`\``
+            return `---\n\n- **${p1}**\n\n\`\`\`txt`
           } else {
-            return `\`\`\`\n**${p1}**\n\`\`\``
+            return `\`\`\`\n\n- **${p1}**\n\n\`\`\`txt`
           }
         }) // 将示例内统一使用 ``` 包裹起来
         .replace(/\*\*(提示[:：])\*\*(?:\n| )/g, (match, p1) => {
-          return `\`\`\`\n**${p1}**\n`
-        }) +
-      `\n\n## 🎯 Solutions\n\n\`\`\`\n\n\`\`\`\n` // 题解模板
+          return `\`\`\`\n\n---\n\n**${p1}**\n`
+        })
+        .replace(/\n\`\`\`\n/g, '```\n') +
+      '\n\n:::\n\n' + // details end
+      `## 🎯 Solutions.1 - 暴力解法\n\n::: code-group\n\n<<< ./solutions/1/1.js [js]\n\n:::\n` // 题解模板
   )
   message.success({
     text: '【题目描述】复制成功',
