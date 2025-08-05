@@ -4,6 +4,7 @@
 
 - [1. 📝 Description](#1--description)
 - [2. 🎯 Solutions.1 - 暴力解法](#2--solutions1---暴力解法)
+- [3. 🔗 References](#3--references)
 
 <!-- endregion:toc -->
 
@@ -62,6 +63,16 @@
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js-1]
+
+<<< ./solutions/1/2.js [js-2]
 
 :::
+
+- 做法 2 中记录了 js 中一个字符串比较 api `localeCompare` 的问题写法。
+  - localeCompare 实际的运行结果和文档中描述的不一致。
+
+## 3. 🔗 References
+
+- https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare
+  - `localeCompare`

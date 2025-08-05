@@ -12,7 +12,6 @@ var maximumNumberOfStringPairs = function (words) {
     // 如果反转字符串存在且计数大于 0
     if (wordCount.get(reversed) > 0) {
       pairs++
-      wordCount.set(reversed, wordCount.get(reversed) - 1)
     } else {
       // 否则增加当前字符串的计数
       wordCount.set(word, (wordCount.get(word) || 0) + 1)

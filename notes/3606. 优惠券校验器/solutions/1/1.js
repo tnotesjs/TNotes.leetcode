@@ -17,18 +17,13 @@ var validateCoupons = function (code, businessLine, isActive) {
     code
       // 1. 过滤出有效的优惠券
       .map((_, i) => [code[i], businessLine[i], isActive[i]])
-      .filter(([codeItem, businessLineItem, isActiveItem]) => {
-        if (
-          !isActiveItem || // 检查优惠券是否激活
-          codeItem.length === 0 || // 检查优惠券标识符是否为空
-          !/^[a-zA-Z0-9_]+$/.test(codeItem) || // 检查优惠券标识符是否含有非法字符
-          !validBusinessLines.includes(businessLineItem) // 检查业务线是否合法
-        ) {
-          return false
-        } else {
-          return true
-        }
-      })
+      .filter(
+        ([codeItem, businessLineItem, isActiveItem]) =>
+          isActiveItem && // 优惠券已激活
+          codeItem.length !== 0 && // 优惠券标识符不为空
+          /^[a-zA-Z0-9_]+$/.test(codeItem) && // 优惠券标识符都是合法字符
+          validBusinessLines.includes(businessLineItem) // 都是合法业务线
+      )
       // 2. 按要求排序
       .sort(([codeA, businessLineA], [codeB, businessLineB]) => {
         // 先按业务线顺序排序

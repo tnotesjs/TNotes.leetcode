@@ -4,7 +4,6 @@
 
 - [1. 📝 Description](#1--description)
 - [2. 🎯 Solutions.1 - 暴力解法](#2--solutions1---暴力解法)
-- [3. 🎯 Solutions.2 - 暴力解法 - 先 sort 再判断](#3--solutions2---暴力解法---先-sort-再判断)
 
 <!-- endregion:toc -->
 
@@ -16,8 +15,8 @@
 
 在一步操作中，需要选出任一下标 `i` ，从 `words` 中 **删除** `words[i]` 。其中下标 `i` 需要同时满足下述两个条件：
 
-1.  `0 < i < words.length`
-2.  `words[i - 1]` 和 `words[i]` 是 **字母异位词** 。
+1. `0 < i < words.length`
+2. `words[i - 1]` 和 `words[i]` 是 **字母异位词** 。
 
 只要可以选出满足条件的下标，就一直执行这个操作。
 
@@ -66,14 +65,10 @@ words 中不存在互为字母异位词的两个相邻字符串，所以无需�
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js-1]
+
+<<< ./solutions/1/2.js [js-2]
 
 :::
 
-## 3. 🎯 Solutions.2 - 暴力解法 - 先 sort 再判断
-
-::: code-group
-
-<<< ./solutions/2/1.js [js]
-
-:::
+- 写法 2 使用 sort 暴力判断。

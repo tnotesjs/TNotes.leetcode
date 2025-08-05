@@ -12,7 +12,6 @@ var maximumNumberOfStringPairs = function (words) {
     // 如果反转后的字符串已经见过，说明可以配对
     if (seen.has(reversed)) {
       pairs++
-      seen.delete(reversed) // 配对后从集合中移除
     } else {
       // 否则将当前字符串加入集合
       seen.add(word)
