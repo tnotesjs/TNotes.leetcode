@@ -1,9 +1,7 @@
 {
   "author": "Tdahuyou",
   "repoName": "TNotes.leetcode",
-  "keywords": [
-    "TNotes.leetcode"
-  ],
+  "keywords": ["TNotes.leetcode"],
   "sidebar_isNotesIDVisible": true,
   "sidebar_isCollapsed": true,
   "ignore_dirs": [
@@ -71,8 +69,8 @@
       }
     },
     {
-      "ariaLabel": "TNotes.template github 仓库链接",
-      "link": "https://github.com/Tdahuyou/TNotes.template",
+      "ariaLabel": "TNotes.leetcode github 仓库链接",
+      "link": "https://github.com/Tdahuyou/TNotes.leetcode",
       "icon": "github"
     }
   ],
