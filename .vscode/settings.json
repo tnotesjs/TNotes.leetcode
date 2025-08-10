@@ -22,6 +22,7 @@
     "*.svg": "default"
   },
   "workbench.editor.wrapTabs": true,
+  "workbench.panel.defaultLocation": "right",
 
   // #endregion
 
