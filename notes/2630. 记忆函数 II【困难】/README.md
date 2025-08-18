@@ -7,11 +7,9 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/memoize-ii/)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/memoize-ii/)
 
 现给定一个函数 `fn` ，返回该函数的一个 **记忆化** 版本。
 
@@ -65,6 +63,8 @@ fn = function (a, b) { return ({...a, ...b}); }
 - `1 <= inputs.length <= 10^5`
 - `0 <= inputs.flat().length <= 10^5`
 - `inputs[i][j] != NaN`
+
+:::
 
 ## 2. 🎯 Solutions.双哈希表
 

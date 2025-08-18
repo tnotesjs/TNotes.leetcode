@@ -9,7 +9,7 @@
 
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+<!-- ::: details [leetcode](https://leetcode.cn) -->
 
 ## 2. 🎯 Solutions.1
 

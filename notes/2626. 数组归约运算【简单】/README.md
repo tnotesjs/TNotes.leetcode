@@ -7,11 +7,9 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/array-reduce-transformation)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/array-reduce-transformation)
 
 给定一个整数数组 `nums`、一个 reducer 函数 `fn` 和一个初始值 `init`，返回通过依次对数组的每个元素执行 `fn` 函数得到的最终结果。
 
@@ -96,6 +94,8 @@ init = 25
 - `0 <= nums.length <= 1000`
 - `0 <= nums[i] <= 1000`
 - `0 <= init <= 1000`
+
+:::
 
 ## 2. 🎯 Solutions.1
 

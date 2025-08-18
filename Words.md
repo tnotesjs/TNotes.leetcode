@@ -3,5 +3,8 @@
   :words="[
     'complete',
     'consistent',
-    'anagram'
+    'anagram',
+    'replicate',
+    'conquer',
+    'divide'
 ]" />

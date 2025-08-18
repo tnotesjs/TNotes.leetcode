@@ -7,11 +7,9 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/return-length-of-arguments-passed)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/return-length-of-arguments-passed)
 
 请你编写一个函数 `argumentsLength`，返回传递给该函数的参数数量。
 
@@ -35,6 +33,8 @@
 
 - `args`  是一个有效的 JSON 数组
 - `0 <= args.length <= 100`
+
+:::
 
 ## 2. 🎯 Solutions.1
 

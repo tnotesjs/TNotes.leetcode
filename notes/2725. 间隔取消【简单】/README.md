@@ -7,11 +7,9 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/interval-cancellation)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/interval-cancellation)
 
 现给定一个函数 `fn`，一个参数数组 `args` 和一个时间间隔 `t`，返回一个取消函数 `cancelFn`。
 
@@ -126,6 +124,8 @@ setTimeout(cancelFn, cancelTimeMs)
 - `1 <= args.length <= 10`
 - `30 <= t <= 100`
 - `10 <= cancelT <= 500`
+
+:::
 
 ## 2. 🎯 Solutions.1
 

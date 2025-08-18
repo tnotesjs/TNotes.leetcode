@@ -7,11 +7,9 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/is-object-empty)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/is-object-empty)
 
 给定一个对象或数组，判断它是否为空。
 
@@ -44,6 +42,8 @@
 - `2 <= JSON.stringify(obj).length <= 10^5`
 
 **你可以在 `O(1)` 时间复杂度内解决这个问题吗？**
+
+:::
 
 ## 2. 🎯 Solutions.1
 

@@ -7,11 +7,9 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/inversion-of-object)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/inversion-of-object)
 
 给定一个对象 `obj`，返回一个反转的对象 `invertedObj`。
 
@@ -40,6 +38,8 @@
 - `obj` 是一个有效的 JSON 对象
 - `typeof obj[key] === "string"`
 - `2 <= JSON.stringify(obj).length <= 10**5`
+
+:::
 
 ## 2. 🎯 Solutions.1
 

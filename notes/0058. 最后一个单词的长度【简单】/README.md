@@ -7,11 +7,9 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/length-of-last-word/)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/length-of-last-word/)
 
 给你一个字符串 `s`，由若干单词组成，单词前后用一些空格字符隔开。返回字符串中 **最后一个** 单词的长度。
 
@@ -48,6 +46,8 @@
 - `1 <= s.length <= 10^4`
 - `s` 仅有英文字母和空格 `' '` 组成
 - `s` 中至少存在一个单词
+
+:::
 
 ## 2. 🎯 Solutions.1 - 暴力解法 - 直接调用原生 API - trim、split、pop
 

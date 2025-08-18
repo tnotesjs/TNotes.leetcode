@@ -8,11 +8,9 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/merge-two-binary-trees/)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/merge-two-binary-trees/)
 
 给你两棵二叉树： `root1` 和 `root2` 。
 
@@ -42,6 +40,8 @@
 
 - 两棵树中的节点数目在范围 `[0, 2000]` 内
 - `-10^4 <= Node.val <= 10^4`
+
+:::
 
 ## 2. 📒 在 js 中，null 参与加法运算的时候自动被视作 0 处理
 

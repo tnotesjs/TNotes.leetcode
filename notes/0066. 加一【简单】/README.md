@@ -7,11 +7,9 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/plus-one/)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/plus-one/)
 
 给定一个由 **整数** 组成的 **非空** 数组所表示的非负整数，在该数的基础上加一。
 
@@ -49,6 +47,8 @@
 
 - `1 <= digits.length <= 100`
 - `0 <= digits[i] <= 9`
+
+:::
 
 ## 2. 🎯 Solutions.1 - 逆序循环
 

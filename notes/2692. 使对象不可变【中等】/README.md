@@ -7,11 +7,9 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/make-object-immutable/)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+<!-- ::: details [leetcode](https://leetcode.cn/problems/make-object-immutable/) -->
 
 ## 2. 🎯 Solutions.1
 

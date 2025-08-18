@@ -7,11 +7,11 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/design-cancellable-function/)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+<!-- ::: details [leetcode](https://leetcode.cn/problems/design-cancellable-function/)
+
+::: -->
 
 ## 2. 🎯 Solutions.1
 

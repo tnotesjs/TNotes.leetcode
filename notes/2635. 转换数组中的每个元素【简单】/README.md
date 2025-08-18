@@ -4,16 +4,13 @@
 
 - [1. 📝 Description](#1--description)
 - [2. 🎯 Solutions.1](#2--solutions1)
+- [3. 🫧 评价](#3--评价)
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/apply-transform-over-each-element-in-array)
-
-- 备注：本题要求 - 实现数组原生 API `Array.map`
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/apply-transform-over-each-element-in-array)
 
 编写一个函数，这个函数接收一个整数数组  `arr` 和一个映射函数   `fn` ，通过该映射函数返回一个新的数组。
 
@@ -45,6 +42,8 @@
 - `-10^9 <= arr[i] <= 10^9`
 - `fn` 返回一个数
 
+:::
+
 ## 2. 🎯 Solutions.1
 
 ```javascript
@@ -56,3 +55,7 @@ var map = function (arr, fn) {
   return ans
 }
 ```
+
+## 3. 🫧 评价
+
+- 本题的要求是实现数组原生 API `Array.map`。

@@ -8,11 +8,9 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/pascals-triangle-ii)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/pascals-triangle-ii)
 
 给定一个非负索引 `rowIndex`，返回「杨辉三角」的第 `rowIndex`  行。
 
@@ -51,6 +49,8 @@
 **进阶：**
 
 你可以优化你的算法到 `O(rowIndex)` 空间复杂度吗？
+
+:::
 
 ## 2. 🎯 Solutions.1 - 暴力解法
 

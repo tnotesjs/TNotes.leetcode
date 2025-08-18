@@ -8,11 +8,9 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/rotate-image)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/rotate-image)
 
 给定一个 *n* × *n* 的二维矩阵  `matrix` 表示一个图像。请你将图像顺时针旋转 90 度。
 
@@ -41,6 +39,8 @@
 - `n == matrix.length == matrix[i].length`
 - `1 <= n <= 20`
 - `-1000 <= matrix[i][j] <= 1000`
+
+:::
 
 ## 2. 🎯 Solutions.1 - 暴力解法
 

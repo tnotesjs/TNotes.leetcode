@@ -7,11 +7,9 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/flood-fill)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/flood-fill)
 
 有一幅以  `m x n`  的二维整数数组表示的图画  `image` ，其中  `image[i][j]`  表示该图画的像素值大小。你也被给予三个整数 `sr` ,  `sc` 和 `color` 。你应该从像素  `image[sr][sc]`  开始对图像进行上色  **填充** 。
 
@@ -56,6 +54,8 @@
 - `0 <= image[i][j], color < 2^16`
 - `0 <= sr < m`
 - `0 <= sc < n`
+
+:::
 
 ## 2. 🎯 Solutions.1 - DFS
 

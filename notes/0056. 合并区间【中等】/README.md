@@ -9,11 +9,9 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/merge-intervals)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/merge-intervals)
 
 以数组 `intervals` 表示若干个区间的集合，其中单个区间为 `intervals[i] = [starti, endi]` 。请你合并所有重叠的区间，并返回  *一个不重叠的区间数组，该数组需恰好覆盖输入中的所有区间* 。
 
@@ -38,6 +36,8 @@
 - `1 <= intervals.length <= 10^4`
 - `intervals[i].length == 2`
 - `0 <= starti <= endi <= 10^4`
+
+:::
 
 ## 2. 🎯 Solutions.1 - 暴力解法 1
 

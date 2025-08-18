@@ -7,11 +7,9 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/number-of-recent-calls)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/number-of-recent-calls)
 
 写一个  `RecentCounter`  类来计算特定时间范围内最近的请求。
 
@@ -44,6 +42,8 @@ recentCounter.ping(3002);  // requests = [1, 100, 3001, 3002]，范围是 [2,300
 - `1 <= t <= 10^9`
 - 保证每次对 `ping` 调用所使用的 `t` 值都 **严格递增**
 - 至多调用 `ping` 方法 `10^4` 次
+
+:::
 
 ## 2. 🎯 Solutions.1 - 暴力解法 - 使用队列 queue
 

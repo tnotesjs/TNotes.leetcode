@@ -7,11 +7,9 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/maximum-average-subarray-i/)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/maximum-average-subarray-i/)
 
 给你一个由 `n` 个元素组成的整数数组 `nums` 和一个整数 `k` 。
 
@@ -39,6 +37,8 @@
 - `n == nums.length`
 - `1 <= k <= n <= 10^5`
 - `-10^4 <= nums[i] <= 10^4`
+
+:::
 
 ## 2. 🎯 Solutions.1
 

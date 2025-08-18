@@ -9,11 +9,9 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/valid-palindrome)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/valid-palindrome)
 
 如果在将所有大写字符转换为小写字符、并移除所有非字母数字字符之后，短语正着读和反着读都一样。则可以认为该短语是一个 **回文串** 。
 
@@ -50,6 +48,8 @@
 
 - `1 <= s.length <= 2 * 10^5`
 - `s` 仅由可打印的 ASCII 字符组成
+
+:::
 
 ## 2. 🎯 Solutions.1 - 暴力解法
 

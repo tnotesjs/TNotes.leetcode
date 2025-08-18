@@ -7,11 +7,9 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/allow-one-function-call)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/allow-one-function-call)
 
 给定一个函数 `fn` ，它返回一个新的函数，返回的函数与原始函数完全相同，只不过它确保 `fn` 最多被调用一次。
 
@@ -43,6 +41,8 @@
 - `1 <= calls.length <= 10`
 - `1 <= calls[i].length <= 100`
 - `2 <= JSON.stringify(calls).length <= 1000`
+
+:::
 
 ## 2. 🎯 Solutions.1
 

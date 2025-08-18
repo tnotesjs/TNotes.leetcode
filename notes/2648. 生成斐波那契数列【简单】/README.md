@@ -4,14 +4,13 @@
 
 - [1. 📝 Description](#1--description)
 - [2. 🎯 Solutions.1](#2--solutions1)
+- [3. 🫧 评价](#3--评价)
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/generate-fibonacci-sequence)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/generate-fibonacci-sequence)
 
 请你编写一个生成器函数，并返回一个可以生成 **斐波那契数列** 的生成器对象。
 
@@ -39,24 +38,16 @@
 
 - `0 <= callCount <= 50`
 
+:::
+
 ## 2. 🎯 Solutions.1
 
-```javascript
-/**
- * @return {Generator<number>}
- */
-var fibGenerator = function* () {
-  let a = 0,
-    b = 1
-  while (true) {
-    yield a
-    ;[a, b] = [b, a + b]
-  }
-}
+::: code-group
 
-/**
- * const gen = fibGenerator();
- * gen.next().value; // 0
- * gen.next().value; // 1
- */
-```
+<<< ./solutions/1/1.js [js]
+
+:::
+
+## 3. 🫧 评价
+
+- 跟 JS 中的迭代器、生成器相关。

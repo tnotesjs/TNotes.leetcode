@@ -7,11 +7,9 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/function-composition)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/function-composition)
 
 请你编写一个函数，它接收一个函数数组 `[f1, f2, f3，…， fn]` ，并返回一个新的函数 `fn` ，它是函数数组的 **复合函数** 。
 
@@ -53,6 +51,8 @@
 - `-1000 <= x <= 1000`
 - `0 <= functions.length <= 1000`
 - 所有函数都接受并返回一个整型
+
+:::
 
 ## 2. 🎯 Solutions.1
 

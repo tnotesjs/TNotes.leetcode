@@ -7,11 +7,9 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/max-area-of-island/)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/max-area-of-island/)
 
 给你一个大小为 `m x n` 的二进制矩阵 `grid` 。
 
@@ -44,6 +42,8 @@
 - `n == grid[i].length`
 - `1 <= m, n <= 50`
 - `grid[i][j]` 为 `0` 或 `1`
+
+:::
 
 ## 2. 🎯 Solutions.DFS + 递归
 

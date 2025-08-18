@@ -7,11 +7,9 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/json-deep-equal)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/json-deep-equal)
 
 给定两个对象 `o1` 和 `o2` ，请你检查它们是否 **完全相等** 。
 
@@ -62,6 +60,8 @@
 - `1 <= JSON.stringify(o1).length <= 10^5`
 - `1 <= JSON.stringify(o2).length <= 10^5`
 - `maxNestingDepth <= 1000`
+
+:::
 
 ## 2. 🎯 Solutions.递归
 

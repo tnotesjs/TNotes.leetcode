@@ -4,16 +4,13 @@
 
 - [1. 📝 Description](#1--description)
 - [2. 🎯 Solutions.1](#2--solutions1)
+- [3. 🫧 评价](#3--评价)
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/counter-ii)
-
-- 备注：这道题和 2620 类似，都是考察闭包，只不过这个题目做了一些扩展。可以在衍生作用域的时候多维护一个变量来解决本题。
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/counter-ii)
 
 请你写一个函数  `createCounter`。这个函数接收一个初始的整数值 `init`。并返回一个包含三个函数的对象。
 
@@ -51,6 +48,8 @@
 - `0 <= calls.length <= 1000`
 - `calls[i]` 是 “increment”、“decrement” 和 “reset” 中的一个
 
+:::
+
 ## 2. 🎯 Solutions.1
 
 ```javascript
@@ -80,3 +79,7 @@ var createCounter = function (init) {
  * counter.decrement(); // 4
  */
 ```
+
+## 3. 🫧 评价
+
+- 这道题和 2620 类似，都是考察闭包，只不过这个题目做了一些扩展。可以在衍生作用域的时候多维护一个变量来解决本题。

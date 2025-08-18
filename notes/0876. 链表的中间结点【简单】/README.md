@@ -5,17 +5,13 @@
 - [1. 📝 Description](#1--description)
 - [2. 🎯 Solutions.1 - 暴力解法 - 先找长度，再找中间](#2--solutions1---暴力解法---先找长度再找中间)
 - [3. 🎯 Solutions.2 - 快慢指针 - 一步两步](#3--solutions2---快慢指针---一步两步)
+- [4. 🔗 References](#4--references)
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/middle-of-the-linked-list)
-
-- https://leetcode.cn/problems/middle-of-the-linked-list/solutions/165152/kuai-man-zhi-zhen-zhu-yao-zai-yu-diao-shi-by-liwei/
-  - 本节笔记中用到的图片来源于这篇题解。
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/middle-of-the-linked-list)
 
 给你单链表的头结点 `head` ，请你找出并返回链表的中间结点。
 
@@ -44,6 +40,8 @@
 
 - 链表的结点数范围是 `[1, 100]`
 - `1 <= Node.val <= 100`
+
+:::
 
 ## 2. 🎯 Solutions.1 - 暴力解法 - 先找长度，再找中间
 
@@ -79,3 +77,8 @@ var middleNode = function (head) {
 
 - ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-11-16-19-59-26.png)
 - ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-11-16-19-59-32.png)
+
+## 4. 🔗 References
+
+- https://leetcode.cn/problems/middle-of-the-linked-list/solutions/165152/kuai-man-zhi-zhen-zhu-yao-zai-yu-diao-shi-by-liwei/
+  - 本节笔记中用到的图片来源于这篇题解。

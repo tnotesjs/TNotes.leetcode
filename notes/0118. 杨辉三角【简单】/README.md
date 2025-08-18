@@ -7,11 +7,9 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/pascals-triangle)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/pascals-triangle)
 
 给定一个非负整数  *`numRows`*，生成「杨辉三角」的前  *`numRows`*  行。
 
@@ -36,6 +34,8 @@
 **提示:**
 
 - `1 <= numRows <= 30`
+
+:::
 
 ## 2. 🎯 Solutions.1 - 暴力解法
 

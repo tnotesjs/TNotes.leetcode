@@ -7,11 +7,9 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/deep-object-filter)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/deep-object-filter)
 
 给定一个对象 `obj` 和一个函数 `fn`，返回一个经过筛选的对象 `filteredObject`。
 
@@ -21,7 +19,7 @@
 
 **示例 1：**
 
-```
+```txt
 输入：
 obj = [-5, -4, -3, -2, -1, 0, 1],
 fn = (x) => x > 0
@@ -31,7 +29,7 @@ fn = (x) => x > 0
 
 **示例 2：**
 
-```
+```txt
 输入：
 obj = {"a": 1, "b": "2", "c": 3, "d": "4", "e": 5, "f": 6, "g": {"a": 1}},
 fn = (x) => typeof x === "string"
@@ -41,7 +39,7 @@ fn = (x) => typeof x === "string"
 
 **示例 3：**
 
-```
+```txt
 输入：
 obj = [-1, [-1, -1, 5, -1, 10], -1, [-1], [-5]],
 fn = (x) => x > 0
@@ -51,7 +49,7 @@ fn = (x) => x > 0
 
 **示例 4：**
 
-```
+```txt
 输入：
 obj = [[[[5]]]],
 fn = (x) => Array.isArray(x)
@@ -63,6 +61,8 @@ fn = (x) => Array.isArray(x)
 - `fn` 是一个返回布尔值的函数
 - `obj` 是一个有效的 JSON 对象
 - `2 <= JSON.stringify(obj).length <= 10**5`
+
+:::
 
 ## 2. 🎯 Solutions.1
 

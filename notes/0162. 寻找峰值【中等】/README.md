@@ -7,11 +7,9 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/find-peak-element)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/find-peak-element)
 
 峰值元素是指其值严格大于左右相邻值的元素。
 
@@ -43,6 +41,8 @@
 - `1 <= nums.length <= 1000`
 - `-2^31 <= nums[i] <= 2^31 - 1`
 - 对于所有有效的 `i` 都有 `nums[i] != nums[i + 1]`
+
+:::
 
 ## 2. 🎯 Solutions.1 - 二分查找
 

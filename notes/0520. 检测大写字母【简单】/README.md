@@ -7,11 +7,9 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/detect-capital)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/detect-capital)
 
 我们定义，在以下情况时，单词的大写用法是正确的：
 
@@ -33,6 +31,8 @@
 
 - `1 <= word.length <= 100`
 - `word` 由小写和大写英文字母组成
+
+:::
 
 ## 2. 🎯 Solutions.1
 

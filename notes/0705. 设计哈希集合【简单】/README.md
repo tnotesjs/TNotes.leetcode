@@ -5,12 +5,10 @@
 - [1. 📝 Description](#1--description)
 
 <!-- endregion:toc -->
-- [leetcode](https://leetcode.cn/problems/design-hashset)
-
 
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/design-hashset)
 
 不使用任何内建的哈希表库设计一个哈希集合（HashSet）。
 
@@ -45,3 +43,5 @@ myHashSet.contains(2); // 返回 False ，（已移除）
 
 - `0 <= key <= 10^6`
 - 最多调用 `10^4` 次 `add`、`remove` 和 `contains`
+
+:::

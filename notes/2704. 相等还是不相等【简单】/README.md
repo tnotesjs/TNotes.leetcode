@@ -7,11 +7,9 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/to-be-or-not-to-be)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/to-be-or-not-to-be)
 
 请你编写一个名为 `expect` 的函数，用于帮助开发人员测试他们的代码。它应该接受任何值 `val` 并返回一个包含以下两个函数的对象。
 
@@ -35,6 +33,8 @@
 - 输入：`func = () => expect(5).notToBe(null)`
 - 输出：`{"value": true}`
 - 解释：`5 !== null` 因此该表达式返回 `true`.
+
+:::
 
 ## 2. 🎯 Solutions.1
 

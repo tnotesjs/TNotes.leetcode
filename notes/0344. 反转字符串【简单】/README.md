@@ -6,17 +6,13 @@
 - [2. 🎯 Solutions.1 - 暴力解法 - 直接调用原生 API](#2--solutions1---暴力解法---直接调用原生-api)
 - [3. 🎯 Solutions.2 - 双指针](#3--solutions2---双指针)
 - [4. 🎯 Solutions.3 - 递归](#4--solutions3---递归)
+- [5. 🔗 References](#5--references)
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/reverse-string/)
-
-- https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse
-  - mdn - `Array.prototype.reverse()`
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/reverse-string/)
 
 编写一个函数，其作用是将输入的字符串反转过来。输入字符串以字符数组 `s` 的形式给出。
 
@@ -40,6 +36,8 @@
 
 - `1 <= s.length <= 10^5`
 - `s[i]` 都是 [ASCII](https://baike.baidu.com/item/ASCII) 码表中的可打印字符
+
+:::
 
 ## 2. 🎯 Solutions.1 - 暴力解法 - 直接调用原生 API
 
@@ -79,3 +77,8 @@ var reverseString = function (s) {
 ```
 
 - 思路和双指针是相同的。
+
+## 5. 🔗 References
+
+- https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse
+  - mdn - `Array.prototype.reverse()`

@@ -7,11 +7,9 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/filter-elements-from-array/)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/filter-elements-from-array/)
 
 给定一个整数数组  `arr` 和一个过滤函数 `fn`，并返回一个过滤后的数组 `filteredArr` 。
 
@@ -46,6 +44,8 @@
 
 - `0 <= arr.length <= 1000`
 - `-10^9 <= arr[i] <= 10^9`
+
+:::
 
 ## 2. 🎯 Solutions.1
 

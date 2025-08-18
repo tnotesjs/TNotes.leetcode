@@ -4,16 +4,13 @@
 
 - [1. 📝 Description](#1--description)
 - [2. 🎯 Solutions.1](#2--solutions1)
+- [3. 🫧 评价](#3--评价)
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/add-two-promises)
-
-- 备注：考察对 Promise 的理解。
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/add-two-promises)
 
 给定两个 promise 对象  `promise1` 和 `promise2`，返回一个新的 promise。`promise1` 和 `promise2` 都会被解析为一个数字。返回的 Promise 应该解析为这两个数字的和。
 
@@ -47,6 +44,8 @@
 
 - `promise1 和 promise2` 都是被解析为一个数字的 promise 对象
 
+:::
+
 ## 2. 🎯 Solutions.1
 
 ```javascript
@@ -64,3 +63,7 @@ var addTwoPromises = async function (promise1, promise2) {
  *   .then(console.log); // 4
  */
 ```
+
+## 3. 🫧 评价
+
+- 考察对 Promise 的理解。

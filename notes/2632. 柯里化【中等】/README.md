@@ -9,11 +9,9 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/curry)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/curry)
 
 请你编写一个函数，它接收一个其他的函数，并返回该函数的  **柯里化**  后的形式。
 
@@ -92,6 +90,8 @@ inputs = [[]]
 - `函数参数需要被显式定义`
 - 如果  `fn.length > 0`  则最后一个数组  `inputs`  不为空
 - 如果  `fn.length === 0`  则  `inputs.length === 1`
+
+:::
 
 ## 2. 📒 函数的 length 属性
 

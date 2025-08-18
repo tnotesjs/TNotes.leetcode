@@ -8,11 +8,9 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/reverse-words-in-a-string)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/reverse-words-in-a-string)
 
 给你一个字符串 `s` ，请你反转字符串中 **单词** 的顺序。
 
@@ -52,6 +50,8 @@
 - `s` 中 **至少存在一个** 单词
 
 **进阶：** 如果字符串在你使用的编程语言中是一种可变数据类型，请尝试使用  `O(1)` 额外空间复杂度的 **原地** 解法。
+
+:::
 
 ## 2. 🎯 Solutions.1 - 字符串分割
 

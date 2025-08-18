@@ -7,11 +7,9 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/infinite-method-object)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/infinite-method-object)
 
 请你编写一个函数，返回一个 **无穷方法对象** 。
 
@@ -37,6 +35,8 @@
 **提示：**
 
 - `0 <= method.length <= 1000`
+
+:::
 
 ## 2. 🎯 Solutions.1
 

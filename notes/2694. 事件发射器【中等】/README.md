@@ -4,16 +4,13 @@
 
 - [1. 📝 Description](#1--description)
 - [2. 🎯 Solutions.1](#2--solutions1)
+- [3. 🫧 评价](#3--评价)
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/event-emitter)
-
-- 备注：模拟 NodeJS 中的 EventEmitter 模块的效果，仿写一个 EventEmitter 类。
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/event-emitter)
 
 设计一个 `EventEmitter` 类。这个接口与 Node.js 或 DOM 的 Event Target 接口相似，但有一些差异。`EventEmitter` 应该允许订阅事件和触发事件。
 
@@ -141,6 +138,8 @@ emitter.emit('firstEvent', [5]) // [7]
 - `subscribe` 操作接收 2 个参数，第一个是事件名，第二个是回调函数。
 - `unsubscribe` 操作接收一个参数，即之前进行订阅的顺序（从 0 开始）。
 
+:::
+
 ## 2. 🎯 Solutions.1
 
 ```javascript
@@ -192,3 +191,7 @@ class EventEmitter {
  * emitter.emit('onClick'); // []
  */
 ```
+
+## 3. 🫧 评价
+
+- 模拟 NodeJS 中的 EventEmitter 模块的效果，仿写一个 EventEmitter 类。

@@ -10,11 +10,9 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/max-consecutive-ones/)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/max-consecutive-ones/)
 
 给定一个二进制数组 `nums` ， 计算其中最大连续 `1` 的个数。
 

@@ -4,14 +4,14 @@
 
 - [1. 📝 Description](#1--description)
 - [2. 🎯 Solutions.1 - 递归](#2--solutions1---递归)
+- [3. 🎯 Solutions.2 - 迭代 + 空间优化（推荐）](#3--solutions2---迭代--空间优化推荐)
+- [4. 📒 斐波那契数列](#4--斐波那契数列)
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/fibonacci-number/)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/fibonacci-number/description/)
 
 **斐波那契数** （通常用  `F(n)` 表示）形成的序列称为 **斐波那契数列** 。该数列由  `0` 和 `1` 开始，后面的每一项数字都是前面两项数字的和。也就是：
 
@@ -21,7 +21,7 @@ F(0) = 0，F(1) = 1 F(n) = F(n - 1) + F(n - 2)，其中 n > 1
 
 **示例 1：**
 
-```
+```txt
 输入：n = 2
 输出：1
 解释：F(2) = F(1) + F(0) = 1 + 0 = 1
@@ -29,7 +29,7 @@ F(0) = 0，F(1) = 1 F(n) = F(n - 1) + F(n - 2)，其中 n > 1
 
 **示例 2：**
 
-```
+```txt
 输入：n = 3
 输出：2
 解释：F(3) = F(2) + F(1) = 1 + 1 = 2
@@ -37,7 +37,7 @@ F(0) = 0，F(1) = 1 F(n) = F(n - 1) + F(n - 2)，其中 n > 1
 
 **示例 3：**
 
-```
+```txt
 输入：n = 4
 输出：3
 解释：F(4) = F(3) + F(2) = 2 + 1 = 3
@@ -47,14 +47,30 @@ F(0) = 0，F(1) = 1 F(n) = F(n - 1) + F(n - 2)，其中 n > 1
 
 - `0 <= n <= 30`
 
+:::
+
 ## 2. 🎯 Solutions.1 - 递归
 
-```js
-var fib = function (n) {
-  if (n === 0) return 0
-  if (n === 1 || n === 2) return 1
-  return fib(n - 1) + fib(n - 2)
-}
-```
+::: code-group
+
+<<< ./solutions/1/1.js
+
+:::
+
+- 时间复杂度：$O(2^n)$
+- 空间复杂度：$O(n)$
+
+## 3. 🎯 Solutions.2 - 迭代 + 空间优化（推荐）
+
+::: code-group
+
+<<< ./solutions/2/1.js
+
+:::
+
+- 时间复杂度：$O(n)$
+- 空间复杂度：$O(1)$
+
+## 4. 📒 斐波那契数列
 
 - ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-11-16-19-07-29.png)

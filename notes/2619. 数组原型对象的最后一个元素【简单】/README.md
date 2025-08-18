@@ -7,11 +7,9 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/array-prototype-last/)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/array-prototype-last/)
 
 请你编写一段代码实现一个数组方法，使任何数组都可以调用 `array.last()` 方法，这个方法将返回数组最后一个元素。如果数组中没有元素，则返回  `-1` 。
 
@@ -33,6 +31,8 @@
 
 - `arr` 是一个有效的 JSON 数组
 - `0 <= arr.length <= 1000`
+
+:::
 
 ## 2. 🎯 Solutions.1
 

@@ -7,11 +7,9 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/sleep/)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/sleep/)
 
 请你编写一个异步函数，它接收一个正整数参数 `millis` ，并休眠 `millis` 毫秒。要求此函数可以解析任何值。
 
@@ -37,6 +35,8 @@ sleep(100).then(() => {
 **提示：**
 
 - `1 <= millis <= 1000`
+
+:::
 
 ## 2. 🎯 Solutions.1
 

@@ -7,11 +7,9 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/custom-interval)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/custom-interval)
 
 **函数** `customInterval`
 
@@ -71,6 +69,8 @@ setTimeout(() => {
 
 - `20 <= delay, period <= 250`
 - `20 <= stopTime <= 1000`
+
+:::
 
 ## 2. 🎯 Solutions.1
 

@@ -9,11 +9,9 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/memoize)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/memoize)
 
 请你编写一个函数 `fn`，它接收另一个函数作为输入，并返回该函数的 **记忆化** 后的结果。
 
@@ -82,6 +80,8 @@ fib(5) = 8 // "call"
 - `actions.length === values.length`
 - `actions[i]` 为  "call" 和 "getCallCount" 中的一个
 - `fnName` 为 "sum", "factorial" 和 "fib" 中的一个
+
+:::
 
 ## 2. 📒 将数字数组直接作为 key
 

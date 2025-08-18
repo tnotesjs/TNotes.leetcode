@@ -6,16 +6,13 @@
 - [2. 🎯 Solutions.1](#2--solutions1)
 - [3. 🎯 Solutions.2](#3--solutions2)
 - [4. 🎯 Solutions.3](#4--solutions3)
+- [5. 🫧 评价](#5--评价)
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/account-balance-after-rounded-purchase)
-
-- 备注：找规律解题，规律很多，解法也很多。
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/account-balance-after-rounded-purchase)
 
 一开始，你的银行账户里有  `100`  块钱。
 
@@ -44,6 +41,8 @@
 **提示：**
 
 - `0 <= purchaseAmount <= 100`
+
+:::
 
 ## 2. 🎯 Solutions.1
 
@@ -130,3 +129,7 @@ var accountBalanceAfterPurchase = function (purchaseAmount) {
   return 100 - Math.floor((purchaseAmount + 5) / 10) * 10
 }
 ```
+
+## 5. 🫧 评价
+
+- 若使用数学的方式求解，可以自行找规律解题，规律很多，解法也很多。

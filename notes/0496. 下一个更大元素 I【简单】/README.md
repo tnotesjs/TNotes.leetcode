@@ -7,11 +7,9 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/next-greater-element-i/)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/next-greater-element-i/)
 
 `nums1`  中数字  `x`  的 **下一个更大元素** 是指  `x`  在  `nums2` 中对应位置 **右侧** 的 **第一个** 比  `x`  大的元素。
 
@@ -50,6 +48,8 @@
 - `nums1` 中的所有整数同样出现在 `nums2` 中
 
 **进阶：** 你可以设计一个时间复杂度为 `O(nums1.length + nums2.length)` 的解决方案吗？
+
+:::
 
 ## 2. 🎯 Solutions.1
 

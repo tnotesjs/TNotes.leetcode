@@ -4,16 +4,13 @@
 
 - [1. 📝 Description](#1--description)
 - [2. 🎯 Solutions.1](#2--solutions1)
+- [3. 🫧 评价](#3--评价)
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/calculator-with-method-chaining)
-
-- 备注：题目有些长，但逻辑很简单。
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/calculator-with-method-chaining)
 
 设计一个类 `Calculator` 。该类应提供加法、减法、乘法、除法和乘方等数学运算功能。同时，它还应支持连续操作的方法链式调用。`Calculator` 类的构造函数应接受一个数字作为 `result` 的初始值。
 
@@ -77,6 +74,8 @@
 - `actions[i]`  是 "Calculator", "add", "subtract", "multiply", "divide", "power", 和 "getResult" 其中的元素
 - 第一个操作总是 "Calculator"
 - 最后一个操作总是  "getResult"
+
+:::
 
 ## 2. 🎯 Solutions.1
 
@@ -148,3 +147,7 @@ class Calculator {
 
 - 链式调用，每次 `return this` 即可。
 - 除法运算时校验 value 不能为 0，否则抛出错误 `throw new Error('Division by zero is not allowed')`
+
+## 3. 🫧 评价
+
+- 题目有些长，但逻辑很简单，根据描述一步步实现相关方法即可。

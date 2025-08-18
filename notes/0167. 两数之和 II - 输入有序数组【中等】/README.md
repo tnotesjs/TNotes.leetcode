@@ -7,11 +7,9 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/)
 
 给你一个下标从 **1** 开始的整数数组  `numbers` ，该数组已按 **非递减顺序排列**  ，请你从数组中找出满足相加之和等于目标数  `target` 的两个数。如果设这两个数分别是 `numbers[index1]` 和 `numbers[index2]` ，则 `1 <= index1 < index2 <= numbers.length` 。
 
@@ -52,6 +50,8 @@
 - `numbers` 按 **非递减顺序** 排列
 - `-1000 <= target <= 1000`
 - **仅存在一个有效答案**
+
+:::
 
 ## 2. 🎯 Solutions.1
 

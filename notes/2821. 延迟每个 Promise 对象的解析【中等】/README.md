@@ -7,11 +7,9 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/delay-the-resolution-of-each-promise)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/delay-the-resolution-of-each-promise)
 
 给定一个函数数组 `functions` 和一个数字 `ms`，返回一个新的函数数组。
 
@@ -50,6 +48,8 @@ ms = 70
 - `functions`  是一个返回 Promise 对象的函数数组
 - `10 <= ms <= 500`
 - `1 <= functions.length <= 10`
+
+:::
 
 ## 2. 🎯 Solutions.1
 

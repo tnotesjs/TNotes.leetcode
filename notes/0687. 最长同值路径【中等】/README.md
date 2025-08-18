@@ -7,11 +7,9 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/longest-univalue-path/)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/longest-univalue-path/)
 
 给定一个二叉树的  `root` ，返回  *最长的路径的长度* ，这个路径中的  *每个节点具有相同值* 。 这条路径可以经过也可以不经过根节点。
 
@@ -40,6 +38,8 @@
 - 树的节点数的范围是  `[0, 10^4]`
 - `-1000 <= Node.val <= 1000`
 - 树的深度将不超过 `1000`
+
+:::
 
 ## 2. 🎯 Solutions.1 - DFS
 

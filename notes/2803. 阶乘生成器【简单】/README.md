@@ -7,11 +7,9 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/factorial-generator)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/factorial-generator)
 
 编写一个生成器函数，该函数以一个整数 `n` 作为参数，并返回一个生成器对象，该生成器对象可以生成 **阶乘序列** 。
 
@@ -60,6 +58,8 @@ gen.next().value // 1
 **提示：**
 
 - `0 <= n <= 18`
+
+:::
 
 ## 2. 🎯 Solutions.1
 

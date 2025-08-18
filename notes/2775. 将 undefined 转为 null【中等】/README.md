@@ -7,11 +7,9 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/undefined-to-null/)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/undefined-to-null/)
 
 给定一个深层嵌套的对象或数组 obj ，并创建该对象 obj 的副本，将其中的任何 undefined 值替换为 null 。
 
@@ -33,6 +31,8 @@
 
 - `obj` 是一个有效的 JSON 对象或数组
 - `2 <= JSON.stringify(obj).length <= 105`
+
+:::
 
 ## 2. 🎯 Solutions.1 - 递归
 

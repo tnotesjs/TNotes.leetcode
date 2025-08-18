@@ -7,11 +7,9 @@
 
 <!-- endregion:toc -->
 
-- [leetcode](https://leetcode.cn/problems/maximum-number-of-vowels-in-a-substring-of-given-length)
-
 ## 1. 📝 Description
 
-::: details [leetcode](https://leetcode.cn)
+::: details [leetcode](https://leetcode.cn/problems/maximum-number-of-vowels-in-a-substring-of-given-length)
 
 给你字符串 `s` 和整数 `k` 。
 
@@ -21,46 +19,41 @@
 
 **示例 1：**
 
-```
+```txt
 输入：s = "abciiidef", k = 3
 输出：3
 解释：子字符串 "iii" 包含 3 个元音字母。
-
 ```
 
 **示例 2：**
 
-```
+```txt
 输入：s = "aeiou", k = 2
 输出：2
 解释：任意长度为 2 的子字符串都包含 2 个元音字母。
-
 ```
 
 **示例 3：**
 
-```
+```txt
 输入：s = "leetcode", k = 3
 输出：2
 解释："lee"、"eet" 和 "ode" 都包含 2 个元音字母。
-
 ```
 
 **示例 4：**
 
-```
+```txt
 输入：s = "rhythms", k = 4
 输出：0
 解释：字符串 s 中不含任何元音字母。
-
 ```
 
 **示例 5：**
 
-```
+```txt
 输入：s = "tryhard", k = 4
 输出：1
-
 ```
 
 **提示：**
@@ -68,6 +61,8 @@
 - `1 <= s.length <= 10^5`
 - `s` 由小写英文字母组成
 - `1 <= k <= s.length`
+
+:::
 
 ## 2. 🎯 Solutions.1
 
