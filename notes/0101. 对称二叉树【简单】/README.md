@@ -2,8 +2,52 @@
 
 <!-- region:toc -->
 
-- [1. 📝 概述](#1--概述)
+- [1. 📝 Description](#1--description)
+- [2. 🎯 Solutions.1 - 暴力解法](#2--solutions1---暴力解法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 概述
+## 1. 📝 Description
+
+::: details [leetcode](https://leetcode.cn/problems/symmetric-tree)
+
+给你一个二叉树的根节点 `root` ， 检查它是否轴对称。
+
+---
+
+- **示例 1：**
+
+![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-08-21-12-24-18.png)
+
+```txt
+输入：root = [1,2,2,3,4,4,3]
+输出：true
+```
+
+- **示例 2：**
+
+![图 1](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-08-21-12-24-23.png)
+
+```txt
+输入：root = [1,2,2,null,3,null,3]
+输出：false
+```
+
+---
+
+**提示：**
+
+- 树中节点数目在范围 `[1, 1000]` 内
+- `-100 <= Node.val <= 100`
+
+**进阶：** 你可以运用递归和迭代两种方法解决这个问题吗？
+
+:::
+
+## 2. 🎯 Solutions.1 - 暴力解法
+
+::: code-group
+
+<<< ./solutions/1/1.js [js]
+
+:::
