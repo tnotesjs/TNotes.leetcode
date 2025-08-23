@@ -150,25 +150,25 @@ var maxArea = function (height) {
 
 ::: swiper
 
-![image](assets/2-0.png)
+![1](assets/2-0.png)
 
-![image](assets/2-1.png)
+![2](assets/2-1.png)
 
-![image](assets/2-2.png)
+![3](assets/2-2.png)
 
-![image](assets/2-3.png)
+![4](assets/2-3.png)
 
-![image](assets/2-4.png)
+![5](assets/2-4.png)
 
-![image](assets/2-5.png)
+![6](assets/2-5.png)
 
-![image](assets/2-6.png)
+![7](assets/2-6.png)
 
-![image](assets/2-7.png)
+![8](assets/2-7.png)
 
-![image](assets/2-8.png)
+![9](assets/2-8.png)
 
-![image](assets/2-9.png)
+![10](assets/2-9.png)
 
 :::
 

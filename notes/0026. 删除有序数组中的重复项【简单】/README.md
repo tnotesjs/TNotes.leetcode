@@ -40,7 +40,7 @@ for (int i = 0; i < k; i++) {
 
 **示例 1：**
 
-```
+```txt
 输入：nums = [1,1,2]
 输出：2, nums = [1,2,_]
 解释：函数应该返回新的长度 2 ，并且原数组 nums 的前两个元素被修改为 1, 2 。不需要考虑数组中超出新长度后面的元素。
@@ -48,7 +48,7 @@ for (int i = 0; i < k; i++) {
 
 **示例 2：**
 
-```
+```txt
 输入：nums = [0,0,1,1,1,2,2,3,3,4]
 输出：5, nums = [0,1,2,3,4]
 解释：函数应该返回新的长度 5 ， 并且原数组 nums 的前五个元素被修改为 0, 1, 2, 3, 4 。不需要考虑数组中超出新长度后面的元素。
@@ -66,17 +66,17 @@ for (int i = 0; i < k; i++) {
 
 ::: swiper
 
-![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-04-11-08-47-33.png)
+![1](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-04-11-08-47-33.png)
 
-![图 1](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-04-11-08-47-43.png)
+![2](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-04-11-08-47-43.png)
 
-![图 2](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-04-11-08-48-33.png)
+![3](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-04-11-08-48-33.png)
 
-![图 3](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-04-11-08-48-42.png)
+![4](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-04-11-08-48-42.png)
 
-![图 4](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-04-11-08-48-51.png)
+![5](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-04-11-08-48-51.png)
 
-![图 5](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-04-11-08-49-00.png)
+![6](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-04-11-08-49-00.png)
 
 :::
 

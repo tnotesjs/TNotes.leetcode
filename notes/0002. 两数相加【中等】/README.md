@@ -23,7 +23,7 @@
 
 ![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-06-01-22-52-32.png)
 
-```
+```txt
 输入：l1 = [2,4,3], l2 = [5,6,4]
 输出：[7,0,8]
 解释：342 + 465 = 807.
@@ -31,14 +31,14 @@
 
 - **示例 2：**
 
-```
+```txt
 输入：l1 = [0], l2 = [0]
 输出：[0]
 ```
 
 - **示例 3：**
 
-```
+```txt
 输入：l1 = [9,9,9,9,9,9,9], l2 = [9,9,9,9]
 输出：[8,9,9,9,0,0,0,1]
 ```
@@ -57,13 +57,13 @@
 
 ::: swiper
 
-![图 5](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-06-01-23-57-11.png)
+![1](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-06-01-23-57-11.png)
 
-![图 6](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-06-01-23-57-18.png)
+![2](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-06-01-23-57-18.png)
 
-![图 7](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-06-01-23-57-25.png)
+![3](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-06-01-23-57-25.png)
 
-![图 8](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-06-01-23-57-33.png)
+![4](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-06-01-23-57-33.png)
 
 :::
 
