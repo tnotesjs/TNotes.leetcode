@@ -40,7 +40,7 @@ const vpConfig = defineConfig({
   head: head(),
   ignoreDeadLinks: true,
   lang: 'zh-Hans',
-  lastUpdated: true,
+  lastUpdated: false,
   markdown: markdown(),
   router: {
     prefetchLinks: false,

@@ -32,7 +32,7 @@
 
 **示例 1：**
 
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-25-16-17-55.png)
+![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-25-16-17-55.png)
 
 - 输入：[1,8,6,2,5,4,8,3,7]
 - 输出：49
@@ -53,7 +53,7 @@
 
 ## 3. 🎯 Solutions.1 - 暴力枚举
 
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-25-16-18-33.png)
+![img](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-25-16-18-33.png)
 
 ```javascript
 /**
@@ -150,25 +150,25 @@ var maxArea = function (height) {
 
 ::: swiper
 
-![1](assets/2-0.png)
+![1](./assets/2-0.png)
 
-![2](assets/2-1.png)
+![2](./assets/2-1.png)
 
-![3](assets/2-2.png)
+![3](./assets/2-2.png)
 
-![4](assets/2-3.png)
+![4](./assets/2-3.png)
 
-![5](assets/2-4.png)
+![5](./assets/2-4.png)
 
-![6](assets/2-5.png)
+![6](./assets/2-5.png)
 
-![7](assets/2-6.png)
+![7](./assets/2-6.png)
 
-![8](assets/2-7.png)
+![8](./assets/2-7.png)
 
-![9](assets/2-8.png)
+![9](./assets/2-8.png)
 
-![10](assets/2-9.png)
+![10](./assets/2-9.png)
 
 :::
 
