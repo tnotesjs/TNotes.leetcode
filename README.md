@@ -7689,6 +7689,3 @@
   - [2. 🎯 Solutions.1 - 暴力解法](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/3606.%20%E4%BC%98%E6%83%A0%E5%88%B8%E6%A0%A1%E9%AA%8C%E5%99%A8/README.md#2--solutions1---暴力解法)
   - [3. 🔗 References](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/3606.%20%E4%BC%98%E6%83%A0%E5%88%B8%E6%A0%A1%E9%AA%8C%E5%99%A8/README.md#3--references)
 
-
-- [ ] [3565. xxx](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/3565.%20xxx)
-

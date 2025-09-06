@@ -16,7 +16,7 @@
     "assets"
   ],
   "port": 9389,
-  "rootSidebarDir": "../_/sidebars",
+  "rootSidebarDir": "../TNotes/sidebars",
   "root_item": {
     "icon": {
       "src": "https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/assets/icon--leetcode.svg"
@@ -26,7 +26,7 @@
     "details": "Leetcode 刷题笔记",
     "link": "https://tdahuyou.github.io/TNotes.leetcode/",
     "created_at": 1741793958000,
-    "updated_at": 1755751215959,
+    "updated_at": 1757163549955,
     "days_since_birth": 9389
   },
   "menuItems": [
@@ -72,7 +72,7 @@
     },
     {
       "ariaLabel": "TNotes.leetcode github 仓库链接",
-      "link": "https://github.com/Tdahuyou/TNotes.leetcode",
+      "link": "https://github.com/tnotesjs/TNotes.leetcode",
       "icon": "github"
     }
   ],
