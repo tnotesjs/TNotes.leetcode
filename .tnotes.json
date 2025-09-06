@@ -1,5 +1,5 @@
 {
-  "author": "Tdahuyou",
+  "author": "tnotesjs",
   "repoName": "TNotes.leetcode",
   "keywords": ["TNotes.leetcode"],
   "sidebar_isNotesIDVisible": true,
@@ -22,7 +22,7 @@
     "title": "leetcode",
     "completed_notes_count": 55,
     "details": "Leetcode 刷题笔记",
-    "link": "https://tdahuyou.github.io/TNotes.leetcode/",
+    "link": "https://tnotesjs.github.io/TNotes.leetcode/",
     "created_at": 1741793958000,
     "updated_at": 1757163549955,
     "days_since_birth": 9389
@@ -46,7 +46,7 @@
     },
     {
       "text": "📒 TNotes",
-      "link": "https://tdahuyou.github.io/notes"
+      "link": "https://tnotesjs.github.io/notes"
     },
     {
       "text": "📂 TNotes.yuque",
