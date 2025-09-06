@@ -1,4 +1,4 @@
-# [0485. 最大连续 1 的个数【简单】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0485.%20%E6%9C%80%E5%A4%A7%E8%BF%9E%E7%BB%AD%201%20%E7%9A%84%E4%B8%AA%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
+# [0485. 最大连续 1 的个数【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0485.%20%E6%9C%80%E5%A4%A7%E8%BF%9E%E7%BB%AD%201%20%E7%9A%84%E4%B8%AA%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
 

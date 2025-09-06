@@ -1,4 +1,4 @@
-# [0484. 寻找排列【中等】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0484.%20%E5%AF%BB%E6%89%BE%E6%8E%92%E5%88%97%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
+# [0484. 寻找排列【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0484.%20%E5%AF%BB%E6%89%BE%E6%8E%92%E5%88%97%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
 

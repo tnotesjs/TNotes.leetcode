@@ -1,4 +1,4 @@
-# [2690. 无穷方法对象【简单】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/2690.%20%E6%97%A0%E7%A9%B7%E6%96%B9%E6%B3%95%E5%AF%B9%E8%B1%A1%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
+# [2690. 无穷方法对象【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/2690.%20%E6%97%A0%E7%A9%B7%E6%96%B9%E6%B3%95%E5%AF%B9%E8%B1%A1%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
 

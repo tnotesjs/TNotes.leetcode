@@ -1,4 +1,4 @@
-# [0278. 第一个错误的版本【简单】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0278.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%E9%94%99%E8%AF%AF%E7%9A%84%E7%89%88%E6%9C%AC%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
+# [0278. 第一个错误的版本【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0278.%20%E7%AC%AC%E4%B8%80%E4%B8%AA%E9%94%99%E8%AF%AF%E7%9A%84%E7%89%88%E6%9C%AC%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
 

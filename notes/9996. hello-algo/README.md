@@ -1,4 +1,4 @@
-# [9996. hello-algo](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/9996.%20hello-algo)
+# [9996. hello-algo](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/9996.%20hello-algo)
 
 <!-- region:toc -->
 

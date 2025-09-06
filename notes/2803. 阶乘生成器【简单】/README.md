@@ -1,4 +1,4 @@
-# [2803. 阶乘生成器【简单】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/2803.%20%E9%98%B6%E4%B9%98%E7%94%9F%E6%88%90%E5%99%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
+# [2803. 阶乘生成器【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/2803.%20%E9%98%B6%E4%B9%98%E7%94%9F%E6%88%90%E5%99%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
 

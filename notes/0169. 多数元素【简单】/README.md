@@ -1,4 +1,4 @@
-# [0169. 多数元素【简单】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0169.%20%E5%A4%9A%E6%95%B0%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
+# [0169. 多数元素【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0169.%20%E5%A4%9A%E6%95%B0%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
 

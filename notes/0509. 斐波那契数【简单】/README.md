@@ -1,4 +1,4 @@
-# [0509. 斐波那契数【简单】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0509.%20%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
+# [0509. 斐波那契数【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0509.%20%E6%96%90%E6%B3%A2%E9%82%A3%E5%A5%91%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
 

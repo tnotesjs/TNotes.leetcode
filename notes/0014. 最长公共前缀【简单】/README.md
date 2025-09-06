@@ -1,4 +1,4 @@
-# [0014. 最长公共前缀【简单】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0014.%20%E6%9C%80%E9%95%BF%E5%85%AC%E5%85%B1%E5%89%8D%E7%BC%80%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
+# [0014. 最长公共前缀【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0014.%20%E6%9C%80%E9%95%BF%E5%85%AC%E5%85%B1%E5%89%8D%E7%BC%80%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
 

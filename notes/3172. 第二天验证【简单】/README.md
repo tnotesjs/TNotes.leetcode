@@ -1,4 +1,4 @@
-# [3172. 第二天验证【简单】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/3172.%20%E7%AC%AC%E4%BA%8C%E5%A4%A9%E9%AA%8C%E8%AF%81%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
+# [3172. 第二天验证【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/3172.%20%E7%AC%AC%E4%BA%8C%E5%A4%A9%E9%AA%8C%E8%AF%81%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
 

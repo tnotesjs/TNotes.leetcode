@@ -1,4 +1,4 @@
-# [0733. 图像渲染【简单】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0733.%20%E5%9B%BE%E5%83%8F%E6%B8%B2%E6%9F%93%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
+# [0733. 图像渲染【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0733.%20%E5%9B%BE%E5%83%8F%E6%B8%B2%E6%9F%93%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
 

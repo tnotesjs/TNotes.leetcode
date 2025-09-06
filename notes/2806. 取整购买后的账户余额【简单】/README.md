@@ -1,4 +1,4 @@
-# [2806. 取整购买后的账户余额【简单】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/2806.%20%E5%8F%96%E6%95%B4%E8%B4%AD%E4%B9%B0%E5%90%8E%E7%9A%84%E8%B4%A6%E6%88%B7%E4%BD%99%E9%A2%9D%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
+# [2806. 取整购买后的账户余额【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/2806.%20%E5%8F%96%E6%95%B4%E8%B4%AD%E4%B9%B0%E5%90%8E%E7%9A%84%E8%B4%A6%E6%88%B7%E4%BD%99%E9%A2%9D%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
 

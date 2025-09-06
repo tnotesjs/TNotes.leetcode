@@ -1,4 +1,4 @@
-# [2794. 从两个数组中创建对象【简单】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/2794.%20%E4%BB%8E%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%BB%84%E4%B8%AD%E5%88%9B%E5%BB%BA%E5%AF%B9%E8%B1%A1%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
+# [2794. 从两个数组中创建对象【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/2794.%20%E4%BB%8E%E4%B8%A4%E4%B8%AA%E6%95%B0%E7%BB%84%E4%B8%AD%E5%88%9B%E5%BB%BA%E5%AF%B9%E8%B1%A1%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
 

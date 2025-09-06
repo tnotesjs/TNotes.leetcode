@@ -1,4 +1,4 @@
-# [0035. 搜索插入位置【简单】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0035.%20%E6%90%9C%E7%B4%A2%E6%8F%92%E5%85%A5%E4%BD%8D%E7%BD%AE%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
+# [0035. 搜索插入位置【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0035.%20%E6%90%9C%E7%B4%A2%E6%8F%92%E5%85%A5%E4%BD%8D%E7%BD%AE%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
 

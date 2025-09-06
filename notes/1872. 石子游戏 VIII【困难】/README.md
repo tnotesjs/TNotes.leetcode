@@ -1,4 +1,4 @@
-# [1872. 石子游戏 VIII【困难】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/1872.%20%E7%9F%B3%E5%AD%90%E6%B8%B8%E6%88%8F%20VIII%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91)
+# [1872. 石子游戏 VIII【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1872.%20%E7%9F%B3%E5%AD%90%E6%B8%B8%E6%88%8F%20VIII%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91)
 
 <!-- region:toc -->
 

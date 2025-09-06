@@ -1,4 +1,4 @@
-# [0027. 移除元素【简单】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0027.%20%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
+# [0027. 移除元素【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0027.%20%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
 

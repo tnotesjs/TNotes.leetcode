@@ -1,4 +1,4 @@
-# [0704. 二分查找【简单】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0704.%20%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
+# [0704. 二分查找【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0704.%20%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
 

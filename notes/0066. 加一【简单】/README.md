@@ -1,4 +1,4 @@
-# [0066. 加一【简单】](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/0066.%20%E5%8A%A0%E4%B8%80%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
+# [0066. 加一【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0066.%20%E5%8A%A0%E4%B8%80%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
 

@@ -1,4 +1,4 @@
-# [9997. GitHub 技术社区 Doocs 开源项目 leetcode](https://github.com/Tdahuyou/TNotes.leetcode/tree/main/notes/9997.%20GitHub%20%E6%8A%80%E6%9C%AF%E7%A4%BE%E5%8C%BA%20Doocs%20%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%20leetcode)
+# [9997. GitHub 技术社区 Doocs 开源项目 leetcode](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/9997.%20GitHub%20%E6%8A%80%E6%9C%AF%E7%A4%BE%E5%8C%BA%20Doocs%20%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%20leetcode)
 
 <!-- region:toc -->
 
