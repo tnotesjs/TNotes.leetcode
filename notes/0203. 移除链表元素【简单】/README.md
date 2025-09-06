@@ -16,7 +16,7 @@
 
 **示例 1：**
 
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-11-02-21-41-17.png)
+![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-02-21-41-17.png)
 
 ```
 输入：head = [1,2,6,3,4,5,6], val = 6

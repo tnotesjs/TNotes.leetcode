@@ -99,7 +99,7 @@ var findMin = function (nums) {
 ```
 
 - 图解：
-  - ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-11-23-17-51-26.png)
+  - ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-23-17-51-26.png)
 
 ## 4. 🎯 Solutions.2 - 二分查找
 
@@ -127,7 +127,7 @@ var findMin = function (nums) {
 ```
 
 - 图解：
-  - ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-11-23-19-52-46.png)
+  - ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-23-19-52-46.png)
   - 注意：题目描述中提到每一个元素都是不相同的，因此在比较的时候，不可能存在相等的情况。
 - **🤔 思考：** 为什么当两个指针相撞退出循环的时候，pivot 指向的一定就是最小值呢？
   - 当执行到 `return nums[pivot]` 语句的时候，low、high、pivot 都是相等的，此时区间已经缩小到了只有一个成员，所以返回 `nums[pivot]` 就是最小值，返回 `nums[low]`、`nums[high]` 也都是可以的。

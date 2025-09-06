@@ -74,13 +74,13 @@ var combine = function (n, k) {
 ```
 
 - 下面是图解的流程，可结合打印结果来分析回溯的过程。
-- ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-11-03-21-50-32.png)
+- ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-21-50-32.png)
 
 ```md
 已选 [] 选择列表 [ 1, 2, 3, 4 ] 选择 1 已选 [ 1 ] 选择列表 [ 2, 3, 4 ] 选择 2 已选 [ 1, 2 ] 选择列表 [ 3, 4 ] 撤销 2 选择 3 已选 [ 1, 3 ] 选择列表 [ 4 ] 撤销 3 选择 4 已选 [ 1, 4 ] 选择列表 [] 撤销 4 撤销 1 选择 2 已选 [ 2 ] 选择列表 [ 3, 4 ] 选择 3 已选 [ 2, 3 ] 选择列表 [ 4 ] 撤销 3 选择 4 已选 [ 2, 4 ] 选择列表 [] 撤销 4 撤销 2 选择 3 已选 [ 3 ] 选择列表 [ 4 ] 选择 4 已选 [ 3, 4 ] 选择列表 [] 撤销 4 撤销 3 选择 4 已选 [ 4 ] 选择列表 [] 撤销 4
 ```
 
-- ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-11-03-21-51-22.png)
+- ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-21-51-22.png)
 - **回溯的其他写法**
 
 ```javascript
@@ -103,7 +103,7 @@ var combine = function (n, k) {
 // 由于 n 它是一个整数，选择列表就是 1~n，其实没有必要再去初始化一个选择列表。
 ```
 
-- ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-11-03-21-52-02.png)
+- ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-21-52-02.png)
 
 ```javascript
 var combine = function (n, k) {
@@ -127,7 +127,7 @@ var combine = function (n, k) {
 // 在这个组合问题中，若已选项加可选项小于目标长度，那么就可以剪枝。
 ```
 
-- ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-11-03-21-52-25.png)
+- ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-21-52-25.png)
 
 ```javascript
 var combine = function (n, k) {
@@ -149,7 +149,7 @@ var combine = function (n, k) {
 // 结合上述的「循环」+「递归」来看，会发现每次撤销选择后，再次进入下次循环时，发生变化的仅有 startIndex，直接在撤销时，再次调用 backtracking 也同样能实现循环的效果。
 ```
 
-- ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-11-03-21-52-34.png)
+- ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-21-52-34.png)
 
 ```javascript
 var combine = function (n, k) {
@@ -170,4 +170,4 @@ var combine = function (n, k) {
 // 若采用上面这种写法，那么我们在记录结果 ans.push(path) 时，就不用再去 path.slice() 拷贝 path 了，因为每次传入的 path 都是一个全新的 path，和之前的 path 没有关系。
 ```
 
-- ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-11-03-21-52-43.png)
+- ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-21-52-43.png)

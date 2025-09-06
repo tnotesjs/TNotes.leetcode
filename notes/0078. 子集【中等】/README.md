@@ -69,7 +69,7 @@ var subsets = function (nums) {
 }
 ```
 
-- ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-11-03-21-55-18.png)
+- ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-21-55-18.png)
   - 参考 leetcode 官方题解：https://leetcode-cn.com/problems/subsets/solution/zi-ji-by-leetcode-solution/
 
 ## 4. 🎯 Solutions.2 - 回溯
@@ -94,7 +94,7 @@ var subsets = function (nums) {
 }
 ```
 
-- ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-11-03-21-53-54.png)
+- ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-21-53-54.png)
 - 对于当前值，只有两种选择：「选」 | 「不选」。所以，如果 nums 的长度为 3，那么结果有 2^3，也就是 8 个。
   - 绿线：选；红线：不选；
     - 第一个 dfs 走绿线；
@@ -108,5 +108,5 @@ var subsets = function (nums) {
 - 回溯的意思就是指撤销我们做的选择，让我们重新选。
   - https://zhuanlan.zhihu.com/p/93530380
   - 详细内容知乎上的这篇参考文章：《回溯算法套路详解》。
-- ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-11-03-22-00-13.png)
-- ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-11-03-22-00-16.png)
+- ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-22-00-13.png)
+- ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-22-00-16.png)

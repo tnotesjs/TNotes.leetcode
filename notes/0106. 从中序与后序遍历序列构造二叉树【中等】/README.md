@@ -15,7 +15,7 @@
 
 **示例 1:**
 
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-25-16-55-37.png)
+![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-25-16-55-37.png)
 
 - 输入：inorder = [9,3,15,20,7], postorder = [9,15,7,20,3]
 - 输出：[3,9,20,null,null,15,7]

@@ -21,7 +21,7 @@
 
 - **示例 1：**
 
-![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-06-01-22-52-32.png)
+![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-06-01-22-52-32.png)
 
 ```txt
 输入：l1 = [2,4,3], l2 = [5,6,4]
@@ -57,13 +57,13 @@
 
 ::: swiper
 
-![1](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-06-01-23-57-11.png)
+![1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-06-01-23-57-11.png)
 
-![2](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-06-01-23-57-18.png)
+![2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-06-01-23-57-18.png)
 
-![3](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-06-01-23-57-25.png)
+![3](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-06-01-23-57-25.png)
 
-![4](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-06-01-23-57-33.png)
+![4](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-06-01-23-57-33.png)
 
 :::
 

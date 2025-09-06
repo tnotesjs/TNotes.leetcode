@@ -57,7 +57,7 @@ var solution = function (isBadVersion) {
 - 超时：
   - 这种解法在早期（21、22 年那会儿）是可以通过的，不过现在（2024 年 11 月 16 日 23:08:01）测试了一下，发现会超时。
   - leetcode 提交记录
-    - ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-11-16-23-09-11.png)
+    - ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-16-23-09-11.png)
 
 ## 3. 🎯 Solutions.2 - 二分查找
 

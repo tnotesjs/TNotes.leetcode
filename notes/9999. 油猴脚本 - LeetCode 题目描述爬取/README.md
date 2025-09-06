@@ -22,11 +22,11 @@
 :::
 
 - 将上述脚本直接丢到油猴中，然后保存即可。
-- ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-24-22-15-35.png)
+- ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-24-22-15-35.png)
 - 使用方式也非常简单，只需要在对应的题解描述区域右键，然后点击【力扣题目转 Markdown】即可复制题目描述。
-- ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-24-22-17-24.png)
+- ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-24-22-17-24.png)
 - 下面是以第一题为例复制下来的结果。
-  - ![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-08-05-07-49-29.png)
+  - ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-05-07-49-29.png)
   - 内容复制下来后，丢到 VSCode 的 markdown 文件中，保存文件内容，自动格式化后，基本没有太多地方需要调整。
   - 在 vscode 中配置 .md 文件保存自动格式化：
 

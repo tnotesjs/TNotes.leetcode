@@ -66,17 +66,17 @@ for (int i = 0; i < k; i++) {
 
 ::: swiper
 
-![1](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-04-11-08-47-33.png)
+![1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-04-11-08-47-33.png)
 
-![2](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-04-11-08-47-43.png)
+![2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-04-11-08-47-43.png)
 
-![3](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-04-11-08-48-33.png)
+![3](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-04-11-08-48-33.png)
 
-![4](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-04-11-08-48-42.png)
+![4](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-04-11-08-48-42.png)
 
-![5](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-04-11-08-48-51.png)
+![5](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-04-11-08-48-51.png)
 
-![6](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-04-11-08-49-00.png)
+![6](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-04-11-08-49-00.png)
 
 :::
 

@@ -62,6 +62,6 @@ var generate = function (numRows) {
 ```
 
 - **解题思路：**
-  - ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-11-10-21-52-49.png)
+  - ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-10-21-52-49.png)
   - 首先初始化一个全为 `1` 的 `triangle` 三角。
   - 对内层的每个位置进行重新求和，求和的逻辑：`triangle[r][c] = triangle[r - 1][c - 1] + triangle[r - 1][c]`

@@ -102,7 +102,7 @@ var majorityElement = function (nums) {
 
 - 分治是什么
   - 在计算机科学中，分治法（英语：Divide and conquer）是建基于多项分支递归的一种很重要的算法范型。字面上的解释是“分而治之”，就是把一个复杂的问题分成两个或更多的相同或相似的子问题，直到最后子问题可以简单的直接求解，原问题的解即子问题的解的合并。
-- ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-11-16-19-12-30.png)
-- ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-11-16-19-12-36.png)
+- ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-16-19-12-30.png)
+- ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-16-19-12-36.png)
 - 如果两个区间中的众数相同，那么直接返回该众数。否则，将两区间合并，在合并后的区间中计算出这两个众数出现的次数，将出现次数多的返回。
 - 特殊情况：若两个子区间中的众数在合并后的区间中出现次数依旧相同，则随便返回一个，继续合并即可（此时必然还没有合并到头）。因为如果合并后的区间为 `[0, nums.length - 1]`，那么是不可能会有这种情况出现的。

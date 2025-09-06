@@ -60,7 +60,7 @@ var generateParenthesis = function (n) {
 }
 ```
 
-- ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-10-27-00-17-34.png)
+- ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-27-00-17-34.png)
   - from: 「手画图解」从 22. 括号生成 看回溯算法的三个要点
   - 该图片来自参考题解，图片中标注的顺序，是 dfs 依次入栈的次序。
   - 图片中标注的顺序，是 dfs 依次入栈的次序。

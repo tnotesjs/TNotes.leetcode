@@ -17,7 +17,7 @@
 
 **示例 1:**
 
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-11-03-10-19-17.png)
+![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-10-19-17.png)
 
 ```
 输入：root = [5,4,5,1,1,5]
@@ -26,7 +26,7 @@
 
 **示例 2:**
 
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-11-03-10-19-23.png)
+![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-10-19-23.png)
 
 ```
 输入：root = [1,4,5,4,4,5]

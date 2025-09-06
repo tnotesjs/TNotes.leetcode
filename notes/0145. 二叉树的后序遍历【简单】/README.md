@@ -21,7 +21,7 @@
 
 **示例 1：**
 
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-25-17-02-44.png)
+![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-25-17-02-44.png)
 
 - 输入：root = [1,null,2,3]
 - 输出：[3,2,1]
@@ -75,6 +75,6 @@ var postorderTraversal = function (root, res = []) {
 - 中序遍历（中根次序遍历）：左子树 -> **根节点** -> 右子树
 - 后序遍历（后根次序遍历）：左子树 -> 右子树 -> **根节点**
 
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-25-17-01-44.png)
+![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-25-17-01-44.png)
 
 > 图片来源：https://wansuanfa.com/index.php/701

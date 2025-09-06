@@ -85,4 +85,4 @@ console.log(counter()) // 输出 12
 
 在上述示例中，我们首先调用 `createCounter(10)` 来创建一个计数器，并将返回的函数赋值给变量 `counter`。然后，每次调用 `counter()` 函数时，它会返回 `n` 的当前值，并将 `n` 的值增加 1。所以，第一次调用 `counter()` 时，输出为 10，第二次调用时，输出为 11，依此类推。
 
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-26-15-30-14.png)
+![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-26-15-30-14.png)

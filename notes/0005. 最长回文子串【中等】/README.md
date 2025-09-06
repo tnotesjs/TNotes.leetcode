@@ -57,11 +57,11 @@
 
 - 当 `l` 和 `r` 指针，指向的是同一个成员时，表示从指定成员开始向两端扩散。
 
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-25-15-40-07.png)
+![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-25-15-40-07.png)
 
 - 当 `l` 和 `r` 指针，指向的是相邻的两个成员时，表示从两个成员之间的间隙，向两端扩散。
 
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-25-15-40-19.png)
+![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-25-15-40-19.png)
 
 - 每次扩散，指针 `l` 左移一步，指针 `r` 右移一步
 - 扩散的条件是满足回文串的特点，也就是 `s[l]` 和 `s[r]` 两者相等

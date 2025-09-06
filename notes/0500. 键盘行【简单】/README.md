@@ -21,7 +21,7 @@
 - 第二行由字符 `"asdfghjkl"` 组成。
 - 第三行由字符 `"zxcvbnm"` 组成。
 
-![American keyboard](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-08-02-09-47-26.png)
+![American keyboard](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-02-09-47-26.png)
 
 ---
 

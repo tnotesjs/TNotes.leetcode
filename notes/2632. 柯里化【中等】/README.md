@@ -145,7 +145,7 @@ var curry = function (fn) {
 
 在 `2024.06.16 22:32` 这个时间点，官方提供的测试用例都是可以顺利通过的。
 
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-26-21-57-15.png)
+![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-26-21-57-15.png)
 
 但是，实际上这种写法是存在一些问题的，问题就在于没有重置 `receivedArgs` 数组。可以看看以下测试用例。
 
@@ -172,7 +172,7 @@ console.log(sum2(1)(2, 3, 4, 5)) // 15 ❌
 // 后续调用 sum2 就会出问题。
 ```
 
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-26-21-57-36.png)
+![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-26-21-57-36.png)
 
 问题在于首次调用之后，`receivedArgs` 数组中记录的上一次调用所需的参数并没有被清空，清楚问题之后，解决起来就很简单了。
 
@@ -202,7 +202,7 @@ var curry = function (fn) {
 
 处理过之后，再提交试试。
 
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-26-21-57-46.png)
+![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-26-21-57-46.png)
 
 ## 4. 🎯 Solutions.2
 

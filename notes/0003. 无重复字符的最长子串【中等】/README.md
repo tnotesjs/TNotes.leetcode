@@ -60,7 +60,7 @@
 - 时间复杂度：$O(n^2)$
 - 空间复杂度：$O(n)$
 - **原理简述**
-  - ![图 1](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-06-02-09-59-03.png)
+  - ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-06-02-09-59-03.png)
   - `start` 表示每次扫描的开始位置，`end` 表示每次扫描的结束位置，`end` 每次出生的位置就是 `start` 所在的位置。在每次扫描的过程中，`start` 不动，`end` 不断向右偏移，`end` 已经扫过的区域都加入到 `set` 中记录起来。
   - 如果 `end` 位置的字符在 `set` 中出现过，那么将 `set` 清空，开启下一次扫描。此时退出内层循环，`start` 向右偏移。
   - 如果 `end` 位置的字符在 `set` 中没有出现过，那么将该字符加入 `set` 中，并记录最长子串的长度。
@@ -129,7 +129,7 @@
 - 时间复杂度：$O(n)$
 - 空间复杂度：$O(n)$
 - **原理简述**
-  - ![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-06-02-09-58-32.png)
+  - ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-06-02-09-58-32.png)
   - 收缩窗口：start 移动，start 扫过的区域，全部都从 set 集合中移除 `set.delete(...)`。
   - 扩展窗口：end 移动，end 扫过的区域，全部都丢到 set 集合中 `set.add(...)`。
   - 和上述“solutions.1 - 暴力解法”非常类似，不同点在于 end 指针的移动不再是从 start 开始，而是基于上一次的位置开始。

@@ -75,8 +75,8 @@ var isEmpty = function (obj) {
 
 JSON.stringify
 
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-26-22-41-48.png)
+![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-26-22-41-48.png)
 
 Object.keys
 
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-26-22-42-11.png)
+![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-26-22-42-11.png)

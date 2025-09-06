@@ -110,7 +110,7 @@ var merge = function (nums1, m, nums2, n) {
 ```
 
 - **执行流程：**
-  - ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-11-10-20-55-40.png)
+  - ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-10-20-55-40.png)
 - `if ((nums1[i] > nums2[j]) || (j < 0)) nums1[k--] = nums1[i--]`
   - 如果 `nums1[i]` 大于 `nums2[j]` 或者 `nums2` 已经查完了，那么使用 `nums1[i]` 跟 `nums1[k]` 交换，交换后俩指针往前挪一步。
 - `if ((nums2[j] >= nums1[i]) || (i < 0)) nums1[k--] = nums2[j--]`

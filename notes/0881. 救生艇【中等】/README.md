@@ -79,7 +79,7 @@ var numRescueBoats = function (people, limit) {
 
 - 为什么最重和最轻搭，是最优解呢？
 
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-11-16-08-41-13.png)
+![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-16-08-41-13.png)
 
 比如说，最重的是 7，最轻的是 1；那么 7 和 3 搭显然是要比 7 和 1 搭更“贪心”，看似更能充分地利用资源。但是，我们不妨换一种思维方式来看待这个问题。
 

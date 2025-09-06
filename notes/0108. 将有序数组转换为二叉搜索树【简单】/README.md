@@ -17,7 +17,7 @@
 
 - **示例 1：**
 
-![图 0](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-08-02-07-02-27.png)
+![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-02-07-02-27.png)
 
 > 输入：nums = [-10,-3,0,5,9]
 >
@@ -25,11 +25,11 @@
 >
 > 解释：[0,-10,5,null,-3,null,9] 也将被视为正确答案：
 >
-> ![图 1](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-08-02-07-02-39.png)
+> ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-02-07-02-39.png)
 
 - **示例 2：**
 
-![图 2](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2025-08-02-07-02-55.png)
+![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-02-07-02-55.png)
 
 > 输入：nums = [1,3]
 >

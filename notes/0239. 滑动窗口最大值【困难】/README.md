@@ -51,7 +51,7 @@
 
 ## 2. 🎯 Solutions.1 - Deque
 
-![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-09-25-17-07-42.png)
+![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-25-17-07-42.png)
 
 > 图片来源：https://leetcode.cn/problems/sliding-window-maximum/solutions/2361228/239-hua-dong-chuang-kou-zui-da-zhi-dan-d-u6h0
 

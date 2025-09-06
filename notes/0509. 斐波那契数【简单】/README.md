@@ -73,4 +73,4 @@ F(0) = 0，F(1) = 1 F(n) = F(n - 1) + F(n - 2)，其中 n > 1
 
 ## 4. 📒 斐波那契数列
 
-- ![](https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/2024-11-16-19-07-29.png)
+- ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-16-19-07-29.png)
