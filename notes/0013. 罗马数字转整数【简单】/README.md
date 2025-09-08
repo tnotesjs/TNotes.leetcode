@@ -3,8 +3,8 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1 - 基于哈希表的逐字符解析法（1）](#2--solutions1---基于哈希表的逐字符解析法1)
-- [3. 🎯 Solutions.2 - 基于哈希表的逐字符解析法（2）](#3--solutions2---基于哈希表的逐字符解析法2)
+- [2. 🎯 s.1 - 基于哈希表的逐字符解析法（1）](#2--s1---基于哈希表的逐字符解析法1)
+- [3. 🎯 s.2 - 基于哈希表的逐字符解析法（2）](#3--s2---基于哈希表的逐字符解析法2)
 
 <!-- endregion:toc -->
 
@@ -76,7 +76,7 @@
 
 :::
 
-## 2. 🎯 Solutions.1 - 基于哈希表的逐字符解析法（1）
+## 2. 🎯 s.1 - 基于哈希表的逐字符解析法（1）
 
 ```javascript
 var romanToInt = function (s) {
@@ -117,7 +117,7 @@ var romanToInt = function (s) {
 
 准备好转换库，将正常情况和特殊情况都存储起来，直接从转换库中匹配。
 
-## 3. 🎯 Solutions.2 - 基于哈希表的逐字符解析法（2）
+## 3. 🎯 s.2 - 基于哈希表的逐字符解析法（2）
 
 ```javascript
 var romanToInt = function (s) {

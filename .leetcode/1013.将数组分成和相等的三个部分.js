@@ -38,8 +38,9 @@ var canThreePartsEqualSum = function (arr) {
 // @lc code=end
 
 // #region 1
-// 时间复杂度：O(n)，只需要遍历数组一次
-// 空间复杂度：O(1)，只使用了常数级别的额外空间
+/* 
+时间复杂度：O(n)，只需要遍历数组一次
+空间复杂度：O(1)，只使用了常数级别的额外空间 */
 /**
  * @param {number[]} arr
  * @return {boolean}

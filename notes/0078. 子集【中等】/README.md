@@ -4,8 +4,8 @@
 
 - [1. 🔗 links](#1--links)
 - [2. 📝 Description](#2--description)
-- [3. 🎯 Solutions.1 - 循环遍历](#3--solutions1---循环遍历)
-- [4. 🎯 Solutions.2 - 回溯](#4--solutions2---回溯)
+- [3. 🎯 s.1 - 循环遍历](#3--s1---循环遍历)
+- [4. 🎯 s.2 - 回溯](#4--s2---回溯)
 
 <!-- endregion:toc -->
 
@@ -49,7 +49,7 @@
 - `-10 <= nums[i] <= 10`
 - `nums` 中的所有元素 **互不相同**
 
-## 3. 🎯 Solutions.1 - 循环遍历
+## 3. 🎯 s.1 - 循环遍历
 
 ```javascript
 var subsets = function (nums) {
@@ -72,7 +72,7 @@ var subsets = function (nums) {
 - ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-21-55-18.png)
   - 参考 leetcode 官方题解：https://leetcode-cn.com/problems/subsets/solution/zi-ji-by-leetcode-solution/
 
-## 4. 🎯 Solutions.2 - 回溯
+## 4. 🎯 s.2 - 回溯
 
 ```javascript
 var subsets = function (nums) {

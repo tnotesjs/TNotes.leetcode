@@ -3,8 +3,8 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1 - 二分查找](#2--solutions1---二分查找)
-- [3. 🎯 Solutions.2 - 暴力解法](#3--solutions2---暴力解法)
+- [2. 🎯 s.1 - 二分查找](#2--s1---二分查找)
+- [3. 🎯 s.2 - 暴力解法](#3--s2---暴力解法)
 
 <!-- endregion:toc -->
 
@@ -46,7 +46,7 @@
 
 :::
 
-## 2. 🎯 Solutions.1 - 二分查找
+## 2. 🎯 s.1 - 二分查找
 
 ```javascript
 var searchInsert = function (nums, target) {
@@ -96,7 +96,7 @@ var searchInsert = function (nums, target) {
 }
 ```
 
-## 3. 🎯 Solutions.2 - 暴力解法
+## 3. 🎯 s.2 - 暴力解法
 
 ```javascript
 var searchInsert = function (nums, target) {

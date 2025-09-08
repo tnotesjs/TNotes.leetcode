@@ -3,8 +3,8 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1 - 使用 Set](#2--solutions1---使用-set)
-- [3. 🎯 Solutions.2 - 原地修改](#3--solutions2---原地修改)
+- [2. 🎯 s.1 - 使用 Set](#2--s1---使用-set)
+- [3. 🎯 s.2 - 原地修改](#3--s2---原地修改)
 
 <!-- endregion:toc -->
 
@@ -47,7 +47,7 @@
 
 :::
 
-## 2. 🎯 Solutions.1 - 使用 Set
+## 2. 🎯 s.1 - 使用 Set
 
 ::: code-group
 
@@ -55,7 +55,7 @@
 
 :::
 
-## 3. 🎯 Solutions.2 - 原地修改
+## 3. 🎯 s.2 - 原地修改
 
 ::: code-group
 

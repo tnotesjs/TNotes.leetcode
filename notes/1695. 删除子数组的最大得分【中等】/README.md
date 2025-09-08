@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1 - 滑动窗口](#2--solutions1---滑动窗口)
+- [2. 🎯 s.1 - 滑动窗口](#2--s1---滑动窗口)
 
 <!-- endregion:toc -->
 
@@ -36,7 +36,7 @@
 - `1 <= nums.length <= 10^5`
 - `1 <= nums[i] <= 10^4`
 
-## 2. 🎯 Solutions.1 - 滑动窗口
+## 2. 🎯 s.1 - 滑动窗口
 
 ```javascript
 /**

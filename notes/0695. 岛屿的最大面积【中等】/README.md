@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.DFS + 递归](#2--solutionsdfs--递归)
+- [2. 🎯 s.DFS + 递归](#2--sdfs--递归)
 
 <!-- endregion:toc -->
 
@@ -45,7 +45,7 @@
 
 :::
 
-## 2. 🎯 Solutions.DFS + 递归
+## 2. 🎯 s.DFS + 递归
 
 ```js
 /**

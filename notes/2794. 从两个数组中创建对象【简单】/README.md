@@ -4,7 +4,7 @@
 
 - [1. 🔗 links](#1--links)
 - [2. 📝 Description](#2--description)
-- [3. 🎯 Solutions.1](#3--solutions1)
+- [3. 🎯 s.1](#3--s1)
 
 <!-- endregion:toc -->
 
@@ -46,7 +46,7 @@
 - `2 <= JSON.stringify(keysArr).length, JSON.stringify(valuesArr).length <= 5 * 10^5`
 - `keysArr.length === valuesArr.length`
 
-## 3. 🎯 Solutions.1
+## 3. 🎯 s.1
 
 ```javascript
 /**

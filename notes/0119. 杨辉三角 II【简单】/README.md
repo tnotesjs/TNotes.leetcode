@@ -3,8 +3,8 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1 - 暴力解法](#2--solutions1---暴力解法)
-- [3. 🎯 Solutions.2 - 暴力解法优化](#3--solutions2---暴力解法优化)
+- [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
+- [3. 🎯 s.2 - 暴力解法优化](#3--s2---暴力解法优化)
 
 <!-- endregion:toc -->
 
@@ -52,7 +52,7 @@
 
 :::
 
-## 2. 🎯 Solutions.1 - 暴力解法
+## 2. 🎯 s.1 - 暴力解法
 
 ```js
 /**
@@ -80,7 +80,7 @@ var getRow = function (rowIndex) {
 - 空间复杂度：O(rowIndex^2)
 - 这种解法的逻辑跟 0118 几乎完全一致，可以参考 0118 的题解。
 
-## 3. 🎯 Solutions.2 - 暴力解法优化
+## 3. 🎯 s.2 - 暴力解法优化
 
 ```js
 /**

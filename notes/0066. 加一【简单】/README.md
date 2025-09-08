@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1 - 逆序循环](#2--solutions1---逆序循环)
+- [2. 🎯 s.1 - 逆序循环](#2--s1---逆序循环)
 
 <!-- endregion:toc -->
 
@@ -50,7 +50,7 @@
 
 :::
 
-## 2. 🎯 Solutions.1 - 逆序循环
+## 2. 🎯 s.1 - 逆序循环
 
 ```javascript
 var plusOne = function (digits) {

@@ -4,9 +4,9 @@
 
 - [1. 🔗 links](#1--links)
 - [2. 📝 Description](#2--description)
-- [3. 🎯 Solutions.1 - flat](#3--solutions1---flat)
-- [4. 🎯 Solutions.1 - 循环二维数组](#4--solutions1---循环二维数组)
-- [5. 🎯 Solutions.1 - 二分查找](#5--solutions1---二分查找)
+- [3. 🎯 s.1 - flat](#3--s1---flat)
+- [4. 🎯 s.1 - 循环二维数组](#4--s1---循环二维数组)
+- [5. 🎯 s.1 - 二分查找](#5--s1---二分查找)
 
 <!-- endregion:toc -->
 
@@ -51,7 +51,7 @@
 - `1 <= m, n <= 100`
 - `-10^4 <= matrix[i][j], target <= 10^4`
 
-## 3. 🎯 Solutions.1 - flat
+## 3. 🎯 s.1 - flat
 
 ```javascript
 var searchMatrix = function (matrix, target) {
@@ -69,7 +69,7 @@ var searchMatrix = function (matrix, target) {
 
 - ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-21-45-21.png)
 
-## 4. 🎯 Solutions.1 - 循环二维数组
+## 4. 🎯 s.1 - 循环二维数组
 
 ```javascript
 var searchMatrix = function (matrix, target) {
@@ -90,7 +90,7 @@ var searchMatrix = function (matrix, target) {
   - 若找完所有项都没找到与目标值相等的值，则返回 false，表明该二维数组 matrix 中不存在目标值。
 - ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-21-47-00.png)
 
-## 5. 🎯 Solutions.1 - 二分查找
+## 5. 🎯 s.1 - 二分查找
 
 ```javascript
 var searchMatrix = function (matrix, target) {

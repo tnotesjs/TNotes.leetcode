@@ -4,7 +4,7 @@
 
 - [1. 🔗 links](#1--links)
 - [2. 📝 Description](#2--description)
-- [3. 🎯 Solutions.1 - 回溯算法](#3--solutions1---回溯算法)
+- [3. 🎯 s.1 - 回溯算法](#3--s1---回溯算法)
 
 <!-- endregion:toc -->
 
@@ -39,7 +39,7 @@
 
 :::
 
-## 3. 🎯 Solutions.1 - 回溯算法
+## 3. 🎯 s.1 - 回溯算法
 
 ```js
 var generateParenthesis = function (n) {

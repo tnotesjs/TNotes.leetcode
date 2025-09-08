@@ -3,8 +3,8 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1 - 计数法](#2--solutions1---计数法)
-- [3. 🎯 Solutions.2 - 集合去重法](#3--solutions2---集合去重法)
+- [2. 🎯 s.1 - 计数法](#2--s1---计数法)
+- [3. 🎯 s.2 - 集合去重法](#3--s2---集合去重法)
 
 <!-- endregion:toc -->
 
@@ -55,7 +55,7 @@
 
 :::
 
-## 2. 🎯 Solutions.1 - 计数法
+## 2. 🎯 s.1 - 计数法
 
 ::: code-group
 
@@ -63,7 +63,7 @@
 
 :::
 
-## 3. 🎯 Solutions.2 - 集合去重法
+## 3. 🎯 s.2 - 集合去重法
 
 ::: code-group
 

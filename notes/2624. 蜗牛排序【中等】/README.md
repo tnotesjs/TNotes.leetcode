@@ -4,7 +4,7 @@
 
 - [1. 🔗 links](#1--links)
 - [2. 📝 Description](#2--description)
-- [3. 🎯 Solutions.1](#3--solutions1)
+- [3. 🎯 s.1](#3--s1)
 
 <!-- endregion:toc -->
 
@@ -68,7 +68,7 @@ Explanation: 2 * 2 = 4, 且原数组 [1,3] 的长度为 2; 所以，输入是无
 - `1 <= rowsCount <= 250`
 - `1 <= colsCount <= 250`
 
-## 3. 🎯 Solutions.1
+## 3. 🎯 s.1
 
 ```ts
 interface Array<T> {

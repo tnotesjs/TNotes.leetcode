@@ -5,7 +5,7 @@
 - [📂 TNotes.yuque](https://www.yuque.com/tdahuyou/tnotes.yuque/)
   - [TNotes.yuque.leetcode.0622](https://www.yuque.com/tdahuyou/tnotes.yuque/leetcode.0622)
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1 - 设计循环队列](#2--solutions1---设计循环队列)
+- [2. 🎯 s.1 - 设计循环队列](#2--s1---设计循环队列)
 
 <!-- endregion:toc -->
 
@@ -50,7 +50,7 @@ circularQueue.Rear();  // 返回 4
 
 :::
 
-## 2. 🎯 Solutions.1 - 设计循环队列
+## 2. 🎯 s.1 - 设计循环队列
 
 ![](assets/622.%20设计循环队列-题解.gif)
 

@@ -4,7 +4,7 @@
 
 - [1. 🔗 links](#1--links)
 - [2. 📝 Description](#2--description)
-- [3. 🎯 Solutions.1](#3--solutions1)
+- [3. 🎯 s.1](#3--s1)
 
 <!-- endregion:toc -->
 
@@ -95,7 +95,7 @@
 - `0 <= calls[i].t <= 1000`
 - `0 <= calls[i].inputs[i], calls[i].inputs.length <= 10`
 
-## 3. 🎯 Solutions.1
+## 3. 🎯 s.1
 
 ```javascript
 /**

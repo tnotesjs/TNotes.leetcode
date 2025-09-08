@@ -3,9 +3,9 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1](#2--solutions1)
-- [3. 🎯 Solutions.2](#3--solutions2)
-- [4. 🎯 Solutions.3](#4--solutions3)
+- [2. 🎯 s.1](#2--s1)
+- [3. 🎯 s.2](#3--s2)
+- [4. 🎯 s.3](#4--s3)
 - [5. 🫧 评价](#5--评价)
 
 <!-- endregion:toc -->
@@ -44,7 +44,7 @@
 
 :::
 
-## 2. 🎯 Solutions.1
+## 2. 🎯 s.1
 
 ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-26-23-10-13.png)
 
@@ -71,7 +71,7 @@ var accountBalanceAfterPurchase = function (purchaseAmount) {
 
 ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-26-23-10-44.png)
 
-## 3. 🎯 Solutions.2
+## 3. 🎯 s.2
 
 **所有金额整除 5 找规律：**
 
@@ -103,7 +103,7 @@ var accountBalanceAfterPurchase = function (purchaseAmount) {
 }
 ```
 
-## 4. 🎯 Solutions.3
+## 4. 🎯 s.3
 
 **所有金额 ➕ 5 后整除 10 找规律：**
 

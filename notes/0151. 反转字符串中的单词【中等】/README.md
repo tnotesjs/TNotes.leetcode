@@ -3,8 +3,8 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1 - 字符串分割](#2--solutions1---字符串分割)
-- [3. 🎯 Solutions.2 - 双指针](#3--solutions2---双指针)
+- [2. 🎯 s.1 - 字符串分割](#2--s1---字符串分割)
+- [3. 🎯 s.2 - 双指针](#3--s2---双指针)
 
 <!-- endregion:toc -->
 
@@ -53,7 +53,7 @@
 
 :::
 
-## 2. 🎯 Solutions.1 - 字符串分割
+## 2. 🎯 s.1 - 字符串分割
 
 ```js
 var reverseWords = function (s) {
@@ -79,7 +79,7 @@ flowchart TD
   G --> H("返回结果")
 ```
 
-## 3. 🎯 Solutions.2 - 双指针
+## 3. 🎯 s.2 - 双指针
 
 ```js
 var reverseWords = function (s) {

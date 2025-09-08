@@ -4,8 +4,8 @@
 
 - [1. 📝 Description](#1--description)
 - [2. 📒 测试代码](#2--测试代码)
-- [3. 🎯 Solutions.1 - 迭代](#3--solutions1---迭代)
-- [4. 🎯 Solutions.2 - 递归](#4--solutions2---递归)
+- [3. 🎯 s.1 - 迭代](#3--s1---迭代)
+- [4. 🎯 s.2 - 递归](#4--s2---递归)
 
 <!-- endregion:toc -->
 
@@ -84,7 +84,7 @@ traverseLinkedList(newList1) // 1 1 2 3 4 4
 // traverseLinkedList(newList3); // 0 null
 ```
 
-## 3. 🎯 Solutions.1 - 迭代
+## 3. 🎯 s.1 - 迭代
 
 ```js
 // 22-08-17
@@ -155,7 +155,7 @@ var mergeTwoLists = function (l1, l2) {
   - 自己的做法：最开始的时候添加判断，如果某个链表是空，那么直接返回另外一个
   - 官方题解的做法：新建一个 prehead 节点，最后返回 prehead.next
 
-## 4. 🎯 Solutions.2 - 递归
+## 4. 🎯 s.2 - 递归
 
 ```js
 var mergeTwoLists = function (list1, list2) {

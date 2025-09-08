@@ -3,8 +3,8 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1 - 暴力解法](#2--solutions1---暴力解法)
-- [3. 🎯 Solutions.2 - 二分查找](#3--solutions2---二分查找)
+- [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
+- [3. 🎯 s.2 - 二分查找](#3--s2---二分查找)
 
 <!-- endregion:toc -->
 
@@ -43,7 +43,7 @@
 
 :::
 
-## 2. 🎯 Solutions.1 - 暴力解法
+## 2. 🎯 s.1 - 暴力解法
 
 ```js
 var solution = function (isBadVersion) {
@@ -59,7 +59,7 @@ var solution = function (isBadVersion) {
   - leetcode 提交记录
     - ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-16-23-09-11.png)
 
-## 3. 🎯 Solutions.2 - 二分查找
+## 3. 🎯 s.2 - 二分查找
 
 ```js
 var solution = function (isBadVersion) {

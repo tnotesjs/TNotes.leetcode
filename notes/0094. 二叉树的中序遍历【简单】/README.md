@@ -4,7 +4,7 @@
 
 - [1. 🔗 links](#1--links)
 - [2. 📝 Description](#2--description)
-- [3. 🎯 Solutions.1 - 递归](#3--solutions1---递归)
+- [3. 🎯 s.1 - 递归](#3--s1---递归)
 - [4. 📒 二叉树的遍历](#4--二叉树的遍历)
 
 <!-- endregion:toc -->
@@ -43,7 +43,7 @@
 
 **进阶:**  递归算法很简单，你可以通过迭代算法完成吗？
 
-## 3. 🎯 Solutions.1 - 递归
+## 3. 🎯 s.1 - 递归
 
 ```javascript
 /**

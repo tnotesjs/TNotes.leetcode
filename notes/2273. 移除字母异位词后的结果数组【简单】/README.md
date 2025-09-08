@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1 - 暴力解法](#2--solutions1---暴力解法)
+- [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 
 <!-- endregion:toc -->
 
@@ -61,7 +61,7 @@ words 中不存在互为字母异位词的两个相邻字符串，所以无需�
 
 :::
 
-## 2. 🎯 Solutions.1 - 暴力解法
+## 2. 🎯 s.1 - 暴力解法
 
 ::: code-group
 

@@ -5,7 +5,7 @@
 - [📂 TNotes.yuque](https://www.yuque.com/tdahuyou/tnotes.yuque/)
   - [TNotes.yuque.leetcode.0026](https://www.yuque.com/tdahuyou/tnotes.yuque/leetcode.0026)
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1 - 快慢指针](#2--solutions1---快慢指针)
+- [2. 🎯 s.1 - 快慢指针](#2--s1---快慢指针)
 
 <!-- endregion:toc -->
 
@@ -62,7 +62,7 @@ for (int i = 0; i < k; i++) {
 
 :::
 
-## 2. 🎯 Solutions.1 - 快慢指针
+## 2. 🎯 s.1 - 快慢指针
 
 ::: swiper
 

@@ -5,9 +5,9 @@
 - [📂 TNotes.yuque](https://www.yuque.com/tdahuyou/tnotes.yuque/)
   - [TNotes.yuque.leetcode.0001](https://www.yuque.com/tdahuyou/tnotes.yuque/leetcode.0001)
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1 - 双指针暴力求解](#2--solutions1---双指针暴力求解)
-- [3. 🎯 Solutions.2 - 静态哈希表](#3--solutions2---静态哈希表)
-- [4. 🎯 Solutions.3 - 动态哈希表](#4--solutions3---动态哈希表)
+- [2. 🎯 s.1 - 双指针暴力求解](#2--s1---双指针暴力求解)
+- [3. 🎯 s.2 - 静态哈希表](#3--s2---静态哈希表)
+- [4. 🎯 s.3 - 动态哈希表](#4--s3---动态哈希表)
 
 <!-- endregion:toc -->
 
@@ -52,7 +52,7 @@
 
 :::
 
-## 2. 🎯 Solutions.1 - 双指针暴力求解
+## 2. 🎯 s.1 - 双指针暴力求解
 
 ::: swiper
 
@@ -75,7 +75,7 @@
 - 这种方法的一个缺点是，当 `n` 较大时，时间复杂度可能会变得非常高。
 - 我们可以通过使用一种叫做哈希映射的数据结构来改进这个算法，这种数据结构可以在常数时间内完成查找操作，从而将算法的时间复杂度降低到 `O(n)`。但是，这将使空间复杂度增加到 `O(n)`，因为我们需要存储 `n` 个元素的哈希映射。
 
-## 3. 🎯 Solutions.2 - 静态哈希表
+## 3. 🎯 s.2 - 静态哈希表
 
 ::: swiper
 
@@ -100,7 +100,7 @@
   - 【第二步】然后在第二个循环中检查每个元素所对应的目标元素（即 `target - nums[i]`）是否存在于哈希表中
   - 注意，在查询的时候，该目标元素不能是 `nums[i]` 本身（即 `map.get(anotherNum) !== i`）
 
-## 4. 🎯 Solutions.3 - 动态哈希表
+## 4. 🎯 s.3 - 动态哈希表
 
 ::: swiper
 

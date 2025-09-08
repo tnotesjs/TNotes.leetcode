@@ -3,8 +3,8 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1 - 逐行、逐列求和](#2--solutions1---逐行逐列求和)
-- [3. 🎯 Solutions.2 - 使用 Set](#3--solutions2---使用-set)
+- [2. 🎯 s.1 - 逐行、逐列求和](#2--s1---逐行逐列求和)
+- [3. 🎯 s.2 - 使用 Set](#3--s2---使用-set)
 
 <!-- endregion:toc -->
 
@@ -48,7 +48,7 @@
 
 :::
 
-## 2. 🎯 Solutions.1 - 逐行、逐列求和
+## 2. 🎯 s.1 - 逐行、逐列求和
 
 ::: code-group
 
@@ -59,7 +59,7 @@
 - 双百提交：
 - ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-31-22-39-33.png)
 
-## 3. 🎯 Solutions.2 - 使用 Set
+## 3. 🎯 s.2 - 使用 Set
 
 ::: code-group
 

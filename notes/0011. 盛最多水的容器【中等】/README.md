@@ -6,8 +6,8 @@
   - [TNotes.yuque.leetcode.0011](https://www.yuque.com/tdahuyou/tnotes.yuque/leetcode.0011)
 - [1. 🔗 links](#1--links)
 - [2. 📝 Description](#2--description)
-- [3. 🎯 Solutions.1 - 暴力枚举](#3--solutions1---暴力枚举)
-- [4. 🎯 Solutions.2 - 碰撞指针](#4--solutions2---碰撞指针)
+- [3. 🎯 s.1 - 暴力枚举](#3--s1---暴力枚举)
+- [4. 🎯 s.2 - 碰撞指针](#4--s2---碰撞指针)
 - [5. ❌ 问题解法 - 栈溢出](#5--问题解法---栈溢出)
 - [6. ❌ 问题解法 - 超时](#6--问题解法---超时)
 
@@ -51,7 +51,7 @@
 
 :::
 
-## 3. 🎯 Solutions.1 - 暴力枚举
+## 3. 🎯 s.1 - 暴力枚举
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-25-16-18-33.png)
 
@@ -108,7 +108,7 @@ var maxArea = function (height) {
 
 [暴力枚举导致超时问题](#Qxt3W)
 
-## 4. 🎯 Solutions.2 - 碰撞指针
+## 4. 🎯 s.2 - 碰撞指针
 
 ```javascript
 var maxArea = function (height) {

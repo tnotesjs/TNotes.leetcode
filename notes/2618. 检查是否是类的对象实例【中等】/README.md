@@ -5,7 +5,7 @@
 - [1. 🔗 links](#1--links)
 - [2. 📝 Description](#2--description)
 - [3. 📒 使用 Object() 将原始类型的值转为对应的包装对象](#3--使用-object-将原始类型的值转为对应的包装对象)
-- [4. 🎯 Solutions.1](#4--solutions1)
+- [4. 🎯 s.1](#4--s1)
 
 <!-- endregion:toc -->
 
@@ -68,7 +68,7 @@ obj instanceof Object // true
 obj instanceof Boolean // true
 ```
 
-## 4. 🎯 Solutions.1
+## 4. 🎯 s.1
 
 ```javascript
 /**

@@ -4,8 +4,8 @@
 
 - [1. 📝 Description](#1--description)
 - [2. 📒 函数的 length 属性](#2--函数的-length-属性)
-- [3. 🎯 Solutions.1](#3--solutions1)
-- [4. 🎯 Solutions.2](#4--solutions2)
+- [3. 🎯 s.1](#3--s1)
+- [4. 🎯 s.2](#4--s2)
 
 <!-- endregion:toc -->
 
@@ -110,7 +110,7 @@ arr.length = 0
 arr // []
 ```
 
-## 3. 🎯 Solutions.1
+## 3. 🎯 s.1
 
 ```javascript
 /**
@@ -204,7 +204,7 @@ var curry = function (fn) {
 
 ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-26-21-57-46.png)
 
-## 4. 🎯 Solutions.2
+## 4. 🎯 s.2
 
 ```javascript
 /**

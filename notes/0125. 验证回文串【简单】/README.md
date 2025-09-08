@@ -3,8 +3,8 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1 - 暴力解法](#2--solutions1---暴力解法)
-- [3. 🎯 Solutions.2 - 双指针](#3--solutions2---双指针)
+- [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
+- [3. 🎯 s.2 - 双指针](#3--s2---双指针)
 - [4. 📒 正则 `\w`、`\W`](#4--正则-ww)
 
 <!-- endregion:toc -->
@@ -51,7 +51,7 @@
 
 :::
 
-## 2. 🎯 Solutions.1 - 暴力解法
+## 2. 🎯 s.1 - 暴力解法
 
 ```js
 var isPalindrome = function (s) {
@@ -69,7 +69,7 @@ var isPalindrome = function (s) {
 3. 字符串逆置 `[...s].reverse().join("")`
 4. 返回比较原字符串和逆置后的字符串的结果 `return s === [...s].reverse().join("")`
 
-## 3. 🎯 Solutions.2 - 双指针
+## 3. 🎯 s.2 - 双指针
 
 ```js
 var isPalindrome = function (s) {

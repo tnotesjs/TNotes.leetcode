@@ -3,7 +3,8 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1 - 暴力解法](#2--solutions1---暴力解法)
+- [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
+- [3. 🔗 引用](#3--引用)
 
 <!-- endregion:toc -->
 
@@ -59,14 +60,32 @@
 - `1 <= nums.length <= 10^4`
 - `-1000 <= nums[i] <= 1000`
 
-**注意：**本题与主站 1991 题相同：[https://leetcode-cn.com/problems/find-the-middle-index-in-array/](https://leetcode-cn.com/problems/find-the-middle-index-in-array/)
+**注意：** 本题与主站 [1991. 找到数组的中间位置][1] 题相同
 
 :::
 
-## 2. 🎯 Solutions.1 - 暴力解法
+## 2. 🎯 s.1 - 暴力解法
+
+::: swiper
+
+![暴力解法](./assets/1.svg)
+
+:::
 
 ::: code-group
 
 <<< ./solutions/1/1.js [js]
 
 :::
+
+- 时间复杂度：$O(2n)$
+  - 需要遍历数组两次（一次计算总和，一次寻找中心下标）
+- 空间复杂度：$O(1)$
+  - 只使用了常数级别的额外空间
+
+## 3. 🔗 引用
+
+- [1991. 找到数组的中间位置][1]
+  - 相同题目
+
+[1]: https://leetcode-cn.com/problems/find-the-middle-index-in-array/

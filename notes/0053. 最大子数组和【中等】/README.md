@@ -3,8 +3,8 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1 - 暴力解法](#2--solutions1---暴力解法)
-- [3. 🎯 Solutions.2 - 动态规划](#3--solutions2---动态规划)
+- [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
+- [3. 🎯 s.2 - 动态规划](#3--s2---动态规划)
 
 <!-- endregion:toc -->
 
@@ -49,7 +49,7 @@
 
 :::
 
-## 2. 🎯 Solutions.1 - 暴力解法
+## 2. 🎯 s.1 - 暴力解法
 
 ```javascript
 var maxSubArray = function (nums) {
@@ -70,7 +70,7 @@ var maxSubArray = function (nums) {
 - 思想很简单，就是两层循环，将所有可能的子数组都判断一遍，取最值。
 - 注：回看提交记录时，发现一开始是通过的，但是现在运行提示超时，应该是新增了一些测试用例，对于一些新的测试用例，该暴力解法在执行后被判定为超时。
 
-## 3. 🎯 Solutions.2 - 动态规划
+## 3. 🎯 s.2 - 动态规划
 
 ```javascript
 var maxSubArray = function (nums) {

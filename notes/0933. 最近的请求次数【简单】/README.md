@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1 - 暴力解法 - 使用队列 queue](#2--solutions1---暴力解法---使用队列-queue)
+- [2. 🎯 s.1 - 暴力解法 - 使用队列 queue](#2--s1---暴力解法---使用队列-queue)
 
 <!-- endregion:toc -->
 
@@ -45,7 +45,7 @@ recentCounter.ping(3002);  // requests = [1, 100, 3001, 3002]，范围是 [2,300
 
 :::
 
-## 2. 🎯 Solutions.1 - 暴力解法 - 使用队列 queue
+## 2. 🎯 s.1 - 暴力解法 - 使用队列 queue
 
 ```js
 var RecentCounter = function () {

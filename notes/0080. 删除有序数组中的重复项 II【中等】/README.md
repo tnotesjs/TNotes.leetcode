@@ -3,8 +3,8 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1 - 暴力解法](#2--solutions1---暴力解法)
-- [3. 🎯 Solutions.2 - 快慢指针](#3--solutions2---快慢指针)
+- [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
+- [3. 🎯 s.2 - 快慢指针](#3--s2---快慢指针)
 - [4. 📒 尝试正则解法失败](#4--尝试正则解法失败)
 
 <!-- endregion:toc -->
@@ -60,7 +60,7 @@ for (int i = 0; i < len; i++) {
 
 :::
 
-## 2. 🎯 Solutions.1 - 暴力解法
+## 2. 🎯 s.1 - 暴力解法
 
 ```js
 /**
@@ -99,7 +99,7 @@ var removeDuplicates = function (nums) {
   - ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-10-18-40-59.png)
 - 这种解法的优势在于 n 可配置，本题要求重复次数最大两次，如果修改要求，改为 3、4 次，只需要将 n 赋值为 3、4 即可。
 
-## 3. 🎯 Solutions.2 - 快慢指针
+## 3. 🎯 s.2 - 快慢指针
 
 ```js
 /**

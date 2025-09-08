@@ -3,8 +3,8 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1 - 暴力解法 - 调用原生 API - map、sort](#2--solutions1---暴力解法---调用原生-api---mapsort)
-- [3. 🎯 Solutions.2 - 双指针](#3--solutions2---双指针)
+- [2. 🎯 s.1 - 暴力解法 - 调用原生 API - map、sort](#2--s1---暴力解法---调用原生-api---mapsort)
+- [3. 🎯 s.2 - 双指针](#3--s2---双指针)
 
 <!-- endregion:toc -->
 
@@ -42,7 +42,7 @@
 
 :::
 
-## 2. 🎯 Solutions.1 - 暴力解法 - 调用原生 API - map、sort
+## 2. 🎯 s.1 - 暴力解法 - 调用原生 API - map、sort
 
 ```js
 var sortedSquares = function (nums) {
@@ -50,7 +50,7 @@ var sortedSquares = function (nums) {
 }
 ```
 
-## 3. 🎯 Solutions.2 - 双指针
+## 3. 🎯 s.2 - 双指针
 
 ```js
 var sortedSquares = function (nums) {

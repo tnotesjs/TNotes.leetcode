@@ -3,7 +3,8 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1 - 暴力解法](#2--solutions1---暴力解法)
+- [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
+- [3. 🎯 s.2 - 新建数组，不破坏原数组](#3--s2---新建数组不破坏原数组)
 
 <!-- endregion:toc -->
 
@@ -41,10 +42,23 @@
 
 :::
 
-## 2. 🎯 Solutions.1 - 暴力解法
+## 2. 🎯 s.1 - 暴力解法
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js-1]
+
+<<< ./solutions/1/2.js [js-2]
+
+:::
+
+- 时间复杂度：$O(n)$，其中 n 是数组长度，每个元素最多被访问一次
+- 空间复杂度：$O(1)$，只使用了常数级别的额外空间，原地修改数组
+
+## 3. 🎯 s.2 - 新建数组，不破坏原数组
+
+::: code-group
+
+<<< ./solutions/2/1.js [js]
 
 :::

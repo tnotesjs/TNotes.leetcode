@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1](#2--solutions1)
+- [2. 🎯 s.1](#2--s1)
 
 <!-- endregion:toc -->
 
@@ -51,7 +51,7 @@ n = -(2)[('call', 'call', 'call', 'call', 'call')]
 
 :::
 
-## 2. 🎯 Solutions.1
+## 2. 🎯 s.1
 
 ```javascript
 /**

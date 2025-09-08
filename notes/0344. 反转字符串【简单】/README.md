@@ -3,9 +3,9 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1 - 暴力解法 - 直接调用原生 API](#2--solutions1---暴力解法---直接调用原生-api)
-- [3. 🎯 Solutions.2 - 双指针](#3--solutions2---双指针)
-- [4. 🎯 Solutions.3 - 递归](#4--solutions3---递归)
+- [2. 🎯 s.1 - 暴力解法 - 直接调用原生 API](#2--s1---暴力解法---直接调用原生-api)
+- [3. 🎯 s.2 - 双指针](#3--s2---双指针)
+- [4. 🎯 s.3 - 递归](#4--s3---递归)
 - [5. 🔗 References](#5--references)
 
 <!-- endregion:toc -->
@@ -39,7 +39,7 @@
 
 :::
 
-## 2. 🎯 Solutions.1 - 暴力解法 - 直接调用原生 API
+## 2. 🎯 s.1 - 暴力解法 - 直接调用原生 API
 
 ```js
 var reverseString = function (s) {
@@ -47,7 +47,7 @@ var reverseString = function (s) {
 }
 ```
 
-## 3. 🎯 Solutions.2 - 双指针
+## 3. 🎯 s.2 - 双指针
 
 ```js
 var reverseString = function (s) {
@@ -63,7 +63,7 @@ var reverseString = function (s) {
 
 - ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-16-20-17-45.png)
 
-## 4. 🎯 Solutions.3 - 递归
+## 4. 🎯 s.3 - 递归
 
 ```js
 var reverseString = function (s) {

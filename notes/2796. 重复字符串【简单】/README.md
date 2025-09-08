@@ -3,8 +3,8 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1 - 循环拼接](#2--solutions1---循环拼接)
-- [3. 🎯 Solutions.2 - 分治法，递归拼接](#3--solutions2---分治法递归拼接)
+- [2. 🎯 s.1 - 循环拼接](#2--s1---循环拼接)
+- [3. 🎯 s.2 - 分治法，递归拼接](#3--s2---分治法递归拼接)
 - [4. 📒 双百提交](#4--双百提交)
 
 <!-- endregion:toc -->
@@ -44,7 +44,7 @@
 
 :::
 
-## 2. 🎯 Solutions.1 - 循环拼接
+## 2. 🎯 s.1 - 循环拼接
 
 ```javascript
 /**
@@ -67,7 +67,7 @@ String.prototype.replicate = function (times) {
 
 题目中提到 m 是 1（假设连接字符串是一个常数时间操作 `O(1)`），因此时间复杂度 `O(m * n)` 可以简写为 `O(n)`。
 
-## 3. 🎯 Solutions.2 - 分治法，递归拼接
+## 3. 🎯 s.2 - 分治法，递归拼接
 
 ```javascript
 /**

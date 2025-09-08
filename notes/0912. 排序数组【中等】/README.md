@@ -4,13 +4,13 @@
 
 - [1. 🔗 links](#1--links)
 - [2. 📝 Description](#2--description)
-- [3. 🎯 Solutions.1 - 原生排序方法](#3--solutions1---原生排序方法)
-- [4. 🎯 Solutions.2 - 冒泡排序](#4--solutions2---冒泡排序)
+- [3. 🎯 s.1 - 原生排序方法](#3--s1---原生排序方法)
+- [4. 🎯 s.2 - 冒泡排序](#4--s2---冒泡排序)
   - [4.1. 冒泡排序 - 标准版](#41-冒泡排序---标准版)
   - [4.2. 冒泡排序 - 加入提前终止标志](#42-冒泡排序---加入提前终止标志)
   - [4.3. 冒泡排序 - 鸡尾酒排序 Cocktail Shaker Sort](#43-冒泡排序---鸡尾酒排序-cocktail-shaker-sort)
-- [5. 🎯 Solutions.3 - 选择排序](#5--solutions3---选择排序)
-- [6. 🎯 Solutions.4 - 快速排序](#6--solutions4---快速排序)
+- [5. 🎯 s.3 - 选择排序](#5--s3---选择排序)
+- [6. 🎯 s.4 - 快速排序](#6--s4---快速排序)
 - [7. 📒 排序的本质](#7--排序的本质)
 
 <!-- endregion:toc -->
@@ -43,7 +43,7 @@
 - `1 <= nums.length <= 5 * 10^4`
 - `-5 * 10^4 <= nums[i] <= 5 * 10^4`
 
-## 3. 🎯 Solutions.1 - 原生排序方法
+## 3. 🎯 s.1 - 原生排序方法
 
 ```javascript
 /**
@@ -60,7 +60,7 @@ var sortArray = function (nums) {
 
 ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-25-17-19-13.png)
 
-## 4. 🎯 Solutions.2 - 冒泡排序
+## 4. 🎯 s.2 - 冒泡排序
 
 > 提示：尝试通过冒泡排序来解答此题，无论如何修改，提交后始终无法通过。逻辑或许是正确的，不过提交后始终会 **超出时间限制**。
 
@@ -194,7 +194,7 @@ function swap(arr, a, b) {
 
 ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-25-17-20-34.png)
 
-## 5. 🎯 Solutions.3 - 选择排序
+## 5. 🎯 s.3 - 选择排序
 
 ```javascript
 /**
@@ -228,7 +228,7 @@ function swap(arr, a, b) {
 
 ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-25-17-21-40.png)
 
-## 6. 🎯 Solutions.4 - 快速排序
+## 6. 🎯 s.4 - 快速排序
 
 ```javascript
 /**

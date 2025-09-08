@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1 - 栈](#2--solutions1---栈)
+- [2. 🎯 s.1 - 栈](#2--s1---栈)
 
 <!-- endregion:toc -->
 
@@ -48,7 +48,7 @@
 
 :::
 
-## 2. 🎯 Solutions.1 - 栈
+## 2. 🎯 s.1 - 栈
 
 ```js
 /**

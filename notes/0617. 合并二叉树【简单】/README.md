@@ -4,7 +4,7 @@
 
 - [1. 📝 Description](#1--description)
 - [2. 📒 在 js 中，null 参与加法运算的时候自动被视作 0 处理](#2--在-js-中null-参与加法运算的时候自动被视作-0-处理)
-- [3. 🎯 Solutions.1 - DFS + 递归](#3--solutions1---dfs--递归)
+- [3. 🎯 s.1 - DFS + 递归](#3--s1---dfs--递归)
 
 <!-- endregion:toc -->
 
@@ -49,7 +49,7 @@
 1 + 2 + null // => 3
 ```
 
-## 3. 🎯 Solutions.1 - DFS + 递归
+## 3. 🎯 s.1 - DFS + 递归
 
 ```js
 var mergeTrees = function (root1, root2) {

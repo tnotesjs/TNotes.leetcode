@@ -3,8 +3,8 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1 - 二分查找法](#2--solutions1---二分查找法)
-- [3. 🎯 Solutions.2 - 牛顿法](#3--solutions2---牛顿法)
+- [2. 🎯 s.1 - 二分查找法](#2--s1---二分查找法)
+- [3. 🎯 s.2 - 牛顿法](#3--s2---牛顿法)
 
 <!-- endregion:toc -->
 
@@ -43,7 +43,7 @@
 
 :::
 
-## 2. 🎯 Solutions.1 - 二分查找法
+## 2. 🎯 s.1 - 二分查找法
 
 ::: code-group
 
@@ -51,7 +51,7 @@
 
 :::
 
-## 3. 🎯 Solutions.2 - 牛顿法
+## 3. 🎯 s.2 - 牛顿法
 
 ::: code-group
 

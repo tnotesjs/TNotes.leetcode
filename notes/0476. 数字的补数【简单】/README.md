@@ -3,12 +3,18 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1 - 暴力解法](#2--solutions1---暴力解法)
-- [3. 🔗 引用](#3--引用)
+- [2. 🔗 引用](#2--引用)
 
 <!-- endregion:toc -->
 
 ## 1. 📝 Description
+
+::: warning
+
+- **注意：** 本题与 [1009. 十进制整数的反码][1] 相同
+- 题解见 `1009`
+
+:::
 
 ::: details [leetcode](https://leetcode.cn/problems/number-complement)
 
@@ -46,15 +52,7 @@
 
 :::
 
-## 2. 🎯 Solutions.1 - 暴力解法
-
-::: code-group
-
-<<< ./solutions/1/1.js [js]
-
-:::
-
-## 3. 🔗 引用
+## 2. 🔗 引用
 
 - [1009. 十进制整数的反码][1]
 

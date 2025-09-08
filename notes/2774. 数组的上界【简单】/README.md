@@ -4,7 +4,7 @@
 
 - [1. 🔗 links](#1--links)
 - [2. 📝 Description](#2--description)
-- [3. 🎯 Solutions.1](#3--solutions1)
+- [3. 🎯 s.1](#3--s1)
 
 <!-- endregion:toc -->
 
@@ -44,7 +44,7 @@
 
 **进阶：**你能编写一个时间复杂度为 `O(log n)` 的算法吗？
 
-## 3. 🎯 Solutions.1
+## 3. 🎯 s.1
 
 ```javascript
 /**

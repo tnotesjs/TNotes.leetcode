@@ -3,8 +3,8 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1 - 暴力解法 - 先找长度，再找中间](#2--solutions1---暴力解法---先找长度再找中间)
-- [3. 🎯 Solutions.2 - 快慢指针 - 一步两步](#3--solutions2---快慢指针---一步两步)
+- [2. 🎯 s.1 - 暴力解法 - 先找长度，再找中间](#2--s1---暴力解法---先找长度再找中间)
+- [3. 🎯 s.2 - 快慢指针 - 一步两步](#3--s2---快慢指针---一步两步)
 - [4. 🔗 References](#4--references)
 
 <!-- endregion:toc -->
@@ -43,7 +43,7 @@
 
 :::
 
-## 2. 🎯 Solutions.1 - 暴力解法 - 先找长度，再找中间
+## 2. 🎯 s.1 - 暴力解法 - 先找长度，再找中间
 
 ```js
 var middleNode = function(head) {
@@ -62,7 +62,7 @@ var middleNode = function(head) {
 }
 ```
 
-## 3. 🎯 Solutions.2 - 快慢指针 - 一步两步
+## 3. 🎯 s.2 - 快慢指针 - 一步两步
 
 ```js
 var middleNode = function (head) {

@@ -3,9 +3,9 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1 - 利用二维矩阵模拟](#2--solutions1---利用二维矩阵模拟)
-- [3. 🎯 Solutions.2 - 压缩矩阵空间](#3--solutions2---压缩矩阵空间)
-- [4. 🎯 Solutions.3 - 直接构造](#4--solutions3---直接构造)
+- [2. 🎯 s.1 - 利用二维矩阵模拟](#2--s1---利用二维矩阵模拟)
+- [3. 🎯 s.2 - 压缩矩阵空间](#3--s2---压缩矩阵空间)
+- [4. 🎯 s.3 - 直接构造](#4--s3---直接构造)
 
 <!-- endregion:toc -->
 
@@ -57,7 +57,7 @@ P     I
 
 :::
 
-## 2. 🎯 Solutions.1 - 利用二维矩阵模拟
+## 2. 🎯 s.1 - 利用二维矩阵模拟
 
 ::: code-group
 
@@ -65,7 +65,7 @@ P     I
 
 :::
 
-## 3. 🎯 Solutions.2 - 压缩矩阵空间
+## 3. 🎯 s.2 - 压缩矩阵空间
 
 ::: code-group
 
@@ -73,7 +73,7 @@ P     I
 
 :::
 
-## 4. 🎯 Solutions.3 - 直接构造
+## 4. 🎯 s.3 - 直接构造
 
 ::: code-group
 

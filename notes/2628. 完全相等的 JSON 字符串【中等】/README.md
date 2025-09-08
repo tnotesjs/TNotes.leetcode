@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.递归](#2--solutions递归)
+- [2. 🎯 s.递归](#2--s递归)
 
 <!-- endregion:toc -->
 
@@ -63,7 +63,7 @@
 
 :::
 
-## 2. 🎯 Solutions.递归
+## 2. 🎯 s.递归
 
 ```js
 /**

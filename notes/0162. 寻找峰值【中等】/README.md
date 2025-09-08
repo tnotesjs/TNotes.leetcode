@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1 - 二分查找](#2--solutions1---二分查找)
+- [2. 🎯 s.1 - 二分查找](#2--s1---二分查找)
 
 <!-- endregion:toc -->
 
@@ -44,7 +44,7 @@
 
 :::
 
-## 2. 🎯 Solutions.1 - 二分查找
+## 2. 🎯 s.1 - 二分查找
 
 ```js
 var findPeakElement = function (nums) {

@@ -3,9 +3,9 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1 - 排序](#2--solutions1---排序)
-- [3. 🎯 Solutions.2 - hash-table](#3--solutions2---hash-table)
-- [4. 🎯 Solutions.3 - 分治](#4--solutions3---分治)
+- [2. 🎯 s.1 - 排序](#2--s1---排序)
+- [3. 🎯 s.2 - hash-table](#3--s2---hash-table)
+- [4. 🎯 s.3 - 分治](#4--s3---分治)
 
 <!-- endregion:toc -->
 
@@ -41,7 +41,7 @@
 
 :::
 
-## 2. 🎯 Solutions.1 - 排序
+## 2. 🎯 s.1 - 排序
 
 ```js
 var majorityElement = function (nums) {
@@ -49,7 +49,7 @@ var majorityElement = function (nums) {
 }
 ```
 
-## 3. 🎯 Solutions.2 - hash-table
+## 3. 🎯 s.2 - hash-table
 
 ```js
 var majorityElement = function (nums) {
@@ -63,7 +63,7 @@ var majorityElement = function (nums) {
 }
 ```
 
-## 4. 🎯 Solutions.3 - 分治
+## 4. 🎯 s.3 - 分治
 
 ```js
 /**

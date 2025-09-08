@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1 - DFS](#2--solutions1---dfs)
+- [2. 🎯 s.1 - DFS](#2--s1---dfs)
 
 <!-- endregion:toc -->
 
@@ -57,7 +57,7 @@
 
 :::
 
-## 2. 🎯 Solutions.1 - DFS
+## 2. 🎯 s.1 - DFS
 
 ```js
 /**

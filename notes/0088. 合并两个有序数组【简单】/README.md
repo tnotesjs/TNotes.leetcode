@@ -3,8 +3,8 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1 - 暴力解法](#2--solutions1---暴力解法)
-- [3. 🎯 Solutions.2 - 尾插法](#3--solutions2---尾插法)
+- [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
+- [3. 🎯 s.2 - 尾插法](#3--s2---尾插法)
 
 <!-- endregion:toc -->
 
@@ -57,7 +57,7 @@
 
 **进阶：** 你可以设计实现一个时间复杂度为 `O(m + n)` 的算法解决此问题吗？
 
-## 2. 🎯 Solutions.1 - 暴力解法
+## 2. 🎯 s.1 - 暴力解法
 
 ```js
 /**
@@ -79,7 +79,7 @@ var merge = function (nums1, m, nums2, n) {
   - Do not return anything, modify nums1 in-place instead.
   - 头部注释信息中强调，不需要返回任何内容，直接基于 nums1 原地修改即可。
 
-## 3. 🎯 Solutions.2 - 尾插法
+## 3. 🎯 s.2 - 尾插法
 
 ```js
 /**

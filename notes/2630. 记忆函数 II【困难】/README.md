@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.双哈希表](#2--solutions双哈希表)
+- [2. 🎯 s.双哈希表](#2--s双哈希表)
 
 <!-- endregion:toc -->
 
@@ -66,7 +66,7 @@ fn = function (a, b) { return ({...a, ...b}); }
 
 :::
 
-## 2. 🎯 Solutions.双哈希表
+## 2. 🎯 s.双哈希表
 
 ```ts
 type Fn = (...params: any) => any

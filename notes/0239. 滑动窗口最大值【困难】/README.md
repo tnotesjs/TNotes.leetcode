@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1 - Deque](#2--solutions1---deque)
+- [2. 🎯 s.1 - Deque](#2--s1---deque)
 - [3. 🤖 什么是双端队列？](#3--什么是双端队列)
   - [3.1. 特性](#31-特性)
   - [3.2. 常见操作](#32-常见操作)
@@ -49,7 +49,7 @@
 
 :::
 
-## 2. 🎯 Solutions.1 - Deque
+## 2. 🎯 s.1 - Deque
 
 ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-25-17-07-42.png)
 

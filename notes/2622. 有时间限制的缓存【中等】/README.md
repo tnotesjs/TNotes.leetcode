@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1 - 哈希表](#2--solutions1---哈希表)
+- [2. 🎯 s.1 - 哈希表](#2--s1---哈希表)
 
 <!-- endregion:toc -->
 
@@ -78,7 +78,7 @@ timeDelays = [0, 0, 40, 50, 120, 200, 250]
 
 :::
 
-## 2. 🎯 Solutions.1 - 哈希表
+## 2. 🎯 s.1 - 哈希表
 
 ```ts
 class TimeLimitedCache {

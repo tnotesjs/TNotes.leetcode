@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1](#2--solutions1)
+- [2. 🎯 s.1](#2--s1)
 
 <!-- endregion:toc -->
 
@@ -69,7 +69,7 @@ console.log(result) // -10
 
 :::
 
-## 2. 🎯 Solutions.1
+## 2. 🎯 s.1
 
 ```javascript
 /**

@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1 - 双指针](#2--solutions1---双指针)
+- [2. 🎯 s.1 - 双指针](#2--s1---双指针)
 
 <!-- endregion:toc -->
 
@@ -36,7 +36,7 @@
 
 **进阶：** 你能尽量减少完成的操作次数吗？
 
-## 2. 🎯 Solutions.1 - 双指针
+## 2. 🎯 s.1 - 双指针
 
 ```js
 var moveZeroes = function (nums) {

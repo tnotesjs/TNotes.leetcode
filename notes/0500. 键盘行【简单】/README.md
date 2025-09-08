@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1 - 暴力解法](#2--solutions1---暴力解法)
+- [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 
 <!-- endregion:toc -->
 
@@ -46,7 +46,7 @@
 
 :::
 
-## 2. 🎯 Solutions.1 - 暴力解法
+## 2. 🎯 s.1 - 暴力解法
 
 ::: code-group
 

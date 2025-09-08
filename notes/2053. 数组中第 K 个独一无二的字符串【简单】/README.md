@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1 - 暴力解法](#2--solutions1---暴力解法)
+- [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 
 <!-- endregion:toc -->
 
@@ -59,7 +59,7 @@ arr 中所有字符串都是独一无二的，所以返回第 1 个字符串 "aa
 
 :::
 
-## 2. 🎯 Solutions.1 - 暴力解法
+## 2. 🎯 s.1 - 暴力解法
 
 ::: code-group
 

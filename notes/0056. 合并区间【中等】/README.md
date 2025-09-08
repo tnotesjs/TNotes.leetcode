@@ -3,8 +3,8 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1 - 暴力解法 1](#2--solutions1---暴力解法-1)
-- [3. 🎯 Solutions.2 - 暴力解法 2](#3--solutions2---暴力解法-2)
+- [2. 🎯 s.1 - 暴力解法 1](#2--s1---暴力解法-1)
+- [3. 🎯 s.2 - 暴力解法 2](#3--s2---暴力解法-2)
 - [4. 📒 手写 reduce](#4--手写-reduce)
 
 <!-- endregion:toc -->
@@ -39,7 +39,7 @@
 
 :::
 
-## 2. 🎯 Solutions.1 - 暴力解法 1
+## 2. 🎯 s.1 - 暴力解法 1
 
 ```js
 /**
@@ -105,7 +105,7 @@ while (i < intervals.length) {
 }
 ```
 
-## 3. 🎯 Solutions.2 - 暴力解法 2
+## 3. 🎯 s.2 - 暴力解法 2
 
 ```js
 /**

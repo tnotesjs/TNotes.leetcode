@@ -3,9 +3,9 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1 - 暴力解法](#2--solutions1---暴力解法)
-- [3. 🎯 Solutions.2 - 使用 Set 记录所有中毒时间点](#3--solutions2---使用-set-记录所有中毒时间点)
-- [4. 🎯 Solutions.3 - 区间合并法](#4--solutions3---区间合并法)
+- [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
+- [3. 🎯 s.2 - 使用 Set 记录所有中毒时间点](#3--s2---使用-set-记录所有中毒时间点)
+- [4. 🎯 s.3 - 区间合并法](#4--s3---区间合并法)
 
 <!-- endregion:toc -->
 
@@ -58,7 +58,7 @@
 
 :::
 
-## 2. 🎯 Solutions.1 - 暴力解法
+## 2. 🎯 s.1 - 暴力解法
 
 ::: code-group
 
@@ -66,7 +66,7 @@
 
 :::
 
-## 3. 🎯 Solutions.2 - 使用 Set 记录所有中毒时间点
+## 3. 🎯 s.2 - 使用 Set 记录所有中毒时间点
 
 ::: code-group
 
@@ -76,7 +76,7 @@
 
 - 超时
 
-## 4. 🎯 Solutions.3 - 区间合并法
+## 4. 🎯 s.3 - 区间合并法
 
 ::: code-group
 

@@ -3,8 +3,8 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1 - 暴力解法 - 使用原生 API](#2--solutions1---暴力解法---使用原生-api)
-- [3. 🎯 Solutions.2 - 双指针](#3--solutions2---双指针)
+- [2. 🎯 s.1 - 暴力解法 - 使用原生 API](#2--s1---暴力解法---使用原生-api)
+- [3. 🎯 s.2 - 双指针](#3--s2---双指针)
 
 <!-- endregion:toc -->
 
@@ -38,7 +38,7 @@
 
 :::
 
-## 2. 🎯 Solutions.1 - 暴力解法 - 使用原生 API
+## 2. 🎯 s.1 - 暴力解法 - 使用原生 API
 
 ```js
 var reverseWords = function (s) {
@@ -70,7 +70,7 @@ var reverseWords = function (s) {
 // => "s'teL ekat edoCteeL tsetnoc"
 ```
 
-## 3. 🎯 Solutions.2 - 双指针
+## 3. 🎯 s.2 - 双指针
 
 ```js
 /**

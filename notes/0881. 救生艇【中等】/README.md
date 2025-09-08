@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions.1 - 贪心](#2--solutions1---贪心)
+- [2. 🎯 s.1 - 贪心](#2--s1---贪心)
 
 <!-- endregion:toc -->
 
@@ -48,7 +48,7 @@
 
 :::
 
-## 2. 🎯 Solutions.1 - 贪心
+## 2. 🎯 s.1 - 贪心
 
 ```js
 var numRescueBoats = function (people, limit) {

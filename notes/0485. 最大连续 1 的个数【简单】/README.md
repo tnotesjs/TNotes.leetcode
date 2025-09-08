@@ -4,9 +4,9 @@
 
 - [1. 📝 Description](#1--description)
 - [2. 📒 性能比较](#2--性能比较)
-- [3. 🎯 Solutions.1 - 暴力解法 - 遍历](#3--solutions1---暴力解法---遍历)
-- [4. 🎯 Solutions.2 - 暴力解法 - 字符串切片](#4--solutions2---暴力解法---字符串切片)
-- [5. 🎯 Solutions.3 - 暴力解法 - 正则](#5--solutions3---暴力解法---正则)
+- [3. 🎯 s.1 - 暴力解法 - 遍历](#3--s1---暴力解法---遍历)
+- [4. 🎯 s.2 - 暴力解法 - 字符串切片](#4--s2---暴力解法---字符串切片)
+- [5. 🎯 s.3 - 暴力解法 - 正则](#5--s3---暴力解法---正则)
 
 <!-- endregion:toc -->
 
@@ -40,7 +40,7 @@
 
 - 在本节介绍的提接中，通过【暴力解法 - 遍历】的方式来求解是性能最好的。
 
-## 3. 🎯 Solutions.1 - 暴力解法 - 遍历
+## 3. 🎯 s.1 - 暴力解法 - 遍历
 
 ```js
 var findMaxConsecutiveOnes = function (nums) {
@@ -64,7 +64,7 @@ var findMaxConsecutiveOnes = function (nums) {
   - 如果当前项不是 1，那么将 len 的值与最终结果进行比较，将较大的值赋值给 maxLen。同时将 len 清零，意味着当前连续的 1 已经结束，下次需要重新开始计算。
 - 注意：循环结束时，需要再判断一次 len 和 maxLen。
 
-## 4. 🎯 Solutions.2 - 暴力解法 - 字符串切片
+## 4. 🎯 s.2 - 暴力解法 - 字符串切片
 
 - 实现思路：
   - 将数组转为字符串后，按照 0 对字符串进行分割，获取到分割后的新数组 `["11", "111"]`，再从中找出最长的字符串的长度。
@@ -107,7 +107,7 @@ var findMaxConsecutiveOnes = function (nums) {
 }
 ```
 
-## 5. 🎯 Solutions.3 - 暴力解法 - 正则
+## 5. 🎯 s.3 - 暴力解法 - 正则
 
 ```js
 var findMaxConsecutiveOnes = function (nums) {
