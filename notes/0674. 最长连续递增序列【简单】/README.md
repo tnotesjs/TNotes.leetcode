@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/longest-continuous-increasing-subsequence/)
+- [leetcode](https://leetcode.cn/problems/longest-continuous-increasing-subsequence/)
 
 给定一个未经排序的整数数组，找到最长且 **连续递增的子序列**，并返回该序列的长度。
 
@@ -41,7 +41,6 @@
 - `1 <= nums.length <= 10^4`
 - `-10^9 <= nums[i] <= 10^9`
 
-:::
 
 ## 2. 🎯 s.1 - 暴力解法
 

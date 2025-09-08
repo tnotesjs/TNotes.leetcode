@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1](#2--s1)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/minimum-size-subarray-sum)
+- [leetcode](https://leetcode.cn/problems/minimum-size-subarray-sum)
 
 给定一个含有  `n`  个正整数的数组和一个正整数 `target` **。**
 
@@ -51,7 +51,6 @@
 
 - 如果你已经实现 `O(n)` 时间复杂度的解法, 请尝试设计一个 `O(n log(n))` 时间复杂度的解法。
 
-:::
 
 ## 2. 🎯 s.1
 

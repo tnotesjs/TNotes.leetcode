@@ -2,16 +2,16 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 递归](#2--s1---递归)
 - [3. 🎯 s.2 - 迭代 + 空间优化（推荐）](#3--s2---迭代--空间优化推荐)
 - [4. 📒 斐波那契数列](#4--斐波那契数列)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/fibonacci-number/description/)
+- [leetcode](https://leetcode.cn/problems/fibonacci-number/description/)
 
 **斐波那契数** （通常用  `F(n)` 表示）形成的序列称为 **斐波那契数列** 。该数列由  `0` 和 `1` 开始，后面的每一项数字都是前面两项数字的和。也就是：
 
@@ -47,7 +47,6 @@ F(0) = 0，F(1) = 1 F(n) = F(n - 1) + F(n - 2)，其中 n > 1
 
 - `0 <= n <= 30`
 
-:::
 
 ## 2. 🎯 s.1 - 递归
 

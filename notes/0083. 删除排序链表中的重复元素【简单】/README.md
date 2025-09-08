@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/remove-duplicates-from-sorted-list)
+- [leetcode](https://leetcode.cn/problems/remove-duplicates-from-sorted-list)
 
 给定一个已排序的链表的头  `head` ， *删除所有重复的元素，使每个元素只出现一次* 。返回 *已排序的链表* 。
 
@@ -41,7 +41,6 @@
 - `-100 <= Node.val <= 100`
 - 题目数据保证链表已经按升序 **排列**
 
-:::
 
 ## 2. 🎯 s.1 - 暴力解法
 

@@ -2,15 +2,15 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 逐行、逐列求和](#2--s1---逐行逐列求和)
 - [3. 🎯 s.2 - 使用 Set](#3--s2---使用-set)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/check-if-every-row-and-column-contains-all-numbers/)
+- [leetcode](https://leetcode.cn/problems/check-if-every-row-and-column-contains-all-numbers/)
 
 对一个大小为 `n x n` 的矩阵而言，如果其每一行和每一列都包含从 `1` 到 `n` 的 **全部** 整数（含 `1` 和 `n`），则认为该矩阵是一个 **有效** 矩阵。
 
@@ -46,7 +46,6 @@
 - `1 <= n <= 100`
 - `1 <= matrix[i][j] <= n`
 
-:::
 
 ## 2. 🎯 s.1 - 逐行、逐列求和
 

@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1](#2--s1)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/next-day)
+- [leetcode](https://leetcode.cn/problems/next-day)
 
 请你编写一个有关日期对象的方法，使得任何日期对象都可以调用 `date.nextDay()` 方法，然后返回调用日期对象的下一天，格式为 YYYY-MM-DD 。
 
@@ -36,7 +36,6 @@ date.nextDay() // "2014-06-21"
 
 - `new Date(date)` 是一个有效的日期对象
 
-:::
 
 ## 2. 🎯 s.1
 

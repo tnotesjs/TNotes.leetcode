@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1](#2--s1)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/next-greater-element-i/)
+- [leetcode](https://leetcode.cn/problems/next-greater-element-i/)
 
 `nums1`  中数字  `x`  的 **下一个更大元素** 是指  `x`  在  `nums2` 中对应位置 **右侧** 的 **第一个** 比  `x`  大的元素。
 
@@ -49,7 +49,6 @@
 
 **进阶：** 你可以设计一个时间复杂度为 `O(nums1.length + nums2.length)` 的解决方案吗？
 
-:::
 
 ## 2. 🎯 s.1
 

@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/maximum-number-of-words-found-in-sentences/)
+- [leetcode](https://leetcode.cn/problems/maximum-number-of-words-found-in-sentences/)
 
 一个 **句子**  由一些 **单词**  以及它们之间的单个空格组成，句子的开头和结尾不会有多余空格。
 
@@ -50,7 +50,6 @@
 - `sentences[i]`  的开头和结尾都没有空格。
 - `sentences[i]`  中所有单词由单个空格隔开。
 
-:::
 
 ## 2. 🎯 s.1 - 暴力解法
 

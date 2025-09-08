@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/find-subsequence-of-length-k-with-the-largest-sum)
+- [leetcode](https://leetcode.cn/problems/find-subsequence-of-length-k-with-the-largest-sum)
 
 给你一个整数数组  `nums`  和一个整数  `k` 。你需要找到  `nums`  中长度为 `k`  的 **子序列** ，且这个子序列的  **和最大** 。
 
@@ -53,7 +53,6 @@
 - `-10^5 <= nums[i] <= 10^5`
 - `1 <= k <= nums.length`
 
-:::
 
 ## 2. 🎯 s.1 - 暴力解法
 

@@ -2,16 +2,16 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 利用二维矩阵模拟](#2--s1---利用二维矩阵模拟)
 - [3. 🎯 s.2 - 压缩矩阵空间](#3--s2---压缩矩阵空间)
 - [4. 🎯 s.3 - 直接构造](#4--s3---直接构造)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/zigzag-conversion/)
+- [leetcode](https://leetcode.cn/problems/zigzag-conversion/)
 
 将一个给定字符串 `s` 根据给定的行数 `numRows` ，以从上往下、从左到右进行  Z 字形排列。
 
@@ -55,7 +55,6 @@ P     I
 - `s` 由英文字母（小写和大写）、`','` 和 `'.'` 组成
 - `1 <= numRows <= 1000`
 
-:::
 
 ## 2. 🎯 s.1 - 利用二维矩阵模拟
 

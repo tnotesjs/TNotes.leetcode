@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1](#2--s1)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/partial-function-with-placeholders)
+- [leetcode](https://leetcode.cn/problems/partial-function-with-placeholders)
 
 给定函数 `fn` 和数组 `args`，返回一个函数 `partialFn`。
 
@@ -67,7 +67,6 @@ console.log(result) // -10
 - `1 <= restArgs.length <= 5 * 10^4`
 - `0 <= number of placeholders <= restArgs.length`
 
-:::
 
 ## 2. 🎯 s.1
 

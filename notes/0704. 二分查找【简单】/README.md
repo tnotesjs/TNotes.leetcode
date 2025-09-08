@@ -2,16 +2,16 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 - [3. 🎯 s.2 - 二分查找](#3--s2---二分查找)
 - [4. 🎯 s.3 - 暴力解法 - 使用原生 API - indexOf](#4--s3---暴力解法---使用原生-api---indexof)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/binary-search)
+- [leetcode](https://leetcode.cn/problems/binary-search)
 
 给定一个  `n`  个元素有序的（升序）整型数组  `nums` 和一个目标值  `target`  ，写一个函数搜索  `nums`  中的 `target`，如果目标值存在返回下标，否则返回 `-1`。
 
@@ -37,7 +37,6 @@
 2. `n`  将在  `[1, 10000]`之间。
 3. `nums`  的每个元素都将在  `[-9999, 9999]`之间。
 
-:::
 
 ## 2. 🎯 s.1 - 暴力解法
 

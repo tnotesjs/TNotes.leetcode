@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1](#2--s1)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/timeout-cancellation)
+- [leetcode](https://leetcode.cn/problems/timeout-cancellation)
 
 给定一个函数 `fn` ，一个参数数组 `args` 和一个以毫秒为单位的超时时间 `t` ，返回一个取消函数 `cancelFn` 。
 
@@ -62,7 +62,6 @@
 - `20 <= t <= 1000`
 - `10 <= cancelTimeMs <= 1000`
 
-:::
 
 ## 2. 🎯 s.1
 

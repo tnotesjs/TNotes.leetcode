@@ -2,15 +2,15 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 遍历](#2--s1---遍历)
 - [3. 🎯 s.2 - 递归](#3--s2---递归)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/remove-linked-list-elements/)
+- [leetcode](https://leetcode.cn/problems/remove-linked-list-elements/)
 
 给你一个链表的头节点 `head` 和一个整数 `val` ，请你删除链表中所有满足 `Node.val == val` 的节点，并返回 **新的头节点** 。
 
@@ -43,7 +43,6 @@
 - `1 <= Node.val <= 50`
 - `0 <= val <= 50`
 
-:::
 
 ## 2. 🎯 s.1 - 遍历
 

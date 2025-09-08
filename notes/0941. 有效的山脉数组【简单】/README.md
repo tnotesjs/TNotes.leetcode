@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/valid-mountain-array/)
+- [leetcode](https://leetcode.cn/problems/valid-mountain-array/)
 
 给定一个整数数组 `arr`，如果它是有效的山脉数组就返回 `true`，否则返回 `false`。
 
@@ -52,7 +52,6 @@
 - `1 <= arr.length <= 10^4`
 - `0 <= arr[i] <= 10^4`
 
-:::
 
 ## 2. 🎯 s.1 - 暴力解法
 

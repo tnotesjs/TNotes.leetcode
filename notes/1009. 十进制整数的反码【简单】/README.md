@@ -2,16 +2,16 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 - [3. 🎯 s.2 - 数学](#3--s2---数学)
 - [4. 🔗 引用](#4--引用)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/complement-of-base-10-integer/)
+- [leetcode](https://leetcode.cn/problems/complement-of-base-10-integer/)
 
 每个非负整数  `N`  都有其二进制表示。例如， `5`  可以被表示为二进制  `"101"`，`11` 可以用二进制  `"1011"`  表示，依此类推。注意，除  `N = 0`  外，任何二进制表示中都不含前导零。
 
@@ -52,7 +52,6 @@
 1. `0 <= N < 10^9`
 2. 本题与 [476. 数字的补数][1] 相同
 
-:::
 
 ## 2. 🎯 s.1 - 暴力解法
 

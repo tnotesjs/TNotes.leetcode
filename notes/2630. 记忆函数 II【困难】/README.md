@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.双哈希表](#2--s双哈希表)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/memoize-ii/)
+- [leetcode](https://leetcode.cn/problems/memoize-ii/)
 
 现给定一个函数 `fn` ，返回该函数的一个 **记忆化** 版本。
 
@@ -64,7 +64,6 @@ fn = function (a, b) { return ({...a, ...b}); }
 - `0 <= inputs.flat().length <= 10^5`
 - `inputs[i][j] != NaN`
 
-:::
 
 ## 2. 🎯 s.双哈希表
 

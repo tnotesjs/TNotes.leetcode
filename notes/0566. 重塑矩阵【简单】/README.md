@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/reshape-the-matrix/)
+- [leetcode](https://leetcode.cn/problems/reshape-the-matrix/)
 
 在 MATLAB 中，有一个非常有用的函数 `reshape` ，它可以将一个  `m x n` 矩阵重塑为另一个大小不同（`r x c`）的新矩阵，但保留其原始数据。
 
@@ -47,7 +47,6 @@
 - `-1000 <= mat[i][j] <= 1000`
 - `1 <= r, c <= 300`
 
-:::
 
 ## 2. 🎯 s.1 - 暴力解法
 

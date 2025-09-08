@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/maximum-product-of-three-numbers/)
+- [leetcode](https://leetcode.cn/problems/maximum-product-of-three-numbers/)
 
 给你一个整型数组 `nums` ，在数组中找出由三个数组成的最大乘积，并输出这个乘积。
 
@@ -43,7 +43,6 @@
 - `3 <= nums.length <= 10^4`
 - `-1000 <= nums[i] <= 1000`
 
-:::
 
 ## 2. 🎯 s.1 - 暴力解法
 

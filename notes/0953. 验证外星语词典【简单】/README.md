@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/verifying-an-alien-dictionary/)
+- [leetcode](https://leetcode.cn/problems/verifying-an-alien-dictionary/)
 
 某种外星语也使用英文小写字母，但可能顺序 `order` 不同。字母表的顺序（`order`）是一些小写字母的排列。
 
@@ -50,7 +50,6 @@
 - `order.length == 26`
 - 在  `words[i]`  和  `order`  中的所有字符都是英文小写字母。
 
-:::
 
 ## 2. 🎯 s.1 - 暴力解法
 

@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1](#2--s1)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/filter-elements-from-array/)
+- [leetcode](https://leetcode.cn/problems/filter-elements-from-array/)
 
 给定一个整数数组  `arr` 和一个过滤函数 `fn`，并返回一个过滤后的数组 `filteredArr` 。
 
@@ -45,7 +45,6 @@
 - `0 <= arr.length <= 1000`
 - `-10^9 <= arr[i] <= 10^9`
 
-:::
 
 ## 2. 🎯 s.1
 

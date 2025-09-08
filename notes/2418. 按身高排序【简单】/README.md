@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/sort-the-people/)
+- [leetcode](https://leetcode.cn/problems/sort-the-people/)
 
 给你一个字符串数组 `names` ，和一个由 **互不相同** 的正整数组成的数组 `heights` 。两个数组的长度均为 `n` 。
 
@@ -46,7 +46,6 @@
 - `names[i]` 由大小写英文字母组成
 - `heights` 中的所有值互不相同
 
-:::
 
 ## 2. 🎯 s.1 - 暴力解法
 

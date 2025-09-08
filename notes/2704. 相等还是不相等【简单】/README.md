@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1](#2--s1)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/to-be-or-not-to-be)
+- [leetcode](https://leetcode.cn/problems/to-be-or-not-to-be)
 
 请你编写一个名为 `expect` 的函数，用于帮助开发人员测试他们的代码。它应该接受任何值 `val` 并返回一个包含以下两个函数的对象。
 
@@ -34,7 +34,6 @@
 - 输出：`{"value": true}`
 - 解释：`5 !== null` 因此该表达式返回 `true`.
 
-:::
 
 ## 2. 🎯 s.1
 

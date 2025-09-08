@@ -2,16 +2,16 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - DENSE_RANK](#2--s1---dense_rank)
 - [3. 🎯 s.2 - 使用 `COUNT(DISTINCT ...)` 的相关子查询](#3--s2---使用-countdistinct--的相关子查询)
 - [4. 🎯 s.3 - 使用 `INNER JOIN` 和 `COUNT(DISTINCT...)`](#4--s3---使用-inner-join-和-countdistinct)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/rank-scores)
+- [leetcode](https://leetcode.cn/problems/rank-scores)
 
 表: `Scores`
 
@@ -66,7 +66,6 @@ Scores 表:
 +-------+------+
 ```
 
-:::
 
 ## 2. 🎯 s.1 - DENSE_RANK
 

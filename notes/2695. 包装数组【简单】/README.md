@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/array-wrapper)
+- [leetcode](https://leetcode.cn/problems/array-wrapper)
 
 创建一个名为 `ArrayWrapper` 的类，它在其构造函数中接受一个整数数组作为参数。该类应具有以下两个特性：
 
@@ -57,7 +57,6 @@ obj1 + obj2 // 0
   - `0 <= nums[i] <= 1000`
   - `注意：nums 是传递给构造函数的数组。`
 
-:::
 
 ## 2. 🎯 s.1 - 暴力解法
 

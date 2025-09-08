@@ -2,15 +2,15 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 二分查找](#2--s1---二分查找)
 - [3. 🎯 s.2 - 暴力解法](#3--s2---暴力解法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/search-insert-position/)
+- [leetcode](https://leetcode.cn/problems/search-insert-position/)
 
 给定一个排序数组和一个目标值，在数组中找到目标值，并返回其索引。如果目标值不存在于数组中，返回它将会被按顺序插入的位置。
 
@@ -44,7 +44,6 @@
 - `nums` 为  **无重复元素**  的  **升序**  排列数组
 - `-10^4 <= target <= 10^4`
 
-:::
 
 ## 2. 🎯 s.1 - 二分查找
 

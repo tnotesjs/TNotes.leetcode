@@ -2,16 +2,16 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 - [3. 🎯 s.2 - 快慢指针](#3--s2---快慢指针)
 - [4. 📒 尝试正则解法失败](#4--尝试正则解法失败)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/remove-duplicates-from-sorted-array-ii)
+- [leetcode](https://leetcode.cn/problems/remove-duplicates-from-sorted-array-ii)
 
 给你一个有序数组 `nums` ，请你 **[原地](http://baike.baidu.com/item/%E5%8E%9F%E5%9C%B0%E7%AE%97%E6%B3%95)** 删除重复出现的元素，使得出现次数超过两次的元素**只出现两次** ，返回删除后数组的新长度。
 
@@ -58,7 +58,6 @@ for (int i = 0; i < len; i++) {
 - `-10^4 <= nums[i] <= 10^4`
 - `nums` 已按升序排列
 
-:::
 
 ## 2. 🎯 s.1 - 暴力解法
 

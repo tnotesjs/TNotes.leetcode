@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/find-resultant-array-after-removing-anagrams/)
+- [leetcode](https://leetcode.cn/problems/find-resultant-array-after-removing-anagrams/)
 
 给你一个下标从 **0** 开始的字符串 `words` ，其中 `words[i]` 由小写英文字符组成。
 
@@ -59,7 +59,6 @@ words 中不存在互为字母异位词的两个相邻字符串，所以无需�
 - `1 <= words[i].length <= 10`
 - `words[i]` 由小写英文字母组成
 
-:::
 
 ## 2. 🎯 s.1 - 暴力解法
 

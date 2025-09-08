@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1](#2--s1)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/factorial-generator)
+- [leetcode](https://leetcode.cn/problems/factorial-generator)
 
 编写一个生成器函数，该函数以一个整数 `n` 作为参数，并返回一个生成器对象，该生成器对象可以生成 **阶乘序列** 。
 
@@ -59,7 +59,6 @@ gen.next().value // 1
 
 - `0 <= n <= 18`
 
-:::
 
 ## 2. 🎯 s.1
 

@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - Deque](#2--s1---deque)
 - [3. 🤖 什么是双端队列？](#3--什么是双端队列)
   - [3.1. 特性](#31-特性)
@@ -13,9 +13,9 @@
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/sliding-window-maximum)
+- [leetcode](https://leetcode.cn/problems/sliding-window-maximum)
 
 给你一个整数数组 `nums`，有一个大小为  `k`  的滑动窗口从数组的最左侧移动到数组的最右侧。你只可以看到在滑动窗口内的 `k`  个数字。滑动窗口每次只向右移动一位。
 
@@ -47,7 +47,6 @@
 - `-10^4 <= nums[i] <= 10^4`
 - `1 <= k <= nums.length`
 
-:::
 
 ## 2. 🎯 s.1 - Deque
 

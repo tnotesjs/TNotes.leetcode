@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1](#2--s1)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/length-of-the-longest-alphabetical-continuous-substring)
+- [leetcode](https://leetcode.cn/problems/length-of-the-longest-alphabetical-continuous-substring)
 
 **字母序连续字符串** 是由字母表中连续字母组成的字符串。换句话说，字符串 `"abcdefghijklmnopqrstuvwxyz"` 的任意子字符串都是 **字母序连续字符串** 。
 
@@ -35,7 +35,6 @@
 - `1 <= s.length <= 10^5`
 - `s` 由小写英文字母组成
 
-:::
 
 ## 2. 🎯 s.1
 

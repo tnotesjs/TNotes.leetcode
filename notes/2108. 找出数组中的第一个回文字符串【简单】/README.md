@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/find-first-palindromic-string-in-the-array/)
+- [leetcode](https://leetcode.cn/problems/find-first-palindromic-string-in-the-array/)
 
 给你一个字符串数组 `words` ，找出并返回数组中的 **第一个回文字符串** 。如果不存在满足要求的字符串，返回一个 **空字符串** `""` 。
 
@@ -50,7 +50,6 @@
 - `1 <= words[i].length <= 100`
 - `words[i]` 仅由小写英文字母组成
 
-:::
 
 ## 2. 🎯 s.1 - 暴力解法
 

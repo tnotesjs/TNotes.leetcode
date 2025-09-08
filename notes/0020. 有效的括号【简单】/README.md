@@ -2,16 +2,16 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 栈](#2--s1---栈)
 
 <!-- endregion:toc -->
 
 - ⏰ TODO：本节的 gif 图看起来很不直观，重新制作。
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/valid-parentheses/)
+- [leetcode](https://leetcode.cn/problems/valid-parentheses/)
 
 给定一个只包括 `'('`，`')'`，`'{'`，`'}'`，`'['`，`']'`  的字符串 `s` ，判断字符串是否有效。
 
@@ -46,7 +46,6 @@
 - `1 <= s.length <= 10^4`
 - `s` 仅由括号 `'()[]{}'` 组成
 
-:::
 
 ## 2. 🎯 s.1 - 栈
 

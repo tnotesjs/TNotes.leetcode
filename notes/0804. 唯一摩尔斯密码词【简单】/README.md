@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/unique-morse-code-words/)
+- [leetcode](https://leetcode.cn/problems/unique-morse-code-words/)
 
 国际摩尔斯密码定义一种标准编码方式，将每个字母对应于一个由一系列点和短线组成的字符串，比如:
 
@@ -59,7 +59,6 @@
 - `1 <= words[i].length <= 12`
 - `words[i]` 由小写英文字母组成
 
-:::
 
 ## 2. 🎯 s.1 - 暴力解法
 

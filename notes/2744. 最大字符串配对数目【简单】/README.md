@@ -2,15 +2,15 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 双重循环](#2--s1---双重循环)
 - [3. 🎯 s.2 - 哈希表](#3--s2---哈希表)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/find-maximum-number-of-string-pairs/)
+- [leetcode](https://leetcode.cn/problems/find-maximum-number-of-string-pairs/)
 
 给你一个下标从 **0**  开始的数组  `words` ，数组中包含 **互不相同**  的字符串。
 
@@ -63,7 +63,6 @@
 - `words`  包含的字符串互不相同。
 - `words[i]`  只包含小写英文字母。
 
-:::
 
 ## 2. 🎯 s.1 - 双重循环
 

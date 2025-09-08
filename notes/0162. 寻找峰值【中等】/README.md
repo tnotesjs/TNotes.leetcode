@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 二分查找](#2--s1---二分查找)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/find-peak-element)
+- [leetcode](https://leetcode.cn/problems/find-peak-element)
 
 峰值元素是指其值严格大于左右相邻值的元素。
 
@@ -42,7 +42,6 @@
 - `-2^31 <= nums[i] <= 2^31 - 1`
 - 对于所有有效的 `i` 都有 `nums[i] != nums[i + 1]`
 
-:::
 
 ## 2. 🎯 s.1 - 二分查找
 

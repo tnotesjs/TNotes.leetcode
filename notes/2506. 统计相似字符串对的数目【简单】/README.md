@@ -2,16 +2,16 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力比较](#2--s1---暴力比较)
 - [3. 🎯 s.2 - map 统计 + 排列组合计算](#3--s2---map-统计--排列组合计算)
 - [4. 🎯 s.3 - 位运算 + 排列组合计算](#4--s3---位运算--排列组合计算)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/count-pairs-of-similar-strings/)
+- [leetcode](https://leetcode.cn/problems/count-pairs-of-similar-strings/)
 
 给你一个下标从 **0** 开始的字符串数组 `words` 。
 
@@ -61,7 +61,6 @@
 - `1 <= words[i].length <= 100`
 - `words[i]` 仅由小写英文字母组成
 
-:::
 
 ## 2. 🎯 s.1 - 暴力比较
 

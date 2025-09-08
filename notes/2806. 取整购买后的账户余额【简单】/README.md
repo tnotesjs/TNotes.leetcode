@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1](#2--s1)
 - [3. 🎯 s.2](#3--s2)
 - [4. 🎯 s.3](#4--s3)
@@ -10,9 +10,9 @@
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/account-balance-after-rounded-purchase)
+- [leetcode](https://leetcode.cn/problems/account-balance-after-rounded-purchase)
 
 一开始，你的银行账户里有  `100`  块钱。
 
@@ -42,7 +42,6 @@
 
 - `0 <= purchaseAmount <= 100`
 
-:::
 
 ## 2. 🎯 s.1
 

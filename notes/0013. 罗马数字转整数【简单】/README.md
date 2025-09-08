@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 基于哈希表的逐字符解析法（1）](#2--s1---基于哈希表的逐字符解析法1)
 - [3. 🎯 s.2 - 基于哈希表的逐字符解析法（2）](#3--s2---基于哈希表的逐字符解析法2)
 
@@ -10,9 +10,9 @@
 
 - 备注：本文介绍的两种题解，都是基于哈希表来实现的。
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/roman-to-integer)
+- [leetcode](https://leetcode.cn/problems/roman-to-integer)
 
 罗马数字包含以下七种字符: `I`， `V`， `X`， `L`，`C`，`D`  和  `M`。
 
@@ -74,7 +74,6 @@
 
 > PS：不知道官方给的这个参考链接咋用……
 
-:::
 
 ## 2. 🎯 s.1 - 基于哈希表的逐字符解析法（1）
 

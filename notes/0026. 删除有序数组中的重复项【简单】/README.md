@@ -4,14 +4,14 @@
 
 - [📂 TNotes.yuque](https://www.yuque.com/tdahuyou/tnotes.yuque/)
   - [TNotes.yuque.leetcode.0026](https://www.yuque.com/tdahuyou/tnotes.yuque/leetcode.0026)
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 快慢指针](#2--s1---快慢指针)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/remove-duplicates-from-sorted-array)
+- [leetcode](https://leetcode.cn/problems/remove-duplicates-from-sorted-array)
 
 给你一个 **非严格递增排列** 的数组 `nums` ，请你 **[原地](http://baike.baidu.com/item/%E5%8E%9F%E5%9C%B0%E7%AE%97%E6%B3%95)** 删除重复出现的元素，使每个元素 **只出现一次** ，返回删除后数组的新长度。元素的 **相对顺序** 应该保持 **一致** 。然后返回 `nums` 中唯一元素的个数。
 
@@ -60,7 +60,6 @@ for (int i = 0; i < k; i++) {
 - `-10^4 <= nums[i] <= 10^4`
 - `nums` 已按 **非严格递增**  排列
 
-:::
 
 ## 2. 🎯 s.1 - 快慢指针
 

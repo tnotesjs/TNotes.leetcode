@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/minimum-cost-of-buying-candies-with-discount)
+- [leetcode](https://leetcode.cn/problems/minimum-cost-of-buying-candies-with-discount)
 
 一家商店正在打折销售糖果。每购买 **两个**  糖果，商店会 **免费**  送一个糖果。
 
@@ -62,7 +62,6 @@
 - `1 <= cost.length <= 100`
 - `1 <= cost[i] <= 100`
 
-:::
 
 ## 2. 🎯 s.1 - 暴力解法
 

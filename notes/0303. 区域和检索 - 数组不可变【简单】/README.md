@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 前缀和数组](#2--s1---前缀和数组)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/range-sum-query-immutable/)
+- [leetcode](https://leetcode.cn/problems/range-sum-query-immutable/)
 
 给定一个整数数组  `nums`，处理以下类型的多个查询:
 
@@ -47,7 +47,6 @@ numArray.sumRange(0, 5); // return -3 ((-2) + 0 + 3 + (-5) + 2 + (-1))
 - `0 <= i <= j < nums.length`
 - 最多调用 `10^4` 次 `sumRange` 方法
 
-:::
 
 ## 2. 🎯 s.1 - 前缀和数组
 

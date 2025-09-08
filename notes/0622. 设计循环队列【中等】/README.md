@@ -4,14 +4,14 @@
 
 - [📂 TNotes.yuque](https://www.yuque.com/tdahuyou/tnotes.yuque/)
   - [TNotes.yuque.leetcode.0622](https://www.yuque.com/tdahuyou/tnotes.yuque/leetcode.0622)
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 设计循环队列](#2--s1---设计循环队列)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/design-circular-queue)
+- [leetcode](https://leetcode.cn/problems/design-circular-queue)
 
 设计你的循环队列实现。 循环队列是一种线性数据结构，其操作表现基于 FIFO（先进先出）原则并且队尾被连接在队首之后以形成一个循环。它也被称为“环形缓冲器”。
 
@@ -48,7 +48,6 @@ circularQueue.Rear();  // 返回 4
 - 操作数将在 1 至 1000 的范围内；
 - 请不要使用内置的队列库。
 
-:::
 
 ## 2. 🎯 s.1 - 设计循环队列
 

@@ -2,16 +2,16 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 排序](#2--s1---排序)
 - [3. 🎯 s.2 - hash-table](#3--s2---hash-table)
 - [4. 🎯 s.3 - 分治](#4--s3---分治)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/majority-element/)
+- [leetcode](https://leetcode.cn/problems/majority-element/)
 
 给定一个大小为 `n` 的数组  `nums` ，返回其中的多数元素。多数元素是指在数组中出现次数 **大于** `⌊ n/2 ⌋`  的元素。
 
@@ -39,7 +39,6 @@
 
 **进阶：** 尝试设计时间复杂度为 O(n)、空间复杂度为 O(1) 的算法解决此问题。
 
-:::
 
 ## 2. 🎯 s.1 - 排序
 

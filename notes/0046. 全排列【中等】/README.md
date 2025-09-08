@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 回溯](#2--s1---回溯)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/permutations/)
+- [leetcode](https://leetcode.cn/problems/permutations/)
 
 给定一个不含重复数字的数组 `nums` ，返回其 _所有可能的全排列_ 。你可以 **按任意顺序** 返回答案。
 
@@ -40,7 +40,6 @@
 - `-10 <= nums[i] <= 10`
 - `nums` 中的所有整数 **互不相同**
 
-:::
 
 ## 2. 🎯 s.1 - 回溯
 

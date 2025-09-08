@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1](#2--s1)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/is-object-empty)
+- [leetcode](https://leetcode.cn/problems/is-object-empty)
 
 给定一个对象或数组，判断它是否为空。
 
@@ -43,7 +43,6 @@
 
 **你可以在 `O(1)` 时间复杂度内解决这个问题吗？**
 
-:::
 
 ## 2. 🎯 s.1
 

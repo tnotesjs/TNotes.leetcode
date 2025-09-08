@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1](#2--s1)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/detect-capital)
+- [leetcode](https://leetcode.cn/problems/detect-capital)
 
 我们定义，在以下情况时，单词的大写用法是正确的：
 
@@ -32,7 +32,6 @@
 - `1 <= word.length <= 100`
 - `word` 由小写和大写英文字母组成
 
-:::
 
 ## 2. 🎯 s.1
 

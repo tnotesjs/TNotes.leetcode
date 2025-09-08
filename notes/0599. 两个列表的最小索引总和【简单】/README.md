@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/minimum-index-sum-of-two-lists/)
+- [leetcode](https://leetcode.cn/problems/minimum-index-sum-of-two-lists/)
 
 给定两个字符串数组  `list1` 和 `list2`，找到 **索引和最小的公共字符串**。
 
@@ -60,7 +60,6 @@
 - `list1` 的所有字符串都是 **唯一** 的。
 - `list2` 中的所有字符串都是 **唯一** 的。
 
-:::
 
 ## 2. 🎯 s.1 - 暴力解法
 

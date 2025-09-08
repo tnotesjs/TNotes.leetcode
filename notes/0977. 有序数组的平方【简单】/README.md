@@ -2,15 +2,15 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法 - 调用原生 API - map、sort](#2--s1---暴力解法---调用原生-api---mapsort)
 - [3. 🎯 s.2 - 双指针](#3--s2---双指针)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/squares-of-a-sorted-array)
+- [leetcode](https://leetcode.cn/problems/squares-of-a-sorted-array)
 
 给你一个按 **非递减顺序** 排序的整数数组 `nums`，返回 **每个数字的平方** 组成的新数组，要求也按 **非递减顺序** 排序。
 
@@ -40,7 +40,6 @@
 
 - 请你设计时间复杂度为 `O(n)` 的算法解决本问题
 
-:::
 
 ## 2. 🎯 s.1 - 暴力解法 - 调用原生 API - map、sort
 

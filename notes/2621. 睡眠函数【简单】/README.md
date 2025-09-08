@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1](#2--s1)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/sleep/)
+- [leetcode](https://leetcode.cn/problems/sleep/)
 
 请你编写一个异步函数，它接收一个正整数参数 `millis` ，并休眠 `millis` 毫秒。要求此函数可以解析任何值。
 
@@ -36,7 +36,6 @@ sleep(100).then(() => {
 
 - `1 <= millis <= 1000`
 
-:::
 
 ## 2. 🎯 s.1
 
