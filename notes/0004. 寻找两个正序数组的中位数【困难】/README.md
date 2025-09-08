@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions](#2--solutions)
+- [1. 📝 题目描述](#1--题目描述)
+- [2. 🎯 s.1](#2--s1)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/median-of-two-sorted-arrays)
+- [leetcode](https://leetcode.cn/problems/median-of-two-sorted-arrays)
 
 给定两个大小分别为 `m` 和 `n` 的正序（从小到大）数组  `nums1` 和  `nums2`。请你找出并返回这两个正序数组的 **中位数** 。
 
@@ -44,9 +44,7 @@
 - `1 <= m + n <= 2000`
 - `-10^6 <= nums1[i], nums2[i] <= 10^6`
 
-:::
-
-## 2. 🎯 Solutions
+## 2. 🎯 s.1
 
 ```
 

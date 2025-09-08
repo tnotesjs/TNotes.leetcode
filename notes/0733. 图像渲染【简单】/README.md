@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - DFS](#2--s1---dfs)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/flood-fill)
+- [leetcode](https://leetcode.cn/problems/flood-fill)
 
 有一幅以  `m x n`  的二维整数数组表示的图画  `image` ，其中  `image[i][j]`  表示该图画的像素值大小。你也被给予三个整数 `sr` ,  `sc` 和 `color` 。你应该从像素  `image[sr][sc]`  开始对图像进行上色  **填充** 。
 
@@ -24,7 +24,7 @@
 
 **示例 1:**
 
-![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-15-11-43.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-15-11-43.png)
 
 ```
 输入：image = [[1,1,1],[1,1,0],[1,0,1]]，sr = 1, sc = 1, color = 2
@@ -54,8 +54,6 @@
 - `0 <= image[i][j], color < 2^16`
 - `0 <= sr < m`
 - `0 <= sc < n`
-
-:::
 
 ## 2. 🎯 s.1 - DFS
 

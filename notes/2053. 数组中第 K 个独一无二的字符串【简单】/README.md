@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/kth-distinct-string-in-an-array/)
+- [leetcode](https://leetcode.cn/problems/kth-distinct-string-in-an-array/)
 
 **独一无二的字符串**  指的是在一个数组中只出现过 **一次**  的字符串。
 
@@ -56,8 +56,6 @@ arr 中所有字符串都是独一无二的，所以返回第 1 个字符串 "aa
 - `1 <= k <= arr.length <= 1000`
 - `1 <= arr[i].length <= 5`
 - `arr[i]`  只包含小写英文字母。
-
-:::
 
 ## 2. 🎯 s.1 - 暴力解法
 

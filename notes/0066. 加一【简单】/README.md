@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 逆序循环](#2--s1---逆序循环)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/plus-one/)
+- [leetcode](https://leetcode.cn/problems/plus-one/)
 
 给定一个由 **整数** 组成的 **非空** 数组所表示的非负整数，在该数的基础上加一。
 
@@ -47,8 +47,6 @@
 
 - `1 <= digits.length <= 100`
 - `0 <= digits[i] <= 9`
-
-:::
 
 ## 2. 🎯 s.1 - 逆序循环
 

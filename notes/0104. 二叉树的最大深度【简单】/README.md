@@ -2,15 +2,15 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 递归](#2--s1---递归)
 - [3. 🎯 s.2 - 迭代](#3--s2---迭代)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/maximum-depth-of-binary-tree)
+- [leetcode](https://leetcode.cn/problems/maximum-depth-of-binary-tree)
 
 给定一个二叉树 `root` ，返回其最大深度。
 
@@ -40,8 +40,6 @@
 
 - 树中节点的数量在  `[0, 10^4]`  区间内。
 - `-100 <= Node.val <= 100`
-
-:::
 
 ## 2. 🎯 s.1 - 递归
 

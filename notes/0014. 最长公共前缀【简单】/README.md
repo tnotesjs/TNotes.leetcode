@@ -2,16 +2,16 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 - [3. 🎯 s.2 - 横向扫描](#3--s2---横向扫描)
 - [4. 🎯 s.3 - 纵向扫描](#4--s3---纵向扫描)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/longest-common-prefix)
+- [leetcode](https://leetcode.cn/problems/longest-common-prefix)
 
 编写一个函数来查找字符串数组中的最长公共前缀。
 
@@ -34,11 +34,9 @@
 - `0 <= strs[i].length <= 200`
 - `strs[i]` 仅由小写英文字母组成
 
-:::
-
 ## 2. 🎯 s.1 - 暴力解法
 
-![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-25-16-39-11.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-25-16-39-11.png)
 
 ```javascript
 var longestCommonPrefix = function (strs) {
@@ -70,7 +68,7 @@ var longestCommonPrefix = function (strs) {
 
 ## 3. 🎯 s.2 - 横向扫描
 
-![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-25-16-41-28.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-25-16-41-28.png)
 
 > 为了方便演示，再插入一个 foo。
 
@@ -103,7 +101,7 @@ var longestCommonPrefix = function (strs) {
 
 ## 4. 🎯 s.3 - 纵向扫描
 
-![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-25-16-42-01.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-25-16-42-01.png)
 
 ```javascript
 var longestCommonPrefix = function (strs) {

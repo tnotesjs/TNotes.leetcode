@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/symmetric-tree)
+- [leetcode](https://leetcode.cn/problems/symmetric-tree)
 
 给你一个二叉树的根节点 `root` ， 检查它是否轴对称。
 
@@ -41,8 +41,6 @@
 - `-100 <= Node.val <= 100`
 
 **进阶：** 你可以运用递归和迭代两种方法解决这个问题吗？
-
-:::
 
 ## 2. 🎯 s.1 - 暴力解法
 

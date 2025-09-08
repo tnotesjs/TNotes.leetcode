@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/count-the-number-of-consistent-strings/)
+- [leetcode](https://leetcode.cn/problems/count-the-number-of-consistent-strings/)
 
 给你一个由不同字符组成的字符串  `allowed`  和一个字符串数组  `words` 。如果一个字符串的每一个字符都在 `allowed`  中，就称这个字符串是 **一致字符串** 。
 
@@ -50,8 +50,6 @@
 - `1 <= words[i].length <= 10`
 - `allowed`  中的字符 **互不相同** 。
 - `words[i]` 和  `allowed`  只包含小写英文字母。
-
-:::
 
 ## 2. 🎯 s.1 - 暴力解法
 

@@ -2,16 +2,16 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法（转为字符串来比较）](#2--s1---暴力解法转为字符串来比较)
 - [3. 🎯 s.2 - 先反转再比较](#3--s2---先反转再比较)
 - [4. 🎯 s.3 - 二分对比](#4--s3---二分对比)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/palindrome-number/)
+- [leetcode](https://leetcode.cn/problems/palindrome-number/)
 
 给你一个整数 `x` ，如果 `x` 是一个回文整数，返回 `true` ；否则，返回 `false`。
 
@@ -41,8 +41,6 @@
 - `-2^31 <= x <= 2^31 - 1`
 
 **进阶：** 你能不将整数转为字符串来解决这个问题吗？
-
-:::
 
 ## 2. 🎯 s.1 - 暴力解法（转为字符串来比较）
 
@@ -82,7 +80,7 @@ var isPalindrome = function (x) {
 
 ## 4. 🎯 s.3 - 二分对比
 
-![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-25-16-13-37.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-25-16-13-37.png)
 
 ```javascript
 var isPalindrome = function (x) {

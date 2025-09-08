@@ -2,15 +2,15 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 - [3. 🎯 s.2 - 尾插法](#3--s2---尾插法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/merge-sorted-array)
+- [leetcode](https://leetcode.cn/problems/merge-sorted-array)
 
 给你两个按 **非递减顺序** 排列的整数数组  `nums1` 和 `nums2`，另有两个整数 `m` 和 `n` ，分别表示 `nums1` 和 `nums2` 中的元素数目。
 
@@ -110,7 +110,7 @@ var merge = function (nums1, m, nums2, n) {
 ```
 
 - **执行流程：**
-  - ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-10-20-55-40.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-10-20-55-40.png)
 - `if ((nums1[i] > nums2[j]) || (j < 0)) nums1[k--] = nums1[i--]`
   - 如果 `nums1[i]` 大于 `nums2[j]` 或者 `nums2` 已经查完了，那么使用 `nums1[i]` 跟 `nums1[k]` 交换，交换后俩指针往前挪一步。
 - `if ((nums2[j] >= nums1[i]) || (i < 0)) nums1[k--] = nums2[j--]`

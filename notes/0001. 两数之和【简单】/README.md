@@ -4,16 +4,16 @@
 
 - [📂 TNotes.yuque](https://www.yuque.com/tdahuyou/tnotes.yuque/)
   - [TNotes.yuque.leetcode.0001](https://www.yuque.com/tdahuyou/tnotes.yuque/leetcode.0001)
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 双指针暴力求解](#2--s1---双指针暴力求解)
 - [3. 🎯 s.2 - 静态哈希表](#3--s2---静态哈希表)
 - [4. 🎯 s.3 - 动态哈希表](#4--s3---动态哈希表)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/two-sum/)
+- [leetcode](https://leetcode.cn/problems/two-sum/)
 
 给定一个整数数组 `nums` 和一个整数目标值 `target`，请你在该数组中找出 **和为目标值** `target` 的那 **两个** 整数，并返回它们的数组下标。
 
@@ -49,8 +49,6 @@
 - 只会存在一个有效答案
 
 进阶：你可以想出一个时间复杂度小于 `O(n^2)` 的算法吗？
-
-:::
 
 ## 2. 🎯 s.1 - 双指针暴力求解
 
@@ -126,7 +124,7 @@
 - 空间复杂度：$O(n)$
 - 每次在查的时候，都会将所有之前写入的值都查一边，不可能会存在遗漏的情况。任意俩数字组合，都只会被查一次。
 - **🤔 在上述动态哈希表的题解中是“先查后写”，现在改写程序“先写后查”。比如在判断 `map.has(anotherNum)` 之前执行 `map.set(item, i)`，请问这么做会出现什么问题？**
-  - ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-25-07-31-22.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-25-07-31-22.png)
   - 事先明确一点，描述中提到“数组中同一个元素在答案里不能重复出现”。
   - 思考这个问题时，不妨结合以下两个测试用例来辅助思考。
     - **示例 2：**

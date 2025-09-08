@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1](#2--s1)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/infinite-method-object)
+- [leetcode](https://leetcode.cn/problems/infinite-method-object)
 
 请你编写一个函数，返回一个 **无穷方法对象** 。
 
@@ -35,8 +35,6 @@
 **提示：**
 
 - `0 <= method.length <= 1000`
-
-:::
 
 ## 2. 🎯 s.1
 

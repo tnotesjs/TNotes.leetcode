@@ -2,16 +2,16 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 📒 函数的 length 属性](#2--函数的-length-属性)
 - [3. 🎯 s.1](#3--s1)
 - [4. 🎯 s.2](#4--s2)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/curry)
+- [leetcode](https://leetcode.cn/problems/curry)
 
 请你编写一个函数，它接收一个其他的函数，并返回该函数的  **柯里化**  后的形式。
 
@@ -91,8 +91,6 @@ inputs = [[]]
 - 如果  `fn.length > 0`  则最后一个数组  `inputs`  不为空
 - 如果  `fn.length === 0`  则  `inputs.length === 1`
 
-:::
-
 ## 2. 📒 函数的 length 属性
 
 - 函数的形参数量可以通过函数的 length 属性来读取。
@@ -145,7 +143,7 @@ var curry = function (fn) {
 
 在 `2024.06.16 22:32` 这个时间点，官方提供的测试用例都是可以顺利通过的。
 
-![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-26-21-57-15.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-26-21-57-15.png)
 
 但是，实际上这种写法是存在一些问题的，问题就在于没有重置 `receivedArgs` 数组。可以看看以下测试用例。
 
@@ -172,7 +170,7 @@ console.log(sum2(1)(2, 3, 4, 5)) // 15 ❌
 // 后续调用 sum2 就会出问题。
 ```
 
-![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-26-21-57-36.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-26-21-57-36.png)
 
 问题在于首次调用之后，`receivedArgs` 数组中记录的上一次调用所需的参数并没有被清空，清楚问题之后，解决起来就很简单了。
 
@@ -202,7 +200,7 @@ var curry = function (fn) {
 
 处理过之后，再提交试试。
 
-![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-26-21-57-46.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-26-21-57-46.png)
 
 ## 4. 🎯 s.2
 

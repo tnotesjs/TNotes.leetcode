@@ -2,20 +2,20 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1](#2--s1)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal)
+- [leetcode](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal)
 
 给定两个整数数组  `preorder` 和 `inorder` ，其中  `preorder` 是二叉树的**先序遍历**， `inorder`  是同一棵树的**中序遍历**，请构造二叉树并返回其根节点。
 
 **示例 1:**
 
-![](https://assets.leetcode.com/uploads/2021/02/19/tree.jpg)
+![img](https://assets.leetcode.com/uploads/2021/02/19/tree.jpg)
 
 - 输入: preorder = [3,9,20,15,7], inorder = [9,3,15,20,7]
 - 输出: [3,9,20,null,null,15,7]
@@ -34,8 +34,6 @@
 - `inorder`  均出现在  `preorder`
 - `preorder` **保证** 为二叉树的前序遍历序列
 - `inorder` **保证** 为二叉树的中序遍历序列
-
-:::
 
 ## 2. 🎯 s.1
 

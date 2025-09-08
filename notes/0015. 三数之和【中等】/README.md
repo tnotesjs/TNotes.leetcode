@@ -4,18 +4,18 @@
 
 - [📂 TNotes.yuque](https://www.yuque.com/tdahuyou/tnotes.yuque/)
   - [TNotes.yuque.leetcode.0015](https://www.yuque.com/tdahuyou/tnotes.yuque/leetcode.0015)
-- [1. 📝 Description](#1--description)
-- [2. 💻 solutions.1 - 排序 + 双指针](#2--solutions1---排序--双指针)
+- [1. 📝 题目描述](#1--题目描述)
+- [2. 🎯 s.1 - 排序 + 双指针](#2--s1---排序--双指针)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/3sum/description/)
+- [leetcode](https://leetcode.cn/problems/3sum/description/)
 
 给你一个整数数组 `nums` ，判断是否存在三元组 `[nums[i], nums[j], nums[k]]` 满足 `i != j`、`i != k` 且 `j != k` ，同时还满足 `nums[i] + nums[j] + nums[k] == 0` 。请你返回所有和为 `0` 且不重复的三元组。
 
-**注意：**答案中不可以包含重复的三元组。
+**注意：** 答案中不可以包含重复的三元组。
 
 **示例 1：**
 
@@ -45,9 +45,7 @@
 - `3 <= nums.length <= 3000`
 - `-10^5 <= nums[i] <= 10^5`
 
-:::
-
-## 2. 💻 solutions.1 - 排序 + 双指针
+## 2. 🎯 s.1 - 排序 + 双指针
 
 ::: swiper
 

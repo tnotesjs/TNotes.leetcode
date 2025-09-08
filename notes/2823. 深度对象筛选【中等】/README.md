@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1](#2--s1)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/deep-object-filter)
+- [leetcode](https://leetcode.cn/problems/deep-object-filter)
 
 给定一个对象 `obj` 和一个函数 `fn`，返回一个经过筛选的对象 `filteredObject`。
 
@@ -61,8 +61,6 @@ fn = (x) => Array.isArray(x)
 - `fn` 是一个返回布尔值的函数
 - `obj` 是一个有效的 JSON 对象
 - `2 <= JSON.stringify(obj).length <= 10**5`
-
-:::
 
 ## 2. 🎯 s.1
 

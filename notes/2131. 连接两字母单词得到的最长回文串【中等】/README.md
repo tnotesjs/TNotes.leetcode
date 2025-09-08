@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions](#2--solutions)
+- [1. 📝 题目描述](#1--题目描述)
+- [2. 🎯 s.1](#2--s1)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/longest-palindrome-by-concatenating-two-letter-words?envType=daily-question&envId=2025-05-25)
+- [leetcode](https://leetcode.cn/problems/longest-palindrome-by-concatenating-two-letter-words?envType=daily-question&envId=2025-05-25)
 
 给你一个字符串数组  `words` 。`words`  中每个元素都是一个包含 **两个**  小写英文字母的单词。
 
@@ -59,9 +59,7 @@
 - `words[i].length == 2`
 - `words[i]`  仅包含小写英文字母。
 
-:::
-
-## 2. 🎯 Solutions
+## 2. 🎯 s.1
 
 ```
 

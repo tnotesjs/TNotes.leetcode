@@ -2,16 +2,16 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🫧 评价](#2--评价)
 - [3. 🎯 s.1 - 两次遍历](#3--s1---两次遍历)
 - [4. 🎯 s.2 - 一次遍历](#4--s2---一次遍历)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/most-common-word/)
+- [leetcode](https://leetcode.cn/problems/most-common-word/)
 
 给你一个字符串 `paragraph` 和一个表示禁用词的字符串数组 `banned` ，返回出现频率最高的非禁用词。题目数据 **保证** 至少存在一个非禁用词，且答案 **唯一** 。
 
@@ -51,8 +51,6 @@
 - `0 <= banned.length <= 100`
 - `1 <= banned[i].length <= 10`
 - `banned[i]` 仅由小写英文字母组成
-
-:::
 
 ## 2. 🫧 评价
 

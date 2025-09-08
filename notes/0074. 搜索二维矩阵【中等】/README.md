@@ -28,7 +28,7 @@
 
 **示例 1：**
 
-![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-02-21-32-16.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-02-21-32-16.png)
 
 ```
 输入：matrix = [[1,3,5,7],[10,11,16,20],[23,30,34,60]], target = 3
@@ -37,7 +37,7 @@
 
 **示例 2：**
 
-![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-02-21-32-35.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-02-21-32-35.png)
 
 ```
 输入：matrix = [[1,3,5,7],[10,11,16,20],[23,30,34,60]], target = 13
@@ -67,7 +67,7 @@ var searchMatrix = function (matrix, target) {
 // flat() 参数默认值为 1
 ```
 
-- ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-21-45-21.png)
+- ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-21-45-21.png)
 
 ## 4. 🎯 s.1 - 循环二维数组
 
@@ -88,7 +88,7 @@ var searchMatrix = function (matrix, target) {
 - 两个 for 循环，暴力循环二维数组的每一项。
   - 一旦发现与目标值 target 相等的项，则返回 true，表示在该二维数组 matrix 中找到了目标值。
   - 若找完所有项都没找到与目标值相等的值，则返回 false，表明该二维数组 matrix 中不存在目标值。
-- ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-21-47-00.png)
+- ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-21-47-00.png)
 
 ## 5. 🎯 s.1 - 二分查找
 
@@ -112,4 +112,4 @@ var searchMatrix = function (matrix, target) {
 ```
 
 - 将二维数组视作一维数组来做，并且题目明确该二维数组是有序的。
-- ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-21-47-44.png)
+- ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-21-47-44.png)

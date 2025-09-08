@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1](#2--s1)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/join-two-arrays-by-id)
+- [leetcode](https://leetcode.cn/problems/join-two-arrays-by-id)
 
 现给定两个数组 `arr1` 和 `arr2` ，返回一个新的数组 `joinedArray` 。两个输入数组中的每个对象都包含一个 `id` 字段。
 
@@ -92,8 +92,6 @@ arr2 = [{ id: 1, b: { c: 84 }, v: [1, 3] }]
 - `在 arr1 和 arr2 中都有唯一的键值 id`
 - `2 <= JSON.stringify(arr1).length <= 10^6`
 - `2 <= JSON.stringify(arr2).length <= 10^6`
-
-:::
 
 ## 2. 🎯 s.1
 

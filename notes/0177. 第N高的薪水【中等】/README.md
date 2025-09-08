@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions](#2--solutions)
+- [1. 📝 题目描述](#1--题目描述)
+- [2. 🎯 s.1](#2--s1)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/nth-highest-salary)
+- [leetcode](https://leetcode.cn/problems/nth-highest-salary)
 
 表: `Employee`
 
@@ -70,9 +70,7 @@ n = 2
 +------------------------+
 ```
 
-:::
-
-## 2. 🎯 Solutions
+## 2. 🎯 s.1
 
 ```
 

@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/can-place-flowers/)
+- [leetcode](https://leetcode.cn/problems/can-place-flowers/)
 
 假设有一个很长的花坛，一部分地块种植了花，另一部分却没有。可是，花不能种植在相邻的地块上，它们会争夺水源，两者都会死去。
 
@@ -40,8 +40,6 @@
 - `flowerbed[i]` 为 `0` 或 `1`
 - `flowerbed` 中不存在相邻的两朵花
 - `0 <= n <= flowerbed.length`
-
-:::
 
 ## 2. 🎯 s.1 - 暴力解法
 

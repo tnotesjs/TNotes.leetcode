@@ -19,7 +19,7 @@
 
 **示例 1：**
 
-![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-15-25-26.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-15-25-26.png)
 
 ```
 输出：[3,4,5]
@@ -28,7 +28,7 @@
 
 **示例 2：**
 
-![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-15-25-32.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-15-25-32.png)
 
 ```
 输入：head = [1,2,3,4,5,6]
@@ -75,8 +75,8 @@ var middleNode = function (head) {
 }
 ```
 
-- ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-16-19-59-26.png)
-- ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-16-19-59-32.png)
+- ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-16-19-59-26.png)
+- ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-16-19-59-32.png)
 
 ## 4. 🔗 References
 

@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/shortest-completing-word/)
+- [leetcode](https://leetcode.cn/problems/shortest-completing-word/)
 
 给你一个字符串 `licensePlate` 和一个字符串数组 `words` ，请你找出  `words` 中的 **最短补全词** 。
 
@@ -51,8 +51,6 @@
 - `1 <= words.length <= 1000`
 - `1 <= words[i].length <= 15`
 - `words[i]` 由小写英文字母组成
-
-:::
 
 ## 2. 🎯 s.1 - 暴力解法
 

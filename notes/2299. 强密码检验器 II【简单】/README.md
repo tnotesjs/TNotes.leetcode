@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/strong-password-checker-ii/)
+- [leetcode](https://leetcode.cn/problems/strong-password-checker-ii/)
 
 如果一个密码满足以下所有条件，我们称它是一个 **强**  密码：
 
@@ -54,8 +54,6 @@
 
 - `1 <= password.length <= 100`
 - `password`  包含字母，数字和  `"!@#$%^&*()-+"`  这些特殊字符。
-
-:::
 
 ## 2. 🎯 s.1 - 暴力解法
 

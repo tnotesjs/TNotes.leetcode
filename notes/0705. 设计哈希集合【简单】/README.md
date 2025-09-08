@@ -2,13 +2,13 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/design-hashset)
+- [leetcode](https://leetcode.cn/problems/design-hashset)
 
 不使用任何内建的哈希表库设计一个哈希集合（HashSet）。
 

@@ -2,16 +2,16 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 滑动窗口](#2--s1---滑动窗口)
 
 <!-- endregion:toc -->
 
 - [leetcode](https://leetcode.cn/problems/maximum-erasure-value/)
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn)
+- [leetcode](https://leetcode.cn)
 
 给你一个正整数数组 `nums` ，请你从中删除一个含有 **若干不同元素** 的子数组。删除子数组的 **得分** 就是子数组各元素之 **和** 。
 

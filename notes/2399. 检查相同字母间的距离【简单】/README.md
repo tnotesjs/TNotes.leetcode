@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/check-distances-between-same-letters/)
+- [leetcode](https://leetcode.cn/problems/check-distances-between-same-letters/)
 
 给你一个下标从 **0** 开始的字符串 `s` ，该字符串仅由小写英文字母组成，`s` 中的每个字母都 **恰好** 出现 **两次** 。另给你一个下标从 **0** 开始、长度为 `26` 的的整数数组 `distance` 。
 
@@ -53,8 +53,6 @@
 - `s` 中的每个字母恰好出现两次
 - `distance.length == 26`
 - `0 <= distance[i] <= 50`
-
-:::
 
 ## 2. 🎯 s.1 - 暴力解法
 

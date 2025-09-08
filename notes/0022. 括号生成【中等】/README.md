@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 🔗 links](#1--links)
-- [2. 📝 Description](#2--description)
+- [2. 📝 题目描述](#2--题目描述)
 - [3. 🎯 s.1 - 回溯算法](#3--s1---回溯算法)
 
 <!-- endregion:toc -->
@@ -13,9 +13,9 @@
 - https://leetcode.cn/problems/generate-parentheses/solutions/418884/shou-hua-tu-jie-gua-hao-sheng-cheng-hui-su-suan-fa/
   - 「手画图解」从 22. 括号生成 看回溯算法的三个要点
 
-## 2. 📝 Description
+## 2. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/generate-parentheses/)
+- [leetcode](https://leetcode.cn/problems/generate-parentheses/)
 
 数字 `n`  代表生成括号的对数，请你设计一个函数，用于能够生成所有可能的并且 **有效的** 括号组合。
 
@@ -60,7 +60,7 @@ var generateParenthesis = function (n) {
 }
 ```
 
-- ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-27-00-17-34.png)
+- ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-27-00-17-34.png)
   - from: 「手画图解」从 22. 括号生成 看回溯算法的三个要点
   - 该图片来自参考题解，图片中标注的顺序，是 dfs 依次入栈的次序。
   - 图片中标注的顺序，是 dfs 依次入栈的次序。

@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1](#2--s1)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/array-reduce-transformation)
+- [leetcode](https://leetcode.cn/problems/array-reduce-transformation)
 
 给定一个整数数组 `nums`、一个 reducer 函数 `fn` 和一个初始值 `init`，返回通过依次对数组的每个元素执行 `fn` 函数得到的最终结果。
 
@@ -94,8 +94,6 @@ init = 25
 - `0 <= nums.length <= 1000`
 - `0 <= nums[i] <= 1000`
 - `0 <= init <= 1000`
-
-:::
 
 ## 2. 🎯 s.1
 

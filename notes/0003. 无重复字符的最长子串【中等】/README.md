@@ -4,15 +4,15 @@
 
 - [📂 TNotes.yuque](https://www.yuque.com/tdahuyou/tnotes.yuque/)
   - [TNotes.yuque.leetcode.0003](https://www.yuque.com/tdahuyou/tnotes.yuque/leetcode.0003)
-- [1. 📝 Description](#1--description)
-- [2. 💻 solutions.1 - 暴力解法](#2--solutions1---暴力解法)
-- [3. 💻 solutions.2 - 滑动窗口](#3--solutions2---滑动窗口)
+- [1. 📝 题目描述](#1--题目描述)
+- [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
+- [3. 🎯 s.2 - 滑动窗口](#3--s2---滑动窗口)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/longest-substring-without-repeating-characters/)
+- [leetcode](https://leetcode.cn/problems/longest-substring-without-repeating-characters/)
 
 给定一个字符串 `s` ，请你找出其中不含有重复字符的  **最长子串** 的长度。
 
@@ -41,9 +41,7 @@
 - `0 <= s.length <= 5 * 10^4`
 - `s`  由英文字母、数字、符号和空格组成
 
-:::
-
-## 2. 💻 solutions.1 - 暴力解法
+## 2. 🎯 s.1 - 暴力解法
 
 ![](assets/0003-题解-暴力解法.gif)
 
@@ -110,7 +108,7 @@
 
 :::
 
-## 3. 💻 solutions.2 - 滑动窗口
+## 3. 🎯 s.2 - 滑动窗口
 
 ![](assets/0003-题解-滑动窗口.gif)
 

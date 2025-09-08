@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - DFS](#2--s1---dfs)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/longest-univalue-path/)
+- [leetcode](https://leetcode.cn/problems/longest-univalue-path/)
 
 给定一个二叉树的  `root` ，返回  *最长的路径的长度* ，这个路径中的  *每个节点具有相同值* 。 这条路径可以经过也可以不经过根节点。
 
@@ -17,7 +17,7 @@
 
 **示例 1:**
 
-![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-10-19-17.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-10-19-17.png)
 
 ```
 输入：root = [5,4,5,1,1,5]
@@ -26,7 +26,7 @@
 
 **示例 2:**
 
-![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-10-19-23.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-10-19-23.png)
 
 ```
 输入：root = [1,4,5,4,4,5]
@@ -38,8 +38,6 @@
 - 树的节点数的范围是  `[0, 10^4]`
 - `-1000 <= Node.val <= 1000`
 - 树的深度将不超过 `1000`
-
-:::
 
 ## 2. 🎯 s.1 - DFS
 

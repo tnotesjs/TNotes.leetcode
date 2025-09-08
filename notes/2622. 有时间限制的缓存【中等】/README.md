@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 哈希表](#2--s1---哈希表)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/cache-with-time-limit/)
+- [leetcode](https://leetcode.cn/problems/cache-with-time-limit/)
 
 编写一个类，它允许获取和设置键-值对，并且每个键都有一个  **过期时间** 。
 
@@ -75,8 +75,6 @@ timeDelays = [0, 0, 40, 50, 120, 200, 250]
 - `0 <= timeDelays[i] <= 1450`
 - `actions[i]` 是 "TimeLimitedCache"、"set"、"get" 和 "count" 中的一个。
 - 第一个操作始终是 "TimeLimitedCache" 而且一定会以 0 毫秒的延迟立即执行
-
-:::
 
 ## 2. 🎯 s.1 - 哈希表
 

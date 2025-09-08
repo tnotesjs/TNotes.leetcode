@@ -2,16 +2,16 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 一次遍历维护三个变量](#2--s1---一次遍历维护三个变量)
 - [3. 🎯 s.2 - 使用 Set 去重 + 排序](#3--s2---使用-set-去重--排序)
 - [4. 🎯 s.3 - 使用数组维护前三大的数](#4--s3---使用数组维护前三大的数)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/third-maximum-number/)
+- [leetcode](https://leetcode.cn/problems/third-maximum-number/)
 
 给你一个非空数组，返回此数组中 **第三大的数** 。如果不存在，则返回数组中最大的数。
 
@@ -54,8 +54,6 @@
 **进阶：**
 
 - 你能设计一个时间复杂度 `O(n)` 的解决方案吗？
-
-:::
 
 ## 2. 🎯 s.1 - 一次遍历维护三个变量
 

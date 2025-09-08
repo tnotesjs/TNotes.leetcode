@@ -2,15 +2,15 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 📒 在 js 中，null 参与加法运算的时候自动被视作 0 处理](#2--在-js-中null-参与加法运算的时候自动被视作-0-处理)
 - [3. 🎯 s.1 - DFS + 递归](#3--s1---dfs--递归)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/merge-two-binary-trees/)
+- [leetcode](https://leetcode.cn/problems/merge-two-binary-trees/)
 
 给你两棵二叉树： `root1` 和 `root2` 。
 
@@ -22,7 +22,7 @@
 
 **示例 1：**
 
-- ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-10-15-50.png)
+- ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-10-15-50.png)
 
 ```
 输入：root1 = [1,3,2,5], root2 = [2,1,3,null,4,null,7]
@@ -40,8 +40,6 @@
 
 - 两棵树中的节点数目在范围 `[0, 2000]` 内
 - `-10^4 <= Node.val <= 10^4`
-
-:::
 
 ## 2. 📒 在 js 中，null 参与加法运算的时候自动被视作 0 处理
 

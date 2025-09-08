@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/pascals-triangle)
+- [leetcode](https://leetcode.cn/problems/pascals-triangle)
 
 给定一个非负整数  *`numRows`*，生成「杨辉三角」的前  *`numRows`*  行。
 
@@ -34,8 +34,6 @@
 **提示:**
 
 - `1 <= numRows <= 30`
-
-:::
 
 ## 2. 🎯 s.1 - 暴力解法
 
@@ -62,6 +60,6 @@ var generate = function (numRows) {
 ```
 
 - **解题思路：**
-  - ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-10-21-52-49.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-10-21-52-49.png)
   - 首先初始化一个全为 `1` 的 `triangle` 三角。
   - 对内层的每个位置进行重新求和，求和的逻辑：`triangle[r][c] = triangle[r - 1][c - 1] + triangle[r - 1][c]`

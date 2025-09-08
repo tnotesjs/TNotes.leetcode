@@ -2,15 +2,15 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 - [3. 🔗 References](#3--references)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/coupon-code-validator/)
+- [leetcode](https://leetcode.cn/problems/coupon-code-validator/)
 
 给你三个长度为 `n` 的数组，分别描述 `n` 个优惠券的属性：`code`、`businessLine` 和 `isActive`。其中，第 `i` 个优惠券具有以下属性：
 
@@ -56,8 +56,6 @@
 - `0 <= code[i].length, businessLine[i].length <= 100`
 - `code[i]` 和 `businessLine[i]` 由可打印的 ASCII 字符组成。
 - `isActive[i]` 的值为 `true` 或 `false`。
-
-:::
 
 ## 2. 🎯 s.1 - 暴力解法
 

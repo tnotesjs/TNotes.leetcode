@@ -86,13 +86,10 @@ function copyDescHandler() {
       )[0].innerText +
       '】\n\n' + // 生成标题
       `<!-- region:toc -->\n\n<!-- endregion:toc -->\n\n` + // 生成 toc 区域
-      `## 📝 Description\n\n` + // 题目描述开始
-      `::: details [leetcode](${location.href.replace(
-        /\/?description\/?/,
-        ''
-      )})\n\n` + // details begin 生成原题链接
+      `## 📝 题目描述\n\n` + // 题目描述开始
+      `- [leetcode](${location.href.replace(/\/?description\/?/, '')})\n\n` + // details begin 生成原题链接
       getDescMd()
-        .replaceAll('-   ', '- ') // 处理【提示】部分的无序列表缩进
+        .replaceAll(/-\s+/g, '- ') // 处理【提示】部分的无序列表缩进
         .replace(/\*\*(示例 (\d+)[:：])\*\*(?:\n| )/g, (match, p1, num) => {
           if (num === '1') {
             return `---\n\n- **${p1}**\n\n\`\`\`txt`
@@ -103,9 +100,12 @@ function copyDescHandler() {
         .replace(/\*\*(提示[:：])\*\*(?:\n| )/g, (match, p1) => {
           return `\`\`\`\n\n---\n\n**${p1}**\n`
         })
+        .replace(/\*\*(注意[:：])\*\*(.+)/g, (match, p1, p2) => {
+          return `\`\`\`\n\n---\n\n**${p1}** ${p2}`
+        })
         .replace(/\n\`\`\`\n/g, '```\n') +
-      '\n\n:::\n\n' + // details end
-      `## 🎯 Solutions.1 - 暴力解法\n\n::: code-group\n\n<<< ./solutions/1/1.js [js]\n\n:::\n` // 题解模板
+      '\n\n' +
+      `## 🎯 s.1 - 暴力解法\n\n::: code-group\n\n<<< ./solutions/1/1.js [js]\n\n:::\n\n- 时间复杂度：$O(1)$\n- 空间复杂度：$O(1)$\n\n` // 题解模板
   )
   message.success({
     text: '【题目描述】复制成功',

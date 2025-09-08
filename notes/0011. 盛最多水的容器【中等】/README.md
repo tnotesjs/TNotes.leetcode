@@ -5,7 +5,7 @@
 - [📂 TNotes.yuque](https://www.yuque.com/tdahuyou/tnotes.yuque/)
   - [TNotes.yuque.leetcode.0011](https://www.yuque.com/tdahuyou/tnotes.yuque/leetcode.0011)
 - [1. 🔗 links](#1--links)
-- [2. 📝 Description](#2--description)
+- [2. 📝 题目描述](#2--题目描述)
 - [3. 🎯 s.1 - 暴力枚举](#3--s1---暴力枚举)
 - [4. 🎯 s.2 - 碰撞指针](#4--s2---碰撞指针)
 - [5. ❌ 问题解法 - 栈溢出](#5--问题解法---栈溢出)
@@ -18,9 +18,9 @@
 - https://leetcode.cn/problems/container-with-most-water/solutions/11491/container-with-most-water-shuang-zhi-zhen-fa-yi-do/
   - 参考题解
 
-## 2. 📝 Description
+## 2. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/container-with-most-water/)
+- [leetcode](https://leetcode.cn/problems/container-with-most-water/)
 
 给定一个长度为 `n` 的整数数组  `height` 。有  `n`  条垂线，第 `i` 条线的两个端点是  `(i, 0)`  和  `(i, height[i])` 。
 
@@ -146,7 +146,7 @@ var maxArea = function (height) {
 
 详细点儿的正确性证明，可以参考下面这篇题解。[链接](https://leetcode.cn/problems/container-with-most-water/solutions/11491/container-with-most-water-shuang-zhi-zhen-fa-yi-do/)
 
-![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-02-04-23-50-37.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-02-04-23-50-37.png)
 
 ::: swiper
 
@@ -193,7 +193,7 @@ var maxArea = function (height) {
 }
 ```
 
-![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-02-04-23-49-35.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-02-04-23-49-35.png)
 
 暴力解法的逻辑很简单，将所有可能都罗列出来，丢到一个数组中，最后返回数组中的最大值。这种暴力解法，从逻辑上来说，好像是可以行得通的， 但是最终报了个栈溢出的错误。问题其实就出在了 `Math.max(...areaArr)` 函数调用上。
 
@@ -226,7 +226,7 @@ JavaScript 引擎对函数参数的数量是有硬性限制的，通常在**数�
 
 可以把 `test(...areaArr)` 注释给取消掉，跑一下代码看看，你发会先只要在调用函数的时候，尝试将展开的 `areaArr` 作为参数传递给函数，就会报栈溢出的错误。
 
-![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-02-04-23-50-08.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-02-04-23-50-08.png)
 
 **调用栈的限制**
 
@@ -297,7 +297,7 @@ var maxArea = function (height) {
 }
 ```
 
-![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-02-04-23-49-53.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-02-04-23-49-53.png)
 
 - 时间复杂度：$O(n^2)$
 - 空间复杂度：$O(1)$

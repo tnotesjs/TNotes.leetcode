@@ -2,15 +2,15 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 计数法](#2--s1---计数法)
 - [3. 🎯 s.2 - 集合去重法](#3--s2---集合去重法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/count-common-words-with-one-occurrence/)
+- [leetcode](https://leetcode.cn/problems/count-common-words-with-one-occurrence/)
 
 给你两个字符串数组  `words1`  和  `words2` ，请你返回在两个字符串数组中 **都恰好出现一次**  的字符串的数目。
 
@@ -52,8 +52,6 @@
 - `1 <= words1.length, words2.length <= 1000`
 - `1 <= words1[i].length, words2[j].length <= 30`
 - `words1[i]` 和  `words2[j]`  都只包含小写英文字母。
-
-:::
 
 ## 2. 🎯 s.1 - 计数法
 

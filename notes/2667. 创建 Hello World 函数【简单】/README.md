@@ -2,15 +2,15 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1](#2--s1)
 - [3. 🫧 评价](#3--评价)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/create-hello-world-function)
+- [leetcode](https://leetcode.cn/problems/create-hello-world-function)
 
 请你编写一个名为 `createHelloWorld` 的函数。它应该返回一个新的函数，该函数总是返回 `"Hello World"` 。
 
@@ -37,8 +37,6 @@
 **提示：**
 
 - `0 <= args.length <= 10`
-
-:::
 
 ## 2. 🎯 s.1
 

@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1](#2--s1)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/design-circular-deque/)
+- [leetcode](https://leetcode.cn/problems/design-circular-deque/)
 
 设计实现双端队列。
 
@@ -52,8 +52,6 @@ circularDeque.getFront();				// 返回 4
 - `1 <= k <= 1000`
 - `0 <= value <= 1000`
 - `insertFront`, `insertLast`, `deleteFront`, `deleteLast`, `getFront`, `getRear`, `isEmpty`, `isFull`  调用次数不大于  `2000`  次
-
-:::
 
 ## 2. 🎯 s.1
 

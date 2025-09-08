@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1](#2--s1)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/maximum-number-of-vowels-in-a-substring-of-given-length)
+- [leetcode](https://leetcode.cn/problems/maximum-number-of-vowels-in-a-substring-of-given-length)
 
 给你字符串 `s` 和整数 `k` 。
 
@@ -61,8 +61,6 @@
 - `1 <= s.length <= 10^5`
 - `s` 由小写英文字母组成
 - `1 <= k <= s.length`
-
-:::
 
 ## 2. 🎯 s.1
 

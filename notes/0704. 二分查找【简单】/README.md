@@ -52,7 +52,7 @@ var search = function (nums, target) {
 ```
 
 - 实现思路：
-  - ![](https://pic.leetcode-cn.com/1641040650-CRsyOX-image-20220101101423645.png)
+  - ![img](https://pic.leetcode-cn.com/1641040650-CRsyOX-image-20220101101423645.png)
   - nums 就好比是从矮到高的一队同学，target 就是要插入到这队同学中的一个新同学。但是，插入规则是，target 只能插入到身高和他相同的那位同学所在的位置「返回该同学所在索引」，如果找不到该同学，那么他无法插入「返回 -1」。
 
 ## 3. 🎯 s.2 - 二分查找
@@ -76,7 +76,7 @@ var search = function (nums, target) {
 ```
 
 - 实现思路：
-  - ![](https://pic.leetcode-cn.com/1641040650-Mzlvzj-image-20220101094933992.png)
+  - ![img](https://pic.leetcode-cn.com/1641040650-Mzlvzj-image-20220101094933992.png)
   - 初始情况下，left 指向头，right 指向尾。通过 left 和 right 计算出中间指针 mid 的位置，由于数组已经是有序的了，所以每次循环时，通过比较 nums[mid] 和 target 之间的大小，即可**不断缩小目标值 target 可能存在的区间**。
 - 🤔 思考：继续循环的条件，是否可以改为 `l < r`？
   - 不可

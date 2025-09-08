@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 动态规划](#2--s1---动态规划)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/climbing-stairs/)
+- [leetcode](https://leetcode.cn/problems/climbing-stairs/)
 
 假设你正在爬楼梯。需要 `n`  阶你才能到达楼顶。
 
@@ -43,8 +43,6 @@
 **提示：**
 
 - `1 <= n <= 45`
-
-:::
 
 ## 2. 🎯 s.1 - 动态规划
 

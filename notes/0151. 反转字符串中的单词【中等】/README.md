@@ -2,15 +2,15 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 字符串分割](#2--s1---字符串分割)
 - [3. 🎯 s.2 - 双指针](#3--s2---双指针)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/reverse-words-in-a-string)
+- [leetcode](https://leetcode.cn/problems/reverse-words-in-a-string)
 
 给你一个字符串 `s` ，请你反转字符串中 **单词** 的顺序。
 
@@ -50,8 +50,6 @@
 - `s` 中 **至少存在一个** 单词
 
 **进阶：** 如果字符串在你使用的编程语言中是一种可变数据类型，请尝试使用  `O(1)` 额外空间复杂度的 **原地** 解法。
-
-:::
 
 ## 2. 🎯 s.1 - 字符串分割
 

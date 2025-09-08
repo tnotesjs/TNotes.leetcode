@@ -2,15 +2,15 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1](#2--s1)
 - [3. 🫧 评价](#3--评价)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/counter-ii)
+- [leetcode](https://leetcode.cn/problems/counter-ii)
 
 请你写一个函数  `createCounter`。这个函数接收一个初始的整数值 `init`。并返回一个包含三个函数的对象。
 
@@ -47,8 +47,6 @@
 - `-1000 <= init <= 1000`
 - `0 <= calls.length <= 1000`
 - `calls[i]` 是 “increment”、“decrement” 和 “reset” 中的一个
-
-:::
 
 ## 2. 🎯 s.1
 

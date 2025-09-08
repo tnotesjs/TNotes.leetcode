@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/odd-string-difference/)
+- [leetcode](https://leetcode.cn/problems/odd-string-difference/)
 
 给你一个字符串数组 `words` ，每一个字符串长度都相同，令所有字符串的长度都为 `n` 。
 
@@ -51,8 +51,6 @@
 - `n == words[i].length`
 - `2 <= n <= 20`
 - `words[i]`  只含有小写英文字母。
-
-:::
 
 ## 2. 🎯 s.1 - 暴力解法
 

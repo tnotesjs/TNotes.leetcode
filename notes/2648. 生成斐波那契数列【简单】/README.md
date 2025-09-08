@@ -2,15 +2,15 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1](#2--s1)
 - [3. 🫧 评价](#3--评价)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/generate-fibonacci-sequence)
+- [leetcode](https://leetcode.cn/problems/generate-fibonacci-sequence)
 
 请你编写一个生成器函数，并返回一个可以生成 **斐波那契数列** 的生成器对象。
 
@@ -37,8 +37,6 @@
 **提示：**
 
 - `0 <= callCount <= 50`
-
-:::
 
 ## 2. 🎯 s.1
 

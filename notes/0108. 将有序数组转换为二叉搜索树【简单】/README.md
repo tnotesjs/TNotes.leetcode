@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/convert-sorted-array-to-binary-search-tree)
+- [leetcode](https://leetcode.cn/problems/convert-sorted-array-to-binary-search-tree)
 
 给你一个整数数组 `nums` ，其中元素已经按 **升序** 排列，请你将其转换为一棵 平衡 二叉搜索树。
 
@@ -44,8 +44,6 @@
 - `1 <= nums.length <= 10^4`
 - `-10^4 <= nums[i] <= 10^4`
 - `nums` 按 **严格递增** 顺序排列
-
-:::
 
 ## 2. 🎯 s.1 - 暴力解法
 

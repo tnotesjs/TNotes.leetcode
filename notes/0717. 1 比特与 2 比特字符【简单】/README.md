@@ -2,15 +2,15 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 - [3. 🎯 s.2 - 末尾连续 1 计数法](#3--s2---末尾连续-1-计数法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/1-bit-and-2-bit-characters/)
+- [leetcode](https://leetcode.cn/problems/1-bit-and-2-bit-characters/)
 
 有两种特殊字符：
 
@@ -37,8 +37,6 @@
 
 - `1 <= bits.length <= 1000`
 - `bits[i]` 为 `0` 或 `1`
-
-:::
 
 ## 2. 🎯 s.1 - 暴力解法
 

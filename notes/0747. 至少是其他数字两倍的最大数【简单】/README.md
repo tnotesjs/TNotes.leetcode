@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/largest-number-at-least-twice-of-others/)
+- [leetcode](https://leetcode.cn/problems/largest-number-at-least-twice-of-others/)
 
 给你一个整数数组 `nums` ，其中总是存在 **唯一的** 一个最大整数 。
 
@@ -40,8 +40,6 @@
 - `2 <= nums.length <= 50`
 - `0 <= nums[i] <= 100`
 - `nums` 中的最大元素是唯一的
-
-:::
 
 ## 2. 🎯 s.1 - 暴力解法
 

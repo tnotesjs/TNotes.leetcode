@@ -2,16 +2,16 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 数学求和法](#2--s1---数学求和法)
 - [3. 🎯 s.2 - 异或 - 消消乐](#3--s2---异或---消消乐)
 - [4. 🎯 s.3 - 排序法](#4--s3---排序法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/missing-number/)
+- [leetcode](https://leetcode.cn/problems/missing-number/)
 
 给定一个包含 `[0, n]`  中  `n`  个数的数组 `nums` ，找出 `[0, n]` 这个范围内没有出现在数组中的那个数。
 
@@ -55,8 +55,6 @@
 **进阶：**
 
 - 你能否实现线性时间复杂度、仅使用额外常数空间的算法解决此问题?
-
-:::
 
 ## 2. 🎯 s.1 - 数学求和法
 

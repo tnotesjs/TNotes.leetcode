@@ -2,16 +2,16 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 - [3. 🎯 s.2 - 使用 Set 记录所有中毒时间点](#3--s2---使用-set-记录所有中毒时间点)
 - [4. 🎯 s.3 - 区间合并法](#4--s3---区间合并法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/teemo-attacking/)
+- [leetcode](https://leetcode.cn/problems/teemo-attacking/)
 
 在《英雄联盟》的世界中，有一个叫 “提莫” 的英雄。他的攻击可以让敌方英雄艾希（编者注：寒冰射手）进入中毒状态。
 
@@ -55,8 +55,6 @@
 - `1 <= timeSeries.length <= 10^4`
 - `0 <= timeSeries[i], duration <= 10^7`
 - `timeSeries` 按 **非递减** 顺序排列
-
-:::
 
 ## 2. 🎯 s.1 - 暴力解法
 

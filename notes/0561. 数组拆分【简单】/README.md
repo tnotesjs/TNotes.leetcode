@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/array-partition/)
+- [leetcode](https://leetcode.cn/problems/array-partition/)
 
 给定长度为  `2n`  的整数数组 `nums` ，你的任务是将这些数分成  `n` 对, 例如 `(a1, b1), (a2, b2), ..., (an, bn)` ，使得从 `1` 到  `n` 的 `min(ai, bi)` 总和最大。
 
@@ -45,8 +45,6 @@
 - `1 <= n <= 10^4`
 - `nums.length == 2 * n`
 - `-10^4 <= nums[i] <= 10^4`
-
-:::
 
 ## 2. 🎯 s.1 - 暴力解法
 

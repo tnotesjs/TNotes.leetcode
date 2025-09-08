@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/find-words-that-can-be-formed-by-characters)
+- [leetcode](https://leetcode.cn/problems/find-words-that-can-be-formed-by-characters)
 
 给定一个字符串数组  `words`  和一个字符串 `chars`。
 
@@ -44,8 +44,6 @@
 - `1 <= words.length <= 1000`
 - `1 <= words[i].length, chars.length <= 100`
 - `words[i]`  和  `chars` 中都仅包含小写英文字母
-
-:::
 
 ## 2. 🎯 s.1 - 暴力解法
 

@@ -2,15 +2,15 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 - [3. 🎯 s.2 - 二分查找](#3--s2---二分查找)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/first-bad-version/)
+- [leetcode](https://leetcode.cn/problems/first-bad-version/)
 
 你是产品经理，目前正在带领一个团队开发新的产品。不幸的是，你的产品的最新版本没有通过质量检测。由于每个版本都是基于之前的版本开发的，所以错误的版本之后的所有版本都是错的。
 
@@ -41,8 +41,6 @@
 
 - `1 <= bad <= n <= 2^31 - 1`
 
-:::
-
 ## 2. 🎯 s.1 - 暴力解法
 
 ```js
@@ -57,7 +55,7 @@ var solution = function (isBadVersion) {
 - 超时：
   - 这种解法在早期（21、22 年那会儿）是可以通过的，不过现在（2024 年 11 月 16 日 23:08:01）测试了一下，发现会超时。
   - leetcode 提交记录
-    - ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-16-23-09-11.png)
+    - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-16-23-09-11.png)
 
 ## 3. 🎯 s.2 - 二分查找
 

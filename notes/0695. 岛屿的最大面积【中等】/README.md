@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.DFS + 递归](#2--sdfs--递归)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/max-area-of-island/)
+- [leetcode](https://leetcode.cn/problems/max-area-of-island/)
 
 给你一个大小为 `m x n` 的二进制矩阵 `grid` 。
 
@@ -21,7 +21,7 @@
 
 **示例 1：**
 
-![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-10-20-45.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-10-20-45.png)
 
 ```
 输入：grid = [[0,0,1,0,0,0,0,1,0,0,0,0,0],[0,0,0,0,0,0,0,1,1,1,0,0,0],[0,1,1,0,1,0,0,0,0,0,0,0,0],[0,1,0,0,1,1,0,0,1,0,1,0,0],[0,1,0,0,1,1,0,0,1,1,1,0,0],[0,0,0,0,0,0,0,0,0,0,1,0,0],[0,0,0,0,0,0,0,1,1,1,0,0,0],[0,0,0,0,0,0,0,1,1,0,0,0,0]]
@@ -42,8 +42,6 @@
 - `n == grid[i].length`
 - `1 <= m, n <= 50`
 - `grid[i][j]` 为 `0` 或 `1`
-
-:::
 
 ## 2. 🎯 s.DFS + 递归
 

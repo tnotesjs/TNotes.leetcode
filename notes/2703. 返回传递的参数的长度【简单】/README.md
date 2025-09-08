@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1](#2--s1)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/return-length-of-arguments-passed)
+- [leetcode](https://leetcode.cn/problems/return-length-of-arguments-passed)
 
 请你编写一个函数 `argumentsLength`，返回传递给该函数的参数数量。
 
@@ -34,8 +34,6 @@
 - `args`  是一个有效的 JSON 数组
 - `0 <= args.length <= 100`
 
-:::
-
 ## 2. 🎯 s.1
 
 ```javascript
@@ -45,4 +43,4 @@ var argumentsLength = function (...args) {
 ```
 
 - 评论区点个赞～
-  - ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-26-22-26-49.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-26-22-26-49.png)

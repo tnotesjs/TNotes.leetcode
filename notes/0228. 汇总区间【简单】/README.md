@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions](#2--solutions)
+- [1. 📝 题目描述](#1--题目描述)
+- [2. 🎯 s.1](#2--s1)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/summary-ranges/)
+- [leetcode](https://leetcode.cn/problems/summary-ranges/)
 
 给定一个  **无重复元素** 的  **有序** 整数数组 `nums` 。
 
@@ -56,9 +56,7 @@
 - `nums` 中的所有值都 **互不相同**
 - `nums` 按升序排列
 
-:::
-
-## 2. 🎯 Solutions
+## 2. 🎯 s.1
 
 ::: code-group
 

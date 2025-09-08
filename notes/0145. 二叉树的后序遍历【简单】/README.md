@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 🔗 links](#1--links)
-- [2. 📝 Description](#2--description)
+- [2. 📝 题目描述](#2--题目描述)
 - [3. 🎯 s.1 - 递归](#3--s1---递归)
 - [4. 📒 二叉树的遍历](#4--二叉树的遍历)
 
@@ -13,15 +13,15 @@
 
 - https://wansuanfa.com/index.php/701 - 玩算法，二叉树的 DFS 遍历。
 
-## 2. 📝 Description
+## 2. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/binary-tree-postorder-traversal)
+- [leetcode](https://leetcode.cn/problems/binary-tree-postorder-traversal)
 
 给你一棵二叉树的根节点 `root` ，返回其节点值的 **后序遍历** 。
 
 **示例 1：**
 
-![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-25-17-02-44.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-25-17-02-44.png)
 
 - 输入：root = [1,null,2,3]
 - 输出：[3,2,1]
@@ -75,6 +75,6 @@ var postorderTraversal = function (root, res = []) {
 - 中序遍历（中根次序遍历）：左子树 -> **根节点** -> 右子树
 - 后序遍历（后根次序遍历）：左子树 -> 右子树 -> **根节点**
 
-![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-25-17-01-44.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-25-17-01-44.png)
 
 > 图片来源：https://wansuanfa.com/index.php/701

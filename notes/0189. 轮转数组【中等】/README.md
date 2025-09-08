@@ -2,7 +2,7 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法 1 - 使用原生 API - unshift、pop](#2--s1---暴力解法-1---使用原生-api---unshiftpop)
 - [3. 🎯 s.2 - 暴力解法 2](#3--s2---暴力解法-2)
 - [4. 🎯 s.3 - 暴力解法 3 - 使用原生 API - splice、reverse](#4--s3---暴力解法-3---使用原生-api---splicereverse)
@@ -11,9 +11,9 @@
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/rotate-array/)
+- [leetcode](https://leetcode.cn/problems/rotate-array/)
 
 给定一个整数数组 `nums`，将数组中的元素向右轮转 `k`  个位置，其中  `k`  是非负数。
 
@@ -55,8 +55,6 @@
 
 - 本题的解题思路有很多，很多思路可能没问题，但是在 leetcode 提交后会提示超时。
 
-:::
-
 ## 2. 🎯 s.1 - 暴力解法 1 - 使用原生 API - unshift、pop
 
 ```js
@@ -70,7 +68,7 @@ var rotate = function (nums, k) {
 
 - 会超时
   - 思路或许没问题，不过这么写在 leetcode 上提交后会提示运行超时。
-  - ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-16-20-22-55.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-16-20-22-55.png)
 
 ## 3. 🎯 s.2 - 暴力解法 2
 

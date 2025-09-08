@@ -2,15 +2,15 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法 - 使用原生 API](#2--s1---暴力解法---使用原生-api)
 - [3. 🎯 s.2 - 双指针](#3--s2---双指针)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/reverse-words-in-a-string-iii/)
+- [leetcode](https://leetcode.cn/problems/reverse-words-in-a-string-iii/)
 
 给定一个字符串  `s` ，你需要反转字符串中每个单词的字符顺序，同时仍保留空格和单词的初始顺序。
 
@@ -35,8 +35,6 @@
 - `s`  不包含任何开头或结尾空格。
 - `s`  里 **至少** 有一个词。
 - `s`  中的所有单词都用一个空格隔开。
-
-:::
 
 ## 2. 🎯 s.1 - 暴力解法 - 使用原生 API
 

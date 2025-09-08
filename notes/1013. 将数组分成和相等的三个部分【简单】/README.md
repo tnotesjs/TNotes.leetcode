@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/partition-array-into-three-parts-with-equal-sum/)
+- [leetcode](https://leetcode.cn/problems/partition-array-into-three-parts-with-equal-sum/)
 
 给你一个整数数组 `arr`，只有可以将其划分为三个和相等的 **非空** 部分时才返回  `true`，否则返回 `false`。
 
@@ -46,8 +46,6 @@
 
 - `3 <= arr.length <= 5 * 10^4`
 - `-10^4 <= arr[i] <= 10^4`
-
-:::
 
 ## 2. 🎯 s.1 - 暴力解法
 

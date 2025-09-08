@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/unique-email-addresses)
+- [leetcode](https://leetcode.cn/problems/unique-email-addresses)
 
 每个 **有效电子邮件地址** 都由一个 **本地名** 和一个 **域名** 组成，以 `'@'` 符号分隔。除小写字母之外，电子邮件地址还可以含有一个或多个  `'.'` 或 `'+'` 。
 
@@ -56,8 +56,6 @@
 - 本地名不会以 `'+'` 字符作为开头
 - 域名以  `".com"` 后缀结尾。
 - 域名在  `".com"` 后缀前至少包含一个字符
-
-:::
 
 ## 2. 🎯 s.1 - 暴力解法
 

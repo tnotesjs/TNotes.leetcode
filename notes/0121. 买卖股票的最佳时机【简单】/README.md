@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
-- [2. 🎯 Solutions - 一次遍历法](#2--solutions---一次遍历法)
+- [1. 📝 题目描述](#1--题目描述)
+- [2. 🎯 s.1 - 一次遍历法](#2--s1---一次遍历法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock)
+- [leetcode](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock)
 
 给定一个数组 `prices` ，它的第  `i` 个元素  `prices[i]` 表示一支给定股票第 `i` 天的价格。
 
@@ -43,9 +43,7 @@
 - `1 <= prices.length <= 10^5`
 - `0 <= prices[i] <= 10^4`
 
-:::
-
-## 2. 🎯 Solutions - 一次遍历法
+## 2. 🎯 s.1 - 一次遍历法
 
 ::: code-group
 

@@ -11,6 +11,6 @@
 ## 1. 📒 LeetCode 刷题指南 - 新手快速入门
 
 - 数据结构
-  - ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-25-15-01-46.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-25-15-01-46.png)
 - 算法
-  - ![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-25-15-02-56.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-25-15-02-56.png)

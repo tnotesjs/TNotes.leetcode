@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/same-tree/)
+- [leetcode](https://leetcode.cn/problems/same-tree/)
 
 给你两棵二叉树的根节点 `p` 和 `q` ，编写一个函数来检验这两棵树是否相同。
 
@@ -50,8 +50,6 @@
 
 - 两棵树上的节点数目都在范围 `[0, 100]` 内
 - `-10^4 <= Node.val <= 10^4`
-
-:::
 
 ## 2. 🎯 s.1 - 暴力解法
 

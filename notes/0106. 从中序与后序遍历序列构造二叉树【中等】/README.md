@@ -2,20 +2,20 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1](#2--s1)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/construct-binary-tree-from-inorder-and-postorder-traversal)
+- [leetcode](https://leetcode.cn/problems/construct-binary-tree-from-inorder-and-postorder-traversal)
 
 给定两个整数数组 `inorder` 和 `postorder` ，其中 `inorder` 是二叉树的中序遍历， `postorder` 是同一棵树的后序遍历，请你构造并返回这颗  *二叉树* 。
 
 **示例 1:**
 
-![](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-25-16-55-37.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-25-16-55-37.png)
 
 - 输入：inorder = [9,3,15,20,7], postorder = [9,15,7,20,3]
 - 输出：[3,9,20,null,null,15,7]
@@ -34,8 +34,6 @@
 - `postorder`  中每一个值都在  `inorder`  中
 - `inorder` **保证**是树的中序遍历
 - `postorder` **保证**是树的后序遍历
-
-:::
 
 ## 2. 🎯 s.1
 

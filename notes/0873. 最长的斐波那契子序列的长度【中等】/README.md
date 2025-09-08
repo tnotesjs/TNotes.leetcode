@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 Description](#1--description)
+- [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 Description
+## 1. 📝 题目描述
 
-::: details [leetcode](https://leetcode.cn/problems/length-of-longest-fibonacci-subsequence)
+- [leetcode](https://leetcode.cn/problems/length-of-longest-fibonacci-subsequence)
 
 如果序列  `x1, x2, ..., xn`  满足下列条件，就说它是  *斐波那契式*  的：
 
@@ -44,8 +44,6 @@
 
 - `3 <= arr.length <= 1000`
 - `1 <= arr[i] < arr[i + 1] <= 10^9`
-
-:::
 
 ## 2. 🎯 s.1 - 暴力解法
 
