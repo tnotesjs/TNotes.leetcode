@@ -1,10 +1,3 @@
-/*
- * @lc app=leetcode.cn id=819 lang=javascript
- *
- * [819] 最常见的单词
- */
-
-// @lc code=start
 /**
  * @param {string} paragraph
  * @param {string[]} banned
@@ -38,9 +31,3 @@ var mostCommonWord = function (paragraph, banned) {
 
   return result
 }
-// @lc code=end
-
-// test
-mostCommonWord('Bob hit a ball, the hit BALL flew far after it was hit.', [
-  'hit',
-])
