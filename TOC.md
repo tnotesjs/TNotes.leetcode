@@ -364,7 +364,7 @@
 - [x] [0111. 二叉树的最小深度【简单】](https://tnotesjs.github.io/TNotes.leetcode/notes/0111.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%B0%8F%E6%B7%B1%E5%BA%A6%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README)
   - [1. 📝 题目描述](https://tnotesjs.github.io/TNotes.leetcode/notes/0111.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%B0%8F%E6%B7%B1%E5%BA%A6%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#1--题目描述)
   - [2. 🎯 s.1 - 暴力解法](https://tnotesjs.github.io/TNotes.leetcode/notes/0111.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%B0%8F%E6%B7%B1%E5%BA%A6%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#2--s1---暴力解法)
-- [ ] [0112. 路径总和【简单】](https://tnotesjs.github.io/TNotes.leetcode/notes/0112.%20%E8%B7%AF%E5%BE%84%E6%80%BB%E5%92%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README)
+- [x] [0112. 路径总和【简单】](https://tnotesjs.github.io/TNotes.leetcode/notes/0112.%20%E8%B7%AF%E5%BE%84%E6%80%BB%E5%92%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README)
   - [1. 📝 题目描述](https://tnotesjs.github.io/TNotes.leetcode/notes/0112.%20%E8%B7%AF%E5%BE%84%E6%80%BB%E5%92%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#1--题目描述)
   - [2. 🎯 s.1 - 暴力解法](https://tnotesjs.github.io/TNotes.leetcode/notes/0112.%20%E8%B7%AF%E5%BE%84%E6%80%BB%E5%92%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#2--s1---暴力解法)
 - [ ] [0113. 路径总和 II【中等】](https://tnotesjs.github.io/TNotes.leetcode/notes/0113.%20%E8%B7%AF%E5%BE%84%E6%80%BB%E5%92%8C%20II%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README)

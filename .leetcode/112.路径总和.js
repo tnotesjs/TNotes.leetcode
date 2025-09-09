@@ -1,3 +1,10 @@
+/*
+ * @lc app=leetcode.cn id=112 lang=javascript
+ *
+ * [112] 路径总和
+ */
+
+// @lc code=start
 /**
  * Definition for a binary tree node.
  * function TreeNode(val, left, right) {
@@ -26,3 +33,4 @@ var hasPathSum = function (root, targetSum) {
     hasPathSum(root.right, targetSum - root.val)
   )
 }
+// @lc code=end
