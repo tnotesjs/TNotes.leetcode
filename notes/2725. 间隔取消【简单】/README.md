@@ -48,7 +48,7 @@ setTimeout(cancelFn, cancelTimeMs)
 - 第一次调用 fn 是在 0ms。fn(4) 返回 8。
 - 第二次调用 fn 是在 35ms。fn(4) 返回 8。
 - 第三次调用 fn 是在 70ms。fn(4) 返回 8。
-- 第四次调用 fn 是在  105ms。fn(4) 返回 8。
+- 第四次调用 fn 是在 105ms。fn(4) 返回 8。
 - 第五次调用 fn 是在 140ms。fn(4) 返回 8。
 - 第六次调用 fn 是在 175ms。fn(4) 返回 8。
 - 在 t=190ms 时取消
@@ -82,7 +82,7 @@ setTimeout(cancelFn, cancelTimeMs)
 - 第一次调用 fn 是在 0ms
 - 第二次调用 fn 是在 30ms
 - 第三次调用 fn 是在 60ms
-- 第四次调用 fn 是在  90ms
+- 第四次调用 fn 是在 90ms
 - 第五次调用 fn 是在 120ms
 - 第六次调用 fn 是在 150ms
 - 在 165ms 取消
@@ -114,7 +114,7 @@ setTimeout(cancelFn, cancelTimeMs)
 - 第一次调用 fn 是在 0ms
 - 第二次调用 fn 是在 50ms
 - 第三次调用 fn 是在 100ms
-- 第四次调用 fn 是在  150ms
+- 第四次调用 fn 是在 150ms
 - 在 180ms 取消
 
 **提示：**

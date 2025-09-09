@@ -17,13 +17,13 @@
 你的 `Calculator` 类应包含以下方法：
 
 - `add` - 将给定的数字 `value` 与 `result` 相加，并返回更新后的 `Calculator` 对象。
-- `subtract` - 从 `result` 中减去给定的数字 `value` ，并返回更新后的 `Calculator` 对象。
-- `multiply` - 将 `result` 乘以给定的数字 `value` ，并返回更新后的  `Calculator` 对象。
-- `divide` - 将 `result` 除以给定的数字 `value` ，并返回更新后的  `Calculator` 对象。如果传入的值为 `0` ，则抛出错误 `"Division by zero is not allowed"` 。
-- `power` - 计算 `result` 的幂，指数为给定的数字 `value` ，并返回更新后的  `Calculator` 对象。（`result = result ^ value` ）
+- `subtract` - 从 `result` 中减去给定的数字 `value` ，并返回更新后的 `Calculator` 对象。
+- `multiply` - 将 `result` 乘以给定的数字 `value` ，并返回更新后的 `Calculator` 对象。
+- `divide` - 将 `result` 除以给定的数字 `value` ，并返回更新后的 `Calculator` 对象。如果传入的值为 `0` ，则抛出错误 `"Division by zero is not allowed"` 。
+- `power` - 计算 `result` 的幂，指数为给定的数字 `value` ，并返回更新后的 `Calculator` 对象。（`result = result ^ value` ）
 - `getResult` - 返回 `result` 的值。
 
-结果与实际结果相差在 `10^-5`  范围内的解被认为是正确的。
+结果与实际结果相差在 `10^-5` 范围内的解被认为是正确的。
 
 **示例 1：**
 
@@ -67,13 +67,13 @@
 
 **提示：**
 
-- `actions`  是一个有效的 JSON 字符串数组
-- `values`  是一个有效的 JSON 字符串数组
+- `actions` 是一个有效的 JSON 字符串数组
+- `values` 是一个有效的 JSON 字符串数组
 - `2 <= actions.length <= 2 * 10^4`
 - `1 <= values.length <= 2 * 10^4 - 1`
-- `actions[i]`  是 "Calculator", "add", "subtract", "multiply", "divide", "power", 和 "getResult" 其中的元素
+- `actions[i]` 是 "Calculator", "add", "subtract", "multiply", "divide", "power", 和 "getResult" 其中的元素
 - 第一个操作总是 "Calculator"
-- 最后一个操作总是  "getResult"
+- 最后一个操作总是 "getResult"
 
 ## 2. 🎯 s.1
 

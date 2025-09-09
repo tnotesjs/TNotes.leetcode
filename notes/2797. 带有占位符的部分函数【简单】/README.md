@@ -13,7 +13,7 @@
 
 给定函数 `fn` 和数组 `args`，返回一个函数 `partialFn`。
 
-`args` 中的占位符 `"_"` 需要用  `restArgs` 中索引从  `0` 开始的值替换。 `restArgs` 中剩余的值则添加到 `args` 的末尾。
+`args` 中的占位符 `"_"` 需要用 `restArgs` 中索引从 `0` 开始的值替换。 `restArgs` 中剩余的值则添加到 `args` 的末尾。
 
 `partialFn` 应该返回 `fn` 的结果。`fn` 应该使用修改后的 `args` 的元素作为单独的参数调用。
 
@@ -26,7 +26,7 @@
 ```js
 const partialFn = partial(fn, args)
 const result = partialFn(...restArgs)
-console.log(result) // [2,4,6,8,10]
+console.log(result) // [2,4,6,8,10]
 ```
 
 args 中没有占位符 "_"，因此 restArgs 只是添加到 args 的末尾。然后将 args 的元素作为单独的参数传递给 fn，fn 返回传递的参数作为数组。_
@@ -40,7 +40,7 @@ args 中没有占位符 "_"，因此 restArgs 只是添加到 args 的末尾。�
 ```js
 const partialFn = partial(fn, args)
 const result = partialFn(...restArgs)
-console.log(result) // [1,2,3,4,5,6]
+console.log(result) // [1,2,3,4,5,6]
 ```
 
 占位符 "\_" 被 restArgs 中的值替换。然后将 args 的元素作为单独的参数传递给 fn，fn 返回传递的参数作为数组。
@@ -54,7 +54,7 @@ console.log(result) // [1,2,3,4,5,6]
 ```js
 const partialFn = partial(fn, args)
 const result = partialFn(...restArgs)
-console.log(result) // -10
+console.log(result) // -10
 ```
 
 占位符 "\_" 被替换为 5，并将 20 添加到 args 的末尾。然后将 args 的元素作为单独的参数传递给 fn，fn 返回 -10（5 + 5 - 20）。
@@ -66,7 +66,6 @@ console.log(result) // -10
 - `1 <= args.length <= 5 * 10^4`
 - `1 <= restArgs.length <= 5 * 10^4`
 - `0 <= number of placeholders <= restArgs.length`
-
 
 ## 2. 🎯 s.1
 

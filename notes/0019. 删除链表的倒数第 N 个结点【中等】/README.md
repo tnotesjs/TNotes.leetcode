@@ -7,33 +7,31 @@
 
 <!-- endregion:toc -->
 
-- 本文的题解中提到了一个概念【哑节点（dummy node）、哨兵节点（sentinel node）】这个东西在处理链表中还是蛮常用的，如果不清楚什么是【哑节点（dummy node）、哨兵节点（sentinel node）】，可以结合这道题来了解一下。
-
 ## 1. 📝 题目描述
 
 - [leetcode](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/description/)
 
-给你一个链表，删除链表的倒数第  `n`  个结点，并且返回链表的头结点。
+给你一个链表，删除链表的倒数第 `n` 个结点，并且返回链表的头结点。
 
 **示例 1：**
 
 - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-26-21-07-31.png)
 
-```
+```txt
 输入：head = [1,2,3,4,5], n = 2
 输出：[1,2,3,5]
 ```
 
 **示例 2：**
 
-```
+```txt
 输入：head = [1], n = 1
 输出：[]
 ```
 
 **示例 3：**
 
-```
+```txt
 输入：head = [1,2], n = 1
 输出：[1]
 ```
@@ -48,6 +46,8 @@
 **进阶：** 你能尝试使用一趟扫描实现吗？
 
 ## 2. 🎯 s.1 - 三指针暴力解法
+
+本文的题解中提到了一个概念【哑节点（dummy node）、哨兵节点（sentinel node）】这个东西在处理链表中还是蛮常用的，如果不清楚什么是【哑节点（dummy node）、哨兵节点（sentinel node）】，可以结合这道题来了解一下。
 
 ```javascript
 var removeNthFromEnd = function (head, n) {

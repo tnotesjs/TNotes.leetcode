@@ -11,11 +11,11 @@
 
 - [leetcode](https://leetcode.cn/problems/find-words-that-can-be-formed-by-characters)
 
-给定一个字符串数组  `words`  和一个字符串 `chars`。
+给定一个字符串数组 `words` 和一个字符串 `chars`。
 
-如果字符串可以由 `chars` 中的字符组成（每个字符在 **每个** `words` 中只能使用一次），则认为它是好的。
+如果字符串可以由 `chars` 中的字符组成（每个字符在 **每个** `words` 中只能使用一次），则认为它是好的。
 
-返回  `words`  中所有好的字符串的长度之和。
+返回 `words` 中所有好的字符串的长度之和。
 
 ---
 
@@ -43,7 +43,7 @@
 
 - `1 <= words.length <= 1000`
 - `1 <= words[i].length, chars.length <= 100`
-- `words[i]`  和  `chars` 中都仅包含小写英文字母
+- `words[i]` 和 `chars` 中都仅包含小写英文字母
 
 ## 2. 🎯 s.1 - 暴力解法
 

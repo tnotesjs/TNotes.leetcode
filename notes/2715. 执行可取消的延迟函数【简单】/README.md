@@ -11,9 +11,9 @@
 
 - [leetcode](https://leetcode.cn/problems/timeout-cancellation)
 
-给定一个函数 `fn` ，一个参数数组 `args` 和一个以毫秒为单位的超时时间 `t` ，返回一个取消函数 `cancelFn` 。
+给定一个函数 `fn` ，一个参数数组 `args` 和一个以毫秒为单位的超时时间 `t` ，返回一个取消函数 `cancelFn` 。
 
-在 `cancelTimeMs`  的延迟后，返回的取消函数 `cancelFn` 将被调用。
+在 `cancelTimeMs` 的延迟后，返回的取消函数 `cancelFn` 将被调用。
 
 `setTimeout(cancelFn, cancelTimeMs)`
 
@@ -61,7 +61,6 @@
 - `1 <= args.length <= 10`
 - `20 <= t <= 1000`
 - `10 <= cancelTimeMs <= 1000`
-
 
 ## 2. 🎯 s.1
 

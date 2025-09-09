@@ -87,7 +87,7 @@ console.log(arr) // [{"context":false},{"context":false},{"context":false},{"con
 
 - `arr` 是一个有效的 JSON 数组
 - `context` 是一个有效的 JSON 对象
-- `fn`  是一个函数
+- `fn` 是一个函数
 - `0 <= arr.length <= 10^5`
 
 ## 3. 🎯 s.1

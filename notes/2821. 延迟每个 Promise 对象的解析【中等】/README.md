@@ -23,7 +23,7 @@
 ```
 输入：
 functions = [
-   () => new Promise((resolve) => setTimeout(resolve, 30))
+   () => new Promise((resolve) => setTimeout(resolve, 30))
 ],
 ms = 50
 输出：[80]
@@ -35,8 +35,8 @@ ms = 50
 ```
 输入：
 functions = [
-    () => new Promise((resolve) => setTimeout(resolve, 50)),
-    () => new Promise((resolve) => setTimeout(resolve, 80))
+    () => new Promise((resolve) => setTimeout(resolve, 50)),
+    () => new Promise((resolve) => setTimeout(resolve, 80))
 ],
 ms = 70
 输出：[120,150]
@@ -45,7 +45,7 @@ ms = 70
 
 **提示：**
 
-- `functions`  是一个返回 Promise 对象的函数数组
+- `functions` 是一个返回 Promise 对象的函数数组
 - `10 <= ms <= 500`
 - `1 <= functions.length <= 10`
 

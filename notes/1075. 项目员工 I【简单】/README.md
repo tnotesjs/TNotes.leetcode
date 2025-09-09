@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/project-employees-i/)
 
-项目表  `Project`：
+项目表 `Project`：
 
 ```txt
 +-------------+---------+
@@ -24,7 +24,7 @@
 
 主键为 (project_id, employee_id)。 employee_id 是员工表 Employee 表的外键。这张表的每一行表示 employee_id 的员工正在 project_id 的项目上工作。
 
-员工表  `Employee`：
+员工表 `Employee`：
 
 ```txt
 +------------------+---------+
@@ -38,7 +38,7 @@
 
 主键是 employee_id。数据保证 experience_years 非空。这张表的每一行包含一个员工的信息。
 
-请写一个 SQL  语句，查询每一个项目中员工的  **平均**  工作年限，**精确到小数点后两位**。
+请写一个 SQL 语句，查询每一个项目中员工的 **平均** 工作年限，**精确到小数点后两位**。
 
 以 **任意** 顺序返回结果表。
 

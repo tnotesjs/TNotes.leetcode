@@ -20,8 +20,8 @@
 你可以假设有 **3** 个可能的输入函数：`sum` 、`fib` 和 `factorial` 。
 
 - `sum` 接收两个整型参数 `a` 和 `b` ，并返回 `a + b` 。假设如果参数 `(b, a)` 已经缓存了值，其中 `a != b`，它不能用于参数 `(a, b)`。例如，如果参数是 `(3, 2)` 和 `(2, 3)`，则应进行两个单独的调用。
-- `fib` 接收一个整型参数  `n` ，如果 `n <= 1` 则返回 `1`，否则返回 `fib (n - 1) + fib (n - 2)`。
-- `factorial` 接收一个整型参数 `n` ，如果 `n <= 1` 则返回   `1` ，否则返回 `factorial(n - 1) * n` 。
+- `fib` 接收一个整型参数 `n` ，如果 `n <= 1` 则返回 `1`，否则返回 `fib (n - 1) + fib (n - 2)`。
+- `factorial` 接收一个整型参数 `n` ，如果 `n <= 1` 则返回 `1` ，否则返回 `factorial(n - 1) * n` 。
 
 **示例 1：**
 
@@ -70,7 +70,7 @@ values = [[5],[]]
 输出：[8,1]
 解释：
 fib(5) = 8 // "call"
-// "getCallCount" - 总调用数：1
+// "getCallCount" - 总调用数：1
 ```
 
 **提示：**
@@ -78,7 +78,7 @@ fib(5) = 8 // "call"
 - `0 <= a, b <= 10^5`
 - `1 <= n <= 10`
 - `actions.length === values.length`
-- `actions[i]` 为  "call" 和 "getCallCount" 中的一个
+- `actions[i]` 为 "call" 和 "getCallCount" 中的一个
 - `fnName` 为 "sum", "factorial" 和 "fib" 中的一个
 
 ## 2. 📒 将数字数组直接作为 key

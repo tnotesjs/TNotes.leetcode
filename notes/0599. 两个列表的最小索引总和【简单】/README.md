@@ -11,9 +11,9 @@
 
 - [leetcode](https://leetcode.cn/problems/minimum-index-sum-of-two-lists/)
 
-给定两个字符串数组  `list1` 和 `list2`，找到 **索引和最小的公共字符串**。
+给定两个字符串数组 `list1` 和 `list2`，找到 **索引和最小的公共字符串**。
 
-**公共字符串**  是同时出现在  `list1` 和 `list2`  中的字符串。
+**公共字符串** 是同时出现在 `list1` 和 `list2` 中的字符串。
 
 具有 **最小索引和的公共字符串** 是指，如果它在 `list1[i]` 和 `list2[j]` 中出现，那么 `i + j` 应该是所有其他 **公共字符串** 中的最小值。
 
@@ -56,10 +56,9 @@
 
 - `1 <= list1.length, list2.length <= 1000`
 - `1 <= list1[i].length, list2[i].length <= 30`
-- `list1[i]` 和 `list2[i]` 由空格  `' '`  和英文字母组成。
+- `list1[i]` 和 `list2[i]` 由空格 `' '` 和英文字母组成。
 - `list1` 的所有字符串都是 **唯一** 的。
 - `list2` 中的所有字符串都是 **唯一** 的。
-
 
 ## 2. 🎯 s.1 - 暴力解法
 

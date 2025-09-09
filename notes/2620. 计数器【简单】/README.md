@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/counter/)
 
-给定一个整型参数 `n`，请你编写并返回一个 `counter`  函数。这个  `counter`  函数最初返回 `n`，每次调用它时会返回前一个值加 1 的值 ( `n` ,  `n + 1` ,  `n + 2` ，等等)。
+给定一个整型参数 `n`，请你编写并返回一个 `counter` 函数。这个 `counter` 函数最初返回 `n`，每次调用它时会返回前一个值加 1 的值 ( `n` , `n + 1` , `n + 2` ，等等)。
 
 **示例 1：**
 
@@ -48,7 +48,6 @@ n = -(2)[('call', 'call', 'call', 'call', 'call')]
 - `-1000 <= n <= 1000`
 - `0 <= calls.length <= 1000`
 - `calls[i] === "call"`
-
 
 ## 2. 🎯 s.1
 

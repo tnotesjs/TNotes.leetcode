@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/intersection-of-two-linked-lists/)
 
-给你两个单链表的头节点  `headA` 和 `headB` ，请你找出并返回两个单链表相交的起始节点。如果两个链表不存在相交节点，返回 `null` 。
+给你两个单链表的头节点 `headA` 和 `headB` ，请你找出并返回两个单链表相交的起始节点。如果两个链表不存在相交节点，返回 `null` 。
 
 图示两个链表在节点 `c1` 开始相交：
 
@@ -50,19 +50,19 @@
 换句话说，它们在内存中指向两个不同的位置，而链表 A 和链表 B 中值为 8 的节点 (A 中第三个节点，B 中第四个节点) 在内存中指向相同的位置。
 ```
 
-- **示例  2：**
+- **示例 2：**
 
 ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-09-13-29-17.png)
 
 ```txt
-输入：intersectVal = 2, listA = [1,9,1,2,4], listB = [3,2,4], skipA = 3, skipB = 1
+输入：intersectVal = 2, listA = [1,9,1,2,4], listB = [3,2,4], skipA = 3, skipB = 1
 输出：Intersected at '2'
 解释：相交节点的值为 2 （注意，如果两个链表相交则不能为 0）。
 从各自的表头开始算起，链表 A 为 [1,9,1,2,4]，链表 B 为 [3,2,4]。
 在 A 中，相交节点前有 3 个节点；在 B 中，相交节点前有 1 个节点。
 ```
 
-**示例  3：**
+**示例 3：**
 
 ![图 3](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-09-13-29-44.png)
 

@@ -4,27 +4,22 @@
 
 - [📂 TNotes.yuque](https://www.yuque.com/tdahuyou/tnotes.yuque/)
   - [TNotes.yuque.leetcode.0011](https://www.yuque.com/tdahuyou/tnotes.yuque/leetcode.0011)
-- [1. 🔗 links](#1--links)
-- [2. 📝 题目描述](#2--题目描述)
-- [3. 🎯 s.1 - 暴力枚举](#3--s1---暴力枚举)
-- [4. 🎯 s.2 - 碰撞指针](#4--s2---碰撞指针)
-- [5. ❌ 问题解法 - 栈溢出](#5--问题解法---栈溢出)
-- [6. ❌ 问题解法 - 超时](#6--问题解法---超时)
+- [1. 📝 题目描述](#1--题目描述)
+- [2. 🎯 s.1 - 暴力枚举](#2--s1---暴力枚举)
+- [3. 🎯 s.2 - 碰撞指针](#3--s2---碰撞指针)
+- [4. ❌ 问题解法 - 栈溢出](#4--问题解法---栈溢出)
+- [5. ❌ 问题解法 - 超时](#5--问题解法---超时)
+- [6. 🔗 引用](#6--引用)
 
 <!-- endregion:toc -->
 
-## 1. 🔗 links
-
-- https://leetcode.cn/problems/container-with-most-water/solutions/11491/container-with-most-water-shuang-zhi-zhen-fa-yi-do/
-  - 参考题解
-
-## 2. 📝 题目描述
+## 1. 📝 题目描述
 
 - [leetcode](https://leetcode.cn/problems/container-with-most-water/)
 
-给定一个长度为 `n` 的整数数组  `height` 。有  `n`  条垂线，第 `i` 条线的两个端点是  `(i, 0)`  和  `(i, height[i])` 。
+给定一个长度为 `n` 的整数数组 `height` 。有 `n` 条垂线，第 `i` 条线的两个端点是 `(i, 0)` 和 `(i, height[i])` 。
 
-找出其中的两条线，使得它们与  `x`  轴共同构成的容器可以容纳最多的水。
+找出其中的两条线，使得它们与 `x` 轴共同构成的容器可以容纳最多的水。
 
 返回容器可以储存的最大水量。
 
@@ -36,7 +31,7 @@
 
 - 输入：[1,8,6,2,5,4,8,3,7]
 - 输出：49
-- 解释：图中垂直线代表输入数组 [1,8,6,2,5,4,8,3,7]。在此情况下，容器能够容纳水（表示为蓝色部分）的最大值为  49。
+- 解释：图中垂直线代表输入数组 [1,8,6,2,5,4,8,3,7]。在此情况下，容器能够容纳水（表示为蓝色部分）的最大值为 49。
 
 **示例 2：**
 
@@ -51,7 +46,7 @@
 
 :::
 
-## 3. 🎯 s.1 - 暴力枚举
+## 2. 🎯 s.1 - 暴力枚举
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-25-16-18-33.png)
 
@@ -108,7 +103,7 @@ var maxArea = function (height) {
 
 [暴力枚举导致超时问题](#Qxt3W)
 
-## 4. 🎯 s.2 - 碰撞指针
+## 3. 🎯 s.2 - 碰撞指针
 
 ```javascript
 var maxArea = function (height) {
@@ -174,7 +169,7 @@ var maxArea = function (height) {
 
 > 【备注】切换主题为 light 查看，dark 预览效果不好。
 
-## 5. ❌ 问题解法 - 栈溢出
+## 4. ❌ 问题解法 - 栈溢出
 
 ```javascript
 /**
@@ -280,7 +275,7 @@ console.log(testStackDepth(0)) // 9186
 
 每次递归调用时，将参数 depth 的值加 1，并尝试继续递归调用 testStackDepth 函数。当调用栈的深度超过 JavaScript 引擎的限制时，会抛出异常，并通过 catch 语句捕获异常并返回当前的调用栈深度。
 
-## 6. ❌ 问题解法 - 超时
+## 5. ❌ 问题解法 - 超时
 
 ```javascript
 var maxArea = function (height) {
@@ -301,3 +296,9 @@ var maxArea = function (height) {
 
 - 时间复杂度：$O(n^2)$
 - 空间复杂度：$O(1)$
+
+## 6. 🔗 引用
+
+- [参考题解 - 11. 盛最多水的容器（双指针，清晰图解）][1]
+
+[1]: https://leetcode.cn/problems/container-with-most-water/solutions/11491/container-with-most-water-shuang-zhi-zhen-fa-yi-do/
