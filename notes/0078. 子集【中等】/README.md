@@ -2,26 +2,16 @@
 
 <!-- region:toc -->
 
-- [1. 🔗 links](#1--links)
-- [2. 📝 Description](#2--description)
-- [3. 🎯 s.1 - 循环遍历](#3--s1---循环遍历)
-- [4. 🎯 s.2 - 回溯](#4--s2---回溯)
+- [1. 📝 题目描述](#1--题目描述)
+- [2. 🎯 s.1 - 循环遍历](#2--s1---循环遍历)
+- [3. 🎯 s.2 - 回溯](#3--s2---回溯)
+- [4. 🔗 引用](#4--引用)
 
 <!-- endregion:toc -->
 
+## 1. 📝 题目描述
+
 - [leetcode](https://leetcode.cn/problems/subsets/)
-
-- **⏰ TODO**
-  - 合并 keynote-2.key、keynote.key。
-
-## 1. 🔗 links
-
-- https://leetcode.cn/problems/subsets/solutions/420294/zi-ji-by-leetcode-solution/
-  - leetcode 官方题解
-- https://zhuanlan.zhihu.com/p/93530380
-  - 知乎 - 回溯算法套路详解
-
-## 2. 📝 Description
 
 给你一个整数数组 `nums` ，数组中的元素 **互不相同** 。返回该数组所有可能的 **子集** （幂集）。
 
@@ -31,14 +21,14 @@
 
 **示例 1：**
 
-```
+```txt
 输入：nums = [1,2,3]
 输出：[[],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]]
 ```
 
 **示例 2：**
 
-```
+```txt
 输入：nums = [0]
 输出：[[],[0]]
 ```
@@ -49,7 +39,10 @@
 - `-10 <= nums[i] <= 10`
 - `nums` 中的所有元素 **互不相同**
 
-## 3. 🎯 s.1 - 循环遍历
+## 2. 🎯 s.1 - 循环遍历
+
+- **⏰ TODO**
+  - 合并 keynote-2.key、keynote.key。
 
 ```javascript
 var subsets = function (nums) {
@@ -72,7 +65,7 @@ var subsets = function (nums) {
 - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-21-55-18.png)
   - 参考 leetcode 官方题解：https://leetcode-cn.com/problems/subsets/solution/zi-ji-by-leetcode-solution/
 
-## 4. 🎯 s.2 - 回溯
+## 3. 🎯 s.2 - 回溯
 
 ```javascript
 var subsets = function (nums) {
@@ -110,3 +103,11 @@ var subsets = function (nums) {
   - 详细内容知乎上的这篇参考文章：《回溯算法套路详解》。
 - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-22-00-13.png)
 - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-22-00-16.png)
+
+## 4. 🔗 引用
+
+- [leetcode 官方题解][1]
+- [知乎 - 回溯算法套路详解][2]
+
+[1]: https://leetcode.cn/problems/subsets/solutions/420294/zi-ji-by-leetcode-solution/
+[2]: https://zhuanlan.zhihu.com/p/93530380

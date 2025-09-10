@@ -2,20 +2,16 @@
 
 <!-- region:toc -->
 
-- [1. 🔗 links](#1--links)
-- [2. 📝 Description](#2--description)
-- [3. 🎯 s.1 - 递归](#3--s1---递归)
-- [4. 📒 二叉树的遍历](#4--二叉树的遍历)
+- [1. 📝 题目描述](#1--题目描述)
+- [2. 🎯 s.1 - 递归](#2--s1---递归)
+- [3. 📒 二叉树的遍历](#3--二叉树的遍历)
+- [4. 🔗 引用](#4--引用)
 
 <!-- endregion:toc -->
 
+## 1. 📝 题目描述
+
 - [leetcode](https://leetcode.cn/problems/binary-tree-inorder-traversal)
-
-## 1. 🔗 links
-
-- https://wansuanfa.com/index.php/701 - 玩算法，二叉树的 DFS 遍历。
-
-## 2. 📝 Description
 
 给定一个二叉树的根节点 `root` ，返回它的 **中序** 遍历。
 
@@ -43,7 +39,7 @@
 
 **进阶:** 递归算法很简单，你可以通过迭代算法完成吗？
 
-## 3. 🎯 s.1 - 递归
+## 2. 🎯 s.1 - 递归
 
 ```javascript
 /**
@@ -67,7 +63,7 @@ var inorderTraversal = function (root, res = []) {
 }
 ```
 
-## 4. 📒 二叉树的遍历
+## 3. 📒 二叉树的遍历
 
 - 前序遍历（先根次序遍历）：**根节点** -> 左子树 -> 右子树
 - 中序遍历（中根次序遍历）：左子树 -> **根节点** -> 右子树
@@ -75,4 +71,10 @@ var inorderTraversal = function (root, res = []) {
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-25-17-01-39.png)
 
-> 图片来源：https://wansuanfa.com/index.php/701
+> 图片来源：[玩算法，二叉树的 DFS 遍历][1]
+
+## 4. 🔗 引用
+
+- [玩算法，二叉树的 DFS 遍历][1]
+
+[1]: https://wansuanfa.com/index.php/701
