@@ -2,8 +2,53 @@
 
 <!-- region:toc -->
 
-- [1. 📝 概述](#1--概述)
+- [1. 📝 题目描述](#1--题目描述)
+- [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 概述
+## 1. 📝 题目描述
+
+- [leetcode](https://leetcode.cn/problems/bitwise-and-of-numbers-range/)
+
+给你两个整数 `left` 和 `right` ，表示区间 `[left, right]` ，返回此区间内所有数字 **按位与** 的结果（包含 `left` 、`right` 端点）。
+
+---
+
+- **示例 1：**
+
+```txt
+输入：left = 5, right = 7
+输出：4
+```
+
+- **示例 2：**
+
+```txt
+输入：left = 0, right = 0
+输出：0
+```
+
+- **示例 3：**
+
+```txt
+输入：left = 1, right = 2147483647
+输出：0
+```
+
+---
+
+**提示：**
+
+- `0 <= left <= right <= 2^31 - 1`
+
+## 2. 🎯 s.1 - 暴力解法
+
+::: code-group
+
+<<< ./solutions/1/1.js [js]
+
+:::
+
+- 时间复杂度：$O(1)$
+- 空间复杂度：$O(1)$
