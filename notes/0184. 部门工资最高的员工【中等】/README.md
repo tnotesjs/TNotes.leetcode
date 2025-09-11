@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/department-highest-salary/)
 
-表： `Employee`
+表：`Employee`
 
 ```txt
 +--------------+---------+
@@ -27,7 +27,7 @@ departmentId 是 Department 表中 id 的外键（在 Pandas 中称为 join key�
 此表的每一行都表示员工的 id、姓名和工资。它还包含他们所在部门的 id。
 ```
 
-表： `Department`
+表：`Department`
 
 ```txt
 +-------------+---------+

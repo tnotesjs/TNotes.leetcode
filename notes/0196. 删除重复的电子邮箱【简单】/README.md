@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/delete-duplicate-emails/)
 
-表: `Person`
+表:`Person`
 
 ```txt
 +-------------+---------+

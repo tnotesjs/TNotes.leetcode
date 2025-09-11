@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/powx-n/)
 
-实现  [pow(_x_, _n_)](https://www.cplusplus.com/reference/valarray/pow/) ，即计算 `x` 的整数  `n` 次幂函数（即，$x^n$ ）。
+实现 [pow(_x_, _n_)](https://www.cplusplus.com/reference/valarray/pow/)，即计算 `x` 的整数 `n` 次幂函数（即，$x^n$ ）。
 
 ---
 
@@ -43,7 +43,7 @@
 
 - `-100.0 < x < 100.0`
 - `-2^31 <= n <= 2^31-1`
-- `n`  是一个整数
+- `n` 是一个整数
 - 要么 `x` 不为零，要么 `n > 0` 。
 - `-10^4 <= x^n <= 10^4`
 

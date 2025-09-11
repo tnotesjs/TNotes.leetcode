@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/word-break-ii/)
 
-给定一个字符串 `s` 和一个字符串字典  `wordDict` ，在字符串  `s`  中增加空格来构建一个句子，使得句子中所有的单词都在词典中。**以任意顺序** 返回所有这些可能的句子。
+给定一个字符串 `s` 和一个字符串字典 `wordDict`，在字符串 `s` 中增加空格来构建一个句子，使得句子中所有的单词都在词典中。**以任意顺序** 返回所有这些可能的句子。
 
 ---
 
@@ -34,7 +34,7 @@
 解释: 注意你可以重复使用字典中的单词。
 ```
 
-**示例  3：**
+**示例 3：**
 
 ```txt
 输入:s = "catsandog", wordDict = ["cats","dog","sand","and","cat"]
@@ -48,8 +48,8 @@
 - `1 <= s.length <= 20`
 - `1 <= wordDict.length <= 1000`
 - `1 <= wordDict[i].length <= 10`
-- `s`  和  `wordDict[i]`  仅有小写英文字母组成
-- `wordDict`  中所有字符串都 **不同**
+- `s` 和 `wordDict[i]` 仅有小写英文字母组成
+- `wordDict` 中所有字符串都 **不同**
 
 ## 2. 🎯 s.1 - 暴力解法
 

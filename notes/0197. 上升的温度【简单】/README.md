@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/rising-temperature/)
 
-表： `Weather`
+表：`Weather`
 
 ```txt
 +---------------+---------+

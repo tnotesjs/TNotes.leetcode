@@ -11,11 +11,11 @@
 
 - [leetcode](https://leetcode.cn/problems/tenth-line/)
 
-给定一个文本文件  `file.txt`，请只打印这个文件中的第十行。
+给定一个文本文件 `file.txt`，请只打印这个文件中的第十行。
 
 **示例:**
 
-假设  `file.txt` 有如下内容：
+假设 `file.txt` 有如下内容：
 
 ```txt
 Line 1

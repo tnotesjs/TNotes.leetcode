@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/word-break/)
 
-给你一个字符串 `s` 和一个字符串列表 `wordDict` 作为字典。如果可以利用字典中出现的一个或多个单词拼接出 `s`  则返回 `true`。
+给你一个字符串 `s` 和一个字符串列表 `wordDict` 作为字典。如果可以利用字典中出现的一个或多个单词拼接出 `s` 则返回 `true`。
 
 ---
 
@@ -33,7 +33,7 @@
 输入: s = "applepenapple", wordDict = ["apple", "pen"]
 输出: true
 解释: 返回 true 因为 "applepenapple" 可以由 "apple" "pen" "apple" 拼接成。
-     注意，你可以重复使用字典中的单词。
+    注意，你可以重复使用字典中的单词。
 ```
 
 - **示例 3：**

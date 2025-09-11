@@ -16,7 +16,7 @@
 
 编写一个函数，其作用是将输入的字符串反转过来。输入字符串以字符数组 `s` 的形式给出。
 
-不要给另外的数组分配额外的空间，你必须 **[原地](https://baike.baidu.com/item/原地算法)修改输入数组**、使用 O(1) 的额外空间解决这一问题。
+不要给另外的数组分配额外的空间，你必须 **[原地][1]修改输入数组**、使用 O(1) 的额外空间解决这一问题。
 
 **示例 1：**
 
@@ -36,7 +36,6 @@
 
 - `1 <= s.length <= 10^5`
 - `s[i]` 都是 [ASCII](https://baike.baidu.com/item/ASCII) 码表中的可打印字符
-
 
 ## 2. 🎯 s.1 - 暴力解法 - 直接调用原生 API
 
@@ -79,5 +78,9 @@ var reverseString = function (s) {
 
 ## 5. 🔗 References
 
-- https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse
-  - mdn - `Array.prototype.reverse()`
+- [原地算法][1]
+  - 百度百科
+- [mdn Array.prototype.reverse()][2]
+
+[1]: https://baike.baidu.com/item/原地算法
+[2]: https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse

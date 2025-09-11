@@ -11,13 +11,13 @@
 
 - [leetcode](https://leetcode.cn/problems/transpose-file/)
 
-给定一个文件  `file.txt`，转置它的内容。
+给定一个文件 `file.txt`，转置它的内容。
 
-你可以假设每行列数相同，并且每个字段由  `' '` 分隔。
+你可以假设每行列数相同，并且每个字段由 `' '` 分隔。
 
 **示例：**
 
-假设  `file.txt`  文件内容如下：
+假设 `file.txt` 文件内容如下：
 
 ```txt
 name age

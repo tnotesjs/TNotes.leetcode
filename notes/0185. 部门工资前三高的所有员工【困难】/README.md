@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/department-top-three-salaries/)
 
-表: `Employee`
+表:`Employee`
 
 ```txt
 +--------------+---------+
@@ -27,7 +27,7 @@ departmentId 是 Department 表中 ID 的外键（reference 列）。
 该表的每一行都表示员工的ID、姓名和工资。它还包含了他们部门的ID。
 ```
 
-表: `Department`
+表:`Department`
 
 ```txt
 +-------------+---------+

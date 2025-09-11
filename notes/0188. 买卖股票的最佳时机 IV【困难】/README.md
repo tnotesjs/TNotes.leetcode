@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iv/)
 
-给你一个整数数组  `prices` 和一个整数 `k` ，其中 `prices[i]` 是某支给定的股票在第 `i` 天的价格。
+给你一个整数数组 `prices` 和一个整数 `k` ，其中 `prices[i]` 是某支给定的股票在第 `i` 天的价格。
 
 设计一个算法来计算你所能获取的最大利润。你最多可以完成 `k` 笔交易。也就是说，你最多可以买 `k` 次，卖 `k` 次。
 

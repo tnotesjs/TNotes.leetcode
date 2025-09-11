@@ -11,9 +11,9 @@
 
 - [leetcode](https://leetcode.cn/problems/majority-element-ii/)
 
-给定一个大小为  *n*  的整数数组，找出其中所有出现超过  `⌊ n/3 ⌋`  次的元素。
+给定一个大小为 _n_ 的整数数组，找出其中所有出现超过 `⌊ n/3 ⌋` 次的元素。
 
-**示例  1：**
+**示例 1：**
 
 ```txt
 输入：nums = [3,2,3]
