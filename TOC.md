@@ -1,24 +1,7 @@
 # leetcode
 
 
-## 1. 其他
-
-- [x] [9996. hello-algo](https://tnotesjs.github.io/TNotes.leetcode/notes/9996.%20hello-algo/README)
-  - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/9996.%20hello-algo/README#1--概述)
-- [x] [9999. 油猴脚本 - LeetCode 题目描述爬取](https://tnotesjs.github.io/TNotes.leetcode/notes/9999.%20%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC%20-%20LeetCode%20%E9%A2%98%E7%9B%AE%E6%8F%8F%E8%BF%B0%E7%88%AC%E5%8F%96/README)
-  - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/9999.%20%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC%20-%20LeetCode%20%E9%A2%98%E7%9B%AE%E6%8F%8F%E8%BF%B0%E7%88%AC%E5%8F%96/README#1--概述)
-  - [2. 💻 demo](https://tnotesjs.github.io/TNotes.leetcode/notes/9999.%20%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC%20-%20LeetCode%20%E9%A2%98%E7%9B%AE%E6%8F%8F%E8%BF%B0%E7%88%AC%E5%8F%96/README#2--demo)
-- [ ] [9997. GitHub 技术社区 Doocs 开源项目 leetcode](https://tnotesjs.github.io/TNotes.leetcode/notes/9997.%20GitHub%20%E6%8A%80%E6%9C%AF%E7%A4%BE%E5%8C%BA%20Doocs%20%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%20leetcode/README)
-  - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/9997.%20GitHub%20%E6%8A%80%E6%9C%AF%E7%A4%BE%E5%8C%BA%20Doocs%20%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE%20leetcode/README#1--概述)
-- [ ] [9998. leetcode 刷题指南 - 新手快速入门 - 数据结构、算法](https://tnotesjs.github.io/TNotes.leetcode/notes/9998.%20leetcode%20%E5%88%B7%E9%A2%98%E6%8C%87%E5%8D%97%20-%20%E6%96%B0%E6%89%8B%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%20-%20%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E3%80%81%E7%AE%97%E6%B3%95/README)
-  - [1. 📒 LeetCode 刷题指南 - 新手快速入门](https://tnotesjs.github.io/TNotes.leetcode/notes/9998.%20leetcode%20%E5%88%B7%E9%A2%98%E6%8C%87%E5%8D%97%20-%20%E6%96%B0%E6%89%8B%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%20-%20%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E3%80%81%E7%AE%97%E6%B3%95/README#1--leetcode-刷题指南---新手快速入门)
-  - 通过思维导图的形式，记录了一些适合入门刷的数据结构、算法例题。
-- [ ] [9995. 二叉树的遍历](https://tnotesjs.github.io/TNotes.leetcode/notes/9995.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%81%8D%E5%8E%86/README)
-  - [1. 🫧 评价](https://tnotesjs.github.io/TNotes.leetcode/notes/9995.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%81%8D%E5%8E%86/README#1--评价)
-  - [2. 📒 二叉树的遍历](https://tnotesjs.github.io/TNotes.leetcode/notes/9995.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%81%8D%E5%8E%86/README#2--二叉树的遍历)
-  - [3. 🔗 引用](https://tnotesjs.github.io/TNotes.leetcode/notes/9995.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%81%8D%E5%8E%86/README#3--引用)
-
-## 2. 0001~0100
+## 1. 0001~0100
 
 - [x] [0001. 两数之和【简单】](https://tnotesjs.github.io/TNotes.leetcode/notes/0001.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README)
   - [📂 TNotes.yuque](https://www.yuque.com/tdahuyou/tnotes.yuque/)
@@ -392,7 +375,7 @@
   - [1. 📝 题目描述](https://tnotesjs.github.io/TNotes.leetcode/notes/0100.%20%E7%9B%B8%E5%90%8C%E7%9A%84%E6%A0%91%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#1--题目描述)
   - [2. 🎯 s.1 - 暴力解法](https://tnotesjs.github.io/TNotes.leetcode/notes/0100.%20%E7%9B%B8%E5%90%8C%E7%9A%84%E6%A0%91%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#2--s1---暴力解法)
 
-## 3. 0101~0200
+## 2. 0101~0200
 
 - [x] [0101. 对称二叉树【简单】](https://tnotesjs.github.io/TNotes.leetcode/notes/0101.%20%E5%AF%B9%E7%A7%B0%E4%BA%8C%E5%8F%89%E6%A0%91%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README)
   - [1. 📝 题目描述](https://tnotesjs.github.io/TNotes.leetcode/notes/0101.%20%E5%AF%B9%E7%A7%B0%E4%BA%8C%E5%8F%89%E6%A0%91%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#1--题目描述)
@@ -618,9 +601,10 @@
 - [ ] [0167. 两数之和 II - 输入有序数组【中等】](https://tnotesjs.github.io/TNotes.leetcode/notes/0167.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%20II%20-%20%E8%BE%93%E5%85%A5%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README)
   - [1. 📝 题目描述](https://tnotesjs.github.io/TNotes.leetcode/notes/0167.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%20II%20-%20%E8%BE%93%E5%85%A5%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#1--题目描述)
   - [2. 🎯 s.1](https://tnotesjs.github.io/TNotes.leetcode/notes/0167.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%20II%20-%20%E8%BE%93%E5%85%A5%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#2--s1)
-- [ ] [0168. Excel 表列名称【简单】](https://tnotesjs.github.io/TNotes.leetcode/notes/0168.%20Excel%20%E8%A1%A8%E5%88%97%E5%90%8D%E7%A7%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README)
+- [x] [0168. Excel 表列名称【简单】](https://tnotesjs.github.io/TNotes.leetcode/notes/0168.%20Excel%20%E8%A1%A8%E5%88%97%E5%90%8D%E7%A7%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README)
   - [1. 📝 题目描述](https://tnotesjs.github.io/TNotes.leetcode/notes/0168.%20Excel%20%E8%A1%A8%E5%88%97%E5%90%8D%E7%A7%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#1--题目描述)
   - [2. 🎯 s.1 - 暴力解法](https://tnotesjs.github.io/TNotes.leetcode/notes/0168.%20Excel%20%E8%A1%A8%E5%88%97%E5%90%8D%E7%A7%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#2--s1---暴力解法)
+  - [3. 🔗 引用](https://tnotesjs.github.io/TNotes.leetcode/notes/0168.%20Excel%20%E8%A1%A8%E5%88%97%E5%90%8D%E7%A7%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#3--引用)
 - [ ] [0169. 多数元素【简单】](https://tnotesjs.github.io/TNotes.leetcode/notes/0169.%20%E5%A4%9A%E6%95%B0%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README)
   - [1. 📝 题目描述](https://tnotesjs.github.io/TNotes.leetcode/notes/0169.%20%E5%A4%9A%E6%95%B0%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#1--题目描述)
   - [2. 🎯 s.1 - 排序](https://tnotesjs.github.io/TNotes.leetcode/notes/0169.%20%E5%A4%9A%E6%95%B0%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#2--s1---排序)
@@ -628,9 +612,10 @@
   - [4. 🎯 s.3 - 分治](https://tnotesjs.github.io/TNotes.leetcode/notes/0169.%20%E5%A4%9A%E6%95%B0%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#4--s3---分治)
 - [ ] [0170. 两数之和 III - 数据结构设计【简单】](https://tnotesjs.github.io/TNotes.leetcode/notes/0170.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%20III%20-%20%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E8%AE%BE%E8%AE%A1%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/0170.%20%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C%20III%20-%20%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E8%AE%BE%E8%AE%A1%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#1--概述)
-- [ ] [0171. Excel 表列序号【简单】](https://tnotesjs.github.io/TNotes.leetcode/notes/0171.%20Excel%20%E8%A1%A8%E5%88%97%E5%BA%8F%E5%8F%B7%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README)
+- [x] [0171. Excel 表列序号【简单】](https://tnotesjs.github.io/TNotes.leetcode/notes/0171.%20Excel%20%E8%A1%A8%E5%88%97%E5%BA%8F%E5%8F%B7%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README)
   - [1. 📝 题目描述](https://tnotesjs.github.io/TNotes.leetcode/notes/0171.%20Excel%20%E8%A1%A8%E5%88%97%E5%BA%8F%E5%8F%B7%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#1--题目描述)
   - [2. 🎯 s.1 - 暴力解法](https://tnotesjs.github.io/TNotes.leetcode/notes/0171.%20Excel%20%E8%A1%A8%E5%88%97%E5%BA%8F%E5%8F%B7%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#2--s1---暴力解法)
+  - [3. 🔗 引用](https://tnotesjs.github.io/TNotes.leetcode/notes/0171.%20Excel%20%E8%A1%A8%E5%88%97%E5%BA%8F%E5%8F%B7%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#3--引用)
 - [ ] [0172. 阶乘后的零【中等】](https://tnotesjs.github.io/TNotes.leetcode/notes/0172.%20%E9%98%B6%E4%B9%98%E5%90%8E%E7%9A%84%E9%9B%B6%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README)
   - [1. 📝 题目描述](https://tnotesjs.github.io/TNotes.leetcode/notes/0172.%20%E9%98%B6%E4%B9%98%E5%90%8E%E7%9A%84%E9%9B%B6%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#1--题目描述)
   - [2. 🎯 s.1 - 暴力解法](https://tnotesjs.github.io/TNotes.leetcode/notes/0172.%20%E9%98%B6%E4%B9%98%E5%90%8E%E7%9A%84%E9%9B%B6%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#2--s1---暴力解法)
@@ -690,13 +675,14 @@
   - [4. 🎯 s.3 - 暴力解法 3 - 使用原生 API - splice、reverse](https://tnotesjs.github.io/TNotes.leetcode/notes/0189.%20%E8%BD%AE%E8%BD%AC%E6%95%B0%E7%BB%84%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#4--s3---暴力解法-3---使用原生-api---splicereverse)
   - [5. 🎯 s.4 - 暴力解法 4](https://tnotesjs.github.io/TNotes.leetcode/notes/0189.%20%E8%BD%AE%E8%BD%AC%E6%95%B0%E7%BB%84%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#5--s4---暴力解法-4)
   - [6. 🎯 s.5 - 双指针](https://tnotesjs.github.io/TNotes.leetcode/notes/0189.%20%E8%BD%AE%E8%BD%AC%E6%95%B0%E7%BB%84%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#6--s5---双指针)
-- [ ] [0190. 颠倒二进制位【简单】](https://tnotesjs.github.io/TNotes.leetcode/notes/0190.%20%E9%A2%A0%E5%80%92%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%BD%8D%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README)
+- [x] [0190. 颠倒二进制位【简单】](https://tnotesjs.github.io/TNotes.leetcode/notes/0190.%20%E9%A2%A0%E5%80%92%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%BD%8D%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README)
   - [1. 📝 题目描述](https://tnotesjs.github.io/TNotes.leetcode/notes/0190.%20%E9%A2%A0%E5%80%92%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%BD%8D%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#1--题目描述)
   - [2. 🎯 s.1 - 暴力解法](https://tnotesjs.github.io/TNotes.leetcode/notes/0190.%20%E9%A2%A0%E5%80%92%E4%BA%8C%E8%BF%9B%E5%88%B6%E4%BD%8D%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#2--s1---暴力解法)
-- [ ] [0191. 位1的个数【简单】](https://tnotesjs.github.io/TNotes.leetcode/notes/0191.%20%E4%BD%8D1%E7%9A%84%E4%B8%AA%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README)
+- [x] [0191. 位1的个数【简单】](https://tnotesjs.github.io/TNotes.leetcode/notes/0191.%20%E4%BD%8D1%E7%9A%84%E4%B8%AA%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README)
   - [1. 📝 题目描述](https://tnotesjs.github.io/TNotes.leetcode/notes/0191.%20%E4%BD%8D1%E7%9A%84%E4%B8%AA%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#1--题目描述)
-  - [2. 🎯 s.1 - 暴力解法](https://tnotesjs.github.io/TNotes.leetcode/notes/0191.%20%E4%BD%8D1%E7%9A%84%E4%B8%AA%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#2--s1---暴力解法)
-  - [3. 🔗 引用](https://tnotesjs.github.io/TNotes.leetcode/notes/0191.%20%E4%BD%8D1%E7%9A%84%E4%B8%AA%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#3--引用)
+  - [2. 🎯 s.1 - 逐位检查](https://tnotesjs.github.io/TNotes.leetcode/notes/0191.%20%E4%BD%8D1%E7%9A%84%E4%B8%AA%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#2--s1---逐位检查)
+  - [3. 🎯 s.2 - Brian Kernighan 算法（更高效）](https://tnotesjs.github.io/TNotes.leetcode/notes/0191.%20%E4%BD%8D1%E7%9A%84%E4%B8%AA%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#3--s2---brian-kernighan-算法更高效)
+  - [4. 🔗 引用](https://tnotesjs.github.io/TNotes.leetcode/notes/0191.%20%E4%BD%8D1%E7%9A%84%E4%B8%AA%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#4--引用)
 - [ ] [0192. 统计词频【中等】](https://tnotesjs.github.io/TNotes.leetcode/notes/0192.%20%E7%BB%9F%E8%AE%A1%E8%AF%8D%E9%A2%91%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README)
   - [1. 📝 题目描述](https://tnotesjs.github.io/TNotes.leetcode/notes/0192.%20%E7%BB%9F%E8%AE%A1%E8%AF%8D%E9%A2%91%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#1--题目描述)
   - [2. 🎯 s.1 - 暴力解法](https://tnotesjs.github.io/TNotes.leetcode/notes/0192.%20%E7%BB%9F%E8%AE%A1%E8%AF%8D%E9%A2%91%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#2--s1---暴力解法)
@@ -726,12 +712,12 @@
   - [1. 📝 题目描述](https://tnotesjs.github.io/TNotes.leetcode/notes/0200.%20%E5%B2%9B%E5%B1%BF%E6%95%B0%E9%87%8F%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#1--题目描述)
   - [2. 🎯 s.1 - 暴力解法](https://tnotesjs.github.io/TNotes.leetcode/notes/0200.%20%E5%B2%9B%E5%B1%BF%E6%95%B0%E9%87%8F%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#2--s1---暴力解法)
 
-## 4. 0201~0300
+## 3. 0201~0300
 
 - [ ] [0201. 数字范围按位与【中等】](https://tnotesjs.github.io/TNotes.leetcode/notes/0201.%20%E6%95%B0%E5%AD%97%E8%8C%83%E5%9B%B4%E6%8C%89%E4%BD%8D%E4%B8%8E%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README)
   - [1. 📝 题目描述](https://tnotesjs.github.io/TNotes.leetcode/notes/0201.%20%E6%95%B0%E5%AD%97%E8%8C%83%E5%9B%B4%E6%8C%89%E4%BD%8D%E4%B8%8E%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#1--题目描述)
   - [2. 🎯 s.1 - 暴力解法](https://tnotesjs.github.io/TNotes.leetcode/notes/0201.%20%E6%95%B0%E5%AD%97%E8%8C%83%E5%9B%B4%E6%8C%89%E4%BD%8D%E4%B8%8E%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#2--s1---暴力解法)
-- [ ] [0202. 快乐数【简单】](https://tnotesjs.github.io/TNotes.leetcode/notes/0202.%20%E5%BF%AB%E4%B9%90%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README)
+- [x] [0202. 快乐数【简单】](https://tnotesjs.github.io/TNotes.leetcode/notes/0202.%20%E5%BF%AB%E4%B9%90%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README)
   - [1. 📝 题目描述](https://tnotesjs.github.io/TNotes.leetcode/notes/0202.%20%E5%BF%AB%E4%B9%90%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#1--题目描述)
   - [2. 🎯 s.1 - 暴力解法](https://tnotesjs.github.io/TNotes.leetcode/notes/0202.%20%E5%BF%AB%E4%B9%90%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#2--s1---暴力解法)
 - [ ] [0203. 移除链表元素【简单】](https://tnotesjs.github.io/TNotes.leetcode/notes/0203.%20%E7%A7%BB%E9%99%A4%E9%93%BE%E8%A1%A8%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README)
@@ -1012,7 +998,7 @@
   - [1. 📝 题目描述](https://tnotesjs.github.io/TNotes.leetcode/notes/0300.%20%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#1--题目描述)
   - [2. 🎯 s.1 - 暴力解法](https://tnotesjs.github.io/TNotes.leetcode/notes/0300.%20%E6%9C%80%E9%95%BF%E9%80%92%E5%A2%9E%E5%AD%90%E5%BA%8F%E5%88%97%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#2--s1---暴力解法)
 
-## 5. 0301~0400
+## 4. 0301~0400
 
 - [ ] [0301. 删除无效的括号【困难】](https://tnotesjs.github.io/TNotes.leetcode/notes/0301.%20%E5%88%A0%E9%99%A4%E6%97%A0%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/0301.%20%E5%88%A0%E9%99%A4%E6%97%A0%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README#1--概述)
@@ -1228,7 +1214,7 @@
 - [ ] [0400. 第 N 位数字【中等】](https://tnotesjs.github.io/TNotes.leetcode/notes/0400.%20%E7%AC%AC%20N%20%E4%BD%8D%E6%95%B0%E5%AD%97%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/0400.%20%E7%AC%AC%20N%20%E4%BD%8D%E6%95%B0%E5%AD%97%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#1--概述)
 
-## 6. 0401~0500
+## 5. 0401~0500
 
 - [ ] [0401. 二进制手表【简单】](https://tnotesjs.github.io/TNotes.leetcode/notes/0401.%20%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%89%8B%E8%A1%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/0401.%20%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%89%8B%E8%A1%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#1--概述)
@@ -1450,7 +1436,7 @@
   - [1. 📝 题目描述](https://tnotesjs.github.io/TNotes.leetcode/notes/0500.%20%E9%94%AE%E7%9B%98%E8%A1%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#1--题目描述)
   - [2. 🎯 s.1 - 暴力解法](https://tnotesjs.github.io/TNotes.leetcode/notes/0500.%20%E9%94%AE%E7%9B%98%E8%A1%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#2--s1---暴力解法)
 
-## 7. 0501~0600
+## 6. 0501~0600
 
 - [ ] [0501. 二叉搜索树中的众数【简单】](https://tnotesjs.github.io/TNotes.leetcode/notes/0501.%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E4%B8%AD%E7%9A%84%E4%BC%97%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/0501.%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E4%B8%AD%E7%9A%84%E4%BC%97%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#1--概述)
@@ -1665,7 +1651,7 @@
 - [ ] [0600. 不含连续1的非负整数【困难】](https://tnotesjs.github.io/TNotes.leetcode/notes/0600.%20%E4%B8%8D%E5%90%AB%E8%BF%9E%E7%BB%AD1%E7%9A%84%E9%9D%9E%E8%B4%9F%E6%95%B4%E6%95%B0%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/0600.%20%E4%B8%8D%E5%90%AB%E8%BF%9E%E7%BB%AD1%E7%9A%84%E9%9D%9E%E8%B4%9F%E6%95%B4%E6%95%B0%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README#1--概述)
 
-## 8. 0601~0700
+## 7. 0601~0700
 
 - [ ] [0601. 体育馆的人流量【困难】](https://tnotesjs.github.io/TNotes.leetcode/notes/0601.%20%E4%BD%93%E8%82%B2%E9%A6%86%E7%9A%84%E4%BA%BA%E6%B5%81%E9%87%8F%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/0601.%20%E4%BD%93%E8%82%B2%E9%A6%86%E7%9A%84%E4%BA%BA%E6%B5%81%E9%87%8F%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README#1--概述)
@@ -1886,7 +1872,7 @@
 - [ ] [0700. 二叉搜索树中的搜索【简单】](https://tnotesjs.github.io/TNotes.leetcode/notes/0700.%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E4%B8%AD%E7%9A%84%E6%90%9C%E7%B4%A2%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/0700.%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E4%B8%AD%E7%9A%84%E6%90%9C%E7%B4%A2%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#1--概述)
 
-## 9. 0701~0800
+## 8. 0701~0800
 
 - [ ] [0701. 二叉搜索树中的插入操作【中等】](https://tnotesjs.github.io/TNotes.leetcode/notes/0701.%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E4%B8%AD%E7%9A%84%E6%8F%92%E5%85%A5%E6%93%8D%E4%BD%9C%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/0701.%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E4%B8%AD%E7%9A%84%E6%8F%92%E5%85%A5%E6%93%8D%E4%BD%9C%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#1--概述)
@@ -2099,7 +2085,7 @@
 - [ ] [0800. 相似 RGB 颜色【简单】](https://tnotesjs.github.io/TNotes.leetcode/notes/0800.%20%E7%9B%B8%E4%BC%BC%20RGB%20%E9%A2%9C%E8%89%B2%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/0800.%20%E7%9B%B8%E4%BC%BC%20RGB%20%E9%A2%9C%E8%89%B2%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#1--概述)
 
-## 10. 0801~0900
+## 9. 0801~0900
 
 - [ ] [0801. 使序列递增的最小交换次数【困难】](https://tnotesjs.github.io/TNotes.leetcode/notes/0801.%20%E4%BD%BF%E5%BA%8F%E5%88%97%E9%80%92%E5%A2%9E%E7%9A%84%E6%9C%80%E5%B0%8F%E4%BA%A4%E6%8D%A2%E6%AC%A1%E6%95%B0%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/0801.%20%E4%BD%BF%E5%BA%8F%E5%88%97%E9%80%92%E5%A2%9E%E7%9A%84%E6%9C%80%E5%B0%8F%E4%BA%A4%E6%8D%A2%E6%AC%A1%E6%95%B0%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README#1--概述)
@@ -2312,7 +2298,7 @@
 - [ ] [0900. RLE 迭代器【中等】](https://tnotesjs.github.io/TNotes.leetcode/notes/0900.%20RLE%20%E8%BF%AD%E4%BB%A3%E5%99%A8%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/0900.%20RLE%20%E8%BF%AD%E4%BB%A3%E5%99%A8%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#1--概述)
 
-## 11. 0901~1000
+## 10. 0901~1000
 
 - [ ] [0901. 股票价格跨度【中等】](https://tnotesjs.github.io/TNotes.leetcode/notes/0901.%20%E8%82%A1%E7%A5%A8%E4%BB%B7%E6%A0%BC%E8%B7%A8%E5%BA%A6%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/0901.%20%E8%82%A1%E7%A5%A8%E4%BB%B7%E6%A0%BC%E8%B7%A8%E5%BA%A6%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#1--概述)
@@ -2535,7 +2521,7 @@
 - [ ] [1000. 合并石头的最低成本【困难】](https://tnotesjs.github.io/TNotes.leetcode/notes/1000.%20%E5%90%88%E5%B9%B6%E7%9F%B3%E5%A4%B4%E7%9A%84%E6%9C%80%E4%BD%8E%E6%88%90%E6%9C%AC%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/1000.%20%E5%90%88%E5%B9%B6%E7%9F%B3%E5%A4%B4%E7%9A%84%E6%9C%80%E4%BD%8E%E6%88%90%E6%9C%AC%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README#1--概述)
 
-## 12. 1001~1100
+## 11. 1001~1100
 
 - [ ] [1001. 网格照明【困难】](https://tnotesjs.github.io/TNotes.leetcode/notes/1001.%20%E7%BD%91%E6%A0%BC%E7%85%A7%E6%98%8E%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/1001.%20%E7%BD%91%E6%A0%BC%E7%85%A7%E6%98%8E%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README#1--概述)
@@ -2746,7 +2732,7 @@
 - [ ] [1100. 长度为 K 的无重复字符子串【中等】](https://tnotesjs.github.io/TNotes.leetcode/notes/1100.%20%E9%95%BF%E5%BA%A6%E4%B8%BA%20K%20%E7%9A%84%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E5%AD%90%E4%B8%B2%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/1100.%20%E9%95%BF%E5%BA%A6%E4%B8%BA%20K%20%E7%9A%84%E6%97%A0%E9%87%8D%E5%A4%8D%E5%AD%97%E7%AC%A6%E5%AD%90%E4%B8%B2%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#1--概述)
 
-## 13. 1101~1200
+## 12. 1101~1200
 
 - [ ] [1101. 彼此熟识的最早时间【中等】](https://tnotesjs.github.io/TNotes.leetcode/notes/1101.%20%E5%BD%BC%E6%AD%A4%E7%86%9F%E8%AF%86%E7%9A%84%E6%9C%80%E6%97%A9%E6%97%B6%E9%97%B4%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/1101.%20%E5%BD%BC%E6%AD%A4%E7%86%9F%E8%AF%86%E7%9A%84%E6%9C%80%E6%97%A9%E6%97%B6%E9%97%B4%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#1--概述)
@@ -2952,7 +2938,7 @@
 - [ ] [1200. 最小绝对差【简单】](https://tnotesjs.github.io/TNotes.leetcode/notes/1200.%20%E6%9C%80%E5%B0%8F%E7%BB%9D%E5%AF%B9%E5%B7%AE%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/1200.%20%E6%9C%80%E5%B0%8F%E7%BB%9D%E5%AF%B9%E5%B7%AE%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#1--概述)
 
-## 14. 1201~1300
+## 13. 1201~1300
 
 - [ ] [1201. 丑数 III【中等】](https://tnotesjs.github.io/TNotes.leetcode/notes/1201.%20%E4%B8%91%E6%95%B0%20III%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/1201.%20%E4%B8%91%E6%95%B0%20III%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#1--概述)
@@ -3155,7 +3141,7 @@
 - [ ] [1300. 转变数组后最接近目标值的数组和【中等】](https://tnotesjs.github.io/TNotes.leetcode/notes/1300.%20%E8%BD%AC%E5%8F%98%E6%95%B0%E7%BB%84%E5%90%8E%E6%9C%80%E6%8E%A5%E8%BF%91%E7%9B%AE%E6%A0%87%E5%80%BC%E7%9A%84%E6%95%B0%E7%BB%84%E5%92%8C%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/1300.%20%E8%BD%AC%E5%8F%98%E6%95%B0%E7%BB%84%E5%90%8E%E6%9C%80%E6%8E%A5%E8%BF%91%E7%9B%AE%E6%A0%87%E5%80%BC%E7%9A%84%E6%95%B0%E7%BB%84%E5%92%8C%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#1--概述)
 
-## 15. 1301~1400
+## 14. 1301~1400
 
 - [ ] [1301. 最大得分的路径数目【困难】](https://tnotesjs.github.io/TNotes.leetcode/notes/1301.%20%E6%9C%80%E5%A4%A7%E5%BE%97%E5%88%86%E7%9A%84%E8%B7%AF%E5%BE%84%E6%95%B0%E7%9B%AE%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/1301.%20%E6%9C%80%E5%A4%A7%E5%BE%97%E5%88%86%E7%9A%84%E8%B7%AF%E5%BE%84%E6%95%B0%E7%9B%AE%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README#1--概述)
@@ -3358,7 +3344,7 @@
 - [ ] [1400. 构造 K 个回文字符串【中等】](https://tnotesjs.github.io/TNotes.leetcode/notes/1400.%20%E6%9E%84%E9%80%A0%20K%20%E4%B8%AA%E5%9B%9E%E6%96%87%E5%AD%97%E7%AC%A6%E4%B8%B2%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/1400.%20%E6%9E%84%E9%80%A0%20K%20%E4%B8%AA%E5%9B%9E%E6%96%87%E5%AD%97%E7%AC%A6%E4%B8%B2%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#1--概述)
 
-## 16. 1401~1500
+## 15. 1401~1500
 
 - [ ] [1401. 圆和矩形是否有重叠【中等】](https://tnotesjs.github.io/TNotes.leetcode/notes/1401.%20%E5%9C%86%E5%92%8C%E7%9F%A9%E5%BD%A2%E6%98%AF%E5%90%A6%E6%9C%89%E9%87%8D%E5%8F%A0%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/1401.%20%E5%9C%86%E5%92%8C%E7%9F%A9%E5%BD%A2%E6%98%AF%E5%90%A6%E6%9C%89%E9%87%8D%E5%8F%A0%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#1--概述)
@@ -3563,7 +3549,7 @@
 - [ ] [1500. 设计文件分享系统【中等】](https://tnotesjs.github.io/TNotes.leetcode/notes/1500.%20%E8%AE%BE%E8%AE%A1%E6%96%87%E4%BB%B6%E5%88%86%E4%BA%AB%E7%B3%BB%E7%BB%9F%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/1500.%20%E8%AE%BE%E8%AE%A1%E6%96%87%E4%BB%B6%E5%88%86%E4%BA%AB%E7%B3%BB%E7%BB%9F%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#1--概述)
 
-## 17. 1501~1600
+## 16. 1501~1600
 
 - [ ] [1501. 可以放心投资的国家【中等】](https://tnotesjs.github.io/TNotes.leetcode/notes/1501.%20%E5%8F%AF%E4%BB%A5%E6%94%BE%E5%BF%83%E6%8A%95%E8%B5%84%E7%9A%84%E5%9B%BD%E5%AE%B6%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/1501.%20%E5%8F%AF%E4%BB%A5%E6%94%BE%E5%BF%83%E6%8A%95%E8%B5%84%E7%9A%84%E5%9B%BD%E5%AE%B6%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#1--概述)
@@ -3766,7 +3752,7 @@
 - [ ] [1600. 王位继承顺序【中等】](https://tnotesjs.github.io/TNotes.leetcode/notes/1600.%20%E7%8E%8B%E4%BD%8D%E7%BB%A7%E6%89%BF%E9%A1%BA%E5%BA%8F%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/1600.%20%E7%8E%8B%E4%BD%8D%E7%BB%A7%E6%89%BF%E9%A1%BA%E5%BA%8F%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#1--概述)
 
-## 18. 1601~1700
+## 17. 1601~1700
 
 - [ ] [1601. 最多可达成的换楼请求数目【困难】](https://tnotesjs.github.io/TNotes.leetcode/notes/1601.%20%E6%9C%80%E5%A4%9A%E5%8F%AF%E8%BE%BE%E6%88%90%E7%9A%84%E6%8D%A2%E6%A5%BC%E8%AF%B7%E6%B1%82%E6%95%B0%E7%9B%AE%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/1601.%20%E6%9C%80%E5%A4%9A%E5%8F%AF%E8%BE%BE%E6%88%90%E7%9A%84%E6%8D%A2%E6%A5%BC%E8%AF%B7%E6%B1%82%E6%95%B0%E7%9B%AE%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README#1--概述)
@@ -3972,7 +3958,7 @@
 - [ ] [1700. 无法吃午餐的学生数量【简单】](https://tnotesjs.github.io/TNotes.leetcode/notes/1700.%20%E6%97%A0%E6%B3%95%E5%90%83%E5%8D%88%E9%A4%90%E7%9A%84%E5%AD%A6%E7%94%9F%E6%95%B0%E9%87%8F%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/1700.%20%E6%97%A0%E6%B3%95%E5%90%83%E5%8D%88%E9%A4%90%E7%9A%84%E5%AD%A6%E7%94%9F%E6%95%B0%E9%87%8F%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#1--概述)
 
-## 19. 1701~1800
+## 18. 1701~1800
 
 - [ ] [1701. 平均等待时间【中等】](https://tnotesjs.github.io/TNotes.leetcode/notes/1701.%20%E5%B9%B3%E5%9D%87%E7%AD%89%E5%BE%85%E6%97%B6%E9%97%B4%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/1701.%20%E5%B9%B3%E5%9D%87%E7%AD%89%E5%BE%85%E6%97%B6%E9%97%B4%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#1--概述)
@@ -4175,7 +4161,7 @@
 - [ ] [1800. 最大升序子数组和【简单】](https://tnotesjs.github.io/TNotes.leetcode/notes/1800.%20%E6%9C%80%E5%A4%A7%E5%8D%87%E5%BA%8F%E5%AD%90%E6%95%B0%E7%BB%84%E5%92%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/1800.%20%E6%9C%80%E5%A4%A7%E5%8D%87%E5%BA%8F%E5%AD%90%E6%95%B0%E7%BB%84%E5%92%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#1--概述)
 
-## 20. 1801~1900
+## 19. 1801~1900
 
 - [ ] [1801. 积压订单中的订单总数【中等】](https://tnotesjs.github.io/TNotes.leetcode/notes/1801.%20%E7%A7%AF%E5%8E%8B%E8%AE%A2%E5%8D%95%E4%B8%AD%E7%9A%84%E8%AE%A2%E5%8D%95%E6%80%BB%E6%95%B0%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/1801.%20%E7%A7%AF%E5%8E%8B%E8%AE%A2%E5%8D%95%E4%B8%AD%E7%9A%84%E8%AE%A2%E5%8D%95%E6%80%BB%E6%95%B0%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#1--概述)
@@ -4378,7 +4364,7 @@
 - [ ] [1900. 最佳运动员的比拼回合【困难】](https://tnotesjs.github.io/TNotes.leetcode/notes/1900.%20%E6%9C%80%E4%BD%B3%E8%BF%90%E5%8A%A8%E5%91%98%E7%9A%84%E6%AF%94%E6%8B%BC%E5%9B%9E%E5%90%88%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/1900.%20%E6%9C%80%E4%BD%B3%E8%BF%90%E5%8A%A8%E5%91%98%E7%9A%84%E6%AF%94%E6%8B%BC%E5%9B%9E%E5%90%88%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README#1--概述)
 
-## 21. 1901~2000
+## 20. 1901~2000
 
 - [ ] [1901. 寻找峰值 II【中等】](https://tnotesjs.github.io/TNotes.leetcode/notes/1901.%20%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC%20II%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/1901.%20%E5%AF%BB%E6%89%BE%E5%B3%B0%E5%80%BC%20II%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#1--概述)
@@ -4583,7 +4569,7 @@
 - [ ] [2000. 反转单词前缀【简单】](https://tnotesjs.github.io/TNotes.leetcode/notes/2000.%20%E5%8F%8D%E8%BD%AC%E5%8D%95%E8%AF%8D%E5%89%8D%E7%BC%80%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/2000.%20%E5%8F%8D%E8%BD%AC%E5%8D%95%E8%AF%8D%E5%89%8D%E7%BC%80%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#1--概述)
 
-## 22. 2001~2100
+## 21. 2001~2100
 
 - [ ] [2001. 可互换矩形的组数【中等】](https://tnotesjs.github.io/TNotes.leetcode/notes/2001.%20%E5%8F%AF%E4%BA%92%E6%8D%A2%E7%9F%A9%E5%BD%A2%E7%9A%84%E7%BB%84%E6%95%B0%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/2001.%20%E5%8F%AF%E4%BA%92%E6%8D%A2%E7%9F%A9%E5%BD%A2%E7%9A%84%E7%BB%84%E6%95%B0%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#1--概述)
@@ -4790,7 +4776,7 @@
 - [ ] [2100. 适合野炊的日子【中等】](https://tnotesjs.github.io/TNotes.leetcode/notes/2100.%20%E9%80%82%E5%90%88%E9%87%8E%E7%82%8A%E7%9A%84%E6%97%A5%E5%AD%90%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/2100.%20%E9%80%82%E5%90%88%E9%87%8E%E7%82%8A%E7%9A%84%E6%97%A5%E5%AD%90%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#1--概述)
 
-## 23. 2101~2200
+## 22. 2101~2200
 
 - [ ] [2101. 引爆最多的炸弹【中等】](https://tnotesjs.github.io/TNotes.leetcode/notes/2101.%20%E5%BC%95%E7%88%86%E6%9C%80%E5%A4%9A%E7%9A%84%E7%82%B8%E5%BC%B9%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/2101.%20%E5%BC%95%E7%88%86%E6%9C%80%E5%A4%9A%E7%9A%84%E7%82%B8%E5%BC%B9%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#1--概述)
@@ -4999,7 +4985,7 @@
 - [ ] [2200. 找出数组中的所有 K 近邻下标【简单】](https://tnotesjs.github.io/TNotes.leetcode/notes/2200.%20%E6%89%BE%E5%87%BA%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%89%80%E6%9C%89%20K%20%E8%BF%91%E9%82%BB%E4%B8%8B%E6%A0%87%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/2200.%20%E6%89%BE%E5%87%BA%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%89%80%E6%9C%89%20K%20%E8%BF%91%E9%82%BB%E4%B8%8B%E6%A0%87%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#1--概述)
 
-## 24. 2201~2300
+## 23. 2201~2300
 
 - [ ] [2201. 统计可以提取的工件【中等】](https://tnotesjs.github.io/TNotes.leetcode/notes/2201.%20%E7%BB%9F%E8%AE%A1%E5%8F%AF%E4%BB%A5%E6%8F%90%E5%8F%96%E7%9A%84%E5%B7%A5%E4%BB%B6%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/2201.%20%E7%BB%9F%E8%AE%A1%E5%8F%AF%E4%BB%A5%E6%8F%90%E5%8F%96%E7%9A%84%E5%B7%A5%E4%BB%B6%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#1--概述)
@@ -5204,7 +5190,7 @@
 - [ ] [2300. 咒语和药水的成功对数【中等】](https://tnotesjs.github.io/TNotes.leetcode/notes/2300.%20%E5%92%92%E8%AF%AD%E5%92%8C%E8%8D%AF%E6%B0%B4%E7%9A%84%E6%88%90%E5%8A%9F%E5%AF%B9%E6%95%B0%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/2300.%20%E5%92%92%E8%AF%AD%E5%92%8C%E8%8D%AF%E6%B0%B4%E7%9A%84%E6%88%90%E5%8A%9F%E5%AF%B9%E6%95%B0%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#1--概述)
 
-## 25. 2301~2400
+## 24. 2301~2400
 
 - [ ] [2301. 替换字符后匹配【困难】](https://tnotesjs.github.io/TNotes.leetcode/notes/2301.%20%E6%9B%BF%E6%8D%A2%E5%AD%97%E7%AC%A6%E5%90%8E%E5%8C%B9%E9%85%8D%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/2301.%20%E6%9B%BF%E6%8D%A2%E5%AD%97%E7%AC%A6%E5%90%8E%E5%8C%B9%E9%85%8D%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README#1--概述)
@@ -5408,7 +5394,7 @@
 - [ ] [2400. 恰好移动 k 步到达某一位置的方法数目【中等】](https://tnotesjs.github.io/TNotes.leetcode/notes/2400.%20%E6%81%B0%E5%A5%BD%E7%A7%BB%E5%8A%A8%20k%20%E6%AD%A5%E5%88%B0%E8%BE%BE%E6%9F%90%E4%B8%80%E4%BD%8D%E7%BD%AE%E7%9A%84%E6%96%B9%E6%B3%95%E6%95%B0%E7%9B%AE%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/2400.%20%E6%81%B0%E5%A5%BD%E7%A7%BB%E5%8A%A8%20k%20%E6%AD%A5%E5%88%B0%E8%BE%BE%E6%9F%90%E4%B8%80%E4%BD%8D%E7%BD%AE%E7%9A%84%E6%96%B9%E6%B3%95%E6%95%B0%E7%9B%AE%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#1--概述)
 
-## 26. 2401~2500
+## 25. 2401~2500
 
 - [ ] [2401. 最长优雅子数组【中等】](https://tnotesjs.github.io/TNotes.leetcode/notes/2401.%20%E6%9C%80%E9%95%BF%E4%BC%98%E9%9B%85%E5%AD%90%E6%95%B0%E7%BB%84%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/2401.%20%E6%9C%80%E9%95%BF%E4%BC%98%E9%9B%85%E5%AD%90%E6%95%B0%E7%BB%84%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#1--概述)
@@ -5614,7 +5600,7 @@
 - [ ] [2500. 删除每行中的最大值【简单】](https://tnotesjs.github.io/TNotes.leetcode/notes/2500.%20%E5%88%A0%E9%99%A4%E6%AF%8F%E8%A1%8C%E4%B8%AD%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/2500.%20%E5%88%A0%E9%99%A4%E6%AF%8F%E8%A1%8C%E4%B8%AD%E7%9A%84%E6%9C%80%E5%A4%A7%E5%80%BC%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#1--概述)
 
-## 27. 2501~2600
+## 26. 2501~2600
 
 - [ ] [2501. 数组中最长的方波【中等】](https://tnotesjs.github.io/TNotes.leetcode/notes/2501.%20%E6%95%B0%E7%BB%84%E4%B8%AD%E6%9C%80%E9%95%BF%E7%9A%84%E6%96%B9%E6%B3%A2%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/2501.%20%E6%95%B0%E7%BB%84%E4%B8%AD%E6%9C%80%E9%95%BF%E7%9A%84%E6%96%B9%E6%B3%A2%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#1--概述)
@@ -5820,7 +5806,7 @@
 - [ ] [2600. K 件物品的最大和【简单】](https://tnotesjs.github.io/TNotes.leetcode/notes/2600.%20K%20%E4%BB%B6%E7%89%A9%E5%93%81%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/2600.%20K%20%E4%BB%B6%E7%89%A9%E5%93%81%E7%9A%84%E6%9C%80%E5%A4%A7%E5%92%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#1--概述)
 
-## 28. 2601~2700
+## 27. 2601~2700
 
 - [ ] [2601. 质数减法运算【中等】](https://tnotesjs.github.io/TNotes.leetcode/notes/2601.%20%E8%B4%A8%E6%95%B0%E5%87%8F%E6%B3%95%E8%BF%90%E7%AE%97%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/2601.%20%E8%B4%A8%E6%95%B0%E5%87%8F%E6%B3%95%E8%BF%90%E7%AE%97%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#1--概述)
@@ -6083,7 +6069,7 @@
   - [1. 📝 Description](https://tnotesjs.github.io/TNotes.leetcode/notes/2700.%20%E4%B8%A4%E4%B8%AA%E5%AF%B9%E8%B1%A1%E4%B9%8B%E9%97%B4%E7%9A%84%E5%B7%AE%E5%BC%82%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#1--description)
   - [2. 🎯 s.1](https://tnotesjs.github.io/TNotes.leetcode/notes/2700.%20%E4%B8%A4%E4%B8%AA%E5%AF%B9%E8%B1%A1%E4%B9%8B%E9%97%B4%E7%9A%84%E5%B7%AE%E5%BC%82%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#2--s1)
 
-## 29. 2701~2800
+## 28. 2701~2800
 
 - [ ] [2701. 连续递增交易【困难】](https://tnotesjs.github.io/TNotes.leetcode/notes/2701.%20%E8%BF%9E%E7%BB%AD%E9%80%92%E5%A2%9E%E4%BA%A4%E6%98%93%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/2701.%20%E8%BF%9E%E7%BB%AD%E9%80%92%E5%A2%9E%E4%BA%A4%E6%98%93%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README#1--概述)
@@ -6322,7 +6308,7 @@
 - [ ] [2800. 包含三个字符串的最短字符串【中等】](https://tnotesjs.github.io/TNotes.leetcode/notes/2800.%20%E5%8C%85%E5%90%AB%E4%B8%89%E4%B8%AA%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E6%9C%80%E7%9F%AD%E5%AD%97%E7%AC%A6%E4%B8%B2%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/2800.%20%E5%8C%85%E5%90%AB%E4%B8%89%E4%B8%AA%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E6%9C%80%E7%9F%AD%E5%AD%97%E7%AC%A6%E4%B8%B2%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#1--概述)
 
-## 30. 2801~2900
+## 29. 2801~2900
 
 - [ ] [2801. 统计范围内的步进数字数目【困难】](https://tnotesjs.github.io/TNotes.leetcode/notes/2801.%20%E7%BB%9F%E8%AE%A1%E8%8C%83%E5%9B%B4%E5%86%85%E7%9A%84%E6%AD%A5%E8%BF%9B%E6%95%B0%E5%AD%97%E6%95%B0%E7%9B%AE%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/2801.%20%E7%BB%9F%E8%AE%A1%E8%8C%83%E5%9B%B4%E5%86%85%E7%9A%84%E6%AD%A5%E8%BF%9B%E6%95%B0%E5%AD%97%E6%95%B0%E7%9B%AE%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README#1--概述)
@@ -6537,7 +6523,7 @@
 - [ ] [2900. 最长相邻不相等子序列 I【简单】](https://tnotesjs.github.io/TNotes.leetcode/notes/2900.%20%E6%9C%80%E9%95%BF%E7%9B%B8%E9%82%BB%E4%B8%8D%E7%9B%B8%E7%AD%89%E5%AD%90%E5%BA%8F%E5%88%97%20I%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/2900.%20%E6%9C%80%E9%95%BF%E7%9B%B8%E9%82%BB%E4%B8%8D%E7%9B%B8%E7%AD%89%E5%AD%90%E5%BA%8F%E5%88%97%20I%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#1--概述)
 
-## 31. 2901~3000
+## 30. 2901~3000
 
 - [ ] [2901. 最长相邻不相等子序列 II【中等】](https://tnotesjs.github.io/TNotes.leetcode/notes/2901.%20%E6%9C%80%E9%95%BF%E7%9B%B8%E9%82%BB%E4%B8%8D%E7%9B%B8%E7%AD%89%E5%AD%90%E5%BA%8F%E5%88%97%20II%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/2901.%20%E6%9C%80%E9%95%BF%E7%9B%B8%E9%82%BB%E4%B8%8D%E7%9B%B8%E7%AD%89%E5%AD%90%E5%BA%8F%E5%88%97%20II%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#1--概述)
@@ -6740,7 +6726,7 @@
 - [ ] [3000. 对角线最长的矩形的面积【简单】](https://tnotesjs.github.io/TNotes.leetcode/notes/3000.%20%E5%AF%B9%E8%A7%92%E7%BA%BF%E6%9C%80%E9%95%BF%E7%9A%84%E7%9F%A9%E5%BD%A2%E7%9A%84%E9%9D%A2%E7%A7%AF%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/3000.%20%E5%AF%B9%E8%A7%92%E7%BA%BF%E6%9C%80%E9%95%BF%E7%9A%84%E7%9F%A9%E5%BD%A2%E7%9A%84%E9%9D%A2%E7%A7%AF%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#1--概述)
 
-## 32. 3001~3100
+## 31. 3001~3100
 
 - [ ] [3001. 捕获黑皇后需要的最少移动次数【中等】](https://tnotesjs.github.io/TNotes.leetcode/notes/3001.%20%E6%8D%95%E8%8E%B7%E9%BB%91%E7%9A%87%E5%90%8E%E9%9C%80%E8%A6%81%E7%9A%84%E6%9C%80%E5%B0%91%E7%A7%BB%E5%8A%A8%E6%AC%A1%E6%95%B0%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/3001.%20%E6%8D%95%E8%8E%B7%E9%BB%91%E7%9A%87%E5%90%8E%E9%9C%80%E8%A6%81%E7%9A%84%E6%9C%80%E5%B0%91%E7%A7%BB%E5%8A%A8%E6%AC%A1%E6%95%B0%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#1--概述)
@@ -6943,7 +6929,7 @@
 - [ ] [3100. 换水问题 II【中等】](https://tnotesjs.github.io/TNotes.leetcode/notes/3100.%20%E6%8D%A2%E6%B0%B4%E9%97%AE%E9%A2%98%20II%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/3100.%20%E6%8D%A2%E6%B0%B4%E9%97%AE%E9%A2%98%20II%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#1--概述)
 
-## 33. 3101~3200
+## 32. 3101~3200
 
 - [ ] [3101. 交替子数组计数【中等】](https://tnotesjs.github.io/TNotes.leetcode/notes/3101.%20%E4%BA%A4%E6%9B%BF%E5%AD%90%E6%95%B0%E7%BB%84%E8%AE%A1%E6%95%B0%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/3101.%20%E4%BA%A4%E6%9B%BF%E5%AD%90%E6%95%B0%E7%BB%84%E8%AE%A1%E6%95%B0%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#1--概述)
@@ -7146,7 +7132,7 @@
 - [ ] [3200. 三角形的最大高度【简单】](https://tnotesjs.github.io/TNotes.leetcode/notes/3200.%20%E4%B8%89%E8%A7%92%E5%BD%A2%E7%9A%84%E6%9C%80%E5%A4%A7%E9%AB%98%E5%BA%A6%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/3200.%20%E4%B8%89%E8%A7%92%E5%BD%A2%E7%9A%84%E6%9C%80%E5%A4%A7%E9%AB%98%E5%BA%A6%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#1--概述)
 
-## 34. 3201~3300
+## 33. 3201~3300
 
 - [ ] [3201. 找出有效子序列的最大长度 I【中等】](https://tnotesjs.github.io/TNotes.leetcode/notes/3201.%20%E6%89%BE%E5%87%BA%E6%9C%89%E6%95%88%E5%AD%90%E5%BA%8F%E5%88%97%E7%9A%84%E6%9C%80%E5%A4%A7%E9%95%BF%E5%BA%A6%20I%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/3201.%20%E6%89%BE%E5%87%BA%E6%9C%89%E6%95%88%E5%AD%90%E5%BA%8F%E5%88%97%E7%9A%84%E6%9C%80%E5%A4%A7%E9%95%BF%E5%BA%A6%20I%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#1--概述)
@@ -7349,7 +7335,7 @@
 - [ ] [3300. 替换为数位和以后的最小元素【简单】](https://tnotesjs.github.io/TNotes.leetcode/notes/3300.%20%E6%9B%BF%E6%8D%A2%E4%B8%BA%E6%95%B0%E4%BD%8D%E5%92%8C%E4%BB%A5%E5%90%8E%E7%9A%84%E6%9C%80%E5%B0%8F%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/3300.%20%E6%9B%BF%E6%8D%A2%E4%B8%BA%E6%95%B0%E4%BD%8D%E5%92%8C%E4%BB%A5%E5%90%8E%E7%9A%84%E6%9C%80%E5%B0%8F%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README#1--概述)
 
-## 35. 3301~3400
+## 34. 3301~3400
 
 - [ ] [3301. 高度互不相同的最大塔高和【中等】](https://tnotesjs.github.io/TNotes.leetcode/notes/3301.%20%E9%AB%98%E5%BA%A6%E4%BA%92%E4%B8%8D%E7%9B%B8%E5%90%8C%E7%9A%84%E6%9C%80%E5%A4%A7%E5%A1%94%E9%AB%98%E5%92%8C%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/3301.%20%E9%AB%98%E5%BA%A6%E4%BA%92%E4%B8%8D%E7%9B%B8%E5%90%8C%E7%9A%84%E6%9C%80%E5%A4%A7%E5%A1%94%E9%AB%98%E5%92%8C%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#1--概述)
@@ -7552,7 +7538,7 @@
 - [ ] [3400. 右移后的最大匹配索引数【中等】](https://tnotesjs.github.io/TNotes.leetcode/notes/3400.%20%E5%8F%B3%E7%A7%BB%E5%90%8E%E7%9A%84%E6%9C%80%E5%A4%A7%E5%8C%B9%E9%85%8D%E7%B4%A2%E5%BC%95%E6%95%B0%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/3400.%20%E5%8F%B3%E7%A7%BB%E5%90%8E%E7%9A%84%E6%9C%80%E5%A4%A7%E5%8C%B9%E9%85%8D%E7%B4%A2%E5%BC%95%E6%95%B0%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#1--概述)
 
-## 36. 3401~3500
+## 35. 3401~3500
 
 - [ ] [3401. 寻找环形礼物交换链【困难】](https://tnotesjs.github.io/TNotes.leetcode/notes/3401.%20%E5%AF%BB%E6%89%BE%E7%8E%AF%E5%BD%A2%E7%A4%BC%E7%89%A9%E4%BA%A4%E6%8D%A2%E9%93%BE%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/3401.%20%E5%AF%BB%E6%89%BE%E7%8E%AF%E5%BD%A2%E7%A4%BC%E7%89%A9%E4%BA%A4%E6%8D%A2%E9%93%BE%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README#1--概述)
@@ -7755,7 +7741,7 @@
 - [ ] [3500. 将数组分割为子数组的最小代价【困难】](https://tnotesjs.github.io/TNotes.leetcode/notes/3500.%20%E5%B0%86%E6%95%B0%E7%BB%84%E5%88%86%E5%89%B2%E4%B8%BA%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%8F%E4%BB%A3%E4%BB%B7%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/3500.%20%E5%B0%86%E6%95%B0%E7%BB%84%E5%88%86%E5%89%B2%E4%B8%BA%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%8F%E4%BB%A3%E4%BB%B7%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README#1--概述)
 
-## 37. 3501~3600
+## 36. 3501~3600
 
 - [ ] [3501. 操作后最大活跃区段数 II【困难】](https://tnotesjs.github.io/TNotes.leetcode/notes/3501.%20%E6%93%8D%E4%BD%9C%E5%90%8E%E6%9C%80%E5%A4%A7%E6%B4%BB%E8%B7%83%E5%8C%BA%E6%AE%B5%E6%95%B0%20II%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/3501.%20%E6%93%8D%E4%BD%9C%E5%90%8E%E6%9C%80%E5%A4%A7%E6%B4%BB%E8%B7%83%E5%8C%BA%E6%AE%B5%E6%95%B0%20II%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README#1--概述)
@@ -7886,7 +7872,7 @@
 - [ ] [3564. 季节性销售分析【中等】](https://tnotesjs.github.io/TNotes.leetcode/notes/3564.%20%E5%AD%A3%E8%8A%82%E6%80%A7%E9%94%80%E5%94%AE%E5%88%86%E6%9E%90%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README)
   - [1. 📝 概述](https://tnotesjs.github.io/TNotes.leetcode/notes/3564.%20%E5%AD%A3%E8%8A%82%E6%80%A7%E9%94%80%E5%94%AE%E5%88%86%E6%9E%90%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README#1--概述)
 
-## 38. 3601-3700
+## 37. 3601-3700
 
 - [ ] [3606. 优惠券校验器](https://tnotesjs.github.io/TNotes.leetcode/notes/3606.%20%E4%BC%98%E6%83%A0%E5%88%B8%E6%A0%A1%E9%AA%8C%E5%99%A8/README)
   - [1. 📝 题目描述](https://tnotesjs.github.io/TNotes.leetcode/notes/3606.%20%E4%BC%98%E6%83%A0%E5%88%B8%E6%A0%A1%E9%AA%8C%E5%99%A8/README#1--题目描述)
