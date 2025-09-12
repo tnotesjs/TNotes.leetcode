@@ -23,8 +23,10 @@
 
 - **示例 1:**
 
-```
-输入: list1 = ["Shogun", "Tapioca Express", "Burger King", "KFC"]，list2 = ["Piatti", "The Grill at Torrey Pines", "Hungry Hunter Steakhouse", "Shogun"]
+```txt
+输入:
+list1 = ["Shogun", "Tapioca Express", "Burger King", "KFC"],
+list2 = ["Piatti", "The Grill at Torrey Pines", "Hungry Hunter Steakhouse", "Shogun"]
 输出: ["Shogun"]
 解释: 唯一的公共字符串是 “Shogun”。
 
@@ -33,7 +35,9 @@
 - **示例 2:**
 
 ```txt
-输入: list1 = ["Shogun", "Tapioca Express", "Burger King", "KFC"]，list2 = ["KFC", "Shogun", "Burger King"]
+输入:
+list1 = ["Shogun", "Tapioca Express", "Burger King", "KFC"],
+list2 = ["KFC", "Shogun", "Burger King"]
 输出: ["Shogun"]
 解释: 具有最小索引和的公共字符串是 “Shogun”，它有最小的索引和 = (0 + 1) = 1。
 ```
@@ -41,7 +45,9 @@
 - **示例 3：**
 
 ```txt
-输入：list1 = ["happy","sad","good"], list2 = ["sad","happy","good"]
+输入：
+list1 = ["happy","sad","good"],
+list2 = ["sad","happy","good"]
 输出：["sad","happy"]
 解释：有三个公共字符串：
 "happy" 索引和 = (0 + 1) = 1.

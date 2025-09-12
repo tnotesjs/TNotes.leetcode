@@ -21,11 +21,17 @@
 
 **示例 1：**
 
-输入：word = "USA" 输出：true
+```txt
+输入：word = "USA"
+输出：true
+```
 
 **示例 2：**
 
-输入：word = "FlaG" 输出：false
+```txt
+输入：word = "FlaG"
+输出：false
+```
 
 **提示：**
 
