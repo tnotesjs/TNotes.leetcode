@@ -55,11 +55,15 @@ console.log(notesDirList)
 ]
 */
 
+const SOLUTIONS_NUM = '3'
+const SOLUTIONS_FILE_NAME = '1.js'
+const SOLUTIONS_FILE_DEFAULT_COMMENT = '// todo\n'
+
 // 遍历 notesDirList 中，名称开头是 0001 到 3564 的所有目录
 // 检查 solutions 目录是否存在，如果存在则跳过，如果不存在则创建 solutions/1/1.js 文件并写入一行注释，注释内容为 todo
 notesDirList.forEach((dirName) => {
   // 检查目录名称是否以 0001-3564 开头
-  const match = dirName.match(/^(\d{4})/)
+  const match = dirName.match(/^(\d{4})\.\s.+/)
 
   if (match) {
     const dirNumber = parseInt(match[1])
@@ -72,23 +76,22 @@ notesDirList.forEach((dirName) => {
       if (fs.statSync(fullPath).isDirectory()) {
         const solutionsDirPath = path.join(fullPath, 'solutions')
 
-        // 检查 solutions 目录是否存在
+        // 检查 solutions 目录是否存在，不存在则创建
         if (!fs.existsSync(solutionsDirPath)) {
-          // 创建 solutions 目录
           fs.mkdirSync(solutionsDirPath, { recursive: true })
+        }
 
-          // 创建 solutions/1/ 目录
-          const solutionSubDir = path.join(solutionsDirPath, '1')
+        // 检查 solutions/${SOLUTIONS_NUM}/ 目录是否存在，不存在则创建
+        const solutionSubDir = path.join(solutionsDirPath, SOLUTIONS_NUM)
+        if (!fs.existsSync(solutionSubDir)) {
           fs.mkdirSync(solutionSubDir, { recursive: true })
+        }
 
-          // 创建 solutions/1/1.js 文件并写入注释
-          const solutionFilePath = path.join(solutionSubDir, '1.js')
-          const comment = '// todo\n'
-
-          fs.writeFileSync(solutionFilePath, comment)
-          console.log(`Created ${solutionFilePath}`)
-        } else {
-          console.log(`Solutions directory already exists for ${dirName}`)
+        // 创建 solutions/${SOLUTIONS_NUM}/${SOLUTIONS_FILE_NAME} 文件并写入注释
+        const solutionFilePath = path.join(solutionSubDir, SOLUTIONS_FILE_NAME)
+        if (!fs.existsSync(solutionFilePath)) {
+          fs.writeFileSync(solutionFilePath, SOLUTIONS_FILE_DEFAULT_COMMENT)
+          console.log(`✅ Created ${solutionFilePath}`)
         }
       }
     }
