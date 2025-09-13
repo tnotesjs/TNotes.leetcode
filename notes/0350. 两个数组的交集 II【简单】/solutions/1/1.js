@@ -4,28 +4,24 @@
  * @return {number[]}
  */
 var intersect = function (nums1, nums2) {
-  const len1 = nums1.length
-  const len2 = nums2.length
-  // 统 nums1 集合中每个数字出现的次数
-  const count = {}
-  for (let i = 0; i < len1; i++) {
-    const key = nums1[i]
-    if (typeof count[key] === 'undefined') {
-      count[key] = 1
-    } else {
-      count[key]++
-    }
+  // 优化：让较小的数组构建哈希表
+  if (nums1.length > nums2.length) {
+    return intersect(nums2, nums1)
   }
 
-  // 从 nums1 集合出发检查交集
+  // 使用哈希表统计 nums1 中每个元素的出现次数
+  const map = new Map()
+  for (const num of nums1) {
+    map.set(num, (map.get(num) || 0) + 1)
+  }
+
   const result = []
-  for (let i = 0; i < len2; i++) {
-    const key = nums2[i]
-    if (typeof count[key] === 'undefined' || count[key] === 0) {
-      continue
-    } else {
-      count[key]--
-      result.push(key)
+
+  // 遍历 nums2，查找交集
+  for (const num of nums2) {
+    if (map.has(num) && map.get(num) > 0) {
+      result.push(num)
+      map.set(num, map.get(num) - 1) // 减少计数
     }
   }
 

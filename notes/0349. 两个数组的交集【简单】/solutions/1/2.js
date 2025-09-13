@@ -11,9 +11,13 @@ var intersection = function (nums1, nums2) {
   // 存储交集结果
   const result = []
 
+  // 遍历较小的集合，提高效率
+  const [smallerSet, largerSet] =
+    set1.size < set2.size ? [set1, set2] : [set2, set1]
+
   // 查找交集元素
-  for (const num of set1) {
-    if (set2.has(num)) {
+  for (const num of smallerSet) {
+    if (largerSet.has(num)) {
       result.push(num)
     }
   }
