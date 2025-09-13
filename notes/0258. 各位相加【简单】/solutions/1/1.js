@@ -1,1 +1,16 @@
-// todo
+/**
+ * @param {number} num
+ * @return {number}
+ */
+var addDigits = function (num) {
+  while (num >= 10) {
+    let sum = 0
+    // 计算各位数字之和
+    while (num > 0) {
+      sum += num % 10
+      num = Math.floor(num / 10)
+    }
+    num = sum
+  }
+  return num
+}
