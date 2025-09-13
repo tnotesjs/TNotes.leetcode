@@ -8,11 +8,15 @@
  */
 /**
  * @param {TreeNode} root
- * @return {number}
+ * @return {TreeNode}
  */
+var invertTree = function (root) {
+  // 基本情况：如果节点为空，直接返回
+  if (!root)
+    return root
 
-var countNodes = function (root) {
-  if (!root) return 0
+    // 交换左右子树并递归处理
+  ;[root.left, root.right] = [invertTree(root.right), invertTree(root.left)]
 
-  return 1 + countNodes(root.left) + countNodes(root.right)
+  return root
 }

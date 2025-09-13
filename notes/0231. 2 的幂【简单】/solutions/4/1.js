@@ -4,7 +4,8 @@
  */
 var isPowerOfTwo = function (n) {
   // 2 的幂必须是正数，且二进制表示中只有一个 1
-  // n & (n-1) 会清除 n 中最右边的 1
-  // 如果 n 是 2 的幂，那么 n & (n-1) 应该等于 0
-  return n > 0 && (n & (n - 1)) === 0
+  if (n <= 0) return false
+
+  // 使用内置函数计算二进制中 1 的个数
+  return (n.toString(2).match(/1/g) || []).length === 1
 }
