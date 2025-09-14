@@ -9,9 +9,9 @@ var readBinaryWatch = function (turnedOn) {
   for (let h = 0; h <= 11; h++) {
     for (let m = 0; m <= 59; m++) {
       // 小时二进制中 1 的个数
-      const hOnes = h.toString(2).split('1').length - 1
+      const hOnes = bitCount(h)
       // 分钟二进制中 1 的个数
-      const mOnes = m.toString(2).split('1').length - 1
+      const mOnes = bitCount(m)
       // 判断小时和分钟的二进制中 1 的个数之和是否等于 turnedOn
       if (hOnes + mOnes === turnedOn) {
         // 按照题目要求，格式化分钟为两位数
@@ -21,4 +21,13 @@ var readBinaryWatch = function (turnedOn) {
   }
 
   return res
+}
+
+function bitCount(n) {
+  let count = 0
+  while (n) {
+    count++
+    n &= n - 1 // 清除最低位的1
+  }
+  return count
 }

@@ -10,7 +10,7 @@ var firstUniqChar = function (s) {
     charCount[char.charCodeAt(0) - 'a'.charCodeAt(0)]++
   }
 
-  // 第二次遍历：找到第一个出现次数为1的字符
+  // 第二次遍历：找到第一个出现次数为 1 的字符
   for (let i = 0; i < s.length; i++) {
     if (charCount[s[i].charCodeAt(0) - 'a'.charCodeAt(0)] === 1) {
       return i

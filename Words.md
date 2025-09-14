@@ -6,5 +6,7 @@
     'anagram',
     'replicate',
     'conquer',
-    'divide'
+    'divide',
+    'magazine',
+    'ransom',
 ]" />
