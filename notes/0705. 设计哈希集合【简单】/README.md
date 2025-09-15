@@ -20,7 +20,7 @@
 
 **示例：**
 
-```
+```txt
 输入：
 ["MyHashSet", "add", "add", "contains", "contains", "add", "contains", "remove", "contains"]
 [[], [1], [2], [1], [3], [2], [2], [2], [2]]
@@ -43,5 +43,3 @@ myHashSet.contains(2); // 返回 False ，（已移除）
 
 - `0 <= key <= 10^6`
 - 最多调用 `10^4` 次 `add`、`remove` 和 `contains`
-
-:::
