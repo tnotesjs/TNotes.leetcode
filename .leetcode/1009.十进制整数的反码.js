@@ -10,18 +10,14 @@
  * @return {number}
  */
 var bitwiseComplement = function (n) {
-  // 特殊情况处理
-  if (n === 0) return 1
+  // 找到 n 的二进制位数
+  let bitLength = n.toString(2).length
 
-  // 找到大于n的最小2的幂次
-  let powerOfTwo = 1
-  while (powerOfTwo <= n) {
-    powerOfTwo <<= 1 // 相当于 powerOfTwo *= 2
-  }
+  // 构造相同位数的全1掩码
+  let mask = (1 << bitLength) - 1
 
-  // 全1数就是 powerOfTwo - 1
-  // 反码 = 全1数 - 原数
-  return powerOfTwo - 1 - n
+  // 异或运算得到补数
+  return n ^ mask
 }
 // @lc code=end
 
