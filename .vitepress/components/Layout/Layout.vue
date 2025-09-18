@@ -69,8 +69,11 @@
       </div>
     </template>
     <template #doc-footer-before>
-      <div class="footer-update-time" title="笔记更新时间">
-        {{ formatDate(vpData.page.value.lastUpdated) }}
+      <div class="footer-created-time" title="笔记创建时间">
+        {{ formatDate(created_at) }}
+      </div>
+      <div class="footer-updated-time" title="笔记更新时间">
+        {{ formatDate(updated_at) }}
       </div>
     </template>
     <template #doc-after>
@@ -166,6 +169,8 @@ const currentNoteConfig = computed(() => {
 const isDiscussionsVisible = computed(
   () => currentNoteConfig.value.enableDiscussions
 )
+const updated_at = computed(() => currentNoteConfig.value.updated_at)
+const created_at = computed(() => currentNoteConfig.value.created_at)
 
 const vscodeNotesDir = ref('')
 
@@ -362,7 +367,8 @@ watch(
   vertical-align: middle;
 }
 
-.footer-update-time {
+.footer-created-time,
+.footer-updated-time {
   text-align: right;
   font-style: italic;
   font-size: 0.7rem;

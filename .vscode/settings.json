@@ -11,7 +11,7 @@
   "workbench.editor.closeOnFileDelete": true,
   "workbench.editor.limit.enabled": true,
   "workbench.editor.limit.perEditorGroup": true,
-  "workbench.editor.limit.value": 5,
+  // "workbench.editor.limit.value": 5,
   "workbench.iconTheme": "vscode-icons",
   "workbench.startupEditor": "none",
   "workbench.colorTheme": "Default Dark Modern",
