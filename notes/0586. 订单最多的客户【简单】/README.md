@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/customer-placing-the-largest-number-of-orders/)
 
-表: `Orders`
+表: `Orders`
 
 ```txt
 +-----------------+----------+
@@ -24,7 +24,7 @@
 此表包含关于订单ID和客户ID的信息。
 ```
 
-查找下了 **最多订单**  的客户的 `customer_number` 。
+查找下了 **最多订单** 的客户的 `customer_number` 。
 
 测试用例生成后， **恰好有一个客户** 比任何其他客户下了更多的订单。
 

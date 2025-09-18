@@ -1,4 +1,4 @@
-# [0600. 不含连续1的非负整数【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0600.%20%E4%B8%8D%E5%90%AB%E8%BF%9E%E7%BB%AD1%E7%9A%84%E9%9D%9E%E8%B4%9F%E6%95%B4%E6%95%B0%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91)
+# [0600. 不含连续 1 的非负整数【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0600.%20%E4%B8%8D%E5%90%AB%E8%BF%9E%E7%BB%AD1%E7%9A%84%E9%9D%9E%E8%B4%9F%E6%95%B4%E6%95%B0%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91)
 
 <!-- region:toc -->
 
@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/non-negative-integers-without-consecutive-ones)
 
-给定一个正整数 `n` ，请你统计在  `[0, n]` 范围的非负整数中，有多少个整数的二进制表示中不存在 **连续的 1** 。
+给定一个正整数 `n` ，请你统计在 `[0, n]` 范围的非负整数中，有多少个整数的二进制表示中不存在 **连续的 1** 。
 
 ---
 

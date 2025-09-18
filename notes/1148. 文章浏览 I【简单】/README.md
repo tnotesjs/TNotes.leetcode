@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/article-views-i/)
 
-`Views`  表：
+`Views` 表：
 
 ```txt
  +---------------+---------+
@@ -31,7 +31,7 @@
 
 请查询出所有浏览过自己文章的作者。
 
-结果按照作者的  `id` 升序排列。
+结果按照作者的 `id` 升序排列。
 
 查询结果的格式如下所示：
 

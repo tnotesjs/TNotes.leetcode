@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/product-sales-analysis-iii/)
 
-销售表  `Sales`：
+销售表 `Sales`：
 
 ```txt
 +-------------+-------+
@@ -32,12 +32,12 @@ product_id 是产品表的外键（reference 列）。
 请注意，价格是按每单位计的。
 ```
 
-编写解决方案，选出每个售出过的产品  **第一年** 销售的 **产品 id**、**年份**、**数量**  和 **价格**。
+编写解决方案，选出每个售出过的产品 **第一年** 销售的 **产品 id**、**年份**、**数量** 和 **价格**。
 
 - 对每个 `product_id`，找到其在 Sales 表中首次出现的最早年份。
 - 返回该产品在该年度的 **所有** 销售条目。
 
-返回一张有这些列的表：**product_id**，**first_year**，**quantity**  和  **price**。
+返回一张有这些列的表：**product_id**，**first_year**，**quantity** 和 **price**。
 
 结果表中的条目可以按 **任意顺序** 排列。
 

@@ -22,7 +22,7 @@
 - `'&(subExpr1, subExpr2, ..., subExprn)'`，运算过程为对 2 个或以上内部表达式 `subExpr1, subExpr2, ..., subExprn` 进行 **逻辑与**（AND）运算
 - `'|(subExpr1, subExpr2, ..., subExprn)'`，运算过程为对 2 个或以上内部表达式 `subExpr1, subExpr2, ..., subExprn` 进行 **逻辑或**（OR）运算
 
-给你一个以字符串形式表述的  [布尔表达式][1] `expression`，返回该式的运算结果。
+给你一个以字符串形式表述的 [布尔表达式][1] `expression`，返回该式的运算结果。
 
 题目测试用例所给出的表达式均为有效的布尔表达式，遵循上述约定。
 

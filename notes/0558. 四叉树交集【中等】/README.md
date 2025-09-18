@@ -28,11 +28,11 @@
 ```java
 class Node {
     public boolean val;
-    public boolean isLeaf;
-    public Node topLeft;
-    public Node topRight;
-    public Node bottomLeft;
-    public Node bottomRight;
+    public boolean isLeaf;
+    public Node topLeft;
+    public Node topRight;
+    public Node bottomLeft;
+    public Node bottomRight;
 }
 ```
 
@@ -52,7 +52,7 @@ class Node {
 
 它与二叉树的序列化非常相似。唯一的区别是节点以列表形式表示 `[isLeaf, val]` 。
 
-如果 `isLeaf` 或者 `val` 的值为 True ，则表示它在列表  `[isLeaf, val]` 中的值为 **1** ；如果 `isLeaf` 或者 `val` 的值为 False ，则表示值为 **0** 。
+如果 `isLeaf` 或者 `val` 的值为 True ，则表示它在列表 `[isLeaf, val]` 中的值为 **1** ；如果 `isLeaf` 或者 `val` 的值为 False ，则表示值为 **0** 。
 
 ---
 
@@ -94,7 +94,7 @@ quadTree2 = [[1,0]]
 **提示：**
 
 - `quadTree1` 和 `quadTree2` 都是符合题目要求的四叉树，每个都代表一个 `n * n` 的矩阵。
-- `n == 2^x` ，其中 `0 <= x <= 9`.
+- `n == 2^x` ，其中 `0 <= x <= 9`.
 
 ## 2. 🎯 s.1 - 暴力解法
 

@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/peak-index-in-a-mountain-array/)
 
-给定一个长度为  `n`  的整数 **山脉**  数组  `arr` ，其中的值递增到一个  **峰值元素**  然后递减。
+给定一个长度为 `n` 的整数 **山脉** 数组 `arr` ，其中的值递增到一个 **峰值元素** 然后递减。
 
 返回峰值元素的下标。
 

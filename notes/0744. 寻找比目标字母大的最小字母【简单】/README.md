@@ -13,9 +13,9 @@
 
 - [leetcode](https://leetcode.cn/problems/find-smallest-letter-greater-than-target/)
 
-给你一个字符数组 `letters`，该数组按**非递减顺序**排序，以及一个字符 `target`。`letters`  里**至少有两个不同**的字符。
+给你一个字符数组 `letters`，该数组按**非递减顺序**排序，以及一个字符 `target`。`letters` 里**至少有两个不同**的字符。
 
-返回  `letters`  中大于 `target` 的最小的字符。如果不存在这样的字符，则返回  `letters` 的第一个字符。
+返回 `letters` 中大于 `target` 的最小的字符。如果不存在这样的字符，则返回 `letters` 的第一个字符。
 
 ---
 
@@ -48,7 +48,7 @@
 **提示：**
 
 - `2 <= letters.length <= 10^4`
-- `letters[i]`  是一个小写字母
+- `letters[i]` 是一个小写字母
 - `letters` 按**非递减顺序**排序
 - `letters` 最少包含两个不同的字母
 - `target` 是一个小写字母

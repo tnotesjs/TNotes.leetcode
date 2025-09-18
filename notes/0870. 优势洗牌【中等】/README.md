@@ -13,9 +13,9 @@
 
 - [leetcode](https://leetcode.cn/problems/advantage-shuffle/)
 
-给定两个长度相等的数组  `nums1`  和  `nums2`，`nums1`  相对于 `nums2` 的*优势*可以用满足  `nums1[i] > nums2[i]`  的索引 `i`  的数目来描述。
+给定两个长度相等的数组 `nums1` 和 `nums2`，`nums1` 相对于 `nums2` 的*优势*可以用满足 `nums1[i] > nums2[i]` 的索引 `i` 的数目来描述。
 
-返回 `nums1` 的  **任意**  排列，使其相对于 `nums2`  的优势最大化。
+返回 `nums1` 的 **任意** 排列，使其相对于 `nums2` 的优势最大化。
 
 ---
 

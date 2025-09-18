@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/game-play-analysis-iv/)
 
-Table: `Activity`
+Table: `Activity`
 
 ```txt
 +--------------+---------+

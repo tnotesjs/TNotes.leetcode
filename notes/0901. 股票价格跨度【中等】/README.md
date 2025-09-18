@@ -41,7 +41,7 @@ stockSpanner.next(60);  // 返回 1
 stockSpanner.next(70);  // 返回 2
 stockSpanner.next(60);  // 返回 1
 stockSpanner.next(75);  // 返回 4 ，因为截至今天的最后 4 个股价 (包括今天的股价 75) 都小于或等于今天的股价。
-stockSpanner.next(85);  // 返回 6 
+stockSpanner.next(85);  // 返回 6
 ```
 
 ---

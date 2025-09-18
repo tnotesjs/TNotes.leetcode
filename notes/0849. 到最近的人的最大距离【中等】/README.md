@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/maximize-distance-to-closest-person/)
 
-给你一个数组  `seats` 表示一排座位，其中 `seats[i] = 1` 代表有人坐在第 `i` 个座位上，`seats[i] = 0` 代表座位 `i` 上是空的（**下标从 0 开始**）。
+给你一个数组 `seats` 表示一排座位，其中 `seats[i] = 1` 代表有人坐在第 `i` 个座位上，`seats[i] = 0` 代表座位 `i` 上是空的（**下标从 0 开始**）。
 
 至少有一个空座位，且至少有一人已经坐在座位上。
 

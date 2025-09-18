@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/minimum-cost-to-merge-stones/)
 
-有 `n` 堆石头排成一排，第 `i` 堆中有  `stones[i]`  块石头。
+有 `n` 堆石头排成一排，第 `i` 堆中有 `stones[i]` 块石头。
 
 每次 **移动** 需要将 **连续的** `k` 堆石头合并为一堆，而这次移动的成本为这 `k` 堆中石头的总数。
 

@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/actors-and-directors-who-cooperated-at-least-three-times/)
 
-`ActorDirector`  表：
+`ActorDirector` 表：
 
 ```txt
 +-------------+---------+
@@ -26,7 +26,7 @@
 timestamp 是这张表的主键(具有唯一值的列).
 ```
 
-编写解决方案找出合作过至少三次的演员和导演的 id 对  `(actor_id, director_id)`
+编写解决方案找出合作过至少三次的演员和导演的 id 对 `(actor_id, director_id)`
 
 ---
 

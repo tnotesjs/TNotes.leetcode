@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/triangle-judgement/)
 
-表: `Triangle`
+表: `Triangle`
 
 ```txt
 +-------------+------+
@@ -27,7 +27,7 @@
 
 对每三个线段报告它们是否可以形成一个三角形。
 
-以  **任意顺序**  返回结果表。
+以 **任意顺序** 返回结果表。
 
 查询结果格式如下所示。
 

@@ -13,9 +13,9 @@
 
 - [leetcode](https://leetcode.cn/problems/number-of-longest-increasing-subsequence/)
 
-给定一个未排序的整数数组  `nums` ， *返回最长递增子序列的个数* 。
+给定一个未排序的整数数组 `nums` ， _返回最长递增子序列的个数_ 。
 
-**注意**  这个数列必须是 **严格** 递增的。
+**注意** 这个数列必须是 **严格** 递增的。
 
 ---
 

@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/customers-who-bought-all-products/)
 
-`Customer`  表：
+`Customer` 表：
 
 ```txt
 +-------------+---------+
@@ -27,7 +27,7 @@ customer_id 不为 NULL。
 product_key 是 Product 表的外键(reference 列)。
 ```
 
-`Product`  表：
+`Product` 表：
 
 ```txt
 +-------------+---------+
@@ -38,7 +38,7 @@ product_key 是 Product 表的外键(reference 列)。
 product_key 是这张表的主键（具有唯一值的列）。
 ```
 
-编写解决方案，报告  `Customer` 表中购买了 `Product` 表中所有产品的客户的 id。
+编写解决方案，报告 `Customer` 表中购买了 `Product` 表中所有产品的客户的 id。
 
 返回结果表 **无顺序要求** 。
 

@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/minimum-area-rectangle/)
 
-给你一个  **X-Y**  平面上的点数组 `points`，其中 `points[i] = [xi, yi]`。
+给你一个 **X-Y** 平面上的点数组 `points`，其中 `points[i] = [xi, yi]`。
 
 返回由这些点形成的矩形的最小面积，矩形的边与 X 轴和 Y 轴平行。如果不存在这样的矩形，则返回 `0`。
 
@@ -44,7 +44,7 @@
 - `1 <= points.length <= 500`
 - `points[i].length == 2`
 - `0 <= xi, yi <= 4 * 10^4`
-- 所有给定的点都是  **唯一**  的。
+- 所有给定的点都是 **唯一** 的。
 
 ## 2. 🎯 s.1 - 解法 1
 

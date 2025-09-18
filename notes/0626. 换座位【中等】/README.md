@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/exchange-seats/)
 
-表: `Seat`
+表: `Seat`
 
 ```txt
 +-------------+---------+

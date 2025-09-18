@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/surface-area-of-3d-shapes/)
 
-给你一个 `n * n` 的网格  `grid` ，上面放置着一些  `1 x 1 x 1`  的正方体。每个值  `v = grid[i][j]`  表示  `v`  个正方体叠放在对应单元格  `(i, j)`  上。
+给你一个 `n * n` 的网格 `grid` ，上面放置着一些 `1 x 1 x 1` 的正方体。每个值 `v = grid[i][j]` 表示 `v` 个正方体叠放在对应单元格 `(i, j)` 上。
 
 放置好正方体后，任何直接相邻的正方体都会互相粘在一起，形成一些不规则的三维形体。
 

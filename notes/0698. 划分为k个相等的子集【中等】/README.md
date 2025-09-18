@@ -1,4 +1,4 @@
-# [0698. 划分为k个相等的子集【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0698.%20%E5%88%92%E5%88%86%E4%B8%BAk%E4%B8%AA%E7%9B%B8%E7%AD%89%E7%9A%84%E5%AD%90%E9%9B%86%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
+# [0698. 划分为 k 个相等的子集【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0698.%20%E5%88%92%E5%88%86%E4%B8%BAk%E4%B8%AA%E7%9B%B8%E7%AD%89%E7%9A%84%E5%AD%90%E9%9B%86%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
 
@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/partition-to-k-equal-sum-subsets/)
 
-给定一个整数数组   `nums` 和一个正整数 `k`，找出是否有可能把这个数组分成 `k` 个非空子集，其总和都相等。
+给定一个整数数组 `nums` 和一个正整数 `k`，找出是否有可能把这个数组分成 `k` 个非空子集，其总和都相等。
 
 ---
 

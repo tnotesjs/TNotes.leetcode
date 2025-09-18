@@ -11,9 +11,9 @@
 
 - [leetcode](https://leetcode.cn/problems/maximum-product-of-word-lengths/)
 
-给你一个字符串数组  `words` ，找出并返回 `length(words[i]) * length(words[j])`  的最大值，并且这两个单词不含有公共字母。如果不存在这样的两个单词，返回 `0` 。
+给你一个字符串数组 `words` ，找出并返回 `length(words[i]) * length(words[j])` 的最大值，并且这两个单词不含有公共字母。如果不存在这样的两个单词，返回 `0` 。
 
-**示例  1：**
+**示例 1：**
 
 ```txt
 输入：words = ["abcw","baz","foo","bar","xtfn","abcdef"]
@@ -43,7 +43,7 @@
 
 - `2 <= words.length <= 1000`
 - `1 <= words[i].length <= 1000`
-- `words[i]`  仅包含小写字母
+- `words[i]` 仅包含小写字母
 
 ## 2. 🎯 s.1 - 暴力解法
 
