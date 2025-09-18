@@ -8,6 +8,7 @@ import {
   HeadConfig,
   MarkdownOptions,
 } from 'vitepress'
+import { execSync } from 'child_process'
 
 import {
   author,
@@ -41,6 +42,30 @@ export default defineConfig({
   ignoreDeadLinks: true,
   lang: 'zh-Hans',
   lastUpdated: true,
+  transformPageData(pageData) {
+    try {
+      // 串行执行 git log，而不是 VitePress 内部的并发
+      const timestamp = execSync(
+        `git log -1 --format=%at ${pageData.filePath}`,
+        { stdio: ['ignore', 'pipe', 'ignore'] }
+      )
+        .toString('utf-8')
+        .trim()
+
+      if (timestamp) {
+        pageData.lastUpdated = Number(timestamp) * 1000 // ms
+        console.log(
+          `Updated: ${pageData.relativePath} -> ${pageData.lastUpdated}`
+        )
+      }
+    } catch (e) {
+      // 如果 git 命令失败，忽略，不报 EBADF
+      console.log(
+        `Updated: ${pageData.relativePath} -> ${pageData.lastUpdated}`
+      )
+      pageData.lastUpdated = Date.now()
+    }
+  },
   markdown: markdown(),
   router: {
     prefetchLinks: false,
