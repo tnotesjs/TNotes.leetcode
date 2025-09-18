@@ -69,11 +69,14 @@
       </div>
     </template>
     <template #doc-footer-before>
-      <div class="footer-created-time" title="笔记创建时间">
-        {{ formatDate(created_at) }}
-      </div>
-      <div class="footer-updated-time" title="笔记更新时间">
-        {{ formatDate(updated_at) }}
+      <div class="footer-time-info">
+        <span title="笔记创建时间">
+          {{ formatDate(created_at) }}
+        </span>
+        ~
+        <span title="笔记更新时间">
+          {{ formatDate(updated_at) }}
+        </span>
       </div>
     </template>
     <template #doc-after>
@@ -367,11 +370,11 @@ watch(
   vertical-align: middle;
 }
 
-.footer-created-time,
-.footer-updated-time {
+.footer-time-info {
   text-align: right;
   font-style: italic;
   font-size: 0.7rem;
+  color: var(--vp-c-text-2);
 }
 </style>
 
