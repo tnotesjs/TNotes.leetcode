@@ -5,21 +5,15 @@
 var convertToBase7 = function (num) {
   if (num === 0) return '0'
 
-  // 处理负数
-  let isNegative = false
-  if (num < 0) {
-    isNegative = true
-    num = -num
-  }
+  let isNegative = num < 0
+  num = Math.abs(num)
+  const digits = []
 
-  let result = ''
-
-  // 除7取余法
   while (num > 0) {
-    result = (num % 7) + result
+    digits.push(num % 7)
     num = Math.floor(num / 7)
   }
 
-  // 添加符号
+  let result = digits.reverse().join('')
   return isNegative ? '-' + result : result
 }
