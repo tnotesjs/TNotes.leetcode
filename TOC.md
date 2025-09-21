@@ -10118,8 +10118,3 @@
   - [1. 📝 题目描述](https://tnotesjs.github.io/TNotes.leetcode/notes/3606.%20%E4%BC%98%E6%83%A0%E5%88%B8%E6%A0%A1%E9%AA%8C%E5%99%A8/README#1--题目描述)
   - [2. 🎯 s.1 - 暴力解法](https://tnotesjs.github.io/TNotes.leetcode/notes/3606.%20%E4%BC%98%E6%83%A0%E5%88%B8%E6%A0%A1%E9%AA%8C%E5%99%A8/README#2--s1---暴力解法)
   - [3. 🔗 References](https://tnotesjs.github.io/TNotes.leetcode/notes/3606.%20%E4%BC%98%E6%83%A0%E5%88%B8%E6%A0%A1%E9%AA%8C%E5%99%A8/README#3--references)
-
-## 38. ⏰ pending
-
-- [ ] [9999. 油猴脚本 - LeetCode 题目描述爬取](https://tnotesjs.github.io/TNotes.leetcode/notes/9999.%20%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC%20-%20LeetCode%20%E9%A2%98%E7%9B%AE%E6%8F%8F%E8%BF%B0%E7%88%AC%E5%8F%96/README)
-  - [1. 🫧 评价](https://tnotesjs.github.io/TNotes.leetcode/notes/9999.%20%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC%20-%20LeetCode%20%E9%A2%98%E7%9B%AE%E6%8F%8F%E8%BF%B0%E7%88%AC%E5%8F%96/README#1--评价)

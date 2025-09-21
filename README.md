@@ -40,7 +40,6 @@
   - [35. 3401~3500](#35-34013500)
   - [36. 3501~3600](#36-35013600)
   - [37. 3601-3700](#37-3601-3700)
-  - [38. ⏰ pending](#38--pending)
 
 <!-- endregion:toc -->
 
@@ -10161,8 +10160,3 @@
   - [1. 📝 题目描述](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/3606.%20%E4%BC%98%E6%83%A0%E5%88%B8%E6%A0%A1%E9%AA%8C%E5%99%A8/README.md#1--题目描述)
   - [2. 🎯 s.1 - 暴力解法](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/3606.%20%E4%BC%98%E6%83%A0%E5%88%B8%E6%A0%A1%E9%AA%8C%E5%99%A8/README.md#2--s1---暴力解法)
   - [3. 🔗 References](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/3606.%20%E4%BC%98%E6%83%A0%E5%88%B8%E6%A0%A1%E9%AA%8C%E5%99%A8/README.md#3--references)
-
-## 38. ⏰ pending
-
-- [ ] [9999. 油猴脚本 - LeetCode 题目描述爬取](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/9999.%20%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC%20-%20LeetCode%20%E9%A2%98%E7%9B%AE%E6%8F%8F%E8%BF%B0%E7%88%AC%E5%8F%96/README.md)
-  - [1. 🫧 评价](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/9999.%20%E6%B2%B9%E7%8C%B4%E8%84%9A%E6%9C%AC%20-%20LeetCode%20%E9%A2%98%E7%9B%AE%E6%8F%8F%E8%BF%B0%E7%88%AC%E5%8F%96/README.md#1--评价)
