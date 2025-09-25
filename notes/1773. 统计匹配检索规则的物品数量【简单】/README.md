@@ -2,8 +2,101 @@
 
 <!-- region:toc -->
 
-- [1. 📝 概述](#1--概述)
+- [1. 📝 题目描述](#1--题目描述)
+- [2. 🎯 s.1 - 解法 1](#2--s1---解法-1)
+- [3. 🎯 s.2 - 解法 2](#3--s2---解法-2)
+- [4. 🎯 s.3 - 解法 3](#4--s3---解法-3)
 
 <!-- endregion:toc -->
 
-## 1. 📝 概述
+## 1. 📝 题目描述
+
+- [leetcode](https://leetcode.cn/problems/count-items-matching-a-rule/)
+
+给你一个数组 `items` ，其中  `items[i] = [typei, colori, namei]` ，描述第 `i` 件物品的类型、颜色以及名称。
+
+另给你一条由两个字符串  `ruleKey` 和 `ruleValue` 表示的检索规则。
+
+如果第 `i` 件物品能满足下述条件之一，则认为该物品与给定的检索规则 **匹配** ：
+
+- `ruleKey == "type"` 且 `ruleValue == typei` 。
+- `ruleKey == "color"` 且 `ruleValue == colori` 。
+- `ruleKey == "name"` 且 `ruleValue == namei` 。
+
+统计并返回 **匹配检索规则的物品数量** 。
+
+---
+
+- **示例 1：**
+
+```txt
+输入：items = [
+  ["phone", "blue", "pixel"],
+  ["computer", "silver", "lenovo"],
+  ["phone", "gold", "iphone"]
+], ruleKey = "color", ruleValue = "silver"
+
+输出：1
+
+解释：
+只有一件物品匹配检索规则，这件物品是 ["computer","silver","lenovo"] 。
+```
+
+- **示例 2：**
+
+```txt
+输入：items = [
+  ["phone", "blue", "pixel"],
+  ["computer", "silver", "phone"],
+  ["phone", "gold", "iphone"]
+], ruleKey = "type", ruleValue = "phone"
+
+输出：2
+
+解释：
+只有两件物品匹配检索规则，这两件物品分别是 ["phone","blue","pixel"] 和 ["phone","gold","iphone"] 。
+
+注意，["computer","silver","phone"] 未匹配检索规则。
+```
+
+---
+
+**提示：**
+
+- `1 <= items.length <= 10^4`
+- `1 <= typei.length, colori.length, namei.length, ruleValue.length <= 10`
+- `ruleKey` 等于 `"type"`、`"color"` 或 `"name"`
+- 所有字符串仅由小写字母组成
+
+## 2. 🎯 s.1 - 解法 1
+
+::: code-group
+
+<<< ./solutions/1/1.js [js]
+
+:::
+
+- 时间复杂度：$O(1)$
+- 空间复杂度：$O(1)$
+
+## 3. 🎯 s.2 - 解法 2
+
+::: code-group
+
+<<< ./solutions/2/1.js [js]
+
+:::
+
+- 时间复杂度：$O(1)$
+- 空间复杂度：$O(1)$
+
+## 4. 🎯 s.3 - 解法 3
+
+::: code-group
+
+<<< ./solutions/3/1.js [js]
+
+:::
+
+- 时间复杂度：$O(1)$
+- 空间复杂度：$O(1)$
