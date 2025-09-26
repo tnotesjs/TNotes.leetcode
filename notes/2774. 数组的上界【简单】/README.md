@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 🔗 links](#1--links)
-- [2. 📝 Description](#2--description)
+- [2. 📝 题目描述](#2--题目描述)
 - [3. 🎯 s.1](#3--s1)
 
 <!-- endregion:toc -->
@@ -14,7 +14,7 @@
 
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf - MDN，`Array.prototype.indexOf()`
 
-## 2. 📝 Description
+## 2. 📝 题目描述
 
 请你编写代码实现一个数组方法，任何数组都可以调用 `upperBound()` 方法，并返回给定目标数字的 **最后** 一个索引。`nums` 是一个可能包含重复数字的按升序排序的数组。如果在数组中找不到目标数字，则返回 -1。
 

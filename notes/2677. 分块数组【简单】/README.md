@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 🔗 links](#1--links)
-- [2. 📝 Description](#2--description)
+- [2. 📝 题目描述](#2--题目描述)
 - [3. 🎯 s.1](#3--s1)
 
 <!-- endregion:toc -->
@@ -17,7 +17,7 @@
 - https://lodash.com/docs/4.17.15#chunk - Lodash，Array，`_.chunk`。
 - https://github.com/lodash/lodash/blob/4.17.15/lodash.js#L6839 - Github Lodash，Array，`_.chunk` 实现源码。
 
-## 2. 📝 Description
+## 2. 📝 题目描述
 
 给定一个数组 `arr` 和一个块大小 `size` ，返回一个 **分块** 的数组。
 

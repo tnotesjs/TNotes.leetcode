@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 🔗 links](#1--links)
-- [2. 📝 Description](#2--description)
+- [2. 📝 题目描述](#2--题目描述)
 - [3. 🎯 s.1](#3--s1)
 
 <!-- endregion:toc -->
@@ -16,7 +16,7 @@
 - https://github.com/lodash/lodash/blob/4.17.15/lodash.js#L10304 - github Lodash，debounce 实现源码
 - https://github.com/Tdahuyou/javascript - 0037. 防抖、节流
 
-## 2. 📝 Description
+## 2. 📝 题目描述
 
 请你编写一个函数，接收参数为另一个函数和一个以毫秒为单位的时间 `t` ，并返回该函数的 **函数防抖** 后的结果。
 

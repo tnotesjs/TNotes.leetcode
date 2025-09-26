@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 🔗 links](#1--links)
-- [2. 📝 Description](#2--description)
+- [2. 📝 题目描述](#2--题目描述)
 - [3. 🎯 s.1](#3--s1)
 
 <!-- endregion:toc -->
@@ -14,7 +14,7 @@
 
 - https://github.com/Tdahuyou/javascript - 0043. 判断某个属性是否存在于对象中
 
-## 2. 📝 Description
+## 2. 📝 题目描述
 
 给定两个数组 `keysArr` 和 `valuesArr`，返回一个新的对象 `obj`。`obj` 中的每个键值对都来自 `keysArr[i]` 和 `valuesArr[i]`。
 

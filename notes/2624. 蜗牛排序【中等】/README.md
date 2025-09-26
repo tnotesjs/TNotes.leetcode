@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 🔗 links](#1--links)
-- [2. 📝 Description](#2--description)
+- [2. 📝 题目描述](#2--题目描述)
 - [3. 🎯 s.1](#3--s1)
 
 <!-- endregion:toc -->
@@ -15,7 +15,7 @@
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from - MDN Array.from()
 - https://github.com/Tdahuyou/javascript - 0076. 使用 Array.form 来创建一个二维数组
 
-## 2. 📝 Description
+## 2. 📝 题目描述
 
 请你编写一段代码为所有数组实现 `snail(rowsCount，colsCount)` 方法，该方法将 1D 数组转换为以蜗牛排序的模式的 2D 数组。无效的输入值应该输出一个空数组。当 ` rowsCount * colsCount !==``nums.length ` 时。这个输入被认为是无效的。
 

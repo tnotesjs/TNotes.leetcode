@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 🔗 links](#1--links)
-- [2. 📝 Description](#2--description)
+- [2. 📝 题目描述](#2--题目描述)
 - [3. 🎯 s.暴力解法](#3--s暴力解法)
 - [4. 🎯 s.递归](#4--s递归)
 
@@ -16,7 +16,7 @@
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat
   - MDN Array.flat()
 
-## 2. 📝 Description
+## 2. 📝 题目描述
 
 请你编写一个函数，它接收一个 **多维数组** `arr` 和它的深度 `n` ，并返回该数组的 **扁平化** 后的结果。
 

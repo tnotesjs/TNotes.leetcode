@@ -21,7 +21,7 @@
 
 - **示例 1：**
 
-```
+```txt
 输入：sentences = ["alice and bob love leetcode", "i think so too", "this is great thanks very much"]
 输出：6
 解释：
@@ -33,7 +33,7 @@
 
 - **示例 2：**
 
-```
+```txt
 输入：sentences = ["please wait", "continue to fight", "continue to win"]
 输出：3
 解释：可能有多个句子有相同单词数。

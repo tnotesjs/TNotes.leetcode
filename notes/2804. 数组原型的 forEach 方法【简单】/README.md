@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 🔗 links](#1--links)
-- [2. 📝 Description](#2--description)
+- [2. 📝 题目描述](#2--题目描述)
 - [3. 🎯 s.1](#3--s1)
 
 <!-- endregion:toc -->
@@ -15,7 +15,7 @@
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call - MDN，Function.prototype.call()
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach - MDN，Array.prototype.forEach()
 
-## 2. 📝 Description
+## 2. 📝 题目描述
 
 编写一个数组方法 `forEach`，使其可以在任何数组上调用 `array.forEach(callback, context)` 方法，它将在数组的每个元素上执行回调函数。`forEach` 方法不应该返回任何内容。
 

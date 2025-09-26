@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 🔗 links](#1--links)
-- [2. 📝 Description](#2--description)
+- [2. 📝 题目描述](#2--题目描述)
 - [3. 🎯 s.1 - flat](#3--s1---flat)
 - [4. 🎯 s.1 - 循环二维数组](#4--s1---循环二维数组)
 - [5. 🎯 s.1 - 二分查找](#5--s1---二分查找)
@@ -17,7 +17,7 @@
 - https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/flat
   - MDN - `Array.prototype.flat()` - 将数组拍扁。
 
-## 2. 📝 Description
+## 2. 📝 题目描述
 
 给你一个满足下述两条属性的 `m x n` 整数矩阵：
 
