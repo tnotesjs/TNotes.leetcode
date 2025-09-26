@@ -75,6 +75,7 @@ kthLargest.add(9); // 返回 8
 - `s.1` 是手写最小堆
 - `s.2` 是利用内置的 [datastructures-js 中的 MinPriorityQueue](https://datastructures-js.info/docs/priority-queue)
   - Javascript 语言执行环境中内置了 datastructures-js 中的数据结构。
+- “堆” 数据结构的特点和实现，在 [TNotes.algorithms][2] 知识库中有介绍。
 
 ## 3. 🎯 s.1 - 最小堆
 
@@ -101,5 +102,7 @@ kthLargest.add(9); // 返回 8
 ## 5. 🔗 引用
 
 - [datastructures-js 中的 MinPriorityQueue][1]
+- [TNotes.algorithms][2]
 
 [1]: https://datastructures-js.info/docs/priority-queue
+[2]: https://tnotesjs.github.io/TNotes.algorithms
