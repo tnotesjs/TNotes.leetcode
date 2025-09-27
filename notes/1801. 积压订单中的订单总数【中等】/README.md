@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/number-of-orders-in-the-backlog/)
 
-给你一个二维整数数组 `orders` ，其中每个 `orders[i] = [pricei, amounti, orderTypei]` 表示有 `amounti` 笔类型为  `orderTypei` 、价格为  `pricei` 的订单。
+给你一个二维整数数组 `orders` ，其中每个 `orders[i] = [pricei, amounti, orderTypei]` 表示有 `amounti` 笔类型为 `orderTypei` 、价格为 `pricei` 的订单。
 
 订单类型 `orderTypei` 可以分为两种：
 

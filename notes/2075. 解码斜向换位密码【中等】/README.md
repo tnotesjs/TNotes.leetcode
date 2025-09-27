@@ -21,7 +21,7 @@
 
 先填充蓝色单元格，接着是红色单元格，然后是黄色单元格，以此类推，直到到达 `originalText` 末尾。箭头指示顺序即为单元格填充顺序。所有空单元格用 `' '` 进行填充。矩阵的列数需满足：用 `originalText` 填充之后，最右侧列 **不为空** 。
 
-接着按行将字符附加到矩阵中，构造  `encodedText` 。
+接着按行将字符附加到矩阵中，构造 `encodedText` 。
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-10-20.png)
 

@@ -40,13 +40,13 @@
 输出：8
 解释：所有漂亮数对 (i, j) 列出如下：
 ​​​​​    - (0, 2): nums[0] XOR nums[2] = 13
-    - (0, 3): nums[0] XOR nums[3] = 11
-    - (0, 4): nums[0] XOR nums[4] = 8
-    - (1, 2): nums[1] XOR nums[2] = 12
-    - (1, 3): nums[1] XOR nums[3] = 10
-    - (1, 4): nums[1] XOR nums[4] = 9
-    - (2, 3): nums[2] XOR nums[3] = 6
-    - (2, 4): nums[2] XOR nums[4] = 5
+    - (0, 3): nums[0] XOR nums[3] = 11
+    - (0, 4): nums[0] XOR nums[4] = 8
+    - (1, 2): nums[1] XOR nums[2] = 12
+    - (1, 3): nums[1] XOR nums[3] = 10
+    - (1, 4): nums[1] XOR nums[4] = 9
+    - (2, 3): nums[2] XOR nums[3] = 6
+    - (2, 4): nums[2] XOR nums[4] = 5
 ```
 
 ---

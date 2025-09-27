@@ -20,7 +20,7 @@
 - 选出两个下标（下标 **从 0 开始** 计数）`i` 和 `j`（`i != j`），并 **更新** `triplets[j]` 为 `[max(ai, aj), max(bi, bj), max(ci, cj)]` 。
   - 例如，`triplets[i] = [2, 5, 3]` 且 `triplets[j] = [1, 7, 5]`，`triplets[j]` 将会更新为 `[max(2, 1), max(5, 7), max(3, 5)] = [2, 7, 5]` 。
 
-如果通过以上操作我们可以使得目标 **三元组** `target`  成为  `triplets` 的一个 **元素** ，则返回 `true` ；否则，返回 `false` 。
+如果通过以上操作我们可以使得目标 **三元组** `target` 成为 `triplets` 的一个 **元素** ，则返回 `true` ；否则，返回 `false` 。
 
 ---
 

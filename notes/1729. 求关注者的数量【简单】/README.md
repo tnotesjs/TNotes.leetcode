@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/find-followers-count/)
 
-表： `Followers`
+表： `Followers`
 
 ```txt
 +-------------+------+
@@ -28,7 +28,7 @@
 
 编写解决方案，对于每一个用户，返回该用户的关注者数量。
 
-按  `user_id`  的顺序返回结果表。
+按 `user_id` 的顺序返回结果表。
 
 查询结果的格式如下示例所示。
 

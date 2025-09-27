@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/maximum-product-difference-between-two-pairs/)
 
-两个数对  `(a, b)` 和 `(c, d)` 之间的 **乘积差** 定义为 `(a * b) - (c * d)` 。
+两个数对 `(a, b)` 和 `(c, d)` 之间的 **乘积差** 定义为 `(a * b) - (c * d)` 。
 
 - 例如，`(5, 6)` 和 `(2, 7)` 之间的乘积差是 `(5 * 6) - (2 * 7) = 16` 。
 

@@ -32,7 +32,7 @@ employee_id 是这个表中具有不同值的列。
 
 编写一个解决方案来返回需要听取汇报的所有经理的 ID、名称、直接向该经理汇报的员工人数，以及这些员工的平均年龄，其中该平均年龄需要四舍五入到最接近的整数。
 
-返回的结果集需要按照  `employee_id` 进行排序。
+返回的结果集需要按照 `employee_id` 进行排序。
 
 结果的格式如下：
 
@@ -67,24 +67,24 @@ Hercy 有两个需要向他汇报的员工, 他们是 Alice and Bob. 他们的�
 输入：
 Employees 表：
 +-------------+---------+------------+-----+
-| employee_id | name    | reports_to | age |
+| employee_id | name    | reports_to | age |
 |-------------|---------|------------|-----|
-| 1           | Michael | null       | 45  |
-| 2           | Alice   | 1          | 38  |
-| 3           | Bob     | 1          | 42  |
-| 4           | Charlie | 2          | 34  |
-| 5           | David   | 2          | 40  |
-| 6           | Eve     | 3          | 37  |
-| 7           | Frank   | null       | 50  |
-| 8           | Grace   | null       | 48  |
+| 1           | Michael | null       | 45  |
+| 2           | Alice   | 1          | 38  |
+| 3           | Bob     | 1          | 42  |
+| 4           | Charlie | 2          | 34  |
+| 5           | David   | 2          | 40  |
+| 6           | Eve     | 3          | 37  |
+| 7           | Frank   | null       | 50  |
+| 8           | Grace   | null       | 48  |
 +-------------+---------+------------+-----+
 输出：
 +-------------+---------+---------------+-------------+
-| employee_id | name    | reports_count | average_age |
+| employee_id | name    | reports_count | average_age |
 | ----------- | ------- | ------------- | ----------- |
-| 1           | Michael | 2             | 40          |
-| 2           | Alice   | 2             | 37          |
-| 3           | Bob     | 1             | 37          |
+| 1           | Michael | 2             | 40          |
+| 2           | Alice   | 2             | 37          |
+| 3           | Bob     | 1             | 37          |
 +-------------+---------+---------------+-------------+
 ```
 

@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/minimum-operations-to-make-a-uni-value-grid/)
 
-给你一个大小为  `m x n` 的二维整数网格 `grid` 和一个整数 `x` 。每一次操作，你可以对 `grid` 中的任一元素 **加** `x` 或 **减** `x` 。
+给你一个大小为 `m x n` 的二维整数网格 `grid` 和一个整数 `x` 。每一次操作，你可以对 `grid` 中的任一元素 **加** `x` 或 **减** `x` 。
 
 **单值网格** 是全部元素都相等的网格。
 
