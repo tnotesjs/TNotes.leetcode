@@ -2,21 +2,16 @@
 
 <!-- region:toc -->
 
-- [1. 🔗 links](#1--links)
-- [2. 📝 题目描述](#2--题目描述)
-- [3. 🎯 s.暴力解法](#3--s暴力解法)
-- [4. 🎯 s.递归](#4--s递归)
+- [1. 📝 题目描述](#1--题目描述)
+- [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
+- [3. 🎯 s.2 - 递归](#3--s2---递归)
+- [4. 🔗 引用](#4--引用)
 
 <!-- endregion:toc -->
 
+## 1. 📝 题目描述
+
 - [leetcode](https://leetcode.cn/problems/flatten-deeply-nested-array/description/)
-
-## 1. 🔗 links
-
-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat
-  - MDN Array.flat()
-
-## 2. 📝 题目描述
 
 请你编写一个函数，它接收一个 **多维数组** `arr` 和它的深度 `n` ，并返回该数组的 **扁平化** 后的结果。
 
@@ -26,9 +21,11 @@
 
 请在没有使用内置方法 `Array.flat` 的前提下解决这个问题。
 
-**示例 1：**
+---
 
-```
+- **示例 1：**
+
+```txt
 输入
 arr = [1, 2, 3, [4, 5, 6], [7, 8, [9, 10, 11], 12], [13, 14, 15]]
 n = 0
@@ -39,9 +36,11 @@ n = 0
 传递深度 n=0 的多维数组将始终得到原始数组。这是因为 子数组(0) 的最小可能的深度不小于 n=0 。因此，任何子数组都不应该被平面化。
 ```
 
-**示例 2：**
+---
 
-```
+- **示例 2：**
+
+```txt
 输入
 arr = [1, 2, 3, [4, 5, 6], [7, 8, [9, 10, 11], 12], [13, 14, 15]]
 n = 1
@@ -52,9 +51,11 @@ n = 1
 以 4 、7 和 13 开头的子数组都被扁平化了，这是因为它们的深度为 0 ， 而 0 小于 1 。然而 [9,10,11] 其深度为 1 ，所以未被扁平化。
 ```
 
-**示例 3：**
+---
 
-```
+- **示例 3：**
+
+```txt
 输入
 arr = [[1, 2, 3], [4, 5, 6], [7, 8, [9, 10, 11], 12], [13, 14, 15]]
 n = 2
@@ -73,7 +74,7 @@ n = 2
 - `-1000 <= each number <= 1000`
 - `0 <= n <= 1000`
 
-## 3. 🎯 s.暴力解法
+## 2. 🎯 s.1 - 暴力解法
 
 ```js
 /**
@@ -107,7 +108,7 @@ var flat = function (arr, depth) {
 - 这种解法虽然通过了，但是距离超时已经不远了，很可能再补充一些测试示例之后，这种法子就没法用了。
 - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-26-20-01-36.png)
 
-## 4. 🎯 s.递归
+## 3. 🎯 s.2 - 递归
 
 ```js
 /**
@@ -136,3 +137,9 @@ var flat = function (arr, depth) {
 ```
 
 - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-26-20-02-07.png)
+
+## 4. 🔗 引用
+
+- [MDN Array.flat()][1]
+
+[1]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat

@@ -3,9 +3,8 @@
 <!-- region:toc -->
 
 - [1. 📝 题目描述](#1--题目描述)
-- [2. 📒 将数字数组直接作为 key](#2--将数字数组直接作为-key)
+- [2. 🎯 s.1 - 双哈希表](#2--s1---双哈希表)
 - [3. 🎯 s.哈希表](#3--s哈希表)
-- [4. 🎯 s.双哈希表](#4--s双哈希表)
 
 <!-- endregion:toc -->
 
@@ -23,9 +22,11 @@
 - `fib` 接收一个整型参数 `n` ，如果 `n <= 1` 则返回 `1`，否则返回 `fib (n - 1) + fib (n - 2)`。
 - `factorial` 接收一个整型参数 `n` ，如果 `n <= 1` 则返回 `1` ，否则返回 `factorial(n - 1) * n` 。
 
+---
+
 **示例 1：**
 
-```
+```txt
 输入：
 fnName = "sum"
 actions = ["call","call","getCallCount","call","getCallCount"]
@@ -41,9 +42,11 @@ memoizedSum(1, 2);// "call" - 返回 3。sum() 被调用，因为之前没有使
 // "getCallCount" - 总调用数： 2
 ```
 
+---
+
 **示例 2：**
 
-```
+```txt
 输入：
 fnName = "factorial"
 actions = ["call","call","call","getCallCount","call","getCallCount"]
@@ -60,9 +63,11 @@ memoFactorial(3); // "call" - 返回 6。 没有调用 factorial()，因为前�
 // "getCallCount" -  总调用数：2
 ```
 
+---
+
 **示例 3：**
 
-```
+```txt
 输入：
 fnName = "fib"
 actions = ["call","getCallCount"]
@@ -81,52 +86,13 @@ fib(5) = 8 // "call"
 - `actions[i]` 为 "call" 和 "getCallCount" 中的一个
 - `fnName` 为 "sum", "factorial" 和 "fib" 中的一个
 
-## 2. 📒 将数字数组直接作为 key
-
-```js
-const arr = [1, 2]
-const cache = {}
-cache[arr] = 3
-
-console.log(arr in cache) // true
-
-console.log(JSON.stringify(arr)) // [1,2]
-
-console.log(cache[arr]) // 3
-console.log(cache['[1,2]']) // undefined
-console.log(cache[JSON.stringify(arr)]) // undefined
-
-console.log(cache) // { '1,2': 3 }
-
-console.log(arr.join(',')) // 1,2
-console.log(cache['1,2']) // 3
-console.log(cache[arr.join(',')]) // 3
-```
-
-## 3. 🎯 s.哈希表
-
-```js
-function memoize(fn) {
-  const cache = {}
-
-  return function (...args) {
-    if (args in cache) {
-      return cache[args]
-    }
-    const result = fn(...args)
-    cache[args] = result
-    return result
-  }
-}
-```
-
-## 4. 🎯 s.双哈希表
+## 2. 🎯 s.1 - 双哈希表
 
 如果使用上述的单哈希表 cache 来缓存函数的返回值，当参数是两个对象时，例如 `[{}, {}]`，`[{}, {}]`，`[{}, {}]`，则 `[{}, {}]` 和 `[{}, {}]` 的索引值是相同的，导致缓存命中。
 
-**示例**
+- **示例**
 
-```
+```txt
 输入：
 getInputs = () => [[{},{}],[{},{}],[{},{}]]
 fn = function (a, b) { return a + b; }
@@ -170,4 +136,43 @@ function memoize(fn: Fn): Fn {
  * memoizedFn(2, 3) // 5
  * console.log(callCount) // 1
  */
+```
+
+- 笔记：将数字数组直接作为 key
+
+```js
+const arr = [1, 2]
+const cache = {}
+cache[arr] = 3
+
+console.log(arr in cache) // true
+
+console.log(JSON.stringify(arr)) // [1,2]
+
+console.log(cache[arr]) // 3
+console.log(cache['[1,2]']) // undefined
+console.log(cache[JSON.stringify(arr)]) // undefined
+
+console.log(cache) // { '1,2': 3 }
+
+console.log(arr.join(',')) // 1,2
+console.log(cache['1,2']) // 3
+console.log(cache[arr.join(',')]) // 3
+```
+
+## 3. 🎯 s.哈希表
+
+```js
+function memoize(fn) {
+  const cache = {}
+
+  return function (...args) {
+    if (args in cache) {
+      return cache[args]
+    }
+    const result = fn(...args)
+    cache[args] = result
+    return result
+  }
+}
 ```

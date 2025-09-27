@@ -19,6 +19,8 @@
 
 函数 `fn` 应立即使用参数 `args` 调用，然后每隔 `t` 毫秒调用一次，直到在 `cancelTimeMs` 毫秒时调用 `cancelFn`。
 
+---
+
 **示例 1：**
 
 输入：`fn = (x) => x * 2, args = [4], t = 35, cancelT = 190`
@@ -52,6 +54,8 @@ setTimeout(cancelFn, cancelTimeMs)
 - 第五次调用 fn 是在 140ms。fn(4) 返回 8。
 - 第六次调用 fn 是在 175ms。fn(4) 返回 8。
 - 在 t=190ms 时取消
+
+---
 
 **示例 2：**
 
@@ -87,6 +91,8 @@ setTimeout(cancelFn, cancelTimeMs)
 - 第六次调用 fn 是在 150ms
 - 在 165ms 取消
 
+---
+
 **示例 3：**
 
 输入：`fn = (x1, x2, x3) => (x1 + x2 + x3), args = [5, 1, 3], t = 50, cancelT = 180`
@@ -116,6 +122,8 @@ setTimeout(cancelFn, cancelTimeMs)
 - 第三次调用 fn 是在 100ms
 - 第四次调用 fn 是在 150ms
 - 在 180ms 取消
+
+---
 
 **提示：**
 

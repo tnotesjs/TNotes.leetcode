@@ -3,8 +3,8 @@
 <!-- region:toc -->
 
 - [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1](#2--s1)
-- [3. 🫧 评价](#3--评价)
+- [2. 🫧 评价](#2--评价)
+- [3. 🎯 s.1](#3--s1)
 
 <!-- endregion:toc -->
 
@@ -18,6 +18,8 @@
 
 - **subscribe** - 这个方法接收两个参数：一个作为字符串的事件名和一个回调函数。当事件被触发时，这个回调函数将被调用。 一个事件应该能够有多个监听器。当触发带有多个回调函数的事件时，应按照订阅的顺序依次调用每个回调函数。应返回一个结果数组。你可以假设传递给 `subscribe` 的回调函数都不是引用相同的。 `subscribe` 方法还应返回一个对象，其中包含一个 `unsubscribe` 方法，使用户可以取消订阅。当调用 `unsubscribe` 方法时，回调函数应该从订阅列表中删除，并返回 undefined。
 - **emit** - 这个方法接收两个参数：一个作为字符串的事件名和一个可选的参数数组，这些参数将传递给回调函数。如果没有订阅给定事件的回调函数，则返回一个空数组。否则，按照它们被订阅的顺序返回所有回调函数调用的结果数组。
+
+---
 
 **示例 1：**
 
@@ -49,6 +51,8 @@ emitter.subscribe('firstEvent', function cb2() {
 emitter.emit('firstEvent') // [5, 6], 返回 cb1 和 cb2 的输出
 ```
 
+---
+
 **示例 2：**
 
 输入：
@@ -73,6 +77,8 @@ emitter.subscribe("firstEvent, function cb1(...args) { return args.join(','); })
 emitter.emit("firstEvent", [1, 2, 3]); // ["1,2,3"]
 emitter.emit("firstEvent", [3, 4, 6]); // ["3,4,6"]
 ```
+
+---
 
 **示例 3：**
 
@@ -101,6 +107,8 @@ sub.unsubscribe() // undefined
 emitter.emit('firstEvent', [4, 5, 6]) // [], 没有订阅者
 ```
 
+---
+
 **示例 4：**
 
 输入：
@@ -128,6 +136,8 @@ sub1.unsubscribe() // undefined
 emitter.emit('firstEvent', [5]) // [7]
 ```
 
+---
+
 **提示：**
 
 - `1 <= actions.length <= 10`
@@ -138,7 +148,11 @@ emitter.emit('firstEvent', [5]) // [7]
 - `subscribe` 操作接收 2 个参数，第一个是事件名，第二个是回调函数。
 - `unsubscribe` 操作接收一个参数，即之前进行订阅的顺序（从 0 开始）。
 
-## 2. 🎯 s.1
+## 2. 🫧 评价
+
+- 模拟 NodeJS 中的 EventEmitter 模块的效果，仿写一个 EventEmitter 类。
+
+## 3. 🎯 s.1
 
 ```javascript
 class EventEmitter {
@@ -189,7 +203,3 @@ class EventEmitter {
  * emitter.emit('onClick'); // []
  */
 ```
-
-## 3. 🫧 评价
-
-- 模拟 NodeJS 中的 EventEmitter 模块的效果，仿写一个 EventEmitter 类。

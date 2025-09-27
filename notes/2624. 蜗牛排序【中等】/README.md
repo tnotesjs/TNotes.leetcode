@@ -2,20 +2,15 @@
 
 <!-- region:toc -->
 
-- [1. 🔗 links](#1--links)
-- [2. 📝 题目描述](#2--题目描述)
-- [3. 🎯 s.1](#3--s1)
+- [1. 📝 题目描述](#1--题目描述)
+- [2. 🎯 s.1](#2--s1)
+- [3. 🔗 引用](#3--引用)
 
 <!-- endregion:toc -->
 
+## 1. 📝 题目描述
+
 - [leetcode](https://leetcode.cn/problems/snail-traversal/)
-
-## 1. 🔗 links
-
-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from - MDN Array.from()
-- https://github.com/Tdahuyou/javascript - 0076. 使用 Array.form 来创建一个二维数组
-
-## 2. 📝 题目描述
 
 请你编写一段代码为所有数组实现 `snail(rowsCount，colsCount)` 方法，该方法将 1D 数组转换为以蜗牛排序的模式的 2D 数组。无效的输入值应该输出一个空数组。当 ` rowsCount * colsCount !==``nums.length ` 时。这个输入被认为是无效的。
 
@@ -25,7 +20,7 @@
 
 **示例 1：**
 
-```
+```txt
 输入：
 nums = [19, 10, 3, 7, 9, 8, 5, 2, 1, 17, 16, 14, 12, 18, 6, 13, 11, 20, 4, 15]
 rowsCount = 5
@@ -42,7 +37,7 @@ colsCount = 4
 
 **示例 2：**
 
-```
+```txt
 输入：
 nums = [1,2,3,4]
 rowsCount = 1
@@ -52,7 +47,7 @@ colsCount = 4
 
 **示例 3：**
 
-```
+```txt
 输入：
 nums = [1,3]
 rowsCount = 2
@@ -68,7 +63,7 @@ Explanation: 2 * 2 = 4, 且原数组 [1,3] 的长度为 2; 所以，输入是无
 - `1 <= rowsCount <= 250`
 - `1 <= colsCount <= 250`
 
-## 3. 🎯 s.1
+## 2. 🎯 s.1
 
 ```ts
 interface Array<T> {
@@ -109,3 +104,11 @@ Array.prototype.snail = function (
  * arr.snail(1,4); // [[1,2,3,4]]
  */
 ```
+
+## 3. 🔗 引用
+
+- [MDN Array.from()][1]
+- [0076. 使用 Array.form 来创建一个二维数组][2]
+
+[1]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from
+[2]: https://github.com/Tdahuyou/javascript

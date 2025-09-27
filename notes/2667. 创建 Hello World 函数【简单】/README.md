@@ -24,6 +24,8 @@
 
 `createHelloWorld` 返回的函数应始终返回 `"Hello World"`。
 
+---
+
 **示例 2：**
 
 - 输入：`args = [{},null,42]`
@@ -33,6 +35,8 @@
   - `f({}, null, 42); // "Hello World"`
 
 可以传递任何参数给函数，但它应始终返回 `"Hello World"`。
+
+---
 
 **提示：**
 
