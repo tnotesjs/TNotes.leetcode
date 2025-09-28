@@ -2,8 +2,102 @@
 
 <!-- region:toc -->
 
-- [1. 📝 概述](#1--概述)
+- [1. 📝 题目描述](#1--题目描述)
+- [2. 🎯 s.1 - 解法 1](#2--s1---解法-1)
+- [3. 🎯 s.2 - 解法 2](#3--s2---解法-2)
+- [4. 🎯 s.3 - 解法 3](#4--s3---解法-3)
 
 <!-- endregion:toc -->
 
-## 1. 📝 概述
+## 1. 📝 题目描述
+
+- [leetcode](https://leetcode.cn/problems/count-prefix-and-suffix-pairs-i/)
+
+给你一个下标从 **0** 开始的字符串数组 `words` 。
+
+定义一个 **布尔** 函数 `isPrefixAndSuffix` ，它接受两个字符串参数 `str1` 和 `str2` ：
+
+- 当 `str1` 同时是 `str2` 的前缀（prefix）和后缀（suffix）时，`isPrefixAndSuffix(str1, str2)` 返回 `true`，否则返回 `false`。
+
+> - 字符串的前缀是从字符串的开头开始并延伸到其中任意点的子串。
+> - 字符串的后缀是从字符串的任意点开始并延伸到其末尾的子串
+
+例如，`isPrefixAndSuffix("aba", "ababa")` 返回 `true`，因为 `"aba"` 既是 `"ababa"` 的前缀，也是 `"ababa"` 的后缀，但是 `isPrefixAndSuffix("abc", "abcd")` 返回 `false`。
+
+以整数形式，返回满足 `i < j` 且 `isPrefixAndSuffix(words[i], words[j])` 为 `true` 的下标对 `(i, j)` 的 **数量** 。
+
+---
+
+- **示例 1：**
+
+```txt
+输入：words = ["a","aba","ababa","aa"]
+输出：4
+解释：在本示例中，计数的下标对包括：
+i = 0 且 j = 1 ，因为 isPrefixAndSuffix("a", "aba") 为 true 。
+i = 0 且 j = 2 ，因为 isPrefixAndSuffix("a", "ababa") 为 true 。
+i = 0 且 j = 3 ，因为 isPrefixAndSuffix("a", "aa") 为 true 。
+i = 1 且 j = 2 ，因为 isPrefixAndSuffix("aba", "ababa") 为 true 。
+因此，答案是 4 。
+```
+
+- **示例 2：**
+
+```txt
+输入：words = ["pa","papa","ma","mama"]
+输出：2
+解释：在本示例中，计数的下标对包括：
+i = 0 且 j = 1 ，因为 isPrefixAndSuffix("pa", "papa") 为 true 。
+i = 2 且 j = 3 ，因为 isPrefixAndSuffix("ma", "mama") 为 true 。
+因此，答案是 2 。
+```
+
+- **示例 3：**
+
+```txt
+输入：words = ["abab","ab"]
+输出：0
+解释：在本示例中，唯一有效的下标对是 i = 0 且 j = 1 ，但是 isPrefixAndSuffix("abab", "ab") 为 false 。
+因此，答案是 0 。
+```
+
+---
+
+**提示：**
+
+- `1 <= words.length <= 50`
+- `1 <= words[i].length <= 10`
+- `words[i]` 仅由小写英文字母组成。
+
+## 2. 🎯 s.1 - 解法 1
+
+::: code-group
+
+<<< ./solutions/1/1.js [js]
+
+:::
+
+- 时间复杂度：$O(1)$
+- 空间复杂度：$O(1)$
+
+## 3. 🎯 s.2 - 解法 2
+
+::: code-group
+
+<<< ./solutions/2/1.js [js]
+
+:::
+
+- 时间复杂度：$O(1)$
+- 空间复杂度：$O(1)$
+
+## 4. 🎯 s.3 - 解法 3
+
+::: code-group
+
+<<< ./solutions/3/1.js [js]
+
+:::
+
+- 时间复杂度：$O(1)$
+- 空间复杂度：$O(1)$
