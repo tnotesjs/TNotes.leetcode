@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/sum-of-number-and-its-reverse/)
 
-给你一个 **非负** 整数 `num` 。如果存在某个 **非负** 整数 `k` 满足 `k + reverse(k) = num`  ，则返回 `true` ；否则，返回 `false` 。
+给你一个 **非负** 整数 `num` 。如果存在某个 **非负** 整数 `k` 满足 `k + reverse(k) = num` ，则返回 `true` ；否则，返回 `false` 。
 
 `reverse(k)` 表示 `k` 反转每个数位后得到的数字。
 

@@ -13,16 +13,16 @@
 
 - [leetcode](https://leetcode.cn/problems/merge-similar-items/)
 
-给你两个二维整数数组  `items1` 和  `items2` ，表示两个物品集合。每个数组  `items`  有以下特质：
+给你两个二维整数数组 `items1` 和 `items2` ，表示两个物品集合。每个数组 `items` 有以下特质：
 
-- `items[i] = [valuei, weighti]` 其中  `valuei`  表示第  `i`  件物品的  **价值** ，`weighti`  表示第 `i`  件物品的 **重量** 。
-- `items`  中每件物品的价值都是 **唯一的** 。
+- `items[i] = [valuei, weighti]` 其中 `valuei` 表示第 `i` 件物品的 **价值** ，`weighti` 表示第 `i` 件物品的 **重量** 。
+- `items` 中每件物品的价值都是 **唯一的** 。
 
-请你返回一个二维数组  `ret`，其中  `ret[i] = [valuei, weighti]`， `weighti`  是所有价值为  `valuei`  物品的  **重量之和** 。
+请你返回一个二维数组 `ret`，其中 `ret[i] = [valuei, weighti]`， `weighti` 是所有价值为 `valuei` 物品的 **重量之和** 。
 
 ---
 
-**注意：** `ret`  应该按价值 **升序**  排序后返回。
+**注意：** `ret` 应该按价值 **升序** 排序后返回。
 
 ---
 
@@ -69,8 +69,8 @@ value = 7 的物品在 items2 中 weight = 1 ，总重量为 1 。
 - `1 <= items1.length, items2.length <= 1000`
 - `items1[i].length == items2[i].length == 2`
 - `1 <= valuei, weighti <= 1000`
-- `items1`  中每个 `valuei`  都是 **唯一的** 。
-- `items2`  中每个 `valuei`  都是 **唯一的** 。
+- `items1` 中每个 `valuei` 都是 **唯一的** 。
+- `items2` 中每个 `valuei` 都是 **唯一的** 。
 
 ## 2. 🎯 s.1 - 解法 1
 

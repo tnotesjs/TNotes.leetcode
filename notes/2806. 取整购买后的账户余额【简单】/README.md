@@ -3,10 +3,10 @@
 <!-- region:toc -->
 
 - [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1](#2--s1)
-- [3. 🎯 s.2](#3--s2)
-- [4. 🎯 s.3](#4--s3)
-- [5. 🫧 评价](#5--评价)
+- [2. 🫧 评价](#2--评价)
+- [3. 🎯 s.1](#3--s1)
+- [4. 🎯 s.2](#4--s2)
+- [5. 🎯 s.3](#5--s3)
 
 <!-- endregion:toc -->
 
@@ -24,7 +24,11 @@
 
 请你返回一个整数，表示你在愿意支出金额为 `purchaseAmount` 块钱的前提下，购买之后剩下的余额。
 
+---
+
 **注意：** `0` 也是 `10` 的倍数。
+
+---
 
 **示例 1：**
 
@@ -32,17 +36,25 @@
 - 输出：`90`
 - 解释：这个例子中，最接近 9 的 10 的倍数是 10 。所以你的账户余额为 100 - 10 = 90 。
 
+---
+
 **示例 2：**
 
 - 输入：`purchaseAmount = 15`
 - 输出：`80`
 - 解释：这个例子中，有 2 个最接近 15 的 10 的倍数：10 和 20，较大的数 20 是你的实际开销。所以你的账户余额为 `100 - 20 = 80`。
 
+---
+
 **提示：**
 
 - `0 <= purchaseAmount <= 100`
 
-## 2. 🎯 s.1
+## 2. 🫧 评价
+
+- 若使用数学的方式求解，可以自行找规律解题，规律很多，解法也很多。
+
+## 3. 🎯 s.1
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-26-23-10-13.png)
 
@@ -69,7 +81,7 @@ var accountBalanceAfterPurchase = function (purchaseAmount) {
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-26-23-10-44.png)
 
-## 3. 🎯 s.2
+## 4. 🎯 s.2
 
 **所有金额整除 5 找规律：**
 
@@ -101,7 +113,7 @@ var accountBalanceAfterPurchase = function (purchaseAmount) {
 }
 ```
 
-## 4. 🎯 s.3
+## 5. 🎯 s.3
 
 **所有金额 ➕ 5 后整除 10 找规律：**
 
@@ -127,7 +139,3 @@ var accountBalanceAfterPurchase = function (purchaseAmount) {
   return 100 - Math.floor((purchaseAmount + 5) / 10) * 10
 }
 ```
-
-## 5. 🫧 评价
-
-- 若使用数学的方式求解，可以自行找规律解题，规律很多，解法也很多。

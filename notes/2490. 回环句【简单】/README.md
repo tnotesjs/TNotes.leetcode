@@ -59,7 +59,7 @@
 输入：sentence = "Leetcode is cool"
 输出：false
 解释：句子中的单词是 ["Leetcode", "is", "cool"] 。
-- Leetcode 的最后一个字符和 is 的第一个字符 不 相等。
+- Leetcode 的最后一个字符和 is 的第一个字符 不 相等。
 这个句子 不 是回环句。
 ```
 

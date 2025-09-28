@@ -17,7 +17,7 @@
 
 一次 **移动** 由以下两个步骤组成：
 
-- 选中两个下标  `i` 和 `j` ，分别满足 `0 <= i < word1.length` 和 `0 <= j < word2.length` ，
+- 选中两个下标 `i` 和 `j` ，分别满足 `0 <= i < word1.length` 和 `0 <= j < word2.length` ，
 - 交换 `word1[i]` 和 `word2[j]` 。
 
 如果可以通过 **恰好一次** 移动，使 `word1` 和 `word2` 中不同字符的数目相等，则返回 `true` ；否则，返回 `false` 。

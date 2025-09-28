@@ -13,13 +13,13 @@
 
 - [leetcode](https://leetcode.cn/problems/closest-prime-numbers-in-range/)
 
-给你两个正整数  `left` 和  `right` ，请你找到两个整数  `num1` 和  `num2` ，它们满足：
+给你两个正整数 `left` 和 `right` ，请你找到两个整数 `num1` 和 `num2` ，它们满足：
 
-- `left <= nums1 < nums2 <= right`  。
-- `nums1` 和  `nums2`  都是 **质数**（质数是指大于 1 且因子只有 1 和它本身的自然数）。
-- `nums2 - nums1`  是满足上述条件的质数对中的 **最小值** 。
+- `left <= nums1 < nums2 <= right` 。
+- `nums1` 和 `nums2` 都是 **质数**（质数是指大于 1 且因子只有 1 和它本身的自然数）。
+- `nums2 - nums1` 是满足上述条件的质数对中的 **最小值** 。
 
-请你返回正整数数组  `ans = [nums1, nums2]` 。如果有多个整数对满足上述条件，请你返回  `nums1`  最小的质数对。如果不存在符合题意的质数对，请你返回  `[-1, -1]` 。
+请你返回正整数数组 `ans = [nums1, nums2]` 。如果有多个整数对满足上述条件，请你返回 `nums1` 最小的质数对。如果不存在符合题意的质数对，请你返回 `[-1, -1]` 。
 
 ---
 

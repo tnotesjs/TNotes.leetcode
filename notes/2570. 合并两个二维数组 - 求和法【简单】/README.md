@@ -16,7 +16,7 @@
 给你两个 **二维** 整数数组 `nums1` 和 `nums2.`
 
 - `nums1[i] = [idi, vali]` 表示编号为 `idi` 的数字对应的值等于 `vali` 。
-- `nums2[i] = [idi, vali]`  表示编号为 `idi` 的数字对应的值等于 `vali` 。
+- `nums2[i] = [idi, vali]` 表示编号为 `idi` 的数字对应的值等于 `vali` 。
 
 每个数组都包含 **互不相同** 的 id ，并按 id 以 **递增** 顺序排列。
 

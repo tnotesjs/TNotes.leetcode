@@ -13,11 +13,11 @@
 
 - [leetcode](https://leetcode.cn/problems/maximum-segment-sum-after-removals/)
 
-给你两个下标从 **0**  开始的整数数组  `nums` 和  `removeQueries` ，两者长度都为  `n` 。对于第  `i`  个查询，`nums`  中位于下标  `removeQueries[i]`  处的元素被删除，将 `nums`  分割成更小的子段。
+给你两个下标从 **0** 开始的整数数组 `nums` 和 `removeQueries` ，两者长度都为 `n` 。对于第 `i` 个查询，`nums` 中位于下标 `removeQueries[i]` 处的元素被删除，将 `nums` 分割成更小的子段。
 
-一个 **子段**  是 `nums`  中连续 **正**  整数形成的序列。**子段和**  是子段中所有元素的和。
+一个 **子段** 是 `nums` 中连续 **正** 整数形成的序列。**子段和** 是子段中所有元素的和。
 
-请你返回一个长度为 `n`  的整数数组  `answer` ，其中  `answer[i]`是第  `i`  次删除操作以后的  **最大**  子段和。
+请你返回一个长度为 `n` 的整数数组 `answer` ，其中 `answer[i]`是第 `i` 次删除操作以后的 **最大** 子段和。
 
 ---
 
@@ -60,7 +60,7 @@
 - `1 <= n <= 10^5`
 - `1 <= nums[i] <= 10^9`
 - `0 <= removeQueries[i] < n`
-- `removeQueries`  中所有数字 **互不相同** 。
+- `removeQueries` 中所有数字 **互不相同** 。
 
 ## 2. 🎯 s.1 - 解法 1
 

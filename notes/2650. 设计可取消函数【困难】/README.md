@@ -43,7 +43,7 @@ promise.catch(console.log) // logs "Cancelled" at t=50ms
 ```txt
 输入：
 generatorFunction = function*() {
-  return 42;
+  return 42;
 }
 cancelledAt = 100
 输出：{"resolved": 42}
@@ -61,8 +61,8 @@ promise.then(console.log); // 在 t=0ms 解析为 42
 ```txt
 输入：
 generatorFunction = function*() {
-  const msg = yield new Promise(res => res("Hello"));
-  throw `Error: ${msg}`;
+  const msg = yield new Promise(res => res("Hello"));
+  throw `Error: ${msg}`;
 }
 cancelledAt = null
 输出：{"rejected": "Error: Hello"}
@@ -75,8 +75,8 @@ cancelledAt = null
 ```txt
 输入：
 generatorFunction = function*() {
-  yield new Promise(res => setTimeout(res, 200));
-  return "Success";
+  yield new Promise(res => setTimeout(res, 200));
+  return "Success";
 }
 cancelledAt = 100
 输出：{"rejected": "Cancelled"}
@@ -89,12 +89,12 @@ cancelledAt = 100
 ```txt
 输入：
 generatorFunction = function*() {
-  let result = 0;
-  yield new Promise(res => setTimeout(res, 100));
-  result += yield new Promise(res => res(1));
-  yield new Promise(res => setTimeout(res, 100));
-  result += yield new Promise(res => res(1));
-  return result;
+  let result = 0;
+  yield new Promise(res => setTimeout(res, 100));
+  result += yield new Promise(res => res(1));
+  yield new Promise(res => setTimeout(res, 100));
+  result += yield new Promise(res => res(1));
+  return result;
 }
 cancelledAt = null
 输出：{"resolved": 2}
@@ -107,16 +107,16 @@ cancelledAt = null
 ```txt
 输入：
 generatorFunction = function*() {
-  let result = 0;
-  try {
-    yield new Promise(res => setTimeout(res, 100));
-    result += yield new Promise(res => res(1));
-    yield new Promise(res => setTimeout(res, 100));
-    result += yield new Promise(res => res(1));
-  } catch(e) {
-    return result;
-  }
-  return result;
+  let result = 0;
+  try {
+    yield new Promise(res => setTimeout(res, 100));
+    result += yield new Promise(res => res(1));
+    yield new Promise(res => setTimeout(res, 100));
+    result += yield new Promise(res => res(1));
+  } catch(e) {
+    return result;
+  }
+  return result;
 }
 cancelledAt = 150
 输出：{"resolved": 1}
@@ -129,13 +129,13 @@ cancelledAt = 150
 ```txt
 输入：
 generatorFunction = function*() {
-  try {
-    yield new Promise((resolve, reject) => reject("Promise Rejected"));
-  } catch(e) {
-    let a = yield new Promise(resolve => resolve(2));
+  try {
+    yield new Promise((resolve, reject) => reject("Promise Rejected"));
+  } catch(e) {
+    let a = yield new Promise(resolve => resolve(2));
     let b = yield new Promise(resolve => resolve(2));
-    return a + b;
-  };
+    return a + b;
+  };
 }
 cancelledAt = null
 输出：{"resolved": 4}

@@ -28,7 +28,7 @@
 实现 `Allocator` 类：
 
 - `Allocator(int n)` 使用一个大小为 `n` 的内存数组初始化 `Allocator` 对象。
-- `int allocate(int size, int mID)` 找出大小为 `size` 个连续空闲内存单元且位于   **最左侧** 的块，分配并赋 id `mID` 。返回块的第一个下标。如果不存在这样的块，返回 `-1` 。
+- `int allocate(int size, int mID)` 找出大小为 `size` 个连续空闲内存单元且位于 **最左侧** 的块，分配并赋 id `mID` 。返回块的第一个下标。如果不存在这样的块，返回 `-1` 。
 - `int freeMemory(int mID)` 释放 id `mID` 对应的所有内存单元。返回释放的内存单元数目。
 
 ---

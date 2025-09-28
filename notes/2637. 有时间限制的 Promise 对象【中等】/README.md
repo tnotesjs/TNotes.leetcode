@@ -13,12 +13,12 @@
 
 - [leetcode](https://leetcode.cn/problems/promise-time-limit/)
 
-请你编写一个函数，它接受一个异步函数 `fn`  和一个以毫秒为单位的时间 `t`。它应根据限时函数返回一个有 **限时** 效果的函数。函数 `fn` 接受提供给 **限时** 函数的参数。
+请你编写一个函数，它接受一个异步函数 `fn` 和一个以毫秒为单位的时间 `t`。它应根据限时函数返回一个有 **限时** 效果的函数。函数 `fn` 接受提供给 **限时** 函数的参数。
 
 **限时** 函数应遵循以下规则：
 
 - 如果 `fn` 在 `t` 毫秒的时间限制内完成，**限时** 函数应返回结果。
-- 如果 `fn` 的执行超过时间限制，**限时**  函数应拒绝并返回字符串 `"Time Limit Exceeded"` 。
+- 如果 `fn` 的执行超过时间限制，**限时** 函数应拒绝并返回字符串 `"Time Limit Exceeded"` 。
 
 ---
 
@@ -27,8 +27,8 @@
 ```txt
 输入：
 fn = async (n) => {
-  await new Promise(res => setTimeout(res, 100));
-  return n * n;
+  await new Promise(res => setTimeout(res, 100));
+  return n * n;
 }
 inputs = [5]
 t = 50
@@ -38,10 +38,10 @@ const limited = timeLimit(fn, t)
 const start = performance.now()
 let result;
 try {
-   const res = await limited(...inputs)
-   result = {"resolved": res, "time": Math.floor(performance.now() - start)};
+   const res = await limited(...inputs)
+   result = {"resolved": res, "time": Math.floor(performance.now() - start)};
 } catch (err) {
-   result = {"rejected": err, "time": Math.floor(performance.now() - start)};
+   result = {"rejected": err, "time": Math.floor(performance.now() - start)};
 }
 console.log(result) // 输出结果
 
@@ -53,8 +53,8 @@ console.log(result) // 输出结果
 ```txt
 输入：
 fn = async (n) => {
-  await new Promise(res => setTimeout(res, 100));
-  return n * n;
+  await new Promise(res => setTimeout(res, 100));
+  return n * n;
 }
 inputs = [5]
 t = 150
@@ -68,8 +68,8 @@ t = 150
 ```txt
 输入：
 fn = async (a, b) => {
-  await new Promise(res => setTimeout(res, 120));
-  return a + b;
+  await new Promise(res => setTimeout(res, 120));
+  return a + b;
 }
 inputs = [5,10]
 t = 150
@@ -83,7 +83,7 @@ t = 150
 ```txt
 输入：
 fn = async () => {
-  throw "Error";
+  throw "Error";
 }
 inputs = []
 t = 1000

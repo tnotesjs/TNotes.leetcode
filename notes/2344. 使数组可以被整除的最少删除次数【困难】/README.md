@@ -13,11 +13,11 @@
 
 - [leetcode](https://leetcode.cn/problems/minimum-deletions-to-make-array-divisible/)
 
-给你两个正整数数组  `nums` 和  `numsDivide` 。你可以从  `nums`  中删除任意数目的元素。
+给你两个正整数数组 `nums` 和 `numsDivide` 。你可以从 `nums` 中删除任意数目的元素。
 
-请你返回使 `nums`  中 **最小**  元素可以整除 `numsDivide`  中所有元素的 **最少**  删除次数。如果无法得到这样的元素，返回 `-1` 。
+请你返回使 `nums` 中 **最小** 元素可以整除 `numsDivide` 中所有元素的 **最少** 删除次数。如果无法得到这样的元素，返回 `-1` 。
 
-如果  `y % x == 0` ，那么我们说整数  `x`  整除  `y` 。
+如果 `y % x == 0` ，那么我们说整数 `x` 整除 `y` 。
 
 ---
 
