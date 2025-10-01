@@ -18,7 +18,7 @@ var findSecondMinimumValue = function (root) {
   const dfs = (node) => {
     if (!node) return -1
 
-    // 如果当前节点值大于最小值，它可能就是第二小的值
+    // 如果当前节点值大于最小值，那它就是第二小的值
     if (node.val > minVal) {
       return node.val
     }

@@ -10,6 +10,10 @@ class ListNode {
 var MyHashMap = function () {
   this.size = 10000 // 哈希表大小
   this.buckets = new Array(this.size).fill(null) // 初始化桶数组
+
+  // 提示中提到最多调用 10^4 次 put、get 和 remove 方法
+  // 因此这里最多可能会需要开辟 10^4 个空间
+  // 但是 key, value 的范围大于 10^4，这意味着会存在哈希冲突的问题，可以通过 ListNode 中的 next 来解决。
 }
 
 /**

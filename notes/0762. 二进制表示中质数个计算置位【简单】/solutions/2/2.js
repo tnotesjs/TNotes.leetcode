@@ -4,12 +4,10 @@
  * @return {number}
  */
 var countPrimeSetBits = function (left, right) {
-  // 在32位整数范围内，1的个数最多为32，预先定义可能的质数集合
-  const primes = new Set([2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31])
+  const primes = new Set([2, 3, 5, 7, 11, 13, 17, 19])
 
   let result = 0
   for (let i = left; i <= right; i++) {
-    // 使用内置函数计算1的个数
     const onesCount = i.toString(2).split('1').length - 1
     if (primes.has(onesCount)) {
       result++

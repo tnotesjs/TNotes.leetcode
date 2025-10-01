@@ -18,6 +18,7 @@ var calPoints = function (operations) {
       case 'C':
         // 撤销上次得分
         stack.pop()
+        // 注意：题目说的无效是移除该得分，并不是清零。
         break
       default:
         // 添加整数分数
