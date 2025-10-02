@@ -1,9 +1,9 @@
 {
   "bilibili": [],
   "yuque": [],
-  "done": false,
-  "enableDiscussions": false,
+  "done": true,
+  "enableDiscussions": true,
   "created_at": 1748433329000,
-  "updated_at": 1757982821000,
+  "updated_at": 1759381774654,
   "id": "36930ce5-600f-4454-8287-9f907cbe2efa"
 }

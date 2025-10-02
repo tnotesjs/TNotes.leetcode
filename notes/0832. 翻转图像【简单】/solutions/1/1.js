@@ -4,27 +4,17 @@
  */
 var flipAndInvertImage = function (image) {
   const n = image.length
+  const m = image[0].length
 
+  // 步骤1：水平翻转每一行
   for (let i = 0; i < n; i++) {
-    let left = 0
-    let right = n - 1
+    image[i].reverse()
+  }
 
-    // 双指针从两端向中间处理
-    while (left < right) {
-      // 如果两个位置的值相同，翻转并反转后会改变
-      if (image[i][left] === image[i][right]) {
-        image[i][left] = 1 - image[i][left]
-        image[i][right] = 1 - image[i][right]
-      }
-      // 如果两个位置的值不同，翻转并反转后值不变，无需处理
-
-      left++
-      right--
-    }
-
-    // 处理奇数长度数组的中间元素
-    if (left === right) {
-      image[i][left] = 1 - image[i][left]
+  // 步骤2：反转图像（0变1，1变0）
+  for (let i = 0; i < n; i++) {
+    for (let j = 0; j < m; j++) {
+      image[i][j] = 1 - image[i][j]
     }
   }
 

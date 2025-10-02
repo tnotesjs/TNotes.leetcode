@@ -9,7 +9,7 @@ var numberOfLines = function (widths, s) {
 
   for (const char of s) {
     // 获取当前字符的宽度
-    const charWidth = widths[char.charCodeAt(0) - 'a'.charCodeAt(0)]
+    const charWidth = widths[char.charCodeAt(0) - 97] // 'a'.charCodeAt(0) => 'a'的 ASCII 码是 97
 
     // 如果加上当前字符会超过一行的最大宽度，则换行
     if (currentWidth + charWidth > 100) {
