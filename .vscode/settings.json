@@ -92,9 +92,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "prettier.proseWrap": "never"
   },
-  "markdown.extension.codeLanguages": {
-    "markmap": "markdown"
-  },
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
