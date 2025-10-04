@@ -2,8 +2,6 @@
 
 <!-- region:toc -->
 
-- [📂 TNotes.yuque](https://www.yuque.com/tdahuyou/tnotes.yuque/)
-  - [TNotes.yuque.leetcode.0622](https://www.yuque.com/tdahuyou/tnotes.yuque/leetcode.0622)
 - [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 设计循环队列](#2--s1---设计循环队列)
 

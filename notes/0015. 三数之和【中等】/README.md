@@ -2,8 +2,6 @@
 
 <!-- region:toc -->
 
-- [📂 TNotes.yuque](https://www.yuque.com/tdahuyou/tnotes.yuque/)
-  - [TNotes.yuque.leetcode.0015](https://www.yuque.com/tdahuyou/tnotes.yuque/leetcode.0015)
 - [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 排序 + 双指针](#2--s1---排序--双指针)
 
