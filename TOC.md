@@ -909,7 +909,7 @@
 - [ ] [0880. 索引处的解码字符串【中等】](https://tnotesjs.github.io/TNotes.leetcode/notes/0880.%20%E7%B4%A2%E5%BC%95%E5%A4%84%E7%9A%84%E8%A7%A3%E7%A0%81%E5%AD%97%E7%AC%A6%E4%B8%B2%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README)
 - [ ] [0881. 救生艇【中等】](https://tnotesjs.github.io/TNotes.leetcode/notes/0881.%20%E6%95%91%E7%94%9F%E8%89%87%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README)
 - [ ] [0882. 细分图中的可到达节点【困难】](https://tnotesjs.github.io/TNotes.leetcode/notes/0882.%20%E7%BB%86%E5%88%86%E5%9B%BE%E4%B8%AD%E7%9A%84%E5%8F%AF%E5%88%B0%E8%BE%BE%E8%8A%82%E7%82%B9%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README)
-- [ ] [0883. 三维形体投影面积【简单】](https://tnotesjs.github.io/TNotes.leetcode/notes/0883.%20%E4%B8%89%E7%BB%B4%E5%BD%A2%E4%BD%93%E6%8A%95%E5%BD%B1%E9%9D%A2%E7%A7%AF%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README)
+- [x] [0883. 三维形体投影面积【简单】](https://tnotesjs.github.io/TNotes.leetcode/notes/0883.%20%E4%B8%89%E7%BB%B4%E5%BD%A2%E4%BD%93%E6%8A%95%E5%BD%B1%E9%9D%A2%E7%A7%AF%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README)
 - [ ] [0884. 两句话中的不常见单词【简单】](https://tnotesjs.github.io/TNotes.leetcode/notes/0884.%20%E4%B8%A4%E5%8F%A5%E8%AF%9D%E4%B8%AD%E7%9A%84%E4%B8%8D%E5%B8%B8%E8%A7%81%E5%8D%95%E8%AF%8D%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README)
 - [ ] [0885. 螺旋矩阵 III【中等】](https://tnotesjs.github.io/TNotes.leetcode/notes/0885.%20%E8%9E%BA%E6%97%8B%E7%9F%A9%E9%98%B5%20III%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README)
 - [ ] [0886. 可能的二分法【中等】](https://tnotesjs.github.io/TNotes.leetcode/notes/0886.%20%E5%8F%AF%E8%83%BD%E7%9A%84%E4%BA%8C%E5%88%86%E6%B3%95%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README)
