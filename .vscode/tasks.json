@@ -2,6 +2,16 @@
   "version": "2.0.0",
   "tasks": [
     {
+      "label": "tn:help",
+      "detail": "显示帮助信息",
+      "type": "shell",
+      "command": "pnpm tn:help",
+      "group": {
+        "kind": "build"
+      },
+      "problemMatcher": ["$tsc"]
+    },
+    {
       "label": "tn:new",
       "detail": "新建一篇笔记",
       "type": "shell",
