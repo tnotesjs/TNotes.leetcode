@@ -76,5 +76,6 @@
       "icon": "github"
     }
   ],
-  "id": "b21928bb-10f5-47d8-9af5-e9f714decc34"
+  "id": "b21928bb-10f5-47d8-9af5-e9f714decc34",
+  "sidebarShowNoteId": true
 }
