@@ -3,8 +3,9 @@
   "tnotes": [],
   "yuque": [],
   "done": false,
+  "deprecated": false,
   "enableDiscussions": false,
+  "id": "e0dbb05b-d500-4684-872b-f7a22492d600",
   "created_at": 1748433329000,
-  "updated_at": 1757172170000,
-  "id": "e0dbb05b-d500-4684-872b-f7a22492d600"
+  "updated_at": 1757172170000
 }

@@ -2,6 +2,13 @@
 
 <!-- region:toc -->
 
+::: details 📚 相关资源
+
+- [📂 TNotes.yuque（笔记附件资源）](https://www.yuque.com/tdahuyou/tnotes.yuque/)
+  - [TNotes.yuque.leetcode.0812](https://www.yuque.com/tdahuyou/tnotes.yuque/leetcode.0812)
+
+:::
+
 - [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力枚举 + 向量叉积](#2--s1---暴力枚举--向量叉积)
 - [3. 🎯 s.2 - 暴力枚举 + 海伦（Heron）公式](#3--s2---暴力枚举--海伦heron公式)
