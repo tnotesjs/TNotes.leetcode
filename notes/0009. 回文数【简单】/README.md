@@ -15,87 +15,74 @@
 
 给你一个整数 `x` ，如果 `x` 是一个回文整数，返回 `true` ；否则，返回 `false`。
 
-**回文数** 是指正序（从左向右）和倒序（从右向左）读都是一样的整数。例如，`121` 是回文，而 `123` 不是。
+回文数 是指正序（从左向右）和倒序（从右向左）读都是一样的整数。例如，`121` 是回文，而 `123` 不是。
 
-> 回文数：如果一个数向前和向后读都相同，则它是一个 **回文数**。例如，`121` 是回文数，而 `123` 不是。
+> 回文数：如果一个数向前和向后读都相同，则它是一个 回文数。例如，`121` 是回文数，而 `123` 不是。
 
-**示例 1：**
+示例 1：
 
 - 输入：x = 121
 - 输出：true
 
-**示例 2：**
+示例 2：
 
 - 输入：x = -121
 - 输出：false
 - 解释：从左向右读, 为 -121 。 从右向左读, 为 121- 。因此它不是一个回文数。
 
-**示例 3：**
+示例 3：
 
 - 输入：x = 10
 - 输出：false
 - 解释：从右向左读, 为 01 。因此它不是一个回文数。
 
-**提示：**
+提示：
 
 - `-2^31 <= x <= 2^31 - 1`
 
-**进阶：** 你能不将整数转为字符串来解决这个问题吗？
+进阶： 你能不将整数转为字符串来解决这个问题吗？
 
 ## 2. 🎯 s.1 - 暴力解法（转为字符串来比较）
 
-```javascript
-var isPalindrome = function (x) {
-  if (x < 0) return false
-  return x.toString() === x.toString().split('').reverse().join('')
-}
-```
+::: code-group
 
-- 时间复杂度：$O(n)$
-- 空间复杂度：$O(n)$
+<<< ./solutions/1/1.js
 
-**特殊情况：**
+:::
 
-如果 `x` 是负数的话，直接 `return false` 即可。
+- 时间复杂度：$O(n)$，其中 n 是数字的位数
+- 空间复杂度：$O(n)$，需要额外的字符串空间
+
+将数字转换为字符串，然后反转字符串并与原字符串比较。如果相同则为回文数，负数直接返回 `false`。
 
 ## 3. 🎯 s.2 - 先反转再比较
 
-```javascript
-var isPalindrome = function (x) {
-  if (x < 0) return false
-  const originalNum = x // 原始值
-  let resultNum = 0 // 经过反转后的结果
-  while (x !== 0) {
-    resultNum = resultNum * 10 + (x % 10)
-    x = parseInt(x / 10)
-  }
-  return originalNum === resultNum
-}
-```
+::: code-group
 
-- 时间复杂度：$O(n)$
-- 空间复杂度：$O(1)$
+<<< ./solutions/2/1.js
 
-核心逻辑跟【0007. 整数反转】中的【solutions - 数学方法】是一样的。
+:::
+
+- 时间复杂度：$O(n)$，其中 n 是数字的位数
+- 空间复杂度：$O(1)$，只使用常数级别的额外空间
+
+通过数学运算反转整个数字，然后与原数字比较。使用取余和整除操作逐位构建反转后的数字。
 
 ## 4. 🎯 s.3 - 二分对比
 
-![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-25-16-13-37.png)
+::: swiper
 
-```javascript
-var isPalindrome = function (x) {
-  if (x < 0) return false
-  const arr = x.toString().split('') // 转化为数组
-  const len = arr.length
-  let endIndex = len - 1 // 数组的最后一个下标
-  for (let i = 0; i <= len / 2; i++) {
-    if (arr[i] !== arr[endIndex - i]) return false
-  }
-  return true
-}
-```
+![解题思路](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-25-16-13-37.png)
 
-- 时间复杂度：$O(n)$
-- 空间复杂度：$O(n)$
+:::
 
-俩指针从两端向中间走，检查走过的每一个成员的值，一旦发现不同的就返回 `false`。若遍历结束了，还是没有找到不同的成员，那么返回 `true`。
+::: code-group
+
+<<< ./solutions/3/1.js
+
+:::
+
+- 时间复杂度：$O(n)$，其中 n 是数字的位数
+- 空间复杂度：$O(n)$，需要将数字转为字符串数组
+
+将数字转为字符串数组后，使用双指针从两端向中间遍历。两指针分别指向首尾，逐位比较字符，一旦发现不同就返回 `false`，全部相同则返回 `true`。

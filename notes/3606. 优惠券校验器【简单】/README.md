@@ -1,4 +1,4 @@
-# [3606. 优惠券校验器](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/3606.%20%E4%BC%98%E6%83%A0%E5%88%B8%E6%A0%A1%E9%AA%8C%E5%99%A8)
+# [3606. 优惠券校验器【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/3606.%20%E4%BC%98%E6%83%A0%E5%88%B8%E6%A0%A1%E9%AA%8C%E5%99%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
 
