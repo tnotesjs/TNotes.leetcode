@@ -46,21 +46,11 @@
 
 :::
 
-```javascript
-var longestCommonPrefix = function (strs) {
-  // 找到长度最小的字符串
-  let minStr = strs[0]
-  for (let i = 1; i < strs.length; i++)
-    minStr = strs[i].length < minStr.length ? strs[i] : minStr
+::: code-group
 
-  // 挨个遍历每个成员，从每个成员的首字符开始检查
-  for (let i = 0; i < minStr.length; i++)
-    for (let j = 0; j < strs.length; j++)
-      if (strs[j][i] !== minStr[i]) return minStr.slice(0, i)
+<<< ./solutions/1/1.js {}
 
-  return minStr
-}
-```
+:::
 
 - 时间复杂度： $O(m*n)$
 - 空间复杂度： $O(1)$
@@ -76,27 +66,24 @@ var longestCommonPrefix = function (strs) {
 
 ## 3. 🎯 s.2 - 横向扫描
 
-![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-25-16-41-28.png)
+::: swiper
 
-> 为了方便演示，再插入一个 foo。
+![1](./assets/2/1.svg)
 
-```javascript
-var longestCommonPrefix = function (strs) {
-  let str = strs[0]
-  for (let i = 1; i < strs.length; i++) {
-    while (strs[i].indexOf(str) !== 0) {
-      str = str.substring(0, str.length - 1) // 不断的截去最后一个字符
-      if (str === '') return str
-    }
-  }
-  return str
-}
-```
+![2](./assets/2/2.svg)
 
-- 时间复杂度： $O(m*n)$
+![3](./assets/2/3.svg)
+
+:::
+
+::: code-group
+
+<<< ./solutions/2/1.js {}
+
+:::
+
+- 时间复杂度： $O(m*n)$，其中 n 是字符串数组的长度，m 是公共前缀的长度
 - 空间复杂度： $O(1)$
-
-其中 n 是字符串数组的长度，m 是公共前缀的长度。
 
 解题思路：
 
@@ -109,25 +96,23 @@ var longestCommonPrefix = function (strs) {
 
 ## 4. 🎯 s.3 - 纵向扫描
 
-![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-25-16-42-01.png)
+::: swiper
 
-```javascript
-var longestCommonPrefix = function (strs) {
-  for (let i = 0; i < strs[0].length; i++) {
-    const char = strs[0][i]
-    for (let j = 1; j < strs.length; j++) {
-      if (i === strs[j].length || strs[j][i] !== char) {
-        return strs[0].substring(0, i)
-      }
-    }
-  }
-  return strs[0]
-}
-```
+![1](./assets/3/1.svg)
+
+![2](./assets/3/2.svg)
+
+![3](./assets/3/3.svg)
+
+![4](./assets/3/4.svg)
+
+:::
+
+::: code-group
+
+<<< ./solutions/3/1.js {}
+
+:::
 
 - 时间复杂度： $O(m*n)$
 - 空间复杂度： $O(1)$
-
-解题思路：
-
-逐个字符地对比所有字符串的相同位置的字符，直到遇到不匹配的字符或到达某个字符串的末尾。
