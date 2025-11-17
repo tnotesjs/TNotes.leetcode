@@ -17,18 +17,18 @@
 
 如果不存在公共前缀，返回空字符串 `""`。
 
-**示例 1：**
+示例 1：
 
 - 输入：strs = ["flower","flow","flight"]
 - 输出："fl"
 
-**示例 2：**
+示例 2：
 
 - 输入：strs = ["dog","racecar","car"]
 - 输出：""
 - 解释：输入不存在公共前缀。
 
-**提示：**
+提示：
 
 - `1 <= strs.length <= 200`
 - `0 <= strs[i].length <= 200`
@@ -36,7 +36,15 @@
 
 ## 2. 🎯 s.1 - 暴力解法
 
-![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-25-16-39-11.png)
+::: swiper
+
+![1](./assets/1/1.svg)
+
+![2](./assets/1/2.svg)
+
+![3](./assets/1/3.svg)
+
+:::
 
 ```javascript
 var longestCommonPrefix = function (strs) {
@@ -61,7 +69,7 @@ var longestCommonPrefix = function (strs) {
 
 对于空间复杂度，算法并没有使用额外的空间，除了一些常量级别的辅助变量。因此，空间复杂度为 $O(1)$。
 
-**核心逻辑：**
+核心步骤：
 
 1. 找到长度最短的字符串。
 2. 依次遍历最短字符串的每个字符以及字符串数组的每一项，从头开始比较，一旦发现不等的字符直接 return 切片结果。
@@ -90,7 +98,7 @@ var longestCommonPrefix = function (strs) {
 
 其中 n 是字符串数组的长度，m 是公共前缀的长度。
 
-**解题思路：**
+解题思路：
 
 在这个算法中，我们首先将第一个字符串设置为初始公共前缀 str。然后，我们依次遍历字符串数组中的每个字符串，并在每一步中，我们不断地将 str 与当前字符串进行匹配，直到 str 是当前字符串的前缀为止。这个过程中，我们会逐渐缩短 str 的长度，直到它成为所有字符串的公共前缀。
 
@@ -120,6 +128,6 @@ var longestCommonPrefix = function (strs) {
 - 时间复杂度： $O(m*n)$
 - 空间复杂度： $O(1)$
 
-**解题思路：**
+解题思路：
 
 逐个字符地对比所有字符串的相同位置的字符，直到遇到不匹配的字符或到达某个字符串的末尾。
