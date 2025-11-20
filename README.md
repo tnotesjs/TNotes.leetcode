@@ -63,7 +63,7 @@
 - [ ] [0017. 电话号码的字母组合【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0017.%20%E7%94%B5%E8%AF%9D%E5%8F%B7%E7%A0%81%E7%9A%84%E5%AD%97%E6%AF%8D%E7%BB%84%E5%90%88%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0018. 四数之和【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0018.%20%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0019. 删除链表的倒数第 N 个结点【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0019.%20%E5%88%A0%E9%99%A4%E9%93%BE%E8%A1%A8%E7%9A%84%E5%80%92%E6%95%B0%E7%AC%AC%20N%20%E4%B8%AA%E7%BB%93%E7%82%B9%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
-- [ ] [0020. 有效的括号【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0020.%20%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
+- [x] [0020. 有效的括号【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0020.%20%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
 - [ ] [0021. 合并两个有序链表【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0021.%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
 - [ ] [0022. 括号生成【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0022.%20%E6%8B%AC%E5%8F%B7%E7%94%9F%E6%88%90%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0023. 合并 K 个升序链表【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0023.%20%E5%90%88%E5%B9%B6%20K%20%E4%B8%AA%E5%8D%87%E5%BA%8F%E9%93%BE%E8%A1%A8%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
