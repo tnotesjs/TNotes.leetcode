@@ -4,7 +4,7 @@
 
 - [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1](#2--s1)
-- [3. 🔗 References](#3--references)
+- [3. 🔗 引用](#3--references)
 
 <!-- endregion:toc -->
 
@@ -63,7 +63,7 @@ var sortBy = function (arr, fn) {
 
 可以通过 `Array.prototype.sort` 快速解题，题目描述中提到：按照 fn 的输出值排序。最先想到的就是数组的 sort 方法，只需要将数组的每一项作为 fn 函数的入参丢给它然后做差即可。
 
-## 3. 🔗 References
+## 3. 🔗 引用
 
 - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
   - MDN，`Array.prototype.sort`

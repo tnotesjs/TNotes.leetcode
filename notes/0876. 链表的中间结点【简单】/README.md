@@ -5,7 +5,7 @@
 - [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法 - 先找长度，再找中间](#2--s1---暴力解法---先找长度再找中间)
 - [3. 🎯 s.2 - 快慢指针 - 一步两步](#3--s2---快慢指针---一步两步)
-- [4. 🔗 References](#4--references)
+- [4. 🔗 引用](#4--references)
 
 <!-- endregion:toc -->
 
@@ -40,7 +40,6 @@
 
 - 链表的结点数范围是 `[1, 100]`
 - `1 <= Node.val <= 100`
-
 
 ## 2. 🎯 s.1 - 暴力解法 - 先找长度，再找中间
 
@@ -77,7 +76,7 @@ var middleNode = function (head) {
 - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-16-19-59-26.png)
 - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-16-19-59-32.png)
 
-## 4. 🔗 References
+## 4. 🔗 引用
 
 - https://leetcode.cn/problems/middle-of-the-linked-list/solutions/165152/kuai-man-zhi-zhen-zhu-yao-zai-yu-diao-shi-by-liwei/
   - 本节笔记中用到的图片来源于这篇题解。

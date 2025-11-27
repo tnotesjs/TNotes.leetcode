@@ -1,9 +1,7 @@
 {
   "author": "tnotesjs",
   "repoName": "TNotes.leetcode",
-  "keywords": [
-    "TNotes.leetcode"
-  ],
+  "keywords": ["TNotes.leetcode"],
   "sidebar_isNotesIDVisible": true,
   "sidebar_isCollapsed": true,
   "ignore_dirs": [
@@ -43,7 +41,7 @@
       "link": "/Words"
     },
     {
-      "text": "🔗 References",
+      "text": "🔗 引用",
       "link": "/References"
     },
     {
