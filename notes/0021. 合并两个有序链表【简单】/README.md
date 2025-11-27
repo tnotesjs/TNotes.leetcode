@@ -3,9 +3,8 @@
 <!-- region:toc -->
 
 - [1. 📝 题目描述](#1--题目描述)
-- [2. 📒 测试代码](#2--测试代码)
-- [3. 🎯 s.1 - 迭代](#3--s1---迭代)
-- [4. 🎯 s.2 - 递归](#4--s2---递归)
+- [2. 🎯 s.1 - 迭代](#2--s1---迭代)
+- [3. 🎯 s.2 - 递归](#3--s2---递归)
 
 <!-- endregion:toc -->
 
@@ -13,160 +12,59 @@
 
 - [leetcode](https://leetcode.cn/problems/merge-two-sorted-lists/)
 
-将两个升序链表合并为一个新的 **升序** 链表并返回。新链表是通过拼接给定的两个链表的所有节点组成的。
+将两个升序链表合并为一个新的 升序 链表并返回。新链表是通过拼接给定的两个链表的所有节点组成的。
 
-**示例 1：**
+示例 1：
 
 - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-26-23-11-25.png)
 - 输入：`l1 = [1,2,4], l2 = [1,3,4]`
 - 输出：`[1,1,2,3,4,4]`
 
-**示例 2：**
+示例 2：
 
 - 输入：`l1 = [], l2 = []`
 - 输出：`[]`
 
-**示例 3：**
+示例 3：
 
 - 输入：`l1 = [], l2 = [0]`
 - 输出：`[0]`
 
-**提示：**
+提示：
 
 - 两个链表的节点数目范围是 `[0, 50]`
 - `-100 <= Node.val <= 100`
-- `l1` 和 `l2` 均按 **非递减顺序** 排列
+- `l1` 和 `l2` 均按 非递减顺序 排列
 
-## 2. 📒 测试代码
+## 2. 🎯 s.1 - 迭代
 
-```js
-function ListNode(val, next) {
-  this.val = val === undefined ? 0 : val
-  this.next = next === undefined ? null : next
-}
+::: code-group
 
-function traverseLinkedList(root) {
-  let temp = root
-  while (true) {
-    if (temp !== null) {
-      console.log(temp.val)
-    } else {
-      break
-    }
-    temp = temp.next
-  }
-}
+<<< ./solutions/1/1.js [1]
 
-// 示例1
-const l1_node1 = new ListNode(1)
-const l1_node2 = new ListNode(2)
-const l1_node4 = new ListNode(4)
-l1_node1.next = l1_node2
-l1_node2.next = l1_node4
+<<< ./solutions/1/2.js [2]
 
-const l2_node1 = new ListNode(1)
-const l2_node3 = new ListNode(3)
-const l2_node4 = new ListNode(4)
-l2_node1.next = l2_node3
-l2_node3.next = l2_node4
+:::
 
-const newList1 = mergeTwoLists(l1_node1, l2_node1)
-traverseLinkedList(newList1) // 1 1 2 3 4 4
+- 时间复杂度：$O(m + n)$，其中 m 和 n 分别是两个链表的长度，需要遍历两个链表的所有节点
+- 空间复杂度：$O(1)$，只使用了常数级别的额外空间
 
-// 示例2
-// const newList2 = mergeTwoLists(new ListNode(null), new ListNode(null));
-// traverseLinkedList(newList2); // null null
+通过迭代方式合并两个有序链表。使用双指针分别指向两个链表，每次比较两个指针指向节点的值，将较小的节点接到结果链表后，并移动对应指针。当一个链表遍历完后，将另一个链表的剩余部分直接接到结果链表后。
 
-// 示例3
-// const newList3 = mergeTwoLists(new ListNode(null), new ListNode(0));
-// traverseLinkedList(newList3); // 0 null
-```
+对比自己写的和官方提供的题解，主要区别：对于空链表的处理。
 
-## 3. 🎯 s.1 - 迭代
+- `1` 自己的做法：最开始的时候添加判断，如果某个链表是空，那么直接返回另外一个
+- `2` 官方题解的做法：新建一个 prehead 节点，最后返回 prehead.next
 
-```js
-// 22-08-17
-/**
- * Definition for singly-linked list.
- * function ListNode(val, next) {
- *     this.val = (val===undefined ? 0 : val)
- *     this.next = (next===undefined ? null : next)
- * }
- */
-/**
- * @param {ListNode} list1
- * @param {ListNode} list2
- * @return {ListNode}
- */
-var mergeTwoLists = function (list1, list2) {
-  if (!list1) return list2
-  if (!list2) return list1
-  let head, cur
-  if (list1.val >= list2.val) {
-    head = cur = list2
-    list2 = list2.next
-  } else {
-    head = cur = list1
-    list1 = list1.next
-  }
-  while (list1 && list2) {
-    if (list1.val >= list2.val) {
-      cur.next = list2
-      cur = cur.next
-      list2 = list2.next
-    } else {
-      cur.next = list1
-      cur = cur.next
-      list1 = list1.next
-    }
-  }
-  cur.next = list1 ? list1 : list2
-  return head
-}
-```
+## 3. 🎯 s.2 - 递归
 
-```js
-// 官方题解
-var mergeTwoLists = function (l1, l2) {
-  const prehead = new ListNode(-1)
+::: code-group
 
-  let prev = prehead
-  while (l1 != null && l2 != null) {
-    if (l1.val <= l2.val) {
-      prev.next = l1
-      l1 = l1.next
-    } else {
-      prev.next = l2
-      l2 = l2.next
-    }
-    prev = prev.next
-  }
+<<< ./solutions/2/1.js [1]
 
-  // 合并后 l1 和 l2 最多只有一个还未被合并完，我们直接将链表末尾指向未合并完的链表即可
-  prev.next = l1 === null ? l2 : l1
+:::
 
-  return prehead.next
-}
-```
+- 时间复杂度：$O(m + n)$，其中 m 和 n 分别是两个链表的长度，需要递归遍历所有节点
+- 空间复杂度：$O(m + n)$，递归调用的栈空间深度最多为 m + n
 
-- 对比自己写的和官方提供的题解，主要区别：对于空链表的处理
-  - 自己的做法：最开始的时候添加判断，如果某个链表是空，那么直接返回另外一个
-  - 官方题解的做法：新建一个 prehead 节点，最后返回 prehead.next
-
-## 4. 🎯 s.2 - 递归
-
-```js
-var mergeTwoLists = function (list1, list2) {
-  if (!list1) return list2
-  if (!list2) return list1
-  if (list1.val <= list2.val) {
-    list1.next = mergeTwoLists(list1.next, list2)
-    return list1
-  } else {
-    list2.next = mergeTwoLists(list1, list2.next)
-    return list2
-  }
-}
-```
-
-- 如果使用递归的方式来写，代码确实会更加简洁，不过性能貌似并没有迭代好。
+使用递归方式合并两个有序链表。每次递归比较两个链表头节点的值，选择较小的节点作为当前节点，并递归处理剩余部分。递归的终止条件是某个链表为空，直接返回另一个链表。代码更加简洁，但由于递归调用栈的开销，性能略逊于迭代方式。
