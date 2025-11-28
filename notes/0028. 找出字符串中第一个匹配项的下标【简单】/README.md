@@ -4,9 +4,9 @@
 
 - [1. 📝 题目描述](#1--题目描述)
 - [2. 🫧 评价](#2--评价)
-- [3. 🎯 s.1 - 暴力解法 - 调用原生 API - indexOf](#3--s1---暴力解法---调用原生-api---indexof)
+- [3. 🎯 s.1 - 调用原生 API - indexOf](#3--s1---调用原生-api---indexof)
 - [4. 🎯 s.2 - 暴力解法](#4--s2---暴力解法)
-- [5. 🎯 s.3 - KMP](#5--s3---kmp)
+- [5. 🎯 s.3 - KMP 算法](#5--s3---kmp-算法)
 - [6. 🔗 引用](#6--引用)
 
 <!-- endregion:toc -->
@@ -15,7 +15,7 @@
 
 - [leetcode](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/)
 
-给你两个字符串 `haystack` 和 `needle` ，请你在 `haystack` 字符串中找出 `needle` 字符串的第一个匹配项的下标（下标从 0 开始）。如果 `needle` 不是 `haystack` 的一部分，则返回 `-1` 。
+给你两个字符串 `haystack` 和 `needle` ，请你在 `haystack` 字符串中找出 `needle` 字符串的第一个匹配项的下标（下标从 0 开始）。如果 `needle` 不是 `haystack` 的一部分，则返回 `-1`。
 
 示例 1：
 
@@ -41,151 +41,53 @@
 
 ## 2. 🫧 评价
 
-- 本节介绍了 KMP 算法，代码量不多，但理解起来比较费劲儿，不应该是简单题的难度。在查阅资料的过程中，了解到这貌似是考研、竞赛题。
-- 学习一个短语 - Find needle in haystack 大海捞针
+本节介绍的 KMP 算法，代码量不多，但理解起来比较费劲儿，算是经常出现的考研题、竞赛题的级别。在 TNotes.algorithms 中有介绍关于 KMP 算法的相关笔记。
 
-## 3. 🎯 s.1 - 暴力解法 - 调用原生 API - indexOf
+## 3. 🎯 s.1 - 调用原生 API - indexOf
 
-```javascript
-var strStr = function (haystack, needle) {
-  return haystack.indexOf(needle)
-}
-```
+::: code-group
 
-在 JS 中，字符串的 indexOf 方法，就是用来查找字符串中某个子串的位置，和题目的要求一致。做法简单粗暴，就是将 indexOf 给调用一下即可。作为算法题，我们应该想的是如何去实现内置的 indexOf 方法，思考它的实现逻辑，并使用代码将其写出来。
+<<< ./solutions/1/1.js
+
+:::
+
+- 时间复杂度：$O(n \times m)$，其中 n 是 haystack 的长度，m 是 needle 的长度，indexOf 内部实现通常使用类似暴力匹配的方式
+- 空间复杂度：$O(1)$，只使用了常数级别的额外空间
+
+直接调用 JavaScript 字符串的 `indexOf` 方法查找子串位置。作为算法题，应该思考如何实现内置方法的逻辑。
 
 ## 4. 🎯 s.2 - 暴力解法
 
-```js
-var strStr = function (haystack, needle) {
-  const n = haystack.length
-  const m = needle.length
+::: code-group
 
-  if (m === 0) return 0 // 特殊情况处理：空字符串
+<<< ./solutions/2/1.js
 
-  for (let i = 0; i <= n - m; i++) {
-    // 外层循环遍历主串
-    let match = true
-    for (let j = 0; j < m; j++) {
-      // 内层循环检查子串是否匹配
-      if (haystack[i + j] !== needle[j]) {
-        match = false
-        break
-      }
-    }
-    if (match) return i // 如果匹配成功，返回起始索引
-  }
+:::
 
-  return -1 // 如果没有找到匹配的子串，返回 -1
-}
-```
+- 时间复杂度：$O(n \times m)$，其中 n 是 haystack 的长度，m 是 needle 的长度
+- 空间复杂度：$O(1)$，只使用了常数级别的额外空间
 
-- 时间复杂度：O(n \* m)
-  - 其中 n 是 haystack 的长度，m 是 needle 的长度。
-- 实现思路：
-  - 从主串的开头 0 进行遍历，直到 n - m 为止。
-  - 每次遍历，一旦发现子串的某个位置不匹配，就结束本次匹配，下次匹配继续从子串开头进行匹配。
+双层循环暴力匹配。外层遍历主串，内层逐字符比较子串，一旦不匹配就从主串的下一位重新开始匹配。
 
-## 5. 🎯 s.3 - KMP
+## 5. 🎯 s.3 - KMP 算法
 
-```javascript
-/**
- * 22-09-30
- * @param {string} haystack
- * @param {string} needle
- * @return {number}
- */
-var strStr = function (haystack, needle) {
-  const n = haystack.length,
-    m = needle.length
+::: code-group
 
-  if (m === 0) return 0
+<<< ./solutions/3/1.js
 
-  // 初始化 next
-  const next = new Array(m).fill(0)
-  for (let i = 1, j = 0; i < m; i++) {
-    while (j > 0 && needle[j] !== needle[i]) j = next[j - 1] // j 收缩
-    if (needle[i] === needle[j]) j++ // j 扩散
-    next[i] = j // 更新 next[i]
-  }
+:::
 
-  // 查找匹配项
-  for (let i = 0, j = 0; i < n; i++) {
-    while (j > 0 && needle[j] !== haystack[i]) j = next[j - 1]
-    if (haystack[i] === needle[j]) j++
-    if (j === m) return i - m + 1
-  }
+- 时间复杂度：$O(n + m)$，其中 n 是 haystack 的长度，m 是 needle 的长度，构建 next 数组需要 $O(m)$，匹配过程需要 $O(n)$
+- 空间复杂度：$O(m)$，需要额外的 next 数组存储模式串的前缀信息
 
-  return -1
-}
-```
-
-- 时间复杂度：O(n + m)
-- 简述实现思路：
-  - 对暴力匹配做了优化，如果发现不匹配的情况，不会暴力地直接回溯到子串的开头位置，而是根据 next 中记录的索引来决定当本次匹配失败时，下次匹配开始的位置应该是哪。
-  - 理解 next 是理解 KMP 算法的关键。
-- 核心步骤
-  - 步骤 1. 初始化 next 数组：这部分代码构建了 PMT（或称 next 数组）。通过遍历模式串，计算每个位置的 最大相同前后缀长度，从而指导后续匹配时如何移动模式串。
-    - 什么是“最大相同前缀”？
-      - `next[i] = xxx` 表示位置 i 的最大相同前后缀长度是 xxx。
-      - 示例：`needle = "sad"` 对应的 next 数组为 `[0, 0, 0]`。
-      - 示例：`leeto` 对应的 next 数组为 `[0, 0, 0, 0, 0]`。
-      - 示例：`needle = "ababca"` 对应的 next 数组为 `[0, 0, 1, 2, 0, 1]`。
-        - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-17-12-17-38.png)
-      - 官方提供的示例：
-        - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-17-12-27-49.png)
-  - 步骤 2. 匹配过程：使用两个指针 i 和 j 分别遍历主串和模式串。当字符匹配时，两个指针都向前移动；如果不匹配，模式串指针 j 会根据 next 数组进行调整，以尝试新的匹配位置。如果模式串完全匹配，则返回匹配的起始位置。
-  - 步骤 1、2 的实现流程是 KMP 算法的核心，它们的实现逻辑是非常类似的。
-
-```js
-// 初始化 next
-const next = new Array(m).fill(0)
-for (let i = 1, j = 0; i < m; i++) {
-  while (j > 0 && needle[j] !== needle[i]) j = next[j - 1]
-  if (needle[i] === needle[j]) j++
-  next[i] = j
-}
-```
-
-- m 表示子串 needle 的长度。
-- i 表示子串 needle 的第几个位置。
-- j 是一个辅助变量，用于记录子串的当前位置失配时，需要回退到哪里。
-- `const next = new Array(m).fill(0);` next 数组中存放的成员，表示的含义是如果在匹配过程中，如果子串的某个位置失配了，那么需要根据 next 来决定下次匹配的开始位置，所以在初始化的时候，需要根据子串的长度来初始化。
-- `for (let i = 1, j = 0; i < m; i++) { ... }`
-  - 循环初始语句：
-    - `let i = 1` 如果第一个位置就失配了，不用纠结，直接从头开始，所以不需要去管 `next[0]` 的值，它肯定得是 `0`。
-    - `j = 0` 辅助变量 j 默认从 0 开始走。
-  - 循环条件：
-    - `i < m` 根据子串的长度来决定外层循环的次数，每次循环决定一个当前的 `next[i]` 的值。
-  - 循环体：
-    - 失配 - 收缩：`while (j > 0 && needle[j] !== needle[i]) j = next[j - 1]` 失配，`j` 回退到 `next[j - 1]` 的位置。
-    - 匹配 - 扩散：`if (needle[i] === needle[j]) j++` 匹配，j 向后移动一位。
-    - 更新 next：`next[i] = j` 将 j 的值赋给 `next[i]`。
-      - next 记录后续【查找匹配项】的流程中，当子串的 `j` 位置失配 `needle[j] !== haystack[i]` 时，指针 `j` 应该回溯到的位置是 `next[j - 1]`。
-
-```js
-// 查找匹配项
-for (let i = 0, j = 0; i < n; i++) {
-  while (j > 0 && needle[j] !== haystack[i]) j = next[j - 1]
-  if (haystack[i] === needle[j]) j++
-  if (j === m) return i - m + 1
-}
-```
-
-- i 表示匹配到了主串 haystack 的第几个位置。
-- m 表示子串 needle 的长度。
-- j 表示当前匹配到了子串 needle 的第几个位置。
-- `while (j > 0 && needle[j] !== haystack[i]) j = next[j - 1]` 失配，`j` 回退到 `next[j - 1]` 的位置。
-- `if (haystack[i] === needle[j]) j++` 匹配，j 向后移动一位。
-- `if (j === m) return i - m + 1` 一旦条件成立，表示在主串中找到了满足条件的连续子串，将匹配的起始位置返回。
+KMP 算法通过预处理模式串构建 next 数组记录最大相同前后缀长度，匹配失败时根据 next 数组智能移动模式串指针，避免重复比较，将时间复杂度优化到线性。
 
 ## 6. 🔗 引用
 
+- [TNotes.algorithms - 0014. KMP 算法][3]
 - [参考 solutions - 【宫水三叶】简单题学 KMP 算法][1]
 - [leetcode 官方题解][2]
-- [哔哩哔哩 - 最浅显易懂的 KMP 算法讲解][3]
-  - 理解 next 数组（next 数组有什么用？如何构建 next 数组？）是 KMP 算法的核心，可以多看看视屏中的动画演示。
 
 [1]: https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/solutions/575568/shua-chuan-lc-shuang-bai-po-su-jie-fa-km-tb86/
 [2]: https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/solutions/732236/shi-xian-strstr-by-leetcode-solution-ds6y/
-[3]: https://www.bilibili.com/video/BV1AY4y157yL/?spm_id_from=333.337.search-card.all.click&vd_source=f8873530fc00410ea3fbec0d4b875972
+[3]: https://tnotesjs.github.io/TNotes.algorithms/notes/0014.%20KMP%20%E7%AE%97%E6%B3%95/README
