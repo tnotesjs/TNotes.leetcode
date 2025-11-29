@@ -105,35 +105,13 @@ export async function runCommand(
   dir: string
 ): Promise<string> {
   return new Promise((resolve, reject) => {
-    exec(
-      command,
-      // !改 maxBuffer 默认值
-      // maxBuffer 默认是 1MB，在 TNotes.leetcode 3600+ 的笔记构建时不够用
-      // 会出现以下报错：
-      /* 
-      ❌ [11:21:36.807] 构建失败 RangeError [ERR_CHILD_PROCESS_STDIO_MAXBUFFER]: stdout maxBuffer length exceeded
-          at Socket.onChildStdout (node:child_process:490:14)
-          at Socket.emit (node:events:524:28)
-          at addChunk (node:internal/streams/readable:561:12)
-          at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
-          at Readable.push (node:internal/streams/readable:392:5)
-          at Pipe.onStreamRead (node:internal/stream_base_commons:191:23) {
-        code: 'ERR_CHILD_PROCESS_STDIO_MAXBUFFER',
-        cmd: 'pnpm vitepress build'
+    exec(command, { cwd: dir }, (error, stdout, stderr) => {
+      if (error) {
+        console.error(`处理 ${dir} 时出错：${stderr}`)
+        reject(error)
+      } else {
+        resolve(stdout.trim())
       }
-      ❌ stdout maxBuffer length exceeded
-      ❌ stdout maxBuffer length exceeded
-      */
-      // 这里刻意扩大 10 倍改为 10MB
-      { cwd: dir, maxBuffer: 10 * 1024 * 1024 },
-      (error, stdout, stderr) => {
-        if (error) {
-          console.error(`处理 ${dir} 时出错：${stderr}`)
-          reject(error)
-        } else {
-          resolve(stdout.trim())
-        }
-      }
-    )
+    })
   })
 }
