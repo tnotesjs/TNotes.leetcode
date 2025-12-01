@@ -22,11 +22,22 @@
       "src": "https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/assets/icon--leetcode.svg"
     },
     "title": "leetcode",
-    "completed_notes_count": 167,
+    "completed_notes_count": {
+      "25.03": 0,
+      "25.04": 0,
+      "25.05": 0,
+      "25.06": 0,
+      "25.07": 19,
+      "25.08": 55,
+      "25.09": 134,
+      "25.10": 161,
+      "25.11": 167,
+      "25.12": 167
+    },
     "details": "Leetcode 刷题笔记",
     "link": "https://tnotesjs.github.io/TNotes.leetcode/",
     "created_at": 1741793958000,
-    "updated_at": 1764289581316,
+    "updated_at": 1764548503861,
     "days_since_birth": 9389
   },
   "menuItems": [
