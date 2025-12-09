@@ -21,7 +21,7 @@
 
 ---
 
-- **示例 1:**
+- 示例 1:
 
 ```txt
 输入: s = "abcde", words = ["a","bb","acd","ace"]
@@ -29,7 +29,7 @@
 解释: 有三个是 s 的子序列的单词: "a", "acd", "ace"。
 ```
 
-**示例 2:**
+示例 2:
 
 ```txt
 输入: s = "dsahjpjauf", words = ["ahjpjau","ja","ahbwzgqnuk","tnmlanowax"]
@@ -38,7 +38,7 @@
 
 ---
 
-**提示:**
+提示:
 
 - `1 <= s.length <= 5 * 10^4`
 - `1 <= words.length <= 5000`

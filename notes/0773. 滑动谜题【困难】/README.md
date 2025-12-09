@@ -31,7 +31,7 @@
 解释：交换 0 和 5 ，1 步完成
 ```
 
-- **示例 2:**
+- 示例 2:
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-20-34-58.png)
 
@@ -41,7 +41,7 @@
 解释：没有办法完成谜板
 ```
 
-- **示例 3:**
+- 示例 3:
 
 ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-20-35-03.png)
 

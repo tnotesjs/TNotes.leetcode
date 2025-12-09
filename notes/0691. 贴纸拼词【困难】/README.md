@@ -36,7 +36,7 @@
 此外，这是形成目标字符串所需的最小贴纸数量。
 ```
 
-- **示例 2:**
+- 示例 2:
 
 ```txt
 输入：stickers = ["notice","possible"], target = "basicbasic"
@@ -46,7 +46,7 @@
 
 ---
 
-**提示:**
+提示:
 
 - `n == stickers.length`
 - `1 <= n <= 50`

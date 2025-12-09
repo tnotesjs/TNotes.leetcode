@@ -21,14 +21,14 @@
 
 ---
 
-- **示例 1:**
+- 示例 1:
 
 ```txt
 输入: s = "abcde", goal = "cdeab"
 输出: true
 ```
 
-- **示例 2:**
+- 示例 2:
 
 ```txt
 输入: s = "abcde", goal = "abced"
@@ -37,7 +37,7 @@
 
 ---
 
-**提示:**
+提示:
 
 - `1 <= s.length, goal.length <= 100`
 - `s` 和 `goal` 由小写英文字母组成

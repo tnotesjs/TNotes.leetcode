@@ -50,7 +50,7 @@ action是类型为('confirmed'， 'timeout')的ENUM
 
 查询结果格式如下所示。
 
-**示例 1:**
+示例 1:
 
 ```
 输入：

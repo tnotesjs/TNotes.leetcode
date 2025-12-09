@@ -25,7 +25,7 @@
 解释: 第一步将 "sea" 变为 "ea" ，第二步将 "eat "变为 "ea"
 ```
 
-**示例 2:**
+示例 2:
 
 ```txt
 输入：word1 = "leetcode", word2 = "etco"

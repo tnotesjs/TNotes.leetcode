@@ -21,7 +21,7 @@
 
 ---
 
-- **示例 1:**
+- 示例 1:
 
 ```txt
 输入:
@@ -32,7 +32,7 @@ list2 = ["Piatti", "The Grill at Torrey Pines", "Hungry Hunter Steakhouse", "Sho
 
 ```
 
-- **示例 2:**
+- 示例 2:
 
 ```txt
 输入:
@@ -58,7 +58,7 @@ list2 = ["sad","happy","good"]
 
 ---
 
-**提示:**
+提示:
 
 - `1 <= list1.length, list2.length <= 1000`
 - `1 <= list1[i].length, list2[i].length <= 30`

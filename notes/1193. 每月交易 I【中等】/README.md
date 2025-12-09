@@ -38,7 +38,7 @@ state 列类型为 ["approved", "declined"] 之一。
 
 ---
 
-- **示例 1:**
+- 示例 1:
 
 ```txt
 输入：

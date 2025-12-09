@@ -60,7 +60,7 @@ Number of Bytes     |        UTF-8 octet sequence
 
 ---
 
-**提示:**
+提示:
 
 - `1 <= data.length <= 2 * 10^4`
 - `0 <= data[i] <= 255`

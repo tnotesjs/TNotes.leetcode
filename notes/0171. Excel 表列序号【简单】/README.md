@@ -29,21 +29,21 @@ AB -> 28
 
 ---
 
-- **示例 1:**
+- 示例 1:
 
 ```txt
 输入: columnTitle = "A"
 输出: 1
 ```
 
-**示例 2:**
+示例 2:
 
 ```txt
 输入: columnTitle = "AB"
 输出: 28
 ```
 
-**示例 3:**
+示例 3:
 
 ```txt
 输入: columnTitle = "ZY"

@@ -48,7 +48,7 @@
 
 ---
 
-**提示:**
+提示:
 
 - `1 <= courses.length <= 10^4`
 - `1 <= durationi, lastDayi <= 10^4`

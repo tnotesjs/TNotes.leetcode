@@ -48,7 +48,7 @@
 解释：玩家应该轮流放字符。
 ```
 
-- **示例 3:**
+- 示例 3:
 
 ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-20-50-59.png)
 

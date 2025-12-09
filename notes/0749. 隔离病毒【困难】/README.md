@@ -54,7 +54,7 @@
 注意，防火墙只建立在两个不同区域的共享边界上。
 ```
 
-**示例 3:**
+示例 3:
 
 ```txt
 输入: isInfected = [
@@ -69,7 +69,7 @@
 
 ---
 
-**提示:**
+提示:
 
 - `m == isInfected.length`
 - `n == isInfected[i].length`

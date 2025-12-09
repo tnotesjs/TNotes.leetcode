@@ -38,7 +38,7 @@ activity_type 列是 ENUM(category) 类型， 从 ('open_session'， 'end_sessio
 
 ---
 
-- **示例 1:**
+- 示例 1:
 
 ```txt
 输入：

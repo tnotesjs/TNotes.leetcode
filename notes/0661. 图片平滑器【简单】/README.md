@@ -23,7 +23,7 @@
 
 ---
 
-- **示例 1:**
+- 示例 1:
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-08-10-28-18.png)
 
@@ -36,7 +36,7 @@
 对于点 (1,1): 平均(8/9) = 平均(0.88888889) = 0
 ```
 
-- **示例 2:**
+- 示例 2:
 
 ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-08-10-28-27.png)
 
@@ -51,7 +51,7 @@
 
 ---
 
-**提示:**
+提示:
 
 - `m == img.length`
 - `n == img[i].length`

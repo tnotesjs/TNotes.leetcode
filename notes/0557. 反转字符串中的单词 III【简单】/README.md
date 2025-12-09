@@ -21,7 +21,7 @@
 输出："s'teL ekat edoCteeL tsetnoc"
 ```
 
-**示例 2:**
+示例 2:
 
 ```
 输入： s = "Mr Ding"

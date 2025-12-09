@@ -46,7 +46,7 @@
 - `triangle[i].length == triangle[i - 1].length + 1`
 - `-10^4 <= triangle[i][j] <= 10^4`
 
-**进阶：**
+进阶：
 
 - 你可以只使用 `O(n)` 的额外空间（`n` 为三角形的总行数）来解决这个问题吗？
 

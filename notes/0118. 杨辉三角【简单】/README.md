@@ -15,51 +15,35 @@
 
 在「杨辉三角」中，每个数是它左上方和右上方的数的和。
 
-![](./assets/PascalTriangleAnimated2.gif)
+![gif](./assets/PascalTriangleAnimated2.gif)
 
-**示例 1:**
+示例 1:
 
 ```
 输入: numRows = 5
 输出: [[1],[1,1],[1,2,1],[1,3,3,1],[1,4,6,4,1]]
 ```
 
-**示例 2:**
+示例 2:
 
 ```
 输入: numRows = 1
 输出: [[1]]
 ```
 
-**提示:**
+提示:
 
 - `1 <= numRows <= 30`
 
 ## 2. 🎯 s.1 - 暴力解法
 
-```js
-/**
- * @param {number} numRows
- * @return {number[][]}
- */
-var generate = function (numRows) {
-  if (numRows === 1) return [[1]]
-  if (numRows === 2) return [[1], [1, 1]]
+![svg](./assets/1.svg)
 
-  // 初始化
-  const triangle = []
-  for (let i = 1; i <= numRows; i++) triangle.push(new Array(i).fill(1))
+::: code-group
 
-  // 内层求和
-  for (let r = 2; r <= numRows - 1; r++)
-    for (let c = 1; c <= r - 1; c++)
-      triangle[r][c] = triangle[r - 1][c - 1] + triangle[r - 1][c]
+<<< ./solutions/1/1.js
 
-  return triangle
-}
-```
+:::
 
-- **解题思路：**
-  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-10-21-52-49.png)
-  - 首先初始化一个全为 `1` 的 `triangle` 三角。
-  - 对内层的每个位置进行重新求和，求和的逻辑：`triangle[r][c] = triangle[r - 1][c - 1] + triangle[r - 1][c]`
+- 时间复杂度：$O(numRows^2)$，需要填充杨辉三角中的每个元素
+- 空间复杂度：$O(numRows^2)$，需要存储完整的杨辉三角
