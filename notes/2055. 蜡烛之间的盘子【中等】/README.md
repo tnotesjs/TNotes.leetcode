@@ -23,7 +23,7 @@
 
 ---
 
-- **示例 1:**
+- 示例 1:
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-39-56.png)
 
@@ -35,7 +35,7 @@
 - queries[1] 有三个盘子在蜡烛之间。
 ```
 
-- **示例 2:**
+- 示例 2:
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-40-04.png)
 
