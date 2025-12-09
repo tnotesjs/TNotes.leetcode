@@ -10,18 +10,10 @@
  * @param {TreeNode} root
  * @return {number[]}
  */
-var preorderTraversal = function (root) {
-  const result = []
-
-  const traverse = (node) => {
-    if (!node) return
-
-    // 前序遍历：根 -> 左 -> 右
-    result.push(node.val)
-    traverse(node.left)
-    traverse(node.right)
-  }
-
-  traverse(root)
-  return result
+var preorderTraversal = function (root, res = []) {
+  if (!root) return res
+  res.push(root.val)
+  preorderTraversal(root.left, res)
+  preorderTraversal(root.right, res)
+  return res
 }
