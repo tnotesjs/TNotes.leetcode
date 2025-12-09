@@ -18,31 +18,28 @@
 
 ![img](./assets/PascalTriangleAnimated2.gif)
 
-示例 1:
+示例 1：
 
 ```
 输入: rowIndex = 3
 输出: [1,3,3,1]
-
 ```
 
-示例 2:
+示例 2：
 
 ```
 输入: rowIndex = 0
 输出: [1]
-
 ```
 
-示例 3:
+示例 3：
 
 ```
 输入: rowIndex = 1
 输出: [1,1]
-
 ```
 
-提示:
+提示：
 
 - `0 <= rowIndex <= 33`
 

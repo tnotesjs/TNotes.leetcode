@@ -26,7 +26,7 @@
 因此返回 [3, 14.5, 11] 。
 ```
 
-- 示例 2:
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-12-13-32.png)
 

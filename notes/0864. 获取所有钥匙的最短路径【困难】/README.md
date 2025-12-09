@@ -48,7 +48,7 @@
 输出：6
 ```
 
-- 示例 3:
+- 示例 3：
 
 ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-11-55-56.png)
 

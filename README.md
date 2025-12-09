@@ -171,7 +171,7 @@
 - [ ] [0122. 买卖股票的最佳时机 II【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0122.%20%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA%20II%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0123. 买卖股票的最佳时机 III【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0123.%20%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA%20III%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
 - [ ] [0124. 二叉树中的最大路径和【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0124.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E7%9A%84%E6%9C%80%E5%A4%A7%E8%B7%AF%E5%BE%84%E5%92%8C%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
-- [ ] [0125. 验证回文串【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0125.%20%E9%AA%8C%E8%AF%81%E5%9B%9E%E6%96%87%E4%B8%B2%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
+- [x] [0125. 验证回文串【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0125.%20%E9%AA%8C%E8%AF%81%E5%9B%9E%E6%96%87%E4%B8%B2%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
 - [ ] [0126. 单词接龙 II【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0126.%20%E5%8D%95%E8%AF%8D%E6%8E%A5%E9%BE%99%20II%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
 - [ ] [0127. 单词接龙【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0127.%20%E5%8D%95%E8%AF%8D%E6%8E%A5%E9%BE%99%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
 - [ ] [0128. 最长连续序列【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0128.%20%E6%9C%80%E9%95%BF%E8%BF%9E%E7%BB%AD%E5%BA%8F%E5%88%97%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)

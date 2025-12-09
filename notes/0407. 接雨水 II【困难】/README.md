@@ -15,7 +15,7 @@
 
 ---
 
-- 示例 1:
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-13-34-32.png)
 
@@ -25,7 +25,7 @@
 解释: 下雨后，雨水将会被上图蓝色的方块中。总的接雨水量为1+2+1=4。
 ```
 
-示例 2:
+示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-13-34-38.png)
 
@@ -36,7 +36,7 @@
 
 ---
 
-提示:
+提示：
 
 - `m == heightMap.length`
 - `n == heightMap[i].length`

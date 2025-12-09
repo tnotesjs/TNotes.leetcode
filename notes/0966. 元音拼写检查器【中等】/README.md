@@ -47,7 +47,7 @@ queries = ["kite","Kite","KiTe","Hare","HARE","Hear","hear","keti","keet","keto"
 输出：["kite","KiTe","KiTe","Hare","hare","","","KiTe","","KiTe"]
 ```
 
-- 示例 2:
+- 示例 2：
 
 ```txt
 输入：wordlist = ["yellow"], queries = ["YellOw"]

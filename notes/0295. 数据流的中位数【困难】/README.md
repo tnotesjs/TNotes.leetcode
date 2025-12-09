@@ -44,7 +44,7 @@ medianFinder.findMedian(); // return 2.0
 
 ---
 
-提示:
+提示：
 
 - `-10^5 <= num <= 10^5`
 - 在调用 `findMedian` 之前，数据结构中至少有一个元素

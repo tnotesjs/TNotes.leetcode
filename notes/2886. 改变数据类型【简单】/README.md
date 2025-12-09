@@ -33,7 +33,7 @@ DataFrame students
 
 ---
 
-- 示例 1:
+- 示例 1：
 
 ```txt
 输入：

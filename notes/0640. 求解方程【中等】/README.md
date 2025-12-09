@@ -26,14 +26,14 @@
 输出: "x=2"
 ```
 
-- 示例 2:
+- 示例 2：
 
 ```txt
 输入: equation = "x=x"
 输出: "Infinite solutions"
 ```
 
-- 示例 3:
+- 示例 3：
 
 ```txt
 输入: equation = "2x=x"
@@ -42,7 +42,7 @@
 
 ---
 
-提示:
+提示：
 
 - `3 <= equation.length <= 1000`
 - `equation` 只有一个 `'='`.

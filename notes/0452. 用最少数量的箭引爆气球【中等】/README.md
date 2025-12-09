@@ -47,7 +47,7 @@
 
 ---
 
-提示:
+提示：
 
 - `1 <= points.length <= 10^5`
 - `points[i].length == 2`

@@ -15,7 +15,7 @@
 
 如果你能使这个正方形，则返回 `true` ，否则返回 `false` 。
 
-示例 1:
+示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-15-58-07.png)
 
@@ -25,7 +25,7 @@
 解释: 能拼成一个边长为2的正方形，每边两根火柴。
 ```
 
-示例 2:
+示例 2：
 
 ```txt
 输入: matchsticks = [3,3,3,3,4]
@@ -35,7 +35,7 @@
 
 ---
 
-提示:
+提示：
 
 - `1 <= matchsticks.length <= 15`
 - `1 <= matchsticks[i] <= 10^8`

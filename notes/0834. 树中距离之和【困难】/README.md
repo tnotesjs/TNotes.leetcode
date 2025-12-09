@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1:
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-08-18-21.png)
 
@@ -33,7 +33,7 @@
 也就是 1 + 1 + 2 + 2 + 2 = 8。 因此，answer[0] = 8，以此类推。
 ```
 
-- 示例 2:
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-08-18-26.png)
 
@@ -42,7 +42,7 @@
 输出: [0]
 ```
 
-- 示例 3:
+- 示例 3：
 
 ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-08-18-31.png)
 
@@ -53,7 +53,7 @@
 
 ---
 
-提示:
+提示：
 
 - `1 <= n <= 3 * 10^4`
 - `edges.length == n - 1`

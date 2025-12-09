@@ -33,7 +33,7 @@
 解释：最长单词链之一为 ["a","ba","bda","bdca"]
 ```
 
-- 示例 2:
+- 示例 2：
 
 ```txt
 输入：words = ["xbc","pcxbcf","xb","cxbc","pcxbc"]
@@ -41,7 +41,7 @@
 解释：所有的单词都可以放入单词链 ["xb", "xbc", "cxbc", "pcxbc", "pcxbcf"].
 ```
 
-示例 3:
+示例 3：
 
 ```txt
 输入：words = ["abcd","dbqca"]

@@ -47,7 +47,7 @@ solution.pick(); // 返回 4
 
 ---
 
-提示:
+提示：
 
 - `1 <= n <= 10^9`
 - `0 <= blacklist.length <= min(10^5, n - 1)`

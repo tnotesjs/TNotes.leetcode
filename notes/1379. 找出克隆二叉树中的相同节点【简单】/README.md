@@ -25,7 +25,7 @@
 
 ---
 
-- 示例 1:
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-20-18-57-07.png)
 
@@ -35,7 +35,7 @@
 解释: 上图画出了树 original 和 cloned。target 节点在树 original 中，用绿色标记。答案是树 cloned 中的黄颜色的节点（其他示例类似）。
 ```
 
-- 示例 2:
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-20-18-57-24.png)
 
@@ -44,7 +44,7 @@
 输出: 7
 ```
 
-- 示例 3:
+- 示例 3：
 
 ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-20-18-57-29.png)
 
