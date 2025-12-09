@@ -252,7 +252,7 @@
 
 - [ ] [0201. 数字范围按位与【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0201.%20%E6%95%B0%E5%AD%97%E8%8C%83%E5%9B%B4%E6%8C%89%E4%BD%8D%E4%B8%8E%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [x] [0202. 快乐数【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0202.%20%E5%BF%AB%E4%B9%90%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
-- [ ] [0203. 移除链表元素【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0203.%20%E7%A7%BB%E9%99%A4%E9%93%BE%E8%A1%A8%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
+- [x] [0203. 移除链表元素【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0203.%20%E7%A7%BB%E9%99%A4%E9%93%BE%E8%A1%A8%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
 - [ ] [0204. 计数质数【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0204.%20%E8%AE%A1%E6%95%B0%E8%B4%A8%E6%95%B0%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [x] [0205. 同构字符串【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0205.%20%E5%90%8C%E6%9E%84%E5%AD%97%E7%AC%A6%E4%B8%B2%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
 - [ ] [0206. 反转链表【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0206.%20%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
