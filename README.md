@@ -266,7 +266,7 @@
 - [ ] [0214. 最短回文串【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0214.%20%E6%9C%80%E7%9F%AD%E5%9B%9E%E6%96%87%E4%B8%B2%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
 - [ ] [0215. 数组中的第K个最大元素【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0215.%20%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E7%AC%ACK%E4%B8%AA%E6%9C%80%E5%A4%A7%E5%85%83%E7%B4%A0%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0216. 组合总和 III【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0216.%20%E7%BB%84%E5%90%88%E6%80%BB%E5%92%8C%20III%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
-- [ ] [0217. 存在重复元素【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0217.%20%E5%AD%98%E5%9C%A8%E9%87%8D%E5%A4%8D%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
+- [x] [0217. 存在重复元素【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0217.%20%E5%AD%98%E5%9C%A8%E9%87%8D%E5%A4%8D%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
 - [ ] [0218. 天际线问题【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0218.%20%E5%A4%A9%E9%99%85%E7%BA%BF%E9%97%AE%E9%A2%98%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
 - [ ] [0219. 存在重复元素 II【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0219.%20%E5%AD%98%E5%9C%A8%E9%87%8D%E5%A4%8D%E5%85%83%E7%B4%A0%20II%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
 - [ ] [0220. 存在重复元素 III【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0220.%20%E5%AD%98%E5%9C%A8%E9%87%8D%E5%A4%8D%E5%85%83%E7%B4%A0%20III%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
