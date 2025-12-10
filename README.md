@@ -188,7 +188,7 @@
 - [ ] [0139. 单词拆分【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0139.%20%E5%8D%95%E8%AF%8D%E6%8B%86%E5%88%86%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0140. 单词拆分 II【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0140.%20%E5%8D%95%E8%AF%8D%E6%8B%86%E5%88%86%20II%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
 - [x] [0141. 环形链表【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0141.%20%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
-- [ ] [0142. 环形链表 II【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0142.%20%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8%20II%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
+- [x] [0142. 环形链表 II【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0142.%20%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8%20II%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0143. 重排链表【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0143.%20%E9%87%8D%E6%8E%92%E9%93%BE%E8%A1%A8%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [x] [0144. 二叉树的前序遍历【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0144.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
 - [x] [0145. 二叉树的后序遍历【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0145.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%90%8E%E5%BA%8F%E9%81%8D%E5%8E%86%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
