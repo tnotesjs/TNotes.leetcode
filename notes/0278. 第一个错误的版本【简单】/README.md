@@ -18,9 +18,11 @@
 
 你可以通过调用 `bool isBadVersion(version)` 接口来判断版本号 `version` 是否在单元测试中出错。实现一个函数来查找第一个错误的版本。你应该尽量减少对调用 API 的次数。
 
-**示例 1：**
+---
 
-```
+示例 1：
+
+```txt
 输入：n = 5, bad = 4
 输出：4
 解释：
@@ -30,52 +32,59 @@
 所以，4 是第一个错误的版本。
 ```
 
-**示例 2：**
+---
 
-```
+示例 2：
+
+```txt
 输入：n = 1, bad = 1
 输出：1
 ```
 
-**提示：**
+---
+
+提示：
 
 - `1 <= bad <= n <= 2^31 - 1`
 
 ## 2. 🎯 s.1 - 暴力解法
 
-```js
-var solution = function (isBadVersion) {
-  return function (n) {
-    for (let i = 1; i <= n; i++) if (isBadVersion(i)) return i
-  }
-}
-```
+::: code-group
 
-- 直接将所有成员都遍历一遍来查找，从最小的开始。
-- 超时：
-  - 这种解法在早期（21、22 年那会儿）是可以通过的，不过现在（2024 年 11 月 16 日 23:08:01）测试了一下，发现会超时。
-  - leetcode 提交记录
-    - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-16-23-09-11.png)
+<<< ./solutions/1/1.js
+
+:::
+
+- 时间复杂度：$O(n)$，最坏情况需要遍历所有版本
+- 空间复杂度：$O(1)$，只使用了常数级别的额外空间
+
+解题思路：直接将所有成员都遍历一遍来查找，从最小的开始。
+
+::: warning ⚠️ 注意
+
+这种解法在早期（21、22 年那会儿）是可以通过的，不过现在（2024 年 11 月 16 日 23:08:01）测试了一下，发现会超时。
+
+leetcode 提交记录如下：
+
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-16-23-09-11.png)
+
+:::
 
 ## 3. 🎯 s.2 - 二分查找
 
-```js
-var solution = function (isBadVersion) {
-  return function (n) {
-    let left = 1,
-      right = n,
-      mid = left + ((right - left) >> 1)
-    while (left <= right) {
-      if (isBadVersion(mid) && !isBadVersion(mid - 1)) return mid // 若当前版本错误，且前一个版本没错，则当前版本就是第一个错误版本。
+::: code-group
 
-      if (isBadVersion(mid))
-        right = mid - 1 // 当前版本有错 - 切片 - 舍弃后续所有错误版本继续查找。
-      else left = mid + 1 // 当前版本没错 - 切片 - 舍弃前边的所有正确版本继续查找。
+<<< ./solutions/2/1.js
 
-      mid = left + ((right - left) >> 1) // 重新计算中点
-    }
-  }
-}
-```
+:::
 
-实现思路：同 `704. 二分查找`，不过得加一个判断，当找到错误的成员之后，必须确保该错误成员的左侧（前一个）成员必须是正确的，这样才能确保当前找到的这个错误成员是第一个出错的成员。
+- 时间复杂度：$O(\log n)$，二分查找
+- 空间复杂度：$O(1)$，只使用常数空间
+
+解题思路：
+
+- 使用二分查找定位第一个错误版本
+- 如果 `mid` 是错误版本，说明第一个错误版本在 `[left, mid]` 区间
+- 如果 `mid` 是正确版本，说明第一个错误版本在 `[mid+1, right]` 区间
+- 当 `left == right` 时，找到第一个错误版本
+- 使用 `left + (right - left) / 2` 避免整数溢出

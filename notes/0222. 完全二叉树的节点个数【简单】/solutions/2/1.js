@@ -13,36 +13,24 @@
 var countNodes = function (root) {
   if (!root) return 0
 
-  // 计算树的高度
-  const leftHeight = getLeftHeight(root)
-  const rightHeight = getRightHeight(root)
+  // 获取树的高度（最左侧路径）
+  const getHeight = (node) => {
+    let height = 0
+    while (node) {
+      height++
+      node = node.left
+    }
+    return height
+  }
 
-  // 如果左右子树高度相同，说明是满二叉树
+  const leftHeight = getHeight(root.left)
+  const rightHeight = getHeight(root.right)
+
   if (leftHeight === rightHeight) {
-    // 满二叉树节点数公式：2^h - 1
-    return Math.pow(2, leftHeight) - 1
+    // 如果左右高度相等，左子树必是满二叉树，用公式 2^h 直接计算，递归右子树
+    return (1 << leftHeight) + countNodes(root.right)
+  } else {
+    // 如果左右高度不等，右子树必是满二叉树，用公式 2^h 直接计算，递归左子树
+    return (1 << rightHeight) + countNodes(root.left)
   }
-
-  // 如果高度不同，递归计算左右子树节点数
-  return 1 + countNodes(root.left) + countNodes(root.right)
-}
-
-// 计算从根节点一直向左走的高度
-function getLeftHeight(node) {
-  let height = 0
-  while (node) {
-    height++
-    node = node.left
-  }
-  return height
-}
-
-// 计算从根节点一直向右走的高度
-function getRightHeight(node) {
-  let height = 0
-  while (node) {
-    height++
-    node = node.right
-  }
-  return height
 }
