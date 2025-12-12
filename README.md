@@ -540,7 +540,7 @@
 - [x] [0482. 密钥格式化【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0482.%20%E5%AF%86%E9%92%A5%E6%A0%BC%E5%BC%8F%E5%8C%96%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
 - [ ] [0483. 最小好进制【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0483.%20%E6%9C%80%E5%B0%8F%E5%A5%BD%E8%BF%9B%E5%88%B6%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
 - [ ] [0484. 寻找排列【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0484.%20%E5%AF%BB%E6%89%BE%E6%8E%92%E5%88%97%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
-- [ ] [0485. 最大连续 1 的个数【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0485.%20%E6%9C%80%E5%A4%A7%E8%BF%9E%E7%BB%AD%201%20%E7%9A%84%E4%B8%AA%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
+- [x] [0485. 最大连续 1 的个数【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0485.%20%E6%9C%80%E5%A4%A7%E8%BF%9E%E7%BB%AD%201%20%E7%9A%84%E4%B8%AA%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
 - [ ] [0486. 预测赢家【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0486.%20%E9%A2%84%E6%B5%8B%E8%B5%A2%E5%AE%B6%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0487. 最大连续1的个数 II【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0487.%20%E6%9C%80%E5%A4%A7%E8%BF%9E%E7%BB%AD1%E7%9A%84%E4%B8%AA%E6%95%B0%20II%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0488. 祖玛游戏【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0488.%20%E7%A5%96%E7%8E%9B%E6%B8%B8%E6%88%8F%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)

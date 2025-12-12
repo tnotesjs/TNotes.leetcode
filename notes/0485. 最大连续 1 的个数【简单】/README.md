@@ -3,10 +3,9 @@
 <!-- region:toc -->
 
 - [1. 📝 题目描述](#1--题目描述)
-- [2. 📒 性能比较](#2--性能比较)
-- [3. 🎯 s.1 - 暴力解法 - 遍历](#3--s1---暴力解法---遍历)
-- [4. 🎯 s.2 - 暴力解法 - 字符串切片](#4--s2---暴力解法---字符串切片)
-- [5. 🎯 s.3 - 暴力解法 - 正则](#5--s3---暴力解法---正则)
+- [2. 🎯 s.1 - 一次遍历记录最大连续 1](#2--s1---一次遍历记录最大连续-1)
+- [3. 🎯 s.2 - 字符串切片](#3--s2---字符串切片)
+- [4. 🎯 s.3 - 正则的"正向预查"](#4--s3---正则的正向预查)
 
 <!-- endregion:toc -->
 
@@ -16,13 +15,17 @@
 
 给定一个二进制数组 `nums` ， 计算其中最大连续 `1` 的个数。
 
-**示例 1：**
+---
+
+示例 1：
 
 ```txt
 输入：nums = [1,1,0,1,1,1]
 输出：3
 解释：开头的两位和最后的三位都是连续 1 ，所以最大连续 1 的个数是 3.
 ```
+
+---
 
 示例 2：
 
@@ -31,93 +34,62 @@
 输出：2
 ```
 
-**提示：**
+---
+
+提示：
 
 - `1 <= nums.length <= 10^5`
 - `nums[i]` 不是 `0` 就是 `1`.
 
-## 2. 📒 性能比较
+## 2. 🎯 s.1 - 一次遍历记录最大连续 1
 
-- 在本节介绍的提接中，通过【暴力解法 - 遍历】的方式来求解是性能最好的。
+::: code-group
 
-## 3. 🎯 s.1 - 暴力解法 - 遍历
+<<< ./solutions/1/1.js
 
-```js
-var findMaxConsecutiveOnes = function (nums) {
-  let maxLen = 0 // 记录最终的结果
-  let len = 0 // 记录当前的长度
-  for (let i = 0; i < nums.length; i++) {
-    if (nums[i] === 1) {
-      len++
-    } else {
-      maxLen = maxLen > len ? maxLen : len
-      len = 0
-    }
-  }
-  maxLen = maxLen > len ? maxLen : len
-  return maxLen
-}
-```
+:::
 
-- 遍历数组 nums：
-  - 如果当前项是 1，那么将 len 自增。
-  - 如果当前项不是 1，那么将 len 的值与最终结果进行比较，将较大的值赋值给 maxLen。同时将 len 清零，意味着当前连续的 1 已经结束，下次需要重新开始计算。
-- 注意：循环结束时，需要再判断一次 len 和 maxLen。
+- 时间复杂度：$O(n)$，其中 n 是数组长度，需要遍历一次数组
+- 空间复杂度：$O(1)$，只使用了常数级别的额外空间
 
-## 4. 🎯 s.2 - 暴力解法 - 字符串切片
+解题思路：
 
-- 实现思路：
-  - 将数组转为字符串后，按照 0 对字符串进行分割，获取到分割后的新数组 `["11", "111"]`，再从中找出最长的字符串的长度。
-  - 写法可以直接简化到一行，但性能很拉胯。
+- 遍历数组，使用 currentCount 记录当前连续 1 的个数
+- 遇到 1 则累加 currentCount 并更新 maxCount
+- 遇到 0 则重置 currentCount 为 0
+- 返回 maxCount 即为最大连续 1 的个数
 
-```js
-var findMaxConsecutiveOnes = function (nums) {
-  const newNums = nums
-    .join('')
-    .split('0')
-    .filter((item) => item.length > 0) // ["11", "111"]
-  let maxLen = 0
-  for (let i = 0; i < newNums.length; i++) {
-    let len = newNums[i].length
-    maxLen = maxLen > len ? maxLen : len
-  }
-  return maxLen
-}
-```
+## 3. 🎯 s.2 - 字符串切片
 
-```js
-var findMaxConsecutiveOnes = function (nums) {
-  const newNums = nums
-    .join('')
-    .split('0')
-    .filter((item) => item.length > 0) // ["11", "111"]
-  if (newNums.length === 0) return 0
-  return Math.max(...newNums.map((item) => item.length))
-}
-```
+::: code-group
 
-```js
-var findMaxConsecutiveOnes = function (nums) {
-  return Math.max(
-    ...nums
-      .join('')
-      .split(/0+/)
-      .map((item) => item.length)
-  )
-}
-```
+<<< ./solutions/2/1.js
 
-## 5. 🎯 s.3 - 暴力解法 - 正则
+:::
 
-```js
-var findMaxConsecutiveOnes = function (nums) {
-  // => [1, 1, 0, 1, 1, 1]
-  nums.push(0) // 往 nums 的结尾推一个 0，以便后续做正则匹配，实现切片。
-  const str = nums.join(''),
-    reg = /(1+)(?=0+)/g
-  const arr = str.match(reg) // => ['11', '111']
-  return arr ? Math.max(...arr.map((item) => item.length)) : 0
-}
-```
+- 时间复杂度：$O(n)$，其中 n 是数组长度，需要遍历转换后的字符串数组
+- 空间复杂度：$O(n)$，需要额外空间存储转换后的字符串和分割后的数组
 
-- 转为字符串，结合正则表达式中的“正向预查”来实现。
+解题思路：
+
+- 将数组转为字符串，然后按 '0' 分割，得到所有连续 1 的子串
+- 过滤掉空字符串，遍历找出最长子串的长度
+- 这种方法利用了字符串操作简化了逻辑
+
+## 4. 🎯 s.3 - 正则的"正向预查"
+
+::: code-group
+
+<<< ./solutions/3/1.js
+
+:::
+
+- 时间复杂度：$O(n)$，其中 n 是数组长度，正则匹配需要扫描整个字符串
+- 空间复杂度：$O(n)$，需要存储匹配结果数组
+
+解题思路：
+
+- 在数组末尾添加 0，确保正则能匹配到最后的连续 1
+- 使用正则 `/(1+)(?=0+)/g` 匹配所有连续的 1（后面跟着 0 的连续的 1）
+- `(?=0+)` 是正向预查，确保 1 后面有 0，但不消费 0
+- 找出所有匹配结果中最长的长度
