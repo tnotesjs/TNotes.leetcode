@@ -551,7 +551,7 @@
 - [ ] [0493. 翻转对【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0493.%20%E7%BF%BB%E8%BD%AC%E5%AF%B9%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
 - [ ] [0494. 目标和【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0494.%20%E7%9B%AE%E6%A0%87%E5%92%8C%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [x] [0495. 提莫攻击【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0495.%20%E6%8F%90%E8%8E%AB%E6%94%BB%E5%87%BB%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
-- [ ] [0496. 下一个更大元素 I【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0496.%20%E4%B8%8B%E4%B8%80%E4%B8%AA%E6%9B%B4%E5%A4%A7%E5%85%83%E7%B4%A0%20I%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
+- [x] [0496. 下一个更大元素 I【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0496.%20%E4%B8%8B%E4%B8%80%E4%B8%AA%E6%9B%B4%E5%A4%A7%E5%85%83%E7%B4%A0%20I%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
 - [ ] [0497. 非重叠矩形中的随机点【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0497.%20%E9%9D%9E%E9%87%8D%E5%8F%A0%E7%9F%A9%E5%BD%A2%E4%B8%AD%E7%9A%84%E9%9A%8F%E6%9C%BA%E7%82%B9%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0498. 对角线遍历【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0498.%20%E5%AF%B9%E8%A7%92%E7%BA%BF%E9%81%8D%E5%8E%86%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0499. 迷宫 III【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0499.%20%E8%BF%B7%E5%AE%AB%20III%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
