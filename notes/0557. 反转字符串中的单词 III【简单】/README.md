@@ -3,8 +3,8 @@
 <!-- region:toc -->
 
 - [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 暴力解法 - 使用原生 API](#2--s1---暴力解法---使用原生-api)
-- [3. 🎯 s.2 - 双指针](#3--s2---双指针)
+- [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
+- [3. 🎯 s.2 - 双指针原地交换](#3--s2---双指针原地交换)
 
 <!-- endregion:toc -->
 
@@ -14,94 +14,65 @@
 
 给定一个字符串 `s` ，你需要反转字符串中每个单词的字符顺序，同时仍保留空格和单词的初始顺序。
 
-**示例 1：**
+---
 
-```
+示例 1：
+
+```txt
 输入：s = "Let's take LeetCode contest"
 输出："s'teL ekat edoCteeL tsetnoc"
 ```
 
+---
+
 示例 2：
 
-```
+```txt
 输入： s = "Mr Ding"
 输出："rM gniD"
 ```
 
-**提示：**
+---
+
+提示：
 
 - `1 <= s.length <= 5 * 10^4`
-- `s` 包含可打印的 **ASCII** 字符。
+- `s` 包含可打印的 ASCII 字符。
 - `s` 不包含任何开头或结尾空格。
-- `s` 里 **至少** 有一个词。
+- `s` 里 至少 有一个词。
 - `s` 中的所有单词都用一个空格隔开。
 
-## 2. 🎯 s.1 - 暴力解法 - 使用原生 API
+## 2. 🎯 s.1 - 暴力解法
 
-```js
-var reverseWords = function (s) {
-  return s
-    .split(' ')
-    .map((item) => item.split('').reverse().join(''))
-    .join(' ')
-}
-```
+::: code-group
 
-- 处理逻辑：
+<<< ./solutions/1/1.js
 
-```js
-// 1. 先将字符串按照空格进行拆分，得到一个新数组
-"Let's take LeetCode contest".split(' ')
-// => ["Let's", "take", "LeetCode", "contest"]
+:::
 
-// 2. 再对每一项进行反转，在反转过程中，需要将其转为 Array 类型
-"Let's take LeetCode contest"
-  .split(' ')
-  .map((item) => item.split('').reverse().join(''))
-// => ["s'teL", 'ekat', 'edoCteeL', 'tsetnoc']
+- 时间复杂度：$O(n)$，遍历字符串并反转每个单词
+- 空间复杂度：$O(n)$，存储分割后的单词数组
 
-// 3. 最后将结果拼接为一个字符串即可
-"Let's take LeetCode contest"
-  .split(' ')
-  .map((item) => item.split('').reverse().join(''))
-  .join(' ')
-// => "s'teL ekat edoCteeL tsetnoc"
-```
+解题思路：
 
-## 3. 🎯 s.2 - 双指针
+- 用空格分割字符串得到单词数组
+- 对每个单词进行字符级别的反转
+- 将反转后的单词用空格拼接成新字符串
+- 上述这些基本步骤可以使用语言内置的 API 来辅助完成
 
-```js
-/**
-示例：
-  输入："abcde" 1 3
-  输出：adcbe
-  注解：将字符串的第1位到第3位进行反转
-类似于 344. 反转字符串
- */
-var reverseString = function (s) {
-  let left = 0,
-    len = s.length,
-    right = len - 1,
-    newArr = new Array(len)
-  while (left <= right) {
-    newArr[left] = s[right]
-    newArr[right] = s[left]
-    left++, right--
-  }
-  return newArr.join('')
-}
+## 3. 🎯 s.2 - 双指针原地交换
 
-/**
- * @param {string} s
- * @return {string}
- */
-var reverseWords = function (s) {
-  return s
-    .split(' ')
-    .map((item) => reverseString(item))
-    .join(' ')
-}
-```
+::: code-group
 
-- `newArr = new Array(len)`
-  - 由于 JavaScript 中 String 是不可变的，所以这里就换成了 Array 来替代一下，实现原理上和 `344. 反转字符串` 都是一样的。
+<<< ./solutions/2/1.js
+
+:::
+
+- 时间复杂度：$O(n)$，遍历字符串的每个字符一次
+- 空间复杂度：$O(n)$，需要构建结果字符串
+
+解题思路：
+
+- 使用双指针标记每个单词的起始和结束位置
+- 遇到空格或字符串末尾时，从后向前遍历当前单词并追加到结果字符串
+- 相比 s.1，避免了数组分割和额外的字符串操作，更加直接

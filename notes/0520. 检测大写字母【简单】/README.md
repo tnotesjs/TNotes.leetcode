@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1](#2--s1)
+- [2. 🎯 s.1 - 统计大写字母判断](#2--s1---统计大写字母判断)
 
 <!-- endregion:toc -->
 
@@ -19,54 +19,45 @@
 
 给你一个字符串 `word` 。如果大写用法正确，返回 `true` ；否则，返回 `false` 。
 
-**示例 1：**
+---
+
+示例 1：
 
 ```txt
 输入：word = "USA"
 输出：true
 ```
 
-**示例 2：**
+---
+
+示例 2：
 
 ```txt
 输入：word = "FlaG"
 输出：false
 ```
 
-**提示：**
+提示：
 
 - `1 <= word.length <= 100`
 - `word` 由小写和大写英文字母组成
 
-## 2. 🎯 s.1
+## 2. 🎯 s.1 - 统计大写字母判断
 
-```javascript
-/**
- * @param {string} word
- * @return {boolean}
- */
-var detectCapitalUse = function (word) {
-  // 'A'.charCodeAt() // 65
-  // 'a'.charCodeAt() // 97
-  if (isUpperCase(0)) {
-    // 首字母大写
-    // 检查第二个字母是否存在，若不存在，则返回 true
-    if (!word[1]) return true
-    // 后续所有字母必须和第二个字母保持一致，否则返回 false
-    let isSecondUpperCase = isUpperCase(1)
-    for (let i = 2; i < word.length; i++) {
-      if (isUpperCase(i) !== isSecondUpperCase) return false
-    }
-  } else {
-    // 首字母非大写，一旦出现一个大写，返回 false
-    for (let i = 1; i < word.length; i++) {
-      if (isUpperCase(i)) return false
-    }
-  }
-  return true
+::: code-group
 
-  function isUpperCase(index) {
-    return word[index].charCodeAt() < 97
-  }
-}
-```
+<<< ./solutions/1/1.js
+
+:::
+
+- 时间复杂度：$O(n)$，遍历一次字符串
+- 空间复杂度：$O(1)$，只使用常数空间
+
+解题思路：
+
+- 统计字符串中大写字母的个数
+- 合法的三种情况：
+  1. 全部大写：大写字母个数等于字符串长度
+  2. 全部小写：大写字母个数为 0
+  3. 首字母大写：大写字母个数为 1 且第一个字母是大写
+- 其他情况都不合法
