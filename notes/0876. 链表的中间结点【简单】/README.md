@@ -3,9 +3,8 @@
 <!-- region:toc -->
 
 - [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 暴力解法 - 先找长度，再找中间](#2--s1---暴力解法---先找长度再找中间)
-- [3. 🎯 s.2 - 快慢指针 - 一步两步](#3--s2---快慢指针---一步两步)
-- [4. 🔗 引用](#4--引用)
+- [2. 🎯 s.1 - 先确定长度，再找中间](#2--s1---先确定长度再找中间)
+- [3. 🎯 s.2 - 快慢指针](#3--s2---快慢指针)
 
 <!-- endregion:toc -->
 
@@ -17,7 +16,9 @@
 
 如果有两个中间结点，则返回第二个中间结点。
 
-**示例 1：**
+---
+
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-15-25-26.png)
 
@@ -26,7 +27,9 @@
 解释：链表只有一个中间结点，值为 3 。
 ```
 
-**示例 2：**
+---
+
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-15-25-32.png)
 
@@ -36,47 +39,43 @@
 解释：该链表有两个中间结点，值分别为 3 和 4 ，返回第二个结点。
 ```
 
-**提示：**
+---
+
+提示：
 
 - 链表的结点数范围是 `[1, 100]`
 - `1 <= Node.val <= 100`
 
-## 2. 🎯 s.1 - 暴力解法 - 先找长度，再找中间
+## 2. 🎯 s.1 - 先确定长度，再找中间
 
-```js
-var middleNode = function(head) {
-  // 获取到链表的总长度
-  let len = 1,
-  root = head
-  while (head.next) {
-    len ++
-    head = head.next
-  }
-  // 找中点
-  for (let i = 0 i < Math.floor(len / 2) i++) {
-    root = root.next
-  }
-  return root
-}
-```
+::: code-group
 
-## 3. 🎯 s.2 - 快慢指针 - 一步两步
+<<< ./solutions/1/1.js
 
-```js
-var middleNode = function (head) {
-  let slow = (fast = head)
-  while (fast.next !== null && fast.next.next !== null) {
-    slow = slow.next
-    fast = fast.next.next
-  }
-  return slow
-}
-```
+:::
 
-- ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-16-19-59-26.png)
-- ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-16-19-59-32.png)
+- 时间复杂度：$O(n)$，两次线性遍历（统计长度 + 定位中点）
+- 空间复杂度：$O(1)$
 
-## 4. 🔗 引用
+解题思路：
 
-- https://leetcode.cn/problems/middle-of-the-linked-list/solutions/165152/kuai-man-zhi-zhen-zhu-yao-zai-yu-diao-shi-by-liwei/
-  - 本节笔记中用到的图片来源于这篇题解。
+- 第一次遍历统计链表长度 `len`
+- 按题意需要返回两个中点中的第二个，因此目标位置为第 $\lfloor len/2 \rfloor$ 个节点（0 基）
+- 第二次遍历从头出发走到该位置并返回该节点
+
+## 3. 🎯 s.2 - 快慢指针
+
+::: code-group
+
+<<< ./solutions/2/1.js
+
+:::
+
+- 时间复杂度：$O(n)$
+- 空间复杂度：$O(1)$
+
+解题思路：
+
+- 设 `slow` 每次走一步，`fast` 每次走两步
+- 当 `fast` 到达链表尾部（`fast == null` 或 `fast.next == null`）时，`slow` 指向中间节点
+- 在长度为偶数时，`slow` 会停在两个中点的第二个，满足题意
