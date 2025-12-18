@@ -984,7 +984,7 @@
 - [ ] [0911. 在线选举【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0911.%20%E5%9C%A8%E7%BA%BF%E9%80%89%E4%B8%BE%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0912. 排序数组【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0912.%20%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0913. 猫和老鼠【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0913.%20%E7%8C%AB%E5%92%8C%E8%80%81%E9%BC%A0%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
-- [ ] [0914. 卡牌分组【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0914.%20%E5%8D%A1%E7%89%8C%E5%88%86%E7%BB%84%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
+- [x] [0914. 卡牌分组【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0914.%20%E5%8D%A1%E7%89%8C%E5%88%86%E7%BB%84%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
 - [ ] [0915. 分割数组【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0915.%20%E5%88%86%E5%89%B2%E6%95%B0%E7%BB%84%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0916. 单词子集【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0916.%20%E5%8D%95%E8%AF%8D%E5%AD%90%E9%9B%86%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0917. 仅仅反转字母【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0917.%20%E4%BB%85%E4%BB%85%E5%8F%8D%E8%BD%AC%E5%AD%97%E6%AF%8D%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
