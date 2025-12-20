@@ -3,8 +3,8 @@
 <!-- region:toc -->
 
 - [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 暴力解法 - 调用原生 API - map、sort](#2--s1---暴力解法---调用原生-api---mapsort)
-- [3. 🎯 s.2 - 双指针](#3--s2---双指针)
+- [2. 🎯 s.1 - 平方 + 排序（直观解）](#2--s1---平方--排序直观解)
+- [3. 🎯 s.2 - 双指针（O(n)）](#3--s2---双指针on)
 
 <!-- endregion:toc -->
 
@@ -40,40 +40,32 @@
 
 - 请你设计时间复杂度为 `O(n)` 的算法解决本问题
 
-## 2. 🎯 s.1 - 暴力解法 - 调用原生 API - map、sort
+## 2. 🎯 s.1 - 平方 + 排序（直观解）
 
-```js
-var sortedSquares = function (nums) {
-  return nums.map((item) => item * item).sort((a, b) => a - b)
-}
-```
+::: code-group
 
-## 3. 🎯 s.2 - 双指针
+<<< ./solutions/1/1.js [js]
 
-```js
-var sortedSquares = function (nums) {
-  const result = []
-  let l = 0,
-    r = nums.length - 1
-  while (l <= r) {
-    const l_num = Math.abs(nums[l])
-    const r_num = Math.abs(nums[r])
-    if (l_num > r_num) {
-      result.unshift(l_num * l_num)
-      l++
-    } else {
-      result.unshift(r_num * r_num)
-      r--
-    }
-  }
-  return result
-}
-```
+:::
 
-- 实现思路：
-  - 提前准备好一个数组 result，用于存放最终的结果数据；
-  - 从两端向中间依次遍历数组 nums 的每一项，由于数组是升序排序的，所以平方之后的，从两端到中间，必然是由大到小；
-  - 依次将偏大的成员插入到 result 的头部，随后向中间偏移，直到两指针碰撞，最后将结果 result 给返回即可；
-- 🤔 问：在这种解法中，将 `while (l <= r) { ... }` 改为 `while (l < r) { ... }` 可以吗？
-  - 不行。
-  - 每次 while 循环遍历一遍，left 或者 right 指针挪动一步，为了确保每个元素都被遍历到，循环条件不能改为 `l < r`，否则会漏掉一个元素（俩指针相撞 `l == r` 的时候）。
+- 时间复杂度：$O(n \log n)$
+- 空间复杂度：$O(n)$
+
+解题思路：
+
+- 先将每个元素平方，再对平方数组进行升序排序，得到非递减序列。
+
+## 3. 🎯 s.2 - 双指针（O(n)）
+
+::: code-group
+
+<<< ./solutions/2/1.js [js]
+
+:::
+
+- 时间复杂度：$O(n)$
+- 空间复杂度：$O(n)$
+
+解题思路：
+
+- 原数组已按非递减排序，负数的平方可能比正数大；使用双指针从两端比较绝对值大的平方，依次从结果数组尾部填入，最终得到非递减的平方数组。
