@@ -17,11 +17,11 @@
 
 如果喝掉了水瓶中的水，那么水瓶就会变成空的。
 
-给你两个整数 `numBottles` 和 `numExchange` ，返回你 **最多** 可以喝到多少瓶水。
+给你两个整数 `numBottles` 和 `numExchange` ，返回你 最多 可以喝到多少瓶水。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-14-13-13.png)
 
@@ -32,7 +32,7 @@
 所以最多能喝到 9 + 3 + 1 = 13 瓶水。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-14-13-21.png)
 
@@ -46,7 +46,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= numBottles <= 100`
 - `2 <= numExchange <= 100`

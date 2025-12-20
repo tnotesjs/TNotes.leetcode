@@ -21,7 +21,7 @@ TinyURL 是一种 URL 简化服务， 比如：当你输入一个 URL `https://l
 - `String encode(String longUrl)` 返回 `longUrl` 对应的 TinyURL 。
 - `String decode(String shortUrl)` 返回 `shortUrl` 原本的 URL 。题目数据保证给定的 `shortUrl` 是由同一个系统对象加密的。
 
-**示例：**
+示例：
 
 ```txt
 输入：url = "https://leetcode.com/problems/design-tinyurl"
@@ -35,7 +35,7 @@ string ans = obj.decode(tiny); // 返回解密后得到的原本的 URL 。
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= url.length <= 10^4`
 - 题目数据保证 `url` 是一个有效的 URL

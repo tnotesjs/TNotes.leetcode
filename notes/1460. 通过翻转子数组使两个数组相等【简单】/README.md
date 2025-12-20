@@ -13,13 +13,13 @@
 
 - [leetcode](https://leetcode.cn/problems/make-two-arrays-equal-by-reversing-subarrays/)
 
-给你两个长度相同的整数数组 `target` 和 `arr` 。每一步中，你可以选择 `arr` 的任意 **非空子数组** 并将它翻转。你可以执行此过程任意次。
+给你两个长度相同的整数数组 `target` 和 `arr` 。每一步中，你可以选择 `arr` 的任意 非空子数组 并将它翻转。你可以执行此过程任意次。
 
 _如果你能让 `arr` 变得与 `target` 相同，返回 True；否则，返回 False 。_
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：target = [1,2,3,4], arr = [2,4,1,3]
@@ -31,7 +31,7 @@ _如果你能让 `arr` 变得与 `target` 相同，返回 True；否则，返回
 上述方法并不是唯一的，还存在多种将 arr 变成 target 的方法。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：target = [7], arr = [7]
@@ -39,7 +39,7 @@ _如果你能让 `arr` 变得与 `target` 相同，返回 True；否则，返回
 解释：arr 不需要做任何翻转已经与 target 相等。
 ```
 
-- **示例 3：**
+- 示例 3：
 
 ```txt
 输入：target = [3,7,9], arr = [3,7,11]
@@ -49,7 +49,7 @@ _如果你能让 `arr` 变得与 `target` 相同，返回 True；否则，返回
 
 ---
 
-**提示：**
+提示：
 
 - `target.length == arr.length`
 - `1 <= target.length <= 1000`

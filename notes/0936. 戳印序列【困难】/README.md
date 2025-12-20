@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/stamping-the-sequence/)
 
-你想要用**小写字母**组成一个目标字符串 `target`。
+你想要用小写字母组成一个目标字符串 `target`。
 
 开始的时候，序列由 `target.length` 个 `'?'` 记号组成。而你有一个小写字母印章 `stamp`。
 
@@ -29,7 +29,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：stamp = "abc", target = "ababc"
@@ -37,7 +37,7 @@
 （[1,0,2] 以及其他一些可能的结果也将作为答案被接受）
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：stamp = "abca", target = "aabcaca"
@@ -46,7 +46,7 @@
 
 ---
 
-**提示：**
+提示：
 
 1.  `1 <= stamp.length <= target.length <= 1000`
 2.  `stamp` 和 `target` 只包含小写字母。

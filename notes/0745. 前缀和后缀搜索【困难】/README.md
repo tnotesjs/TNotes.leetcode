@@ -18,9 +18,9 @@
 实现 `WordFilter` 类：
 
 - `WordFilter(string[] words)` 使用词典中的单词 `words` 初始化对象。
-- `f(string pref, string suff)` 返回词典中具有前缀 `pref` 和后缀 `suff` 的单词的下标。如果存在不止一个满足要求的下标，返回其中 **最大的下标** 。如果不存在这样的单词，返回 `-1` 。
+- `f(string pref, string suff)` 返回词典中具有前缀 `pref` 和后缀 `suff` 的单词的下标。如果存在不止一个满足要求的下标，返回其中 最大的下标 。如果不存在这样的单词，返回 `-1` 。
 
-**示例：**
+示例：
 
 ```txt
 输入
@@ -35,7 +35,7 @@ wordFilter.f("a", "e"); // 返回 0 ，因为下标为 0 的单词：前缀 pref
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= words.length <= 10^4`
 - `1 <= words[i].length <= 7`

@@ -17,7 +17,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-17-40-46.png)
 
@@ -30,7 +30,7 @@
 输出：true
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-17-40-54.png)
 
@@ -43,7 +43,7 @@
 输出：true
 ```
 
-- **示例 3：**
+- 示例 3：
 
 ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-17-41-00.png)
 
@@ -58,7 +58,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `m == board.length`
 - `n = board[i].length`

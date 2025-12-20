@@ -26,7 +26,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：
@@ -45,7 +45,7 @@ mapSum.sum("ap");           // 返回 5 (apple + app = 3 + 2 = 5)
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= key.length, prefix.length <= 50`
 - `key` 和 `prefix` 仅由小写英文字母组成

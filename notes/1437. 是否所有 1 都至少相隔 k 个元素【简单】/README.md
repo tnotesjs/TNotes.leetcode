@@ -17,7 +17,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-21-23-54-16.png)
 
@@ -27,7 +27,7 @@
 解释：每个 1 都至少相隔 2 个元素。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-21-23-54-23.png)
 
@@ -39,7 +39,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= nums.length <= 10^5`
 - `0 <= k <= nums.length`

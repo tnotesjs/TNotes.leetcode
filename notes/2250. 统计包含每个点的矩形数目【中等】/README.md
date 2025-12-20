@@ -15,15 +15,15 @@
 
 给你一个二维整数数组 `rectangles` ，其中 `rectangles[i] = [li, hi]` 表示第 `i` 个矩形长为 `li` 高为 `hi` 。给你一个二维整数数组 `points` ，其中 `points[j] = [xj, yj]` 是坐标为 `(xj, yj)` 的一个点。
 
-第 `i` 个矩形的 **左下角** 在 `(0, 0)` 处，**右上角** 在 `(li, hi)` 。
+第 `i` 个矩形的 左下角 在 `(0, 0)` 处，右上角 在 `(li, hi)` 。
 
-请你返回一个整数数组 `count` ，长度为 `points.length`，其中 `count[j]`是 **包含** 第 `j` 个点的矩形数目。
+请你返回一个整数数组 `count` ，长度为 `points.length`，其中 `count[j]`是 包含 第 `j` 个点的矩形数目。
 
-如果 `0 <= xj <= li` 且 `0 <= yj <= hi` ，那么我们说第 `i` 个矩形包含第 `j` 个点。如果一个点刚好在矩形的 **边上** ，这个点也被视为被矩形包含。
+如果 `0 <= xj <= li` 且 `0 <= yj <= hi` ，那么我们说第 `i` 个矩形包含第 `j` 个点。如果一个点刚好在矩形的 边上 ，这个点也被视为被矩形包含。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-11-38-54.png)
 
@@ -39,7 +39,7 @@
 所以，我们返回 [2, 1] 。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-11-38-59.png)
 
@@ -57,14 +57,14 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= rectangles.length, points.length <= 5 * 10^4`
 - `rectangles[i].length == points[j].length == 2`
 - `1 <= li, xj <= 10^9`
 - `1 <= hi, yj <= 100`
-- 所有 `rectangles` **互不相同** 。
-- 所有 `points` **互不相同** 。
+- 所有 `rectangles` 互不相同 。
+- 所有 `points` 互不相同 。
 
 ## 2. 🎯 s.1 - 解法 1
 

@@ -22,11 +22,11 @@
 
 注意，你不能使用相同的 `numExchange` 值交换多批空水瓶。例如，如果 `numBottles == 3` 并且 `numExchange == 1` ，则不能用 `3` 个空水瓶交换成 `3` 个满水瓶。
 
-返回你 **最多** 可以喝到多少瓶水。
+返回你 最多 可以喝到多少瓶水。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-22-20-45.png)
 
@@ -40,7 +40,7 @@
 
 ---
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-22-20-58.png)
 
@@ -54,7 +54,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= numBottles <= 100`
 - `1 <= numExchange <= 100`

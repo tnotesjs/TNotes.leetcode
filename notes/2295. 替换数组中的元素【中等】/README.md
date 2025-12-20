@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/replace-elements-in-an-array/)
 
-给你一个下标从 **0** 开始的数组 `nums` ，它包含 `n` 个 **互不相同** 的正整数。请你对这个数组执行 `m` 个操作，在第 `i` 个操作中，你需要将数字 `operations[i][0]` 替换成 `operations[i][1]` 。
+给你一个下标从 0 开始的数组 `nums` ，它包含 `n` 个 互不相同 的正整数。请你对这个数组执行 `m` 个操作，在第 `i` 个操作中，你需要将数字 `operations[i][0]` 替换成 `operations[i][1]` 。
 
 题目保证在第 `i` 个操作中：
 
@@ -24,7 +24,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：nums = [1,2,4,6], operations = [[1,3],[4,7],[6,1]]
@@ -36,7 +36,7 @@
 返回最终数组 [3,2,7,1] 。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：nums = [1,2], operations = [[1,3],[2,1],[3,2]]
@@ -50,12 +50,12 @@
 
 ---
 
-**提示：**
+提示：
 
 - `n == nums.length`
 - `m == operations.length`
 - `1 <= n, m <= 10^5`
-- `nums` 中所有数字 **互不相同** 。
+- `nums` 中所有数字 互不相同 。
 - `operations[i].length == 2`
 - `1 <= nums[i], operations[i][0], operations[i][1] <= 10^6`
 - 在执行第 `i` 个操作时，`operations[i][0]` 在 `nums` 中存在。

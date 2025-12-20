@@ -41,13 +41,13 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= g.length <= 3 * 10^4`
 - `0 <= s.length <= 3 * 10^4`
 - `1 <= g[i], s[j] <= 2^31 - 1`
 
-**注意：** 本题与 [2410\. 运动员和训练师的最大匹配数](https://leetcode.cn/problems/maximum-matching-of-players-with-trainers/) 题相同。
+注意： 本题与 [2410\. 运动员和训练师的最大匹配数](https://leetcode.cn/problems/maximum-matching-of-players-with-trainers/) 题相同。
 
 ## 2. 🎯 s.1 - 暴力解法
 

@@ -13,11 +13,11 @@
 
 - [leetcode](https://leetcode.cn/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/)
 
-给你一个 **数字** 字符串数组 `nums` 和一个 **数字** 字符串 `target` ，请你返回 `nums[i] + nums[j]` （两个字符串连接）结果等于 `target` 的下标 `(i, j)` （需满足 `i != j`）的数目。
+给你一个 数字 字符串数组 `nums` 和一个 数字 字符串 `target` ，请你返回 `nums[i] + nums[j]` （两个字符串连接）结果等于 `target` 的下标 `(i, j)` （需满足 `i != j`）的数目。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：nums = ["777","7","77","77"], target = "7777"
@@ -29,7 +29,7 @@
 - (3, 2)："77" + "77"
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：nums = ["123","4","12","34"], target = "1234"
@@ -39,7 +39,7 @@
 - (2, 3)："12" + "34"
 ```
 
-- **示例 3：**
+- 示例 3：
 
 ```txt
 输入：nums = ["1","1","1"], target = "11"
@@ -55,7 +55,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `2 <= nums.length <= 100`
 - `1 <= nums[i].length <= 100`
