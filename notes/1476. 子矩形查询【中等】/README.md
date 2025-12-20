@@ -25,7 +25,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：
@@ -59,7 +59,7 @@ subrectangleQueries.getValue(3, 1); // 返回 10
 subrectangleQueries.getValue(0, 2); // 返回 5
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：
@@ -79,7 +79,7 @@ subrectangleQueries.getValue(2, 2); // 返回 20
 
 ---
 
-**提示：**
+提示：
 
 - 最多有 `500` 次`updateSubrectangle` 和 `getValue` 操作。
 - `1 <= rows, cols <= 100`

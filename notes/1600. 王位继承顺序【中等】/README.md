@@ -34,9 +34,9 @@ Successor(x, curOrder): 如果 x 没有孩子或者所有 x 的孩子都在 curO
 - `ThroneInheritance(string kingName)` 初始化一个 `ThroneInheritance` 类的对象。国王的名字作为构造函数的参数传入。
 - `void birth(string parentName, string childName)` 表示 `parentName` 新拥有了一个名为 `childName` 的孩子。
 - `void death(string name)` 表示名为 `name` 的人死亡。一个人的死亡不会影响 `Successor` 函数，也不会影响当前的继承顺序。你可以只将这个人标记为死亡状态。
-- `string[] getInheritanceOrder()` 返回 **除去** 死亡人员的当前继承顺序列表。
+- `string[] getInheritanceOrder()` 返回 除去 死亡人员的当前继承顺序列表。
 
-**示例：**
+示例：
 
 ```txt
 输入：
@@ -60,11 +60,11 @@ t.getInheritanceOrder(); // 返回 ["king", "andy", "matthew", "alex", "asha", "
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= kingName.length, parentName.length, childName.length, name.length <= 15`
 - `kingName`，`parentName`， `childName` 和 `name` 仅包含小写英文字母。
-- 所有的参数 `childName` 和 `kingName` **互不相同**。
+- 所有的参数 `childName` 和 `kingName` 互不相同。
 - 所有 `death` 函数中的死亡名字 `name` 要么是国王，要么是已经出生了的人员名字。
 - 每次调用 `birth(parentName, childName)` 时，测试用例都保证 `parentName` 对应的人员是活着的。
 - 最多调用 `10^5` 次`birth` 和 `death` 。

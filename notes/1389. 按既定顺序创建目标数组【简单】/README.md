@@ -25,7 +25,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：nums = [0,1,2,3,4], index = [0,1,2,2,1]
@@ -39,7 +39,7 @@ nums       index     target
 4            1        [0,4,1,3,2]
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：nums = [1,2,3,4,0], index = [0,1,2,3,0]
@@ -53,7 +53,7 @@ nums       index     target
 0            0        [0,1,2,3,4]
 ```
 
-- **示例 3：**
+- 示例 3：
 
 ```txt
 输入：nums = [1], index = [0]
@@ -62,7 +62,7 @@ nums       index     target
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= nums.length, index.length <= 100`
 - `nums.length == index.length`

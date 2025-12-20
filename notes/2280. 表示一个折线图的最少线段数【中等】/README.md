@@ -13,15 +13,15 @@
 
 - [leetcode](https://leetcode.cn/problems/minimum-lines-to-represent-a-line-chart/)
 
-给你一个二维整数数组 `stockPrices` ，其中 `stockPrices[i] = [dayi, pricei]` 表示股票在 `dayi` 的价格为 `pricei` 。**折线图** 是一个二维平面上的若干个点组成的图，横坐标表示日期，纵坐标表示价格，折线图由相邻的点连接而成。比方说下图是一个例子：
+给你一个二维整数数组 `stockPrices` ，其中 `stockPrices[i] = [dayi, pricei]` 表示股票在 `dayi` 的价格为 `pricei` 。折线图 是一个二维平面上的若干个点组成的图，横坐标表示日期，纵坐标表示价格，折线图由相邻的点连接而成。比方说下图是一个例子：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-13-14-34.png)
 
-请你返回要表示一个折线图所需要的 **最少线段数** 。
+请你返回要表示一个折线图所需要的 最少线段数 。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-13-14-45.png)
 
@@ -37,7 +37,7 @@
 可以证明，无法用少于 3 条线段表示这个折线图。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-13-14-52.png)
 
@@ -50,12 +50,12 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= stockPrices.length <= 10^5`
 - `stockPrices[i].length == 2`
 - `1 <= dayi, pricei <= 10^9`
-- 所有 `dayi` **互不相同** 。
+- 所有 `dayi` 互不相同 。
 
 ## 2. 🎯 s.1 - 解法 1
 

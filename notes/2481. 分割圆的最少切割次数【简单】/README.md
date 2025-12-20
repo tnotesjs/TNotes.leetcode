@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/minimum-cuts-to-divide-a-circle/)
 
-圆内一个 **有效切割** ，符合以下二者之一：
+圆内一个 有效切割 ，符合以下二者之一：
 
 - 该切割是两个端点在圆上的线段，且该线段经过圆心。
 - 该切割是一端在圆心另一端在圆上的线段。
@@ -22,11 +22,11 @@
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-19-52.png)
 
-给你一个整数 `n` ，请你返回将圆切割成相等的 `n` 等分的 **最少** 切割次数。
+给你一个整数 `n` ，请你返回将圆切割成相等的 `n` 等分的 最少 切割次数。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-19-59.png)
 
@@ -39,7 +39,7 @@
 
 ---
 
-- **示例 2：**
+- 示例 2：
 
 ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-20-11.png)
 
@@ -54,7 +54,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= n <= 100`
 

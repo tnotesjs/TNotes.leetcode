@@ -11,13 +11,13 @@
 
 - [leetcode](https://leetcode.cn/problems/delete-operation-for-two-strings/)
 
-给定两个单词 `word1` 和 `word2` ，返回使得 `word1` 和 `word2` **相同** 所需的 **最小步数**。
+给定两个单词 `word1` 和 `word2` ，返回使得 `word1` 和 `word2` 相同 所需的 最小步数。
 
-**每步** 可以删除任意一个字符串中的一个字符。
+每步 可以删除任意一个字符串中的一个字符。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入: word1 = "sea", word2 = "eat"
@@ -34,7 +34,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= word1.length, word2.length <= 500`
 - `word1` 和 `word2` 只包含小写英文字母

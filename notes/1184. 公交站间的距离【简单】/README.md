@@ -21,7 +21,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-18-48-30.png)
 
@@ -31,7 +31,7 @@
 解释：公交站 0 和 1 之间的距离是 1 或 9，最小值是 1。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-18-48-35.png)
 
@@ -41,7 +41,7 @@
 解释：公交站 0 和 2 之间的距离是 3 或 7，最小值是 3。
 ```
 
-- **示例 3：**
+- 示例 3：
 
 ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-18-48-40.png)
 
@@ -53,7 +53,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= n <= 10^4`
 - `distance.length == n`

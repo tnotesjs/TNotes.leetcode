@@ -23,7 +23,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-12-04-35.png)
 
@@ -37,7 +37,7 @@
 ]
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-12-04-28.png)
 
@@ -79,7 +79,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= rows, cols <= 100`
 - `0 <= rStart < rows`

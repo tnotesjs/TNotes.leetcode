@@ -11,13 +11,13 @@
 
 - [leetcode](https://leetcode.cn/problems/concatenated-words/)
 
-给你一个 **不含重复** 单词的字符串数组 `words` ，请你找出并返回 `words` 中的所有 **连接词** 。
+给你一个 不含重复 单词的字符串数组 `words` ，请你找出并返回 `words` 中的所有 连接词 。
 
-**连接词** 定义为：一个完全由给定数组中的至少两个较短单词（不一定是不同的两个单词）组成的字符串。
+连接词 定义为：一个完全由给定数组中的至少两个较短单词（不一定是不同的两个单词）组成的字符串。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：words = ["cat","cats","catsdogcats","dog","dogcatsdog","hippopotamuses","rat","ratcatdogcat"]
@@ -29,7 +29,7 @@
 "ratcatdogcat" 由 "rat", "cat", "dog" 和 "cat" 组成。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：words = ["cat","dog","catdog"]
@@ -38,12 +38,12 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= words.length <= 10^4`
 - `1 <= words[i].length <= 30`
 - `words[i]` 仅由小写英文字母组成。
-- `words` 中的所有字符串都是 **唯一** 的。
+- `words` 中的所有字符串都是 唯一 的。
 - `1 <= sum(words[i].length) <= 10^5`
 
 ## 2. 🎯 s.1 - 暴力解法

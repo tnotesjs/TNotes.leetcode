@@ -21,7 +21,7 @@
 
 你可以假设 `next()` 调用总是有效的，也就是说，当调用 `next()` 时，BST 的中序遍历中至少存在一个下一个数字。
 
-**示例：**
+示例：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-25-04.png)
 
@@ -47,7 +47,7 @@ bSTIterator.hasNext(); // 返回 False
 
 ---
 
-**提示：**
+提示：
 
 - 树中节点的数目在范围 `[1, 10^5]` 内
 - `0 <= Node.val <= 10^6`

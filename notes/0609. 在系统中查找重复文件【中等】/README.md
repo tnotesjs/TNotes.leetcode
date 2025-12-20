@@ -11,23 +11,23 @@
 
 - [leetcode](https://leetcode.cn/problems/find-duplicate-file-in-system/)
 
-给你一个目录信息列表 `paths` ，包括目录路径，以及该目录中的所有文件及其内容，请你按路径返回文件系统中的所有重复文件。答案可按 **任意顺序** 返回。
+给你一个目录信息列表 `paths` ，包括目录路径，以及该目录中的所有文件及其内容，请你按路径返回文件系统中的所有重复文件。答案可按 任意顺序 返回。
 
-一组重复的文件至少包括 **两个** 具有完全相同内容的文件。
+一组重复的文件至少包括 两个 具有完全相同内容的文件。
 
-**输入** 列表中的单个目录信息字符串的格式如下：
+输入 列表中的单个目录信息字符串的格式如下：
 
 - `"root/d1/d2/.../dm f1.txt(f1_content) f2.txt(f2_content) ... fn.txt(fn_content)"`
 
 这意味着，在目录 `root/d1/d2/.../dm` 下，有 `n` 个文件 ( `f1.txt`, `f2.txt` ... `fn.txt` ) 的内容分别是 ( `f1_content`, `f2_content` ... `fn_content` ) 。注意：`n >= 1` 且 `m >= 0` 。如果 `m = 0` ，则表示该目录是根目录。
 
-**输出** 是由 **重复文件路径组** 构成的列表。其中每个组由所有具有相同内容文件的文件路径组成。文件路径是具有下列格式的字符串：
+输出 是由 重复文件路径组 构成的列表。其中每个组由所有具有相同内容文件的文件路径组成。文件路径是具有下列格式的字符串：
 
 - `"directory_path/file_name.txt"`
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：paths = ["root/a 1.txt(abcd) 2.txt(efgh)","root/c 3.txt(abcd)","root/c/d 4.txt(efgh)","root 4.txt(efgh)"]
@@ -37,7 +37,7 @@
 ]
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：paths = ["root/a 1.txt(abcd) 2.txt(efgh)","root/c 3.txt(abcd)","root/c/d 4.txt(efgh)"]
@@ -49,7 +49,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= paths.length <= 2 * 10^4`
 - `1 <= paths[i].length <= 3000`

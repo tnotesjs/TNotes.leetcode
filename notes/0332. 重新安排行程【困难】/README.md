@@ -21,7 +21,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-11-12-06-28.png)
 
@@ -30,7 +30,7 @@
 输出：["JFK","MUC","LHR","SFO","SJC"]
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-11-12-06-34.png)
 
@@ -42,7 +42,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= tickets.length <= 300`
 - `tickets[i].length == 2`

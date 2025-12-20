@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/number-of-adjacent-elements-with-the-same-color/)
 
-给定一个整数 `n` 表示一个长度为 `n` 的数组 `colors`，初始所有元素均为 0 ，表示是 **未染色** 的。同时给定一个二维整数数组 `queries`，其中 `queries[i] = [indexi, colori]`。对于第 `i` 个 **查询**：
+给定一个整数 `n` 表示一个长度为 `n` 的数组 `colors`，初始所有元素均为 0 ，表示是 未染色 的。同时给定一个二维整数数组 `queries`，其中 `queries[i] = [indexi, colori]`。对于第 `i` 个 查询：
 
 - 将 `colors[indexi]` 染色为 `colori`。
 - 统计 `colors` 中颜色相同的相邻对的数量（无论 `colori`）。
@@ -22,7 +22,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：n = 4, queries = [[0,2],[1,2],[3,1],[1,1],[2,1]]
@@ -37,7 +37,7 @@
 - 在第 5 次查询后 colors = [2,1,1,1]。颜色相同的相邻对的数量是 2。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：n = 1, queries = [[0,100000]]
@@ -49,7 +49,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= n <= 10^5`
 - `1 <= queries.length <= 10^5`

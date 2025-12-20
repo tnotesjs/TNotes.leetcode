@@ -13,13 +13,13 @@
 
 - [leetcode](https://leetcode.cn/problems/number-of-flowers-in-full-bloom/)
 
-给你一个下标从 **0** 开始的二维整数数组 `flowers` ，其中 `flowers[i] = [starti, endi]` 表示第 `i` 朵花的 **花期** 从 `starti` 到 `endi` （都 **包含**）。同时给你一个下标从 **0** 开始大小为 `n` 的整数数组 `people` ，`people[i]` 是第 `i` 个人来看花的时间。
+给你一个下标从 0 开始的二维整数数组 `flowers` ，其中 `flowers[i] = [starti, endi]` 表示第 `i` 朵花的 花期 从 `starti` 到 `endi` （都 包含）。同时给你一个下标从 0 开始大小为 `n` 的整数数组 `people` ，`people[i]` 是第 `i` 个人来看花的时间。
 
-请你返回一个大小为 `n` 的整数数组 `answer` ，其中 `answer[i]`是第 `i` 个人到达时在花期内花的 **数目** 。
+请你返回一个大小为 `n` 的整数数组 `answer` ，其中 `answer[i]`是第 `i` 个人到达时在花期内花的 数目 。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-11-39-24.png)
 
@@ -30,7 +30,7 @@
 对每个人，我们返回他们到达时在花期内花的数目。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-11-39-30.png)
 
@@ -43,7 +43,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= flowers.length <= 5 * 10^4`
 - `flowers[i].length == 2`

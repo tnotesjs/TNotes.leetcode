@@ -12,18 +12,18 @@
 
 - [leetcode](https://leetcode.cn/problems/logical-or-of-two-binary-grids-represented-as-quad-trees/)
 
-二进制矩阵中的所有元素不是 **0** 就是 **1** 。
+二进制矩阵中的所有元素不是 0 就是 1 。
 
 给你两个四叉树，`quadTree1` 和 `quadTree2`。其中 `quadTree1` 表示一个 `n * n` 二进制矩阵，而 `quadTree2` 表示另一个 `n * n` 二进制矩阵。
 
-请你返回一个表示 `n * n` 二进制矩阵的四叉树，它是 `quadTree1` 和 `quadTree2` 所表示的两个二进制矩阵进行 **按位逻辑或运算** 的结果。
+请你返回一个表示 `n * n` 二进制矩阵的四叉树，它是 `quadTree1` 和 `quadTree2` 所表示的两个二进制矩阵进行 按位逻辑或运算 的结果。
 
-注意，当 `isLeaf` 为 **False** 时，你可以把 **True** 或者 **False** 赋值给节点，两种值都会被判题机制 **接受** 。
+注意，当 `isLeaf` 为 False 时，你可以把 True 或者 False 赋值给节点，两种值都会被判题机制 接受 。
 
 四叉树数据结构中，每个内部节点只有四个子节点。此外，每个节点都有两个属性：
 
-- `val`：储存叶子结点所代表的区域的值。1 对应 **True**，0 对应 **False**；
-- `isLeaf`: 当这个节点是一个叶子结点时为 **True**，如果它有 4 个子节点则为 **False** 。
+- `val`：储存叶子结点所代表的区域的值。1 对应 True，0 对应 False；
+- `isLeaf`: 当这个节点是一个叶子结点时为 True，如果它有 4 个子节点则为 False 。
 
 ```java
 class Node {
@@ -46,17 +46,17 @@ class Node {
 
 如果你想了解更多关于四叉树的内容，可以参考 [百科][1]。
 
-**四叉树格式：**
+四叉树格式：
 
 输出为使用层序遍历后四叉树的序列化形式，其中 `null` 表示路径终止符，其下面不存在节点。
 
 它与二叉树的序列化非常相似。唯一的区别是节点以列表形式表示 `[isLeaf, val]` 。
 
-如果 `isLeaf` 或者 `val` 的值为 True ，则表示它在列表 `[isLeaf, val]` 中的值为 **1** ；如果 `isLeaf` 或者 `val` 的值为 False ，则表示值为 **0** 。
+如果 `isLeaf` 或者 `val` 的值为 True ，则表示它在列表 `[isLeaf, val]` 中的值为 1 ；如果 `isLeaf` 或者 `val` 的值为 False ，则表示值为 0 。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-16-53-12.png)
 
@@ -75,7 +75,7 @@ quadTree1 和 quadTree2 如上所示。由四叉树所表示的二进制矩阵�
 
 ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-16-53-19.png)
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：
@@ -91,7 +91,7 @@ quadTree2 = [[1,0]]
 
 ---
 
-**提示：**
+提示：
 
 - `quadTree1` 和 `quadTree2` 都是符合题目要求的四叉树，每个都代表一个 `n * n` 的矩阵。
 - `n == 2^x` ，其中 `0 <= x <= 9`.

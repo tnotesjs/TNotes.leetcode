@@ -36,20 +36,20 @@
 
 ---
 
-**示例 2：**
+示例 2：
 
-- 输入：`fn = (x) => x**2, args = [2], t = 100`
+- 输入：`fn = (x) => x2, args = [2], t = 100`
 - 输出：`[]`
 - 解释：
   - `const cancelTimeMs = 50;`
-  - `const cancelFn = cancellable((x) => x**2, [2], 100);`
+  - `const cancelFn = cancellable((x) => x2, [2], 100);`
   - `setTimeout(cancelFn, cancelTimeMs);`
 
 取消操作被安排在延迟了 cancelTimeMs（50 毫秒）后进行，这发生在 fn(2) 在 100 毫秒时执行之前，导致 fn(2) 从未被调用。
 
 ---
 
-**示例 3：**
+示例 3：
 
 - 输入：`fn = (x1, x2) => x1 * x2, args = [2,4], t = 30`
 - 输出：`[{"time": 30, "returned": 8}]`
@@ -60,7 +60,7 @@
 
 取消操作被安排在延迟了 cancelTimeMs（100 毫秒）后进行，这发生在 fn(2,4) 在 30 毫秒时执行之后。
 
-**提示：**
+提示：
 
 - `fn` 是一个函数
 - `args` 是一个有效的 JSON 数组

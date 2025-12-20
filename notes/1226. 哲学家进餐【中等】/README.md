@@ -26,7 +26,7 @@
 
 > 问题描述和图片来自维基百科 [wikipedia.org][1]
 
-哲学家从 **0** 到 **4** 按 **顺时针** 编号。请实现函数 `void wantsToEat(philosopher, pickLeftFork, pickRightFork, eat, putLeftFork, putRightFork)`：
+哲学家从 0 到 4 按 顺时针 编号。请实现函数 `void wantsToEat(philosopher, pickLeftFork, pickRightFork, eat, putLeftFork, putRightFork)`：
 
 - `philosopher` 哲学家的编号。
 - `pickLeftFork` 和 `pickRightFork` 表示拿起左边或右边的叉子。
@@ -36,7 +36,7 @@
 
 给你 5 个线程，每个都代表一个哲学家，请你使用类的同一个对象来模拟这个过程。在最后一次调用结束之前，可能会为同一个哲学家多次调用该函数。
 
-**示例：**
+示例：
 
 ```txt
 输入：n = 1
@@ -80,7 +80,7 @@ output[i] = [a, b, c] (3个整数)
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= n <= 60`
 

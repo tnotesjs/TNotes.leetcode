@@ -15,8 +15,8 @@
 
 给你两个整数数组 `nums1` 和 `nums2` ，请你实现一个支持下述两类查询的数据结构：
 
-1. **累加** ，将一个正整数加到 `nums2` 中指定下标对应元素上。
-2. **计数** ，统计满足 `nums1[i] + nums2[j]` 等于指定值的下标对 `(i, j)` 数目（`0 <= i < nums1.length` 且 `0 <= j < nums2.length`）。
+1. 累加 ，将一个正整数加到 `nums2` 中指定下标对应元素上。
+2. 计数 ，统计满足 `nums1[i] + nums2[j]` 等于指定值的下标对 `(i, j)` 数目（`0 <= i < nums1.length` 且 `0 <= j < nums2.length`）。
 
 实现 `FindSumPairs` 类：
 
@@ -24,7 +24,7 @@
 - `void add(int index, int val)` 将 `val` 加到 `nums2[index]` 上，即，执行 `nums2[index] += val` 。
 - `int count(int tot)` 返回满足 `nums1[i] + nums2[j] == tot` 的下标对 `(i, j)` 数目。
 
-**示例：**
+示例：
 
 ```txt
 输入：
@@ -46,7 +46,7 @@ findSumPairs.count(7);  // 返回 11 ；下标对 (2,1), (2,2), (2,4), (3,1), (3
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= nums1.length <= 1000`
 - `1 <= nums2.length <= 10^5`

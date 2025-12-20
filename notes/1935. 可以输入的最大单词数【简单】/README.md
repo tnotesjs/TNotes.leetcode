@@ -19,7 +19,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：text = "hello world", brokenLetters = "ad"
@@ -27,7 +27,7 @@
 解释：无法输入 "world" ，因为字母键 'd' 已损坏。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：text = "leet code", brokenLetters = "lt"
@@ -35,7 +35,7 @@
 解释：无法输入 "leet" ，因为字母键 'l' 和 't' 已损坏。
 ```
 
-- **示例 3：**
+- 示例 3：
 
 ```txt
 输入：text = "leet code", brokenLetters = "e"
@@ -45,13 +45,13 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= text.length <= 10^4`
 - `0 <= brokenLetters.length <= 26`
 - `text` 由若干用单个空格分隔的单词组成，且不含任何前导和尾随空格
 - 每个单词仅由小写英文字母组成
-- `brokenLetters` 由 **互不相同** 的小写英文字母组成
+- `brokenLetters` 由 互不相同 的小写英文字母组成
 
 ## 2. 🎯 s.1 - 解法 1
 

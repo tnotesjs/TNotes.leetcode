@@ -28,7 +28,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-20-50-50.png)
 
@@ -38,7 +38,7 @@
 解释：玩家 1 总是放字符 "X" 。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-20-50-55.png)
 
@@ -59,7 +59,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `board.length == 3`
 - `board[i].length == 3`

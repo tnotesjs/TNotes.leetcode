@@ -13,18 +13,18 @@
 
 - [leetcode](https://leetcode.cn/problems/merge-triplets-to-form-target-triplet/)
 
-**三元组** 是一个由三个整数组成的数组。给你一个二维整数数组 `triplets` ，其中 `triplets[i] = [ai, bi, ci]` 表示第 `i` 个 **三元组** 。同时，给你一个整数数组 `target = [x, y, z]` ，表示你想要得到的 **三元组** 。
+三元组 是一个由三个整数组成的数组。给你一个二维整数数组 `triplets` ，其中 `triplets[i] = [ai, bi, ci]` 表示第 `i` 个 三元组 。同时，给你一个整数数组 `target = [x, y, z]` ，表示你想要得到的 三元组 。
 
-为了得到 `target` ，你需要对 `triplets` 执行下面的操作 **任意次**（可能 **零** 次）：
+为了得到 `target` ，你需要对 `triplets` 执行下面的操作 任意次（可能 零 次）：
 
-- 选出两个下标（下标 **从 0 开始** 计数）`i` 和 `j`（`i != j`），并 **更新** `triplets[j]` 为 `[max(ai, aj), max(bi, bj), max(ci, cj)]` 。
+- 选出两个下标（下标 从 0 开始 计数）`i` 和 `j`（`i != j`），并 更新 `triplets[j]` 为 `[max(ai, aj), max(bi, bj), max(ci, cj)]` 。
   - 例如，`triplets[i] = [2, 5, 3]` 且 `triplets[j] = [1, 7, 5]`，`triplets[j]` 将会更新为 `[max(2, 1), max(5, 7), max(3, 5)] = [2, 7, 5]` 。
 
-如果通过以上操作我们可以使得目标 **三元组** `target` 成为 `triplets` 的一个 **元素** ，则返回 `true` ；否则，返回 `false` 。
+如果通过以上操作我们可以使得目标 三元组 `target` 成为 `triplets` 的一个 元素 ，则返回 `true` ；否则，返回 `false` 。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：triplets = [[2,5,3],[1,8,4],[1,7,5]], target = [2,7,5]
@@ -34,7 +34,7 @@
 目标三元组 [2,7,5] 现在是 triplets 的一个元素。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：triplets = [[1,3,4],[2,5,8]], target = [2,5,8]
@@ -42,7 +42,7 @@
 解释：目标三元组 [2,5,8] 已经是 triplets 的一个元素。
 ```
 
-- **示例 3：**
+- 示例 3：
 
 ```txt
 输入：triplets = [[2,5,3],[2,3,4],[1,2,5],[5,2,3]], target = [5,5,5]
@@ -53,7 +53,7 @@
 目标三元组 [5,5,5] 现在是 triplets 的一个元素。
 ```
 
-- **示例 4：**
+- 示例 4：
 
 ```txt
 输入：triplets = [[3,4,5],[4,5,6]], target = [3,2,5]
@@ -63,7 +63,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= triplets.length <= 10^5`
 - `triplets[i].length == target.length == 3`

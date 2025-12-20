@@ -17,11 +17,11 @@
 
 其中素食者友好过滤器 `veganFriendly` 的值可以为 `true` 或者 `false`，如果为 _true_ 就意味着你应该只包括 `veganFriendlyi` 为 true 的餐馆，为 _false_ 则意味着可以包括任何餐馆。此外，我们还有最大价格 `maxPrice` 和最大距离 `maxDistance` 两个过滤器，它们分别考虑餐厅的价格因素和距离因素的最大值。
 
-过滤后返回餐馆的 **_id_**，按照 **_rating_** 从高到低排序。如果 **_rating_** 相同，那么按 **_id_** 从高到低排序。简单起见， `veganFriendlyi` 和 `veganFriendly` 为 _true_ 时取值为 _1_，为 _false_ 时，取值为 _0 。_
+过滤后返回餐馆的 _id_，按照 _rating_ 从高到低排序。如果 _rating_ 相同，那么按 _id_ 从高到低排序。简单起见， `veganFriendlyi` 和 `veganFriendly` 为 _true_ 时取值为 _1_，为 _false_ 时，取值为 _0 。_
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：restaurants = [[1,4,1,40,10],[2,8,0,50,5],[3,8,1,30,4],[4,10,0,10,3],[5,1,1,15,1]], veganFriendly = 1, maxPrice = 50, maxDistance = 10
@@ -36,7 +36,7 @@
 在按照 veganFriendly = 1, maxPrice = 50 和 maxDistance = 10 进行过滤后，我们得到了餐馆 3, 餐馆 1 和 餐馆 5（按评分从高到低排序）。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：restaurants = [[1,4,1,40,10],[2,8,0,50,5],[3,8,1,30,4],[4,10,0,10,3],[5,1,1,15,1]], veganFriendly = 0, maxPrice = 50, maxDistance = 10
@@ -44,7 +44,7 @@
 解释：餐馆与示例 1 相同，但在 veganFriendly = 0 的过滤条件下，应该考虑所有餐馆。
 ```
 
-- **示例 3：**
+- 示例 3：
 
 ```txt
 输入：restaurants = [[1,4,1,40,10],[2,8,0,50,5],[3,8,1,30,4],[4,10,0,10,3],[5,1,1,15,1]], veganFriendly = 0, maxPrice = 30, maxDistance = 3
@@ -53,7 +53,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= restaurants.length <= 10^4`
 - `restaurants[i].length == 5`

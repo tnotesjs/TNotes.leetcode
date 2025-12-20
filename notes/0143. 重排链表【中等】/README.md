@@ -23,7 +23,7 @@ L0 → Ln → L1 → Ln - 1 → L2 → Ln - 2 → …
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-07-56.png)
 
@@ -32,7 +32,7 @@ L0 → Ln → L1 → Ln - 1 → L2 → Ln - 2 → …
 输出：[1,4,2,3]
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-08-09.png)
 
@@ -43,7 +43,7 @@ L0 → Ln → L1 → Ln - 1 → L2 → Ln - 2 → …
 
 ---
 
-**提示：**
+提示：
 
 - 链表的长度范围为 `[1, 5 * 10^4]`
 - `1 <= node.val <= 1000`

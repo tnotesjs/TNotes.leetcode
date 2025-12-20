@@ -13,17 +13,17 @@
 
 - [leetcode](https://leetcode.cn/problems/short-encoding-of-words/)
 
-单词数组 `words` 的 **有效编码** 由任意助记字符串 `s` 和下标数组 `indices` 组成，且满足：
+单词数组 `words` 的 有效编码 由任意助记字符串 `s` 和下标数组 `indices` 组成，且满足：
 
 - `words.length == indices.length`
 - 助记字符串 `s` 以 `'#'` 字符结尾
-- 对于每个下标 `indices[i]` ，`s` 的一个从 `indices[i]` 开始、到下一个 `'#'` 字符结束（但不包括 `'#'`）的 **子字符串** 恰好与 `words[i]` 相等
+- 对于每个下标 `indices[i]` ，`s` 的一个从 `indices[i]` 开始、到下一个 `'#'` 字符结束（但不包括 `'#'`）的 子字符串 恰好与 `words[i]` 相等
 
 给你一个单词数组 `words` ，返回成功对 `words` 进行编码的最小助记字符串 `s` 的长度 。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：words = ["time", "me", "bell"]
@@ -34,7 +34,7 @@ words[1] = "me" ，s 开始于 indices[1] = 2 到下一个 '#' 结束的子字�
 words[2] = "bell" ，s 开始于 indices[2] = 5 到下一个 '#' 结束的子字符串，如加粗部分所示 "time#bell#"
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：words = ["t"]
@@ -44,7 +44,7 @@ words[2] = "bell" ，s 开始于 indices[2] = 5 到下一个 '#' 结束的子字
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= words.length <= 2000`
 - `1 <= words[i].length <= 7`

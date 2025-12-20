@@ -13,13 +13,13 @@
 
 - [leetcode](https://leetcode.cn/problems/equal-row-and-column-pairs/)
 
-给你一个下标从 **0** 开始、大小为 `n x n` 的整数矩阵 `grid` ，返回满足 `Ri` 行和 `Cj` 列相等的行列对 `(Ri, Cj)` 的数目。
+给你一个下标从 0 开始、大小为 `n x n` 的整数矩阵 `grid` ，返回满足 `Ri` 行和 `Cj` 列相等的行列对 `(Ri, Cj)` 的数目。
 
 如果行和列以相同的顺序包含相同的元素（即相等的数组），则认为二者是相等的。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-19-42-42.png)
 
@@ -30,7 +30,7 @@
 - (第 2 行，第 1 列)：[2,7,7]
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-19-42-49.png)
 
@@ -45,7 +45,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `n == grid.length == grid[i].length`
 - `1 <= n <= 200`

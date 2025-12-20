@@ -26,7 +26,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：words = ["SEND","MORE"], result = "MONEY"
@@ -35,7 +35,7 @@
 所以 "SEND" + "MORE" = "MONEY" ,  9567 + 1085 = 10652
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：words = ["SIX","SEVEN","SEVEN"], result = "TWENTY"
@@ -44,14 +44,14 @@
 所以 "SIX" + "SEVEN" + "SEVEN" = "TWENTY" ,  650 + 68782 + 68782 = 138214
 ```
 
-- **示例 3：**
+- 示例 3：
 
 ```txt
 输入：words = ["THIS","IS","TOO"], result = "FUNNY"
 输出：true
 ```
 
-- **示例 4：**
+- 示例 4：
 
 ```txt
 输入：words = ["LEET","CODE"], result = "POINT"
@@ -60,7 +60,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `2 <= words.length <= 5`
 - `1 <= words[i].length, results.length <= 7`

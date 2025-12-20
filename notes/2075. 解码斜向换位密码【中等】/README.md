@@ -13,13 +13,13 @@
 
 - [leetcode](https://leetcode.cn/problems/decode-the-slanted-ciphertext/)
 
-字符串 `originalText` 使用 **斜向换位密码** ，经由 **行数固定** 为 `rows` 的矩阵辅助，加密得到一个字符串 `encodedText` 。
+字符串 `originalText` 使用 斜向换位密码 ，经由 行数固定 为 `rows` 的矩阵辅助，加密得到一个字符串 `encodedText` 。
 
 `originalText` 先按从左上到右下的方式放置到矩阵中。
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-10-13.png)
 
-先填充蓝色单元格，接着是红色单元格，然后是黄色单元格，以此类推，直到到达 `originalText` 末尾。箭头指示顺序即为单元格填充顺序。所有空单元格用 `' '` 进行填充。矩阵的列数需满足：用 `originalText` 填充之后，最右侧列 **不为空** 。
+先填充蓝色单元格，接着是红色单元格，然后是黄色单元格，以此类推，直到到达 `originalText` 末尾。箭头指示顺序即为单元格填充顺序。所有空单元格用 `' '` 进行填充。矩阵的列数需满足：用 `originalText` 填充之后，最右侧列 不为空 。
 
 接着按行将字符附加到矩阵中，构造 `encodedText` 。
 
@@ -37,11 +37,11 @@
 
 ---
 
-**注意：** `originalText` **不** 含任何尾随空格 `' '` 。生成的测试用例满足 **仅存在一个** 可能的 `originalText` 。
+注意： `originalText` 不 含任何尾随空格 `' '` 。生成的测试用例满足 仅存在一个 可能的 `originalText` 。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：encodedText = "ch   ie   pr", rows = 3
@@ -49,7 +49,7 @@
 解释：此示例与问题描述中的例子相同。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ![图 3](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-10-48.png)
 
@@ -60,7 +60,7 @@
 蓝色箭头展示如何从 encodedText 找到 originalText 。
 ```
 
-- **示例 3：**
+- 示例 3：
 
 ![图 4](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-10-58.png)
 
@@ -70,7 +70,7 @@
 解释：由于只有 1 行，所以 originalText 和 encodedText 是相同的。
 ```
 
-- **示例 4：**
+- 示例 4：
 
 ![图 5](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-11-03.png)
 
@@ -82,13 +82,13 @@
 
 ---
 
-**提示：**
+提示：
 
 - `0 <= encodedText.length <= 10^6`
 - `encodedText` 仅由小写英文字母和 `' '` 组成
-- `encodedText` 是对某个 **不含** 尾随空格的 `originalText` 的一个有效编码
+- `encodedText` 是对某个 不含 尾随空格的 `originalText` 的一个有效编码
 - `1 <= rows <= 1000`
-- 生成的测试用例满足 **仅存在一个** 可能的 `originalText`
+- 生成的测试用例满足 仅存在一个 可能的 `originalText`
 
 ## 2. 🎯 s.1 - 解法 1
 

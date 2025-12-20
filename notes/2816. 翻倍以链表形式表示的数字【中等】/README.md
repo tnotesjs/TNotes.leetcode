@@ -13,13 +13,13 @@
 
 - [leetcode](https://leetcode.cn/problems/double-a-number-represented-as-a-linked-list/)
 
-给你一个 **非空** 链表的头节点 `head` ，表示一个不含前导零的非负数整数。
+给你一个 非空 链表的头节点 `head` ，表示一个不含前导零的非负数整数。
 
-将链表 **翻倍** 后，返回头节点 `head` 。
+将链表 翻倍 后，返回头节点 `head` 。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-12-12-50.png)
 
@@ -31,7 +31,7 @@
 
 ---
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-12-12-55.png)
 
@@ -43,7 +43,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - 链表中节点的数目在范围 `[1, 10^4]` 内
 - `0 <= Node.val <= 9`

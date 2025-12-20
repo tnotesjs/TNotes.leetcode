@@ -13,16 +13,16 @@
 
 - [leetcode](https://leetcode.cn/problems/find-consecutive-integers-from-a-data-stream/)
 
-给你一个整数数据流，请你实现一个数据结构，检查数据流中最后 `k` 个整数是否 **等于** 给定值 `value` 。
+给你一个整数数据流，请你实现一个数据结构，检查数据流中最后 `k` 个整数是否 等于 给定值 `value` 。
 
-请你实现 **DataStream** 类：
+请你实现 DataStream 类：
 
 - `DataStream(int value, int k)` 用两个整数 `value` 和 `k` 初始化一个空的整数数据流。
 - `boolean consec(int num)` 将 `num` 添加到整数数据流。如果后 `k` 个整数都等于 `value` ，返回 `true` ，否则返回 `false` 。如果少于 `k` 个整数，条件不满足，所以也返回 `false` 。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：
@@ -43,7 +43,7 @@ dataStream.consec(3); // 最后 k 个整数分别是 [4,4,3] 。
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= value, num <= 10^9`
 - `1 <= k <= 10^5`

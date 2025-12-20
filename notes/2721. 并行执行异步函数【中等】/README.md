@@ -27,7 +27,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：functions = [
@@ -40,7 +40,7 @@ promiseAll(functions).then(console.log); // [5]
 单个函数在 200 毫秒后以值 5 成功解析。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：functions = [
@@ -51,7 +51,7 @@ promiseAll(functions).then(console.log); // [5]
 解释：由于其中一个 promise 被拒绝，返回的 promise 也在同一时间被拒绝并返回相同的错误。
 ```
 
-- **示例 3：**
+- 示例 3：
 
 ```txt
 输入：functions = [
@@ -65,7 +65,7 @@ promiseAll(functions).then(console.log); // [5]
 
 ---
 
-**提示：**
+提示：
 
 - 函数 `functions` 是一个返回 promise 的函数数组
 - `1 <= functions.length <= 10`

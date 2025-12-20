@@ -22,25 +22,25 @@
 
 如果键不是字符串，则应通过调用 `String()` 方法将其转换为字符串。
 
-**示例 1：**
+示例 1：
 
 - 输入：`keysArr = ["a", "b", "c"], valuesArr = [1, 2, 3]`
 - 输出：`{"a": 1, "b": 2, "c": 3}`
 - 解释：键 "a"、"b" 和 "c" 分别与值 1、2 和 3 配对。
 
-**示例 2：**
+示例 2：
 
 - 输入：`keysArr = ["1", 1, false], valuesArr = [4, 5, 6]`
 - 输出：`{"1": 4, "false": 6}`
 - 解释：首先，将 arr1 中的所有元素转换为字符串。我们可以看到有两个 "1" 的出现。使用第一次出现 "1" 的关联值：4。
 
-**示例 3：**
+示例 3：
 
 - 输入：`keysArr = [], valuesArr = []`
 - 输出：`{}`
 - 解释：没有键，因此返回一个空对象。
 
-**提示：**
+提示：
 
 - `keysArr` 和 `valuesArr` 都是有效的 JSON 数组
 - `2 <= JSON.stringify(keysArr).length, JSON.stringify(valuesArr).length <= 5 * 10^5`

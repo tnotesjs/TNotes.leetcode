@@ -13,15 +13,15 @@
 
 - [leetcode](https://leetcode.cn/problems/queens-that-can-attack-the-king/)
 
-在一个 **下标从 0 开始** 的 `8 x 8` 棋盘上，可能有多个黑皇后和一个白国王。
+在一个 下标从 0 开始 的 `8 x 8` 棋盘上，可能有多个黑皇后和一个白国王。
 
 给你一个二维整数数组 `queens`，其中 `queens[i] = [xQueeni, yQueeni]` 表示第 `i` 个黑皇后在棋盘上的位置。还给你一个长度为 `2` 的整数数组 `king`，其中 `king = [xKing, yKing]` 表示白国王的位置。
 
-返回 _能够直接攻击国王的黑皇后的坐标_。你可以以 **任何顺序** 返回答案。
+返回 _能够直接攻击国王的黑皇后的坐标_。你可以以 任何顺序 返回答案。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-19-45-32.png)
 
@@ -31,7 +31,7 @@
 解释：上面的图示显示了三个可以直接攻击国王的皇后和三个不能攻击国王的皇后（用红色虚线标记）。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-19-45-38.png)
 
@@ -43,12 +43,12 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= queens.length < 64`
 - `queens[i].length == king.length == 2`
 - `0 <= xQueeni, yQueeni, xKing, yKing < 8`
-- 所有给定的位置都是 **唯一** 的。
+- 所有给定的位置都是 唯一 的。
 
 ## 2. 🎯 s.1 - 解法 1
 

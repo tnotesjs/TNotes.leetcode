@@ -13,11 +13,11 @@
 
 - [leetcode](https://leetcode.cn/problems/count-all-possible-routes/)
 
-给你一个 **互不相同** 的整数数组，其中 `locations[i]` 表示第 `i` 个城市的位置。同时给你 `start`，`finish` 和 `fuel` 分别表示出发城市、目的地城市和你初始拥有的汽油总量
+给你一个 互不相同 的整数数组，其中 `locations[i]` 表示第 `i` 个城市的位置。同时给你 `start`，`finish` 和 `fuel` 分别表示出发城市、目的地城市和你初始拥有的汽油总量
 
 每一步中，如果你在城市 `i` ，你可以选择任意一个城市 `j` ，满足 `j != i` 且 `0 <= j < locations.length` ，并移动到城市 `j` 。从城市 `i` 移动到 `j` 消耗的汽油量为 `|locations[i] - locations[j]|`，`|x|` 表示 `x` 的绝对值。
 
-请注意， `fuel` 任何时刻都 **不能** 为负，且你 **可以** 经过任意城市超过一次（包括 `start` 和 `finish` ）。
+请注意， `fuel` 任何时刻都 不能 为负，且你 可以 经过任意城市超过一次（包括 `start` 和 `finish` ）。
 
 请你返回从 `start` 到 `finish` 所有可能路径的数目。
 
@@ -25,7 +25,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：locations = [2,3,6,8,4], start = 1, finish = 3, fuel = 5
@@ -37,7 +37,7 @@
 1 -> 4 -> 2 -> 3
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：locations = [4,3,1], start = 1, finish = 0, fuel = 6
@@ -50,7 +50,7 @@
 1 -> 0 -> 1 -> 0 -> 1 -> 0，使用汽油量为 fuel = 5
 ```
 
-- **示例 3：**
+- 示例 3：
 
 ```txt
 输入：locations = [5,2,1], start = 0, finish = 2, fuel = 3
@@ -60,11 +60,11 @@
 
 ---
 
-**提示：**
+提示：
 
 - `2 <= locations.length <= 100`
 - `1 <= locations[i] <= 10^9`
-- 所有 `locations` 中的整数 **互不相同** 。
+- 所有 `locations` 中的整数 互不相同 。
 - `0 <= start, finish < locations.length`
 - `1 <= fuel <= 200`
 

@@ -52,12 +52,12 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= deadends.length <= 500`
 - `deadends[i].length == 4`
 - `target.length == 4`
-- `target` **不在** `deadends` 之中
+- `target` 不在 `deadends` 之中
 - `target` 和 `deadends[i]` 仅由若干位数字组成
 
 ## 2. 🎯 s.1 - 解法 1

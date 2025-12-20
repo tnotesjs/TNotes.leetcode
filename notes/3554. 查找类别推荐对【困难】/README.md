@@ -43,18 +43,18 @@ product_id 是这张表的唯一主键。
 
 亚马逊想要了解不同产品类别的购物模式。编写一个解决方案：
 
-1. 查找所有 **类别对**（其中 `category1` < `category2`）
-2. 对于 **每个类别对**，确定 **同时** 购买了两类别产品的 **不同用户** 数量
+1. 查找所有 类别对（其中 `category1` < `category2`）
+2. 对于 每个类别对，确定 同时 购买了两类别产品的 不同用户 数量
 
-如果至少有 `3` 个不同的客户购买了两个类别的产品，则类别对被视为 **可报告的**。
+如果至少有 `3` 个不同的客户购买了两个类别的产品，则类别对被视为 可报告的。
 
-返回可报告类别对的结果表以 **customer_count** **降序** 排序，并且为了防止排序持平，以 **category1** 字典序 **升序** 排序，然后以 **category2 升序** 排序。
+返回可报告类别对的结果表以 customer_count 降序 排序，并且为了防止排序持平，以 category1 字典序 升序 排序，然后以 category2 升序 排序。
 
 结果格式如下所示。
 
-**示例：**
+示例：
 
-**输入：**
+输入：
 
 ProductPurchases 表：
 
@@ -101,7 +101,7 @@ ProductInfo 表：
 +------------+-------------+-------+
 ```
 
-**输出：**
+输出：
 
 ```txt
 +-------------+-------------+----------------+
@@ -114,24 +114,24 @@ ProductInfo 表：
 +-------------+-------------+----------------+
 ```
 
-**解释：**
+解释：
 
-- **Books-Clothing**:
+- Books-Clothing:
   - 用户 1 购买来自 Books (102) 和 Clothing (201) 的商品
   - 用户 2 购买来自 Books (102, 103) 和 Clothing (201) 的商品
   - 用户 5 购买来自 Books (102, 103) 和 Clothing (201, 202) 的商品
   - 共计：3 个用户购买同一类别的商品
-- **Books-Electronics**:
+- Books-Electronics:
   - 用户 1 购买来自 Books (102) 和 Electronics (101) 的商品
   - 用户 2 购买来自 Books (102, 103) 和 Electronics (101) 的商品
   - 用户 3 购买来自 Books (103) 和 Electronics (101) 的商品
   - 共计：3 个消费者购买同一类别的商品
-- **Clothing-Electronics**:
+- Clothing-Electronics:
   - 用户 1 购买来自 Clothing (201) 和 Electronics (101) 的商品
   - 用户 2 购买来自 Clothing (201) 和 Electronics (101) 的商品
   - 用户 4 购买来自 Clothing (201) 和 Electronics (101) 的商品
   - 共计：3 个消费者购买同一类别的商品
-- **Electronics-Sports**:
+- Electronics-Sports:
   - 用户 1 购买来自 Electronics (101) 和 Sports (301) 的商品
   - 用户 3 购买来自 Electronics (101) 和 Sports (301) 的商品
   - 用户 4 购买来自 Electronics (101) 和 Sports (301) 的商品

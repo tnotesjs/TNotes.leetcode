@@ -15,7 +15,7 @@
 
 ---
 
-**示例 1：**
+示例 1：
 
 输入：
 
@@ -35,7 +35,7 @@ counter() = 12 // 返回上次调用的值加 1。
 
 ---
 
-**示例 2：**
+示例 2：
 
 输入：
 
@@ -49,7 +49,7 @@ n = -(2)[('call', 'call', 'call', 'call', 'call')]
 
 ---
 
-**提示：**
+提示：
 
 - `-1000 <= n <= 1000`
 - `0 <= calls.length <= 1000`
@@ -78,7 +78,7 @@ var createCounter = function (n) {
 
 `counter` 函数是一个闭包，它内部引用了外部函数 `createCounter` 的参数 `n`。每次调用 `counter` 函数，它都会返回 `n` 的当前值，并且将 `n` 的值加 `1`。
 
-**使用示例**
+使用示例
 
 ```javascript
 const counter = createCounter(10)

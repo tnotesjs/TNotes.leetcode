@@ -26,7 +26,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-21-10-30.png)
 
@@ -38,7 +38,7 @@
 
 ---
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-21-10-36.png)
 
@@ -50,7 +50,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `n == coins.length`
 - `1 <= n <= 3 * 10^4`

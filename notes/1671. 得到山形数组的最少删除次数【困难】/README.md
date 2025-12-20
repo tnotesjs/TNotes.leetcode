@@ -13,18 +13,18 @@
 
 - [leetcode](https://leetcode.cn/problems/minimum-number-of-removals-to-make-mountain-array/)
 
-我们定义 `arr` 是 **山形数组** 当且仅当它满足：
+我们定义 `arr` 是 山形数组 当且仅当它满足：
 
 - `arr.length >= 3`
-- 存在某个下标 `i` （**从 0 开始**） 满足 `0 < i < arr.length - 1` 且：
+- 存在某个下标 `i` （从 0 开始） 满足 `0 < i < arr.length - 1` 且：
   - `arr[0] < arr[1] < ... < arr[i - 1] < arr[i]`
   - `arr[i] > arr[i + 1] > ... > arr[arr.length - 1]`
 
-给你整数数组 `nums`​ ，请你返回将 `nums` 变成 **山形状数组** 的 ​ **最少** 删除次数。
+给你整数数组 `nums`​ ，请你返回将 `nums` 变成 山形状数组 的 ​ 最少 删除次数。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：nums = [1,3,1]
@@ -32,7 +32,7 @@
 解释：数组本身就是山形数组，所以我们不需要删除任何元素。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：nums = [2,1,1,5,6,2,3,1]
@@ -42,7 +42,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `3 <= nums.length <= 1000`
 - `1 <= nums[i] <= 10^9`

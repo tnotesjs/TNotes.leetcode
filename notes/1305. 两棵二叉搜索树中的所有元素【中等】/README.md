@@ -13,11 +13,11 @@
 
 - [leetcode](https://leetcode.cn/problems/all-elements-in-two-binary-search-trees/)
 
-给你 `root1` 和 `root2` 这两棵二叉搜索树。请你返回一个列表，其中包含 **两棵树** 中的所有整数并按 **升序** 排序。.
+给你 `root1` 和 `root2` 这两棵二叉搜索树。请你返回一个列表，其中包含 两棵树 中的所有整数并按 升序 排序。.
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-18-19-38-52.png)
 
@@ -26,7 +26,7 @@
 输出：[0,1,1,2,3,4]
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-18-19-38-57.png)
 
@@ -37,7 +37,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - 每棵树的节点数在 `[0, 5000]` 范围内
 - `-10^5 <= Node.val <= 10^5`

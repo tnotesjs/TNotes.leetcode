@@ -18,7 +18,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-54-06.png)
 
@@ -33,7 +33,7 @@
 输出：true
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-54-13.png)
 
@@ -50,7 +50,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `m == matrix.length`
 - `n == matrix[i].length`

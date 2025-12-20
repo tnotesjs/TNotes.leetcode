@@ -17,17 +17,17 @@
 
 另给你一条由两个字符串 `ruleKey` 和 `ruleValue` 表示的检索规则。
 
-如果第 `i` 件物品能满足下述条件之一，则认为该物品与给定的检索规则 **匹配** ：
+如果第 `i` 件物品能满足下述条件之一，则认为该物品与给定的检索规则 匹配 ：
 
 - `ruleKey == "type"` 且 `ruleValue == typei` 。
 - `ruleKey == "color"` 且 `ruleValue == colori` 。
 - `ruleKey == "name"` 且 `ruleValue == namei` 。
 
-统计并返回 **匹配检索规则的物品数量** 。
+统计并返回 匹配检索规则的物品数量 。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：items = [
@@ -42,7 +42,7 @@
 只有一件物品匹配检索规则，这件物品是 ["computer","silver","lenovo"] 。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：items = [
@@ -61,7 +61,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= items.length <= 10^4`
 - `1 <= typei.length, colori.length, namei.length, ruleValue.length <= 10`

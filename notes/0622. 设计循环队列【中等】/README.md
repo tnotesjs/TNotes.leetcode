@@ -32,7 +32,7 @@
 - `isEmpty()`: 检查循环队列是否为空。
 - `isFull()`: 检查循环队列是否已满。
 
-**示例：**
+示例：
 
 ```java
 MyCircularQueue circularQueue = new MyCircularQueue(3); // 设置长度为 3
@@ -47,7 +47,7 @@ circularQueue.enQueue(4);  // 返回 true
 circularQueue.Rear();  // 返回 4
 ```
 
-**提示：**
+提示：
 
 - 所有的值都在 0 至 1000 的范围内；
 - 操作数将在 1 至 1000 的范围内；
@@ -133,12 +133,12 @@ MyCircularQueue.prototype.isFull = function () {
  */
 ```
 
-**deQueue 删除行为**
+deQueue 删除行为
 
 - 遵循 FIFO 原则，最先进入的最先出去。
 - 并非将元素给删掉，那个位置的值依旧是存在的，仅仅是没有指针再指向它了。
 
-**isFull 判断逻辑**
+isFull 判断逻辑
 
 在第二次执行 `circularQueue.enQueue(4)` 的时候可以往循环队列中插入新成员，此时维护的数组内部每个位置其实都已经是有值的状态了。由此可见在判断循环队列是否已经满了的逻辑，并非看数组的每个位置是否都有值了。
 

@@ -18,19 +18,19 @@
 
 给你一个整数`purchaseAmount` ，它表示你在一次购买中愿意支出的金额。
 
-在一个商店里，你进行一次购买，实际支出的金额会向 **最近** 的 `10` 的 **倍数** 取整。换句话说，你实际会支付一个 **非负** 金额 `roundedAmount` ，满足 `roundedAmount` 是 `10` 的倍数且 `abs(roundedAmount - purchaseAmount)` 的值 **最小** 。
+在一个商店里，你进行一次购买，实际支出的金额会向 最近 的 `10` 的 倍数 取整。换句话说，你实际会支付一个 非负 金额 `roundedAmount` ，满足 `roundedAmount` 是 `10` 的倍数且 `abs(roundedAmount - purchaseAmount)` 的值 最小 。
 
-如果存在多于一个最接近的 `10` 的倍数，**较大的倍数** 是你的实际支出金额。
+如果存在多于一个最接近的 `10` 的倍数，较大的倍数 是你的实际支出金额。
 
 请你返回一个整数，表示你在愿意支出金额为 `purchaseAmount` 块钱的前提下，购买之后剩下的余额。
 
 ---
 
-**注意：** `0` 也是 `10` 的倍数。
+注意： `0` 也是 `10` 的倍数。
 
 ---
 
-**示例 1：**
+示例 1：
 
 - 输入：`purchaseAmount = 9`
 - 输出：`90`
@@ -38,7 +38,7 @@
 
 ---
 
-**示例 2：**
+示例 2：
 
 - 输入：`purchaseAmount = 15`
 - 输出：`80`
@@ -46,7 +46,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `0 <= purchaseAmount <= 100`
 
@@ -73,7 +73,7 @@ var accountBalanceAfterPurchase = function (purchaseAmount) {
 - 时间复杂度：$O(1)$
 - 空间复杂度：$O(1)$
 
-**解题思路：**
+解题思路：
 
 找规律，假设要付 n _ 10 元，那么在数轴上，从 n _ 10 开始往前后各推 10/2，观察这些数字之间的规律。
 
@@ -83,7 +83,7 @@ var accountBalanceAfterPurchase = function (purchaseAmount) {
 
 ## 4. 🎯 s.2
 
-**所有金额整除 5 找规律：**
+所有金额整除 5 找规律：
 
 | purchaseAmount          | 整除 5 得到的结果 | 支付的金额 |
 | ----------------------- | ----------------- | ---------- |
@@ -115,7 +115,7 @@ var accountBalanceAfterPurchase = function (purchaseAmount) {
 
 ## 5. 🎯 s.3
 
-**所有金额 ➕ 5 后整除 10 找规律：**
+所有金额 ➕ 5 后整除 10 找规律：
 
 | purchaseAmount          | 整除 10 得到的结果 | 支付的金额 |
 | ----------------------- | ------------------ | ---------- |
@@ -128,7 +128,7 @@ var accountBalanceAfterPurchase = function (purchaseAmount) {
 | 85 ～ 94                | 9                  | 90         |
 | 95、96、97、98、99、100 | 10                 | 100        |
 
-**🤔 为什么这里会想到加 5？**
+🤔 为什么这里会想到加 5？
 
 以 5、6、7、8、9、10、11、12、13、14 这组数据为例。
 

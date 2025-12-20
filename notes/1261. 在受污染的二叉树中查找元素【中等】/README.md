@@ -29,7 +29,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：
@@ -43,7 +43,7 @@ findElements.find(1); // return False
 findElements.find(2); // return True
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：
@@ -58,7 +58,7 @@ findElements.find(3); // return True
 findElements.find(5); // return False
 ```
 
-- **示例 3：**
+- 示例 3：
 
 ```txt
 输入：
@@ -76,7 +76,7 @@ findElements.find(5); // return True
 
 ---
 
-**提示：**
+提示：
 
 - `TreeNode.val == -1`
 - 二叉树的高度不超过 `20`

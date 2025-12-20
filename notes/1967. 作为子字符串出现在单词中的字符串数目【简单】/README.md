@@ -15,11 +15,11 @@
 
 给你一个字符串数组 `patterns` 和一个字符串 `word` ，统计 `patterns` 中有多少个字符串是 `word` 的子字符串。返回字符串数目。
 
-**子字符串** 是字符串中的一个连续字符序列。
+子字符串 是字符串中的一个连续字符序列。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：patterns = ["a","abc","bc","d"], word = "abc"
@@ -32,7 +32,7 @@
 patterns 中有 3 个字符串作为子字符串出现在 word 中。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：patterns = ["a","b","c"], word = "aaaaabbbbb"
@@ -44,7 +44,7 @@ patterns 中有 3 个字符串作为子字符串出现在 word 中。
 patterns 中有 2 个字符串作为子字符串出现在 word 中。
 ```
 
-- **示例 3：**
+- 示例 3：
 
 ```txt
 输入：patterns = ["a","a","a"], word = "ab"
@@ -54,7 +54,7 @@ patterns 中有 2 个字符串作为子字符串出现在 word 中。
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= patterns.length <= 100`
 - `1 <= patterns[i].length <= 100`

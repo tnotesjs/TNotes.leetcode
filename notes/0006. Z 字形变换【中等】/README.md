@@ -27,11 +27,11 @@ string convert(string s, int numRows);
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```
 输入：s = "PAYPALISHIRING", numRows = 3
-输出："PAHNAPLSIIGYIR"**示例 2：**输入：s = "PAYPALISHIRING", numRows = 4
+输出："PAHNAPLSIIGYIR"示例 2：输入：s = "PAYPALISHIRING", numRows = 4
 输出："PINALSIGYAHRPI"
 解释：
 P     I    N
@@ -40,7 +40,7 @@ Y A   H R
 P     I
 ```
 
-- **示例 3：**
+- 示例 3：
 
 ```
 输入：s = "A", numRows = 1
@@ -49,7 +49,7 @@ P     I
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= s.length <= 1000`
 - `s` 由英文字母（小写和大写）、`','` 和 `'.'` 组成

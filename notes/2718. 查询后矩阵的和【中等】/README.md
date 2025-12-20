@@ -13,9 +13,9 @@
 
 - [leetcode](https://leetcode.cn/problems/sum-of-matrix-after-queries/)
 
-给你一个整数 `n` 和一个下标从 **0** 开始的 **二维数组** `queries` ，其中 `queries[i] = [typei, indexi, vali]` 。
+给你一个整数 `n` 和一个下标从 0 开始的 二维数组 `queries` ，其中 `queries[i] = [typei, indexi, vali]` 。
 
-一开始，给你一个下标从 **0** 开始的 `n x n` 矩阵，所有元素均为 `0` 。每一个查询，你需要执行以下操作之一：
+一开始，给你一个下标从 0 开始的 `n x n` 矩阵，所有元素均为 `0` 。每一个查询，你需要执行以下操作之一：
 
 - 如果 `typei == 0` ，将第 `indexi` 行的元素全部修改为 `vali` ，覆盖任何之前的值。
 - 如果 `typei == 1` ，将第 `indexi` 列的元素全部修改为 `vali` ，覆盖任何之前的值。
@@ -24,7 +24,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-23-26-37.png)
 
@@ -34,7 +34,7 @@
 解释：上图展示了每个查询以后矩阵的值。所有操作执行完以后，矩阵元素之和为 23 。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-23-26-42.png)
 
@@ -46,7 +46,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= n <= 10^4`
 - `1 <= queries.length <= 5 * 10^4`

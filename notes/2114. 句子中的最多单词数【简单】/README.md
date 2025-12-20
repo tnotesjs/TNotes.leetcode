@@ -11,15 +11,15 @@
 
 - [leetcode](https://leetcode.cn/problems/maximum-number-of-words-found-in-sentences/)
 
-一个 **句子** 由一些 **单词** 以及它们之间的单个空格组成，句子的开头和结尾不会有多余空格。
+一个 句子 由一些 单词 以及它们之间的单个空格组成，句子的开头和结尾不会有多余空格。
 
-给你一个字符串数组 `sentences` ，其中 `sentences[i]` 表示单个 **句子** 。
+给你一个字符串数组 `sentences` ，其中 `sentences[i]` 表示单个 句子 。
 
-请你返回单个句子里 **单词的最多数目** 。
+请你返回单个句子里 单词的最多数目 。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：sentences = ["alice and bob love leetcode", "i think so too", "this is great thanks very much"]
@@ -31,7 +31,7 @@
 所以，单个句子中有最多单词数的是第三个句子，总共有 6 个单词。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：sentences = ["please wait", "continue to fight", "continue to win"]
@@ -42,7 +42,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= sentences.length <= 100`
 - `1 <= sentences[i].length <= 100`

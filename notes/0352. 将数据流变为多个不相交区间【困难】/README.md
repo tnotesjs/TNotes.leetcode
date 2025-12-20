@@ -19,7 +19,7 @@
 - `void addNum(int val)` 向数据流中加入整数 `val` 。
 - `int[][] getIntervals()` 以不相交区间 `[starti, endi]` 的列表形式返回对数据流中整数的总结。
 
-**示例：**
+示例：
 
 - 输入：`["SummaryRanges", "addNum", "getIntervals", "addNum", "getIntervals", "addNum", "getIntervals", "addNum", "getIntervals", "addNum", "getIntervals"] [[], [1], [], [3], [], [7], [], [2], [], [6], []]`
 - 输出：`[null, null, [[1, 1]], null, [[1, 1], [3, 3]], null, [[1, 1], [3, 3], [7, 7]], null, [[1, 3], [7, 7]], null, [[1, 3], [6, 7]]]`
@@ -41,7 +41,7 @@ summaryRanges.getIntervals(); // 返回 [[1, 3], [6, 7]]
 
 ---
 
-**提示：**
+提示：
 
 - `0 <= val <= 10^4`
 - 最多调用 `addNum` 和 `getIntervals` 方法 `3 * 10^4` 次

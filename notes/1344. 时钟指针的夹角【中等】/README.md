@@ -17,7 +17,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-20-18-42-59.png)
 
@@ -26,7 +26,7 @@
 输出：165
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-20-18-43-05.png)
 
@@ -35,7 +35,7 @@
 输出；75
 ```
 
-- **示例 3：**
+- 示例 3：
 
 ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-20-18-43-14.png)
 
@@ -44,14 +44,14 @@
 输出：7.5
 ```
 
-- **示例 4：**
+- 示例 4：
 
 ```txt
 输入：hour = 4, minutes = 50
 输出：155
 ```
 
-- **示例 5：**
+- 示例 5：
 
 ```txt
 输入：hour = 12, minutes = 0
@@ -60,7 +60,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= hour <= 12`
 - `0 <= minutes <= 59`

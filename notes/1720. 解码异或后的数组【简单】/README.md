@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/decode-xored-array/)
 
-**未知** 整数数组 `arr` 由 `n` 个非负整数组成。
+未知 整数数组 `arr` 由 `n` 个非负整数组成。
 
 经编码后变为长度为 `n - 1` 的另一个整数数组 `encoded` ，其中 `encoded[i] = arr[i] XOR arr[i + 1]` 。例如，`arr = [1,0,2,1]` 经编码后得到 `encoded = [1,2,3]` 。
 
@@ -23,7 +23,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：encoded = [1,2,3], first = 1
@@ -31,7 +31,7 @@
 解释：若 arr = [1,0,2,1] ，那么 first = 1 且 encoded = [1 XOR 0, 0 XOR 2, 2 XOR 1] = [1,2,3]
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：encoded = [6,2,7,3], first = 4
@@ -40,7 +40,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `2 <= n <= 10^4`
 - `encoded.length == n - 1`

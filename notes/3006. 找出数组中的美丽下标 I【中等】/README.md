@@ -13,9 +13,9 @@
 
 - [leetcode](https://leetcode.cn/problems/find-beautiful-indices-in-the-given-array-i/)
 
-给你一个下标从 **0** 开始的字符串 `s` 、字符串 `a` 、字符串 `b` 和一个整数 `k` 。
+给你一个下标从 0 开始的字符串 `s` 、字符串 `a` 、字符串 `b` 和一个整数 `k` 。
 
-如果下标 `i` 满足以下条件，则认为它是一个 **美丽下标**：
+如果下标 `i` 满足以下条件，则认为它是一个 美丽下标：
 
 - `0 <= i <= s.length - a.length`
 - `s[i..(i + a.length - 1)] == a`
@@ -24,11 +24,11 @@
   - `s[j..(j + b.length - 1)] == b`
   - `|j - i| <= k`
 
-以数组形式按 **从小到大排序** 返回美丽下标。
+以数组形式按 从小到大排序 返回美丽下标。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：s = "isawsquirrelnearmysquirrelhouseohmy", a = "my", b = "squirrel", k = 15
@@ -41,7 +41,7 @@
 
 ---
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：s = "abcd", a = "a", b = "a", k = 4
@@ -53,7 +53,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= k <= s.length <= 10^5`
 - `1 <= a.length, b.length <= 10`

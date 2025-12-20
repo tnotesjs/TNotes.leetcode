@@ -14,11 +14,11 @@
 
 请你编写一个函数，检查给定的值是否是给定类或超类的实例。
 
-**可以传递给函数的数据类型没有限制。**例如，值或类可能是 `undefined` 。
+可以传递给函数的数据类型没有限制。例如，值或类可能是 `undefined` 。
 
 ---
 
-**示例 1：**
+示例 1：
 
 - 输入：func = () => checkIfInstance(new Date(), Date)
 - 输出：true
@@ -26,7 +26,7 @@
 
 ---
 
-**示例 2：**
+示例 2：
 
 - 输入：
 
@@ -48,7 +48,7 @@ Dog 是 Animal 的子类。因此，Dog 对象同时是 Dog 和 Animal 的实例
 
 ---
 
-**示例 3：**
+示例 3：
 
 - 输入：func = () => checkIfInstance(Date, Date)
 - 输出：false
@@ -56,7 +56,7 @@ Dog 是 Animal 的子类。因此，Dog 对象同时是 Dog 和 Animal 的实例
 
 ---
 
-**示例 4：**
+示例 4：
 
 - 输入：func = () => checkIfInstance(5, Number)
 - 输出：true
@@ -82,9 +82,9 @@ var checkIfInstanceOf = function (obj, classFunction) {
  */
 ```
 
-- **难点分析**
+- 难点分析
   - 难点在于 obj 的几乎涵盖了所有 JS 中可能的类型，编写完程序提交之后，时不时会发现有遗漏的类型没考虑到。除了 obj 之外，classFunction 也有可能是任意类型，不一定是函数，不过是否是函数类型，可以通过检查原型链上是否有 Function 的原型来判断。
-- **Object()**
+- Object()
   - 程序中的 `Object(obj)` 作用是将一个原始类型的值转为引用类型，以便通过 `instanceof` 关键字来检查其类型。引用类型判断可加可不加，效果都一样，若 obj 已经是引用类型了，那么 `Object(obj) === obj`。
 
 ```javascript
@@ -98,7 +98,7 @@ if (['object', 'function', 'array'].includes(typeof obj)) {
 
 - 笔记：使用 Object() 将原始类型的值转为对应的包装对象
 
-**提示：** `Object` 函数的参数是各种原始类型的值，转换成对象就是原始类型值对应的包装对象。
+提示： `Object` 函数的参数是各种原始类型的值，转换成对象就是原始类型值对应的包装对象。
 
 ```javascript
 var obj = Object(1)

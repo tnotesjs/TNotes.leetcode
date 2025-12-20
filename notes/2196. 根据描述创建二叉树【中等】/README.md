@@ -13,18 +13,18 @@
 
 - [leetcode](https://leetcode.cn/problems/create-binary-tree-from-s/)
 
-给你一个二维整数数组 `descriptions` ，其中 `descriptions[i] = [parenti, childi, isLefti]` 表示 `parenti` 是 `childi` 在 **二叉树** 中的 **父节点**，二叉树中各节点的值 **互不相同** 。此外：
+给你一个二维整数数组 `descriptions` ，其中 `descriptions[i] = [parenti, childi, isLefti]` 表示 `parenti` 是 `childi` 在 二叉树 中的 父节点，二叉树中各节点的值 互不相同 。此外：
 
 - 如果 `isLefti == 1` ，那么 `childi` 就是 `parenti` 的左子节点。
 - 如果 `isLefti == 0` ，那么 `childi` 就是 `parenti` 的右子节点。
 
-请你根据 `descriptions` 的描述来构造二叉树并返回其 **根节点** 。
+请你根据 `descriptions` 的描述来构造二叉树并返回其 根节点 。
 
-测试用例会保证可以构造出 **有效** 的二叉树。
+测试用例会保证可以构造出 有效 的二叉树。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-10-23-24.png)
 
@@ -35,7 +35,7 @@
 结果二叉树如上图所示。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-10-23-29.png)
 
@@ -48,7 +48,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= descriptions.length <= 10^4`
 - `descriptions[i].length == 3`

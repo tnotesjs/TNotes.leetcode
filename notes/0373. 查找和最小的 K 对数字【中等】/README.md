@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/find-k-pairs-with-smallest-sums/)
 
-给定两个以 **非递减顺序排列** 的整数数组 `nums1` 和 `nums2` , 以及一个整数 `k` 。
+给定两个以 非递减顺序排列 的整数数组 `nums1` 和 `nums2` , 以及一个整数 `k` 。
 
 定义一对值 `(u,v)`，其中第一个元素来自 `nums1`，第二个元素来自 `nums2` 。
 
@@ -43,7 +43,7 @@
 
 - `1 <= nums1.length, nums2.length <= 10^5`
 - `-10^9 <= nums1[i], nums2[i] <= 10^9`
-- `nums1` 和 `nums2` 均为 **升序排列**
+- `nums1` 和 `nums2` 均为 升序排列
 - `1 <= k <= 10^4`
 - `k <= nums1.length * nums2.length`
 

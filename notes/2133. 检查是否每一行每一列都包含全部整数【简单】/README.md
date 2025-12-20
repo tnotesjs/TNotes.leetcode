@@ -12,13 +12,13 @@
 
 - [leetcode](https://leetcode.cn/problems/check-if-every-row-and-column-contains-all-numbers/)
 
-对一个大小为 `n x n` 的矩阵而言，如果其每一行和每一列都包含从 `1` 到 `n` 的 **全部** 整数（含 `1` 和 `n`），则认为该矩阵是一个 **有效** 矩阵。
+对一个大小为 `n x n` 的矩阵而言，如果其每一行和每一列都包含从 `1` 到 `n` 的 全部 整数（含 `1` 和 `n`），则认为该矩阵是一个 有效 矩阵。
 
 给你一个大小为 `n x n` 的整数矩阵 `matrix` ，请你判断矩阵是否为一个有效矩阵：如果是，返回 `true` ；否则，返回 `false` 。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 - ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-31-22-37-07.png)
 
 ```txt
@@ -28,7 +28,7 @@
 因此，返回 true 。
 ```
 
-- **示例 2：**
+- 示例 2：
 - ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-31-22-37-13.png)
 
 ```txt
@@ -40,7 +40,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `n == matrix.length == matrix[i].length`
 - `1 <= n <= 100`

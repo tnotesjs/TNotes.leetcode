@@ -13,15 +13,15 @@
 
 - [leetcode](https://leetcode.cn/problems/count-submatrices-with-top-left-element-and-sum-less-than-k/)
 
-给你一个下标从 **0** 开始的整数矩阵 `grid` 和一个整数 `k`。
+给你一个下标从 0 开始的整数矩阵 `grid` 和一个整数 `k`。
 
-返回包含 `grid` 左上角元素、元素和小于或等于 `k` 的 **子矩阵**的数目。
+返回包含 `grid` 左上角元素、元素和小于或等于 `k` 的 子矩阵的数目。
 
 > 子矩阵 `(x1, y1, x2, y2)` 是一个通过选择所有 `x1 <= x <= x2` 且 `y1 <= y <= y2` 的元素形成的矩阵。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-55-47.png)
 
@@ -33,7 +33,7 @@
 
 ---
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-55-53.png)
 
@@ -45,7 +45,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `m == grid.length`
 - `n == grid[i].length`

@@ -15,13 +15,13 @@
 
 请你设计一个迭代器类 `CombinationIterator` ，包括以下内容：
 
-- `CombinationIterator(string characters, int combinationLength)` 一个构造函数，输入参数包括：用一个 **有序且字符唯一** 的字符串 `characters`（该字符串只包含小写英文字母）和一个数字 `combinationLength` 。
-- 函数 _`next()`_ ，按 **字典序** 返回长度为 `combinationLength` 的下一个字母组合。
+- `CombinationIterator(string characters, int combinationLength)` 一个构造函数，输入参数包括：用一个 有序且字符唯一 的字符串 `characters`（该字符串只包含小写英文字母）和一个数字 `combinationLength` 。
+- 函数 _`next()`_ ，按 字典序 返回长度为 `combinationLength` 的下一个字母组合。
 - 函数 _`hasNext()`_ ，只有存在长度为 `combinationLength` 的下一个字母组合时，才返回 `true`
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入:
@@ -41,10 +41,10 @@ iterator.hasNext(); // 返回 false
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= combinationLength <= characters.length <= 15`
-- `characters` 中每个字符都 **不同**
+- `characters` 中每个字符都 不同
 - 每组测试数据最多对 `next` 和 `hasNext` 调用 `10^4`次
 - 题目保证每次调用函数 `next` 时都存在下一个字母组合。
 

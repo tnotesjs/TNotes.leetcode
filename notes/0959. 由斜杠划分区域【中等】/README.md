@@ -21,7 +21,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-21-24-23.png)
 
@@ -30,7 +30,7 @@
 输出：2
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-21-24-31.png)
 
@@ -39,7 +39,7 @@
 输出：1
 ```
 
-- **示例 3：**
+- 示例 3：
 
 ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-21-24-39.png)
 
@@ -51,7 +51,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `n == grid.length == grid[i].length`
 - `1 <= n <= 30`

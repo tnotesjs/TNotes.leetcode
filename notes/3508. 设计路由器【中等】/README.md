@@ -23,8 +23,8 @@
 
 `Router(int memoryLimit)`：初始化路由器对象，并设置固定的内存限制。
 
-- `memoryLimit` 是路由器在任意时间点可以存储的 **最大** 数据包数量。
-- 如果添加一个新数据包会超过这个限制，则必须移除 **最旧的** 数据包以腾出空间。
+- `memoryLimit` 是路由器在任意时间点可以存储的 最大 数据包数量。
+- 如果添加一个新数据包会超过这个限制，则必须移除 最旧的 数据包以腾出空间。
 
 `bool addPacket(int source, int destination, int timestamp)`：将具有给定属性的数据包添加到路由器。
 
@@ -41,20 +41,20 @@
 
 - 返回当前存储在路由器中（即尚未转发）的，且目标地址为指定 `destination` 且时间戳在范围 `[startTime, endTime]`（包括两端）内的数据包数量。
 
-**注意**：对于 `addPacket` 的查询会按照 `timestamp` 的非递减顺序进行。
+注意：对于 `addPacket` 的查询会按照 `timestamp` 的非递减顺序进行。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
-**输入：**  
+输入：  
 ["Router", "addPacket", "addPacket", "addPacket", "addPacket", "addPacket", "forwardPacket", "addPacket", "getCount"]  
 [[3], [1, 4, 90], [2, 5, 90], [1, 4, 90], [3, 5, 95], [4, 5, 105], [], [5, 2, 110], [5, 100, 110]]
 
-**输出：**  
+输出：  
 [null, true, true, false, true, true, [2, 5, 90], true, 1]
 
-**解释：**
+解释：
 
 `Router router = new Router(3);` // 初始化路由器，内存限制为 3。  
 `router.addPacket(1, 4, 90);` // 数据包被添加，返回 True。  
@@ -68,16 +68,16 @@
 
 ---
 
-- **示例 2：**
+- 示例 2：
 
-**输入：**  
+输入：  
 ["Router", "addPacket", "forwardPacket", "forwardPacket"]  
 [[2], [7, 4, 90], [], []]
 
-**输出：**  
+输出：  
 [null, true, [7, 4, 90], []]
 
-**解释：**
+解释：
 
 `Router router = new Router(2);` // 初始化路由器，内存限制为 2。  
 `router.addPacket(7, 4, 90);` // 返回 True。  
@@ -86,7 +86,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `2 <= memoryLimit <= 10^5`
 - `1 <= source, destination <= 2 * 10^5`

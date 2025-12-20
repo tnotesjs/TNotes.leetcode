@@ -11,9 +11,9 @@
 
 - [leetcode](https://leetcode.cn/problems/palindrome-pairs/)
 
-给定一个由唯一字符串构成的 **0 索引** 数组 `words` 。
+给定一个由唯一字符串构成的 0 索引 数组 `words` 。
 
-**回文对** 是一对整数 `(i, j)` ，满足以下条件：
+回文对 是一对整数 `(i, j)` ，满足以下条件：
 
 - `0 <= i, j < words.length`，
 - `i != j` ，并且
@@ -21,13 +21,13 @@
 
 > 回文 串是向前和向后读都相同的字符串。
 
-返回一个数组，它包含 `words` 中所有满足 **回文对** 条件的字符串。
+返回一个数组，它包含 `words` 中所有满足 回文对 条件的字符串。
 
 你必须设计一个时间复杂度为 `O(sum of words[i].length)` 的算法。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：words = ["abcd","dcba","lls","s","sssll"]
@@ -35,7 +35,7 @@
 解释：可拼接成的回文串为 ["dcbaabcd","abcddcba","slls","llssssll"]
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：words = ["bat","tab","cat"]
@@ -43,7 +43,7 @@
 解释：可拼接成的回文串为 ["battab","tabbat"]
 ```
 
-- **示例 3：**
+- 示例 3：
 
 ```txt
 输入：words = ["a",""]
@@ -52,7 +52,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= words.length <= 5000`
 - `0 <= words[i].length <= 300`

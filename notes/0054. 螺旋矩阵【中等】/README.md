@@ -11,11 +11,11 @@
 
 - [leetcode](https://leetcode.cn/problems/spiral-matrix/)
 
-给你一个 `m` 行 `n` 列的矩阵 `matrix` ，请按照 **顺时针螺旋顺序** ，返回矩阵中的所有元素。
+给你一个 `m` 行 `n` 列的矩阵 `matrix` ，请按照 顺时针螺旋顺序 ，返回矩阵中的所有元素。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-12-39-10.png)
 
@@ -24,7 +24,7 @@
 输出：[1,2,3,6,9,8,7,4,5]
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-12-39-19.png)
 
@@ -35,7 +35,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `m == matrix.length`
 - `n == matrix[i].length`

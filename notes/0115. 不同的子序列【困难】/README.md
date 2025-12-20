@@ -11,11 +11,11 @@
 
 - [leetcode](https://leetcode.cn/problems/distinct-subsequences/)
 
-给你两个字符串 `s` 和 `t` ，统计并返回在 `s` 的 **子序列** 中 `t` 出现的个数。
+给你两个字符串 `s` 和 `t` ，统计并返回在 `s` 的 子序列 中 `t` 出现的个数。
 
 测试用例保证结果在 32 位有符号整数范围内。
 
-**示例 1：**
+示例 1：
 
 ```txt
 输入：s = "rabbbit", t = "rabbit"
@@ -27,7 +27,7 @@ rabbbit
 rabbbit
 ```
 
-**示例 2：**
+示例 2：
 
 ```txt
 输入：s = "babgbag", t = "bag"
@@ -43,7 +43,7 @@ babgbag
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= s.length, t.length <= 1000`
 - `s` 和 `t` 由英文字母组成

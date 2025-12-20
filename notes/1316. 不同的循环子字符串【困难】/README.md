@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/distinct-echo-substrings/)
 
-给你一个字符串 `text` ，请你返回满足下述条件的 **不同** 非空子字符串的数目：
+给你一个字符串 `text` ，请你返回满足下述条件的 不同 非空子字符串的数目：
 
 - 可以写成某个字符串与其自身相连接的形式（即，可以写为 `a + a`，其中 `a` 是某个字符串）。
 
@@ -21,7 +21,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：text = "abcabcabc"
@@ -29,7 +29,7 @@
 解释：3 个子字符串分别为 "abcabc"，"bcabca" 和 "cabcab" 。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：text = "leetcodeleetcode"
@@ -39,7 +39,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= text.length <= 2000`
 - `text` 只包含小写英文字母。

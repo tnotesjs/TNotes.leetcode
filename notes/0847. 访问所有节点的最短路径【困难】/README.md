@@ -21,7 +21,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-08-27-41.png)
 
@@ -31,7 +31,7 @@
 解释：一种可能的路径为 [1,0,2,0,3]
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-08-27-49.png)
 
@@ -43,7 +43,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `n == graph.length`
 - `1 <= n <= 12`

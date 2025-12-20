@@ -17,15 +17,15 @@
 
 接下来，你需要按下述步骤操作：
 
-1. 如果在 `nums` 中找到 `original` ，将 `original` **乘以** 2 ，得到新 `original`（即，令 `original = 2 * original`）。
+1. 如果在 `nums` 中找到 `original` ，将 `original` 乘以 2 ，得到新 `original`（即，令 `original = 2 * original`）。
 2. 否则，停止这一过程。
-3. 只要能在数组中找到新 `original` ，就对新 `original` 继续 **重复** 这一过程**。**
+3. 只要能在数组中找到新 `original` ，就对新 `original` 继续 重复 这一过程。
 
-返回 `original` 的 **最终** 值。
+返回 `original` 的 最终 值。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：nums = [5,3,6,1,12], original = 3
@@ -37,7 +37,7 @@
 - 24 不能在 nums 中找到。因此，返回 24 。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：nums = [2,7,9], original = 4
@@ -48,7 +48,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= nums.length <= 1000`
 - `1 <= nums[i], original <= 1000`

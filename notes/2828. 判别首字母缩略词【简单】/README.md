@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/check-if-a-string-is-an-acronym-of-words/)
 
-给你一个字符串数组 `words` 和一个字符串 `s` ，请你判断 `s` 是不是 `words` 的 **首字母缩略词** 。
+给你一个字符串数组 `words` 和一个字符串 `s` ，请你判断 `s` 是不是 `words` 的 首字母缩略词 。
 
 如果可以按顺序串联 `words` 中每个字符串的第一个字符形成字符串 `s` ，则认为 `s` 是 `words` 的首字母缩略词。例如，`"ab"` 可以由 `["apple", "banana"]` 形成，但是无法从 `["bear", "aardvark"]` 形成。
 
@@ -21,7 +21,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：words = ["alice","bob","charlie"], s = "abc"
@@ -31,7 +31,7 @@
 
 ---
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：words = ["an","apple"], s = "a"
@@ -43,7 +43,7 @@
 
 ---
 
-- **示例 3：**
+- 示例 3：
 
 ```txt
 输入：words = ["never","gonna","give","up","on","you"], s = "ngguoy"
@@ -54,7 +54,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= words.length <= 100`
 - `1 <= words[i].length <= 10`

@@ -1,4 +1,4 @@
-# [1378. 使用唯一标识码替换员工ID【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1378.%20%E4%BD%BF%E7%94%A8%E5%94%AF%E4%B8%80%E6%A0%87%E8%AF%86%E7%A0%81%E6%9B%BF%E6%8D%A2%E5%91%98%E5%B7%A5ID%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
+# [1378. 使用唯一标识码替换员工 ID【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1378.%20%E4%BD%BF%E7%94%A8%E5%94%AF%E4%B8%80%E6%A0%87%E8%AF%86%E7%A0%81%E6%9B%BF%E6%8D%A2%E5%91%98%E5%B7%A5ID%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91)
 
 <!-- region:toc -->
 
@@ -39,15 +39,15 @@
 这张表的每一行包含了该公司某位员工的 ID 和他的唯一标识码（unique ID）。
 ```
 
-展示每位用户的 **唯一标识码（unique ID ）**；如果某位员工没有唯一标识码，使用 null 填充即可。
+展示每位用户的 唯一标识码（unique ID ）；如果某位员工没有唯一标识码，使用 null 填充即可。
 
-你可以以 **任意** 顺序返回结果表。
+你可以以 任意 顺序返回结果表。
 
 返回结果的格式如下例所示。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：

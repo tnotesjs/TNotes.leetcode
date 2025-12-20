@@ -25,31 +25,31 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
-**输入：** coordinate1 = "a1", coordinate2 = "c3"
+输入： coordinate1 = "a1", coordinate2 = "c3"
 
-**输出：** true
+输出： true
 
-**解释：**
+解释：
 
 两个方格均为黑色。
 
 ---
 
-- **示例 2：**
+- 示例 2：
 
-**输入：** coordinate1 = "a1", coordinate2 = "h3"
+输入： coordinate1 = "a1", coordinate2 = "h3"
 
-**输出：** false
+输出： false
 
-**解释：**
+解释：
 
 方格 `"a1"` 是黑色，而 `"h3"` 是白色。
 
 ---
 
-**提示：**
+提示：
 
 - `coordinate1.length == coordinate2.length == 2`
 - `'a' <= coordinate1[0], coordinate2[0] <= 'h'`

@@ -11,15 +11,15 @@
 
 - [leetcode](https://leetcode.cn/problems/sort-the-people/)
 
-给你一个字符串数组 `names` ，和一个由 **互不相同** 的正整数组成的数组 `heights` 。两个数组的长度均为 `n` 。
+给你一个字符串数组 `names` ，和一个由 互不相同 的正整数组成的数组 `heights` 。两个数组的长度均为 `n` 。
 
 对于每个下标 `i`，`names[i]` 和 `heights[i]` 表示第 `i` 个人的名字和身高。
 
-请按身高 **降序** 顺序返回对应的名字数组 `names` 。
+请按身高 降序 顺序返回对应的名字数组 `names` 。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：names = ["Mary","John","Emma"], heights = [180,165,170]
@@ -27,7 +27,7 @@
 解释：Mary 最高，接着是 Emma 和 John 。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：names = ["Alice","Bob","Bob"], heights = [155,185,150]
@@ -37,7 +37,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `n == names.length == heights.length`
 - `1 <= n <= 10^3`

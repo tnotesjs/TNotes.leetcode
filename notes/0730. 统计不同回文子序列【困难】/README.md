@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/count-different-palindromic-subsequences/)
 
-给你一个字符串 `s` ，返回 `s` 中不同的非空回文子序列个数 。由于答案可能很大，请返回对 `10^9 + 7` **取余** 的结果。
+给你一个字符串 `s` ，返回 `s` 中不同的非空回文子序列个数 。由于答案可能很大，请返回对 `10^9 + 7` 取余 的结果。
 
 字符串的子序列可以经由字符串删除 0 个或多个字符获得。
 
@@ -23,7 +23,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：s = 'bccb'
@@ -32,7 +32,7 @@
 注意：'bcb' 虽然出现两次但仅计数一次。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：s = 'abcdabcdabcdabcdabcdabcdabcdabcddcbadcbadcbadcbadcbadcbadcbadcba'
@@ -42,7 +42,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= s.length <= 1000`
 - `s[i]` 仅包含 `'a'`, `'b'`, `'c'` 或 `'d'`

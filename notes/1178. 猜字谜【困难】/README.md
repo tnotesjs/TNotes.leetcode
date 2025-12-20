@@ -23,7 +23,7 @@
 
 返回一个答案数组 `answer`，数组中的每个元素 `answer[i]` 是在给出的单词列表 `words` 中可以作为字谜迷面 `puzzles[i]` 所对应的谜底的单词数目。
 
-**示例：**
+示例：
 
 ```txt
 输入：
@@ -41,7 +41,7 @@ puzzles = ["aboveyz","abrodyz","abslute","absoryz","actresz","gaswxyz"]
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= words.length <= 10^5`
 - `4 <= words[i].length <= 50`

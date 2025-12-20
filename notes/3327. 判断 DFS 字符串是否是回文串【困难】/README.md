@@ -19,10 +19,10 @@
 
 一开始你有一个空字符串 `dfsStr` ，定义一个递归函数 `dfs(int x)` ，它的输入是节点 `x` ，并依次执行以下操作：
 
-- 按照 **节点编号升序** 遍历 `x` 的所有孩子节点 `y` ，并调用 `dfs(y)` 。
+- 按照 节点编号升序 遍历 `x` 的所有孩子节点 `y` ，并调用 `dfs(y)` 。
 - 将 字符 `s[x]` 添加到字符串 `dfsStr` 的末尾。
 
-**注意，**所有递归函数 `dfs` 都共享全局变量 `dfsStr` 。
+注意，所有递归函数 `dfs` 都共享全局变量 `dfsStr` 。
 
 你需要求出一个长度为 `n` 的布尔数组 `answer` ，对于 `0` 到 `n - 1` 的每一个下标 `i` ，你需要执行以下操作：
 
@@ -35,40 +35,40 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-21-13-47.png)
 
-**输入：** parent = [-1,0,0,1,1,2], s = "aababa"
+输入： parent = [-1,0,0,1,1,2], s = "aababa"
 
-**输出：** [true,true,false,true,true,true]
+输出： [true,true,false,true,true,true]
 
-**解释：**
+解释：
 
 - 调用 `dfs(0)` ，得到字符串 `dfsStr = "abaaba"` ，是一个回文串。
 - 调用 `dfs(1)` ，得到字符串`dfsStr = "aba"` ，是一个回文串。
-- 调用 `dfs(2)` ，得到字符串`dfsStr = "ab"` ，**不** 是回文串。
+- 调用 `dfs(2)` ，得到字符串`dfsStr = "ab"` ，不 是回文串。
 - 调用 `dfs(3)` ，得到字符串`dfsStr = "a"` ，是一个回文串。
 - 调用 `dfs(4)` ，得到字符串 `dfsStr = "b"` ，是一个回文串。
 - 调用 `dfs(5)` ，得到字符串 `dfsStr = "a"` ，是一个回文串。
 
 ---
 
-- **示例 2：**
+- 示例 2：
 
 ![](https://assets.leetcode.com/uploads/2024/09/01/tree2drawio-1.png)
 
-**输入：** parent = [-1,0,0,0,0], s = "aabcb"
+输入： parent = [-1,0,0,0,0], s = "aabcb"
 
-**输出：** [true,true,true,true,true]
+输出： [true,true,true,true,true]
 
-**解释：**
+解释：
 
 每一次调用 `dfs(x)` 都得到一个回文串。
 
 ---
 
-**提示：**
+提示：
 
 - `n == parent.length == s.length`
 - `1 <= n <= 10^5`
