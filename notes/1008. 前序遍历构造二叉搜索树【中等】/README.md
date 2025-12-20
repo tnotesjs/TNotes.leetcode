@@ -23,7 +23,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-15-13-45.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-15-13-45.png)
 
 ```txt
 输入：preorder = [8,5,1,7,10,12]

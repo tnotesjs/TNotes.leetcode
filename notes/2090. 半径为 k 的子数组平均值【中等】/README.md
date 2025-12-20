@@ -27,7 +27,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-18-30.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-18-30.png)
 
 ```txt
 输入：nums = [7,4,3,9,1,8,5,2,6], k = 3

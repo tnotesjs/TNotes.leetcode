@@ -25,7 +25,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-12-21-14.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-12-21-14.png)
 
 ```txt
 输入：sx = 2, sy = 4, fx = 7, fy = 7, t = 6
@@ -35,7 +35,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-12-21-20.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-12-21-20.png)
 
 ```txt
 输入：sx = 3, sy = 1, fx = 7, fy = 3, t = 3

@@ -33,7 +33,7 @@
 
 生成的图有 3 个连通分量：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-39-52.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-39-52.png)
 
 ---
 
@@ -47,7 +47,7 @@
 
 生成的图有 1 个连通分量：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-40-04.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-40-04.png)
 
 ---
 

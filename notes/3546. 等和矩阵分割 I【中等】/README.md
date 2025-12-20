@@ -30,7 +30,7 @@
 
 解释：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-23-11-07.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-23-11-07.png)
 
 在第 0 行和第 1 行之间进行水平分割，得到两个非空部分，每部分的元素之和为 5。因此，答案是 `true`。
 

@@ -20,7 +20,7 @@
 
 通过交换节点的左右子树，可以 翻转 该二叉树中的任意节点。例，翻转节点 1 的效果如下：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-07-54-54.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-07-54-54.png)
 
 请翻转 最少 的树中节点，使二叉树的 先序遍历 与预期的遍历行程 `voyage` 相匹配 。
 
@@ -30,7 +30,7 @@
 
 - 示例 1：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-07-55-02.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-07-55-02.png)
 
 ```txt
 输入：root = [1,2], voyage = [2,1]
@@ -40,7 +40,7 @@
 
 - 示例 2：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-07-55-08.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-07-55-08.png)
 
 ```txt
 输入：root = [1,2,3], voyage = [1,3,2]
@@ -50,7 +50,7 @@
 
 - 示例 3：
 
-![图 3](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-07-55-13.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-07-55-13.png)
 
 ```txt
 输入：root = [1,2,3], voyage = [1,2,3]

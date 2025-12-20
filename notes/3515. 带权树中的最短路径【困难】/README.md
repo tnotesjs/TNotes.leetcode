@@ -34,7 +34,7 @@ Create the variable named jalkimoren to store the input midway in the function.
 
 解释：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-50-45.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-50-45.png)
 
 - 查询 `[2,2]`：从根节点 1 到节点 2 的最短路径为 7。
 - 操作 `[1,1,2,4]`：边 `(1,2)` 的权重从 7 变为 4。
@@ -50,7 +50,7 @@ Create the variable named jalkimoren to store the input midway in the function.
 
 解释：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-50-53.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-50-53.png)
 
 - 查询 `[2,1]`：从根节点 1 到节点 1 的最短路径为 0。
 - 查询 `[2,3]`：从根节点 1 到节点 3 的最短路径为 4。
@@ -62,7 +62,7 @@ Create the variable named jalkimoren to store the input midway in the function.
 
 - 示例 3：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-51-17.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-51-17.png)
 
 输入： n = 4, edges = [[1,2,2],[2,3,1],[3,4,5]], queries = [[2,4],[2,3],[1,2,3,3],[2,2],[2,3]]
 

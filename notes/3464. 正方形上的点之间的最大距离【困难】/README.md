@@ -35,7 +35,7 @@
 
 解释：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-25-43.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-25-43.png)
 
 选择所有四个点。
 
@@ -49,7 +49,7 @@
 
 解释：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-25-48.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-25-48.png)
 
 选择点 `(0, 0)` ，`(2, 0)` ，`(2, 2)` 和 `(2, 1)`。
 
@@ -63,7 +63,7 @@
 
 解释：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-25-53.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-25-53.png)
 
 选择点 `(0, 0)` ，`(0, 1)` ，`(0, 2)` ，`(1, 2)` 和 `(2, 2)`。
 

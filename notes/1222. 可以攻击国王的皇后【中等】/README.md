@@ -23,7 +23,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-19-45-32.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-19-45-32.png)
 
 ```txt
 输入：queens = [[0,1],[1,0],[4,0],[0,4],[3,3],[2,4]], king = [0,0]
@@ -33,7 +33,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-19-45-38.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-19-45-38.png)
 
 ```txt
 输入：queens = [[0,0],[1,1],[2,2],[3,4],[3,5],[4,4],[4,5]], king = [3,3]

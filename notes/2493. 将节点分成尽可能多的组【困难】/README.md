@@ -28,7 +28,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-24-17.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-24-17.png)
 
 ```txt
 输入：n = 6, edges = [[1,2],[1,4],[1,5],[2,6],[2,3],[4,6]]

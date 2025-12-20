@@ -26,13 +26,13 @@
 - 图一中，Alice 在 `(3, 3)` 且 Bob 在 `(1, 1)` ，Alice 的位置不是左上角且 Bob 的位置不是右下角。
 - 图二中，Alice 在 `(1, 3)` 且 Bob 在 `(1, 1)`（如图所示，用矩形代替线条），Bob 的位置不是在围栏的右下角。
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-43-49.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-43-49.png)
 
 ---
 
 - 示例 1：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-43-58.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-43-58.png)
 
 ```txt
 输入：points = [[1,1],[2,2],[3,3]]
@@ -44,7 +44,7 @@
 
 - 示例 2：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-44-20.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-44-20.png)
 
 ```txt
 输入：points = [[6,2],[4,4],[2,6]]
@@ -59,7 +59,7 @@
 
 - 示例 3：
 
-![图 3](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-44-40.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-44-40.png)
 
 ```txt
 输入：points = [[3,1],[1,3],[1,1]]

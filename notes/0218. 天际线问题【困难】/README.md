@@ -31,7 +31,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-44-43.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-44-43.png)
 
 ```txt
 输入：buildings = [[2,9,10],[3,7,15],[5,12,12],[15,20,10],[19,24,8]]

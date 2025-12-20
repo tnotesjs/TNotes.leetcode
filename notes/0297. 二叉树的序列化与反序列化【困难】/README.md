@@ -24,7 +24,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-22-06-27.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-22-06-27.png)
 
 ```txt
 输入：root = [1,2,3,null,null,4,5]

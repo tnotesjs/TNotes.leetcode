@@ -25,7 +25,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-08-18-58.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-08-18-58.png)
 
 ```txt
 输入：img1 = [
@@ -45,9 +45,9 @@ img2 = [
 - 解释：
 
   - 将 img1 向右移动 1 个单位，再向下移动 1 个单位。
-  - ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-08-19-11.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-08-19-11.png)
   - 两个图像都具有 1 的位置的数目是 3（用红色标识）。
-  - ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-08-19-20.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-08-19-20.png)
 
 ---
 

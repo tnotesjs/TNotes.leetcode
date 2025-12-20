@@ -25,7 +25,7 @@ Level 1 的视频包含所有你好友观看过的视频，level 2 的视频包�
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-19-06-26-55.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-19-06-26-55.png)
 
 ```txt
 输入：watchedVideos = [["A","B"],["C"],["B","C"],["D"]], friends = [[1,2],[0,3],[0,3],[1,2]], id = 0, level = 1
@@ -41,7 +41,7 @@ C -> 2
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-19-06-27-00.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-19-06-27-00.png)
 
 ```txt
 输入：watchedVideos = [["A","B"],["C"],["B","C"],["D"]], friends = [[1,2],[0,3],[0,3],[1,2]], id = 0, level = 2

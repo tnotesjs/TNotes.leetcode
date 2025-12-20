@@ -23,7 +23,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-12-26.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-12-26.png)
 
 ```txt
 输入：colors = [1,1,1,6,1,1,1]
@@ -36,7 +36,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-12-32.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-12-32.png)
 
 ```txt
 输入：colors = [1,8,3,8,3]

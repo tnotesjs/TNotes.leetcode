@@ -13,7 +13,7 @@
 
 请考虑一棵二叉树上所有的叶子，这些叶子的值按从左到右的顺序排列形成一个 叶值序列 。
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-09-13-14-57.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-09-13-14-57.png)
 
 举个例子，如上图所示，给定一棵叶值序列为 `(6, 7, 4, 9, 8)` 的树。
 
@@ -25,7 +25,7 @@
 
 - 示例 1：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-09-13-15-10.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-09-13-15-10.png)
 
 ```txt
 输入：
@@ -37,7 +37,7 @@ root2 = [3,5,1,6,7,4,2,null,null,null,null,null,null,9,8]
 
 - 示例 2：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-09-13-15-24.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-09-13-15-24.png)
 
 ```txt
 输入：root1 = [1,2,3], root2 = [1,3,2]

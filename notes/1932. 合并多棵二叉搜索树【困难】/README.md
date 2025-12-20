@@ -32,7 +32,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-14-11.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-14-11.png)
 
 ```txt
 输入：trees = [[2,1],[3,2,5],[5,4]]
@@ -42,17 +42,17 @@
 - 解释：
   - 第一步操作中，选出 i=1 和 j=0 ，并将 trees[0] 合并到 trees[1] 中。
   - 删除 trees[0] ，trees = [[3,2,5,1],[5,4]] 。
-  - ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-14-21.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-14-21.png)
   - 在第二步操作中，选出 i=0 和 j=1 ，将 trees[1] 合并到 trees[0] 中。
   - 删除 trees[1] ，trees = [[3,2,5,1,null,4]] 。
-  - ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-14-53.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-14-53.png)
   - 结果树如上图所示，为一棵有效的二叉搜索树，所以返回该树的根节点。
 
 ---
 
 - 示例 2：
 
-![图 3](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-15-06.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-15-06.png)
 
 ```txt
 输入：trees = [[5,3,8],[3,2,6]]
@@ -62,14 +62,14 @@
 - 解释：
   - 选出 i=0 和 j=1 ，然后将 trees[1] 合并到 trees[0] 中。
   - 删除 trees[1] ，trees = [[5,3,8,2,6]] 。
-  - ![图 4](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-15-23.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-15-23.png)
   - 结果树如上图所示。仅能执行一次有效的操作，但结果树不是一棵有效的二叉搜索树，所以返回 null 。
 
 ---
 
 - 示例 3：
 
-![图 5](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-15-32.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-15-32.png)
 
 ```txt
 输入：trees = [[5,4],[3]]

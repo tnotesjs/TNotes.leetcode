@@ -29,7 +29,7 @@
 
 解释：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-39-57.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-39-57.png)
 
 我们可以将车分别放在格子 `(0, 2)` ，`(1, 3)` 和 `(2, 1)` 处，价值之和为 `1 + 1 + 2 = 4` 。
 

@@ -33,7 +33,7 @@
 
 蓝色边表示可以得到最优答案的子树之一。
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-23-16-04.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-23-16-04.png)
 
 - `answer[0]`：在选出的子树中，从 `src1 = 2` 和 `src2 = 3` 到 `dest = 4` 的路径总权重为 `3 + 5 + 4 = 12`。
 - `answer[1]`：在选出的子树中，从 `src1 = 0` 和 `src2 = 2` 到 `dest = 5` 的路径总权重为 `2 + 3 + 6 = 11`。
@@ -48,7 +48,7 @@
 
 解释：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-23-16-16.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-23-16-16.png)
 
 - `answer[0]`：选出的子树中，从 `src1 = 0` 和 `src2 = 1` 到 `dest = 2` 的路径总权重为 `8 + 7 = 15`。
 

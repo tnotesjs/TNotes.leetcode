@@ -21,7 +21,7 @@
 
 示例：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-19-06-28-11.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-19-06-28-11.png)
 
 ```txt
 输入：root = [6,7,8,2,7,1,3,9,null,1,4,null,null,null,5]

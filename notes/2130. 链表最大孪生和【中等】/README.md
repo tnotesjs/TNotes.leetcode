@@ -25,7 +25,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-39-35.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-39-35.png)
 
 ```txt
 输入：head = [5,4,2,1]
@@ -38,7 +38,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-39-48.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-39-48.png)
 
 ```txt
 输入：head = [4,2,2,3]
@@ -52,7 +52,7 @@
 
 - 示例 3：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-39-55.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-39-55.png)
 
 ```txt
 输入：head = [1,100000]

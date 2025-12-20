@@ -23,13 +23,13 @@
 
 下面给出了一种电话键盘上字母到按键的映射作为示例。注意 `1`，`*`，`#` 和 `0` 不 对应任何字母。
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-38-07.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-38-07.png)
 
 ---
 
 - 示例 1：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-38-13.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-38-13.png)
 
 ```txt
 输入：word = "abcde"
@@ -48,7 +48,7 @@
 
 - 示例 2：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-38-18.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-38-18.png)
 
 ```txt
 输入：word = "xyzxyzxyzxyz"
@@ -66,7 +66,7 @@
 
 - 示例 3：
 
-![图 3](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-38-32.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-38-32.png)
 
 ```txt
 输入：word = "aabbccddeeffgghhiiiiii"

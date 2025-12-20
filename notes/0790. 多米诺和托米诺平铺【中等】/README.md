@@ -15,7 +15,7 @@
 
 有两种形状的瓷砖：一种是 `2 x 1` 的多米诺形，另一种是形如 "L" 的托米诺形。两种形状都可以旋转。
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-20-47-51.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-20-47-51.png)
 
 给定整数 n ，返回可以平铺 `2 x n` 的面板的方法的数量。返回对 `10^9 + 7` 取模 的值。
 
@@ -25,7 +25,7 @@
 
 - 示例 1：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-20-47-56.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-20-47-56.png)
 
 ```txt
 输入: n = 3

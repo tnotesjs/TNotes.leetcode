@@ -32,7 +32,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-12-00.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-12-00.png)
 
 ```txt
 输入：root = [1,3,4,2,null,6,5,null,null,null,null,null,7], queries = [4]
@@ -43,7 +43,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-12-09.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-12-09.png)
 
 ```txt
 输入：root = [5,8,9,2,1,3,7,4,6], queries = [3,2,4,8]

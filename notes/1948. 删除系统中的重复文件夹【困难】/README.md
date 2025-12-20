@@ -38,7 +38,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-25-38.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-25-38.png)
 
 ```txt
 输入：paths = [["a"],["c"],["d"],["a","b"],["c","b"],["d","a"]]
@@ -49,7 +49,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-25-45.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-25-45.png)
 
 ```txt
 输入：paths = [["a"],["c"],["a","b"],["c","b"],["a","b","x"],["a","b","x","y"],["w"],["w","y"]]
@@ -61,7 +61,7 @@
 
 - 示例 3：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-25-51.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-25-51.png)
 
 ```txt
 输入：paths = [["a","b"],["c","d"],["c"],["a"]]
@@ -72,7 +72,7 @@
 
 - 示例 4：
 
-![图 3](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-26-01.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-26-01.png)
 
 ```txt
 输入：paths = [["a"],["a","x"],["a","x","y"],["a","z"],["b"],["b","x"],["b","x","y"],["b","z"]]
@@ -84,7 +84,7 @@
 
 - 示例 5：
 
-![图 4](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-26-07.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-26-07.png)
 
 ```txt
 输入：paths = [["a"],["a","x"],["a","x","y"],["a","z"],["b"],["b","x"],["b","x","y"],["b","z"],["b","w"]]

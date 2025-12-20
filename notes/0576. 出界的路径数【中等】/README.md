@@ -19,7 +19,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-17-37-30.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-17-37-30.png)
 
 ```txt
 输入：m = 2, n = 2, maxMove = 2, startRow = 0, startColumn = 0
@@ -28,7 +28,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-17-37-34.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-17-37-34.png)
 
 ```txt
 输入：m = 1, n = 3, maxMove = 3, startRow = 0, startColumn = 1

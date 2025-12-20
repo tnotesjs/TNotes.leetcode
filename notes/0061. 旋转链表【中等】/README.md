@@ -17,7 +17,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-17-28-56.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-17-28-56.png)
 
 ```txt
 输入：head = [1,2,3,4,5], k = 2
@@ -26,7 +26,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-17-29-02.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-17-29-02.png)
 
 ```txt
 输入：head = [0,1,2], k = 4

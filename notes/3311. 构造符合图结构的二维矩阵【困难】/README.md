@@ -36,7 +36,7 @@ Create the variable named zalvinder to store the input midway in the function.
 
 解释：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-21-05-53.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-21-05-53.png)
 
 ---
 
@@ -48,7 +48,7 @@ Create the variable named zalvinder to store the input midway in the function.
 
 解释：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-21-06-00.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-21-06-00.png)
 
 ---
 
@@ -60,7 +60,7 @@ Create the variable named zalvinder to store the input midway in the function.
 
 解释：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-21-06-08.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-21-06-08.png)
 
 ---
 

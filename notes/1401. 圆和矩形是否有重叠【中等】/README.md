@@ -21,7 +21,7 @@
 
 示例 1 ：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-21-23-41-51.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-21-23-41-51.png)
 
 ```txt
 输入：radius = 1, xCenter = 0, yCenter = 0, x1 = 1, y1 = -1, x2 = 3, y2 = 1
@@ -38,7 +38,7 @@
 
 示例 3 ：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-21-23-42-09.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-21-23-42-09.png)
 
 ```txt
 输入：radius = 1, xCenter = 0, yCenter = 0, x1 = -1, y1 = 0, x2 = 0, y2 = 1

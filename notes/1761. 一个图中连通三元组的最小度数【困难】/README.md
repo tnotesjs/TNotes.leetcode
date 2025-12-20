@@ -25,7 +25,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-07-12.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-07-12.png)
 
 ```txt
 输入：n = 6, edges = [[1,2],[1,3],[3,2],[4,1],[5,2],[3,6]]
@@ -35,7 +35,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-07-17.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-07-17.png)
 
 ```txt
 输入：n = 7, edges = [[1,3],[4,1],[4,3],[2,5],[5,6],[6,7],[7,5],[2,6]]

@@ -31,7 +31,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-23-17-54.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-23-17-54.png)
 
 输入： edges = [[1,2]]
 
@@ -46,7 +46,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-23-17-59.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-23-17-59.png)
 
 输入： edges = [[1,2],[1,3],[3,4],[3,5]]
 

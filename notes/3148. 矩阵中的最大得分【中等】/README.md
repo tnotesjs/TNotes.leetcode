@@ -23,7 +23,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-08-15-00.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-08-15-00.png)
 
 输入： grid = [[9,5,7,3],[8,9,6,1],[6,7,14,3],[2,5,3,1]]
 
@@ -39,7 +39,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-08-15-07.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-08-15-07.png)
 
 输入： grid = [[4,3,2],[3,2,1]]
 

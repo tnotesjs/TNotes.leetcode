@@ -32,7 +32,7 @@
 
 解释：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-13-15.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-13-15.png)
 
 返回 averages 中最小的元素，即 5.5。
 
@@ -46,7 +46,7 @@
 
 解释：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-13-34.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-13-34.png)
 
 ---
 
@@ -58,7 +58,7 @@
 
 解释：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-13-48.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-13-48.png)
 
 ---
 

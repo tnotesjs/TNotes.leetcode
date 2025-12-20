@@ -23,7 +23,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-55-47.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-55-47.png)
 
 ```txt
 输入：grid = [[7,6,3],[6,6,1]], k = 18
@@ -35,7 +35,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-55-53.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-55-53.png)
 
 ```txt
 输入：grid = [[7,2,9],[1,5,0],[2,6,6]], k = 20

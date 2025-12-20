@@ -23,7 +23,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-10-31-21.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-10-31-21.png)
 
 ```txt
 输入：piles = [[1,100,3],[7,8,9]], k = 2

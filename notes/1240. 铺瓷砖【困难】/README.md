@@ -19,7 +19,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-19-53-09.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-19-53-09.png)
 
 ```txt
 输入：n = 2, m = 3
@@ -31,7 +31,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-19-53-17.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-19-53-17.png)
 
 ```txt
 输入：n = 5, m = 8
@@ -40,7 +40,7 @@
 
 - 示例 3：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-19-53-23.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-19-53-23.png)
 
 ```txt
 输入：n = 11, m = 13

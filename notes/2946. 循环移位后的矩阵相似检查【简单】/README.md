@@ -27,7 +27,7 @@
 ```
 
 - 解释：
-  - ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-03-42.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-03-42.png)
   - 初始矩阵如图一所示。
   - 图二表示对奇数行右移一次且对偶数行左移一次后的矩阵状态。
   - 图三是经过两次循环移位后的最终矩阵状态，与初始矩阵相同。

@@ -34,7 +34,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-27-55.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-27-55.png)
 
 ```txt
 输入：a = 1, b = 1, c = 8, d = 8, e = 2, f = 3
@@ -45,7 +45,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-28-04.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-28-04.png)
 
 ```txt
 输入：a = 5, b = 3, c = 3, d = 4, e = 5, f = 2

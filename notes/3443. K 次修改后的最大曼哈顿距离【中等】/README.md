@@ -38,7 +38,7 @@
 
 将 `s[2]` 从 `'S'` 改为 `'N'` ，字符串 `s` 变为 `"NWNE"` 。
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-16-32.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-16-32.png)
 
 执行移动操作过程中，距离原点的最大曼哈顿距离是 3 。
 

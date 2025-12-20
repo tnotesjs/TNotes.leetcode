@@ -22,7 +22,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-14-32-25.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-14-32-25.png)
 
 ```txt
 输入：root = [5,3,6,2,4,null,7], key = 3
@@ -32,7 +32,7 @@
 另一个正确答案是 [5,2,6,null,4,null,7]。
 ```
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-14-32-37.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-14-32-37.png)
 
 - 示例 2：
 

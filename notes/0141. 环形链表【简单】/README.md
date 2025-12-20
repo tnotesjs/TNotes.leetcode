@@ -23,7 +23,7 @@
 
 示例 1：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-10-06.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-10-06.png)
 
 ```txt
 输入：head = [3,2,0,-4], pos = 1
@@ -35,7 +35,7 @@
 
 示例 2：
 
-![图 3](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-10-16.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-10-16.png)
 
 ```txt
 输入：head = [1,2], pos = 0
@@ -47,7 +47,7 @@
 
 示例 3：
 
-![图 4](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-10-28.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-10-28.png)
 
 ```txt
 输入：head = [1], pos = -1

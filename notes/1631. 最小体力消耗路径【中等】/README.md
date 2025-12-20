@@ -23,7 +23,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-28-52.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-28-52.png)
 
 ```txt
 输入：heights = [[1,2,2],[3,8,2],[5,3,5]]
@@ -34,7 +34,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-28-56.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-28-56.png)
 
 ```txt
 输入：heights = [[1,2,3],[3,8,4],[5,3,5]]
@@ -44,7 +44,7 @@
 
 - 示例 3：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-29-02.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-29-02.png)
 
 ```txt
 输入：heights = [[1,2,1,1,1],[1,2,1,2,1],[1,2,1,2,1],[1,2,1,2,1],[1,1,1,2,1]]

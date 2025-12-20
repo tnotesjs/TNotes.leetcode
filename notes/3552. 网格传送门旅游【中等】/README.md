@@ -24,7 +24,7 @@
 
 解释：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-23-13-59.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-23-13-59.png)
 
 - 在第一次移动之前，从 `(0, 0)` 传送到 `(1, 1)`。
 - 第一次移动，从 `(1, 1)` 移动到 `(1, 2)`。

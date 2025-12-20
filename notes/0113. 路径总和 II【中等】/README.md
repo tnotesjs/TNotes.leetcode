@@ -19,7 +19,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-20-33-54.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-20-33-54.png)
 
 ```txt
 输入：root = [5,4,8,11,null,13,4,7,2,null,null,5,1], targetSum = 22
@@ -28,7 +28,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-09-13-25-10.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-09-13-25-10.png)
 
 ```txt
 输入：root = [1,2,3], targetSum = 5

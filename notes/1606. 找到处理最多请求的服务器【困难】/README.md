@@ -28,7 +28,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-18-07.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-18-07.png)
 
 ```txt
 输入：k = 3, arrival = [1,2,3,4,5], load = [5,2,3,3,3]

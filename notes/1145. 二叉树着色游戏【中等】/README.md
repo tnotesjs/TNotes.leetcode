@@ -32,7 +32,7 @@
 
 示例 1 ：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-17-49-32.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-17-49-32.png)
 
 ```txt
 输入：root = [1,2,3,4,5,6,7,8,9,10,11], n = 11, x = 3

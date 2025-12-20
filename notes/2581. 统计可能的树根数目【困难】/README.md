@@ -30,7 +30,7 @@ Alice 非常懒，她不想逐个回答 Bob 的猜测，只告诉 Bob 这些猜�
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-21-01-58.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-21-01-58.png)
 
 ```txt
 输入：edges = [[0,1],[1,2],[1,3],[4,2]], guesses = [[1,3],[0,1],[1,0],[2,4]], k = 3
@@ -48,7 +48,7 @@ Alice 非常懒，她不想逐个回答 Bob 的猜测，只告诉 Bob 这些猜�
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-21-02-04.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-21-02-04.png)
 
 ```txt
 输入：edges = [[0,1],[1,2],[2,3],[3,4]], guesses = [[1,0],[3,4],[2,1],[3,2]], k = 1

@@ -22,7 +22,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-18-51-06.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-18-51-06.png)
 
 ```txt
 输入：text = "nlaebolko"
@@ -31,7 +31,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-18-51-11.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-18-51-11.png)
 
 ```txt
 输入：text = "loonbalxballpoon"

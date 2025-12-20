@@ -35,7 +35,7 @@ _在对 `s` 执行所有替换操作后返回 结果字符串 。_
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-08-17-43.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-08-17-43.png)
 
 ```txt
 输入：s = "abcd", indices = [0,2], sources = ["a","cd"], targets = ["eee","ffff"]
@@ -47,7 +47,7 @@ _在对 `s` 执行所有替换操作后返回 结果字符串 。_
 
 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-08-17-52.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-08-17-52.png)
 
 ```txt
 输入：s = "abcd", indices = [0,2], sources = ["ab","ec"], targets = ["eee","ffff"]

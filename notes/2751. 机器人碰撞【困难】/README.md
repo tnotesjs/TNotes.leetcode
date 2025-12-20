@@ -33,7 +33,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-11-57-39.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-11-57-39.png)
 
 ```txt
 输入：positions = [5,4,3,2,1], healths = [2,17,9,15,10], directions = "RRRRR"
@@ -43,7 +43,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-11-57-49.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-11-57-49.png)
 
 ```txt
 输入：positions = [3,5,2,6], healths = [10,10,15,12], directions = "RLRL"
@@ -53,7 +53,7 @@
 
 - 示例 3：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-11-57-55.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-11-57-55.png)
 
 ```txt
 输入：positions = [1,2,5,6], healths = [10,10,11,11], directions = "RLRL"

@@ -31,7 +31,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-33-13.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-33-13.png)
 
 ```txt
 输入：n = 5, restrictions = [[2,1],[4,1]]
@@ -42,7 +42,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-33-18.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-33-18.png)
 
 ```txt
 输入：n = 6, restrictions = []
@@ -53,7 +53,7 @@
 
 - 示例 3：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-33-23.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-33-23.png)
 
 ```txt
 输入：n = 10, restrictions = [[5,3],[2,5],[7,4],[10,3]]

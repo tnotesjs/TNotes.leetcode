@@ -23,7 +23,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-14-13-13.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-14-13-13.png)
 
 ```txt
 输入：numBottles = 9, numExchange = 3
@@ -34,7 +34,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-14-13-21.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-14-13-21.png)
 
 ```txt
 输入：numBottles = 15, numExchange = 4

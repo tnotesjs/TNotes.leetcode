@@ -30,7 +30,7 @@
 ```
 
 - 解释：
-  - ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-07-26.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-07-26.png)
 
 ---
 

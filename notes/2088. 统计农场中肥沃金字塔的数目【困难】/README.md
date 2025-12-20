@@ -27,7 +27,7 @@
 
 下图展示了部分符合定义和不符合定义的金字塔区域。黑色区域表示肥沃的格子。
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-16-00.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-16-00.png)
 
 给你一个下标从 0 开始且大小为 `m x n` 的二进制矩阵 `grid` ，它表示农场，请你返回 `grid` 中金字塔和倒金字塔的 总数目 。
 
@@ -35,11 +35,11 @@
 
 - 示例 1：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-16-29.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-16-29.png)
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-16-34.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-16-34.png)
 
-![图 3](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-16-40.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-16-40.png)
 
 ```txt
 输入：grid = [[0,1,1,0],[1,1,1,1]]
@@ -53,11 +53,11 @@
 
 - 示例 2：
 
-![图 4](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-16-54.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-16-54.png)
 
-![图 5](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-17-00.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-17-00.png)
 
-![图 6](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-17-05.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-17-05.png)
 
 ```txt
 输入：grid = [[1,1,1],[1,1,1]]
@@ -69,7 +69,7 @@
 
 - 示例 3：
 
-![图 7](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-17-13.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-17-13.png)
 
 ```txt
 输入：grid = [[1,0,1],[0,0,0],[1,0,1]]
@@ -80,13 +80,13 @@
 
 - 示例 4：
 
-![图 8](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-17-24.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-17-24.png)
 
-![图 9](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-17-29.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-17-29.png)
 
-![图 10](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-17-33.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-17-33.png)
 
-![图 11](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-17-40.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-17-40.png)
 
 ```txt
 输入：grid = [[1,1,1,1,0],[1,1,1,1,1],[1,1,1,1,1],[0,1,0,0,1]]

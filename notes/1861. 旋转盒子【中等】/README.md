@@ -29,7 +29,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-37-30.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-37-30.png)
 
 ```txt
 输入：box = [["#",".","#"]]
@@ -40,7 +40,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-37-35.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-37-35.png)
 
 ```txt
 输入：box = [["#",".","*","."],
@@ -53,7 +53,7 @@
 
 - 示例 3：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-37-39.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-37-39.png)
 
 ```txt
 输入：box = [["#","#","*",".","*","."],

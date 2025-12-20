@@ -19,7 +19,7 @@
 
 而偶数行（即，第二行、第四行、第六行……）中，按从右到左的顺序进行标记。
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-15-53-13.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-15-53-13.png)
 
 给你树上某一个节点的标号 `label`，请你返回从根节点到该标号为 `label` 节点的路径，该路径是由途经的节点标号所组成的。
 

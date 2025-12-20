@@ -37,7 +37,7 @@ Bob 有一把剑，它具备以下的特征：
 
 解释：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-21-36-31.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-21-36-31.png)
 
 无法用少于 4 分钟打开所有的锁，所以答案为 4 。
 
@@ -51,7 +51,7 @@ Bob 有一把剑，它具备以下的特征：
 
 解释：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-21-36-46.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-21-36-46.png)
 
 无法用少于 5 分钟打开所有的锁，所以答案为 5 。
 

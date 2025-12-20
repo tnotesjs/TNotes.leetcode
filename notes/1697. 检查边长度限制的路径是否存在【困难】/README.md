@@ -23,7 +23,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-16-14-57.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-16-14-57.png)
 
 ```txt
 输入：n = 3, edgeList = [[0,1,2],[1,2,4],[2,0,8],[1,0,16]], queries = [[0,1,2],[0,2,5]]
@@ -36,7 +36,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-16-15-02.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-16-15-02.png)
 
 ```txt
 输入：n = 5, edgeList = [[0,1,10],[1,2,5],[2,3,9],[3,4,13]], queries = [[0,4,14],[1,4,13]]

@@ -23,7 +23,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-16-47-45.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-16-47-45.png)
 
 ```txt
 输入：isConnected = [[1,1,0],[1,1,0],[0,0,1]]
@@ -32,7 +32,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-16-47-49.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-16-47-49.png)
 
 ```txt
 输入：isConnected = [[1,0,0],[0,1,0],[0,0,1]]

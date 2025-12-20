@@ -29,7 +29,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-45-25.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-45-25.png)
 
 ```txt
 输入：image = [[5,6,7,10],[8,9,10,10],[11,12,13,10]], threshold = 3
@@ -47,7 +47,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-45-33.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-45-33.png)
 
 ```txt
 输入：image = [[10,20,30],[15,25,35],[20,30,40],[25,35,45]], threshold = 12

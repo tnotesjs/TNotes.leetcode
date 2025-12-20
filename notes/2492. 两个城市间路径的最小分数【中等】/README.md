@@ -29,7 +29,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-23-37.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-23-37.png)
 
 ```txt
 输入：n = 4, roads = [[1,2,9],[2,3,6],[2,4,5],[1,4,7]]
@@ -42,7 +42,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-23-42.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-23-42.png)
 
 ```txt
 输入：n = 4, roads = [[1,2,2],[1,3,4],[3,4,7]]

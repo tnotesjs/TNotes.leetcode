@@ -35,7 +35,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-21-59.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-21-59.png)
 
 ```txt
 输入：segments = [[1,4,5],[4,7,7],[1,7,9]]
@@ -47,7 +47,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-22-06.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-22-06.png)
 
 ```txt
 输入：segments = [[1,7,9],[6,8,15],[8,10,7]]
@@ -61,7 +61,7 @@
 
 - 示例 3：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-22-13.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-22-13.png)
 
 ```txt
 输入：segments = [[1,4,5],[1,4,7],[4,7,1],[4,7,11]]

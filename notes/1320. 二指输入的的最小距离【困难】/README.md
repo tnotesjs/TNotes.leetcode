@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/minimum-distance-to-type-a-word-using-two-fingers/)
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-19-06-30-40.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-19-06-30-40.png)
 
 二指输入法定制键盘在 X-Y 平面上的布局如上图所示，其中每个大写英文字母都位于某个坐标处。
 

@@ -23,7 +23,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-20-40-10.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-20-40-10.png)
 
 ```txt
 输入: board = [[0,1,1,0],[0,1,1,0],[1,0,0,1],[1,0,0,1]]
@@ -35,7 +35,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-20-40-17.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-20-40-17.png)
 
 ```txt
 输入: board = [[0, 1], [1, 0]]
@@ -45,7 +45,7 @@
 
 - 示例 3：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-20-40-22.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-20-40-22.png)
 
 ```txt
 输入: board = [[1, 0], [1, 0]]

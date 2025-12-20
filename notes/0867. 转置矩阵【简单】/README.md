@@ -15,7 +15,7 @@
 
 矩阵的 转置 是指将矩阵的主对角线翻转，交换矩阵的行索引与列索引。
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-11-58-27.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-11-58-27.png)
 
 ---
 

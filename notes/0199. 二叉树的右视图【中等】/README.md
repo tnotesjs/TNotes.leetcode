@@ -24,7 +24,7 @@
 
 - 解释：
 
-  - ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-36-28.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-36-28.png)
 
 - 示例 2：
 
@@ -35,7 +35,7 @@
 
 - 解释：
 
-  - ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-36-04.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-36-04.png)
 
 - 示例 3：
 

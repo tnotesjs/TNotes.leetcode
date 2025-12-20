@@ -25,7 +25,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-30-44.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-30-44.png)
 
 ```txt
 输入：points = [[1,3],[3,3],[5,3],[2,2]], queries = [[2,3,1],[4,3,1],[1,1,2]]
@@ -36,7 +36,7 @@ queries[0] 是绿色的圆，queries[1] 是红色的圆，queries[2] 是蓝色�
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-30-49.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-30-49.png)
 
 ```txt
 输入：points = [[1,1],[2,2],[3,3],[4,4],[5,5]], queries = [[1,2,2],[2,2,2],[4,3,2],[4,3,3]]

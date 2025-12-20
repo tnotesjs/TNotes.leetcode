@@ -25,7 +25,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-11-12-25-14.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-11-12-25-14.png)
 
 ```txt
 输入：n = 10

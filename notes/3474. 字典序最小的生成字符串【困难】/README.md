@@ -39,7 +39,7 @@
 
 下表展示了字符串 `"ababa"` 的生成过程：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-31-51.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-31-51.png)
 
 字符串 `"ababa"` 和 `"ababb"` 都可以由 `str1` 和 `str2` 生成。
 

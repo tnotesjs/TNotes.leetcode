@@ -25,7 +25,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-36-23.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-36-23.png)
 
 ```txt
 输入：colors = "abaca", edges = [[0,1],[0,2],[2,3],[3,4]]
@@ -35,7 +35,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-36-27.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-36-27.png)
 
 ```txt
 输入：colors = "a", edges = [[0,0]]

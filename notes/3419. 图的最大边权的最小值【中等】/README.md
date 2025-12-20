@@ -35,7 +35,7 @@
 
 解释：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-21-59-37.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-21-59-37.png)
 
 删除边 `2 -> 0` 。剩余边中的最大值为 1 。
 
@@ -61,7 +61,7 @@
 
 解释：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-21-59-44.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-21-59-44.png)
 
 删除边 `1 -> 3` 和 `1 -> 4` 。剩余边中的最大值为 2 。
 

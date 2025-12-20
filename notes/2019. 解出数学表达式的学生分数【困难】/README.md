@@ -30,7 +30,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-05-26.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-05-26.png)
 
 ```txt
 输入：s = "7+3*1*2", answers = [20,13,42]

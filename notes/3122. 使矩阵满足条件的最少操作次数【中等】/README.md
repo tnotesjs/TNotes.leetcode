@@ -30,7 +30,7 @@
 
 解释：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-07-34-32.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-07-34-32.png)
 
 矩阵中所有格子已经满足要求。
 
@@ -44,7 +44,7 @@
 
 解释：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-07-34-53.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-07-34-53.png)
 
 将矩阵变成 `[[1,0,1],[1,0,1]]`，它满足所有要求，需要 3 次操作：
 
@@ -62,7 +62,7 @@
 
 解释：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-07-35-03.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-07-35-03.png)
 
 这个矩阵只有一列，我们可以通过 2 次操作将所有格子里的值变为 1 。
 

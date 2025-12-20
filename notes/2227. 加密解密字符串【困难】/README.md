@@ -86,7 +86,7 @@ encrypter.decrypt("eizfeiam"); // return 2.
 
 - ⏰ TODO：
   - 提一下反馈：
-  - ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-11-27-49.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-11-27-49.png)
 
 ## 3. 🎯 s.1 - 解法 1
 

@@ -30,7 +30,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-14-35-27.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-14-35-27.png)
 
 ```txt
 输入：nums = [2,-1,1,2,2]
@@ -41,7 +41,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-14-35-33.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-14-35-33.png)
 
 ```txt
 输入：nums = [-1,-2,-3,-4,-5,6]
@@ -52,7 +52,7 @@
 
 - 示例 3：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-14-35-39.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-14-35-39.png)
 
 ```txt
 输入：nums = [1,-1,5,1,4]

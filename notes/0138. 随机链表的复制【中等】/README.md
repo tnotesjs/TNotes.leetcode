@@ -31,7 +31,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-01-24.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-01-24.png)
 
 ```txt
 输入：head = [[7,null],[13,0],[11,4],[10,2],[1,0]]
@@ -40,7 +40,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-01-29.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-01-29.png)
 
 ```txt
 输入：head = [[1,1],[2,1]]
@@ -49,7 +49,7 @@
 
 - 示例 3：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-01-36.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-01-36.png)
 
 ```txt
 输入：head = [[3,null],[3,0],[3,null]]

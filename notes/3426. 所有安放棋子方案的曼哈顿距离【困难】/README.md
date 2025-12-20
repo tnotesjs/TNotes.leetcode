@@ -35,7 +35,7 @@
 
 放置棋子的合法方案包括：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-02-38.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-02-38.png)
 
 - 前 4 个方案中，两个棋子的曼哈顿距离都为 1 。
 - 后 2 个方案中，两个棋子的曼哈顿距离都为 2 。
@@ -54,7 +54,7 @@
 
 放置棋子的合法方案包括：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-02-46.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-02-46.png)
 
 - 第一个和最后一个方案的曼哈顿距离分别为 `1 + 1 + 2 = 4` 。
 - 中间两种方案的曼哈顿距离分别为 `1 + 2 + 3 = 6` 。

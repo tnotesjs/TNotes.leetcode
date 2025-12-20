@@ -32,7 +32,7 @@
 - 为了让第 `0` 列严格递增，可以对 `grid[1][0]` 执行 3 次操作，对 `grid[2][0]` 执行 2 次操作，对 `grid[3][0]` 执行 6 次操作。
 - 为了让第 `1` 列严格递增，可以对 `grid[3][1]` 执行 4 次操作。
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-21-48-50.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-21-48-50.png)
 
 ---
 
@@ -48,7 +48,7 @@
 - 为了让第 `1` 列严格递增，可以对 `grid[1][1]` 执行 2 次操作，对 `grid[2][1]` 执行 2 次操作。
 - 为了让第 `2` 列严格递增，可以对 `grid[1][2]` 执行 2 次操作。
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-21-48-57.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-21-48-57.png)
 
 ---
 

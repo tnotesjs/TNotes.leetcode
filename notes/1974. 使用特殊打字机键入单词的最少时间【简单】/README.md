@@ -15,7 +15,7 @@
 
 有一个特殊打字机，它由一个 圆盘 和一个 指针 组成， 圆盘上标有小写英文字母 `'a'` 到 `'z'`。只有 当指针指向某个字母时，它才能被键入。指针 初始时 指向字符 `'a'` 。
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-42-17.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-42-17.png)
 
 每一秒钟，你可以执行以下操作之一：
 

@@ -23,7 +23,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-23-00-47.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-23-00-47.png)
 
 输入: n = 3, buildings = [[1,2],[2,2],[3,2],[2,1],[2,3]]
 
@@ -42,7 +42,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-23-01-08.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-23-01-08.png)
 
 输入: n = 3, buildings = [[1,1],[1,2],[2,1],[2,2]]
 
@@ -56,7 +56,7 @@
 
 - 示例 3：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-23-01-25.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-23-01-25.png)
 
 输入: n = 5, buildings = [[1,3],[3,2],[3,3],[3,5],[5,3]]
 

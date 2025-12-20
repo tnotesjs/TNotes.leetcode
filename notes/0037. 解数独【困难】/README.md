@@ -25,7 +25,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-12-25-27.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-12-25-27.png)
 
 ```txt
 输入：board = [
@@ -53,7 +53,7 @@
 解释：输入的数独如上图所示，唯一有效的解决方案如下所示：
 ```
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-12-25-37.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-12-25-37.png)
 
 ---
 

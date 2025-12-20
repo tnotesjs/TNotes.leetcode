@@ -39,7 +39,7 @@
 
 生成的图如下：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-23-03-46.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-23-03-46.png)
 
 | 查询   | 最短路径 | 最短距离 |
 | ------ | -------- | -------- |
@@ -60,7 +60,7 @@
 
 生成的图如下：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-23-05-11.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-23-05-11.png)
 
 | 查询   | 最短路径  | 最短距离 |
 | ------ | --------- | -------- |

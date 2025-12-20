@@ -23,7 +23,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-16-13-08.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-16-13-08.png)
 
 ```txt
 输入：cuboids = [[50,45,20],[95,37,53],[45,23,12]]

@@ -27,7 +27,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-01-59.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-01-59.png)
 
 ```txt
 输入：s = "letsleetcode", k = 2

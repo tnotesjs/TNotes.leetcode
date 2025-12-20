@@ -15,7 +15,7 @@
 
 Alice 在给 Bob 用手机打字。数字到字母的 对应 如下图所示。
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-11-43-37.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-11-43-37.png)
 
 为了 打出 一个字母，Alice 需要 按 对应字母 `i` 次，`i` 是该字母在这个按键上所处的位置。
 

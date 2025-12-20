@@ -42,7 +42,7 @@ id 是该表中具有唯一值的列。
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-12-03-22.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-12-03-22.png)
 
 ```txt
 输入：
@@ -74,7 +74,7 @@ Tree table:
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-12-03-28.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-12-03-28.png)
 
 ```txt
 输入：

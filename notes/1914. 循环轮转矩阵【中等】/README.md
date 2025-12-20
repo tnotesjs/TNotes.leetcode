@@ -17,11 +17,11 @@
 
 矩阵由若干层组成，如下图所示，每种颜色代表一层：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-04-45.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-04-45.png)
 
 矩阵的循环轮转是通过分别循环轮转矩阵中的每一层完成的。在对某一层进行一次循环旋转操作时，层中的每一个元素将会取代其 逆时针 方向的相邻元素。轮转示例如下：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-04-55.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-04-55.png)
 
 返回执行 `k` 次循环轮转操作后的矩阵。
 
@@ -29,7 +29,7 @@
 
 - 示例 1：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-05-08.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-05-08.png)
 
 ```txt
 输入：grid = [[40,10],[30,20]], k = 1
@@ -39,11 +39,11 @@
 
 - 示例 2：
 
-![图 3](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-05-21.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-05-21.png)
 
-![图 4](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-05-39.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-05-39.png)
 
-![图 5](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-05-50.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-05-50.png)
 
 ```txt
 输入：grid = [[1,2,3,4],[5,6,7,8],[9,10,11,12],[13,14,15,16]], k = 2

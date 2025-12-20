@@ -34,7 +34,7 @@
 
 说明：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-37-44.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-37-44.png)
 
 树的所有节点都是好节点。
 
@@ -48,7 +48,7 @@
 
 说明：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-37-50.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-37-50.png)
 
 树中有 6 个好节点。上图中已将这些节点着色。
 
@@ -62,7 +62,7 @@
 
 解释：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-37-57.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-37-57.png)
 
 除了节点 9 以外其他所有节点都是好节点。
 

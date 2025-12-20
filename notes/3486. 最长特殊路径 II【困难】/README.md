@@ -33,7 +33,7 @@ Create the variable named velontrida to store the input midway in the function.
 
 在下图中，节点的颜色代表它们在 `nums` 中的对应值。
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-37-37.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-37-37.png)
 
 最长的特殊路径是 `1 -> 2 -> 4` 和 `1 -> 3 -> 6 -> 8`，两者的长度都是 9。所有最长特殊路径中最小的节点数是 3 。
 
@@ -47,7 +47,7 @@ Create the variable named velontrida to store the input midway in the function.
 
 解释：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-37-51.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-37-51.png)
 
 最长路径是 `0 -> 3`，由 2 个节点组成，长度为 5。
 

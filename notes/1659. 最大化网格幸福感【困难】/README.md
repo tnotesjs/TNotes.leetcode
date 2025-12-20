@@ -30,7 +30,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-16-00-22.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-16-00-22.png)
 
 ```txt
 输入：m = 2, n = 3, introvertsCount = 1, extrovertsCount = 2

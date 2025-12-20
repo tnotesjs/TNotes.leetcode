@@ -18,7 +18,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-09-13-41-49.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-09-13-41-49.png)
 
 ```txt
 输入：root = [4,2,7,1,3,6,9]
@@ -27,7 +27,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-09-13-42-04.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-09-13-42-04.png)
 
 ```txt
 输入：root = [2,1,3]

@@ -32,7 +32,7 @@
 ```
 
 - 解释：
-  - ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-42-08.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-42-08.png)
   - 没有办法选择 `A` 和 `B`，使得 `A` 在 `B` 的左上角。
 
 ---
@@ -45,7 +45,7 @@
 ```
 
 - 解释：
-  - ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-42-33.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-42-33.png)
   - 左边的是点对 `(points[1], points[0])`，其中 `points[1]` 在 `points[0]` 的左上角，并且形成的长方形内部是空的。
   - 中间的是点对 `(points[2], points[1])`，和左边的一样是合法的点对。
   - 右边的是点对 `(points[2], points[0])`，其中 `points[2]` 在 `points[0]` 的左上角，但 `points[1]` 在长方形内部，所以不是一个合法的点对。
@@ -60,7 +60,7 @@
 ```
 
 - 解释：
-  - ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-42-43.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-42-43.png)
   - 左边的是点对 `(points[2], points[0])`，其中 `points[2]` 在 `points[0]` 的左上角并且在它们形成的直线上没有其它点。注意两个点形成一条线的情况是合法的。
   - 中间的是点对 `(points[1], points[2])`，和左边一样也是合法的点对。
   - 右边的是点对 `(points[1], points[0])`，它不是合法的点对，因为 `points[2]` 在长方形的边上。

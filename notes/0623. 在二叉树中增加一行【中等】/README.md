@@ -26,7 +26,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-12-08-50.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-12-08-50.png)
 
 ```txt
 输入: root = [4,2,6,3,1,5], val = 1, depth = 2
@@ -35,7 +35,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-12-08-55.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-12-08-55.png)
 
 ```txt
 输入: root = [4,2,null,3,1], val = 1, depth = 3

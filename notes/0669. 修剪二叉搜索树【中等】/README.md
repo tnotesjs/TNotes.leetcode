@@ -21,7 +21,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-12-25-44.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-12-25-44.png)
 
 ```txt
 输入：root = [1,0,2], low = 1, high = 2
@@ -30,7 +30,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-12-25-48.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-12-25-48.png)
 
 ```txt
 输入：root = [3,0,4,null,2,null,null,1], low = 1, high = 3

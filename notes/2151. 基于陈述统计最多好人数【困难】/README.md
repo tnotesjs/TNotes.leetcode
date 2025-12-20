@@ -32,7 +32,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-47-38.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-47-38.png)
 
 ```txt
 输入：statements = [[2,1,2],[1,2,2],[2,0,2]]
@@ -62,7 +62,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-47-45.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-47-45.png)
 
 ```txt
 输入：statements = [[2,0],[0,2]]

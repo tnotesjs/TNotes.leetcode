@@ -17,7 +17,7 @@
 
 菱形和 指的是 `grid` 中一个正菱形 边界 上的元素之和。本题中的菱形必须为正方形旋转 45 度，且四个角都在一个格子当中。下图是四个可行的菱形，每个菱形和应该包含的格子都用了相应颜色标注在图中。
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-21-37-35.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-21-37-35.png)
 
 注意，菱形可以是一个面积为 0 的区域，如上图中右下角的紫色菱形所示。
 
@@ -27,7 +27,7 @@
 
 - 示例 1：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-21-38-06.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-21-38-06.png)
 
 ```txt
 输入：grid = [[3,4,5,1,3],[3,3,4,2,3],[20,30,200,40,10],[1,5,5,4,1],[4,3,2,2,5]]
@@ -40,7 +40,7 @@
 
 - 示例 2：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-21-38-48.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-21-38-48.png)
 
 ```txt
 输入：grid = [[1,2,3],[4,5,6],[7,8,9]]

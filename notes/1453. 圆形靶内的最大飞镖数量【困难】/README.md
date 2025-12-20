@@ -21,7 +21,7 @@ Bob 知道墙上所有 `n` 支飞镖的位置。他想要往墙上放置一个�
 
 示例 1 ：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-00-02-22.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-00-02-22.png)
 
 ```txt
 输入：darts = [[-2,0],[2,0],[0,2],[0,-2]], r = 2
@@ -33,7 +33,7 @@ Bob 知道墙上所有 `n` 支飞镖的位置。他想要往墙上放置一个�
 
 示例 2 ：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-00-02-28.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-00-02-28.png)
 
 ```txt
 输入：darts = [[-3,0],[3,0],[2,6],[5,4],[0,9],[7,8]], r = 5

@@ -29,7 +29,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-16-26.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-16-26.png)
 
 ```txt
 输入: head = [4,2,1,3]
@@ -38,7 +38,7 @@
 
 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-16-30.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-16-30.png)
 
 ```txt
 输入: head = [-1,5,3,4,0]

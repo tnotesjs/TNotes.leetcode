@@ -76,7 +76,7 @@
   - 总体时间复杂度为 $O(n)$
 - 空间复杂度：$O(k)$
   - 需要哈希表存储每个元素的出现次数，最坏情况下需要 $O(n)$ 空间
-- ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-21-22-46-32.png)
+- ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-21-22-46-32.png)
 - 解题思路
   - 解决这个问题的关键是理解和谐子序列的定义：只包含两种数值，且它们相差为 1（如 x 和 x+1）
   - 核心步骤：
@@ -99,4 +99,4 @@
   - 总体时间复杂度为 $O(n \log n)$
 - 空间复杂度：$O(1)$
   - 只使用了常数级别的额外空间（不考虑排序算法的额外空间）
-- ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-21-22-46-40.png)
+- ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-21-22-46-40.png)

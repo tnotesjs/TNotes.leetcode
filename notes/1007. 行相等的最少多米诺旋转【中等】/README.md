@@ -23,7 +23,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-15-13-20.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-15-13-20.png)
 
 ```txt
 输入：tops = [2,1,2,4,2,2], bottoms = [5,2,6,2,3,2]

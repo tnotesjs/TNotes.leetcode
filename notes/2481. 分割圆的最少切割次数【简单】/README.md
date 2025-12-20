@@ -20,7 +20,7 @@
 
 一些有效和无效的切割如下图所示。
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-19-52.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-19-52.png)
 
 给你一个整数 `n` ，请你返回将圆切割成相等的 `n` 等分的 最少 切割次数。
 
@@ -28,7 +28,7 @@
 
 - 示例 1：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-19-59.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-19-59.png)
 
 ```txt
 输入：n = 4
@@ -41,7 +41,7 @@
 
 - 示例 2：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-20-11.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-20-11.png)
 
 ```txt
 输入：n = 3

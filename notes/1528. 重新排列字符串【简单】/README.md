@@ -23,7 +23,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-14-18-16.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-14-18-16.png)
 
 ```txt
 输入：s = "codeleet", indices = [4,5,6,7,0,2,1,3]

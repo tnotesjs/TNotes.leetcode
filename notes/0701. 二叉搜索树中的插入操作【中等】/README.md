@@ -21,7 +21,7 @@
 
 - 示例 1：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-20-05-44.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-20-05-44.png)
 
 ```txt
 输入：root = [4,2,7,1,3], val = 5
@@ -29,7 +29,7 @@
 解释：另一个满足题目要求可以通过的树是：
 ```
 
-![图 3](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-20-05-55.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-20-05-55.png)
 
 - 示例 2：
 

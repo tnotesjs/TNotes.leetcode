@@ -35,7 +35,7 @@
 
 解释：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-21-46-09.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-21-46-09.png)
 
 网格图如上所示，我们可以在 `y = 2` 和 `y = 4` 处进行水平切割，所以返回 true 。
 
@@ -49,7 +49,7 @@
 
 解释：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-21-46-15.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-21-46-15.png)
 
 我们可以在 `x = 2` 和 `x = 3` 处进行竖直切割，所以返回 true 。
 

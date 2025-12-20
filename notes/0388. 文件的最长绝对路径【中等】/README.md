@@ -13,7 +13,7 @@
 
 假设有一个同时存储文件和目录的文件系统。下图展示了文件系统的一个示例：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-11-12-31-12.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-11-12-31-12.png)
 
 这里将 `dir` 作为根目录中的唯一目录。`dir` 包含两个子目录 `subdir1` 和 `subdir2` 。`subdir1` 包含文件 `file1.ext` 和子目录 `subsubdir1`；`subdir2` 包含子目录 `subsubdir2`，该子目录下包含文件 `file2.ext` 。
 
@@ -39,7 +39,7 @@ dir
 
 - 示例 1：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-11-12-31-00.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-11-12-31-00.png)
 
 ```txt
 输入：input = "dir\n\tsubdir1\n\tsubdir2\n\t\tfile.ext"
@@ -49,7 +49,7 @@ dir
 
 - 示例 2：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-11-12-30-55.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-11-12-30-55.png)
 
 ```txt
 输入：input = "dir\n\tsubdir1\n\t\tfile1.ext\n\t\tsubsubdir1\n\tsubdir2\n\t\tsubsubdir2\n\t\t\tfile2.ext"

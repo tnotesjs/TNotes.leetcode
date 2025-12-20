@@ -25,7 +25,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-13-31-17.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-13-31-17.png)
 
 ```txt
 输入：m = 3, n = 5, head = [3,0,2,6,8,1,7,9,4,2,5,5,0]
@@ -38,7 +38,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-13-31-23.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-13-31-23.png)
 
 ```txt
 输入：m = 1, n = 4, head = [0,1,2]

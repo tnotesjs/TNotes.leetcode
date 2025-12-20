@@ -17,7 +17,7 @@
 
 以下是棋盘的参考图。
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-20-53-17.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-20-53-17.png)
 
 如果这两个方格颜色相同，返回 `true`，否则返回 `false`。
 

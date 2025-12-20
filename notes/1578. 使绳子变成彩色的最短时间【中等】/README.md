@@ -23,7 +23,7 @@ Alice 想要把绳子装扮成 五颜六色的 ，且她不希望两个连续的
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-05-35.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-05-35.png)
 
 ```txt
 输入：colors = "abaac", neededTime = [1,2,3,4,5]
@@ -35,7 +35,7 @@ Bob 可以移除下标 2 的蓝色气球。这将花费 3 秒。
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-05-40.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-05-40.png)
 
 ```txt
 输入：colors = "abc", neededTime = [1,2,3]
@@ -45,7 +45,7 @@ Bob 可以移除下标 2 的蓝色气球。这将花费 3 秒。
 
 - 示例 3：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-05-45.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-05-45.png)
 
 ```txt
 输入：colors = "aabaa", neededTime = [1,2,3,4,1]

@@ -23,7 +23,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-11-01.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-11-01.png)
 
 ```txt
 输入：grid = [[2,4],[6,8]], x = 2
@@ -37,7 +37,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-11-17.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-11-17.png)
 
 ```txt
 输入：grid = [[1,5],[2,3]], x = 1
@@ -47,7 +47,7 @@
 
 - 示例 3：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-11-30.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-11-30.png)
 
 ```txt
 输入：grid = [[1,2],[3,4]], x = 2

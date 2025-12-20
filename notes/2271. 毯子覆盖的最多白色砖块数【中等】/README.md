@@ -23,7 +23,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-11-46-00.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-11-46-00.png)
 
 ```txt
 输入：tiles = [[1,5],[10,11],[12,18],[20,25],[30,32]], carpetLen = 10
@@ -36,7 +36,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-11-46-12.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-11-46-12.png)
 
 ```txt
 输入：tiles = [[10,11],[1,1]], carpetLen = 2

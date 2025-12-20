@@ -29,7 +29,7 @@
 ```
 
 - 解释：
-  - ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-20-52-22.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-20-52-22.png)
   - 在上图中，底部的区域没有被捕获，因为它在 board 的边缘并且不能被围绕。
 
 ---

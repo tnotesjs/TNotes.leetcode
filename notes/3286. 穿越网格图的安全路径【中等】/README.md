@@ -37,7 +37,7 @@
 
 沿着下图中灰色格子走，可以安全到达最终的格子。
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-20-57-31.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-20-57-31.png)
 
 ---
 
@@ -51,7 +51,7 @@
 
 健康值最少为 4 才能安全到达最后的格子。
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-20-57-36.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-20-57-36.png)
 
 ---
 
@@ -65,7 +65,7 @@
 
 沿着下图中灰色格子走，可以安全到达最终的格子。
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-20-57-44.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-20-57-44.png)
 
 任何不经过格子 `(1, 1)` 的路径都是不安全的，因为你的健康值到达最终格子时，都会小于等于 0 。
 

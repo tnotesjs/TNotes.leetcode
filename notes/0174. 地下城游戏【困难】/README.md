@@ -29,7 +29,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-25-47.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-25-47.png)
 
 ```txt
 输入：dungeon = [[-2,-3,3],[-5,-10,1],[10,30,-5]]

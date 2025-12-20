@@ -29,7 +29,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-08-06-15.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-08-06-15.png)
 
 ```txt
 输入：points = [[0,0],[0,1],[1,0],[0,2],[2,0]]
@@ -90,6 +90,6 @@ return Math.sqrt(Math.max(0, val))
 ```
 
 - 写法 1 提交后会报错：
-  - ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-10-02-11-54-38.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-10-02-11-54-38.png)
   - 错误原因很典型 —— Heron（海伦）公式在浮点计算下可能会因为四个因子乘积出现微小的负数，导致 `Math.sqrt` 得到 `NaN`。
   - 换句话说 `s*(s-a)*(s-b)*(s-c)` 在数学上应该 ≥ 0，但在浮点运算中可能变成 `-1e-15` 之类的值，从而 `Math.sqrt` 返回 `NaN`。

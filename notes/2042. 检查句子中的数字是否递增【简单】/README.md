@@ -25,7 +25,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-29-38.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-29-38.png)
 
 ```txt
 输入：s = "1 box has 3 blue 4 red 6 green and 12 yellow marbles"
@@ -44,7 +44,7 @@
 
 - 示例 3：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-29-57.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-29-57.png)
 
 ```txt
 输入：s = "sunset is at 7 51 pm overnight lows will be in the low 50 and 60 s"

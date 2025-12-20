@@ -25,7 +25,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-20-18-39-30.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-20-18-39-30.png)
 
 ```txt
 输入：jobDifficulty = [6,5,4,3,2,1], d = 2

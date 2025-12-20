@@ -28,7 +28,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-17-53-12.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-17-53-12.png)
 
 ```txt
 输入：s1 = "aabcc", s2 = "dbbca", s3 = "aadbbcbcac"

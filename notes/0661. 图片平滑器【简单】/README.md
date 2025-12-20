@@ -17,7 +17,7 @@
 
 如果一个单元格周围存在单元格缺失的情况，则计算平均灰度时不考虑缺失的单元格（即，需要计算红色平滑器中 4 个单元格的平均值）。
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-08-10-27-33.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-08-10-27-33.png)
 
 给你一个表示图像灰度的 `m x n` 整数矩阵 `img` ，返回对图像的每个单元格平滑处理后的图像 。
 
@@ -25,7 +25,7 @@
 
 - 示例 1：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-08-10-28-18.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-08-10-28-18.png)
 
 ```txt
 输入:img = [[1,1,1],[1,0,1],[1,1,1]]
@@ -38,7 +38,7 @@
 
 - 示例 2：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-08-10-28-27.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-08-10-28-27.png)
 
 ```txt
 输入: img = [[100,200,100],[200,50,200],[100,200,100]]

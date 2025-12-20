@@ -26,7 +26,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-42-29.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-42-29.png)
 
 ```txt
 输入：plantTime = [1,4,3], growTime = [2,3,1]
@@ -41,7 +41,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-42-34.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-42-34.png)
 
 ```txt
 输入：plantTime = [1,2,3,2], growTime = [2,1,2,1]

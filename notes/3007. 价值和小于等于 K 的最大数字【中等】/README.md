@@ -15,7 +15,7 @@
 
 给你一个整数 `k` 和一个整数 `x` 。整数 `num` 的价值是它的二进制表示中在 `x`，`2x`，`3x` 等位置处 设置位 的数目（从最低有效位开始）。下面的表格包含了如何计算价值的例子。
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-32-34.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-32-34.png)
 
 `num` 的 累加价值 是从 `1` 到 `num` 的数字的 总 价值。如果 `num` 的累加价值小于或等于 `k` 则被认为是 廉价 的。
 
@@ -31,7 +31,7 @@
 解释：由下表所示，6 是最大的廉价数字。
 ```
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-32-50.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-32-50.png)
 
 ---
 
@@ -43,7 +43,7 @@
 解释：由下表所示，9 是最大的廉价数字。
 ```
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-33-11.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-33-11.png)
 
 ---
 

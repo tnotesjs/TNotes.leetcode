@@ -36,7 +36,7 @@
 
 一开始，下标 `i = -1` 且 `gameScore = [0, 0]`.
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-19-17.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-19-17.png)
 
 `gameScore` 中的最小值为 4 ，这是所有方案中可以得到的最大值，所以返回 4 。
 
@@ -52,7 +52,7 @@
 
 一开始，下标 `i = -1` 且 `gameScore = [0, 0, 0]` 。
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-19-29.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-19-29.png)
 
 `gameScore` 中的最小值为 2 ，这是所有方案中可以得到的最大值，所以返回 2 。
 

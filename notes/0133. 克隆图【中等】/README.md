@@ -35,7 +35,7 @@ class Node {
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-20-56-36.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-20-56-36.png)
 
 ```txt
 输入：adjList = [[2,4],[1,3],[2,4],[1,3]]
@@ -50,7 +50,7 @@ class Node {
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-20-56-43.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-20-56-43.png)
 
 ```txt
 输入：adjList = [[]]

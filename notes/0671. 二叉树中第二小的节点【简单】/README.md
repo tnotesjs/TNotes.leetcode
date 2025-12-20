@@ -23,7 +23,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-12-26-56.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-12-26-56.png)
 
 ```txt
 输入：root = [2,2,5,null,null,5,7]
@@ -33,7 +33,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-12-27-01.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-12-27-01.png)
 
 ```txt
 输入：root = [2,2,2]
@@ -62,4 +62,4 @@
 - 解题思路：
   - 利用题目描述中树的特殊性质，可以推断出根节点的值是最小值，我们只需要找到比根节点值大的最小值即可。
 - 提交结果：
-  - ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-10-01-10-18-21.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-10-01-10-18-21.png)

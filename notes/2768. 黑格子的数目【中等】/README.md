@@ -32,7 +32,7 @@
 
 - 解释：
   - 网格图如下：
-  - ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-12-01-43.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-12-01-43.png)
   - 只有 1 个块有一个黑色格子，这个块是左上角为 [0,0] 的块。
   - 其他 3 个左上角分别为 [0,1] ，[1,0] 和 [1,1] 的块都有 0 个黑格子。
   - 所以我们返回 [3,1,0,0,0] 。
@@ -48,7 +48,7 @@
 
 - 解释：
   - 网格图如下：
-  - ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-12-02-10.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-12-02-10.png)
   - 有 2 个块有 2 个黑色格子（左上角格子分别为 [0,0] 和 [0,1]）。
   - 左上角为 [1,0] 和 [1,1] 的两个块，都有 1 个黑格子。
   - 所以我们返回 [0,2,2,0,0] 。

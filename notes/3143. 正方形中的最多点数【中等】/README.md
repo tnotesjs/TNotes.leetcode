@@ -28,7 +28,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-08-05-37.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-08-05-37.png)
 
 输入： points = [[2,2],[-1,-2],[-4,4],[-3,1],[3,-3]], s = "abdca"
 
@@ -42,7 +42,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-08-05-42.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-08-05-42.png)
 
 输入： points = [[1,1],[-2,-2],[-2,2]], s = "abb"
 

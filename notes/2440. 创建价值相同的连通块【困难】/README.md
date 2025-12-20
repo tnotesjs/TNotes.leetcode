@@ -25,7 +25,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-08-53.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-08-53.png)
 
 ```txt
 输入：nums = [6,2,2,2,6], edges = [[0,1],[1,2],[1,3],[3,4]]

@@ -32,7 +32,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-27-23.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-27-23.png)
 
 ```txt
 输入：edges = [[0,1],[1,2]], patience = [0,2,1]
@@ -63,7 +63,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-27-37.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-27-37.png)
 
 ```txt
 输入：edges = [[0,1],[0,2],[1,2]], patience = [0,10,10]

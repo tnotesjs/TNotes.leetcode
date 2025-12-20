@@ -20,7 +20,7 @@ n 叉树 在输入中按层序遍历进行序列化表示，每组子节点由�
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-21-22-27-30.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-21-22-27-30.png)
 
 ```txt
 输入：root = [1,null,3,2,4,null,5,6]
@@ -29,7 +29,7 @@ n 叉树 在输入中按层序遍历进行序列化表示，每组子节点由�
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-21-22-27-36.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-21-22-27-36.png)
 
 ```txt
 输入：root = [1,null,2,3,4,5,null,null,6,7,null,8,null,9,10,null,null,11,null,12,null,13,null,null,14]

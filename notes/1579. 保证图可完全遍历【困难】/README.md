@@ -27,7 +27,7 @@ Alice 和 Bob 共有一个无向图，其中包含 n 个节点和 3 种类型的
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-06-11.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-06-11.png)
 
 ```txt
 输入：n = 4, edges = [[3,1,2],[3,2,3],[1,1,3],[1,2,4],[1,1,2],[2,3,4]]
@@ -37,7 +37,7 @@ Alice 和 Bob 共有一个无向图，其中包含 n 个节点和 3 种类型的
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-06-19.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-06-19.png)
 
 ```txt
 输入：n = 4, edges = [[3,1,2],[3,2,3],[1,1,4],[2,1,4]]
@@ -47,7 +47,7 @@ Alice 和 Bob 共有一个无向图，其中包含 n 个节点和 3 种类型的
 
 - 示例 3：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-06-25.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-06-25.png)
 
 ```txt
 输入：n = 4, edges = [[3,2,3],[1,1,2],[2,3,4]]

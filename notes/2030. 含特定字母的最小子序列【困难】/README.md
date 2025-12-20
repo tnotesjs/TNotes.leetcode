@@ -38,7 +38,7 @@
 
 - 示例 2：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-10-00.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-10-00.png)
 
 ```txt
 输入：s = "leetcode", k = 4, letter = "e", repetition = 2

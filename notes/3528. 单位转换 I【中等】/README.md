@@ -30,7 +30,7 @@
 - 使用 `conversions[0]`：将一个 0 类型单位转换为 2 个 1 类型单位。
 - 使用 `conversions[0]` 和 `conversions[1]` 将一个 0 类型单位转换为 6 个 2 类型单位。
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-57-19.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-57-19.png)
 
 ---
 

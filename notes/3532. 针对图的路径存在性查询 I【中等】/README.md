@@ -49,7 +49,7 @@
 
 生成的图如下：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-23-02-05.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-23-02-05.png)
 
 - 查询 `[0,1]`：节点 0 和节点 1 之间没有边，因为 `|nums[0] - nums[1]| = |2 - 5| = 3`，大于 `maxDiff`。
 - 查询 `[0,2]`：节点 0 和节点 2 之间没有边，因为 `|nums[0] - nums[2]| = |2 - 6| = 4`，大于 `maxDiff`。

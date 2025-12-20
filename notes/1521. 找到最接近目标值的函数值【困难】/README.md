@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/find-a-value-of-a-mysterious-function-closest-to-target/)
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-14-15-38.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-14-15-38.png)
 
 Winston 构造了一个如上所示的函数 `func` 。他有一个整数数组 `arr` 和一个整数 `target` ，他想找到让 `|func(arr, l, r) - target|` 最小的 `l` 和 `r` 。
 

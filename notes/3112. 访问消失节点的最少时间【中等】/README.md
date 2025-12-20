@@ -25,7 +25,7 @@
 
 示例 1：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-07-23-48.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-07-23-48.png)
 
 - 输入： n = 3, edges = [[0,1,2],[1,2,1],[0,2,4]], disappear = [1,1,5]
 - 输出： [0,-1,4]
@@ -39,7 +39,7 @@
 
 示例 2：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-07-23-42.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-07-23-42.png)
 
 - 输入： n = 3, edges = [[0,1,2],[1,2,1],[0,2,4]], disappear = [1,3,5]
 - 输出： [0,2,3]

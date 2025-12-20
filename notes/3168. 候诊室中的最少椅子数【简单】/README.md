@@ -44,7 +44,7 @@
 
 假设候诊室里有 2 把椅子。下表显示了每秒钟等候室的状态。
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-03-25.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-03-25.png)
 
 ---
 
@@ -58,7 +58,7 @@
 
 假设候诊室里有 3 把椅子。下表显示了每秒钟等候室的状态。
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-03-55.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-03-55.png)
 
 ---
 

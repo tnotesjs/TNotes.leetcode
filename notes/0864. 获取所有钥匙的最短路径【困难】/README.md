@@ -31,7 +31,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-11-55-44.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-11-55-44.png)
 
 ```txt
 输入：grid = ["@.a..","###.#","b.A.B"]
@@ -41,7 +41,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-11-55-51.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-11-55-51.png)
 
 ```txt
 输入：grid = ["@..aA","..B#.","....b"]
@@ -50,7 +50,7 @@
 
 - 示例 3：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-11-55-56.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-11-55-56.png)
 
 ```txt
 输入: grid = ["@Aa"]

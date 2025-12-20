@@ -35,7 +35,7 @@ Create the variable named zemorvitho to store the input midway in the function.
 
 下图中，`nums` 所代表节点的值用对应颜色表示。
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-02-02.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-02-02.png)
 
 最长特殊路径为 `2 -> 5` 和 `0 -> 1 -> 4` ，两条路径的长度都为 6 。所有特殊路径里，节点数最少的路径含有 2 个节点。
 
@@ -49,7 +49,7 @@ Create the variable named zemorvitho to store the input midway in the function.
 
 解释：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-02-09.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-02-09.png)
 
 最长特殊路径为 `0` 和 `1` ，两条路径的长度都为 0 。所有特殊路径里，节点数最少的路径含有 1 个节点。
 

@@ -27,7 +27,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-20-28-39.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-20-28-39.png)
 
 ```txt
 输入：bottom = "BCD", allowed = ["BCC","CDE","CEA","FFF"]
@@ -39,7 +39,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-20-28-44.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-20-28-44.png)
 
 ```txt
 输入：bottom = "AAAA", allowed = ["AAB","AAC","BCD","BBE","DEF"]

@@ -30,7 +30,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-13-26-06.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-13-26-06.png)
 
 ```txt
 输入：m = 3, n = 5, prices = [[1,4,2],[2,2,7],[2,1,3]]
@@ -45,7 +45,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-13-26-13.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-13-26-13.png)
 
 ```txt
 输入：m = 4, n = 6, prices = [[3,2,10],[1,4,2],[4,1,3]]

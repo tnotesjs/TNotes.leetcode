@@ -23,7 +23,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-08-09.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-08-09.png)
 
 ```txt
 输入：points = [[0,0],[2,2],[3,10],[5,2],[7,0]]
@@ -31,7 +31,7 @@
 ```
 
 - 解释：
-  - ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-08-29.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-08-29.png)
   - 我们可以按照上图所示连接所有点得到最小总费用，总费用为 20 。
   - 注意到任意两个点之间只有唯一一条路径互相到达。
 

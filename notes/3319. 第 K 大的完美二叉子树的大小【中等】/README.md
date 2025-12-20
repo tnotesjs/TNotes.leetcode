@@ -29,7 +29,7 @@
 
 解释：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-21-10-41.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-21-10-41.png)
 
 完美二叉子树的根节点在图中以黑色突出显示。它们的大小按非递增顺序排列为 `[3, 3, 1, 1, 1, 1, 1, 1]`。  
 第 `2` 大的完美二叉子树的大小是 3。
@@ -44,7 +44,7 @@
 
 解释：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-21-10-49.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-21-10-49.png)
 
 完美二叉子树的大小按非递增顺序排列为 `[7, 3, 3, 1, 1, 1, 1]`。最大的完美二叉子树的大小是 7。
 
@@ -58,7 +58,7 @@
 
 解释：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-21-10-54.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-21-10-54.png)
 
 完美二叉子树的大小按非递增顺序排列为 `[1, 1]`。完美二叉子树的数量少于 3。
 

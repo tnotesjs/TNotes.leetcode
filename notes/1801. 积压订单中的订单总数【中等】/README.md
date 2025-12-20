@@ -33,7 +33,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-23-54.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-23-54.png)
 
 ```txt
 输入：orders = [[10,5,0],[15,2,1],[25,1,1],[30,4,0]]
@@ -50,7 +50,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-24-00.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-24-00.png)
 
 ```txt
 输入：orders = [[7,1000000000,1],[15,3,0],[5,999999995,0],[5,1,1]]

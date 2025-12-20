@@ -36,7 +36,7 @@
 
 - 示例 2：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-13-29-09.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-13-29-09.png)
 
 ```txt
 输入：n = 2

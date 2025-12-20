@@ -19,7 +19,7 @@
 
 换句话说，请你为服务中心选址，该位置的坐标 `[xcentre, ycentre]` 需要使下面的公式取到最小值：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-14-05-10.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-14-05-10.png)
 
 与真实值误差在 `10^-5`之内的答案将被视作正确答案。
 
@@ -27,7 +27,7 @@
 
 - 示例 1：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-14-08-19.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-14-08-19.png)
 
 ```txt
 输入：positions = [[0,1],[1,0],[1,2],[2,1]]
@@ -40,7 +40,7 @@
 
 - 示例 2：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-14-08-25.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-14-08-25.png)
 
 ```txt
 输入：positions = [[1,1],[3,3]]

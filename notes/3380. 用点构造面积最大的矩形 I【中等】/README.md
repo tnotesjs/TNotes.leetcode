@@ -33,7 +33,7 @@
 
 解释：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-21-39-33.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-21-39-33.png)
 
 我们可以用这 4 个点作为顶点构成一个矩形，并且矩形内部或边界上没有其他点。因此，最大面积为 4 。
 
@@ -47,7 +47,7 @@
 
 解释：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-21-39-47.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-21-39-47.png)
 
 唯一一组可能构成矩形的点为 `[1,1], [1,3], [3,1]` 和 `[3,3]`，但点 `[2,2]` 总是位于矩形内部。因此，返回 -1 。
 
@@ -61,7 +61,7 @@
 
 解释：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-21-40-04.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-21-40-04.png)
 
 点 `[1,3], [1,2], [3,2], [3,3]` 可以构成面积最大的矩形，面积为 2。此外，点 `[1,1], [1,2], [3,1], [3,2]` 也可以构成一个符合题目要求的矩形，面积相同。
 

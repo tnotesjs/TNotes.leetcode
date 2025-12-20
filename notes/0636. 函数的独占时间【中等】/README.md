@@ -26,7 +26,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-12-12-15.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-12-12-15.png)
 
 ```txt
 输入：n = 2, logs = ["0:start:0","1:start:2","1:end:5","0:end:6"]

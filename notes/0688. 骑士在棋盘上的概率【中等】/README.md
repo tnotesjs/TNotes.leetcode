@@ -17,7 +17,7 @@
 
 象棋骑士有 8 种可能的走法，如下图所示。每次移动在基本方向上是两个单元格，然后在正交方向上是一个单元格。
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-12-32-42.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-12-32-42.png)
 
 每次骑士要移动时，它都会随机从 8 种可能的移动中选择一种(即使棋子会离开棋盘)，然后移动到那里。
 

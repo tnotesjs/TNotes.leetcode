@@ -23,7 +23,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-08-22-28.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-08-22-28.png)
 
 ```txt
 输入: grid = [
@@ -37,9 +37,9 @@
 
 - 解释:
   - 下面的子矩阵是一个 3 x 3 的幻方：
-  - ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-08-23-54.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-08-23-54.png)
   - 而这一个不是：
-  - ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-08-24-05.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-08-24-05.png)
   - 总的来说，在本示例所给定的矩阵中只有一个 3 x 3 的幻方子矩阵。
 
 ---

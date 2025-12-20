@@ -25,7 +25,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-20-18-49-47.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-20-18-49-47.png)
 
 ```txt
 输入：n = 4, leftChild = [1,-1,3,-1], rightChild = [2,-1,-1,-1]
@@ -34,7 +34,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-20-18-50-07.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-20-18-50-07.png)
 
 ```txt
 输入：n = 4, leftChild = [1,-1,3,-1], rightChild = [2,3,-1,-1]
@@ -43,7 +43,7 @@
 
 - 示例 3：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-20-18-50-14.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-20-18-50-14.png)
 
 ```txt
 输入：n = 2, leftChild = [1,0], rightChild = [-1,-1]

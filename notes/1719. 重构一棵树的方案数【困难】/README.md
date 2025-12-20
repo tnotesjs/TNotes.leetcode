@@ -40,7 +40,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-19-23-39.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-19-23-39.png)
 
 ```txt
 输入：pairs = [[1,2],[2,3]]
@@ -50,7 +50,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-19-24-15.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-19-24-15.png)
 
 ```txt
 输入：pairs = [[1,2],[2,3],[1,3]]

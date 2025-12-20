@@ -21,7 +21,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-14-18-15.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-14-18-15.png)
 
 ```txt
 输入：head = [1,2,3,4,5,6,null,null,null,7,8,9,10,null,null,11,12]
@@ -30,11 +30,11 @@
 扁平化后的链表如下图：
 ```
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-14-18-27.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-14-18-27.png)
 
 - 示例 2：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-14-18-36.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-14-18-36.png)
 
 ```txt
 输入：head = [1,2,null,3]
@@ -43,7 +43,7 @@
 扁平化后的链表如下图：
 ```
 
-![图 3](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-14-18-42.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-14-18-42.png)
 
 - 示例 3：
 

@@ -41,7 +41,7 @@
 
 解释： 可以执行以下操作获得一个 2 周期字符串。
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-07-58-43.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-07-58-43.png)
 
 ---
 

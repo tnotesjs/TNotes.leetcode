@@ -31,7 +31,7 @@
 
 数组 `nums` 中所有长度最多为 2 的子序列如下：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-04-19.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-04-19.png)
 
 因此，输出为 24。
 

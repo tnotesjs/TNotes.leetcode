@@ -64,4 +64,4 @@
 
 :::
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-31-20-28-02.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-31-20-28-02.png)

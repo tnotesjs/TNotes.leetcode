@@ -41,7 +41,7 @@
 
 解释：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-14-08.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-14-08.png)
 
 这个最小矩形的高度和宽度都是 1，因此面积为 `1 * 1 = 1`。
 
@@ -77,7 +77,7 @@
 
 ## 4. 🎯 s.3 - 解法 3
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-14-16.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-14-16.png)
 
 ::: code-group
 

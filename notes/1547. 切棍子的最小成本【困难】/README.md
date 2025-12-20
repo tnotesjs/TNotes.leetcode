@@ -15,7 +15,7 @@
 
 有一根长度为 `n` 个单位的木棍，棍上从 `0` 到 `n` 标记了若干位置。例如，长度为 6 的棍子可以标记如下：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-14-53-55.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-14-53-55.png)
 
 给你一个整数数组 `cuts` ，其中 `cuts[i]` 表示你需要将棍子切开的位置。
 
@@ -29,7 +29,7 @@
 
 - 示例 1：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-14-54-08.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-14-54-08.png)
 
 ```txt
 输入：n = 7, cuts = [1,3,4,5]
@@ -38,7 +38,7 @@
 
 - 解释：
   - 按 [1, 3, 4, 5] 的顺序切割的情况如下所示：
-  - ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-14-54-33.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-14-54-33.png)
   - 第一次切割长度为 7 的棍子，成本为 7 。
   - 第二次切割长度为 6 的棍子（即第一次切割得到的第二根棍子），第三次切割为长度 4 的棍子，最后切割长度为 3 的棍子。
   - 总成本为 7 + 6 + 4 + 3 = 20 。

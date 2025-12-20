@@ -24,7 +24,7 @@ V 形对角线段 定义如下：
   - 沿着相同的对角方向继续，保持 序列模式 。
   - 在保持 序列模式 的前提下，最多允许 一次顺时针 90 度转向 另一个对角方向。
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-23-53.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-23-53.png)
 
 返回最长的 V 形对角线段 的 长度 。如果不存在有效的线段，则返回 0。
 
@@ -38,7 +38,7 @@ V 形对角线段 定义如下：
 
 解释：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-24-09.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-24-09.png)
 
 最长的 V 形对角线段长度为 5，路径如下：`(0,2) → (1,3) → (2,4)`，在 `(2,4)` 处进行 顺时针 90 度转向 ，继续路径为 `(3,3) → (4,2)`。
 
@@ -52,7 +52,7 @@ V 形对角线段 定义如下：
 
 解释：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-24-19.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-24-19.png)
 
 最长的 V 形对角线段长度为 4，路径如下：`(2,3) → (3,2)`，在 `(3,2)` 处进行 顺时针 90 度转向 ，继续路径为 `(2,1) → (1,0)`。
 
@@ -66,7 +66,7 @@ V 形对角线段 定义如下：
 
 解释：
 
-![图 3](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-24-25.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-24-25.png)
 
 最长的 V 形对角线段长度为 5，路径如下：`(0,0) → (1,1) → (2,2) → (3,3) → (4,4)`。
 

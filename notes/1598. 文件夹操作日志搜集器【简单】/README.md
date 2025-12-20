@@ -31,7 +31,7 @@
 
 - 示例 1：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-14-41.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-14-41.png)
 
 ```txt
 输入：logs = ["d1/","d2/","../","d21/","./"]
@@ -41,7 +41,7 @@
 
 - 示例 2：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-14-35.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-14-35.png)
 
 ```txt
 输入：logs = ["d1/","d2/","./","d3/","../","d31/"]

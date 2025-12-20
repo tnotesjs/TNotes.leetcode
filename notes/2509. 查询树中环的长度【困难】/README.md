@@ -36,7 +36,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-37-54.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-37-54.png)
 
 ```txt
 输入：n = 3, queries = [[5,3],[4,7],[2,3]]
@@ -51,7 +51,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-38-03.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-38-03.png)
 
 ```txt
 输入：n = 2, queries = [[1,2]]

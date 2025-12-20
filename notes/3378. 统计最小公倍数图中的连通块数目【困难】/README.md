@@ -33,7 +33,7 @@
 
 解释：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-21-38-14.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-21-38-14.png)
 
 四个连通块分别为 `(2, 4)` ，`(3)` ，`(8)` ，`(9)` 。
 
@@ -47,7 +47,7 @@
 
 解释：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-21-38-27.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-21-38-27.png)
 
 两个连通块分别为 `(2, 3, 4, 8, 9)` 和 `(12)` 。
 

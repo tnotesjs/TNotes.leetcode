@@ -35,7 +35,7 @@ X 轴上有一些机器人和工厂。给你一个整数数组 `robot` ，其中
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-13-24.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-13-24.png)
 
 ```txt
 输入：robot = [0,4,6], factory = [[2,2],[6,2]]
@@ -51,7 +51,7 @@ X 轴上有一些机器人和工厂。给你一个整数数组 `robot` ，其中
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-13-30.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-13-30.png)
 
 ```txt
 输入：robot = [1,-1], factory = [[-2,1],[2,1]]

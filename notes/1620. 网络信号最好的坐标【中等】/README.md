@@ -34,7 +34,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-24-46.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-24-46.png)
 
 ```txt
 输入：towers = [[1,2,5],[2,1,7],[3,1,9]], radius = 2

@@ -23,7 +23,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-19-06-29-51.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-19-06-29-51.png)
 
 ```txt
 输入：n = 4, connections = [[0,1],[0,2],[1,2]]
@@ -33,7 +33,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-19-06-30-01.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-19-06-30-01.png)
 
 ```txt
 输入：n = 6, connections = [[0,1],[0,2],[0,3],[1,2],[1,3]]

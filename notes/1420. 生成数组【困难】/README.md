@@ -15,7 +15,7 @@
 
 给定三个整数 `n`、`m` 和 `k` 。考虑使用下图描述的算法找出正整数数组中最大的元素。
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-21-23-50-07.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-21-23-50-07.png)
 
 请你构建一个具有以下属性的数组 `arr` ：
 

@@ -23,7 +23,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-04-24.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-04-24.png)
 
 ```txt
 输入：events = [[1,2,4],[3,4,3],[2,3,1]], k = 2
@@ -33,7 +33,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-04-31.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-04-31.png)
 
 ```txt
 输入：events = [[1,2,4],[3,4,3],[2,3,10]], k = 2
@@ -44,7 +44,7 @@
 
 - 示例 3：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-04-43.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-04-43.png)
 
 ```txt
 输入：events = [[1,1,1],[2,2,2],[3,3,3],[4,4,4]], k = 3

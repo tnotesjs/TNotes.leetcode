@@ -23,7 +23,7 @@
 
 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-20-10-48.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-20-10-48.png)
 
 ```txt
 输入：mat = [[0,0],[0,1]]

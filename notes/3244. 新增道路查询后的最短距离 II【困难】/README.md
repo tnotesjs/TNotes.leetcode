@@ -33,15 +33,15 @@
 
 解释：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-34-59.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-34-59.png)
 
 新增一条从 2 到 4 的道路后，从 0 到 4 的最短路径长度为 3。
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-35-04.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-35-04.png)
 
 新增一条从 0 到 2 的道路后，从 0 到 4 的最短路径长度为 2。
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-35-08.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-35-08.png)
 
 新增一条从 0 到 4 的道路后，从 0 到 4 的最短路径长度为 1。
 
@@ -55,11 +55,11 @@
 
 解释：
 
-![图 3](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-35-14.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-35-14.png)
 
 新增一条从 0 到 3 的道路后，从 0 到 3 的最短路径长度为 1。
 
-![图 4](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-35-18.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-35-18.png)
 
 新增一条从 0 到 2 的道路后，从 0 到 3 的最短路径长度仍为 1。
 

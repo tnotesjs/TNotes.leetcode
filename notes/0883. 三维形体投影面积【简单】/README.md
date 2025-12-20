@@ -25,7 +25,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-12-03-39.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-12-03-39.png)
 
 ```txt
 输入：[[1,2],[3,4]]
@@ -72,4 +72,4 @@
   2. yz 平面投影：从正面看 - 将 `grid[i][j]` 中的 `i` 固定，遍历 `j`，找到所有最大值求和；
   3. zx 平面投影：从侧面看 - 将 `grid[i][j]` 中的 `j` 固定，遍历 `i`，找到所有最大值求和；
 - 提交结果：
-  - ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-10-09-21-21-58.png)
+  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-10-09-21-21-58.png)

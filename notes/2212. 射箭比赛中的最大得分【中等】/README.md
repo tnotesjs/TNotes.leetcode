@@ -33,7 +33,7 @@ Alice 和 Bob 是一场射箭比赛中的对手。比赛规则如下：
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-10-28-58.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-10-28-58.png)
 
 ```txt
 输入：numArrows = 9, aliceArrows = [1,1,0,1,0,0,2,1,0,1,2,0]
@@ -45,7 +45,7 @@ Bob 获得总分 4 + 5 + 8 + 9 + 10 + 11 = 47 。
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-10-29-11.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-10-29-11.png)
 
 ```txt
 输入：numArrows = 3, aliceArrows = [0,0,1,0,0,0,0,0,0,0,0,2]

@@ -15,7 +15,7 @@
 
 给出数字到字母的映射如下（与电话按键相同）。注意 1 不对应任何字母。
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-09-21-17-48.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-09-21-17-48.png)
 
 ---
 

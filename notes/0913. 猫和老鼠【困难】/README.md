@@ -39,7 +39,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-20-58-57.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-20-58-57.png)
 
 ```txt
 输入：graph = [[2,5],[3],[0,4,5],[1,4,5],[2,3],[0,2,3]]
@@ -48,7 +48,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-20-59-04.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-20-59-04.png)
 
 ```txt
 输入：graph = [[1,3],[0],[3],[0,2]]

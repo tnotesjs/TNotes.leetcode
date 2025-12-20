@@ -35,7 +35,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-01-33.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-01-33.png)
 
 ```txt
 输入：n = 2, m = 1, hBars = [2,3], vBars = [2]
@@ -54,7 +54,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-01-39.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-01-39.png)
 
 ```txt
 输入：n = 1, m = 1, hBars = [2], vBars = [2]
@@ -73,7 +73,7 @@
 
 - 示例 3：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-01-48.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-01-48.png)
 
 ```txt
 输入：n = 2, m = 3, hBars = [2,3], vBars = [2,3,4]

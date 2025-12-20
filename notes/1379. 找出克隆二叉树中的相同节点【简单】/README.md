@@ -27,7 +27,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-20-18-57-07.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-20-18-57-07.png)
 
 ```txt
 输入: tree = [7,4,3,null,null,6,19], target = 3
@@ -37,7 +37,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-20-18-57-24.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-20-18-57-24.png)
 
 ```txt
 输入: tree = [7], target =  7
@@ -46,7 +46,7 @@
 
 - 示例 3：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-20-18-57-29.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-20-18-57-29.png)
 
 ```txt
 输入: tree = [8,null,6,null,5,null,4,null,3,null,2,null,1], target = 4

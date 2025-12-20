@@ -19,7 +19,7 @@
 
 - 示例 1：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-14-00-07.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-14-00-07.png)
 
 ```txt
 输入：mat = [[1,0,1],[1,1,0],[1,1,0]]
@@ -35,7 +35,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-13-59-33.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-13-59-33.png)
 
 ```txt
 输入：mat = [[0,1,1,0],[0,1,1,1],[1,1,1,0]]

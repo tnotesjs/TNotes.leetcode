@@ -92,7 +92,7 @@
 - [数字根][1]
   - 定义：数根（又称数字根）是正整数的一种属性，指通过重复计算各位数字之和直至结果为个位数的值。
   - 性质：
-    - ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-13-23-46-55.png)
+    - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-13-23-46-55.png)
 - 核心公式的简单推导流程：
 
 ```txt

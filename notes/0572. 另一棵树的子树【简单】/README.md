@@ -20,7 +20,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-17-36-33.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-17-36-33.png)
 
 ```txt
 输入：root = [3,4,5,1,2], subRoot = [4,1,2]
@@ -29,7 +29,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-17-36-37.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-17-36-37.png)
 
 ```txt
 输入：root = [3,4,5,1,2,null,null,null,null,0], subRoot = [4,1,2]

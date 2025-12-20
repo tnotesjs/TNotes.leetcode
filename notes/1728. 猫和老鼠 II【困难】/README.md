@@ -44,7 +44,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-11-57-25.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-11-57-25.png)
 
 ```txt
 输入：grid = ["####F","#C...","M...."], catJump = 1, mouseJump = 2
@@ -54,7 +54,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-11-57-31.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-11-57-31.png)
 
 ```txt
 输入：grid = ["M.C...F"], catJump = 1, mouseJump = 4

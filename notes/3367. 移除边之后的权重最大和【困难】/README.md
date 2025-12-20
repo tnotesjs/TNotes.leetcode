@@ -32,7 +32,7 @@
 
 解释：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-21-31-46.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-21-31-46.png)
 
 - 节点 2 与其他 3 个节点相连。我们移除边 `[0, 2, 2]`，确保没有节点与超过 `k = 2` 个节点相连。
 - 权重之和为 22，无法获得更大的和。因此，答案是 22。

@@ -21,7 +21,7 @@
 
 示例 1：
 
-- ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-20-32-03.png)
+- ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-20-32-03.png)
 - 输入：`matrix = [[1,2,3,4],[5,1,2,3],[9,5,1,2]]`
 - 输出：`true`
 - 解释：
@@ -32,7 +32,7 @@
 
 示例 2：
 
-- ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-20-32-11.png)
+- ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-20-32-11.png)
 - 输入：`matrix = [[1,2],[2,2]]`
 - 输出：`false`
 - 解释：对角线 `"[1, 2]"` 上的元素不同。

@@ -24,7 +24,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-13-28-34.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-13-28-34.png)
 
 ```txt
 输入：grid = [[2,0,0,1],[0,3,1,0],[0,5,2,0],[4,0,0,2]]
@@ -36,7 +36,7 @@ X 矩阵应该满足：绿色元素（对角线上）都不是 0 ，红色元素
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-13-28-40.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-13-28-40.png)
 
 ```txt
 输入：grid = [[5,7,0],[0,3,1],[0,5,0]]

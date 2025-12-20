@@ -32,7 +32,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-11-44-06.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-11-44-06.png)
 
 ```txt
 输入：grid = [["(","(","("],[")","(",")"],["(","(",")"],["(","(",")"]]
@@ -45,7 +45,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-11-44-12.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-11-44-12.png)
 
 ```txt
 输入：grid = [[")",")"],["(","("]]

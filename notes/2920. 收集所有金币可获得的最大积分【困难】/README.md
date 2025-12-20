@@ -28,7 +28,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-20-54-29.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-20-54-29.png)
 
 ```txt
 输入：edges = [[0,1],[1,2],[2,3]], coins = [10,10,3,3], k = 5
@@ -43,7 +43,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-20-54-34.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-20-54-34.png)
 
 ```txt
 输入：edges = [[0,1],[0,2]], coins = [8,4,4], k = 0

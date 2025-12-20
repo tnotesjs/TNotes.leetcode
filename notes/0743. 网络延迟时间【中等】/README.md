@@ -23,7 +23,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-20-24-59.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-20-24-59.png)
 
 ```txt
 输入：times = [[2,1,1],[2,3,1],[3,4,1]], n = 4, k = 2

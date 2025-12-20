@@ -30,7 +30,7 @@ Bob 站在单元格 `(0, 0)` ，想要前往目的地 `destination` ：`(row, co
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-34-54.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-34-54.png)
 
 ```txt
 输入：destination = [2,3], k = 1
@@ -41,7 +41,7 @@ Bob 站在单元格 `(0, 0)` ，想要前往目的地 `destination` ：`(row, co
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-35-00.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-35-00.png)
 
 ```txt
 输入：destination = [2,3], k = 2
@@ -50,7 +50,7 @@ Bob 站在单元格 `(0, 0)` ，想要前往目的地 `destination` ：`(row, co
 
 - 示例 3：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-35-18.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-35-18.png)
 
 ```txt
 输入：destination = [2,3], k = 3

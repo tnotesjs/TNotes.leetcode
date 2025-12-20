@@ -23,7 +23,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-07-50-10.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-07-50-10.png)
 
 输入： grid = [[0,1,0],[0,1,1],[0,1,0]]
 
@@ -35,7 +35,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-07-50-33.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-07-50-33.png)
 
 输入： grid = [[1,0,0,0],[0,1,0,1],[1,0,0,0]]
 
@@ -47,7 +47,7 @@
 
 - 示例 3：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-07-50-51.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-07-50-51.png)
 
 输入： grid = [[1,0,1],[1,0,0],[1,0,0]]
 

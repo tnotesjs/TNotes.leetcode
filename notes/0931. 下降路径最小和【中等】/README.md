@@ -21,7 +21,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-21-08-05.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-21-08-05.png)
 
 ```txt
 输入：matrix = [[2,1,3],[6,5,4],[7,8,9]]
@@ -31,7 +31,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-21-08-17.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-21-08-17.png)
 
 ```txt
 输入：matrix = [[-19,57],[-40,-5]]

@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/minimum-numbers-of-function-calls-to-make-target-array/)
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-14-58-08.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-14-58-08.png)
 
 给你一个与 `nums` 大小相同且初始值全为 0 的数组 `arr` ，请你调用以上函数得到整数数组 `nums` 。
 

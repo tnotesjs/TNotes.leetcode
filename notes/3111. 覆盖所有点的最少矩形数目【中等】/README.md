@@ -29,7 +29,7 @@
 
 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-07-20-34.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-07-20-34.png)
 
 - 输入： points = [[2,1],[1,0],[1,4],[1,8],[3,5],[4,6]], w = 1
 - 输出： 2
@@ -42,7 +42,7 @@
 
 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-07-21-16.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-07-21-16.png)
 
 - 输入： points = [[0,0],[1,1],[2,2],[3,3],[4,4],[5,5],[6,6]], w = 2
 - 输出： 3
@@ -55,7 +55,7 @@
 
 示例 3：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-07-21-33.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-07-21-33.png)
 
 - 输入： points = [[2,3],[1,2]], w = 0
 - 输出： 2

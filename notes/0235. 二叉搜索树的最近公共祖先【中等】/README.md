@@ -18,7 +18,7 @@
 
 例如，给定如下二叉搜索树: `root = [6,2,8,0,4,7,9,null,null,3,5]`
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-50-30.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-50-30.png)
 
 ---
 

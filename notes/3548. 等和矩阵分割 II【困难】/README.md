@@ -35,7 +35,7 @@
 
 解释：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-23-12-15.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-23-12-15.png)
 
 - 在第 0 行和第 1 行之间进行水平分割，结果两部分的元素和为 `1 + 4 = 5` 和 `2 + 3 = 5`，相等。因此答案是 `true`。
 
@@ -49,7 +49,7 @@
 
 解释：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-23-12-31.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-23-12-31.png)
 
 - 在第 0 列和第 1 列之间进行垂直分割，结果两部分的元素和为 `1 + 3 = 4` 和 `2 + 4 = 6`。
 - 通过从右侧部分移除 `2` （`6 - 2 = 4`），两部分的元素和相等，并且两部分保持连通。因此答案是 `true`。
@@ -64,7 +64,7 @@
 
 解释：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-23-12-39.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-23-12-39.png)
 
 - 在第 0 行和第 1 行之间进行水平分割，结果两部分的元素和为 `1 + 2 + 4 = 7` 和 `2 + 3 + 5 = 10`。
 - 通过从底部部分移除 `3` （`10 - 3 = 7`），两部分的元素和相等，但底部部分不再连通（分裂为 `[2]` 和 `[5]`）。因此答案是 `false`。

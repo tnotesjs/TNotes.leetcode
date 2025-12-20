@@ -29,7 +29,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-19-53.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-19-53.png)
 
 ```txt
 输入：points = [[2,1],[2,2],[3,3]], angle = 90, location = [1,1]
@@ -47,7 +47,7 @@
 
 - 示例 3：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-20-00.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-20-00.png)
 
 ```txt
 输入：points = [[1,0],[2,1]], angle = 13, location = [1,1]

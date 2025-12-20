@@ -19,7 +19,7 @@ n 皇后问题 研究的是如何将 `n` 个皇后放置在 `n × n` 的棋盘�
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-12-36-27.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-12-36-27.png)
 
 ```txt
 输入：n = 4

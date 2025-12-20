@@ -24,7 +24,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-21-19-55.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-21-19-55.png)
 
 ```txt
 输入：nums = [4,6,15,35]
@@ -33,7 +33,7 @@
 
 - 示例 2：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-21-20-22.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-21-20-22.png)
 
 ```txt
 输入：nums = [20,50,9,63]
@@ -42,7 +42,7 @@
 
 - 示例 3：
 
-![图 3](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-21-20-31.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-21-20-31.png)
 
 ```txt
 输入：nums = [2,3,6,7,4,12,21,39]

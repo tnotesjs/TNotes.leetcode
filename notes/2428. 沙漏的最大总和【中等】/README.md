@@ -17,7 +17,7 @@
 
 按以下形式将矩阵的一部分定义为一个 沙漏 ：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-05-34.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-05-34.png)
 
 返回沙漏中元素的 最大 总和。
 
@@ -29,7 +29,7 @@
 
 - 示例 1：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-05-41.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-05-41.png)
 
 ```txt
 输入：grid = [[6,2,1,3],[4,2,1,5],[9,2,8,7],[4,1,2,9]]
@@ -39,7 +39,7 @@
 
 - 示例 2：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-05-48.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-05-48.png)
 
 ```txt
 输入：grid = [[1,2,3],[4,5,6],[7,8,9]]

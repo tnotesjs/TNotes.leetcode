@@ -43,15 +43,15 @@
 
 将 `colors[1]` 改为 0。
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-35-40.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-35-40.png)
 
 第二次查询：
 
 统计大小为 4 的交替组的数量：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-35-47.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-35-47.png)
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-35-51.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-35-51.png)
 
 ---
 
@@ -63,15 +63,15 @@
 
 解释：
 
-![图 3](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-35-56.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-35-56.png)
 
 第一次查询：
 
 统计大小为 3 的交替组的数量。
 
-![图 4](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-36-02.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-36-02.png)
 
-![图 5](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-36-06.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-36-06.png)
 
 第二次查询：`colors` 不变。
 

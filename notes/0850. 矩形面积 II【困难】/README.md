@@ -23,7 +23,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-08-29-32.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-08-29-32.png)
 
 ```txt
 输入：rectangles = [[0,0,2,2],[1,0,2,3],[1,0,3,1]]

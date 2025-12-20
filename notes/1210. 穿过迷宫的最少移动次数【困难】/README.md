@@ -22,9 +22,9 @@
 - 如果没有障碍，则向右移动一个单元格。并仍然保持身体的水平／竖直状态。
 - 如果没有障碍，则向下移动一个单元格。并仍然保持身体的水平／竖直状态。
 - 如果它处于水平状态并且其下面的两个单元都是空的，就顺时针旋转 90 度。蛇从（`(r, c)`、`(r, c+1)`）移动到 （`(r, c)`、`(r+1, c)`）。
-- ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-19-39-58.png)
+- ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-19-39-58.png)
 - 如果它处于竖直状态并且其右面的两个单元都是空的，就逆时针旋转 90 度。蛇从（`(r, c)`、`(r+1, c)`）移动到（`(r, c)`、`(r, c+1)`）。
-- ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-19-40-06.png)
+- ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-19-40-06.png)
 
 返回蛇抵达目的地所需的最少移动次数。
 
@@ -34,7 +34,7 @@
 
 - 示例 1：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-19-40-17.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-19-40-17.png)
 
 ```txt
 输入：grid = [[0,0,0,0,0,1],

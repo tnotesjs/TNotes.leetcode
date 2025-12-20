@@ -38,7 +38,7 @@ class Node {
 2. 如果当前网格的值不同，将 `isLeaf` 设为 False， 将 `val` 设为任意值，然后如下图所示，将当前网格划分为四个子网格。
 3. 使用适当的子网格递归每个子节点。
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-13-43-59.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-13-43-59.png)
 
 如果你想了解更多关于四叉树的内容，可以参考 [百科][1] 。
 
@@ -54,7 +54,7 @@ class Node {
 
 - 示例 1：
 
-![图 3](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-14-16-07.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-14-16-07.png)
 
 ```txt
 输入：grid = [
@@ -72,11 +72,11 @@ class Node {
 请注意，在下面四叉树的图示中，0 表示 false，1 表示 True 。
 ```
 
-![图 4](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-14-16-13.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-14-16-13.png)
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-13-42-58.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-13-42-58.png)
 
 ```txt
 输入：grid = [
@@ -111,7 +111,7 @@ topRight 具有不同的值，因此我们将其再分为 4 个子网格，这�
 解释如下图所示：
 ```
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-13-42-18.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-13-42-18.png)
 
 ---
 

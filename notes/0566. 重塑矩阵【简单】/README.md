@@ -23,7 +23,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-31-21-52-17.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-31-21-52-17.png)
 
 ```txt
 输入：mat = [[1,2],[3,4]], r = 1, c = 4
@@ -32,7 +32,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-31-21-52-34.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-07-31-21-52-34.png)
 
 ```txt
 输入：mat = [[1,2],[3,4]], r = 2, c = 4

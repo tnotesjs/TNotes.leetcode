@@ -20,7 +20,7 @@
 
 下图分别是 1、2、3 分钟后的网格图。
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-21-01-18.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-21-01-18.png)
 
 请你返回 `n` 分钟之后 被染色的格子 数目。
 

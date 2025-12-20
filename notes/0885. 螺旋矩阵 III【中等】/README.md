@@ -25,7 +25,7 @@
 
 - 示例 1：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-12-04-35.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-12-04-35.png)
 
 ```txt
 输入：rows = 1, cols = 4, rStart = 0, cStart = 0
@@ -39,7 +39,7 @@
 
 - 示例 2：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-12-04-28.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-12-04-28.png)
 
 ```txt
 输入：rows = 5, cols = 6, rStart = 1, cStart = 4

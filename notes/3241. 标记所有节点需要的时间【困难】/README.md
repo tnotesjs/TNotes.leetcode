@@ -34,7 +34,7 @@
 
 解释：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-32-34.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-32-34.png)
 
 - 对于 `i = 0` ：
   - 节点 1 在时刻 `t = 1` 被标记，节点 2 在时刻 `t = 2` 被标记。
@@ -53,7 +53,7 @@
 
 解释：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-32-41.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-32-41.png)
 
 - 对于 `i = 0` ：
   - 节点 1 在时刻 `t = 1` 被标记。
@@ -70,7 +70,7 @@
 
 解释：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-32-49.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-32-49.png)
 
 ---
 

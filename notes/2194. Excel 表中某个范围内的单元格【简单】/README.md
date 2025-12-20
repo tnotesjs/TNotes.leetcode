@@ -27,7 +27,7 @@ Excel 表中的一个单元格 `(r, c)` 会以字符串 `"<col><row>"` 的形式
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-10-22-43.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-10-22-43.png)
 
 ```txt
 输入：s = "K1:L2"
@@ -39,7 +39,7 @@ Excel 表中的一个单元格 `(r, c)` 会以字符串 `"<col><row>"` 的形式
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-10-22-52.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-10-22-52.png)
 
 ```txt
 输入：s = "A1:F1"

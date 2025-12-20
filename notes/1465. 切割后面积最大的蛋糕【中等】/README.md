@@ -24,7 +24,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-00-11-58.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-00-11-58.png)
 
 ```txt
 输入：h = 5, w = 4, horizontalCuts = [1,2,4], verticalCuts = [1,3]
@@ -37,7 +37,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-00-12-06.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-00-12-06.png)
 
 ```txt
 输入：h = 5, w = 4, horizontalCuts = [3,1], verticalCuts = [1]

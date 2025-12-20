@@ -34,7 +34,7 @@
 
 解释：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-20-53-53.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-20-53-53.png)
 
 选择上图中用彩色标记的单元格，对应的值分别为 1、3 和 4 。
 
@@ -48,7 +48,7 @@
 
 解释：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-20-53-59.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-20-53-59.png)
 
 选择上图中用彩色标记的单元格，对应的值分别为 7 和 8 。
 

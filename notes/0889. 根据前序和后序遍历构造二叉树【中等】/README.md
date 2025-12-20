@@ -21,7 +21,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-12-06-45.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-12-06-45.png)
 
 ```txt
 输入：preorder = [1,2,4,5,3,6,7], postorder = [4,5,2,6,7,3,1]

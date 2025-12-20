@@ -15,7 +15,7 @@
 
 现在有一个正凸多边形，其上共有 `n` 个顶点。顶点按顺时针方向从 `0` 到 `n - 1` 依次编号。每个顶点上 正好有一只猴子 。下图中是一个 6 个顶点的凸多边形。
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-53-14.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-53-14.png)
 
 每个猴子同时移动到相邻的顶点。顶点 `i` 的相邻顶点可以是：
 

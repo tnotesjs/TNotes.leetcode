@@ -21,7 +21,7 @@
 - `int adjacentSum(int value)` 返回在 `grid` 中与 `value` 相邻的元素之和，相邻指的是与 `value` 在上、左、右或下的元素。
 - `int diagonalSum(int value)` 返回在 `grid` 中与 `value` 对角线相邻的元素之和，对角线相邻指的是与 `value` 在左上、右上、左下或右下的元素。
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-33-16.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-33-16.png)
 
 ---
 
@@ -37,7 +37,7 @@
 
 解释：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-33-22.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-33-22.png)
 
 - 1 的相邻元素是 0、2 和 4。
 - 4 的相邻元素是 1、3、5 和 7。
@@ -58,7 +58,7 @@
 
 解释：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-33-41.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-33-41.png)
 
 - 15 的相邻元素是 0、10、7 和 6。
 - 9 的对角线相邻元素是 4、12、14 和 15。

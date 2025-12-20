@@ -28,7 +28,7 @@
 
 解释：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-17-47.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-17-47.png)
 
 标有黑色箭头的对角线（左下角三角形）应按非递增顺序排序：
 
@@ -50,7 +50,7 @@
 
 解释：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-18-00.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-18-00.png)
 
 标有黑色箭头的对角线必须按非递增顺序排序，因此 `[0, 2]` 变为 `[2, 0]`。其他对角线已经符合要求。
 

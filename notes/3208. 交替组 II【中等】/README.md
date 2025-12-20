@@ -34,15 +34,15 @@
 
 解释：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-19-06.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-19-06.png)
 
 交替组包括：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-19-14.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-19-14.png)
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-19-19.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-19-19.png)
 
-![图 3](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-19-23.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-19-23.png)
 
 ---
 
@@ -54,13 +54,13 @@
 
 解释：
 
-![图 4](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-19-30.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-19-30.png)
 
 交替组包括：
 
-![图 5](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-19-35.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-19-35.png)
 
-![图 6](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-19-40.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-19-40.png)
 
 ---
 
@@ -72,7 +72,7 @@
 
 解释：
 
-![图 7](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-19-57.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-19-57.png)
 
 ---
 

@@ -29,7 +29,7 @@
 
 解释：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-30-25.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-30-25.png)
 
 黑色曲线表示一条从 `(0, 0)` 到 `(3, 4)` 的路径。
 
@@ -43,7 +43,7 @@
 
 解释：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-30-31.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-30-31.png)
 
 不存在从 `(0, 0)` 到 `(3, 3)` 的路径。
 
@@ -57,7 +57,7 @@
 
 解释：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-30-38.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-30-38.png)
 
 不存在从 `(0, 0)` 到 `(3, 3)` 的路径。
 
@@ -71,7 +71,7 @@
 
 解释：
 
-![图 3](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-30-44.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-30-44.png)
 
 ---
 

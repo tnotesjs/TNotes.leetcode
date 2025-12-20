@@ -33,7 +33,7 @@
 
 解释：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-58-37.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-58-37.png)
 
 节点 1 依赖于节点 0，因此一个合法顺序是 `[0, 1]`。
 
@@ -54,7 +54,7 @@
 
 解释：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-58-56.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-58-56.png)
 
 节点 1 和 2 都依赖于节点 0，因此最优的合法顺序是 `[0, 2, 1]`。
 

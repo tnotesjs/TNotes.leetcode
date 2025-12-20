@@ -39,7 +39,7 @@
 
 解释:
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-23-09-40.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-23-09-40.png)
 
 - 对节点 0、3、4 和 6 执行反转操作。
 - 最终的 `nums` 数组为 `[-4, 8, 6, 3, 7, 2, 5]`，总和为 27。
@@ -54,7 +54,7 @@
 
 解释:
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-23-09-46.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-23-09-46.png)
 
 - 对节点 4 执行反转操作。
 - 最终的 `nums` 数组变为 `[-1, 3, -2, 4, 5]`，总和为 9。

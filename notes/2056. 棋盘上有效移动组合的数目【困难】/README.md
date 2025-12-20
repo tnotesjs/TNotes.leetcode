@@ -35,7 +35,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-41-53.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-41-53.png)
 
 ```txt
 输入：pieces = ["rook"], positions = [[1,1]]
@@ -45,7 +45,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-42-03.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-42-03.png)
 
 ```txt
 输入：pieces = ["queen"], positions = [[1,1]]
@@ -55,7 +55,7 @@
 
 - 示例 3：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-42-13.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-42-13.png)
 
 ```txt
 输入：pieces = ["bishop"], positions = [[4,3]]
@@ -65,7 +65,7 @@
 
 - 示例 4:
 
-![图 3](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-42-19.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-42-19.png)
 
 ```txt
 输入：pieces = ["rook","rook"], positions = [[1,1],[8,8]]
@@ -81,7 +81,7 @@
 
 - 示例 5：
 
-![图 4](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-42-28.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-42-28.png)
 
 ```txt
 输入：pieces = ["queen","bishop"], positions = [[5,7],[3,4]]

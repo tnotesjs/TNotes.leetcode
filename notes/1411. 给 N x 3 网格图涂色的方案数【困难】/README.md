@@ -29,7 +29,7 @@
 ```
 
 - 解释：总共有 12 种可行的方法：
-- ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-21-23-46-17.png)
+- ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-21-23-46-17.png)
 
 ---
 

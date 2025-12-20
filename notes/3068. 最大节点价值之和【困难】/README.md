@@ -27,7 +27,7 @@ Alice 想 最大化 树中所有节点价值之和。为了实现这一目标，
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-54-21.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-54-21.png)
 
 ```txt
 输入：nums = [1,2,1], k = 3, edges = [[0,1],[0,2]]
@@ -42,7 +42,7 @@ Alice 可以通过一次操作得到最大价值和 6 ：
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-54-50.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-54-50.png)
 
 ```txt
 输入：nums = [2,3], k = 7, edges = [[0,1]]
@@ -57,7 +57,7 @@ Alice 可以通过一次操作得到最大和 9 ：
 
 - 示例 3：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-54-57.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-54-57.png)
 
 ```txt
 输入：nums = [7,7,7,7,7,7], k = 3, edges = [[0,1],[0,2],[0,3],[0,4],[0,5]]

@@ -30,7 +30,7 @@
 
 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-03-52.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-03-52.png)
 
 ```txt
 输入：vals = [1,3,2,1,3], edges = [[0,1],[0,2],[2,3],[2,4]]
@@ -43,7 +43,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-04-09.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-04-09.png)
 
 ```txt
 输入：vals = [1,1,2,2,3], edges = [[0,1],[1,2],[2,3],[2,4]]
@@ -54,7 +54,7 @@
 
 - 示例 3：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-04-14.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-04-14.png)
 
 ```txt
 输入：vals = [1], edges = []

@@ -22,7 +22,7 @@
 - 5 表示连接左单元格和上单元格的街道。
 - 6 表示连接右单元格和上单元格的街道。
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-20-19-03-15.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-20-19-03-15.png)
 
 你最开始从左上角的单元格 `(0,0)` 开始出发，网格中的「有效路径」是指从左上方的单元格 `(0,0)` 开始、一直到右下方的 `(m-1,n-1)` 结束的路径。该路径必须只沿着街道走。
 
@@ -36,7 +36,7 @@
 
 - 示例 1：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-20-19-03-32.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-20-19-03-32.png)
 
 ```txt
 输入：grid = [[2,4,3],[6,5,2]]
@@ -46,7 +46,7 @@
 
 - 示例 2：
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-20-19-03-39.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-20-19-03-39.png)
 
 ```txt
 输入：grid = [[1,2,1],[1,2,1]]

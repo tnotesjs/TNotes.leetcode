@@ -19,7 +19,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-18-19-37-38.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-18-19-37-38.png)
 
 ```txt
 输入：root = [1,2,3,4,5,null,6,7,null,null,null,null,8]

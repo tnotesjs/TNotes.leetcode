@@ -37,7 +37,7 @@
 
 - 示例 1：
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-10-12-57.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-10-12-57.png)
 
 ```txt
 输入：startAt = 1, moveCost = 2, pushCost = 1, targetSeconds = 600
@@ -56,7 +56,7 @@
 
 - 示例 2：
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-10-13-12.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-10-13-12.png)
 
 ```txt
 输入：startAt = 0, moveCost = 1, pushCost = 2, targetSeconds = 76

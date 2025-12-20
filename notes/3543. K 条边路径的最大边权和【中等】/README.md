@@ -34,7 +34,7 @@
 
 解释:
 
-![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-23-08-53.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-23-08-53.png)
 
 - 唯一包含 `k = 2` 条边的路径是 `0 -> 1 -> 2`，其权重和为 `1 + 2 = 3 < t`。
 - 因此，最大可能的边权和为 3。
@@ -49,7 +49,7 @@
 
 解释:
 
-![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-23-08-59.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-23-08-59.png)
 
 - 存在两个包含 `k = 1` 条边的路径：
   - `0 -> 1`，权重为 `2 < t`。
@@ -66,7 +66,7 @@
 
 解释:
 
-![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-23-09-06.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-23-09-06.png)
 
 - 存在两个包含 `k = 1` 条边的路径：
   - `0 -> 1`，权重为 `6 = t`，不满足严格小于 `t`。
