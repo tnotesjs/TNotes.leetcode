@@ -19,7 +19,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：paths = [["London","New York"],["New York","Lima"],["Lima","Sao Paulo"]]
@@ -30,7 +30,7 @@
 本次旅行的路线是 "London" -> "New York" -> "Lima" -> "Sao Paulo" 。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：paths = [["B","C"],["D","B"],["C","A"]]
@@ -44,7 +44,7 @@
 显然，旅行终点站是 "A" 。
 ```
 
-- **示例 3：**
+- 示例 3：
 
 ```txt
 输入：paths = [["A","Z"]]
@@ -53,7 +53,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= paths.length <= 100`
 - `paths[i].length == 2`

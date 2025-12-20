@@ -20,13 +20,13 @@
 
 - [leetcode](https://leetcode.cn/problems/rearrange-characters-to-make-target-string/)
 
-给你两个下标从 **0** 开始的字符串 `s` 和 `target` 。你可以从 `s` 取出一些字符并将其重排，得到若干新的字符串。
+给你两个下标从 0 开始的字符串 `s` 和 `target` 。你可以从 `s` 取出一些字符并将其重排，得到若干新的字符串。
 
-从 `s` 中取出字符并重新排列，返回可以形成 `target` 的 **最大** 副本数。
+从 `s` 中取出字符并重新排列，返回可以形成 `target` 的 最大 副本数。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：s = "ilovecodingonleetcode", target = "code"
@@ -38,7 +38,7 @@
 可以形成最多 2 个 "code" 的副本，所以返回 2 。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：s = "abcba", target = "abc"
@@ -49,7 +49,7 @@
 注意，尽管下标 3 和 4 分别有额外的 'a' 和 'b' ，但不能重用下标 2 处的 'c' ，所以无法形成 "abc" 的第 2 个副本。
 ```
 
-- **示例 3：**
+- 示例 3：
 
 ```txt
 输入：s = "abbaccaddaeea", target = "aaaaa"
@@ -61,7 +61,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= s.length <= 100`
 - `1 <= target.length <= 10`

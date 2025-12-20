@@ -13,9 +13,9 @@
 
 - [leetcode](https://leetcode.cn/problems/maximum-absolute-sum-of-any-subarray/)
 
-给你一个整数数组 `nums` 。一个子数组 `[numsl, numsl+1, ..., numsr-1, numsr]` 的 **和的绝对值** 为 `abs(numsl + numsl+1 + ... + numsr-1 + numsr)` 。
+给你一个整数数组 `nums` 。一个子数组 `[numsl, numsl+1, ..., numsr-1, numsr]` 的 和的绝对值 为 `abs(numsl + numsl+1 + ... + numsr-1 + numsr)` 。
 
-请你找出 `nums` 中 **和的绝对值** 最大的任意子数组（**可能为空**），并返回该 **最大值** 。
+请你找出 `nums` 中 和的绝对值 最大的任意子数组（可能为空），并返回该 最大值 。
 
 `abs(x)` 定义如下：
 
@@ -24,7 +24,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：nums = [1,-3,2,3,-4]
@@ -32,7 +32,7 @@
 解释：子数组 [2,3] 和的绝对值最大，为 abs(2+3) = abs(5) = 5 。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：nums = [2,-5,1,-4,3,-2]
@@ -42,7 +42,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= nums.length <= 10^5`
 - `-10^4 <= nums[i] <= 10^4`

@@ -13,11 +13,11 @@
 
 - [leetcode](https://leetcode.cn/problems/deepest-leaves-sum/)
 
-给你一棵二叉树的根节点 `root` ，请你返回 **层数最深的叶子节点的和** 。
+给你一棵二叉树的根节点 `root` ，请你返回 层数最深的叶子节点的和 。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-18-19-37-38.png)
 
@@ -26,7 +26,7 @@
 输出：15
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：root = [6,7,8,2,7,1,3,9,null,1,4,null,null,null,5]
@@ -35,7 +35,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - 树中节点数目在范围 `[1, 10^4]` 之间。
 - `1 <= Node.val <= 100`

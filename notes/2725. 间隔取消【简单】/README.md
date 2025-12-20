@@ -21,7 +21,7 @@
 
 ---
 
-**示例 1：**
+示例 1：
 
 输入：`fn = (x) => x * 2, args = [4], t = 35, cancelT = 190`
 
@@ -57,7 +57,7 @@ setTimeout(cancelFn, cancelTimeMs)
 
 ---
 
-**示例 2：**
+示例 2：
 
 输入：`fn = (x1, x2) => (x1 * x2), args = [2, 5], t = 30, cancelT = 165`
 
@@ -93,7 +93,7 @@ setTimeout(cancelFn, cancelTimeMs)
 
 ---
 
-**示例 3：**
+示例 3：
 
 输入：`fn = (x1, x2, x3) => (x1 + x2 + x3), args = [5, 1, 3], t = 50, cancelT = 180`
 
@@ -125,7 +125,7 @@ setTimeout(cancelFn, cancelTimeMs)
 
 ---
 
-**提示：**
+提示：
 
 - `fn` 是一个函数
 - `args` 是一个有效的 JSON 数组

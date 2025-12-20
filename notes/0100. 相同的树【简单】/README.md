@@ -17,7 +17,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-21-12-21-45.png)
 
@@ -26,7 +26,7 @@
 输出：true
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-21-12-21-51.png)
 
@@ -35,7 +35,7 @@
 输出：false
 ```
 
-- **示例 3：**
+- 示例 3：
 
 ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-21-12-21-56.png)
 
@@ -46,7 +46,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - 两棵树上的节点数目都在范围 `[0, 100]` 内
 - `-10^4 <= Node.val <= 10^4`

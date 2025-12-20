@@ -13,17 +13,17 @@
 
 - [leetcode](https://leetcode.cn/problems/design-graph-with-shortest-path-calculator/)
 
-给你一个有 `n` 个节点的 **有向带权** 图，节点编号为 `0` 到 `n - 1` 。图中的初始边用数组 `edges` 表示，其中 `edges[i] = [fromi, toi, edgeCosti]` 表示从 `fromi` 到 `toi` 有一条代价为 `edgeCosti` 的边。
+给你一个有 `n` 个节点的 有向带权 图，节点编号为 `0` 到 `n - 1` 。图中的初始边用数组 `edges` 表示，其中 `edges[i] = [fromi, toi, edgeCosti]` 表示从 `fromi` 到 `toi` 有一条代价为 `edgeCosti` 的边。
 
 请你实现一个 `Graph` 类：
 
 - `Graph(int n, int[][] edges)` 初始化图有 `n` 个节点，并输入初始边。
 - `addEdge(int[] edge)` 向边集中添加一条边，其中 `edge = [from, to, edgeCost]` 。数据保证添加这条边之前对应的两个节点之间没有有向边。
-- `int shortestPath(int node1, int node2)` 返回从节点 `node1` 到 `node2` 的路径 **最小** 代价。如果路径不存在，返回 `-1` 。一条路径的代价是路径中所有边代价之和。
+- `int shortestPath(int node1, int node2)` 返回从节点 `node1` 到 `node2` 的路径 最小 代价。如果路径不存在，返回 `-1` 。一条路径的代价是路径中所有边代价之和。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-22-41-06.png)
 
@@ -44,7 +44,7 @@ g.shortestPath(0, 3); // 返回 6 。从 0 到 3 的最短路径为 0 -> 1 -> 3 
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= n <= 100`
 - `0 <= edges.length <= n * (n - 1)`

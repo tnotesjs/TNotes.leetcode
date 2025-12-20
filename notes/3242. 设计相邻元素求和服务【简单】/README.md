@@ -13,29 +13,29 @@
 
 - [leetcode](https://leetcode.cn/problems/design-neighbor-sum-service/)
 
-给你一个 `n x n` 的二维数组 `grid`，它包含范围 `[0, n^2 - 1]` 内的**不重复**元素。
+给你一个 `n x n` 的二维数组 `grid`，它包含范围 `[0, n^2 - 1]` 内的不重复元素。
 
 实现 `neighborSum` 类：
 
 - `neighborSum(int [][]grid)` 初始化对象。
-- `int adjacentSum(int value)` 返回在 `grid` 中与 `value` 相邻的元素之**和**，相邻指的是与 `value` 在上、左、右或下的元素。
-- `int diagonalSum(int value)` 返回在 `grid` 中与 `value` 对角线相邻的元素之**和**，对角线相邻指的是与 `value` 在左上、右上、左下或右下的元素。
+- `int adjacentSum(int value)` 返回在 `grid` 中与 `value` 相邻的元素之和，相邻指的是与 `value` 在上、左、右或下的元素。
+- `int diagonalSum(int value)` 返回在 `grid` 中与 `value` 对角线相邻的元素之和，对角线相邻指的是与 `value` 在左上、右上、左下或右下的元素。
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-33-16.png)
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
-**输入：**
+输入：
 
 ["neighborSum", "adjacentSum", "adjacentSum", "diagonalSum", "diagonalSum"]
 
 [[[[0, 1, 2], [3, 4, 5], [6, 7, 8]]], [1], [4], [4], [8]]
 
-**输出：** [null, 6, 16, 16, 4]
+输出： [null, 6, 16, 16, 4]
 
-**解释：**
+解释：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-33-22.png)
 
@@ -46,17 +46,17 @@
 
 ---
 
-- **示例 2：**
+- 示例 2：
 
-**输入：**
+输入：
 
 ["neighborSum", "adjacentSum", "diagonalSum"]
 
 [[[[1, 2, 0, 3], [4, 7, 15, 6], [8, 9, 10, 11], [12, 13, 14, 5]]], [15], [9]]
 
-**输出：** [null, 23, 45]
+输出： [null, 23, 45]
 
-**解释：**
+解释：
 
 ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-33-41.png)
 
@@ -65,7 +65,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `3 <= n == grid.length == grid[0].length <= 10`
 - `0 <= grid[i][j] <= n^2 - 1`

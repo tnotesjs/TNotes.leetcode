@@ -17,11 +17,11 @@
 
 实现 `SmallestInfiniteSet` 类：
 
-- `SmallestInfiniteSet()` 初始化 **SmallestInfiniteSet** 对象以包含 **所有** 正整数。
-- `int popSmallest()` **移除** 并返回该无限集中的最小整数。
-- `void addBack(int num)` 如果正整数 `num` **不** 存在于无限集中，则将一个 `num` **添加** 到该无限集中。
+- `SmallestInfiniteSet()` 初始化 SmallestInfiniteSet 对象以包含 所有 正整数。
+- `int popSmallest()` 移除 并返回该无限集中的最小整数。
+- `void addBack(int num)` 如果正整数 `num` 不 存在于无限集中，则将一个 `num` 添加 到该无限集中。
 
-**示例：**
+示例：
 
 ```txt
 输入
@@ -45,10 +45,10 @@ smallestInfiniteSet.popSmallest(); // 返回 5 ，并将其从集合中移除。
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= num <= 1000`
-- 最多调用 `popSmallest` 和 `addBack` 方法 **共计** `1000` 次
+- 最多调用 `popSmallest` 和 `addBack` 方法 共计 `1000` 次
 
 ## 2. 🎯 s.1 - 解法 1
 

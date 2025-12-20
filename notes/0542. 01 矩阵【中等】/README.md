@@ -17,7 +17,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-16-46-26.png)
 
@@ -26,7 +26,7 @@
 输出：[[0,0,0],[0,1,0],[0,0,0]]
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-16-46-30.png)
 
@@ -37,7 +37,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `m == mat.length`
 - `n == mat[i].length`

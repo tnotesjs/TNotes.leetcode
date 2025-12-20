@@ -23,15 +23,15 @@ Alice 和 Bob 是一场射箭比赛中的对手。比赛规则如下：
 
 - 例如，Alice 和 Bob 都向计分为 `11` 的区域射 `2` 支箭，那么 Alice 得 `11` 分。如果 Alice 向计分为 `11` 的区域射 `0` 支箭，但 Bob 向同一个区域射 `2` 支箭，那么 Bob 得 `11` 分。
 
-给你整数 `numArrows` 和一个长度为 `12` 的整数数组 `aliceArrows` ，该数组表示 Alice 射中 `0` 到 `11` 每个计分区域的箭数量。现在，Bob 想要尽可能 **最大化** 他所能获得的总分。
+给你整数 `numArrows` 和一个长度为 `12` 的整数数组 `aliceArrows` ，该数组表示 Alice 射中 `0` 到 `11` 每个计分区域的箭数量。现在，Bob 想要尽可能 最大化 他所能获得的总分。
 
-返回数组 `bobArrows` ，该数组表示 Bob 射中 `0` 到 `11` **每个** 计分区域的箭数量。且 `bobArrows` 的总和应当等于 `numArrows` 。
+返回数组 `bobArrows` ，该数组表示 Bob 射中 `0` 到 `11` 每个 计分区域的箭数量。且 `bobArrows` 的总和应当等于 `numArrows` 。
 
-如果存在多种方法都可以使 Bob 获得最大总分，返回其中 **任意一种** 即可。
+如果存在多种方法都可以使 Bob 获得最大总分，返回其中 任意一种 即可。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-10-28-58.png)
 
@@ -43,7 +43,7 @@ Bob 获得总分 4 + 5 + 8 + 9 + 10 + 11 = 47 。
 可以证明 Bob 无法获得比 47 更高的分数。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-10-29-11.png)
 
@@ -57,7 +57,7 @@ Bob 获得总分 8 + 9 + 10 = 27 。
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= numArrows <= 10^5`
 - `aliceArrows.length == bobArrows.length == 12`

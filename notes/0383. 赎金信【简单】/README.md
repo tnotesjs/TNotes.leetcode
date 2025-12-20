@@ -20,21 +20,21 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：ransomNote = "a", magazine = "b"
 输出：false
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：ransomNote = "aa", magazine = "ab"
 输出：false
 ```
 
-- **示例 3：**
+- 示例 3：
 
 ```txt
 输入：ransomNote = "aa", magazine = "aab"
@@ -43,7 +43,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= ransomNote.length, magazine.length <= 10^5`
 - `ransomNote` 和 `magazine` 由小写英文字母组成

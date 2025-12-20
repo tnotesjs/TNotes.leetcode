@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/design-cancellable-function/)
 
-有时候你会有一个长时间运行的任务，并且你可能希望在它完成之前取消它。为了实现这个目标，请你编写一个名为 `cancellable` 的函数，它接收一个生成器对象，并返回一个包含两个值的数组：一个 **取消函数** 和一个 **promise** 对象。
+有时候你会有一个长时间运行的任务，并且你可能希望在它完成之前取消它。为了实现这个目标，请你编写一个名为 `cancellable` 的函数，它接收一个生成器对象，并返回一个包含两个值的数组：一个 取消函数 和一个 promise 对象。
 
 你可以假设生成器函数只会生成 promise 对象。你的函数负责将 promise 对象解析的值传回生成器。如果 promise 被拒绝，你的函数应将该错误抛回给生成器。
 
@@ -38,7 +38,7 @@ promise.catch(console.log) // logs "Cancelled" at t=50ms
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：
@@ -56,7 +56,7 @@ promise.then(console.log); // 在 t=0ms 解析为 42
 该生成器立即生成 42 并完成。因此，返回的 promise 立即解析为 42。请注意，取消已经完成的生成器没有任何作用。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：
@@ -70,7 +70,7 @@ cancelledAt = null
 一个 Promise 被生成。该函数通过等待 promise 解析并将解析后的值传回生成器来处理它。然后抛出一个错误，这会导致 promise 被同样抛出的错误拒绝。
 ```
 
-- **示例 3：**
+- 示例 3：
 
 ```txt
 输入：
@@ -84,7 +84,7 @@ cancelledAt = 100
 当函数等待被生成的 promise 解析时，cancel() 被调用。这会导致一个错误消息被发送回生成器。由于这个错误没有被捕获，返回的 promise 会因为这个错误而被拒绝。
 ```
 
-- **示例 4：**
+- 示例 4：
 
 ```txt
 输入：
@@ -102,7 +102,7 @@ cancelledAt = null
 生成器生成了 4 个 promise 。其中两个 promise 的值被添加到结果中。200ms 后，生成器以值 2 完成，该值被返回的 promise 解析。
 ```
 
-- **示例 5：**
+- 示例 5：
 
 ```txt
 输入：
@@ -124,7 +124,7 @@ cancelledAt = 150
 前两个生成的 promise 解析并导致结果递增。然而，在 t=150ms 时，生成器被取消了。发送给生成器的错误被捕获，结果被返回并最终由返回的 promise 解析。
 ```
 
-- **示例 6：**
+- 示例 6：
 
 ```txt
 输入：
@@ -145,7 +145,7 @@ cancelledAt = null
 
 ---
 
-**提示：**
+提示：
 
 - `cancelledAt == null or 0 <= cancelledAt <= 1000`
 - `generatorFunction` 返回一个生成器对象

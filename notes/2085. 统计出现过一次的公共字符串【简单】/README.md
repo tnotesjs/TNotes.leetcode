@@ -12,11 +12,11 @@
 
 - [leetcode](https://leetcode.cn/problems/count-common-words-with-one-occurrence/)
 
-给你两个字符串数组 `words1` 和 `words2` ，请你返回在两个字符串数组中 **都恰好出现一次** 的字符串的数目。
+给你两个字符串数组 `words1` 和 `words2` ，请你返回在两个字符串数组中 都恰好出现一次 的字符串的数目。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：words1 = ["leetcode","is","amazing","as","is"], words2 = ["amazing","leetcode","is"]
@@ -29,7 +29,7 @@
 所以，有 2 个字符串在两个数组中都恰好出现了一次。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：words1 = ["b","bb","bbb"], words2 = ["a","aa","aaa"]
@@ -37,7 +37,7 @@
 解释：没有字符串在两个数组中都恰好出现一次。
 ```
 
-- **示例 3：**
+- 示例 3：
 
 ```txt
 输入：words1 = ["a","ab"], words2 = ["a","a","a","ab"]
@@ -47,7 +47,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= words1.length, words2.length <= 1000`
 - `1 <= words1[i].length, words2[j].length <= 30`

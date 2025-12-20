@@ -13,9 +13,9 @@
 
 - [leetcode](https://leetcode.cn/problems/find-indices-with-index-and-value-difference-ii/)
 
-给你一个下标从 **0** 开始、长度为 `n` 的整数数组 `nums` ，以及整数 `indexDifference` 和整数 `valueDifference` 。
+给你一个下标从 0 开始、长度为 `n` 的整数数组 `nums` ，以及整数 `indexDifference` 和整数 `valueDifference` 。
 
-你的任务是从范围 `[0, n - 1]` 内找出 **2** 个满足下述所有条件的下标 `i` 和 `j` ：
+你的任务是从范围 `[0, n - 1]` 内找出 2 个满足下述所有条件的下标 `i` 和 `j` ：
 
 - `abs(i - j) >= indexDifference` 且
 - `abs(nums[i] - nums[j]) >= valueDifference`
@@ -24,11 +24,11 @@
 
 ---
 
-**注意：** `i` 和 `j` 可能 **相等** 。
+注意： `i` 和 `j` 可能 相等 。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：nums = [5,1,4,1], indexDifference = 2, valueDifference = 4
@@ -39,7 +39,7 @@ abs(0 - 3) >= 2 且 abs(nums[0] - nums[3]) >= 4 。
 [3,0] 也是符合题目要求的答案。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：nums = [2,1], indexDifference = 0, valueDifference = 0
@@ -51,7 +51,7 @@ abs(0 - 0) >= 0 且 abs(nums[0] - nums[0]) >= 0 。
 [0,1]、[1,0] 和 [1,1] 也是符合题目要求的答案。
 ```
 
-- **示例 3：**
+- 示例 3：
 
 ```txt
 输入：nums = [1,2,3], indexDifference = 2, valueDifference = 4
@@ -62,7 +62,7 @@ abs(0 - 0) >= 0 且 abs(nums[0] - nums[0]) >= 0 。
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= n == nums.length <= 10^5`
 - `0 <= nums[i] <= 10^9`

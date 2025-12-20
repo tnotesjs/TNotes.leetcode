@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/snake-in-matrix/)
 
-大小为 `n x n` 的矩阵 `grid` 中有一条蛇。蛇可以朝 **四个可能的方向** 移动。矩阵中的每个单元格都使用位置进行标识： `grid[i][j] = (i * n) + j`。
+大小为 `n x n` 的矩阵 `grid` 中有一条蛇。蛇可以朝 四个可能的方向 移动。矩阵中的每个单元格都使用位置进行标识： `grid[i][j] = (i * n) + j`。
 
 蛇从单元格 0 开始，并遵循一系列命令移动。
 
@@ -23,31 +23,31 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
-**输入：** n = 2, commands = ["RIGHT","DOWN"]
+输入： n = 2, commands = ["RIGHT","DOWN"]
 
-**输出：** 3
+输出： 3
 
-**解释：**
+解释：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-36-49.png)
 
 ---
 
-- **示例 2：**
+- 示例 2：
 
-**输入：** n = 3, commands = ["DOWN","RIGHT","UP"]
+输入： n = 3, commands = ["DOWN","RIGHT","UP"]
 
-**输出：** 1
+输出： 1
 
-**解释：**
+解释：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-37-00.png)
 
 ---
 
-**提示：**
+提示：
 
 - `2 <= n <= 10`
 - `1 <= commands.length <= 100`

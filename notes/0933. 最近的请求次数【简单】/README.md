@@ -3,7 +3,8 @@
 <!-- region:toc -->
 
 - [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 暴力解法 - 使用队列 queue](#2--s1---暴力解法---使用队列-queue)
+- [2. 🎯 s.1 - 队列（头指针优化）](#2--s1---队列头指针优化)
+- [3. 🎯 s.2 - 二分下界（lower_bound）](#3--s2---二分下界lower_bound)
 
 <!-- endregion:toc -->
 
@@ -18,9 +19,9 @@
 - `RecentCounter()` 初始化计数器，请求数为 0 。
 - `int ping(int t)` 在时间 `t` 添加一个新请求，其中 `t` 表示以毫秒为单位的某个时间，并返回过去 `3000` 毫秒内发生的所有请求数（包括新请求）。确切地说，返回在 `[t-3000, t]` 内发生的请求数。
 
-**保证** 每次对 `ping` 的调用都使用比之前更大的 `t` 值。
+保证每次对 `ping` 的调用都使用比之前更大的 `t` 值。
 
-**示例 1：**
+示例 1：
 
 ```
 输入：
@@ -37,34 +38,41 @@ recentCounter.ping(3001);  // requests = [1, 100, 3001]，范围是 [1,3001]，�
 recentCounter.ping(3002);  // requests = [1, 100, 3001, 3002]，范围是 [2,3002]，返回 3
 ```
 
-**提示：**
+提示：
 
 - `1 <= t <= 10^9`
-- 保证每次对 `ping` 调用所使用的 `t` 值都 **严格递增**
+- 保证每次对 `ping` 调用所使用的 `t` 值都 严格递增
 - 至多调用 `ping` 方法 `10^4` 次
 
-## 2. 🎯 s.1 - 暴力解法 - 使用队列 queue
+## 2. 🎯 s.1 - 队列（头指针优化）
 
-```js
-var RecentCounter = function () {
-  this.queue = []
-}
+::: code-group
 
-/**
- * @param {number} t
- * @return {number}
- */
-RecentCounter.prototype.ping = function (t) {
-  this.queue.push(t) // 入队
-  while (this.queue[0] < t - 3000) this.queue.shift() // 出队
-  return this.queue.length // 返回符合条件的队列成员数量
-}
+<<< ./solutions/1/1.js
 
-/**
- * Your RecentCounter object will be instantiated and called as such:
- * var obj = new RecentCounter()
- * var param_1 = obj.ping(t)
- */
-```
+:::
 
-- `this.queue.shift()` 移除第一个成员（第二个成员将变为第一个成员，继续判断是否需要移除新的第一个成员。）
+- 时间复杂度：$O(1)$（均摊），每个请求最多入队一次、出队一次
+- 空间复杂度：$O(n)$，存储最近 3000ms 内的请求
+
+解题思路：
+
+- 维护队列与头指针，入队新时间 `t`，同时前移头指针剔除过期（小于 `t-3000`）的请求
+- 返回队列长度减去头指针位置，即有效请求数量
+- 用头指针替代 `shift()`，避免数组前移的 $O(n)$ 开销
+
+## 3. 🎯 s.2 - 二分下界（lower_bound）
+
+::: code-group
+
+<<< ./solutions/2/1.js
+
+:::
+
+- 时间复杂度：$O(\log n)$，每次用二分查找首个不小于 `t-3000` 的位置
+- 空间复杂度：$O(n)$，存储所有请求时间
+
+解题思路：
+
+- 维护递增时间数组（`t` 严格递增）
+- 对 `t-3000` 做二分下界，返回尾部元素数量 `len - idx` 作为答案

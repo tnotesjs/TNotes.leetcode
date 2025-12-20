@@ -15,17 +15,17 @@
 
 有 `n` 种单位，编号从 `0` 到 `n - 1`。给你一个二维整数数组 `conversions`，长度为 `n - 1`，其中 `conversions[i] = [sourceUniti, targetUniti, conversionFactori]` ，表示一个 `sourceUniti` 类型的单位等于 `conversionFactori` 个 `targetUniti` 类型的单位。
 
-请你返回一个长度为 `n` 的数组 `baseUnitConversion`，其中 `baseUnitConversion[i]` 表示 **一个** 0 类型单位等于多少个 i 类型单位。由于结果可能很大，请返回每个 `baseUnitConversion[i]` 对 `10^9 + 7` 取模后的值。
+请你返回一个长度为 `n` 的数组 `baseUnitConversion`，其中 `baseUnitConversion[i]` 表示 一个 0 类型单位等于多少个 i 类型单位。由于结果可能很大，请返回每个 `baseUnitConversion[i]` 对 `10^9 + 7` 取模后的值。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
-**输入：** conversions = [[0,1,2],[1,2,3]]
+输入： conversions = [[0,1,2],[1,2,3]]
 
-**输出：** [1,2,6]
+输出： [1,2,6]
 
-**解释：**
+解释：
 
 - 使用 `conversions[0]`：将一个 0 类型单位转换为 2 个 1 类型单位。
 - 使用 `conversions[0]` 和 `conversions[1]` 将一个 0 类型单位转换为 6 个 2 类型单位。
@@ -34,13 +34,13 @@
 
 ---
 
-- **示例 2：**
+- 示例 2：
 
-**输入：** conversions = [[0,1,2],[0,2,3],[1,3,4],[1,4,5],[2,5,2],[4,6,3],[5,7,4]]
+输入： conversions = [[0,1,2],[0,2,3],[1,3,4],[1,4,5],[2,5,2],[4,6,3],[5,7,4]]
 
-**输出：** [1,2,3,8,10,6,30,24]
+输出： [1,2,3,8,10,6,30,24]
 
-**解释：**
+解释：
 
 - 使用 `conversions[0]` 将一个 0 类型单位转换为 2 个 1 类型单位。
 - 使用 `conversions[1]` 将一个 0 类型单位转换为 3 个 2 类型单位。
@@ -52,13 +52,13 @@
 
 ---
 
-**提示：**
+提示：
 
 - `2 <= n <= 10^5`
 - `conversions.length == n - 1`
 - `0 <= sourceUniti, targetUniti < n`
 - `1 <= conversionFactori <= 10^9`
-- 保证单位 0 可以通过 **唯一** 的转换路径（不需要反向转换）转换为任何其他单位。
+- 保证单位 0 可以通过 唯一 的转换路径（不需要反向转换）转换为任何其他单位。
 
 ## 2. 🎯 s.1 - 解法 1
 

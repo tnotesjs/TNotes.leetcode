@@ -19,14 +19,14 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：text = "alice is a good girl she is a good student", first = "a", second = "good"
 输出：["girl","student"]
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：text = "we will we will rock you", first = "we", second = "will"
@@ -35,11 +35,11 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= text.length <= 1000`
 - `text` 由小写英文字母和空格组成
-- `text` 中的所有单词之间都由 **单个空格字符** 分隔
+- `text` 中的所有单词之间都由 单个空格字符 分隔
 - `1 <= first.length, second.length <= 10`
 - `first` 和 `second` 由小写英文字母组成
 - `text` 不包含任何前缀或尾随空格。

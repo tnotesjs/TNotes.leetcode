@@ -11,17 +11,17 @@
 
 - [leetcode](https://leetcode.cn/problems/substring-with-concatenation-of-all-words/)
 
-给定一个字符串 `s` 和一个字符串数组 `words`**。** `words` 中所有字符串 **长度相同**。
+给定一个字符串 `s` 和一个字符串数组 `words`。 `words` 中所有字符串 长度相同。
 
-`s` 中的 **串联子串** 是指一个包含 `words` 中所有字符串以任意顺序排列连接起来的子串。
+`s` 中的 串联子串 是指一个包含 `words` 中所有字符串以任意顺序排列连接起来的子串。
 
 - 例如，如果 `words = ["ab","cd","ef"]`， 那么 `"abcdef"`， `"abefcd"`，`"cdabef"`， `"cdefab"`，`"efabcd"`， 和 `"efcdab"` 都是串联子串。 `"acdbef"` 不是串联子串，因为他不是任何 `words` 排列的连接。
 
-返回所有串联子串在 `s` 中的开始索引。你可以以 **任意顺序** 返回答案。
+返回所有串联子串在 `s` 中的开始索引。你可以以 任意顺序 返回答案。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：s = "barfoothefoobarman", words = ["foo","bar"]
@@ -32,7 +32,7 @@
 输出顺序无关紧要。返回 [9,0] 也是可以的。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：s = "wordgoodgoodgoodbestword", words = ["word","good","best","word"]
@@ -42,7 +42,7 @@ s 中没有子串长度为 16 并且等于 words 的任何顺序排列的连接�
 所以我们返回一个空数组。
 ```
 
-- **示例 3：**
+- 示例 3：
 
 ```txt
 输入：s = "barfoofoobarthefoobarman", words = ["bar","foo","the"]
@@ -55,7 +55,7 @@ s 中没有子串长度为 16 并且等于 words 的任何顺序排列的连接�
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= s.length <= 10^4`
 - `1 <= words.length <= 5000`

@@ -21,7 +21,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-00-21-07.png)
 
@@ -39,7 +39,7 @@
 
 ---
 
-- **示例 2 ：**
+- 示例 2 ：
 
 ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-00-21-41.png)
 
@@ -51,7 +51,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `2 <= n <= 100`
 - `1 <= edges.length <= min(200, n * (n - 1) / 2)`

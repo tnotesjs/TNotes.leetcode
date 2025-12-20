@@ -15,11 +15,9 @@
 
 如果所有矩形一起精确覆盖了某个矩形区域，则返回 `true` ；否则，返回 `false` 。
 
-
-
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-11-12-32-58.png)
 
@@ -29,7 +27,7 @@
 解释：5 个矩形一起可以精确地覆盖一个矩形区域。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-11-12-33-02.png)
 
@@ -39,7 +37,7 @@
 解释：两个矩形之间有间隔，无法覆盖成一个矩形。
 ```
 
-- **示例 3：**
+- 示例 3：
 
 ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-11-12-33-07.png)
 
@@ -51,7 +49,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= rectangles.length <= 2 * 10^4`
 - `rectangles[i].length == 4`

@@ -27,7 +27,7 @@
 
 ---
 
-**示例 1：**
+示例 1：
 
 输入：
 
@@ -42,7 +42,7 @@
 
 ---
 
-**示例 2：**
+示例 2：
 
 输入：
 
@@ -57,7 +57,7 @@
 
 ---
 
-**示例 3：**
+示例 3：
 
 输入：
 
@@ -73,7 +73,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `actions` 是一个有效的 JSON 字符串数组
 - `values` 是一个有效的 JSON 字符串数组
@@ -136,7 +136,7 @@ class Calculator {
    * @return {Calculator}
    */
   power(value) {
-    this.val **= value
+    this.val = value
     return this
   }
 
@@ -149,7 +149,7 @@ class Calculator {
 }
 ```
 
-**题解分析**
+题解分析
 
 - 链式调用，每次 `return this` 即可。
 - 除法运算时校验 value 不能为 0，否则抛出错误 `throw new Error('Division by zero is not allowed')`

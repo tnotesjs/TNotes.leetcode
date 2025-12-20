@@ -13,25 +13,25 @@
 
 - [leetcode](https://leetcode.cn/problems/build-a-matrix-with-conditions/)
 
-给你一个 **正** 整数 `k` ，同时给你：
+给你一个 正 整数 `k` ，同时给你：
 
 - 一个大小为 `n` 的二维整数数组 `rowConditions` ，其中 `rowConditions[i] = [abovei, belowi]` 和
 - 一个大小为 `m` 的二维整数数组 `colConditions` ，其中 `colConditions[i] = [lefti, righti]` 。
 
 两个数组里的整数都是 `1` 到 `k` 之间的数字。
 
-你需要构造一个 `k x k` 的矩阵，`1` 到 `k` 每个数字需要 **恰好出现一次** 。剩余的数字都是 `0` 。
+你需要构造一个 `k x k` 的矩阵，`1` 到 `k` 每个数字需要 恰好出现一次 。剩余的数字都是 `0` 。
 
 矩阵还需要满足以下条件：
 
-- 对于所有 `0` 到 `n - 1` 之间的下标 `i` ，数字 `abovei` 所在的 **行** 必须在数字 `belowi` 所在行的上面。
-- 对于所有 `0` 到 `m - 1` 之间的下标 `i` ，数字 `lefti` 所在的 **列** 必须在数字 `righti` 所在列的左边。
+- 对于所有 `0` 到 `n - 1` 之间的下标 `i` ，数字 `abovei` 所在的 行 必须在数字 `belowi` 所在行的上面。
+- 对于所有 `0` 到 `m - 1` 之间的下标 `i` ，数字 `lefti` 所在的 列 必须在数字 `righti` 所在列的左边。
 
-返回满足上述要求的 **任意** 矩阵。如果不存在答案，返回一个空的矩阵。
+返回满足上述要求的 任意 矩阵。如果不存在答案，返回一个空的矩阵。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-19-52-54.png)
 
@@ -48,7 +48,7 @@
 注意，可能有多种正确的答案。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：k = 3, rowConditions = [[1,2],[2,3],[3,1],[2,3]], colConditions = [[2,1]]
@@ -59,7 +59,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `2 <= k <= 400`
 - `1 <= rowConditions.length, colConditions.length <= 10^4`

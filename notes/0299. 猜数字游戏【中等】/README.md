@@ -27,7 +27,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：secret = "1807", guess = "7810"
@@ -38,7 +38,7 @@
 "7810"
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：secret = "1123", guess = "0111"
@@ -52,7 +52,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= secret.length, guess.length <= 1000`
 - `secret.length == guess.length`

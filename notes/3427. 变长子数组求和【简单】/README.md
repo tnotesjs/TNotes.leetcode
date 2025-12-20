@@ -13,21 +13,21 @@
 
 - [leetcode](https://leetcode.cn/problems/sum-of-variable-length-subarrays/)
 
-给你一个长度为 `n` 的整数数组 `nums` 。对于 **每个** 下标 `i`（`0 <= i < n`），定义对应的子数组 `nums[start ... i]`（`start = max(0, i - nums[i])`）。
+给你一个长度为 `n` 的整数数组 `nums` 。对于 每个 下标 `i`（`0 <= i < n`），定义对应的子数组 `nums[start ... i]`（`start = max(0, i - nums[i])`）。
 
 返回为数组中每个下标定义的子数组中所有元素的总和。
 
-**子数组** 是数组中的一个连续、**非空** 的元素序列。
+子数组 是数组中的一个连续、非空 的元素序列。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
-**输入：** nums = [2,3,1]
+输入： nums = [2,3,1]
 
-**输出：** 11
+输出： 11
 
-**解释：**
+解释：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-03-37.png)
 
@@ -35,13 +35,13 @@
 
 ---
 
-- **示例 2：**
+- 示例 2：
 
-**输入：** nums = [3,1,1,2]
+输入： nums = [3,1,1,2]
 
-**输出：** 13
+输出： 13
 
-**解释：**
+解释：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-03-47.png)
 
@@ -49,7 +49,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= n == nums.length <= 100`
 - `1 <= nums[i] <= 1000`

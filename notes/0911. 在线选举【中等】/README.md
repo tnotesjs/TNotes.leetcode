@@ -24,7 +24,7 @@
 - `TopVotedCandidate(int[] persons, int[] times)` 使用 `persons` 和 `times` 数组初始化对象。
 - `int q(int t)` 根据前面描述的规则，返回在时刻 `t` 在选举中领先的候选人的编号。
 
-**示例：**
+示例：
 
 ```txt
 输入：
@@ -45,7 +45,7 @@ topVotedCandidate.q(8); // 返回 1
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= persons.length <= 5000`
 - `times.length == persons.length`

@@ -13,15 +13,15 @@
 
 - [leetcode](https://leetcode.cn/problems/minimum-operations-to-make-a-uni-value-grid/)
 
-给你一个大小为 `m x n` 的二维整数网格 `grid` 和一个整数 `x` 。每一次操作，你可以对 `grid` 中的任一元素 **加** `x` 或 **减** `x` 。
+给你一个大小为 `m x n` 的二维整数网格 `grid` 和一个整数 `x` 。每一次操作，你可以对 `grid` 中的任一元素 加 `x` 或 减 `x` 。
 
-**单值网格** 是全部元素都相等的网格。
+单值网格 是全部元素都相等的网格。
 
-返回使网格化为单值网格所需的 **最小** 操作数。如果不能，返回 `-1` 。
+返回使网格化为单值网格所需的 最小 操作数。如果不能，返回 `-1` 。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-11-01.png)
 
@@ -35,7 +35,7 @@
 共计 4 次操作。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-11-17.png)
 
@@ -45,7 +45,7 @@
 解释：可以使所有元素都等于 3 。
 ```
 
-- **示例 3：**
+- 示例 3：
 
 ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-11-30.png)
 
@@ -57,7 +57,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `m == grid.length`
 - `n == grid[i].length`

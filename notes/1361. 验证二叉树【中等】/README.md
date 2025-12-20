@@ -15,7 +15,7 @@
 
 二叉树上有 `n` 个节点，按从 `0` 到 `n - 1` 编号，其中节点 `i` 的两个子节点分别是 `leftChild[i]` 和 `rightChild[i]`。
 
-只有 **所有** 节点能够形成且 **只** 形成 **一颗** 有效的二叉树时，返回 `true`；否则返回 `false`。
+只有 所有 节点能够形成且 只 形成 一颗 有效的二叉树时，返回 `true`；否则返回 `false`。
 
 如果节点 `i` 没有左子节点，那么 `leftChild[i]` 就等于 `-1`。右子节点也符合该规则。
 
@@ -23,7 +23,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-20-18-49-47.png)
 
@@ -32,7 +32,7 @@
 输出：true
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-20-18-50-07.png)
 
@@ -41,7 +41,7 @@
 输出：false
 ```
 
-- **示例 3：**
+- 示例 3：
 
 ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-20-18-50-14.png)
 
@@ -52,7 +52,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `n == leftChild.length == rightChild.length`
 - `1 <= n <= 10^4`

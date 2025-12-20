@@ -20,7 +20,7 @@
 - `decrement()` 将当前值减 1 并返回。
 - `reset()` 将当前值设置为 `init` 并返回。
 
-**示例 1：**
+示例 1：
 
 - 输入：`init = 5, calls = ["increment","reset","decrement"]`
 - 输出：`[6,5,4]`
@@ -30,7 +30,7 @@
   - `counter.reset(); // 5`
   - `counter.decrement(); // 4`
 
-**示例 2：**
+示例 2：
 
 - 输入：`init = 0, calls = ["increment","increment","decrement","reset","reset"]`
 - 输出：`[1,2,1,0,0]`
@@ -42,7 +42,7 @@
   - `counter.reset(); // 0`
   - `counter.reset(); // 0`
 
-**提示：**
+提示：
 
 - `-1000 <= init <= 1000`
 - `0 <= calls.length <= 1000`

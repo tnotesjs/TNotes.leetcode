@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/sort-the-students-by-their-kth-score/)
 
-班里有 `m` 位学生，共计划组织 `n` 场考试。给你一个下标从 **0** 开始、大小为 `m x n` 的整数矩阵 `score` ，其中每一行对应一位学生，而 `score[i][j]` 表示第 `i` 位学生在第 `j` 场考试取得的分数。矩阵 `score` 包含的整数 **互不相同** 。
+班里有 `m` 位学生，共计划组织 `n` 场考试。给你一个下标从 0 开始、大小为 `m x n` 的整数矩阵 `score` ，其中每一行对应一位学生，而 `score[i][j]` 表示第 `i` 位学生在第 `j` 场考试取得的分数。矩阵 `score` 包含的整数 互不相同 。
 
 另给你一个整数 `k` 。请你按第 `k` 场考试分数从高到低完成对这些学生（矩阵中的行）的排序。
 
@@ -21,7 +21,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-51-56.png)
 
@@ -36,7 +36,7 @@
 
 ---
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-52-02.png)
 
@@ -50,13 +50,13 @@
 
 ---
 
-**提示：**
+提示：
 
 - `m == score.length`
 - `n == score[i].length`
 - `1 <= m, n <= 250`
 - `1 <= score[i][j] <= 10^5`
-- `score` 由 **不同** 的整数组成
+- `score` 由 不同 的整数组成
 - `0 <= k < n`
 
 ## 2. 🎯 s.1 - 解法 1

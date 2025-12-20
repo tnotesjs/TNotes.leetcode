@@ -13,13 +13,13 @@
 
 - [leetcode](https://leetcode.cn/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/)
 
-给你一个整数 `n` ，表示一张 **无向图** 中有 `n` 个节点，编号为 `0` 到 `n - 1` 。同时给你一个二维整数数组 `edges` ，其中 `edges[i] = [ai, bi]` 表示节点 `ai` 和 `bi` 之间有一条 **无向** 边。
+给你一个整数 `n` ，表示一张 无向图 中有 `n` 个节点，编号为 `0` 到 `n - 1` 。同时给你一个二维整数数组 `edges` ，其中 `edges[i] = [ai, bi]` 表示节点 `ai` 和 `bi` 之间有一条 无向 边。
 
-请你返回 **无法互相到达** 的不同 **点对数目** 。
+请你返回 无法互相到达 的不同 点对数目 。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-13-27-01.png)
 
@@ -29,7 +29,7 @@
 解释：所有点都能互相到达，意味着没有点对无法互相到达，所以我们返回 0 。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-13-27-08.png)
 
@@ -43,7 +43,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= n <= 10^5`
 - `0 <= edges.length <= 2 * 10^5`

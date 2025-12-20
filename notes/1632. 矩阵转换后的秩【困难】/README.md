@@ -15,20 +15,20 @@
 
 给你一个 `m x n` 的矩阵 `matrix` ，请你返回一个新的矩阵 `answer` ，其中 `answer[row][col]` 是 `matrix[row][col]` 的秩。
 
-每个元素的 **秩** 是一个整数，表示这个元素相对于其他元素的大小关系，它按照如下规则计算：
+每个元素的 秩 是一个整数，表示这个元素相对于其他元素的大小关系，它按照如下规则计算：
 
 - 秩是从 1 开始的一个整数。
-- 如果两个元素 `p` 和 `q` 在 **同一行** 或者 **同一列** ，那么：
+- 如果两个元素 `p` 和 `q` 在 同一行 或者 同一列 ，那么：
   - 如果 `p < q` ，那么 `rank(p) < rank(q)`
   - 如果 `p == q` ，那么 `rank(p) == rank(q)`
   - 如果 `p > q` ，那么 `rank(p) > rank(q)`
-- **秩** 需要越 **小** 越好。
+- 秩 需要越 小 越好。
 
 题目保证按照上面规则 `answer` 数组是唯一的。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-29-33.png)
 
@@ -42,7 +42,7 @@ matrix[1][0] 的秩为 2 ，因为 matrix[1][0] > matrix[0][0] 且 matrix[0][0] 
 matrix[1][1] 的秩为 3 ，因为 matrix[1][1] > matrix[0][1]， matrix[1][1] > matrix[1][0] 且 matrix[0][1] 和 matrix[1][0] 的秩都为 2 。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-29-38.png)
 
@@ -51,7 +51,7 @@ matrix[1][1] 的秩为 3 ，因为 matrix[1][1] > matrix[0][1]， matrix[1][1] >
 输出：[[1,1],[1,1]]
 ```
 
-- **示例 3：**
+- 示例 3：
 
 ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-29-45.png)
 
@@ -63,7 +63,7 @@ matrix[1][1] 的秩为 3 ，因为 matrix[1][1] > matrix[0][1]， matrix[1][1] >
 
 ---
 
-**提示：**
+提示：
 
 - `m == matrix.length`
 - `n == matrix[i].length`

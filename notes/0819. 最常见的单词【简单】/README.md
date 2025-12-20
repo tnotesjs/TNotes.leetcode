@@ -13,15 +13,15 @@
 
 - [leetcode](https://leetcode.cn/problems/most-common-word/)
 
-给你一个字符串 `paragraph` 和一个表示禁用词的字符串数组 `banned` ，返回出现频率最高的非禁用词。题目数据 **保证** 至少存在一个非禁用词，且答案 **唯一** 。
+给你一个字符串 `paragraph` 和一个表示禁用词的字符串数组 `banned` ，返回出现频率最高的非禁用词。题目数据 保证 至少存在一个非禁用词，且答案 唯一 。
 
-`paragraph` 中的单词 **不区分大小写** ，答案应以 **小写** 形式返回。
+`paragraph` 中的单词 不区分大小写 ，答案应以 小写 形式返回。
 
-**注意** 单词不包含标点符号。
+注意 单词不包含标点符号。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：paragraph = "Bob hit a ball, the hit BALL flew far after it was hit.", banned = ["hit"]
@@ -35,7 +35,7 @@
 
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：paragraph = "a.", banned = []
@@ -44,7 +44,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= paragraph.length <= 1000`
 - `paragraph` 由英文字母、空格 `' '`、和以下符号组成：`"!?',;."`

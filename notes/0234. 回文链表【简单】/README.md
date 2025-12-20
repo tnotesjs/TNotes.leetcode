@@ -16,7 +16,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-09-13-43-28.png)
 
@@ -25,7 +25,7 @@
 输出：true
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-09-13-43-34.png)
 
@@ -36,7 +36,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - 链表中节点数目在范围`[1, 10^5]` 内
 - `0 <= Node.val <= 9`

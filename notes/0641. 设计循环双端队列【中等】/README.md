@@ -25,7 +25,7 @@
 - `boolean isEmpty()` ：若双端队列为空，则返回 `true` ，否则返回 `false` 。
 - `boolean isFull()` ：若双端队列满了，则返回 `true` ，否则返回 `false` 。
 
-**示例 1：**
+示例 1：
 
 ```
 输入
@@ -47,7 +47,7 @@ circularDeque.insertFront(4);			        // 返回 true
 circularDeque.getFront();				// 返回 4
 ```
 
-**提示：**
+提示：
 
 - `1 <= k <= 1000`
 - `0 <= value <= 1000`

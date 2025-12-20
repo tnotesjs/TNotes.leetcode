@@ -18,15 +18,15 @@
 - `PeekingIterator(Iterator<int> nums)` 使用指定整数迭代器 `nums` 初始化迭代器。
 - `int next()` 返回数组中的下一个元素，并将指针移动到下个元素处。
 - `bool hasNext()` 如果数组中存在下一个元素，返回 `true` ；否则，返回 `false` 。
-- `int peek()` 返回数组中的下一个元素，但 **不** 移动指针。
+- `int peek()` 返回数组中的下一个元素，但 不 移动指针。
 
 ---
 
-**注意：** 每种语言可能有不同的构造函数和迭代器 `Iterator`，但均支持 `int next()` 和 `boolean hasNext()` 函数。
+注意： 每种语言可能有不同的构造函数和迭代器 `Iterator`，但均支持 `int next()` 和 `boolean hasNext()` 函数。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：
@@ -46,7 +46,7 @@ peekingIterator.hasNext(); // 返回 False
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= nums.length <= 1000`
 - `1 <= nums[i] <= 1000`

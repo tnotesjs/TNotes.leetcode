@@ -20,7 +20,7 @@
 - `StreamChecker(String[] words)` ：构造函数，用字符串数组 `words` 初始化数据结构。
 - `boolean query(char letter)`：从字符流中接收一个新字符，如果字符流中的任一非空后缀能匹配 `words` 中的某一字符串，返回 `true` ；否则，返回 `false`。
 
-**示例：**
+示例：
 
 ```txt
 输入：
@@ -47,7 +47,7 @@ streamChecker.query("l"); // 返回 True ，因为 'kl' 在 words 中
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= words.length <= 2000`
 - `1 <= words[i].length <= 200`

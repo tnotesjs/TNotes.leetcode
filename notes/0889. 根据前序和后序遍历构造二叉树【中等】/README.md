@@ -13,13 +13,13 @@
 
 - [leetcode](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)
 
-给定两个整数数组，`preorder` 和 `postorder` ，其中 `preorder` 是一个具有 **无重复** 值的二叉树的前序遍历，`postorder` 是同一棵树的后序遍历，重构并返回二叉树。
+给定两个整数数组，`preorder` 和 `postorder` ，其中 `preorder` 是一个具有 无重复 值的二叉树的前序遍历，`postorder` 是同一棵树的后序遍历，重构并返回二叉树。
 
-如果存在多个答案，您可以返回其中 **任何** 一个。
+如果存在多个答案，您可以返回其中 任何 一个。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-12-06-45.png)
 
@@ -37,14 +37,14 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= preorder.length <= 30`
 - `1 <= preorder[i] <= preorder.length`
-- `preorder` 中所有值都 **不同**
+- `preorder` 中所有值都 不同
 - `postorder.length == preorder.length`
 - `1 <= postorder[i] <= postorder.length`
-- `postorder` 中所有值都 **不同**
+- `postorder` 中所有值都 不同
 - 保证 `preorder` 和 `postorder` 是同一棵二叉树的前序遍历和后序遍历
 
 ## 2. 🎯 s.1 - 解法 1

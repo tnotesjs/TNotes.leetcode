@@ -13,13 +13,13 @@
 
 - [leetcode](https://leetcode.cn/problems/build-array-from-permutation/)
 
-给你一个 **从 0 开始的排列** `nums`（**下标也从 0 开始**）。请你构建一个 **同样长度** 的数组 `ans` ，其中，对于每个 `i`（`0 <= i < nums.length`），都满足 `ans[i] = nums[nums[i]]` 。返回构建好的数组 `ans` 。
+给你一个 从 0 开始的排列 `nums`（下标也从 0 开始）。请你构建一个 同样长度 的数组 `ans` ，其中，对于每个 `i`（`0 <= i < nums.length`），都满足 `ans[i] = nums[nums[i]]` 。返回构建好的数组 `ans` 。
 
-**从 0 开始的排列** `nums` 是一个由 `0` 到 `nums.length - 1`（`0` 和 `nums.length - 1` 也包含在内）的不同整数组成的数组。
+从 0 开始的排列 `nums` 是一个由 `0` 到 `nums.length - 1`（`0` 和 `nums.length - 1` 也包含在内）的不同整数组成的数组。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：nums = [0,2,1,5,3,4]
@@ -30,7 +30,7 @@ ans = [nums[nums[0]], nums[nums[1]], nums[nums[2]], nums[nums[3]], nums[nums[4]]
     = [0,1,2,4,5,3]
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：nums = [5,0,1,2,3,4]
@@ -43,11 +43,11 @@ ans = [nums[nums[0]], nums[nums[1]], nums[nums[2]], nums[nums[3]], nums[nums[4]]
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= nums.length <= 1000`
 - `0 <= nums[i] < nums.length`
-- `nums` 中的元素 **互不相同**
+- `nums` 中的元素 互不相同
 
 进阶： 你能在不使用额外空间的情况下解决此问题吗（即 `O(1)` 内存）？
 

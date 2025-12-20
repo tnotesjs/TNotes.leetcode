@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/minimum-time-visiting-all-points/)
 
-平面上有 `n` 个点，点的位置用整数坐标表示 `points[i] = [xi, yi]` 。请你计算访问所有这些点需要的 **最小时间**（以秒为单位）。
+平面上有 `n` 个点，点的位置用整数坐标表示 `points[i] = [xi, yi]` 。请你计算访问所有这些点需要的 最小时间（以秒为单位）。
 
 你需要按照下面的规则在平面上移动：
 
@@ -26,7 +26,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-20-03-51.png)
 
@@ -40,7 +40,7 @@
 一共需要 7 秒
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：points = [[3,2],[-2,2]]
@@ -49,7 +49,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `points.length == n`
 - `1 <= n <= 100`

@@ -13,16 +13,16 @@
 
 - [leetcode](https://leetcode.cn/problems/maximum-xor-for-each-query/)
 
-给你一个 **有序** 数组 `nums` ，它由 `n` 个非负整数组成，同时给你一个整数 `maximumBit` 。你需要执行以下查询 `n` 次：
+给你一个 有序 数组 `nums` ，它由 `n` 个非负整数组成，同时给你一个整数 `maximumBit` 。你需要执行以下查询 `n` 次：
 
-1.  找到一个非负整数 `k < 2^maximumBit` ，使得 `nums[0] XOR nums[1] XOR ... XOR nums[nums.length-1] XOR k` 的结果 **最大化** 。`k` 是第 `i` 个查询的答案。
-2.  从当前数组 `nums` 删除 **最后** 一个元素。
+1.  找到一个非负整数 `k < 2^maximumBit` ，使得 `nums[0] XOR nums[1] XOR ... XOR nums[nums.length-1] XOR k` 的结果 最大化 。`k` 是第 `i` 个查询的答案。
+2.  从当前数组 `nums` 删除 最后 一个元素。
 
 请你返回一个数组 `answer` ，其中 `answer[i]`是第 `i` 个查询的结果。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：nums = [0,1,1,3], maximumBit = 2
@@ -34,7 +34,7 @@
 第四个查询：nums = [0]，k = 3，因为 0 XOR 3 = 3 。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：nums = [2,3,4,7], maximumBit = 3
@@ -46,7 +46,7 @@
 第四个查询：nums = [2]，k = 5，因为 2 XOR 5 = 7 。
 ```
 
-- **示例 3：**
+- 示例 3：
 
 ```txt
 输入：nums = [0,1,2,2,5,7], maximumBit = 3
@@ -55,13 +55,13 @@
 
 ---
 
-**提示：**
+提示：
 
 - `nums.length == n`
 - `1 <= n <= 10^5`
 - `1 <= maximumBit <= 20`
 - `0 <= nums[i] < 2^maximumBit`
-- `nums`​​​ 中的数字已经按 **升序** 排好序。
+- `nums`​​​ 中的数字已经按 升序 排好序。
 
 ## 2. 🎯 s.1 - 解法 1
 

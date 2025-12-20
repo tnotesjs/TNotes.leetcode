@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/redundant-connection/)
 
-树可以看成是一个连通且 **无环** 的 **无向** 图。
+树可以看成是一个连通且 无环 的 无向 图。
 
 给定一个图，该图从一棵 `n` 个节点 (节点值 `1～n`) 的树中添加一条边后获得。添加的边的两个不同顶点编号在 `1` 到 `n` 中间，且这条附加的边不属于树中已存在的边。图的信息记录于长度为 `n` 的二维数组 `edges` ，`edges[i] = [ai, bi]` 表示图中在 `ai` 和 `bi` 之间存在一条边。
 
@@ -21,7 +21,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-12-31-14.png)
 
@@ -30,7 +30,7 @@
 输出: [2,3]
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-12-31-20.png)
 

@@ -40,15 +40,15 @@
 
 编写解决方案，找出每次的 `query_name` 、 `quality` 和 `poor_query_percentage`。
 
-`quality` 和 `poor_query_percentage` 都应 **四舍五入到小数点后两位** 。
+`quality` 和 `poor_query_percentage` 都应 四舍五入到小数点后两位 。
 
-以 **任意顺序** 返回结果表。
+以 任意顺序 返回结果表。
 
 结果格式如下所示：
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：

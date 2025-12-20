@@ -13,11 +13,11 @@
 
 - [leetcode](https://leetcode.cn/problems/kth-smallest-product-of-two-sorted-arrays/)
 
-给你两个 **从小到大排好序** 且下标从 **0** 开始的整数数组 `nums1` 和 `nums2` 以及一个整数 `k` ，请你返回第 `k` （从 **1** 开始编号）小的 `nums1[i] * nums2[j]` 的乘积，其中 `0 <= i < nums1.length` 且 `0 <= j < nums2.length` 。
+给你两个 从小到大排好序 且下标从 0 开始的整数数组 `nums1` 和 `nums2` 以及一个整数 `k` ，请你返回第 `k` （从 1 开始编号）小的 `nums1[i] * nums2[j]` 的乘积，其中 `0 <= i < nums1.length` 且 `0 <= j < nums2.length` 。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：nums1 = [2,5], nums2 = [3,4], k = 2
@@ -28,7 +28,7 @@
 第 2 小的乘积为 8 。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：nums1 = [-4,-2,0,3], nums2 = [2,4], k = 6
@@ -43,7 +43,7 @@
 第 6 小的乘积为 0 。
 ```
 
-- **示例 3：**
+- 示例 3：
 
 ```txt
 输入：nums1 = [-2,-1,0,1,2], nums2 = [-3,-1,2,4,5], k = 3
@@ -57,7 +57,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= nums1.length, nums2.length <= 5 * 10^4`
 - `-10^5 <= nums1[i], nums2[j] <= 10^5`

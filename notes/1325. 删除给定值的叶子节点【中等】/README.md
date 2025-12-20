@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/delete-leaves-with-a-given-value/)
 
-给你一棵以 `root` 为根的二叉树和一个整数 `target` ，请你删除所有值为 `target` 的 **叶子节点** 。
+给你一棵以 `root` 为根的二叉树和一个整数 `target` ，请你删除所有值为 `target` 的 叶子节点 。
 
 注意，一旦删除值为 `target` 的叶子节点，它的父节点就可能变成叶子节点；如果新叶子节点的值恰好也是 `target` ，那么这个节点也应该被删除。
 
@@ -21,7 +21,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-20-18-32-19.png)
 
@@ -33,7 +33,7 @@
 有一个新的节点变成了叶子节点且它的值与 target 相同，所以将再次进行删除，从而得到最右边的图。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-20-18-32-27.png)
 
@@ -42,7 +42,7 @@
 输出：[1,3,null,null,2]
 ```
 
-- **示例 3：**
+- 示例 3：
 
 ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-20-18-32-34.png)
 
@@ -54,7 +54,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - 树中节点数量的范围是 `[1, 3000]`。
 - `1 <= Node.val, target <= 1000`

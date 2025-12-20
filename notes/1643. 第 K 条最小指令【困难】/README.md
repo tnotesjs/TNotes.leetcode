@@ -13,22 +13,22 @@
 
 - [leetcode](https://leetcode.cn/problems/kth-smallest-instructions/)
 
-Bob 站在单元格 `(0, 0)` ，想要前往目的地 `destination` ：`(row, column)` 。他只能向 **右** 或向 **下** 走。你可以为 Bob 提供导航 **指令** 来帮助他到达目的地 `destination` 。
+Bob 站在单元格 `(0, 0)` ，想要前往目的地 `destination` ：`(row, column)` 。他只能向 右 或向 下 走。你可以为 Bob 提供导航 指令 来帮助他到达目的地 `destination` 。
 
-**指令** 用字符串表示，其中每个字符：
+指令 用字符串表示，其中每个字符：
 
 - `'H'` ，意味着水平向右移动
 - `'V'` ，意味着竖直向下移动
 
-能够为 Bob 导航到目的地 `destination` 的指令可以有多种，例如，如果目的地 `destination` 是 `(2, 3)`，`"HHHVV"` 和 `"HVHVH"` 都是有效 **指令** 。
+能够为 Bob 导航到目的地 `destination` 的指令可以有多种，例如，如果目的地 `destination` 是 `(2, 3)`，`"HHHVV"` 和 `"HVHVH"` 都是有效 指令 。
 
-然而，Bob 很挑剔。因为他的幸运数字是 `k`，他想要遵循 **按字典序排列后的第 `k` 条最小指令** 的导航前往目的地 `destination` 。`k` 的编号 **从 1 开始** 。
+然而，Bob 很挑剔。因为他的幸运数字是 `k`，他想要遵循 按字典序排列后的第 `k` 条最小指令 的导航前往目的地 `destination` 。`k` 的编号 从 1 开始 。
 
-给你一个整数数组 `destination` 和一个整数 `k` ，请你返回可以为 Bob 提供前往目的地 `destination` 导航的 **按字典序排列后的第 `k` 条最小指令** 。
+给你一个整数数组 `destination` 和一个整数 `k` ，请你返回可以为 Bob 提供前往目的地 `destination` 导航的 按字典序排列后的第 `k` 条最小指令 。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-34-54.png)
 
@@ -39,7 +39,7 @@ Bob 站在单元格 `(0, 0)` ，想要前往目的地 `destination` ：`(row, co
 ["HHHVV", "HHVHV", "HHVVH", "HVHHV", "HVHVH", "HVVHH", "VHHHV", "VHHVH", "VHVHH", "VVHHH"].
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-35-00.png)
 
@@ -48,7 +48,7 @@ Bob 站在单元格 `(0, 0)` ，想要前往目的地 `destination` ：`(row, co
 输出："HHVHV"
 ```
 
-- **示例 3：**
+- 示例 3：
 
 ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-35-18.png)
 
@@ -59,7 +59,7 @@ Bob 站在单元格 `(0, 0)` ，想要前往目的地 `destination` ：`(row, co
 
 ---
 
-**提示：**
+提示：
 
 - `destination.length == 2`
 - `1 <= row, column <= 15`

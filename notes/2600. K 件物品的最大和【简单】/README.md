@@ -27,7 +27,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：numOnes = 3, numZeros = 2, numNegOnes = 0, k = 2
@@ -38,7 +38,7 @@
 
 ---
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：numOnes = 3, numZeros = 2, numNegOnes = 0, k = 4
@@ -49,7 +49,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `0 <= numOnes, numZeros, numNegOnes <= 50`
 - `0 <= k <= numOnes + numZeros + numNegOnes`

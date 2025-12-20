@@ -13,17 +13,17 @@
 
 - [leetcode](https://leetcode.cn/problems/number-of-unequal-triplets-in-array/)
 
-给你一个下标从 **0** 开始的正整数数组 `nums` 。请你找出并统计满足下述条件的三元组 `(i, j, k)` 的数目：
+给你一个下标从 0 开始的正整数数组 `nums` 。请你找出并统计满足下述条件的三元组 `(i, j, k)` 的数目：
 
 - `0 <= i < j < k < nums.length`
-- `nums[i]`、`nums[j]` 和 `nums[k]` **两两不同** 。
+- `nums[i]`、`nums[j]` 和 `nums[k]` 两两不同 。
   - 换句话说：`nums[i] != nums[j]`、`nums[i] != nums[k]` 且 `nums[j] != nums[k]` 。
 
 返回满足上述条件三元组的数目*。*
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：nums = [4,4,2,4,3]
@@ -36,7 +36,7 @@
 注意 (2, 0, 4) 不是有效的三元组，因为 2 > 0 。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：nums = [1,1,1,1,1]
@@ -46,7 +46,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `3 <= nums.length <= 100`
 - `1 <= nums[i] <= 1000`

@@ -17,14 +17,14 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：s = "abpcplea", dictionary = ["ale","apple","monkey","plea"]
 输出："apple"
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：s = "abpcplea", dictionary = ["a","b","c"]
@@ -33,7 +33,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= s.length <= 1000`
 - `1 <= dictionary.length <= 1000`

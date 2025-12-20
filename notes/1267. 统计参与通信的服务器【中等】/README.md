@@ -21,7 +21,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-20-04-36.png)
 
@@ -35,7 +35,7 @@
 解释：没有一台服务器能与其他服务器进行通信。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-20-04-43.png)
 
@@ -49,7 +49,7 @@
 解释：所有这些服务器都至少可以与一台别的服务器进行通信。
 ```
 
-- **示例 3：**
+- 示例 3：
 
 ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-20-04-49.png)
 
@@ -67,7 +67,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `m == grid.length`
 - `n == grid[i].length`

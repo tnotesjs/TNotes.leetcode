@@ -13,11 +13,11 @@
 
 给你一个字符串数组 `queries`，和一个表示模式的字符串 `pattern`，请你返回一个布尔数组 `answer` 。只有在待查项 `queries[i]` 与模式串 `pattern` 匹配时， `answer[i]` 才为 `true`，否则为 `false`。
 
-如果可以将 **小写字母** 插入模式串 `pattern` 得到待查询项 `queries[i]`，那么待查询项与给定模式串匹配。您可以在模式串中的任何位置插入字符，也可以选择不插入任何字符。
+如果可以将 小写字母 插入模式串 `pattern` 得到待查询项 `queries[i]`，那么待查询项与给定模式串匹配。您可以在模式串中的任何位置插入字符，也可以选择不插入任何字符。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：queries = ["FooBar","FooBarTest","FootBall","FrameBuffer","ForceFeedBack"], pattern = "FB"
@@ -28,7 +28,7 @@
 "FrameBuffer" 可以这样生成："F" + "rame" + "B" + "uffer".
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：queries = ["FooBar","FooBarTest","FootBall","FrameBuffer","ForceFeedBack"], pattern = "FoBa"
@@ -38,7 +38,7 @@
 "FootBall" 可以这样生成："Fo" + "ot" + "Ba" + "ll".
 ```
 
-- **示例 3：**
+- 示例 3：
 
 ```txt
 输入：queries = ["FooBar","FooBarTest","FootBall","FrameBuffer","ForceFeedBack"], pattern = "FoBaT"
@@ -49,7 +49,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= pattern.length, queries.length <= 100`
 - `1 <= queries[i].length <= 100`

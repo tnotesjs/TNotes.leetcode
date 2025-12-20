@@ -13,11 +13,11 @@
 
 - [leetcode](https://leetcode.cn/problems/count-submatrices-with-all-ones)
 
-给你一个 `m x n` 的二进制矩阵 `mat` ，请你返回有多少个 **子矩形** 的元素全部都是 1 。
+给你一个 `m x n` 的二进制矩阵 `mat` ，请你返回有多少个 子矩形 的元素全部都是 1 。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-14-00-07.png)
 
@@ -33,7 +33,7 @@
 矩形数目总共 = 6 + 2 + 3 + 1 + 1 = 13 。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-13-59-33.png)
 
@@ -53,7 +53,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= m, n <= 150`
 - `mat[i][j]` 仅包含 `0` 或 `1`

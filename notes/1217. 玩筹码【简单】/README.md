@@ -24,7 +24,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-19-41-48.png)
 
@@ -36,7 +36,7 @@
 总成本是1。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-19-41-56.png)
 
@@ -55,7 +55,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= position.length <= 100`
 - `1 <= position[i] <= 10^9`

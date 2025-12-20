@@ -19,7 +19,7 @@
 - `void addWord(word)` 将 `word` 添加到数据结构中，之后可以对它进行匹配
 - `bool search(word)` 如果数据结构中存在字符串与 `word` 匹配，则返回 `true` ；否则，返回 `false` 。`word` 中可能包含一些 `'.'` ，每个 `.` 都可以表示任何一个字母。
 
-**示例：**
+示例：
 
 ```txt
 输入：
@@ -41,7 +41,7 @@ wordDictionary.search("b.."); // 返回 True
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= word.length <= 25`
 - `addWord` 中的 `word` 由小写英文字母组成

@@ -25,21 +25,21 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：start = "AACCGGTT", end = "AACCGGTA", bank = ["AACCGGTA"]
 输出：1
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：start = "AACCGGTT", end = "AAACGGTA", bank = ["AACCGGTA","AACCGCTA","AAACGGTA"]
 输出：2
 ```
 
-- **示例 3：**
+- 示例 3：
 
 ```txt
 输入：start = "AAAAACCC", end = "AACCCCCC", bank = ["AAAACCCC","AAACCCCC","AACCCCCC"]
@@ -48,7 +48,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `start.length == 8`
 - `end.length == 8`

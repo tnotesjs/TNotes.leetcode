@@ -25,7 +25,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-16-03-28.png)
 
@@ -35,7 +35,7 @@
 解释：我们删除 list1 中下标为 3 和 4 的两个节点，并将 list2 接在该位置。上图中蓝色的边和节点为答案链表。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-16-03-44.png)
 
@@ -47,7 +47,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `3 <= list1.length <= 10^4`
 - `1 <= a <= b < list1.length - 1`

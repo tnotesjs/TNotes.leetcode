@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/minimum-fuel-cost-to-report-to-the-capital/)
 
-给你一棵 `n` 个节点的树（一个无向、连通、无环图），每个节点表示一个城市，编号从 `0` 到 `n - 1` ，且恰好有 `n - 1` 条路。`0` 是首都。给你一个二维整数数组 `roads` ，其中 `roads[i] = [ai, bi]` ，表示城市 `ai` 和 `bi` 之间有一条 **双向路** 。
+给你一棵 `n` 个节点的树（一个无向、连通、无环图），每个节点表示一个城市，编号从 `0` 到 `n - 1` ，且恰好有 `n - 1` 条路。`0` 是首都。给你一个二维整数数组 `roads` ，其中 `roads[i] = [ai, bi]` ，表示城市 `ai` 和 `bi` 之间有一条 双向路 。
 
 每个城市里有一个代表，他们都要去首都参加一个会议。
 
@@ -25,7 +25,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-18-50.png)
 
@@ -41,7 +41,7 @@
 
 ---
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-19-00.png)
 
@@ -61,7 +61,7 @@
 
 ---
 
-- **示例 3：**
+- 示例 3：
 
 ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-19-08.png)
 
@@ -73,7 +73,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= n <= 10^5`
 - `roads.length == n - 1`

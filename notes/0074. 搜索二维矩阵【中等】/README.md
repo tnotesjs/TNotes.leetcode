@@ -26,7 +26,7 @@
 
 给你一个整数 `target` ，如果 `target` 在矩阵中，返回 `true` ；否则，返回 `false` 。
 
-**示例 1：**
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-02-21-32-16.png)
 
@@ -35,7 +35,7 @@
 输出：true
 ```
 
-**示例 2：**
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-02-21-32-35.png)
 
@@ -44,7 +44,7 @@
 输出：false
 ```
 
-**提示：**
+提示：
 
 - `m == matrix.length`
 - `n == matrix[i].length`

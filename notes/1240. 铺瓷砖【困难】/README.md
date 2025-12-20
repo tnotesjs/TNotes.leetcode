@@ -17,7 +17,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-19-53-09.png)
 
@@ -29,7 +29,7 @@
      1 个 2x2 的正方形
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-19-53-17.png)
 
@@ -38,7 +38,7 @@
 输出：5
 ```
 
-- **示例 3：**
+- 示例 3：
 
 ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-19-53-23.png)
 
@@ -49,7 +49,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= n, m <= 13`
 

@@ -13,21 +13,21 @@
 
 - [leetcode](https://leetcode.cn/problems/sum-of-prefix-scores-of-strings/)
 
-给你一个长度为 `n` 的数组 `words` ，该数组由 **非空** 字符串组成。
+给你一个长度为 `n` 的数组 `words` ，该数组由 非空 字符串组成。
 
-定义字符串 `term` 的 **分数** 等于以 `term` 作为 **前缀** 的 `words[i]` 的数目。
+定义字符串 `term` 的 分数 等于以 `term` 作为 前缀 的 `words[i]` 的数目。
 
 - 例如，如果 `words = ["a", "ab", "abc", "cab"]` ，那么 `"ab"` 的分数是 `2` ，因为 `"ab"` 是 `"ab"` 和 `"abc"` 的一个前缀。
 
-返回一个长度为 `n` 的数组 `answer` ，其中 `answer[i]` 是 `words[i]` 的每个非空前缀的分数 **总和** 。
+返回一个长度为 `n` 的数组 `answer` ，其中 `answer[i]` 是 `words[i]` 的每个非空前缀的分数 总和 。
 
 ---
 
-**注意：** 字符串视作它自身的一个前缀。
+注意： 字符串视作它自身的一个前缀。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：words = ["abc","ab","bc","b"]
@@ -47,7 +47,7 @@
 总计 answer[3] = 2 。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：words = ["abcd"]
@@ -59,7 +59,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= words.length <= 1000`
 - `1 <= words[i].length <= 1000`

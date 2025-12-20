@@ -11,13 +11,13 @@
 
 - [leetcode](https://leetcode.cn/problems/maximum-difference-between-node-and-ancestor/)
 
-给定二叉树的根节点 `root`，找出存在于 **不同** 节点 `A` 和 `B` 之间的最大值 `V`，其中 `V = |A.val - B.val|`，且 `A` 是 `B` 的祖先。
+给定二叉树的根节点 `root`，找出存在于 不同 节点 `A` 和 `B` 之间的最大值 `V`，其中 `V = |A.val - B.val|`，且 `A` 是 `B` 的祖先。
 
 （如果 A 的任何子节点之一为 B，或者 A 的任何子节点是 B 的祖先，那么我们认为 A 是 B 的祖先）
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-15-21-11.png)
 
@@ -33,7 +33,7 @@
 在所有可能的差值中，最大值 7 由 |8 - 1| = 7 得出。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-15-21-18.png)
 
@@ -44,7 +44,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - 树中的节点数在 `2` 到 `5000` 之间。
 - `0 <= Node.val <= 10^5`

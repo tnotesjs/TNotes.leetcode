@@ -13,13 +13,13 @@
 
 - [leetcode](https://leetcode.cn/problems/modify-the-matrix/)
 
-给你一个下标从 **0** 开始、大小为 `m x n` 的整数矩阵 `matrix` ，新建一个下标从 **0** 开始、名为 `answer` 的矩阵。使 `answer` 与 `matrix` 相等，接着将其中每个值为 `-1` 的元素替换为所在列的 **最大** 元素。
+给你一个下标从 0 开始、大小为 `m x n` 的整数矩阵 `matrix` ，新建一个下标从 0 开始、名为 `answer` 的矩阵。使 `answer` 与 `matrix` 相等，接着将其中每个值为 `-1` 的元素替换为所在列的 最大 元素。
 
 返回矩阵 `answer` 。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-46-50.png)
 
@@ -31,7 +31,7 @@
 - 将单元格 [0][2] 中的值替换为列 2 中的最大值 9 。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-46-55.png)
 
@@ -43,7 +43,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `m == matrix.length`
 - `n == matrix[i].length`

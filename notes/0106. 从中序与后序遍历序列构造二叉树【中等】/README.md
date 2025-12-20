@@ -30,10 +30,10 @@
 - `1 <= inorder.length <= 3000`
 - `postorder.length == inorder.length`
 - `-3000 <= inorder[i], postorder[i] <= 3000`
-- `inorder` 和 `postorder` 都由 **不同** 的值组成
+- `inorder` 和 `postorder` 都由 不同 的值组成
 - `postorder` 中每一个值都在 `inorder` 中
-- `inorder` **保证**是树的中序遍历
-- `postorder` **保证**是树的后序遍历
+- `inorder` 保证是树的中序遍历
+- `postorder` 保证是树的后序遍历
 
 ## 2. 🎯 s.1
 

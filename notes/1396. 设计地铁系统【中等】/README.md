@@ -24,7 +24,7 @@
   - 通行卡 ID 等于 `id` 的乘客，在时间 `t` ，从 `stationName` 站离开
 - `double getAverageTime(string startStation, string endStation)`
   - 返回从 `startStation` 站到 `endStation` 站的平均时间
-  - 平均时间会根据截至目前所有从 `startStation` 站 **直接** 到达 `endStation` 站的行程进行计算，也就是从 `startStation` 站进入并从 `endStation` 离开的行程
+  - 平均时间会根据截至目前所有从 `startStation` 站 直接 到达 `endStation` 站的行程进行计算，也就是从 `startStation` 站进入并从 `endStation` 离开的行程
   - 从 `startStation` 到 `endStation` 的行程时间与从 `endStation` 到 `startStation` 的行程时间可能不同
   - 在调用 `getAverageTime` 之前，至少有一名乘客从 `startStation` 站到达 `endStation` 站
 
@@ -32,7 +32,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入
@@ -87,7 +87,7 @@ undergroundSystem.checkOut(10, "Waterloo", 38);  // 乘客 10 "Leyton" -> "Water
 undergroundSystem.getAverageTime("Leyton", "Waterloo");    // 返回 12.00000 。有三个 "Leyton" -> "Waterloo" 的行程，(10 + 12 + 14) / 3 = 12
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入
@@ -135,7 +135,7 @@ undergroundSystem.getAverageTime("Leyton", "Paradise"); // 返回 6.66667 ，(5 
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= id, t <= 10^6`
 - `1 <= stationName.length, startStation.length, endStation.length <= 10`

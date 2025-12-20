@@ -29,7 +29,7 @@
 
 尝试在不使用内置数组方法的情况下实现这个方法。
 
-**示例 1：**
+示例 1：
 
 输入：
 
@@ -50,7 +50,7 @@ console.log(arr) // [2,4,6]
 
 回调函数在数组的每个元素上执行。
 
-**示例 2：**
+示例 2：
 
 输入：
 
@@ -71,7 +71,7 @@ console.log(arr) // [{"context":false},{"context":false},{"context":false},{"con
 
 回调函数在数组的每个元素上以正确的上下文执行。
 
-**示例 3：**
+示例 3：
 
 输入：
 
@@ -83,7 +83,7 @@ console.log(arr) // [{"context":false},{"context":false},{"context":false},{"con
 
 输出：`[false,false,true,true]`
 
-**提示：**
+提示：
 
 - `arr` 是一个有效的 JSON 数组
 - `context` 是一个有效的 JSON 对象

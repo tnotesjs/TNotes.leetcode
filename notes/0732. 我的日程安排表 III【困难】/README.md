@@ -22,7 +22,7 @@
 - `MyCalendarThree()` 初始化对象。
 - `int book(int startTime, int endTime)` 返回一个整数 `k` ，表示日历中存在的 `k` 次预订的最大值。
 
-**示例：**
+示例：
 
 ```txt
 输入：
@@ -44,7 +44,7 @@ myCalendarThree.book(25, 55); // 返回 3
 
 ---
 
-**提示：**
+提示：
 
 - `0 <= startTime < endTime <= 10^9`
 - 每个测试用例，调用 `book` 函数最多不超过 `400`次

@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/minimum-number-of-vertices-to-reach-all-nodes/)
 
-给你一个 **有向无环图** ， `n` 个节点编号为 `0` 到 `n-1` ，以及一个边数组 `edges` ，其中 `edges[i] = [fromi, toi]` 表示一条从点 `fromi` 到点 `toi` 的有向边。
+给你一个 有向无环图 ， `n` 个节点编号为 `0` 到 `n-1` ，以及一个边数组 `edges` ，其中 `edges[i] = [fromi, toi]` 表示一条从点 `fromi` 到点 `toi` 的有向边。
 
 找到最小的点集使得从这些点出发能到达图中所有点。题目保证解存在且唯一。
 
@@ -21,7 +21,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-14-57-39.png)
 
@@ -35,7 +35,7 @@
 所以我们输出 [0,3] 。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-14-57-45.png)
 
@@ -49,7 +49,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `2 <= n <= 10^5`
 - `1 <= edges.length <= min(10^5, n * (n - 1) / 2)`

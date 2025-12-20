@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/shortest-distance-to-target-string-in-a-circular-array/)
 
-给你一个下标从 **0** 开始的 **环形** 字符串数组 `words` 和一个字符串 `target` 。**环形数组** 意味着数组首尾相连。
+给你一个下标从 0 开始的 环形 字符串数组 `words` 和一个字符串 `target` 。环形数组 意味着数组首尾相连。
 
 - 形式上， `words[i]` 的下一个元素是 `words[(i + 1) % n]` ，而 `words[i]` 的前一个元素是 `words[(i - 1 + n) % n]` ，其中 `n` 是 `words` 的长度。
 
@@ -23,7 +23,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：words = ["hello","i","am","leetcode","hello"], target = "hello", startIndex = 1
@@ -36,7 +36,7 @@
 到达 "hello" 的最短距离是 1 。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：words = ["a","b","leetcode"], target = "leetcode", startIndex = 0
@@ -47,7 +47,7 @@
 到达 "leetcode" 的最短距离是 1 。
 ```
 
-- **示例 3：**
+- 示例 3：
 
 ```txt
 输入：words = ["i","eat","leetcode"], target = "ate", startIndex = 0
@@ -57,7 +57,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= words.length <= 100`
 - `1 <= words[i].length <= 100`

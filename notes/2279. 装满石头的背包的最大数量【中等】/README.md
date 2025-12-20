@@ -13,13 +13,13 @@
 
 - [leetcode](https://leetcode.cn/problems/maximum-bags-with-full-capacity-of-rocks/)
 
-现有编号从 `0` 到 `n - 1` 的 `n` 个背包。给你两个下标从 **0** 开始的整数数组 `capacity` 和 `rocks` 。第 `i` 个背包最大可以装 `capacity[i]` 块石头，当前已经装了 `rocks[i]` 块石头。另给你一个整数 `additionalRocks` ，表示你可以放置的额外石头数量，石头可以往 **任意** 背包中放置。
+现有编号从 `0` 到 `n - 1` 的 `n` 个背包。给你两个下标从 0 开始的整数数组 `capacity` 和 `rocks` 。第 `i` 个背包最大可以装 `capacity[i]` 块石头，当前已经装了 `rocks[i]` 块石头。另给你一个整数 `additionalRocks` ，表示你可以放置的额外石头数量，石头可以往 任意 背包中放置。
 
-请你将额外的石头放入一些背包中，并返回放置后装满石头的背包的 **最大** 数量。
+请你将额外的石头放入一些背包中，并返回放置后装满石头的背包的 最大 数量。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：capacity = [2,3,4,5], rocks = [1,2,4,4], additionalRocks = 2
@@ -33,7 +33,7 @@
 注意，可能存在其他放置石头的方案同样能够得到 3 这个结果。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：capacity = [10,2,2], rocks = [2,2,0], additionalRocks = 100
@@ -49,7 +49,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `n == capacity.length == rocks.length`
 - `1 <= n <= 5 * 10^4`

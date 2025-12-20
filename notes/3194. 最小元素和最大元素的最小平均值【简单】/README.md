@@ -17,20 +17,20 @@
 
 你需要重复以下步骤 `n / 2` 次：
 
-- 从 `nums` 中移除 **最小** 的元素 `minElement` 和 **最大** 的元素 `maxElement`。
+- 从 `nums` 中移除 最小 的元素 `minElement` 和 最大 的元素 `maxElement`。
 - 将 `(minElement + maxElement) / 2` 加入到 `averages` 中。
 
-返回 `averages` 中的 **最小** 元素。
+返回 `averages` 中的 最小 元素。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
-**输入：** nums = [7,8,3,4,15,13,4,1]
+输入： nums = [7,8,3,4,15,13,4,1]
 
-**输出：** 5.5
+输出： 5.5
 
-**解释：**
+解释：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-13-15.png)
 
@@ -38,31 +38,31 @@
 
 ---
 
-- **示例 2：**
+- 示例 2：
 
-**输入：** nums = [1,9,8,3,10,5]
+输入： nums = [1,9,8,3,10,5]
 
-**输出：** 5.5
+输出： 5.5
 
-**解释：**
+解释：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-13-34.png)
 
 ---
 
-- **示例 3：**
+- 示例 3：
 
-**输入：** nums = [1,2,3,7,8,9]
+输入： nums = [1,2,3,7,8,9]
 
-**输出：** 5.0
+输出： 5.0
 
-**解释：**
+解释：
 
 ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-12-13-48.png)
 
 ---
 
-**提示：**
+提示：
 
 - `2 <= n == nums.length <= 50`
 - `n` 为偶数。

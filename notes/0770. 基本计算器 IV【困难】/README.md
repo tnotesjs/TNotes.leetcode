@@ -36,18 +36,18 @@
 
 ---
 
-**注意：** 你可以假设给定的表达式均有效。所有中间结果都在区间 `[-2^31, 2^31 - 1]` 内。
+注意： 你可以假设给定的表达式均有效。所有中间结果都在区间 `[-2^31, 2^31 - 1]` 内。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：expression = "e + 8 - a + 5", evalvars = ["e"], evalints = [1]
 输出：["-1*a","14"]
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：expression = "e - 8 + temperature - pressure",
@@ -55,7 +55,7 @@ evalvars = ["e", "temperature"], evalints = [1, 12]
 输出：["-1*pressure","5"]
 ```
 
-- **示例 3：**
+- 示例 3：
 
 ```txt
 输入：expression = "(e + 8) * (e - 8)", evalvars = [], evalints = []
@@ -64,7 +64,7 @@ evalvars = ["e", "temperature"], evalints = [1, 12]
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= expression.length <= 250`
 - `expression` 由小写英文字母，数字 `'+'`, `'-'`, `'*'`, `'('`, `')'`, `' '` 组成

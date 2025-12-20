@@ -13,15 +13,15 @@
 
 - [leetcode](https://leetcode.cn/problems/minimum-money-required-before-transactions/)
 
-给你一个下标从 **0** 开始的二维整数数组 `transactions`，其中`transactions[i] = [costi, cashbacki]` 。
+给你一个下标从 0 开始的二维整数数组 `transactions`，其中`transactions[i] = [costi, cashbacki]` 。
 
-数组描述了若干笔交易。其中每笔交易必须以 **某种顺序** 恰好完成一次。在任意一个时刻，你有一定数目的钱 `money` ，为了完成交易 `i` ，`money >= costi` 这个条件必须为真。执行交易后，你的钱数 `money` 变成 `money - costi + cashbacki` 。
+数组描述了若干笔交易。其中每笔交易必须以 某种顺序 恰好完成一次。在任意一个时刻，你有一定数目的钱 `money` ，为了完成交易 `i` ，`money >= costi` 这个条件必须为真。执行交易后，你的钱数 `money` 变成 `money - costi + cashbacki` 。
 
-请你返回 **任意一种** 交易顺序下，你都能完成所有交易的最少钱数 `money` 是多少。
+请你返回 任意一种 交易顺序下，你都能完成所有交易的最少钱数 `money` 是多少。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：transactions = [[2,1],[5,0],[4,2]]
@@ -31,7 +31,7 @@
 可以证明如果 money < 10 ，那么某些交易无法进行。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：transactions = [[3,0],[0,3]]
@@ -44,7 +44,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= transactions.length <= 10^5`
 - `transactions[i].length == 2`

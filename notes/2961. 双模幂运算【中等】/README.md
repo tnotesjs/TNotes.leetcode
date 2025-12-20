@@ -13,18 +13,18 @@
 
 - [leetcode](https://leetcode.cn/problems/double-modular-exponentiation/)
 
-给你一个下标从 **0** 开始的二维数组 `variables` ，其中 `variables[i] = [ai, bi, ci, mi]`，以及一个整数 `target` 。
+给你一个下标从 0 开始的二维数组 `variables` ，其中 `variables[i] = [ai, bi, ci, mi]`，以及一个整数 `target` 。
 
-如果满足以下公式，则下标 `i` 是 **好下标**：
+如果满足以下公式，则下标 `i` 是 好下标：
 
 - `0 <= i < variables.length`
 - `((ai^bi % 10)^ci) % mi == target`
 
-返回一个由 **好下标** 组成的数组，**顺序不限** 。
+返回一个由 好下标 组成的数组，顺序不限 。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：variables = [[2,3,3,10],[3,3,3,1],[6,1,1,4]], target = 2
@@ -36,7 +36,7 @@
 因此，返回 [0,2] 作为答案。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：variables = [[39,3,1000,1000]], target = 17
@@ -48,7 +48,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= variables.length <= 100`
 - `variables[i] == [ai, bi, ci, mi]`

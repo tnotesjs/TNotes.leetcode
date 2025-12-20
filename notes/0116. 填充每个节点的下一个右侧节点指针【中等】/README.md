@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/populating-next-right-pointers-in-each-node/)
 
-给定一个 **完美二叉树**，其所有叶子节点都在同一层，每个父节点都有两个子节点。二叉树定义如下：
+给定一个 完美二叉树，其所有叶子节点都在同一层，每个父节点都有两个子节点。二叉树定义如下：
 
 ```c
 struct Node {
@@ -28,7 +28,7 @@ struct Node {
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-20-37-57.png)
 
@@ -50,7 +50,7 @@ struct Node {
 
 ---
 
-**提示：**
+提示：
 
 - 树中节点的数量在 `[0, 2^12 - 1]` 范围内
 - `-1000 <= node.val <= 1000`

@@ -28,7 +28,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入
@@ -77,13 +77,13 @@ cashier.getBill([2,3,5],[5,3,2]);                    // 返回 2500.0
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= n <= 10^4`
 - `0 <= discount <= 100`
 - `1 <= products.length <= 200`
 - `1 <= products[i] <= 200`
-- `products` 列表中 **不会** 有重复的元素。
+- `products` 列表中 不会 有重复的元素。
 - `prices.length == products.length`
 - `1 <= prices[i] <= 1000`
 - `1 <= product.length <= products.length`

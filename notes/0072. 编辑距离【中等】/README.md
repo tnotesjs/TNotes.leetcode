@@ -19,7 +19,7 @@
 - 删除一个字符
 - 替换一个字符
 
-**示例 1：**
+示例 1：
 
 ```txt
 输入：word1 = "horse", word2 = "ros"
@@ -30,7 +30,7 @@ rorse -> rose (删除 'r')
 rose -> ros (删除 'e')
 ```
 
-**示例 2：**
+示例 2：
 
 ```txt
 输入：word1 = "intention", word2 = "execution"
@@ -45,7 +45,7 @@ exection -> execution (插入 'u')
 
 ---
 
-**提示：**
+提示：
 
 - `0 <= word1.length, word2.length <= 500`
 - `word1` 和 `word2` 由小写英文字母组成

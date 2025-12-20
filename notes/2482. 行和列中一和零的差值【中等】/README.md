@@ -13,9 +13,9 @@
 
 - [leetcode](https://leetcode.cn/problems/difference-between-ones-and-zeros-in-row-and-column/)
 
-给你一个下标从 **0** 开始的 `m x n` 二进制矩阵 `grid` 。
+给你一个下标从 0 开始的 `m x n` 二进制矩阵 `grid` 。
 
-我们按照如下过程，定义一个下标从 **0** 开始的 `m x n` 差值矩阵 `diff` ：
+我们按照如下过程，定义一个下标从 0 开始的 `m x n` 差值矩阵 `diff` ：
 
 - 令第 `i` 行一的数目为 `onesRowi` 。
 - 令第 `j` 列一的数目为 `onesColj` 。
@@ -27,7 +27,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-20-38.png)
 
@@ -48,7 +48,7 @@
 
 ---
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-20-45.png)
 
@@ -66,7 +66,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `m == grid.length`
 - `n == grid[i].length`

@@ -25,7 +25,7 @@
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ![图 0](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-19-50-55.png)
 
@@ -37,7 +37,7 @@
 时间范围是 [1-3]+[3-6]，共获得报酬 120 = 50 + 70。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ![图 1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-19-51-06.png)
 
@@ -49,7 +49,7 @@
 共获得报酬 150 = 20 + 70 + 60。
 ```
 
-- **示例 3：**
+- 示例 3：
 
 ![图 2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-19-51-16.png)
 
@@ -60,7 +60,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= startTime.length == endTime.length == profit.length <= 5 * 10^4`
 - `1 <= startTime[i] < endTime[i] <= 10^9`

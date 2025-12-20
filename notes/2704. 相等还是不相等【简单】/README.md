@@ -18,7 +18,7 @@
 
 ---
 
-**示例 1：**
+示例 1：
 
 - 输入：`func = () => expect(5).toBe(5)`
 - 输出：`{"value": true}`
@@ -26,7 +26,7 @@
 
 ---
 
-**示例 2：**
+示例 2：
 
 - 输入：`func = () => expect(5).toBe(null)`
 - 输出：`{"error": "Not Equal"}`
@@ -34,7 +34,7 @@
 
 ---
 
-**示例 3：**
+示例 3：
 
 - 输入：`func = () => expect(5).notToBe(null)`
 - 输出：`{"value": true}`

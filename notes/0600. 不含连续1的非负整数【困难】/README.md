@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/non-negative-integers-without-consecutive-ones)
 
-给定一个正整数 `n` ，请你统计在 `[0, n]` 范围的非负整数中，有多少个整数的二进制表示中不存在 **连续的 1** 。
+给定一个正整数 `n` ，请你统计在 `[0, n]` 范围的非负整数中，有多少个整数的二进制表示中不存在 连续的 1 。
 
 ---
 

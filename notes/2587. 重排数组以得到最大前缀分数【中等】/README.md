@@ -13,15 +13,15 @@
 
 - [leetcode](https://leetcode.cn/problems/count-the-number-of-vowel-strings-in-range/)
 
-给你一个下标从 **0** 开始的字符串数组 `words` 和两个整数：`left` 和 `right` 。
+给你一个下标从 0 开始的字符串数组 `words` 和两个整数：`left` 和 `right` 。
 
-如果字符串以元音字母开头并以元音字母结尾，那么该字符串就是一个 **元音字符串** ，其中元音字母是 `'a'`、`'e'`、`'i'`、`'o'`、`'u'` 。
+如果字符串以元音字母开头并以元音字母结尾，那么该字符串就是一个 元音字符串 ，其中元音字母是 `'a'`、`'e'`、`'i'`、`'o'`、`'u'` 。
 
 返回 `words[i]` 是元音字符串的数目，其中 `i` 在闭区间 `[left, right]` 内。
 
 ---
 
-- **示例 1：**
+- 示例 1：
 
 ```txt
 输入：words = ["are","amy","u"], left = 0, right = 2
@@ -33,7 +33,7 @@
 在上述范围中的元音字符串数目为 2 。
 ```
 
-- **示例 2：**
+- 示例 2：
 
 ```txt
 输入：words = ["hey","aeo","mu","ooo","artro"], left = 1, right = 4
@@ -48,7 +48,7 @@
 
 ---
 
-**提示：**
+提示：
 
 - `1 <= words.length <= 1000`
 - `1 <= words[i].length <= 10`

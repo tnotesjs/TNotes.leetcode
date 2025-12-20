@@ -30,7 +30,7 @@
 - **示例 1：**
 
 ```txt
-输入：target = 12, position = \[10,8,0,5,3\], speed = \[2,4,1,1,3\]
+输入：target = 12, position = [10,8,0,5,3], speed = [2,4,1,1,3]
 输出：3
 ```
 
@@ -44,7 +44,7 @@
 - **示例 2：**
 
 ```txt
-输入：target = 10, position = \[3\], speed = \[3\]
+输入：target = 10, position = [3], speed = [3]
 输出：1
 解释：只有一辆车，因此只有一个车队。
 ```
@@ -54,7 +54,7 @@
 - **示例 3：**
 
 ```txt
-输入：target = 100, position = \[0,2,4\], speed = \[4,2,1\]
+输入：target = 100, position = [0,2,4], speed = [4,2,1]
 输出：1
 ```
 

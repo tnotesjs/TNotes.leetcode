@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/minimum-ascii-delete-sum-for-two-strings/)
 
-给定两个字符串`s1` 和 `s2`，返回 _使两个字符串相等所需删除字符的 **ASCII** 值的最小和_ 。
+给定两个字符串`s1` 和 `s2`，返回 _使两个字符串相等所需删除字符的 ASCII 值的最小和_ 。
 
 ---
 
