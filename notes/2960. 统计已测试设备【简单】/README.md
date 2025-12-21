@@ -3,9 +3,7 @@
 <!-- region:toc -->
 
 - [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 解法 1](#2--s1---解法-1)
-- [3. 🎯 s.2 - 解法 2](#3--s2---解法-2)
-- [4. 🎯 s.3 - 解法 3](#4--s3---解法-3)
+- [2. 🎯 s.1 - 模拟](#2--s1---模拟)
 
 <!-- endregion:toc -->
 
@@ -13,13 +11,13 @@
 
 - [leetcode](https://leetcode.cn/problems/count-tested-devices-after-test-operations/)
 
-给你一个长度为 `n` 、下标从 0 开始的整数数组 `batteryPercentages` ，表示 `n` 个设备的电池百分比。
+给你一个长度为 `n` 、下标从 0 开始的整数数组 `batteryPercentages`，表示 `n` 个设备的电池百分比。
 
 你的任务是按照顺序测试每个设备 `i`，执行以下测试操作：
 
 - 如果 `batteryPercentages[i]` 大于 `0`：
   - 增加 已测试设备的计数。
-  - 将下标 `j` 在 `[i + 1, n - 1]` 的所有设备的电池百分比减少 `1`，确保它们的电池百分比 不会低于 `0` ，即 `batteryPercentages[j] = max(0, batteryPercentages[j] - 1)`。
+  - 将下标 `j` 在 `[i + 1, n - 1]` 的所有设备的电池百分比减少 `1`，确保它们的电池百分比 不会低于 `0`，即 `batteryPercentages[j] = max(0, batteryPercentages[j] - 1)`。
   - 移动到下一个设备。
 - 否则，移动到下一个设备而不执行任何测试。
 
@@ -27,31 +25,31 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
-```txt
-输入：batteryPercentages = [1,1,2,1,3]
-输出：3
-解释：按顺序从设备 0 开始执行测试操作：
-在设备 0 上，batteryPercentages[0] > 0 ，现在有 1 个已测试设备，batteryPercentages 变为 [1,0,1,0,2] 。
-在设备 1 上，batteryPercentages[1] == 0 ，移动到下一个设备而不进行测试。
-在设备 2 上，batteryPercentages[2] > 0 ，现在有 2 个已测试设备，batteryPercentages 变为 [1,0,1,0,1] 。
-在设备 3 上，batteryPercentages[3] == 0 ，移动到下一个设备而不进行测试。
-在设备 4 上，batteryPercentages[4] > 0 ，现在有 3 个已测试设备，batteryPercentages 保持不变。
-因此，答案是 3 。
-```
+- 输入：batteryPercentages = [1,1,2,1,3]
+- 输出：3
+- 解释：
+  - 按顺序从设备 0 开始执行测试操作：
+  - 在设备 0 上，`batteryPercentages[0] > 0`，现在有 1 个已测试设备，`batteryPercentages` 变为 `[1,0,1,0,2]`。
+  - 在设备 1 上，`batteryPercentages[1] == 0`，移动到下一个设备而不进行测试。
+  - 在设备 2 上，`batteryPercentages[2] > 0`，现在有 2 个已测试设备，`batteryPercentages` 变为 `[1,0,1,0,1]`。
+  - 在设备 3 上，`batteryPercentages[3] == 0`，移动到下一个设备而不进行测试。
+  - 在设备 4 上，`batteryPercentages[4] > 0`，现在有 3 个已测试设备，`batteryPercentages` 保持不变。
+  - 因此，答案是 3。
 
-- 示例 2：
+---
 
-```txt
-输入：batteryPercentages = [0,1,2]
-输出：2
-解释：按顺序从设备 0 开始执行测试操作：
-在设备 0 上，batteryPercentages[0] == 0 ，移动到下一个设备而不进行测试。
-在设备 1 上，batteryPercentages[1] > 0 ，现在有 1 个已测试设备，batteryPercentages 变为 [0,1,1] 。
-在设备 2 上，batteryPercentages[2] > 0 ，现在有 2 个已测试设备，batteryPercentages 保持不变。
-因此，答案是 2 。
-```
+示例 2：
+
+- 输入：`batteryPercentages = [0,1,2]`
+- 输出：`2`
+- 解释：
+  - 按顺序从设备 0 开始执行测试操作：
+  - 在设备 0 上，`batteryPercentages[0] == 0`，移动到下一个设备而不进行测试。
+  - 在设备 1 上，`batteryPercentages[1] > 0`，现在有 1 个已测试设备，`batteryPercentages` 变为 `[0,1,1]`。
+  - 在设备 2 上，`batteryPercentages[2] > 0`，现在有 2 个已测试设备，`batteryPercentages` 保持不变。
+  - 因此，答案是 2。
 
 ---
 
@@ -60,7 +58,7 @@
 - `1 <= n == batteryPercentages.length <= 100`
 - `0 <= batteryPercentages[i] <= 100`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 模拟
 
 ::: code-group
 
@@ -68,5 +66,12 @@
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，其中 n 是数组长度
+- 空间复杂度：$O(1)$，只使用了常数级别的额外空间
+
+解题思路：
+
+- 每测试一个设备，后续所有设备电量都减 1
+- 不需要真的修改数组，只需记录已测试设备数 tested
+- 对于第 i 个设备，其实际电量 = 原电量 - tested
+- 如果实际电量 > 0，则测试该设备，tested++
