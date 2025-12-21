@@ -1,4 +1,4 @@
-# [0668. 乘法表中第k小的数【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0668.%20%E4%B9%98%E6%B3%95%E8%A1%A8%E4%B8%AD%E7%AC%ACk%E5%B0%8F%E7%9A%84%E6%95%B0%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91)
+# [0668. 乘法表中第 k 小的数【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0668.%20%E4%B9%98%E6%B3%95%E8%A1%A8%E4%B8%AD%E7%AC%ACk%E5%B0%8F%E7%9A%84%E6%95%B0%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91)
 
 <!-- region:toc -->
 
@@ -53,28 +53,6 @@
 ::: code-group
 
 <<< ./solutions/1/1.js [js]
-
-:::
-
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
-
-## 3. 🎯 s.2 - 解法 2
-
-::: code-group
-
-<<< ./solutions/2/1.js [js]
-
-:::
-
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
-
-## 4. 🎯 s.3 - 解法 3
-
-::: code-group
-
-<<< ./solutions/3/1.js [js]
 
 :::
 

@@ -1,4 +1,4 @@
-# [0779. 第K个语法符号【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0779.%20%E7%AC%ACK%E4%B8%AA%E8%AF%AD%E6%B3%95%E7%AC%A6%E5%8F%B7%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
+# [0779. 第 K 个语法符号【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0779.%20%E7%AC%ACK%E4%B8%AA%E8%AF%AD%E6%B3%95%E7%AC%A6%E5%8F%B7%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
 
@@ -61,28 +61,6 @@
 ::: code-group
 
 <<< ./solutions/1/1.js [js]
-
-:::
-
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
-
-## 3. 🎯 s.2 - 解法 2
-
-::: code-group
-
-<<< ./solutions/2/1.js [js]
-
-:::
-
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
-
-## 4. 🎯 s.3 - 解法 3
-
-::: code-group
-
-<<< ./solutions/3/1.js [js]
 
 :::
 

@@ -1,4 +1,4 @@
-# [0757. 设置交集大小至少为2【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0757.%20%E8%AE%BE%E7%BD%AE%E4%BA%A4%E9%9B%86%E5%A4%A7%E5%B0%8F%E8%87%B3%E5%B0%91%E4%B8%BA2%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91)
+# [0757. 设置交集大小至少为 2【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0757.%20%E8%AE%BE%E7%BD%AE%E4%BA%A4%E9%9B%86%E5%A4%A7%E5%B0%8F%E8%87%B3%E5%B0%91%E4%B8%BA2%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91)
 
 <!-- region:toc -->
 
@@ -63,28 +63,6 @@
 ::: code-group
 
 <<< ./solutions/1/1.js [js]
-
-:::
-
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
-
-## 3. 🎯 s.2 - 解法 2
-
-::: code-group
-
-<<< ./solutions/2/1.js [js]
-
-:::
-
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
-
-## 4. 🎯 s.3 - 解法 3
-
-::: code-group
-
-<<< ./solutions/3/1.js [js]
 
 :::
 
