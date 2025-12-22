@@ -978,7 +978,7 @@
 - [x] [0905. 按奇偶排序数组【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0905.%20%E6%8C%89%E5%A5%87%E5%81%B6%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
 - [ ] [0906. 超级回文数【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0906.%20%E8%B6%85%E7%BA%A7%E5%9B%9E%E6%96%87%E6%95%B0%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
 - [ ] [0907. 子数组的最小值之和【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0907.%20%E5%AD%90%E6%95%B0%E7%BB%84%E7%9A%84%E6%9C%80%E5%B0%8F%E5%80%BC%E4%B9%8B%E5%92%8C%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
-- [ ] [0908. 最小差值 I【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0908.%20%E6%9C%80%E5%B0%8F%E5%B7%AE%E5%80%BC%20I%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
+- [x] [0908. 最小差值 I【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0908.%20%E6%9C%80%E5%B0%8F%E5%B7%AE%E5%80%BC%20I%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
 - [ ] [0909. 蛇梯棋【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0909.%20%E8%9B%87%E6%A2%AF%E6%A3%8B%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0910. 最小差值 II【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0910.%20%E6%9C%80%E5%B0%8F%E5%B7%AE%E5%80%BC%20II%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0911. 在线选举【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0911.%20%E5%9C%A8%E7%BA%BF%E9%80%89%E4%B8%BE%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
