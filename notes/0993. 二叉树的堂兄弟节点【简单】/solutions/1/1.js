@@ -18,10 +18,11 @@ var isCousins = function (root, x, y) {
   const queue = [root]
 
   while (queue.length) {
-    const size = queue.length
+    const size = queue.length // 当前层的节点数
     let foundX = false
     let foundY = false
 
+    // 遍历当前层
     for (let i = 0; i < size; i++) {
       const node = queue.shift()
       // 同父节点的两个孩子为 x 和 y，则是兄弟，非堂兄弟
