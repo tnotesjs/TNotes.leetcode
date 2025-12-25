@@ -1,6 +1,8 @@
-// 0976. 三角形的最大周长【简单】
-// 排序后从最大边开始检查三元组，满足 a + b > c 即返回周长。
-function largestPerimeter(nums) {
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+var largestPerimeter = function (nums) {
   nums.sort((a, b) => a - b)
   for (let i = nums.length - 1; i >= 2; i--) {
     const a = nums[i - 2]

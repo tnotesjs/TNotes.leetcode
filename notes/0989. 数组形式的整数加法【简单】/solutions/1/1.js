@@ -22,3 +22,30 @@ var addToArrayForm = function (num, k) {
   res.reverse()
   return res
 }
+
+// --------------------------------------------
+// 【补充说明】
+// 🤔 为什么不直接使用 unshift 来维护 res，而是先用 push 最后再 reverse？
+// --------------------------------------------
+// unshift 比 push 操作昂贵得多！
+// 可以对比两个版本的提交时间来查看差异。
+// 也可以在浏览器调试工具中执行以下示例来对比：
+/* 
+const arr = []
+
+console.time('push')
+for (let i = 0; i < 1_000_000; i++) {
+  arr.push(i)
+}
+console.timeEnd('push')
+
+const arr2 = []
+console.time('unshift')
+for (let i = 0; i < 1_000_000; i++) {
+  arr2.unshift(i)
+}
+console.timeEnd('unshift')
+*/
+// 实测结果参考：
+// push: 6.7861328125 ms
+// unshift: 36471.3720703125 ms

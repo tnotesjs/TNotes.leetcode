@@ -10,5 +10,3 @@ var repeatedNTimes = function (nums) {
   }
   return -1 // 按题意不会到这里
 }
-
-// todo
