@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/edit-distance/)
 
-给你两个单词 `word1` 和 `word2`， _请返回将 `word1` 转换成 `word2` 所使用的最少操作数_ 。
+给你两个单词 `word1` 和 `word2`， _请返回将 `word1` 转换成 `word2` 所使用的最少操作数_。
 
 你可以对一个单词进行如下三种操作：
 

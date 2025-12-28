@@ -17,9 +17,9 @@
 
 同时给你一个长度为 `n` 的整数数组 `nums`，以及一个整数 `maxDiff`。
 
-如果满足 `|nums[i] - nums[j]| <= maxDiff`（即 `nums[i]` 和 `nums[j]` 的 绝对差 至多为 `maxDiff`），则节点 `i` 和节点 `j` 之间存在一条 无向边 。
+如果满足 `|nums[i] - nums[j]| <= maxDiff`（即 `nums[i]` 和 `nums[j]` 的 绝对差 至多为 `maxDiff`），则节点 `i` 和节点 `j` 之间存在一条 无向边。
 
-此外，给你一个二维整数数组 `queries`。对于每个 `queries[i] = [ui, vi]`，找到节点 `ui` 和节点 `vi` 之间的 最短距离 。如果两节点之间不存在路径，则返回 -1。
+此外，给你一个二维整数数组 `queries`。对于每个 `queries[i] = [ui, vi]`，找到节点 `ui` 和节点 `vi` 之间的 最短距离。如果两节点之间不存在路径，则返回 -1。
 
 返回一个数组 `answer`，其中 `answer[i]` 是第 `i` 个查询的结果。
 

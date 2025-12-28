@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/count-largest-group/)
 
-给定一个整数 `n` 。
+给定一个整数 `n`。
 
 我们需要根据数字的数位和将 `1` 到 `n` 的数字分组。例如，数字 14 和 5 属于 同一 组，而数字 13 和 3 属于 不同 组。
 

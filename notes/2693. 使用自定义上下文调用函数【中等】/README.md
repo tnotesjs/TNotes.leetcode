@@ -24,9 +24,9 @@ function tax(price, taxRate) {
 }
 ```
 
-调用 `tax(10, 0.1)` 将输出 `"The cost of undefined is 11"` 。这是因为 `this` 上下文未定义。
+调用 `tax(10, 0.1)` 将输出 `"The cost of undefined is 11"`。这是因为 `this` 上下文未定义。
 
-然而，调用 `tax.callPolyfill({item: "salad"}, 10, 0.1)` 将输出 `"The cost of salad is 11"` 。`this` 上下文被正确设置，函数输出了适当的结果。
+然而，调用 `tax.callPolyfill({item: "salad"}, 10, 0.1)` 将输出 `"The cost of salad is 11"`。`this` 上下文被正确设置，函数输出了适当的结果。
 
 请在不使用内置的 `Function.call` 方法的情况下解决这个问题。
 

@@ -26,8 +26,8 @@
 +-------------+---------+
 此表可能有重复的行。
 此表包含了一些从数据库中收集的查询信息。
-“位置”（position）列的值为 1 到 500 。
-“评分”（rating）列的值为 1 到 5 。评分小于 3 的查询被定义为质量很差的查询。
+“位置”（position）列的值为 1 到 500。
+“评分”（rating）列的值为 1 到 5。评分小于 3 的查询被定义为质量很差的查询。
 ```
 
 将查询结果的质量 `quality` 定义为：
@@ -40,7 +40,7 @@
 
 编写解决方案，找出每次的 `query_name` 、 `quality` 和 `poor_query_percentage`。
 
-`quality` 和 `poor_query_percentage` 都应 四舍五入到小数点后两位 。
+`quality` 和 `poor_query_percentage` 都应 四舍五入到小数点后两位。
 
 以 任意顺序 返回结果表。
 

@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/intersection-of-two-arrays/)
 
-给定两个数组 `nums1` 和 `nums2` ，返回 _它们的 交集_ 。输出结果中的每个元素一定是 唯一 的。我们可以 不考虑输出结果的顺序 。
+给定两个数组 `nums1` 和 `nums2` ，返回 _它们的 交集_。输出结果中的每个元素一定是 唯一 的。我们可以 不考虑输出结果的顺序。
 
 ---
 

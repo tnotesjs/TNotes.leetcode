@@ -26,7 +26,7 @@
 ```txt
 输入：a = 12, b = 5, n = 4
 输出：98
-解释：当 x = 2 时，(a XOR x) = 14 且 (b XOR x) = 7 。所以，(a XOR x) * (b XOR x) = 98 。
+解释：当 x = 2 时，(a XOR x) = 14 且 (b XOR x) = 7。所以，(a XOR x) * (b XOR x) = 98。
 98 是所有满足 0 <= x < 2n 中 (a XOR x) * (b XOR x) 的最大值。
 ```
 
@@ -35,7 +35,7 @@
 ```txt
 输入：a = 6, b = 7 , n = 5
 输出：930
-解释：当 x = 25 时，(a XOR x) = 31 且 (b XOR x) = 30 。所以，(a XOR x) * (b XOR x) = 930 。
+解释：当 x = 25 时，(a XOR x) = 31 且 (b XOR x) = 30。所以，(a XOR x) * (b XOR x) = 930。
 930 是所有满足 0 <= x < 2n 中 (a XOR x) * (b XOR x) 的最大值。
 ```
 
@@ -44,7 +44,7 @@
 ```txt
 输入：a = 1, b = 6, n = 3
 输出：12
-解释： 当 x = 5 时，(a XOR x) = 4 且 (b XOR x) = 3 。所以，(a XOR x) * (b XOR x) = 12 。
+解释： 当 x = 5 时，(a XOR x) = 4 且 (b XOR x) = 3。所以，(a XOR x) * (b XOR x) = 12。
 12 是所有满足 0 <= x < 2n 中 (a XOR x) * (b XOR x) 的最大值。
 ```
 

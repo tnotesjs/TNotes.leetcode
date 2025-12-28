@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/maximum-subarray-sum-with-length-divisible-by-k/)
 
-给你一个整数数组 `nums` 和一个整数 `k` 。
+给你一个整数数组 `nums` 和一个整数 `k`。
 
 返回 `nums` 中一个 非空子数组 的 最大 和，要求该子数组的长度可以 被 `k` 整除。
 

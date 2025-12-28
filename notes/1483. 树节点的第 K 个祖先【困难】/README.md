@@ -20,7 +20,7 @@
 实现 `TreeAncestor` 类：
 
 - `TreeAncestor（int n， int[] parent）` 对树和父数组中的节点数初始化对象。
-- ` getKthAncestor``(int node, int k) ` 返回节点 `node` 的第 `k` 个祖先节点。如果不存在这样的祖先节点，返回 `-1` 。
+- ` getKthAncestor``(int node, int k) ` 返回节点 `node` 的第 `k` 个祖先节点。如果不存在这样的祖先节点，返回 `-1`。
 
 ---
 

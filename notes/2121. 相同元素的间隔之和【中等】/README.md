@@ -13,11 +13,11 @@
 
 - [leetcode](https://leetcode.cn/problems/intervals-between-identical-elements/)
 
-给你一个下标从 0 开始、由 `n` 个整数组成的数组 `arr` 。
+给你一个下标从 0 开始、由 `n` 个整数组成的数组 `arr`。
 
-`arr` 中两个元素的 间隔 定义为它们下标之间的 绝对差 。更正式地，`arr[i]` 和 `arr[j]` 之间的间隔是 `|i - j|` 。
+`arr` 中两个元素的 间隔 定义为它们下标之间的 绝对差。更正式地，`arr[i]` 和 `arr[j]` 之间的间隔是 `|i - j|`。
 
-返回一个长度为 `n` 的数组 `intervals` ，其中 `intervals[i]` 是 `arr[i]` 和 `arr` 中每个相同元素（与 `arr[i]` 的值相同）的 间隔之和 。
+返回一个长度为 `n` 的数组 `intervals` ，其中 `intervals[i]` 是 `arr[i]` 和 `arr` 中每个相同元素（与 `arr[i]` 的值相同）的 间隔之和。
 
 ---
 

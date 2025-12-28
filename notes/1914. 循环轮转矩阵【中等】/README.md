@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/cyclically-rotating-a-grid/)
 
-给你一个大小为 `m x n` 的整数矩阵 `grid`​​​ ，其中 `m` 和 `n` 都是 偶数 ；另给你一个整数 `k` 。
+给你一个大小为 `m x n` 的整数矩阵 `grid`​​​ ，其中 `m` 和 `n` 都是 偶数 ；另给你一个整数 `k`。
 
 矩阵由若干层组成，如下图所示，每种颜色代表一层：
 

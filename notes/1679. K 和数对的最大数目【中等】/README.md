@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/max-number-of-k-sum-pairs/)
 
-给你一个整数数组 `nums` 和一个整数 `k` 。
+给你一个整数数组 `nums` 和一个整数 `k`。
 
 每一步操作中，你需要从数组中选出和为 `k` 的两个整数，并将它们移出数组。
 

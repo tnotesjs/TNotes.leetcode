@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/maximum-points-tourist-can-earn/)
 
-给你两个整数 `n` 和 `k` ，和两个二维整数数组 `stayScore` 和 `travelScore` 。
+给你两个整数 `n` 和 `k` ，和两个二维整数数组 `stayScore` 和 `travelScore`。
 
 一位旅客正在一个有 `n` 座城市的国家旅游，每座城市都 直接 与其他所有城市相连。这位游客会旅游 恰好 `k` 天（下标从 0 开始），且旅客可以选择 任意 城市作为起点。
 

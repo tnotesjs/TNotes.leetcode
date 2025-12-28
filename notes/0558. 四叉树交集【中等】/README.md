@@ -12,18 +12,18 @@
 
 - [leetcode](https://leetcode.cn/problems/logical-or-of-two-binary-grids-represented-as-quad-trees/)
 
-二进制矩阵中的所有元素不是 0 就是 1 。
+二进制矩阵中的所有元素不是 0 就是 1。
 
 给你两个四叉树，`quadTree1` 和 `quadTree2`。其中 `quadTree1` 表示一个 `n * n` 二进制矩阵，而 `quadTree2` 表示另一个 `n * n` 二进制矩阵。
 
 请你返回一个表示 `n * n` 二进制矩阵的四叉树，它是 `quadTree1` 和 `quadTree2` 所表示的两个二进制矩阵进行 按位逻辑或运算 的结果。
 
-注意，当 `isLeaf` 为 False 时，你可以把 True 或者 False 赋值给节点，两种值都会被判题机制 接受 。
+注意，当 `isLeaf` 为 False 时，你可以把 True 或者 False 赋值给节点，两种值都会被判题机制 接受。
 
 四叉树数据结构中，每个内部节点只有四个子节点。此外，每个节点都有两个属性：
 
 - `val`：储存叶子结点所代表的区域的值。1 对应 True，0 对应 False；
-- `isLeaf`: 当这个节点是一个叶子结点时为 True，如果它有 4 个子节点则为 False 。
+- `isLeaf`: 当这个节点是一个叶子结点时为 True，如果它有 4 个子节点则为 False。
 
 ```java
 class Node {
@@ -50,9 +50,9 @@ class Node {
 
 输出为使用层序遍历后四叉树的序列化形式，其中 `null` 表示路径终止符，其下面不存在节点。
 
-它与二叉树的序列化非常相似。唯一的区别是节点以列表形式表示 `[isLeaf, val]` 。
+它与二叉树的序列化非常相似。唯一的区别是节点以列表形式表示 `[isLeaf, val]`。
 
-如果 `isLeaf` 或者 `val` 的值为 True ，则表示它在列表 `[isLeaf, val]` 中的值为 1 ；如果 `isLeaf` 或者 `val` 的值为 False ，则表示值为 0 。
+如果 `isLeaf` 或者 `val` 的值为 True ，则表示它在列表 `[isLeaf, val]` 中的值为 1 ；如果 `isLeaf` 或者 `val` 的值为 False ，则表示值为 0。
 
 ---
 
@@ -86,7 +86,7 @@ quadTree2 = [[1,0]]
 
 解释：
 两个数所表示的矩阵大小都为 1*1，值全为 0
-结果矩阵大小为 1*1，值全为 0 。
+结果矩阵大小为 1*1，值全为 0。
 ```
 
 ---

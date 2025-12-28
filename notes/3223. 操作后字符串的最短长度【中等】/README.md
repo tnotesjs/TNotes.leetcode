@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/minimum-length-of-string-after-operations/)
 
-给你一个字符串 `s` 。
+给你一个字符串 `s`。
 
 你需要对 `s` 执行以下操作 任意 次：
 
@@ -35,8 +35,8 @@
 
 我们执行以下操作：
 
-- 选择下标 2 ，然后删除下标 0 和 3 处的字符，得到 `s = "bacbcbb"` 。
-- 选择下标 3 ，然后删除下标 0 和 5 处的字符，得到 `s = "acbcb"` 。
+- 选择下标 2 ，然后删除下标 0 和 3 处的字符，得到 `s = "bacbcbb"`。
+- 选择下标 3 ，然后删除下标 0 和 5 处的字符，得到 `s = "acbcb"`。
 
 ---
 

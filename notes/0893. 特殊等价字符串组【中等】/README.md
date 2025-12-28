@@ -19,7 +19,7 @@
 
 对两个字符串 `words[i]` 和 `words[j]` 而言，如果经过任意次数的操作，`words[i] == words[j]` ，那么这两个字符串是 特殊等价 的。
 
-- 例如，`words[i] = "zzxy"` 和 `words[j] = "xyzz"` 是一对 特殊等价 字符串，因为可以按 `"zzxy" -> "xzzy" -> "xyzz"` 的操作路径使 `words[i] == words[j]` 。
+- 例如，`words[i] = "zzxy"` 和 `words[j] = "xyzz"` 是一对 特殊等价 字符串，因为可以按 `"zzxy" -> "xzzy" -> "xyzz"` 的操作路径使 `words[i] == words[j]`。
 
 现在规定，`words` 的 一组特殊等价字符串 就是 `words` 的一个同时满足下述条件的非空子集：
 

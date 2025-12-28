@@ -19,11 +19,11 @@
 
 如果第 `i` 件物品能满足下述条件之一，则认为该物品与给定的检索规则 匹配 ：
 
-- `ruleKey == "type"` 且 `ruleValue == typei` 。
-- `ruleKey == "color"` 且 `ruleValue == colori` 。
-- `ruleKey == "name"` 且 `ruleValue == namei` 。
+- `ruleKey == "type"` 且 `ruleValue == typei`。
+- `ruleKey == "color"` 且 `ruleValue == colori`。
+- `ruleKey == "name"` 且 `ruleValue == namei`。
 
-统计并返回 匹配检索规则的物品数量 。
+统计并返回 匹配检索规则的物品数量。
 
 ---
 
@@ -39,7 +39,7 @@
 输出：1
 
 解释：
-只有一件物品匹配检索规则，这件物品是 ["computer","silver","lenovo"] 。
+只有一件物品匹配检索规则，这件物品是 ["computer","silver","lenovo"]。
 ```
 
 - 示例 2：
@@ -54,7 +54,7 @@
 输出：2
 
 解释：
-只有两件物品匹配检索规则，这两件物品分别是 ["phone","blue","pixel"] 和 ["phone","gold","iphone"] 。
+只有两件物品匹配检索规则，这两件物品分别是 ["phone","blue","pixel"] 和 ["phone","gold","iphone"]。
 
 注意，["computer","silver","phone"] 未匹配检索规则。
 ```

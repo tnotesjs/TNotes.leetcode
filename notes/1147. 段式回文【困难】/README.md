@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/longest-chunked-palindrome-decomposition/)
 
-你会得到一个字符串 `text` 。你应该把它分成 `k` 个子字符串 `(subtext1, subtext2，…， subtextk)` ，要求满足:
+你会得到一个字符串 `text`。你应该把它分成 `k` 个子字符串 `(subtext1, subtext2，…， subtextk)` ，要求满足:
 
 - `subtexti` 是 非空 字符串
 - 所有子字符串的连接等于 `text` ( 即`subtext1 + subtext2 + ... + subtextk == text` )

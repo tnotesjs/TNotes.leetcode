@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/count-the-number-of-special-characters-i/)
 
-给你一个字符串 `word`。如果 `word` 中同时存在某个字母的小写形式和大写形式，则称这个字母为 特殊字母 。
+给你一个字符串 `word`。如果 `word` 中同时存在某个字母的小写形式和大写形式，则称这个字母为 特殊字母。
 
 返回 `word` 中 特殊字母 的数量。
 

@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/compact-object/)
 
-现给定一个对象或数组 `obj`，返回一个 精简对象 。
+现给定一个对象或数组 `obj`，返回一个 精简对象。
 
 精简对象 与原始对象相同，只是将包含 假 值的键移除。该操作适用于对象及其嵌套对象。数组被视为索引作为键的对象。当 `Boolean(value)` 返回 `false` 时，值被视为 假 值。
 

@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/number-of-squareful-arrays/)
 
-如果一个数组的任意两个相邻元素之和都是 完全平方数 ，则该数组称为 平方数组 。
+如果一个数组的任意两个相邻元素之和都是 完全平方数 ，则该数组称为 平方数组。
 
 给定一个整数数组 `nums`，返回所有属于 平方数组 的 `nums` 的排列数量。
 

@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/number-of-unique-xor-triplets-i/)
 
-给你一个长度为 `n` 的整数数组 `nums`，其中 `nums` 是范围 `[1, n]` 内所有数的 排列 。
+给你一个长度为 `n` 的整数数组 `nums`，其中 `nums` 是范围 `[1, n]` 内所有数的 排列。
 
 XOR 三元组 定义为三个元素的异或值 `nums[i] XOR nums[j] XOR nums[k]`，其中 `i <= j <= k`。
 

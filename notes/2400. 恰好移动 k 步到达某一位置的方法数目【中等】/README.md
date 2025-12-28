@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/number-of-ways-to-reach-a-position-after-exactly-k-steps/)
 
-给你两个 正 整数 `startPos` 和 `endPos` 。最初，你站在 无限 数轴上位置 `startPos` 处。在一步移动中，你可以向左或者向右移动一个位置。
+给你两个 正 整数 `startPos` 和 `endPos`。最初，你站在 无限 数轴上位置 `startPos` 处。在一步移动中，你可以向左或者向右移动一个位置。
 
 给你一个正整数 `k` ，返回从 `startPos` 出发、恰好 移动 `k` 步并到达 `endPos` 的 不同 方法数目。由于答案可能会很大，返回对 `10^9 + 7` 取余 的结果。
 
@@ -34,7 +34,7 @@
 - 1 -> 2 -> 3 -> 2.
 - 1 -> 2 -> 1 -> 2.
 - 1 -> 0 -> 1 -> 2.
-可以证明不存在其他方法，所以返回 3 。
+可以证明不存在其他方法，所以返回 3。
 ```
 
 - 示例 2：

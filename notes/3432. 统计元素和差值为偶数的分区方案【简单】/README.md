@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/count-partitions-with-even-sum-difference/)
 
-给你一个长度为 `n` 的整数数组 `nums` 。
+给你一个长度为 `n` 的整数数组 `nums`。
 
 分区 是指将数组按照下标 `i` （`0 <= i < n - 1`）划分成两个 非空 子数组，其中：
 

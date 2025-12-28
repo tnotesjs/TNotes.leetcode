@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/number-of-matching-subsequences/)
 
-给定字符串 `s` 和字符串数组 `words`, 返回 _`words[i]` 中是`s`的子序列的单词个数_ 。
+给定字符串 `s` 和字符串数组 `words`, 返回 _`words[i]` 中是`s`的子序列的单词个数_。
 
 字符串的 子序列 是从原始字符串中生成的新字符串，可以从中删去一些字符(可以是 none)，而不改变其余字符的相对顺序。
 

@@ -20,9 +20,9 @@
 - 如果 `i = n - 1` ，那么 `derived[i] = original[i] ⊕ original[0]`
 - 否则 `derived[i] = original[i] ⊕ original[i + 1]`
 
-给你一个数组 `derived` ，请判断是否存在一个能够派生得到 `derived` 的 有效原始二进制数组 `original` 。
+给你一个数组 `derived` ，请判断是否存在一个能够派生得到 `derived` 的 有效原始二进制数组 `original`。
 
-如果存在满足要求的原始二进制数组，返回 _true_ ；否则，返回 _false_ 。
+如果存在满足要求的原始二进制数组，返回 _true_ ；否则，返回 _false_。
 
 - 二进制数组是仅由 0 和 1 组成的数组。
 
@@ -63,7 +63,7 @@ derived[1] = original[1] ⊕ original[0] = 1
 
 - `n == derived.length`
 - `1 <= n <= 10^5`
-- `derived` 中的值不是 0 就是 1 。
+- `derived` 中的值不是 0 就是 1。
 
 ## 2. 🎯 s.1 - 解法 1
 

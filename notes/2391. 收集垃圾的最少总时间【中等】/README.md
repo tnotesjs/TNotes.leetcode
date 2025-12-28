@@ -66,7 +66,7 @@
 提示：
 
 - `2 <= garbage.length <= 10^5`
-- `garbage[i]` 只包含字母 `'M'` ，`'P'` 和 `'G'` 。
+- `garbage[i]` 只包含字母 `'M'` ，`'P'` 和 `'G'`。
 - `1 <= garbage[i].length <= 10`
 - `travel.length == garbage.length - 1`
 - `1 <= travel[i] <= 100`

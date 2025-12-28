@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/count-equal-and-divisible-pairs-in-an-array/)
 
-给你一个下标从 0 开始长度为 `n` 的整数数组 `nums` 和一个整数 `k` ，请你返回满足 `0 <= i < j < n` ，`nums[i] == nums[j]` 且 `(i * j)` 能被 `k` 整除的数对 `(i, j)` 的 数目 。
+给你一个下标从 0 开始长度为 `n` 的整数数组 `nums` 和一个整数 `k` ，请你返回满足 `0 <= i < j < n` ，`nums[i] == nums[j]` 且 `(i * j)` 能被 `k` 整除的数对 `(i, j)` 的 数目。
 
 ---
 

@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/online-majority-element-in-subarray/)
 
-设计一个数据结构，有效地找到给定子数组的 多数元素 。
+设计一个数据结构，有效地找到给定子数组的 多数元素。
 
 子数组的 多数元素 是在子数组中出现 `threshold` 次数或次数以上的元素。
 

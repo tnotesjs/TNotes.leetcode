@@ -17,7 +17,7 @@
 
 - `PeekingIterator(Iterator<int> nums)` 使用指定整数迭代器 `nums` 初始化迭代器。
 - `int next()` 返回数组中的下一个元素，并将指针移动到下个元素处。
-- `bool hasNext()` 如果数组中存在下一个元素，返回 `true` ；否则，返回 `false` 。
+- `bool hasNext()` 如果数组中存在下一个元素，返回 `true` ；否则，返回 `false`。
 - `int peek()` 返回数组中的下一个元素，但 不 移动指针。
 
 ---

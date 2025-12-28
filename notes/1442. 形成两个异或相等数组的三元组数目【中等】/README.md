@@ -13,9 +13,9 @@
 
 - [leetcode](https://leetcode.cn/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/)
 
-给你一个整数数组 `arr` 。
+给你一个整数数组 `arr`。
 
-现需要从数组中取三个下标 `i`、`j` 和 `k` ，其中 `(0 <= i < j <= k < arr.length)` 。
+现需要从数组中取三个下标 `i`、`j` 和 `k` ，其中 `(0 <= i < j <= k < arr.length)`。
 
 `a` 和 `b` 定义如下：
 

@@ -22,7 +22,7 @@
 
 你可以根据需要对任意一个字符串多次使用这两种操作。
 
-给你两个字符串，`word1` 和 `word2` 。如果 `word1` 和 `word2` 接近 ，就返回 `true` ；否则，返回 `false` 。
+给你两个字符串，`word1` 和 `word2`。如果 `word1` 和 `word2` 接近 ，就返回 `true` ；否则，返回 `false`。
 
 ---
 
@@ -31,7 +31,7 @@
 ```txt
 输入：word1 = "abc", word2 = "bca"
 输出：true
-解释：2 次操作从 word1 获得 word2 。
+解释：2 次操作从 word1 获得 word2。
 执行操作 1："abc" -> "acb"
 执行操作 1："acb" -> "bca"
 ```
@@ -49,7 +49,7 @@
 ```txt
 输入：word1 = "cabbba", word2 = "abbccc"
 输出：true
-解释：3 次操作从 word1 获得 word2 。
+解释：3 次操作从 word1 获得 word2。
 执行操作 1："cabbba" -> "caabbb"
 执行操作 2："caabbb" -> "baaccc"
 执行操作 2："baaccc" -> "abbccc"

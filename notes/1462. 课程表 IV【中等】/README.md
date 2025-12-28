@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/course-schedule-iv/)
 
-你总共需要上 `numCourses` 门课，课程编号依次为 `0` 到 `numCourses-1` 。你会得到一个数组 `prerequisite` ，其中 `prerequisites[i] = [ai, bi]` 表示如果你想选 `bi` 课程，你 必须 先选 `ai` 课程。
+你总共需要上 `numCourses` 门课，课程编号依次为 `0` 到 `numCourses-1`。你会得到一个数组 `prerequisite` ，其中 `prerequisites[i] = [ai, bi]` 表示如果你想选 `bi` 课程，你 必须 先选 `ai` 课程。
 
 - 有的课会有直接的先修课程，比如如果想上课程 `1` ，你必须先上课程 `0` ，那么会以 `[0,1]` 数对的形式给出先修课程数对。
 

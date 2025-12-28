@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/join-two-arrays-by-id)
 
-现给定两个数组 `arr1` 和 `arr2` ，返回一个新的数组 `joinedArray` 。两个输入数组中的每个对象都包含一个 `id` 字段。
+现给定两个数组 `arr1` 和 `arr2` ，返回一个新的数组 `joinedArray`。两个输入数组中的每个对象都包含一个 `id` 字段。
 
 `joinedArray` 是一个通过 `id` 将 `arr1` 和 `arr2` 连接而成的数组。`joinedArray` 的长度应为唯一值 `id` 的长度。返回的数组应按 `id` 升序 排序。
 

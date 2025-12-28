@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/find-duplicate-subtrees/)
 
-给你一棵二叉树的根节点 `root` ，返回所有 重复的子树 。
+给你一棵二叉树的根节点 `root` ，返回所有 重复的子树。
 
 对于同一类的重复子树，你只需要返回其中任意 一棵 的根结点即可。
 

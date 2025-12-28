@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/select-k-disjoint-special-substrings/)
 
-给你一个长度为 `n` 的字符串 `s` 和一个整数 `k`，判断是否可以选择 `k` 个互不重叠的 特殊子字符串 。
+给你一个长度为 `n` 的字符串 `s` 和一个整数 `k`，判断是否可以选择 `k` 个互不重叠的 特殊子字符串。
 
 特殊子字符串 是满足以下条件的子字符串：
 

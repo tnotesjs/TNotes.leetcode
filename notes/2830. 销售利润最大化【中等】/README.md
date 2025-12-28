@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/maximize-the-profit-as-the-salesman/)
 
-给你一个整数 `n` 表示数轴上的房屋数量，编号从 `0` 到 `n - 1` 。
+给你一个整数 `n` 表示数轴上的房屋数量，编号从 `0` 到 `n - 1`。
 
 另给你一个二维整数数组 `offers` ，其中 `offers[i] = [starti, endi, goldi]` 表示第 `i` 个买家想要以 `goldi` 枚金币的价格购买从 `starti` 到 `endi` 的所有房屋。
 

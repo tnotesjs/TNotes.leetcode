@@ -12,14 +12,14 @@
 
 - [leetcode](https://leetcode.cn/problems/construct-quad-tree/)
 
-给你一个 `n * n` 矩阵 `grid` ，矩阵由若干 `0` 和 `1` 组成。请你用四叉树表示该矩阵 `grid` 。
+给你一个 `n * n` 矩阵 `grid` ，矩阵由若干 `0` 和 `1` 组成。请你用四叉树表示该矩阵 `grid`。
 
 你需要返回能表示矩阵 `grid` 的 四叉树 的根结点。
 
 四叉树数据结构中，每个内部节点只有四个子节点。此外，每个节点都有两个属性：
 
-- `val`：储存叶子结点所代表的区域的值。1 对应 True，0 对应 False。注意，当 `isLeaf` 为 False 时，你可以把 True 或者 False 赋值给节点，两种值都会被判题机制 接受 。
-- `isLeaf`: 当这个节点是一个叶子结点时为 True，如果它有 4 个子节点则为 False 。
+- `val`：储存叶子结点所代表的区域的值。1 对应 True，0 对应 False。注意，当 `isLeaf` 为 False 时，你可以把 True 或者 False 赋值给节点，两种值都会被判题机制 接受。
+- `isLeaf`: 当这个节点是一个叶子结点时为 True，如果它有 4 个子节点则为 False。
 
 ```java
 class Node {
@@ -40,15 +40,15 @@ class Node {
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-13-43-59.png)
 
-如果你想了解更多关于四叉树的内容，可以参考 [百科][1] 。
+如果你想了解更多关于四叉树的内容，可以参考 [百科][1]。
 
 四叉树格式：
 
 你不需要阅读本节来解决这个问题。只有当你想了解输出格式时才会这样做。输出为使用层序遍历后四叉树的序列化形式，其中 `null` 表示路径终止符，其下面不存在节点。
 
-它与二叉树的序列化非常相似。唯一的区别是节点以列表形式表示 `[isLeaf, val]` 。
+它与二叉树的序列化非常相似。唯一的区别是节点以列表形式表示 `[isLeaf, val]`。
 
-如果 `isLeaf` 或者 `val` 的值为 True ，则表示它在列表 `[isLeaf, val]` 中的值为 1 ；如果 `isLeaf` 或者 `val` 的值为 False ，则表示值为 0 。
+如果 `isLeaf` 或者 `val` 的值为 True ，则表示它在列表 `[isLeaf, val]` 中的值为 1 ；如果 `isLeaf` 或者 `val` 的值为 False ，则表示值为 0。
 
 ---
 
@@ -69,7 +69,7 @@ class Node {
   [1, 0]
 ]
 解释：此示例的解释如下：
-请注意，在下面四叉树的图示中，0 表示 false，1 表示 True 。
+请注意，在下面四叉树的图示中，0 表示 false，1 表示 True。
 ```
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-14-16-13.png)

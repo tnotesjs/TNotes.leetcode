@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/next-day)
 
-请你编写一个有关日期对象的方法，使得任何日期对象都可以调用 `date.nextDay()` 方法，然后返回调用日期对象的下一天，格式为 YYYY-MM-DD 。
+请你编写一个有关日期对象的方法，使得任何日期对象都可以调用 `date.nextDay()` 方法，然后返回调用日期对象的下一天，格式为 YYYY-MM-DD。
 
 示例 1：
 

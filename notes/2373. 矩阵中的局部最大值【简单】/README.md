@@ -13,11 +13,11 @@
 
 - [leetcode](https://leetcode.cn/problems/largest-local-values-in-a-matrix/)
 
-给你一个大小为 `n x n` 的整数矩阵 `grid` 。
+给你一个大小为 `n x n` 的整数矩阵 `grid`。
 
 生成一个大小为 `(n - 2) x (n - 2)` 的整数矩阵 `maxLocal` ，并满足：
 
-- `maxLocal[i][j]` 等于 `grid` 中以 `i + 1` 行和 `j + 1` 列为中心的 `3 x 3` 矩阵中的 最大值 。
+- `maxLocal[i][j]` 等于 `grid` 中以 `i + 1` 行和 `j + 1` 列为中心的 `3 x 3` 矩阵中的 最大值。
 
 换句话说，我们希望找出 `grid` 中每个 `3 x 3` 矩阵中的最大值。
 

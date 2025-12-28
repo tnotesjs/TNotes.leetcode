@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/making-a-large-island/)
 
-给你一个大小为 `n x n` 二进制矩阵 `grid` 。最多 只能将一格 `0` 变成 `1` 。
+给你一个大小为 `n x n` 二进制矩阵 `grid`。最多 只能将一格 `0` 变成 `1`。
 
 返回执行此操作后，`grid` 中最大的岛屿面积是多少？
 

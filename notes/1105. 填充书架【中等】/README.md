@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/filling-bookcase-shelves/)
 
-给定一个数组 `books` ，其中 `books[i] = [thicknessi, heighti]` 表示第 `i` 本书的厚度和高度。你也会得到一个整数 `shelfWidth` 。
+给定一个数组 `books` ，其中 `books[i] = [thicknessi, heighti]` 表示第 `i` 本书的厚度和高度。你也会得到一个整数 `shelfWidth`。
 
 按顺序 将这些书摆放到总宽度为 `shelfWidth` 的书架上。
 
@@ -37,7 +37,7 @@
 输入：books = [[1,1],[2,3],[2,3],[1,1],[1,1],[1,1],[1,2]], shelfWidth = 4
 输出：6
 解释：
-3 层书架的高度和为 1 + 3 + 2 = 6 。
+3 层书架的高度和为 1 + 3 + 2 = 6。
 第 2 本书不必放在第一层书架上。
 ```
 

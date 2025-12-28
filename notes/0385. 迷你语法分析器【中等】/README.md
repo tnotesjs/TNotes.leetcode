@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/mini-parser/)
 
-给定一个字符串 s 表示一个整数嵌套列表，实现一个解析它的语法分析器并返回解析的结果 `NestedInteger` 。
+给定一个字符串 s 表示一个整数嵌套列表，实现一个解析它的语法分析器并返回解析的结果 `NestedInteger`。
 
 列表中的每个元素只可能是整数或整数嵌套列表
 

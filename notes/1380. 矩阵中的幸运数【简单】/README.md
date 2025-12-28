@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/lucky-numbers-in-a-matrix/)
 
-给你一个 `m x n` 的矩阵，矩阵中的数字 各不相同 。请你按 任意 顺序返回矩阵中的所有幸运数。
+给你一个 `m x n` 的矩阵，矩阵中的数字 各不相同。请你按 任意 顺序返回矩阵中的所有幸运数。
 
 幸运数 是指矩阵中满足同时下列两个条件的元素：
 

@@ -13,11 +13,11 @@
 
 - [leetcode](https://leetcode.cn/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period/)
 
-力扣公司的员工都使用员工卡来开办公室的门。每当一个员工使用一次他的员工卡，安保系统会记录下员工的名字和使用时间。如果一个员工在一小时时间内使用员工卡的次数大于等于三次，这个系统会自动发布一个 警告 。
+力扣公司的员工都使用员工卡来开办公室的门。每当一个员工使用一次他的员工卡，安保系统会记录下员工的名字和使用时间。如果一个员工在一小时时间内使用员工卡的次数大于等于三次，这个系统会自动发布一个 警告。
 
 给你字符串数组 `keyName` 和 `keyTime` ，其中 `[keyName[i], keyTime[i]]` 对应一个人的名字和他在 某一天 内使用员工卡的时间。
 
-使用时间的格式是 24 小时制 ，形如 "HH:MM" ，比方说 `"23:51"` 和 `"09:49"` 。
+使用时间的格式是 24 小时制 ，形如 "HH:MM" ，比方说 `"23:51"` 和 `"09:49"`。
 
 请你返回去重后的收到系统警告的员工名字，将它们按 字典序升序 排序后返回。
 
@@ -47,8 +47,8 @@
 
 - `1 <= keyName.length, keyTime.length <= 10^5`
 - `keyName.length == keyTime.length`
-- `keyTime` 格式为 "HH:MM" 。
-- 保证 `[keyName[i], keyTime[i]]` 形成的二元对 互不相同 。
+- `keyTime` 格式为 "HH:MM"。
+- 保证 `[keyName[i], keyTime[i]]` 形成的二元对 互不相同。
 - `1 <= keyName[i].length <= 10`
 - `keyName[i]` 只包含小写英文字母。
 

@@ -22,7 +22,7 @@
 
 1. `code[i]` 不能为空，并且仅由字母数字字符（a-z、A-Z、0-9）和下划线（`_`）组成。
 2. `businessLine[i]` 必须是以下四个类别之一：`"electronics"`、`"grocery"`、`"pharmacy"`、`"restaurant"`。
-3. `isActive[i]` 为 true 。
+3. `isActive[i]` 为 true。
 
 返回所有 有效优惠券的标识符 组成的数组，按照以下规则排序：
 

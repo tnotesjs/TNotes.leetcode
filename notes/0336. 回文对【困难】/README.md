@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/palindrome-pairs/)
 
-给定一个由唯一字符串构成的 0 索引 数组 `words` 。
+给定一个由唯一字符串构成的 0 索引 数组 `words`。
 
 回文对 是一对整数 `(i, j)` ，满足以下条件：
 

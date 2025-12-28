@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/largest-values-from-labels/)
 
-以两个整数数组 `values` 和 `labels` 给定 `n` 个项的值和标签，并且给出两个整数 `numWanted` 和 `useLimit` 。
+以两个整数数组 `values` 和 `labels` 给定 `n` 个项的值和标签，并且给出两个整数 `numWanted` 和 `useLimit`。
 
 你的任务是从这些项中找到一个值的和 最大 的子集使得：
 

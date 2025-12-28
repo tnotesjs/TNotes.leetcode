@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/get-maximum-in-generated-array/)
 
-给你一个整数 `n` 。按下述规则生成一个长度为 `n + 1` 的数组 `nums` ：
+给你一个整数 `n`。按下述规则生成一个长度为 `n + 1` 的数组 `nums` ：
 
 - `nums[0] = 0`
 - `nums[1] = 1`

@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/matrix-cells-in-distance-order/)
 
-给定四个整数 `rows` , `cols` , `rCenter` 和 `cCenter` 。有一个 `rows x cols` 的矩阵，你在单元格上的坐标是 `(rCenter, cCenter)` 。
+给定四个整数 `rows` , `cols` , `rCenter` 和 `cCenter`。有一个 `rows x cols` 的矩阵，你在单元格上的坐标是 `(rCenter, cCenter)`。
 
 返回矩阵中的所有单元格的坐标，并按与 `(rCenter, cCenter)` 的 距离 从最小到最大的顺序排。你可以按 任何 满足此条件的顺序返回答案。
 

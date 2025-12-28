@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/lexicographically-smallest-string-after-applying-operations/)
 
-给你一个字符串 `s` 以及两个整数 `a` 和 `b` 。其中，字符串 `s` 的长度为偶数，且仅由数字 `0` 到 `9` 组成。
+给你一个字符串 `s` 以及两个整数 `a` 和 `b`。其中，字符串 `s` 的长度为偶数，且仅由数字 `0` 到 `9` 组成。
 
 你可以在 `s` 上按任意顺序多次执行下面两个操作之一：
 

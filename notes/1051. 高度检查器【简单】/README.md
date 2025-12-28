@@ -19,7 +19,7 @@
 
 给你一个整数数组 `heights` ，表示 当前学生站位 的高度情况。`heights[i]` 是这一行中第 `i` 位学生的高度（下标从 0 开始）。
 
-返回满足 `heights[i] != expected[i]` 的 下标数量 。
+返回满足 `heights[i] != expected[i]` 的 下标数量。
 
 示例：
 

@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/number-of-beautiful-integers-in-the-range/)
 
-给你正整数 `low` ，`high` 和 `k` 。
+给你正整数 `low` ，`high` 和 `k`。
 
 如果一个数满足以下两个条件，那么它是 美丽的 ：
 

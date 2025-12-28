@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/find-the-number-of-ways-to-place-people-i/)
 
-给你一个 `n x 2` 的二维数组 `points` ，它表示二维平面上的一些点坐标，其中 `points[i] = [xi, yi]` 。
+给你一个 `n x 2` 的二维数组 `points` ，它表示二维平面上的一些点坐标，其中 `points[i] = [xi, yi]`。
 
 计算点对 `(A, B)` 的数量，其中
 

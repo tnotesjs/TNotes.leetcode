@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/smallest-number-in-infinite-set/)
 
-现有一个包含所有正整数的集合 `[1, 2, 3, 4, 5, ...]` 。
+现有一个包含所有正整数的集合 `[1, 2, 3, 4, 5, ...]`。
 
 实现 `SmallestInfiniteSet` 类：
 

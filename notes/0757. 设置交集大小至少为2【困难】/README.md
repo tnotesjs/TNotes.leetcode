@@ -1,4 +1,4 @@
-# [0757. 设置交集大小至少为2【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0757.%20%E8%AE%BE%E7%BD%AE%E4%BA%A4%E9%9B%86%E5%A4%A7%E5%B0%8F%E8%87%B3%E5%B0%91%E4%B8%BA2%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91)
+# [0757. 设置交集大小至少为 2【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0757.%20%E8%AE%BE%E7%BD%AE%E4%BA%A4%E9%9B%86%E5%A4%A7%E5%B0%8F%E8%87%B3%E5%B0%91%E4%B8%BA2%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91)
 
 <!-- region:toc -->
 
@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/set-intersection-size-at-least-two/)
 
-给你一个二维整数数组 `intervals` ，其中 `intervals[i] = [starti, endi]` 表示从 `starti` 到 `endi` 的所有整数，包括 `starti` 和 `endi` 。
+给你一个二维整数数组 `intervals` ，其中 `intervals[i] = [starti, endi]` 表示从 `starti` 到 `endi` 的所有整数，包括 `starti` 和 `endi`。
 
 包含集合 是一个名为 `nums` 的数组，并满足 `intervals` 中的每个区间都 至少 有 两个 整数在 `nums` 中。
 

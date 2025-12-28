@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/lexicographically-smallest-generated-string/)
 
-给你两个字符串，`str1` 和 `str2`，其长度分别为 `n` 和 `m` 。
+给你两个字符串，`str1` 和 `str2`，其长度分别为 `n` 和 `m`。
 
 如果一个长度为 `n + m - 1` 的字符串 `word` 的每个下标 `0 <= i <= n - 1` 都满足以下条件，则称其由 `str1` 和 `str2` 生成：
 

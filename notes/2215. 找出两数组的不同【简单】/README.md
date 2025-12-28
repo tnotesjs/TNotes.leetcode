@@ -41,7 +41,7 @@
 输出：[[3],[]]
 解释：
 对于 nums1 ，nums1[2] 和 nums1[3] 没有出现在 nums2 中。由于 nums1[2] == nums1[3] ，二者的值只需要在 answer[0] 中出现一次，故 answer[0] = [3]。
-nums2 中的每个整数都在 nums1 中出现，因此，answer[1] = [] 。
+nums2 中的每个整数都在 nums1 中出现，因此，answer[1] = []。
 ```
 
 ---

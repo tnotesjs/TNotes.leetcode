@@ -34,7 +34,7 @@ setTimeout(cancel, 50)
 promise.catch(console.log) // logs "Cancelled" at t=50ms
 ```
 
-相反，如果 `cancel()` 没有被调用或者在 `t=100ms` 之后才被调用，那么 promise 应被解析为 `5` 。
+相反，如果 `cancel()` 没有被调用或者在 `t=100ms` 之后才被调用，那么 promise 应被解析为 `5`。
 
 ---
 
@@ -99,7 +99,7 @@ generatorFunction = function*() {
 cancelledAt = null
 输出：{"resolved": 2}
 解释：
-生成器生成了 4 个 promise 。其中两个 promise 的值被添加到结果中。200ms 后，生成器以值 2 完成，该值被返回的 promise 解析。
+生成器生成了 4 个 promise。其中两个 promise 的值被添加到结果中。200ms 后，生成器以值 2 完成，该值被返回的 promise 解析。
 ```
 
 - 示例 5：

@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/apple-redistribution-into-boxes/)
 
-给你一个长度为 `n` 的数组 `apple` 和另一个长度为 `m` 的数组 `capacity` 。
+给你一个长度为 `n` 的数组 `apple` 和另一个长度为 `m` 的数组 `capacity`。
 
 一共有 `n` 个包裹，其中第 `i` 个包裹中装着 `apple[i]` 个苹果。同时，还有 `m` 个箱子，第 `i` 个箱子的容量为 `capacity[i]` 个苹果。
 

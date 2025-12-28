@@ -13,9 +13,9 @@
 
 - [leetcode](https://leetcode.cn/problems/check-if-binary-string-has-at-most-one-segment-of-ones/)
 
-给你一个二进制字符串 `s` ，该字符串 不含前导零 。
+给你一个二进制字符串 `s` ，该字符串 不含前导零。
 
-如果 `s` 包含 零个或一个由连续的 `'1'` 组成的字段 ，返回 `true`​​​ 。否则，返回 `false` 。
+如果 `s` 包含 零个或一个由连续的 `'1'` 组成的字段 ，返回 `true`​​​。否则，返回 `false`。
 
 ---
 

@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/min-cost-to-connect-all-points/)
 
-给你一个`points` 数组，表示 2D 平面上的一些点，其中 `points[i] = [xi, yi]` 。
+给你一个`points` 数组，表示 2D 平面上的一些点，其中 `points[i] = [xi, yi]`。
 
 连接点 `[xi, yi]` 和点 `[xj, yj]` 的费用为它们之间的 曼哈顿距离 ：`|xi - xj| + |yi - yj|` ，其中 `|val|` 表示 `val` 的绝对值。
 
@@ -32,7 +32,7 @@
 
 - 解释：
   - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-08-29.png)
-  - 我们可以按照上图所示连接所有点得到最小总费用，总费用为 20 。
+  - 我们可以按照上图所示连接所有点得到最小总费用，总费用为 20。
   - 注意到任意两个点之间只有唯一一条路径互相到达。
 
 ---

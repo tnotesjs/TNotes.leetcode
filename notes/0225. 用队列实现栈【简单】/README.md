@@ -18,7 +18,7 @@
 - `void push(int x)` 将元素 x 压入栈顶。
 - `int pop()` 移除并返回栈顶元素。
 - `int top()` 返回栈顶元素。
-- `boolean empty()` 如果栈是空的，返回 `true` ；否则，返回 `false` 。
+- `boolean empty()` 如果栈是空的，返回 `true` ；否则，返回 `false`。
 
 ---
 

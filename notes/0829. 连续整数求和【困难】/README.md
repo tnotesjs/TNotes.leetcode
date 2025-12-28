@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/consecutive-numbers-sum/)
 
-给定一个正整数 `n`，返回 _连续正整数满足所有数字之和为 `n` 的组数_ 。
+给定一个正整数 `n`，返回 _连续正整数满足所有数字之和为 `n` 的组数_。
 
 示例 1：
 

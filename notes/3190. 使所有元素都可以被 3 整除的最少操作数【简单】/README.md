@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/find-minimum-operations-to-make-all-elements-divisible-by-three/)
 
-给你一个整数数组 `nums` 。一次操作中，你可以将 `nums` 中的 任意 一个元素增加或者减少 1 。
+给你一个整数数组 `nums`。一次操作中，你可以将 `nums` 中的 任意 一个元素增加或者减少 1。
 
 请你返回将 `nums` 中所有元素都可以被 3 整除的 最少 操作次数。
 
@@ -27,9 +27,9 @@
 
 通过以下 3 个操作，数组中的所有元素都可以被 3 整除：
 
-- 将 1 减少 1 。
-- 将 2 增加 1 。
-- 将 4 减少 1 。
+- 将 1 减少 1。
+- 将 2 增加 1。
+- 将 4 减少 1。
 
 ---
 

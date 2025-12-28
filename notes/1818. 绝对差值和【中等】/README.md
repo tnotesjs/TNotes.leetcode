@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/minimum-absolute-sum-difference/)
 
-给你两个正整数数组 `nums1` 和 `nums2` ，数组的长度都是 `n` 。
+给你两个正整数数组 `nums1` 和 `nums2` ，数组的长度都是 `n`。
 
 数组 `nums1` 和 `nums2` 的 绝对差值和 定义为所有 `|nums1[i] - nums2[i]|`（`0 <= i < n`）的 总和（下标从 0 开始）。
 

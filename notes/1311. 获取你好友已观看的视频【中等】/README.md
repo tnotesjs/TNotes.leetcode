@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/get-watched-videos-by-your-friends/)
 
-有 `n` 个人，每个人都有一个 `0` 到 `n-1` 的唯一 _id_ 。
+有 `n` 个人，每个人都有一个 `0` 到 `n-1` 的唯一 _id_。
 
 给你数组 `watchedVideos` 和 `friends` ，其中 `watchedVideos[i]` 和 `friends[i]` 分别表示 `id = i` 的人观看过的视频列表和他的好友列表。
 

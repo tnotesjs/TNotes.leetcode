@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/leaf-similar-trees/)
 
-请考虑一棵二叉树上所有的叶子，这些叶子的值按从左到右的顺序排列形成一个 叶值序列 。
+请考虑一棵二叉树上所有的叶子，这些叶子的值按从左到右的顺序排列形成一个 叶值序列。
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-09-13-14-57.png)
 
@@ -19,7 +19,7 @@
 
 如果有两棵二叉树的叶值序列是相同，那么我们就认为它们是 _叶相似_ 的。
 
-如果给定的两个根结点分别为 `root1` 和 `root2` 的树是叶相似的，则返回 `true`；否则返回 `false` 。
+如果给定的两个根结点分别为 `root1` 和 `root2` 的树是叶相似的，则返回 `true`；否则返回 `false`。
 
 ---
 

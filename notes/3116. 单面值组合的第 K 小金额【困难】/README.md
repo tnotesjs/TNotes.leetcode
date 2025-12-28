@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/kth-smallest-amount-with-single-denomination-combination/)
 
-给你一个整数数组 `coins` 表示不同面额的硬币，另给你一个整数 `k` 。
+给你一个整数数组 `coins` 表示不同面额的硬币，另给你一个整数 `k`。
 
 你有无限量的每种面额的硬币。但是，你 不能 组合使用不同面额的硬币。
 

@@ -1,4 +1,4 @@
-# [0050. Pow(x, n)【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0050.%20Pow(x%2C%20n)%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
+# [0050. Pow(x, n)【中等】](<https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0050.%20Pow(x%2C%20n)%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91>)
 
 <!-- region:toc -->
 
@@ -44,7 +44,7 @@
 - `-100.0 < x < 100.0`
 - `-2^31 <= n <= 2^31-1`
 - `n` 是一个整数
-- 要么 `x` 不为零，要么 `n > 0` 。
+- 要么 `x` 不为零，要么 `n > 0`。
 - `-10^4 <= x^n <= 10^4`
 
 ## 2. 🎯 s.1 - 暴力解法

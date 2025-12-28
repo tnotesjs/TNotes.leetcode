@@ -44,9 +44,9 @@ product_id 是表的主键（具有唯一值的列）。
 该表的每一行表示每种产品的产品名称。
 ```
 
-编写解决方案，以获取 `Sales` 表中所有 `sale_id` 对应的 `product_name` 以及该产品的所有 `year` 和 `price` 。
+编写解决方案，以获取 `Sales` 表中所有 `sale_id` 对应的 `product_name` 以及该产品的所有 `year` 和 `price`。
 
-返回结果表 无顺序要求 。
+返回结果表 无顺序要求。
 
 结果格式示例如下。
 

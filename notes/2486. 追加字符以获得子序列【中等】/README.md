@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/append-characters-to-string-to-make-subsequence/)
 
-给你两个仅由小写英文字母组成的字符串 `s` 和 `t` 。
+给你两个仅由小写英文字母组成的字符串 `s` 和 `t`。
 
 现在需要通过向 `s` 末尾追加字符的方式使 `t` 变成 `s` 的一个 子序列 ，返回需要追加的最少字符数。
 
@@ -26,7 +26,7 @@
 ```txt
 输入：s = "coaching", t = "coding"
 输出：4
-解释：向 s 末尾追加字符串 "ding" ，s = "coachingding" 。
+解释：向 s 末尾追加字符串 "ding" ，s = "coachingding"。
 现在，t 是 s ("coachingding") 的一个子序列。
 可以证明向 s 末尾追加任何 3 个字符都无法使 t 成为 s 的一个子序列。
 ```
@@ -48,7 +48,7 @@
 ```txt
 输入：s = "z", t = "abcde"
 输出：5
-解释：向 s 末尾追加字符串 "abcde" ，s = "zabcde" 。
+解释：向 s 末尾追加字符串 "abcde" ，s = "zabcde"。
 现在，t 是 s ("zabcde") 的一个子序列。
 可以证明向 s 末尾追加任何 4 个字符都无法使 t 成为 s 的一个子序列。
 ```

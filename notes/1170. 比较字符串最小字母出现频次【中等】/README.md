@@ -17,7 +17,7 @@
 
 例如，若 `s = "dcce"`，那么 `f(s) = 2`，因为字典序最小字母是 `"c"`，它出现了 2 次。
 
-现在，给你两个字符串数组待查表 `queries` 和词汇表 `words` 。对于每次查询 `queries[i]` ，需统计 `words` 中满足 `f(queries[i])` < `f(W)` 的 词的数目 ，`W` 表示词汇表 `words` 中的每个词。
+现在，给你两个字符串数组待查表 `queries` 和词汇表 `words`。对于每次查询 `queries[i]` ，需统计 `words` 中满足 `f(queries[i])` < `f(W)` 的 词的数目 ，`W` 表示词汇表 `words` 中的每个词。
 
 请你返回一个整数数组 `answer` 作为答案，其中每个 `answer[i]` 是第 `i` 次查询的结果。
 

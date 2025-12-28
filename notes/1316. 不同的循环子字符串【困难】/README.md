@@ -26,7 +26,7 @@
 ```txt
 输入：text = "abcabcabc"
 输出：3
-解释：3 个子字符串分别为 "abcabc"，"bcabca" 和 "cabcab" 。
+解释：3 个子字符串分别为 "abcabc"，"bcabca" 和 "cabcab"。
 ```
 
 - 示例 2：
@@ -34,7 +34,7 @@
 ```txt
 输入：text = "leetcodeleetcode"
 输出：2
-解释：2 个子字符串为 "ee" 和 "leetcodeleetcode" 。
+解释：2 个子字符串为 "ee" 和 "leetcodeleetcode"。
 ```
 
 ---

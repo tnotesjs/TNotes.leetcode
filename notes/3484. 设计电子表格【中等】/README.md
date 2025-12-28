@@ -17,14 +17,14 @@
 
 请你实现一个 `Spreadsheet` 类：
 
-- `Spreadsheet(int rows)` 初始化一个具有 26 列（从 `'A'` 到 `'Z'`）和指定行数的电子表格。所有单元格最初的值都为 0 。
+- `Spreadsheet(int rows)` 初始化一个具有 26 列（从 `'A'` 到 `'Z'`）和指定行数的电子表格。所有单元格最初的值都为 0。
 - `void setCell(String cell, int value)` 设置指定单元格的值。单元格引用以 `"AX"` 的格式提供（例如，`"A1"`，`"B10"`），其中字母表示列（从 `'A'` 到 `'Z'`），数字表示从 1 开始的行号。
-- `void resetCell(String cell)` 重置指定单元格的值为 0 。
+- `void resetCell(String cell)` 重置指定单元格的值为 0。
 - `int getValue(String formula)` 计算一个公式的值，格式为 `"=X+Y"`，其中 `X` 和 `Y` 要么 是单元格引用，要么非负整数，返回计算的和。
 
 ---
 
-注意： 如果 `getValue` 引用一个未通过 `setCell` 明确设置的单元格，则该单元格的值默认为 0 。
+注意： 如果 `getValue` 引用一个未通过 `setCell` 明确设置的单元格，则该单元格的值默认为 0。
 
 ---
 

@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/random-pick-with-blacklist/)
 
-给定一个整数 `n` 和一个 无重复 黑名单整数数组 `blacklist` 。设计一种算法，从 `[0, n - 1]` 范围内的任意整数中选取一个 未加入 黑名单 `blacklist` 的整数。任何在上述范围内且不在黑名单 `blacklist` 中的整数都应该有 同等的可能性 被返回。
+给定一个整数 `n` 和一个 无重复 黑名单整数数组 `blacklist`。设计一种算法，从 `[0, n - 1]` 范围内的任意整数中选取一个 未加入 黑名单 `blacklist` 的整数。任何在上述范围内且不在黑名单 `blacklist` 中的整数都应该有 同等的可能性 被返回。
 
 优化你的算法，使它最小化调用语言 内置 随机函数的次数。
 

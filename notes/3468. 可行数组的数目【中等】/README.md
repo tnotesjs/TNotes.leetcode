@@ -17,8 +17,8 @@
 
 你需要找到长度为 `n` 且满足以下条件的 可能的 数组 `copy` 的数量：
 
-1. 对于 `1 <= i <= n - 1` ，都有 `(copy[i] - copy[i - 1]) == (original[i] - original[i - 1])` 。
-2. 对于 `0 <= i <= n - 1` ，都有 `ui <= copy[i] <= vi` 。
+1. 对于 `1 <= i <= n - 1` ，都有 `(copy[i] - copy[i - 1]) == (original[i] - original[i - 1])`。
+2. 对于 `0 <= i <= n - 1` ，都有 `ui <= copy[i] <= vi`。
 
 返回满足这些条件的数组数目。
 

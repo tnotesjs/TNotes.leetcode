@@ -17,9 +17,9 @@
 
 给你一个二维整数数组 `adjacentPairs` ，大小为 `n - 1` ，其中每个 `adjacentPairs[i] = [ui, vi]` 表示元素 `ui` 和 `vi` 在 `nums` 中相邻。
 
-题目数据保证所有由元素 `nums[i]` 和 `nums[i+1]` 组成的相邻元素对都存在于 `adjacentPairs` 中，存在形式可能是 `[nums[i], nums[i+1]]` ，也可能是 `[nums[i+1], nums[i]]` 。这些相邻元素对可以 按任意顺序 出现。
+题目数据保证所有由元素 `nums[i]` 和 `nums[i+1]` 组成的相邻元素对都存在于 `adjacentPairs` 中，存在形式可能是 `[nums[i], nums[i+1]]` ，也可能是 `[nums[i+1], nums[i]]`。这些相邻元素对可以 按任意顺序 出现。
 
-返回 原始数组 `nums` 。如果存在多种解答，返回 其中任意一个 即可。
+返回 原始数组 `nums`。如果存在多种解答，返回 其中任意一个 即可。
 
 ---
 

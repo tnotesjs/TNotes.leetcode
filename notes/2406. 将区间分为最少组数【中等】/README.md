@@ -13,9 +13,9 @@
 
 - [leetcode](https://leetcode.cn/problems/divide-intervals-into-minimum-number-of-groups/)
 
-给你一个二维整数数组 `intervals` ，其中 `intervals[i] = [lefti, righti]` 表示 闭 区间 `[lefti, righti]` 。
+给你一个二维整数数组 `intervals` ，其中 `intervals[i] = [lefti, righti]` 表示 闭 区间 `[lefti, righti]`。
 
-你需要将 `intervals` 划分为一个或者多个区间 组 ，每个区间 只 属于一个组，且同一个组中任意两个区间 不相交 。
+你需要将 `intervals` 划分为一个或者多个区间 组 ，每个区间 只 属于一个组，且同一个组中任意两个区间 不相交。
 
 请你返回 最少 需要划分成多少个组。
 
@@ -29,9 +29,9 @@
 输入：intervals = [[5,10],[6,8],[1,5],[2,3],[1,10]]
 输出：3
 解释：我们可以将区间划分为如下的区间组：
-- 第 1 组：[1, 5] ，[6, 8] 。
-- 第 2 组：[2, 3] ，[5, 10] 。
-- 第 3 组：[1, 10] 。
+- 第 1 组：[1, 5] ，[6, 8]。
+- 第 2 组：[2, 3] ，[5, 10]。
+- 第 3 组：[1, 10]。
 可以证明无法将区间划分为少于 3 个组。
 ```
 

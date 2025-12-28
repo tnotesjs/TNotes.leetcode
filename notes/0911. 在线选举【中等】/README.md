@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/online-election/)
 
-给你两个整数数组 `persons` 和 `times` 。在选举中，第 `i` 张票是在时刻为 `times[i]` 时投给候选人 `persons[i]` 的。
+给你两个整数数组 `persons` 和 `times`。在选举中，第 `i` 张票是在时刻为 `times[i]` 时投给候选人 `persons[i]` 的。
 
 对于发生在时刻 `t` 的每个查询，需要找出在 `t` 时刻在选举中领先的候选人的编号。
 

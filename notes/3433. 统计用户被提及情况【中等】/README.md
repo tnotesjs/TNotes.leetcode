@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/count-mentions-per-user/)
 
-给你一个整数 `numberOfUsers` 表示用户总数，另有一个大小为 `n x 3` 的数组 `events` 。
+给你一个整数 `numberOfUsers` 表示用户总数，另有一个大小为 `n x 3` 的数组 `events`。
 
 每个 `events[i]` 都属于下述两种类型之一：
 
@@ -46,7 +46,7 @@
 
 时间戳 10 ，`id1` 和 `id0` 被提及，`mentions = [1,1]`
 
-时间戳 11 ，`id0` 离线 。
+时间戳 11 ，`id0` 离线。
 
 时间戳 71 ，`id0` 再次 上线 并且 `"HERE"` 被提及，`mentions = [2,2]`
 
@@ -64,7 +64,7 @@
 
 时间戳 10 ，`id1` 和 `id0` 被提及，`mentions = [1,1]`
 
-时间戳 11 ，`id0` 离线 。
+时间戳 11 ，`id0` 离线。
 
 时间戳 12 ，`"ALL"` 被提及。这种方式将会包括所有离线用户，所以 `id0` 和 `id1` 都被提及，`mentions = [2,2]`
 
@@ -80,7 +80,7 @@
 
 最初，所有用户都在线。
 
-时间戳 10 ，`id0` 离线 。
+时间戳 10 ，`id0` 离线。
 
 时间戳 12 ，`"HERE"` 被提及。由于 `id0` 仍处于离线状态，其将不会被提及，`mentions = [0,1]`
 
@@ -91,7 +91,7 @@
 - `1 <= numberOfUsers <= 100`
 - `1 <= events.length <= 100`
 - `events[i].length == 3`
-- `events[i][0]` 的值为 `MESSAGE` 或 `OFFLINE` 。
+- `events[i][0]` 的值为 `MESSAGE` 或 `OFFLINE`。
 - `1 <= int(events[i][1]) <= 10^5`
 - 在任意 `"MESSAGE"` 事件中，以 `id<number>` 形式提及的用户数目介于 `1` 和 `100` 之间。
 - `0 <= <number> <= numberOfUsers - 1`

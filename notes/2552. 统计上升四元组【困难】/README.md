@@ -18,7 +18,7 @@
 如果一个四元组 `(i, j, k, l)` 满足以下条件，我们称它是上升的：
 
 - `0 <= i < j < k < l < n` 且
-- `nums[i] < nums[k] < nums[j] < nums[l]` 。
+- `nums[i] < nums[k] < nums[j] < nums[l]`。
 
 ---
 
@@ -28,9 +28,9 @@
 输入：nums = [1,3,2,4,5]
 输出：2
 解释：
-- 当 i = 0 ，j = 1 ，k = 2 且 l = 3 时，有 nums[i] < nums[k] < nums[j] < nums[l] 。
-- 当 i = 0 ，j = 1 ，k = 2 且 l = 4 时，有 nums[i] < nums[k] < nums[j] < nums[l] 。
-没有其他的四元组，所以我们返回 2 。
+- 当 i = 0 ，j = 1 ，k = 2 且 l = 3 时，有 nums[i] < nums[k] < nums[j] < nums[l]。
+- 当 i = 0 ，j = 1 ，k = 2 且 l = 4 时，有 nums[i] < nums[k] < nums[j] < nums[l]。
+没有其他的四元组，所以我们返回 2。
 ```
 
 - 示例 2：
@@ -38,7 +38,7 @@
 ```txt
 输入：nums = [1,2,3,4]
 输出：0
-解释：只存在一个四元组 i = 0 ，j = 1 ，k = 2 ，l = 3 ，但是 nums[j] < nums[k] ，所以我们返回 0 。
+解释：只存在一个四元组 i = 0 ，j = 1 ，k = 2 ，l = 3 ，但是 nums[j] < nums[k] ，所以我们返回 0。
 ```
 
 ---

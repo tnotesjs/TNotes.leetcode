@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/create-a-dataframe-from-list/)
 
-编写一个解决方案，基于名为 `student_data` 的二维列表 创建 一个 DataFrame 。这个二维列表包含一些学生的 ID 和年龄信息。
+编写一个解决方案，基于名为 `student_data` 的二维列表 创建 一个 DataFrame。这个二维列表包含一些学生的 ID 和年龄信息。
 
 DataFrame 应该有两列， `student_id` 和 `age`，并且与原始二维列表的顺序相同。
 

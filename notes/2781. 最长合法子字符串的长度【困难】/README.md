@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/length-of-the-longest-valid-substring/)
 
-给你一个字符串 `word` 和一个字符串数组 `forbidden` 。
+给你一个字符串 `word` 和一个字符串数组 `forbidden`。
 
 如果一个字符串不包含 `forbidden` 中的任何字符串，我们称这个字符串是 合法 的。
 
@@ -28,8 +28,8 @@
 ```txt
 输入：word = "cbaaaabc", forbidden = ["aaa","cb"]
 输出：4
-解释：总共有 11 个合法子字符串："c", "b", "a", "ba", "aa", "bc", "baa", "aab", "ab", "abc" 和 "aabc"。最长合法子字符串的长度为 4 。
-其他子字符串都要么包含 "aaa" ，要么包含 "cb" 。
+解释：总共有 11 个合法子字符串："c", "b", "a", "ba", "aa", "bc", "baa", "aab", "ab", "abc" 和 "aabc"。最长合法子字符串的长度为 4。
+其他子字符串都要么包含 "aaa" ，要么包含 "cb"。
 ```
 
 - 示例 2：
@@ -37,7 +37,7 @@
 ```txt
 输入：word = "leetcode", forbidden = ["de","le","e"]
 输出：4
-解释：总共有 11 个合法子字符串："l" ，"t" ，"c" ，"o" ，"d" ，"tc" ，"co" ，"od" ，"tco" ，"cod" 和 "tcod" 。最长合法子字符串的长度为 4 。
+解释：总共有 11 个合法子字符串："l" ，"t" ，"c" ，"o" ，"d" ，"tc" ，"co" ，"od" ，"tco" ，"cod" 和 "tcod"。最长合法子字符串的长度为 4。
 所有其他子字符串都至少包含 "de" ，"le" 和 "e" 之一。
 ```
 

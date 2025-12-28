@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/merge-operations-for-minimum-travel-time/)
 
-给你一个长度为 `l` 公里的直路，一个整数 `n`，一个整数 `k` 和 两个 长度为 `n` 的整数数组 `position` 和 `time` 。
+给你一个长度为 `l` 公里的直路，一个整数 `n`，一个整数 `k` 和 两个 长度为 `n` 的整数数组 `position` 和 `time`。
 
 数组 `position` 列出了路标的位置（单位：公里），并且是 严格 升序排列的（其中 `position[0] = 0` 且 `position[n - 1] = l`）。
 

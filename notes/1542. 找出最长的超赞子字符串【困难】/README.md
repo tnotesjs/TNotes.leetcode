@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/find-longest-awesome-substring/)
 
-给你一个字符串 `s` 。请返回 `s` 中最长的 超赞子字符串 的长度。
+给你一个字符串 `s`。请返回 `s` 中最长的 超赞子字符串 的长度。
 
 「超赞子字符串」需满足满足下述两个条件：
 

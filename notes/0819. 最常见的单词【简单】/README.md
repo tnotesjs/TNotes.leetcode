@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/most-common-word/)
 
-给你一个字符串 `paragraph` 和一个表示禁用词的字符串数组 `banned` ，返回出现频率最高的非禁用词。题目数据 保证 至少存在一个非禁用词，且答案 唯一 。
+给你一个字符串 `paragraph` 和一个表示禁用词的字符串数组 `banned` ，返回出现频率最高的非禁用词。题目数据 保证 至少存在一个非禁用词，且答案 唯一。
 
 `paragraph` 中的单词 不区分大小写 ，答案应以 小写 形式返回。
 

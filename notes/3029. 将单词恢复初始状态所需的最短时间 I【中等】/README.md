@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/minimum-time-to-revert-word-to-initial-state-i/)
 
-给你一个下标从 0 开始的字符串 `word` 和一个整数 `k` 。
+给你一个下标从 0 开始的字符串 `word` 和一个整数 `k`。
 
 在每一秒，你必须执行以下操作：
 
@@ -32,8 +32,8 @@
 输入：word = "abacaba", k = 3
 输出：2
 解释：
-第 1 秒，移除 word 的前缀 "aba"，并在末尾添加 "bac" 。因此，word 变为 "cababac"。
-第 2 秒，移除 word 的前缀 "cab"，并在末尾添加 "aba" 。因此，word 变为 "abacaba" 并恢复到始状态。
+第 1 秒，移除 word 的前缀 "aba"，并在末尾添加 "bac"。因此，word 变为 "cababac"。
+第 2 秒，移除 word 的前缀 "cab"，并在末尾添加 "aba"。因此，word 变为 "abacaba" 并恢复到始状态。
 可以证明，2 秒是 word 恢复到其初始状态所需的最短时间。
 ```
 
@@ -43,7 +43,7 @@
 输入：word = "abacaba", k = 4
 输出：1
 解释：
-第 1 秒，移除 word 的前缀 "abac"，并在末尾添加 "caba" 。因此，word 变为 "abacaba" 并恢复到初始状态。
+第 1 秒，移除 word 的前缀 "abac"，并在末尾添加 "caba"。因此，word 变为 "abacaba" 并恢复到初始状态。
 可以证明，1 秒是 word 恢复到其初始状态所需的最短时间。
 ```
 

@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/find-good-days-to-rob-the-bank/)
 
-你和朋友们准备去野炊。给你一个下标从 0 开始的整数数组 `security` ，其中 `security[i]` 是第 `i` 天的建议出行指数。日子从 `0` 开始编号。同时给你一个整数 `time` 。
+你和朋友们准备去野炊。给你一个下标从 0 开始的整数数组 `security` ，其中 `security[i]` 是第 `i` 天的建议出行指数。日子从 `0` 开始编号。同时给你一个整数 `time`。
 
 如果第 `i` 天满足以下所有条件，我们称它为一个适合野炊的日子：
 
@@ -33,8 +33,8 @@
 输入：security = [5,3,3,3,5,6,2], time = 2
 输出：[2,3]
 解释：
-第 2 天，我们有 security[0] >= security[1] >= security[2] <= security[3] <= security[4] 。
-第 3 天，我们有 security[1] >= security[2] >= security[3] <= security[4] <= security[5] 。
+第 2 天，我们有 security[0] >= security[1] >= security[2] <= security[3] <= security[4]。
+第 3 天，我们有 security[1] >= security[2] >= security[3] <= security[4] <= security[5]。
 没有其他日子符合这个条件，所以日子 2 和 3 是适合野炊的日子。
 ```
 

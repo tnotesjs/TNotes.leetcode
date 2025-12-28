@@ -143,7 +143,7 @@ emitter.emit('firstEvent', [5]) // [7]
 - `1 <= actions.length <= 10`
 - `values.length === actions.length`
 - 所有测试用例都是有效的。例如，你不需要处理取消一个不存在的订阅的情况。
-- 只有 4 种不同的操作：`EventEmitter`、`emit`、`subscribe` 和 `unsubscribe` 。 `EventEmitter` 操作没有参数。
+- 只有 4 种不同的操作：`EventEmitter`、`emit`、`subscribe` 和 `unsubscribe`。 `EventEmitter` 操作没有参数。
 - `emit` 操作接收 1 或 2 个参数。第一个参数是要触发的事件名，第二个参数传递给回调函数。
 - `subscribe` 操作接收 2 个参数，第一个是事件名，第二个是回调函数。
 - `unsubscribe` 操作接收一个参数，即之前进行订阅的顺序（从 0 开始）。

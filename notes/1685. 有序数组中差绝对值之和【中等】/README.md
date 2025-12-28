@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/sum-of-absolute-differences-in-a-sorted-array/)
 
-给你一个 非递减 有序整数数组 `nums` 。
+给你一个 非递减 有序整数数组 `nums`。
 
 请你建立并返回一个整数数组 `result`，它跟 `nums` 长度相同，且`result[i]` 等于 `nums[i]` 与数组中所有其他元素差的绝对值之和。
 

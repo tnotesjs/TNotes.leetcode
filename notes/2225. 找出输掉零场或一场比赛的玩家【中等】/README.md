@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/find-players-with-zero-or-one-losses/)
 
-给你一个整数数组 `matches` 其中 `matches[i] = [winneri, loseri]` 表示在一场比赛中 `winneri` 击败了 `loseri` 。
+给你一个整数数组 `matches` 其中 `matches[i] = [winneri, loseri]` 表示在一场比赛中 `winneri` 击败了 `loseri`。
 
 返回一个长度为 2 的列表 `answer` ：
 
@@ -25,7 +25,7 @@
 注意：
 
 - 只考虑那些参与 至少一场 比赛的玩家。
-- 生成的测试用例保证 不存在 两场比赛结果 相同 。
+- 生成的测试用例保证 不存在 两场比赛结果 相同。
 
 ---
 
@@ -38,7 +38,7 @@
 玩家 1、2 和 10 都没有输掉任何比赛。
 玩家 4、5、7 和 8 每个都输掉一场比赛。
 玩家 3、6 和 9 每个都输掉两场比赛。
-因此，answer[0] = [1,2,10] 和 answer[1] = [4,5,7,8] 。
+因此，answer[0] = [1,2,10] 和 answer[1] = [4,5,7,8]。
 ```
 
 - 示例 2：
@@ -49,7 +49,7 @@
 解释：
 玩家 1、2、5 和 6 都没有输掉任何比赛。
 玩家 3 和 4 每个都输掉两场比赛。
-因此，answer[0] = [1,2,5,6] 和 answer[1] = [] 。
+因此，answer[0] = [1,2,5,6] 和 answer[1] = []。
 ```
 
 ---

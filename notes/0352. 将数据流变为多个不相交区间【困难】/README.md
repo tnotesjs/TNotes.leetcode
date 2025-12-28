@@ -16,7 +16,7 @@
 实现 `SummaryRanges` 类：
 
 - `SummaryRanges()` 使用一个空数据流初始化对象。
-- `void addNum(int val)` 向数据流中加入整数 `val` 。
+- `void addNum(int val)` 向数据流中加入整数 `val`。
 - `int[][] getIntervals()` 以不相交区间 `[starti, endi]` 的列表形式返回对数据流中整数的总结。
 
 示例：

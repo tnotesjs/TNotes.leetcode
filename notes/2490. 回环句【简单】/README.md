@@ -26,7 +26,7 @@
 
 例如，`"leetcode exercises sound delightful"`、`"eetcode"`、`"leetcode eats soul"` 都是回环句。然而，`"Leetcode is cool"`、`"happy Leetcode"`、`"Leetcode"` 和 `"I like Leetcode"` 都 不 是回环句。
 
-给你一个字符串 `sentence` ，请你判断它是不是一个回环句。如果是，返回 `true` ；否则，返回 `false` 。
+给你一个字符串 `sentence` ，请你判断它是不是一个回环句。如果是，返回 `true` ；否则，返回 `false`。
 
 ---
 
@@ -35,7 +35,7 @@
 ```txt
 输入：sentence = "leetcode exercises sound delightful"
 输出：true
-解释：句子中的单词是 ["leetcode", "exercises", "sound", "delightful"] 。
+解释：句子中的单词是 ["leetcode", "exercises", "sound", "delightful"]。
 - leetcode 的最后一个字符和 exercises 的第一个字符相等。
 - exercises 的最后一个字符和 sound 的第一个字符相等。
 - sound 的最后一个字符和 delightful 的第一个字符相等。
@@ -48,7 +48,7 @@
 ```txt
 输入：sentence = "eetcode"
 输出：true
-解释：句子中的单词是 ["eetcode"] 。
+解释：句子中的单词是 ["eetcode"]。
 - eetcode 的最后一个字符和 eetcode 的第一个字符相等。
 这个句子是回环句。
 ```
@@ -58,7 +58,7 @@
 ```txt
 输入：sentence = "Leetcode is cool"
 输出：false
-解释：句子中的单词是 ["Leetcode", "is", "cool"] 。
+解释：句子中的单词是 ["Leetcode", "is", "cool"]。
 - Leetcode 的最后一个字符和 is 的第一个字符 不 相等。
 这个句子 不 是回环句。
 ```

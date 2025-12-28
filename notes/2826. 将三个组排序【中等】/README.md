@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/sorting-three-groups/)
 
-给你一个整数数组 `nums` 。`nums` 的每个元素是 1，2 或 3。在每次操作中，你可以删除 `nums` 中的一个元素。返回使 nums 成为 非递减 顺序所需操作数的 最小值。
+给你一个整数数组 `nums`。`nums` 的每个元素是 1，2 或 3。在每次操作中，你可以删除 `nums` 中的一个元素。返回使 nums 成为 非递减 顺序所需操作数的 最小值。
 
 ---
 

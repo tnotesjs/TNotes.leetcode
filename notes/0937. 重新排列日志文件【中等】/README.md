@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/reorder-data-in-log-files/)
 
-给你一个日志数组 `logs`。每条日志都是以空格分隔的字串，其第一个字为字母与数字混合的 标识符 。
+给你一个日志数组 `logs`。每条日志都是以空格分隔的字串，其第一个字为字母与数字混合的 标识符。
 
 有两种不同类型的日志：
 
@@ -36,8 +36,8 @@
 输入：logs = ["dig1 8 1 5 1","let1 art can","dig2 3 6","let2 own kit dig","let3 art zero"]
 输出：["let1 art can","let3 art zero","let2 own kit dig","dig1 8 1 5 1","dig2 3 6"]
 解释：
-字母日志的内容都不同，所以顺序为 "art can", "art zero", "own kit dig" 。
-数字日志保留原来的相对顺序 "dig1 8 1 5 1", "dig2 3 6" 。
+字母日志的内容都不同，所以顺序为 "art can", "art zero", "own kit dig"。
+数字日志保留原来的相对顺序 "dig1 8 1 5 1", "dig2 3 6"。
 ```
 
 - 示例 2：

@@ -15,7 +15,7 @@
 
 给你一个 互不相同 的整数数组，其中 `locations[i]` 表示第 `i` 个城市的位置。同时给你 `start`，`finish` 和 `fuel` 分别表示出发城市、目的地城市和你初始拥有的汽油总量
 
-每一步中，如果你在城市 `i` ，你可以选择任意一个城市 `j` ，满足 `j != i` 且 `0 <= j < locations.length` ，并移动到城市 `j` 。从城市 `i` 移动到 `j` 消耗的汽油量为 `|locations[i] - locations[j]|`，`|x|` 表示 `x` 的绝对值。
+每一步中，如果你在城市 `i` ，你可以选择任意一个城市 `j` ，满足 `j != i` 且 `0 <= j < locations.length` ，并移动到城市 `j`。从城市 `i` 移动到 `j` 消耗的汽油量为 `|locations[i] - locations[j]|`，`|x|` 表示 `x` 的绝对值。
 
 请注意， `fuel` 任何时刻都 不能 为负，且你 可以 经过任意城市超过一次（包括 `start` 和 `finish` ）。
 
@@ -55,7 +55,7 @@
 ```txt
 输入：locations = [5,2,1], start = 0, finish = 2, fuel = 3
 输出：0
-解释：没有办法只用 3 单位的汽油从 0 到达 2 。因为最短路径需要 4 单位的汽油。
+解释：没有办法只用 3 单位的汽油从 0 到达 2。因为最短路径需要 4 单位的汽油。
 ```
 
 ---
@@ -64,7 +64,7 @@
 
 - `2 <= locations.length <= 100`
 - `1 <= locations[i] <= 10^9`
-- 所有 `locations` 中的整数 互不相同 。
+- 所有 `locations` 中的整数 互不相同。
 - `0 <= start, finish < locations.length`
 - `1 <= fuel <= 200`
 

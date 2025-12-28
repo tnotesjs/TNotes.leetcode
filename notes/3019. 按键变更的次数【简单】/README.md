@@ -27,11 +27,11 @@
 输入：s = "aAbBcC"
 输出：2
 解释：
-从 s[0] = 'a' 到 s[1] = 'A'，不存在按键变更，因为不计入 caps lock 或 shift 。
+从 s[0] = 'a' 到 s[1] = 'A'，不存在按键变更，因为不计入 caps lock 或 shift。
 从 s[1] = 'A' 到 s[2] = 'b'，按键变更。
-从 s[2] = 'b' 到 s[3] = 'B'，不存在按键变更，因为不计入 caps lock 或 shift 。
+从 s[2] = 'b' 到 s[3] = 'B'，不存在按键变更，因为不计入 caps lock 或 shift。
 从 s[3] = 'B' 到 s[4] = 'c'，按键变更。
-从 s[4] = 'c' 到 s[5] = 'C'，不存在按键变更，因为不计入 caps lock 或 shift 。
+从 s[4] = 'c' 到 s[5] = 'C'，不存在按键变更，因为不计入 caps lock 或 shift。
 ```
 
 ---

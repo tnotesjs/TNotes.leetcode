@@ -16,7 +16,7 @@
 实现 `Solution` 类：
 
 - `Solution(int[] nums)` 用数组 `nums` 初始化对象。
-- `int pick(int target)` 从 `nums` 中选出一个满足 `nums[i] == target` 的随机索引 `i` 。如果存在多个有效的索引，则每个索引的返回概率应当相等。
+- `int pick(int target)` 从 `nums` 中选出一个满足 `nums[i] == target` 的随机索引 `i`。如果存在多个有效的索引，则每个索引的返回概率应当相等。
 
 示例：
 
@@ -30,7 +30,7 @@
 解释
 Solution solution = new Solution([1, 2, 3, 3, 3]);
 solution.pick(3); // 随机返回索引 2, 3 或者 4 之一。每个索引的返回概率应该相等。
-solution.pick(1); // 返回 0 。因为只有 nums[0] 等于 1 。
+solution.pick(1); // 返回 0。因为只有 nums[0] 等于 1。
 solution.pick(3); // 随机返回索引 2, 3 或者 4 之一。每个索引的返回概率应该相等。
 ```
 

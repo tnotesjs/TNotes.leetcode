@@ -13,11 +13,11 @@
 
 - [leetcode](https://leetcode.cn/problems/minimum-cost-of-a-path-with-special-roads/)
 
-给你一个数组 `start` ，其中 `start = [startX, startY]` 表示你的初始位置位于二维空间上的 `(startX, startY)` 。另给你一个数组 `target` ，其中 `target = [targetX, targetY]` 表示你的目标位置 `(targetX, targetY)` 。
+给你一个数组 `start` ，其中 `start = [startX, startY]` 表示你的初始位置位于二维空间上的 `(startX, startY)`。另给你一个数组 `target` ，其中 `target = [targetX, targetY]` 表示你的目标位置 `(targetX, targetY)`。
 
-从位置 `(x1, y1)` 到空间中任一其他位置 `(x2, y2)` 的 代价 是 `|x2 - x1| + |y2 - y1|` 。
+从位置 `(x1, y1)` 到空间中任一其他位置 `(x2, y2)` 的 代价 是 `|x2 - x1| + |y2 - y1|`。
 
-给你一个二维数组 `specialRoads` ，表示空间中存在的一些 特殊路径。其中 `specialRoads[i] = [x1i, y1i, x2i, y2i, costi]` 表示第 `i` 条特殊路径可以从 `(x1i, y1i)` 到 `(x2i, y2i)` ，但成本等于 `costi` 。你可以使用每条特殊路径任意次数。
+给你一个二维数组 `specialRoads` ，表示空间中存在的一些 特殊路径。其中 `specialRoads[i] = [x1i, y1i, x2i, y2i, costi]` 表示第 `i` 条特殊路径可以从 `(x1i, y1i)` 到 `(x2i, y2i)` ，但成本等于 `costi`。你可以使用每条特殊路径任意次数。
 
 返回从 `(startX, startY)` 到 `(targetX, targetY)` 所需的 最小 代价。
 

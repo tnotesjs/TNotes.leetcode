@@ -55,8 +55,8 @@
 
 - `1 <= students.length, sandwiches.length <= 100`
 - `students.length == sandwiches.length`
-- `sandwiches[i]` 要么是 `0` ，要么是 `1` 。
-- `students[i]` 要么是 `0` ，要么是 `1` 。
+- `sandwiches[i]` 要么是 `0` ，要么是 `1`。
+- `students[i]` 要么是 `0` ，要么是 `1`。
 
 ## 2. 🎯 s.1 - 解法 1
 

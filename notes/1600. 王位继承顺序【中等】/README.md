@@ -22,10 +22,10 @@ Successor(x, curOrder): 如果 x 没有孩子或者所有 x 的孩子都在 curO
 比方说，假设王国由国王，他的孩子 Alice 和 Bob （Alice 比 Bob 年长）和 Alice 的孩子 Jack 组成。
 
 1. 一开始， `curOrder` 为 `["king"]`.
-2. 调用 `Successor(king, curOrder)` ，返回 Alice ，所以我们将 Alice 放入 `curOrder` 中，得到 `["king", "Alice"]` 。
-3. 调用 `Successor(Alice, curOrder)` ，返回 Jack ，所以我们将 Jack 放入 `curOrder` 中，得到 `["king", "Alice", "Jack"]` 。
-4. 调用 `Successor(Jack, curOrder)` ，返回 Bob ，所以我们将 Bob 放入 `curOrder` 中，得到 `["king", "Alice", "Jack", "Bob"]` 。
-5. 调用 `Successor(Bob, curOrder)` ，返回 `null` 。最终得到继承顺序为 `["king", "Alice", "Jack", "Bob"]` 。
+2. 调用 `Successor(king, curOrder)` ，返回 Alice ，所以我们将 Alice 放入 `curOrder` 中，得到 `["king", "Alice"]`。
+3. 调用 `Successor(Alice, curOrder)` ，返回 Jack ，所以我们将 Jack 放入 `curOrder` 中，得到 `["king", "Alice", "Jack"]`。
+4. 调用 `Successor(Jack, curOrder)` ，返回 Bob ，所以我们将 Bob 放入 `curOrder` 中，得到 `["king", "Alice", "Jack", "Bob"]`。
+5. 调用 `Successor(Bob, curOrder)` ，返回 `null`。最终得到继承顺序为 `["king", "Alice", "Jack", "Bob"]`。
 
 通过以上的函数，我们总是能得到一个唯一的继承顺序。
 
@@ -67,8 +67,8 @@ t.getInheritanceOrder(); // 返回 ["king", "andy", "matthew", "alex", "asha", "
 - 所有的参数 `childName` 和 `kingName` 互不相同。
 - 所有 `death` 函数中的死亡名字 `name` 要么是国王，要么是已经出生了的人员名字。
 - 每次调用 `birth(parentName, childName)` 时，测试用例都保证 `parentName` 对应的人员是活着的。
-- 最多调用 `10^5` 次`birth` 和 `death` 。
-- 最多调用 `10` 次 `getInheritanceOrder` 。
+- 最多调用 `10^5` 次`birth` 和 `death`。
+- 最多调用 `10` 次 `getInheritanceOrder`。
 
 ## 2. 🎯 s.1 - 解法 1
 

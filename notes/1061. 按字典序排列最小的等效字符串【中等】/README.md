@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/lexicographically-smallest-equivalent-string/)
 
-给出长度相同的两个字符串`s1` 和 `s2` ，还有一个字符串 `baseStr` 。
+给出长度相同的两个字符串`s1` 和 `s2` ，还有一个字符串 `baseStr`。
 
 其中 `s1[i]` 和 `s2[i]` 是一组等价字符。
 

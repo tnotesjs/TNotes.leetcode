@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/smallest-divisible-digit-product-i/)
 
-给你两个整数 `n` 和 `t` 。请你返回大于等于 `n` 的 最小 整数，且该整数的 各数位之积 能被 `t` 整除。
+给你两个整数 `n` 和 `t`。请你返回大于等于 `n` 的 最小 整数，且该整数的 各数位之积 能被 `t` 整除。
 
 ---
 

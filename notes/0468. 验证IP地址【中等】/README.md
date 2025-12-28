@@ -1,4 +1,4 @@
-# [0468. 验证IP地址【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0468.%20%E9%AA%8C%E8%AF%81IP%E5%9C%B0%E5%9D%80%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
+# [0468. 验证 IP 地址【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0468.%20%E9%AA%8C%E8%AF%81IP%E5%9C%B0%E5%9D%80%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
 
@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/validate-ip-address/)
 
-给定一个字符串 `queryIP`。如果是有效的 IPv4 地址，返回 `"IPv4"` ；如果是有效的 IPv6 地址，返回 `"IPv6"` ；如果不是上述类型的 IP 地址，返回 `"Neither"` 。
+给定一个字符串 `queryIP`。如果是有效的 IPv4 地址，返回 `"IPv4"` ；如果是有效的 IPv6 地址，返回 `"IPv6"` ；如果不是上述类型的 IP 地址，返回 `"Neither"`。
 
 有效的 IPv4 地址 是 `“x1.x2.x3.x4”` 形式的 IP 地址。 其中 `0 <= xi <= 255` 且 `xi` 不能包含 前导零。例如: `“192.168.1.1”` 、 `“192.168.1.0”` 为有效 IPv4 地址， `“192.168.01.1”` 为无效 IPv4 地址; `“192.168.1.00”` 、 `“192.168@1.1”` 为无效 IPv4 地址。
 

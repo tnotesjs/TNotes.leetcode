@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/number-of-dice-rolls-with-target-sum/)
 
-这里有 `n` 个一样的骰子，每个骰子上都有 `k` 个面，分别标号为 `1` 到 `k` 。
+这里有 `n` 个一样的骰子，每个骰子上都有 `k` 个面，分别标号为 `1` 到 `k`。
 
 给定三个整数 `n`、`k` 和 `target`，请返回投掷骰子的所有可能得到的结果（共有 `k^n` 种方式），使得骰子面朝上的数字总和等于 `target`。
 

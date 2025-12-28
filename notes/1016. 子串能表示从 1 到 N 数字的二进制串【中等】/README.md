@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/binary-string-with-substrings-representing-1-to-n/)
 
-给定一个二进制字符串 `s` 和一个正整数 `n`，如果对于 `[1, n]` 范围内的每个整数，_其二进制表示都是 `s` 的 子字符串 ，就返回 `true`，否则返回 `false`_ 。
+给定一个二进制字符串 `s` 和一个正整数 `n`，如果对于 `[1, n]` 范围内的每个整数，_其二进制表示都是 `s` 的 子字符串 ，就返回 `true`，否则返回 `false`_。
 
 子字符串 是字符串中连续的字符序列。
 

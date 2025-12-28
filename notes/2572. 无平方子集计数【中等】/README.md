@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/count-the-number-of-square-free-subsets/)
 
-给你一个正整数数组 `nums` 。
+给你一个正整数数组 `nums`。
 
 如果数组 `nums` 的子集中的元素乘积是一个 无平方因子数 ，则认为该子集是一个 无平方 子集。
 

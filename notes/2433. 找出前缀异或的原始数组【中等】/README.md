@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/find-the-original-array-of-prefix-xor/)
 
-给你一个长度为 `n` 的 整数 数组 `pref` 。找出并返回满足下述条件且长度为 `n` 的数组 `arr` ：
+给你一个长度为 `n` 的 整数 数组 `pref`。找出并返回满足下述条件且长度为 `n` 的数组 `arr` ：
 
 - `pref[i] = arr[0] ^ arr[1] ^ ... ^ arr[i]`.
 

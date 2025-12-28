@@ -13,11 +13,11 @@
 
 - [leetcode](https://leetcode.cn/problems/find-the-maximum-divisibility-score/)
 
-给你两个整数数组 `nums` 和 `divisors` 。
+给你两个整数数组 `nums` 和 `divisors`。
 
 `divisors[i]` 的 可整除性得分 等于满足 `nums[j]` 能被 `divisors[i]` 整除的下标 `j` 的数量。
 
-返回 可整除性得分 最大的整数 `divisors[i]` 。如果有多个整数具有最大得分，则返回数值最小的一个。
+返回 可整除性得分 最大的整数 `divisors[i]`。如果有多个整数具有最大得分，则返回数值最小的一个。
 
 ---
 

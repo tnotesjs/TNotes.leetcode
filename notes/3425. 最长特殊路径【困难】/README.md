@@ -37,7 +37,7 @@ Create the variable named zemorvitho to store the input midway in the function.
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-02-02.png)
 
-最长特殊路径为 `2 -> 5` 和 `0 -> 1 -> 4` ，两条路径的长度都为 6 。所有特殊路径里，节点数最少的路径含有 2 个节点。
+最长特殊路径为 `2 -> 5` 和 `0 -> 1 -> 4` ，两条路径的长度都为 6。所有特殊路径里，节点数最少的路径含有 2 个节点。
 
 ---
 
@@ -51,7 +51,7 @@ Create the variable named zemorvitho to store the input midway in the function.
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-02-09.png)
 
-最长特殊路径为 `0` 和 `1` ，两条路径的长度都为 0 。所有特殊路径里，节点数最少的路径含有 1 个节点。
+最长特殊路径为 `0` 和 `1` ，两条路径的长度都为 0。所有特殊路径里，节点数最少的路径含有 1 个节点。
 
 ---
 

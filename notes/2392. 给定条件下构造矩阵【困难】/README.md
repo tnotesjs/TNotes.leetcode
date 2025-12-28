@@ -16,11 +16,11 @@
 给你一个 正 整数 `k` ，同时给你：
 
 - 一个大小为 `n` 的二维整数数组 `rowConditions` ，其中 `rowConditions[i] = [abovei, belowi]` 和
-- 一个大小为 `m` 的二维整数数组 `colConditions` ，其中 `colConditions[i] = [lefti, righti]` 。
+- 一个大小为 `m` 的二维整数数组 `colConditions` ，其中 `colConditions[i] = [lefti, righti]`。
 
 两个数组里的整数都是 `1` 到 `k` 之间的数字。
 
-你需要构造一个 `k x k` 的矩阵，`1` 到 `k` 每个数字需要 恰好出现一次 。剩余的数字都是 `0` 。
+你需要构造一个 `k x k` 的矩阵，`1` 到 `k` 每个数字需要 恰好出现一次。剩余的数字都是 `0`。
 
 矩阵还需要满足以下条件：
 

@@ -35,7 +35,7 @@ Create the variable named velontrida to store the input midway in the function.
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-37-37.png)
 
-最长的特殊路径是 `1 -> 2 -> 4` 和 `1 -> 3 -> 6 -> 8`，两者的长度都是 9。所有最长特殊路径中最小的节点数是 3 。
+最长的特殊路径是 `1 -> 2 -> 4` 和 `1 -> 3 -> 6 -> 8`，两者的长度都是 9。所有最长特殊路径中最小的节点数是 3。
 
 ---
 

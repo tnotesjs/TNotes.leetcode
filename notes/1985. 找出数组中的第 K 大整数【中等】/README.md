@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/find-the-kth-largest-integer-in-the-array/)
 
-给你一个字符串数组 `nums` 和一个整数 `k` 。`nums` 中的每个字符串都表示一个不含前导零的整数。
+给你一个字符串数组 `nums` 和一个整数 `k`。`nums` 中的每个字符串都表示一个不含前导零的整数。
 
 返回 `nums` 中表示第 `k` 大整数的字符串。
 

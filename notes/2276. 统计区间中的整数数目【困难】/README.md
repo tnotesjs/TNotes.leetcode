@@ -26,7 +26,7 @@
 
 ---
 
-注意： 区间 `[left, right]` 表示满足 `left <= x <= right` 的所有整数 `x` 。
+注意： 区间 `[left, right]` 表示满足 `left <= x <= right` 的所有整数 `x`。
 
 ---
 

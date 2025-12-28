@@ -26,7 +26,7 @@
 - (0, 1) ，0 < 1 且 nums[0] + nums[1] = 0 < target
 - (0, 2) ，0 < 2 且 nums[0] + nums[2] = 1 < target
 - (0, 4) ，0 < 4 且 nums[0] + nums[4] = 0 < target
-注意 (0, 3) 不计入答案因为 nums[0] + nums[3] 不是严格小于 target 。
+注意 (0, 3) 不计入答案因为 nums[0] + nums[3] 不是严格小于 target。
 ```
 
 - 示例 2：

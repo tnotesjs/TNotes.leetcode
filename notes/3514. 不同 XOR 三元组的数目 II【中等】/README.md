@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/number-of-unique-xor-triplets-ii/)
 
-给你一个整数数组 `nums` 。
+给你一个整数数组 `nums`。
 
 XOR 三元组 定义为三个元素的异或值 `nums[i] XOR nums[j] XOR nums[k]`，其中 `i <= j <= k`。
 
@@ -36,7 +36,7 @@ XOR 三元组 定义为三个元素的异或值 `nums[i] XOR nums[j] XOR nums[k]
 - `(0, 1, 1) → 1 XOR 3 XOR 3 = 1`
 - `(1, 1, 1) → 3 XOR 3 XOR 3 = 3`
 
-不同的 XOR 值为 `{1, 3}` 。因此输出为 2 。
+不同的 XOR 值为 `{1, 3}`。因此输出为 2。
 
 ---
 
@@ -48,7 +48,7 @@ XOR 三元组 定义为三个元素的异或值 `nums[i] XOR nums[j] XOR nums[k]
 
 解释：
 
-不同的 XOR 值为 `{6, 7, 8, 9}` 。因此输出为 4 。
+不同的 XOR 值为 `{6, 7, 8, 9}`。因此输出为 4。
 
 ---
 

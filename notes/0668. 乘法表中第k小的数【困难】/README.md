@@ -1,4 +1,4 @@
-# [0668. 乘法表中第k小的数【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0668.%20%E4%B9%98%E6%B3%95%E8%A1%A8%E4%B8%AD%E7%AC%ACk%E5%B0%8F%E7%9A%84%E6%95%B0%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91)
+# [0668. 乘法表中第 k 小的数【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0668.%20%E4%B9%98%E6%B3%95%E8%A1%A8%E4%B8%AD%E7%AC%ACk%E5%B0%8F%E7%9A%84%E6%95%B0%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91)
 
 <!-- region:toc -->
 
@@ -26,7 +26,7 @@
 ```txt
 输入：m = 3, n = 3, k = 5
 输出：3
-解释：第 5 小的数字是 3 。
+解释：第 5 小的数字是 3。
 ```
 
 - 示例 2：
@@ -36,7 +36,7 @@
 ```txt
 输入：m = 2, n = 3, k = 6
 输出：6
-解释：第 6 小的数字是 6 。
+解释：第 6 小的数字是 6。
 ```
 
 ---

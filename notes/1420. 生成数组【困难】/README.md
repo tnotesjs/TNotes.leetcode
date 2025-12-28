@@ -13,15 +13,15 @@
 
 - [leetcode](https://leetcode.cn/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons/)
 
-给定三个整数 `n`、`m` 和 `k` 。考虑使用下图描述的算法找出正整数数组中最大的元素。
+给定三个整数 `n`、`m` 和 `k`。考虑使用下图描述的算法找出正整数数组中最大的元素。
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-21-23-50-07.png)
 
 请你构建一个具有以下属性的数组 `arr` ：
 
 - `arr` 中包含确切的 `n` 个整数。
-- `1 <= arr[i] <= m` 其中 `(0 <= i < n)` 。
-- 将上面提到的算法应用于 `arr` 之后，`search_cost` 的值等于 `k` 。
+- `1 <= arr[i] <= m` 其中 `(0 <= i < n)`。
+- 将上面提到的算法应用于 `arr` 之后，`search_cost` 的值等于 `k`。
 
 返回在满足上述条件的情况下构建数组 `arr` 的 _方法数量_ ，由于答案可能会很大，所以 必须 对 `10^9 + 7` 取余。
 

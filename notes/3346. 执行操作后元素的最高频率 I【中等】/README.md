@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/maximum-frequency-of-an-element-after-performing-operations-i/)
 
-给你一个整数数组 `nums` 和两个整数 `k` 和 `numOperations` 。
+给你一个整数数组 `nums` 和两个整数 `k` 和 `numOperations`。
 
 你必须对 `nums` 执行 操作 `numOperations` 次。每次操作中，你可以：
 
@@ -36,8 +36,8 @@
 
 通过以下操作得到最高频率 2 ：
 
-- 将 `nums[1]` 增加 0 ，`nums` 变为 `[1, 4, 5]` 。
-- 将 `nums[2]` 增加 -1 ，`nums` 变为 `[1, 4, 4]` 。
+- 将 `nums[1]` 增加 0 ，`nums` 变为 `[1, 4, 5]`。
+- 将 `nums[2]` 增加 -1 ，`nums` 变为 `[1, 4, 4]`。
 
 ---
 
@@ -51,7 +51,7 @@
 
 通过以下操作得到最高频率 2 ：
 
-- 将 `nums[1]` 增加 0 。
+- 将 `nums[1]` 增加 0。
 
 ---
 

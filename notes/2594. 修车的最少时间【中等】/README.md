@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/minimum-time-to-repair-cars/)
 
-给你一个整数数组 `ranks` ，表示一些机械工的 能力值 。`ranksi` 是第 `i` 位机械工的能力值。能力值为 `r` 的机械工可以在 `r * n^2` 分钟内修好 `n` 辆车。
+给你一个整数数组 `ranks` ，表示一些机械工的 能力值。`ranksi` 是第 `i` 位机械工的能力值。能力值为 `r` 的机械工可以在 `r * n^2` 分钟内修好 `n` 辆车。
 
 同时给你一个整数 `cars` ，表示总共需要修理的汽车数目。
 

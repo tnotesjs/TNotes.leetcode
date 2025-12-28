@@ -13,12 +13,12 @@
 
 - [leetcode](https://leetcode.cn/problems/final-array-state-after-k-multiplication-operations-ii/)
 
-给你一个整数数组 `nums` ，一个整数 `k` 和一个整数 `multiplier` 。
+给你一个整数数组 `nums` ，一个整数 `k` 和一个整数 `multiplier`。
 
 你需要对 `nums` 执行 `k` 次操作，每次操作中：
 
 - 找到 `nums` 中的 最小 值 `x` ，如果存在多个最小值，选择最 前面 的一个。
-- 将 `x` 替换为 `x * multiplier` 。
+- 将 `x` 替换为 `x * multiplier`。
 
 `k` 次操作以后，你需要将 `nums` 中每一个数值对 `10^9 + 7` 取余。
 

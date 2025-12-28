@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/minimum-string-length-after-removing-substrings/)
 
-给你一个仅由 大写 英文字符组成的字符串 `s` 。
+给你一个仅由 大写 英文字符组成的字符串 `s`。
 
 你可以对此字符串执行一些操作，在每一步操作中，你可以从 `s` 中删除 任一个 `"AB"` 或 `"CD"` 子字符串。
 
@@ -29,10 +29,10 @@
 输入：s = "ABFCACDB"
 输出：2
 解释：你可以执行下述操作：
-- 从 "ABFCACDB" 中删除子串 "AB"，得到 s = "FCACDB" 。
-- 从 "FCACDB" 中删除子串 "CD"，得到 s = "FCAB" 。
-- 从 "FCAB" 中删除子串 "AB"，得到 s = "FC" 。
-最终字符串的长度为 2 。
+- 从 "ABFCACDB" 中删除子串 "AB"，得到 s = "FCACDB"。
+- 从 "FCACDB" 中删除子串 "CD"，得到 s = "FCAB"。
+- 从 "FCAB" 中删除子串 "AB"，得到 s = "FC"。
+最终字符串的长度为 2。
 可以证明 2 是可获得的最小长度。
 ```
 

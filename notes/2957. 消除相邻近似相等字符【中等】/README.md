@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/remove-adjacent-almost-equal-characters/)
 
-给你一个下标从 0 开始的字符串 `word` 。
+给你一个下标从 0 开始的字符串 `word`。
 
 一次操作中，你可以选择 `word` 中任意一个下标 `i` ，将 `word[i]` 修改成任意一个小写英文字母。
 

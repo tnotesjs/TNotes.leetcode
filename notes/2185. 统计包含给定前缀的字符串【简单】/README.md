@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/counting-words-with-a-given-prefix/)
 
-给你一个字符串数组 `words` 和一个字符串 `pref` 。
+给你一个字符串数组 `words` 和一个字符串 `pref`。
 
 返回 `words` 中以 `pref` 作为 前缀 的字符串的数目。
 
@@ -26,7 +26,7 @@
 ```txt
 输入：words = ["pay","attention","practice","attend"], pref = "at"
 输出：2
-解释：以 "at" 作为前缀的字符串有两个，分别是："attention" 和 "attend" 。
+解释：以 "at" 作为前缀的字符串有两个，分别是："attention" 和 "attend"。
 ```
 
 - 示例 2：

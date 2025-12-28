@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/count-substrings-starting-and-ending-with-given-character/)
 
-给你一个字符串 `s` 和一个字符 `c` 。返回在字符串 `s` 中并且以 `c` 字符开头和结尾的非空子字符串的总数。
+给你一个字符串 `s` 和一个字符 `c`。返回在字符串 `s` 中并且以 `c` 字符开头和结尾的非空子字符串的总数。
 
 ---
 

@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/maximum-number-that-sum-of-the-prices-is-less-than-or-equal-to-k/)
 
-给你一个整数 `k` 和一个整数 `x` 。整数 `num` 的价值是它的二进制表示中在 `x`，`2x`，`3x` 等位置处 设置位 的数目（从最低有效位开始）。下面的表格包含了如何计算价值的例子。
+给你一个整数 `k` 和一个整数 `x`。整数 `num` 的价值是它的二进制表示中在 `x`，`2x`，`3x` 等位置处 设置位 的数目（从最低有效位开始）。下面的表格包含了如何计算价值的例子。
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-32-34.png)
 

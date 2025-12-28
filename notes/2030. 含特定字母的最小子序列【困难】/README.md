@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/smallest-k-length-subsequence-with-occurrences-of-a-letter/)
 
-给你一个字符串 `s` ，一个整数 `k` ，一个字母 `letter` 以及另一个整数 `repetition` 。
+给你一个字符串 `s` ，一个整数 `k` ，一个字母 `letter` 以及另一个整数 `repetition`。
 
 返回 `s` 中长度为 `k` 且 字典序最小 的子序列，该子序列同时应满足字母 `letter` 出现 至少 `repetition` 次。生成的测试用例满足 `letter` 在 `s` 中出现 至少 `repetition` 次。
 
@@ -33,7 +33,7 @@
 - "let"（"leet"）
 - "let"（"leet"）
 - "eet"（"leet"）
-其中字典序最小的子序列是 "eet" 。
+其中字典序最小的子序列是 "eet"。
 ```
 
 - 示例 2：
