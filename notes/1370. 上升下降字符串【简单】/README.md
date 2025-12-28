@@ -27,24 +27,30 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：s = "aaaabbbbcccc"
 输出："abccbaabccba"
-解释：第一轮的步骤 1，2，3 后，结果字符串为 result = "abc"
+
+解释：
+第一轮的步骤 1，2，3 后，结果字符串为 result = "abc"
 第一轮的步骤 4，5，6 后，结果字符串为 result = "abccba"
 第一轮结束，现在 s = "aabbcc" ，我们再次回到步骤 1
 第二轮的步骤 1，2，3 后，结果字符串为 result = "abccbaabc"
 第二轮的步骤 4，5，6 后，结果字符串为 result = "abccbaabccba"
 ```
 
-- 示例 2：
+---
+
+示例 2：
 
 ```txt
 输入：s = "rat"
 输出："art"
-解释：单词 "rat" 在上述算法重排序以后变成 "art"
+
+解释：
+单词 "rat" 在上述算法重排序以后变成 "art"
 ```
 
 ---
