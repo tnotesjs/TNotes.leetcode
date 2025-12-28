@@ -24,7 +24,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-22-19.png)
 

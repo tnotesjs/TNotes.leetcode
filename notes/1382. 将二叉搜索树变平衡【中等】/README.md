@@ -17,7 +17,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-20-18-58-45.png)
 
@@ -27,7 +27,7 @@
 解释：这不是唯一的正确答案，[3,1,4,null,2,null,null] 也是一个可行的构造方案。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-20-18-58-51.png)
 

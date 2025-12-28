@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-08-18-58.png)
 
@@ -30,21 +30,21 @@
 输出：[[1,2],[5,5],[8,10],[15,23],[24,24],[25,25]]
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：firstList = [[1,3],[5,9]], secondList = []
 输出：[]
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：firstList = [], secondList = [[4,8],[10,12]]
 输出：[]
 ```
 
-- 示例 4：
+示例 4：
 
 ```txt
 输入：firstList = [[1,7]], secondList = [[3,10]]

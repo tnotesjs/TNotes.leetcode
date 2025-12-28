@@ -28,7 +28,7 @@
 像 "ababcbacadefegde", "hijhklij" 这样的划分是错误的，因为划分的片段数较少。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：s = "eccbbbbdec"

@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：jewels = "aA", stones = "aAAbbbb"
@@ -30,7 +30,7 @@
 
 ---
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：jewels = "z", stones = "ZZ"

@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-20-49-11.png)
 
@@ -29,7 +29,7 @@
 解释：最优路径是 2 -> 1 -> 3 ，路径和为 2 + 1 + 3 = 6
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-20-49-20.png)
 

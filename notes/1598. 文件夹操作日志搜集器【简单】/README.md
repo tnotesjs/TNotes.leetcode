@@ -27,7 +27,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-14-41.png)
 
@@ -37,7 +37,7 @@
 解释：执行 "../" 操作变更文件夹 2 次，即可回到主文件夹
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-14-35.png)
 
@@ -46,7 +46,7 @@
 输出：3
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：logs = ["d1/","../","../","../"]

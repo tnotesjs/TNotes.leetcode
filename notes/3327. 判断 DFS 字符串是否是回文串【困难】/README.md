@@ -33,7 +33,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-21-13-47.png)
 
@@ -52,7 +52,7 @@
 
 ---
 
-- 示例 2：
+示例 2：
 
 ![](https://assets.leetcode.com/uploads/2024/09/01/tree2drawio-1.png)
 

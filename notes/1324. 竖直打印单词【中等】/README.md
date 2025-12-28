@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：s = "HOW ARE YOU"
@@ -30,7 +30,7 @@
  "WEU"
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：s = "TO BE OR NOT TO BE"
@@ -41,7 +41,7 @@
 "   T"
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：s = "CONTEST IS COMING"

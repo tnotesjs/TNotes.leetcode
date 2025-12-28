@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：s = "iloveleetcode", words = ["i","love","leetcode","apples"]
@@ -28,7 +28,7 @@
 s 可以由 "i"、"love" 和 "leetcode" 相连得到。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：s = "iloveleetcode", words = ["apples","i","love","leetcode"]

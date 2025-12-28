@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入: order = "cba", s = "abcd"
@@ -31,7 +31,7 @@
 "dcba"、"cdba"、"cbda"也是有效的输出。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入: order = "cbafg", s = "abcd"

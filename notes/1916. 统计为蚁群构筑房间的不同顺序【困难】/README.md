@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-07-20.png)
 
@@ -29,7 +29,7 @@
 解释：仅有一种方案可以完成所有房间的构筑：0 → 1 → 2
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-07-27.png)
 

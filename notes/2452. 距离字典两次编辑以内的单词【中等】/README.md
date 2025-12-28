@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：queries = ["word","note","ants","wood"], dictionary = ["wood","joke","moat"]
@@ -32,7 +32,7 @@
 所以我们返回 ["word","note","wood"]。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：queries = ["yes"], dictionary = ["not"]

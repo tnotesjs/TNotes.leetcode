@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-14-18-16.png)
 
@@ -29,7 +29,7 @@
 解释：如图所示，"codeleet" 重新排列后变为 "leetcode"。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：s = "abc", indices = [0,1,2]

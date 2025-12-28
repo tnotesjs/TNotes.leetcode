@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入: s = "abcde", words = ["a","bb","acd","ace"]

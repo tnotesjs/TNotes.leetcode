@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-22-52-15.png)
 
@@ -29,7 +29,7 @@
 解释：遍历如上图所示，arr[2] 在矩阵中的第一行或第二列上都被涂色。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-22-52-30.png)
 

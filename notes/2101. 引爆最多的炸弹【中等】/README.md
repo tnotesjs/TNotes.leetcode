@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-24-26.png)
 
@@ -35,7 +35,7 @@
 所以最多能引爆的炸弹数目是 max(1, 2) = 2。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-24-34.png)
 
@@ -46,7 +46,7 @@
 引爆任意一个炸弹都不会引爆另一个炸弹。所以最多能引爆的炸弹数目为 1。
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-24-39.png)
 

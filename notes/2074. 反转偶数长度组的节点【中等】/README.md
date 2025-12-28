@@ -25,7 +25,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-09-26.png)
 
@@ -39,7 +39,7 @@
 - 最后一组长度为 4 ，偶数，节点反转。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-09-35.png)
 
@@ -52,7 +52,7 @@
 - 最后一组长度为 1 ，没有发生反转。
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-09-43.png)
 

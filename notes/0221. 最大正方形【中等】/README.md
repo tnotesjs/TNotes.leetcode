@@ -15,7 +15,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-46-16.png)
 
@@ -24,7 +24,7 @@
 输出：4
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-46-22.png)
 
@@ -33,7 +33,7 @@
 输出：1
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：matrix = [["0"]]

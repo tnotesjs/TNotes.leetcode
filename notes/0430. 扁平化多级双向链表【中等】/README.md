@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-14-18-15.png)
 
@@ -32,7 +32,7 @@
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-14-18-27.png)
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-14-18-36.png)
 
@@ -45,7 +45,7 @@
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-14-18-42.png)
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：head = []

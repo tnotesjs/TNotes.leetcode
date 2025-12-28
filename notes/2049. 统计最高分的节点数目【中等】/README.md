@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-37-19.png)
 
@@ -35,7 +35,7 @@
 最高得分为 4 ，有三个节点得分为 4 （分别是节点 1，3 和 4 ）。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-37-34.png)
 

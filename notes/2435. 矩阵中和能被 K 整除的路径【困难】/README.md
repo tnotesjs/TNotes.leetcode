@@ -17,7 +17,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-07-18.png)
 
@@ -29,7 +29,7 @@
 第二条路径为上图中用蓝色标注的路径，和为 5 + 3 + 0 + 5 + 2 = 15 ，能被 3 整除。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-07-24.png)
 
@@ -39,7 +39,7 @@
 解释：红色标注的路径和为 0 + 0 = 0 ，能被 5 整除。
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-07-32.png)
 

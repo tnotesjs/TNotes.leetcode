@@ -78,7 +78,7 @@ a = b + c;
 }
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入: source = ["a/*comment", "line", "more_comment*/b"]

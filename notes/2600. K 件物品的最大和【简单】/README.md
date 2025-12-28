@@ -25,7 +25,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：numOnes = 3, numZeros = 2, numNegOnes = 0, k = 2
@@ -36,7 +36,7 @@
 
 ---
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：numOnes = 3, numZeros = 2, numNegOnes = 0, k = 4

@@ -25,7 +25,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-05-08.png)
 
@@ -35,7 +35,7 @@
 解释：上图展示了矩阵在执行循环轮转操作时每一步的状态。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-05-21.png)
 

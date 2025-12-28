@@ -23,7 +23,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：n = 1, headID = 0, manager = [-1], informTime = [0]
@@ -31,7 +31,7 @@
 解释：公司总负责人是该公司的唯一一名员工。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-20-18-55-21.png)
 

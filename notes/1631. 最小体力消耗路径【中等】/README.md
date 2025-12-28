@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-28-52.png)
 
@@ -30,7 +30,7 @@
 这条路径比路径 [1,2,2,2,5] 更优，因为另一条路径差值最大值为 3。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-28-56.png)
 
@@ -40,7 +40,7 @@
 解释：路径 [1,2,3,4,5] 的相邻格子差值绝对值最大为 1 ，比路径 [1,3,5,3,5] 更优。
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-29-02.png)
 

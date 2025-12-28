@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：s = "barfoothefoobarman", words = ["foo","bar"]
@@ -32,7 +32,7 @@
 输出顺序无关紧要。返回 [9,0] 也是可以的。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：s = "wordgoodgoodgoodbestword", words = ["word","good","best","word"]
@@ -42,7 +42,7 @@ s 中没有子串长度为 16 并且等于 words 的任何顺序排列的连接�
 所以我们返回一个空数组。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：s = "barfoofoobarthefoobarman", words = ["bar","foo","the"]

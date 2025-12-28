@@ -20,7 +20,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-14-32-25.png)
 
@@ -34,7 +34,7 @@
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-14-32-37.png)
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入: root = [5,3,6,2,4,null,7], key = 0
@@ -42,7 +42,7 @@
 解释: 二叉树不包含值为 0 的节点
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入: root = [], key = 0

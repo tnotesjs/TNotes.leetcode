@@ -29,7 +29,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-12-17-45.png)
 
@@ -42,7 +42,7 @@
 所以输出为 6。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-12-17-58.png)
 

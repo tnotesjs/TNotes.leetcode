@@ -27,7 +27,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：paths = ["root/a 1.txt(abcd) 2.txt(efgh)","root/c 3.txt(abcd)","root/c/d 4.txt(efgh)","root 4.txt(efgh)"]
@@ -37,7 +37,7 @@
 ]
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：paths = ["root/a 1.txt(abcd) 2.txt(efgh)","root/c 3.txt(abcd)","root/c/d 4.txt(efgh)"]

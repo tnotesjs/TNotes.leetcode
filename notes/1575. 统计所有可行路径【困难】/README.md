@@ -23,7 +23,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：locations = [2,3,6,8,4], start = 1, finish = 3, fuel = 5
@@ -35,7 +35,7 @@
 1 -> 4 -> 2 -> 3
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：locations = [4,3,1], start = 1, finish = 0, fuel = 6
@@ -48,7 +48,7 @@
 1 -> 0 -> 1 -> 0 -> 1 -> 0，使用汽油量为 fuel = 5
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：locations = [5,2,1], start = 0, finish = 2, fuel = 3

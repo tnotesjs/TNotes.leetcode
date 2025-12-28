@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```
 输入：licensePlate = "1s3 PSt", words = ["step", "steps", "stripe", "stepple"]
@@ -34,7 +34,7 @@
 因此，"steps" 是唯一一个包含所有字母的单词，也是本例的答案。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：licensePlate = "1s3 456", words = ["looks", "pest", "stew", "show"]

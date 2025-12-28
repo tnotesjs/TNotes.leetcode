@@ -23,7 +23,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：source = "abcd", target = "acbe", original = ["a","b","c","c","e","d"], changed = ["b","c","b","e","b","e"], cost = [2,5,5,1,2,20]
@@ -37,7 +37,7 @@
 可以证明这是可能的最小成本。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：source = "aaaa", target = "bbbb", original = ["a","c"], changed = ["c","b"], cost = [1,2]
@@ -49,7 +49,7 @@
 将所有 'a' 更改为 'b'，产生的总成本是 3 * 4 = 12。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：source = "abcd", target = "abce", original = ["a"], changed = ["e"], cost = [10000]

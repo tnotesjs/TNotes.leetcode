@@ -24,7 +24,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：words = ["one.two.three","four.five","six"], separator = "."
@@ -38,7 +38,7 @@
 因此，结果数组为 ["one","two","three","four","five","six"]。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：words = ["$easy$","$problem$"], separator = "$"
@@ -51,7 +51,7 @@
 因此，结果数组为 ["easy","problem"]。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：words = ["|||"], separator = "|"

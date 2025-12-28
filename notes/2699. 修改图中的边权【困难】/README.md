@@ -25,7 +25,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-23-20-43.png)
 
@@ -35,7 +35,7 @@
 解释：上图展示了一个满足题意的修改方案，从 0 到 1 的最短距离为 5。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-23-20-57.png)
 
@@ -45,7 +45,7 @@
 解释：上图是一开始的图。没有办法通过修改边权为 -1 的边，使得 0 到 2 的最短距离等于 6 ，所以返回一个空数组。
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-23-21-08.png)
 

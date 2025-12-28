@@ -17,7 +17,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-21-44-19.png)
 
@@ -31,7 +31,7 @@
 - 对角线的和：5+4+3 = 6+4+2 = 12
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-21-44-26.png)
 

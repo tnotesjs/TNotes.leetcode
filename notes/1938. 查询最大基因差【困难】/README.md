@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-19-36.png)
 
@@ -32,7 +32,7 @@
 - [2,5]：最大基因差的对应节点为 2 ，基因差为 5 XOR 2 = 7。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-19-44.png)
 

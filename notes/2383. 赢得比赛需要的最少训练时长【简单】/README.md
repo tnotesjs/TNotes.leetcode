@@ -25,7 +25,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：initialEnergy = 5, initialExperience = 3, energy = [1,4,3,2], experience = [2,6,3,1]
@@ -44,7 +44,7 @@
 可以证明不存在更小的答案。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：initialEnergy = 2, initialExperience = 4, energy = [1], experience = [3]

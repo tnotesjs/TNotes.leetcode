@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：s = "babacc", queryCharacters = "bcb", queryIndices = [1,3,3]
@@ -31,7 +31,7 @@
 因此，返回 [3,3,4]。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：s = "abyzz", queryCharacters = "aa", queryIndices = [2,1]

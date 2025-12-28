@@ -24,7 +24,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-20-54-29.png)
 
@@ -39,7 +39,7 @@
 可以证明收集所有节点上的金币能获得的最大积分是 11。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-20-54-34.png)
 

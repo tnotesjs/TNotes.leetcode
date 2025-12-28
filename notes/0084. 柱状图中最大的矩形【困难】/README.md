@@ -17,7 +17,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-17-45-14.png)
 
@@ -27,7 +27,7 @@
 解释：最大的矩形为图中红色区域，面积为 10
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-17-45-20.png)
 

@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：s = "is2 sentence4 This1 a3"
@@ -29,7 +29,7 @@
 解释：将 s 中的单词按照初始位置排序，得到 "This1 is2 a3 sentence4" ，然后删除数字。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：s = "Myself2 Me1 I4 and3"

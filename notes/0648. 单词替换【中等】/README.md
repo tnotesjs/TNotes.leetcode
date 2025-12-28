@@ -19,14 +19,14 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：dictionary = ["cat","bat","rat"], sentence = "the cattle was rattled by the battery"
 输出："the cat was rat by the bat"
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：dictionary = ["a","b","c"], sentence = "aadsfasf absbs bbab cadsfafs"

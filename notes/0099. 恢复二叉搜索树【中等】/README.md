@@ -15,7 +15,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-17-54-34.png)
 
@@ -25,7 +25,7 @@
 解释：3 不能是 1 的左孩子，因为 3 > 1。交换 1 和 3 使二叉搜索树有效。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-17-54-40.png)
 

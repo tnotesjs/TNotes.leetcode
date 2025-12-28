@@ -24,7 +24,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-33-44.png)
 
@@ -40,7 +40,7 @@
 - 5:      "U" 如果向上移动，将会移动到网格外。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-33-51.png)
 
@@ -54,7 +54,7 @@
 - 3:    "D"
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-33-58.png)
 

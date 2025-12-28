@@ -17,7 +17,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：words = ["cat","cats","catsdogcats","dog","dogcatsdog","hippopotamuses","rat","ratcatdogcat"]
@@ -29,7 +29,7 @@
 "ratcatdogcat" 由 "rat", "cat", "dog" 和 "cat" 组成。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：words = ["cat","dog","catdog"]

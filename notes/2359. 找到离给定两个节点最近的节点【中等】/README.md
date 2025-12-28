@@ -23,7 +23,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-19-44-48.png)
 
@@ -34,7 +34,7 @@
 两个距离的较大值为 1。我们无法得到一个比 1 更小的较大值，所以我们返回节点 2。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-19-44-54.png)
 

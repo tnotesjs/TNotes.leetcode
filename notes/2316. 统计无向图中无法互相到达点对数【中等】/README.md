@@ -17,7 +17,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-13-27-01.png)
 
@@ -27,7 +27,7 @@
 解释：所有点都能互相到达，意味着没有点对无法互相到达，所以我们返回 0。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-13-27-08.png)
 

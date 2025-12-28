@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-51-39.png)
 
@@ -33,7 +33,7 @@
 第二个农场组的左上角为 land[1][1] ，右下角为 land[2][2]。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-51-48.png)
 
@@ -44,7 +44,7 @@
 第一个农场组左上角为 land[0][0] ，右下角为 land[1][1]。
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-51-55.png)
 

@@ -22,7 +22,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-23-26-37.png)
 
@@ -32,7 +32,7 @@
 解释：上图展示了每个查询以后矩阵的值。所有操作执行完以后，矩阵元素之和为 23。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-23-26-42.png)
 

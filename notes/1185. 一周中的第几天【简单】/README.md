@@ -19,21 +19,21 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：day = 31, month = 8, year = 2019
 输出："Saturday"
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：day = 18, month = 7, year = 1999
 输出："Sunday"
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：day = 15, month = 8, year = 1993

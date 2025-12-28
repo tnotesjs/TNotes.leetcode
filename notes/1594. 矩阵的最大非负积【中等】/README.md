@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-13-03.png)
 
@@ -31,7 +31,7 @@
 解释：从 (0, 0) 到 (2, 2) 的路径中无法得到非负积，所以返回 -1。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-13-09.png)
 
@@ -41,7 +41,7 @@
 解释：最大非负积对应的路径如图所示 (1 * 1 * -2 * -4 * 1 = 8)
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-13-15.png)
 

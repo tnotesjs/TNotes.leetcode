@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 输入： energyDrinkA = [1,3,1], energyDrinkB = [3,1,1]
 
@@ -33,7 +33,7 @@
 
 ---
 
-- 示例 2：
+示例 2：
 
 输入： energyDrinkA = [4,1,1], energyDrinkB = [1,1,3]
 

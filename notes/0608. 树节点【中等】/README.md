@@ -40,7 +40,7 @@ id 是该表中具有唯一值的列。
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-12-03-22.png)
 
@@ -72,7 +72,7 @@ Tree table:
 节点 3、4 和 5 是叶子节点，因为它们有父节点而没有子节点。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-12-03-28.png)
 

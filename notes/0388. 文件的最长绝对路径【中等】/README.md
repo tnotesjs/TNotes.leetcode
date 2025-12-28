@@ -37,7 +37,7 @@ dir
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-11-12-31-00.png)
 
@@ -47,7 +47,7 @@ dir
 解释：只有一个文件，绝对路径为 "dir/subdir2/file.ext" ，路径长度 20
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-11-12-30-55.png)
 
@@ -60,7 +60,7 @@ dir
 返回 32 ，因为这是最长的路径
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：input = "a"
@@ -68,7 +68,7 @@ dir
 解释：不存在任何文件
 ```
 
-- 示例 4：
+示例 4：
 
 ```txt
 输入：input = "file1.txt\nfile2.txt\nlongfile.txt"

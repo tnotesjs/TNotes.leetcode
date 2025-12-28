@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：
@@ -32,7 +32,7 @@ Solution solution = new Solution([1]);
 solution.pickIndex(); // 返回 0，因为数组中只有一个元素，所以唯一的选择是返回下标 0。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：

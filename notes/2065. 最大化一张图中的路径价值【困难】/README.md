@@ -23,7 +23,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-48-20.png)
 
@@ -35,7 +35,7 @@
 访问过的节点为 0 ，1 和 3 ，最大路径价值为 0 + 32 + 43 = 75。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-48-29.png)
 
@@ -47,7 +47,7 @@
 访问过的节点为 0 和 3 ，最大路径价值为 5 + 20 = 25。
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-48-41.png)
 
@@ -59,7 +59,7 @@
 访问过的节点为 0 ，1 和 3 ，最大路径价值为 1 + 2 + 4 = 7。
 ```
 
-- 示例 4：
+示例 4：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-48-53.png)
 

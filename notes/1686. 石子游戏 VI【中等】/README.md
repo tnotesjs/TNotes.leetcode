@@ -27,7 +27,7 @@ Alice 和 Bob 轮流玩一个游戏，Alice 先手。
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：aliceValues = [1,3], bobValues = [2,1]
@@ -38,7 +38,7 @@ Bob 只能选择石子 0 ，得到 2 分。
 Alice 获胜。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：aliceValues = [1,2], bobValues = [3,1]
@@ -48,7 +48,7 @@ Alice 拿石子 0 ， Bob 拿石子 1 ，他们得分都为 1 分。
 打平。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：aliceValues = [2,4,3], bobValues = [1,6,7]

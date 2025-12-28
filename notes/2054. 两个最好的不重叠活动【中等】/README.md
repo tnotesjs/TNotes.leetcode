@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-39-16.png)
 
@@ -29,7 +29,7 @@
 解释：选择绿色的活动 0 和 1 ，价值之和为 2 + 2 = 4。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-39-25.png)
 
@@ -39,7 +39,7 @@
 解释：选择活动 2 ，价值和为 5。
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-39-31.png)
 

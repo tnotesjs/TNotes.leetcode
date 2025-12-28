@@ -33,7 +33,7 @@ class Node {
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-20-56-36.png)
 
@@ -48,7 +48,7 @@ class Node {
 节点 4 的值是 4，它有两个邻居：节点 1 和 3。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-20-56-43.png)
 
@@ -58,7 +58,7 @@ class Node {
 解释：输入包含一个空列表。该图仅仅只有一个值为 1 的节点，它没有任何邻居。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：adjList = []

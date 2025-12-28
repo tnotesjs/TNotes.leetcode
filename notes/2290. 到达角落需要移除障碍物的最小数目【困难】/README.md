@@ -22,7 +22,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-13-21-10.png)
 
@@ -34,7 +34,7 @@
 注意，可能存在其他方式来移除 2 个障碍物，创建出可行的路径。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-13-21-20.png)
 

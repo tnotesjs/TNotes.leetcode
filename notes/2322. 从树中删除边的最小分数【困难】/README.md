@@ -26,7 +26,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-13-30-07.png)
 
@@ -41,7 +41,7 @@
 可以证明不存在分数比 9 小的删除边方案。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-13-30-13.png)
 

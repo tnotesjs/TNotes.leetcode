@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：sentence = "thequickbrownfoxjumpsoverthelazydog"
@@ -27,7 +27,7 @@
 解释：sentence 包含英语字母表中每个字母至少一次。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：sentence = "leetcode"

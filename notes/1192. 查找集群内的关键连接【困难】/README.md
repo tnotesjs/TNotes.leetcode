@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-18-52-11.png)
 
@@ -29,7 +29,7 @@
 解释：[[3,1]] 也是正确的。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：n = 2, connections = [[0,1]]

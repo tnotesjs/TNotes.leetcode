@@ -26,7 +26,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-18-55.png)
 
@@ -40,7 +40,7 @@
 你的最终得分为 11 - 2 = 9。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-19-05.png)
 

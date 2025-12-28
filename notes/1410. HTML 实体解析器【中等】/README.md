@@ -26,7 +26,7 @@ HTML 里这些特殊字符和它们对应的字符实体包括：
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：text = "&amp; is an HTML entity but &ambassador; is not."
@@ -41,21 +41,21 @@ HTML 里这些特殊字符和它们对应的字符实体包括：
 输出："and I quote: \"...\""
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：text = "Stay home! Practice on Leetcode :)"
 输出："Stay home! Practice on Leetcode :)"
 ```
 
-- 示例 4：
+示例 4：
 
 ```txt
 输入：text = "x &gt; y &amp;&amp; x &lt; y is always false"
 输出："x > y && x < y is always false"
 ```
 
-- 示例 5：
+示例 5：
 
 ```txt
 输入：text = "leetcode.com&frasl;problemset&frasl;all"

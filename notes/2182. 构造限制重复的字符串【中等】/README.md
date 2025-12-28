@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：s = "cczazcc", repeatLimit = 3
@@ -33,7 +33,7 @@
 注意，尽管 "zzcccca" 字典序更大，但字母 'c' 连续出现超过 3 次，所以它不是一个有效的 repeatLimitedString。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：s = "aababab", repeatLimit = 2

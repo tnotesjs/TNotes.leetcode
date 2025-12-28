@@ -26,7 +26,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：source = "abcd", target = "acbe", original = ["a","b","c","c","e","d"], changed = ["b","c","b","e","b","e"], cost = [2,5,5,1,2,20]
@@ -40,7 +40,7 @@
 可以证明这是可能的最小成本。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：source = "abcdefgh", target = "acdeeghh", original = ["bcd","fgh","thh"], changed = ["cde","thh","ghh"], cost = [1,3,5]
@@ -53,7 +53,7 @@
 可以证明这是可能的最小成本。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：source = "abcdefgh", target = "addddddd", original = ["bcd","defgh"], changed = ["ddd","ddddd"], cost = [100,1578]

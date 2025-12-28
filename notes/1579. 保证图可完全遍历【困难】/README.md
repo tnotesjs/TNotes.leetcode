@@ -23,7 +23,7 @@ Alice 和 Bob 共有一个无向图，其中包含 n 个节点和 3 种类型的
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-06-11.png)
 
@@ -33,7 +33,7 @@ Alice 和 Bob 共有一个无向图，其中包含 n 个节点和 3 种类型的
 解释：如果删除 [1,1,2] 和 [1,1,3] 这两条边，Alice 和 Bob 仍然可以完全遍历这个图。再删除任何其他的边都无法保证图可以完全遍历。所以可以删除的最大边数是 2。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-06-19.png)
 
@@ -43,7 +43,7 @@ Alice 和 Bob 共有一个无向图，其中包含 n 个节点和 3 种类型的
 解释：注意，删除任何一条边都会使 Alice 和 Bob 无法完全遍历这个图。
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-06-25.png)
 

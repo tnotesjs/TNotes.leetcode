@@ -17,7 +17,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：s = "leetscode", dictionary = ["leet","code","leetcode"]
@@ -25,7 +25,7 @@
 解释：将 s 分成两个子字符串：下标从 0 到 3 的 "leet" 和下标从 5 到 8 的 "code"。只有 1 个字符没有使用（下标为 4），所以我们返回 1。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：s = "sayhelloworld", dictionary = ["hello","world"]

@@ -28,28 +28,28 @@ AB -> 28
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：columnNumber = 1
 输出："A"
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：columnNumber = 28
 输出："AB"
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：columnNumber = 701
 输出："ZY"
 ```
 
-- 示例 4：
+示例 4：
 
 ```txt
 输入：columnNumber = 2147483647

@@ -27,7 +27,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 输入： eventTime = 5, startTime = [1,3], endTime = [2,5]
 
@@ -41,7 +41,7 @@
 
 ---
 
-- 示例 2：
+示例 2：
 
 输入： eventTime = 10, startTime = [0,7,9], endTime = [1,8,10]
 
@@ -55,7 +55,7 @@
 
 ---
 
-- 示例 3：
+示例 3：
 
 输入： eventTime = 10, startTime = [0,3,7,9], endTime = [1,4,8,10]
 
@@ -69,7 +69,7 @@
 
 ---
 
-- 示例 4：
+示例 4：
 
 输入： eventTime = 5, startTime = [0,1,2,3,4], endTime = [1,2,3,4,5]
 

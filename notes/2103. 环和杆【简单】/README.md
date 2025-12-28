@@ -24,7 +24,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-25-47.png)
 
@@ -38,7 +38,7 @@
 因此，集齐全部三种颜色环的杆的数目为 1。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-25-54.png)
 
@@ -51,7 +51,7 @@
 因此，集齐全部三种颜色环的杆的数目为 1。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：rings = "G4"

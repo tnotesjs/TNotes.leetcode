@@ -23,7 +23,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：nums = [1,2,3,1], indexDiff = 3, valueDiff = 0
@@ -35,7 +35,7 @@ abs(i - j) <= indexDiff --> abs(0 - 3) <= 3
 abs(nums[i] - nums[j]) <= valueDiff --> abs(1 - 1) <= 0
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：nums = [1,5,9,1,5,9], indexDiff = 2, valueDiff = 3

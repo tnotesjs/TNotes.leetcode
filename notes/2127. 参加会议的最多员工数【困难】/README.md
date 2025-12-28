@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-38-28.png)
 
@@ -33,7 +33,7 @@
 所以最多参加会议的员工数目为 3。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：favorite = [1,2,0]
@@ -47,7 +47,7 @@
 参与会议的最多员工数目为 3。
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-38-34.png)
 

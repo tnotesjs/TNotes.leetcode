@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-15-06.png)
 
@@ -35,7 +35,7 @@
 轮转 3 次得到最大利润，最大利润为 $37。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：customers = [10,9,6], boardingCost = 6, runningCost = 4
@@ -51,7 +51,7 @@
 轮转 7 次得到最大利润，最大利润为$122。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：customers = [3,4,0,5,1], boardingCost = 1, runningCost = 92

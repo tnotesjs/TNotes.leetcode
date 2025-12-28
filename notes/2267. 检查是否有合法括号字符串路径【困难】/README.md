@@ -28,7 +28,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-11-44-06.png)
 
@@ -41,7 +41,7 @@
 注意可能有其他的合法括号字符串路径。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-11-44-12.png)
 

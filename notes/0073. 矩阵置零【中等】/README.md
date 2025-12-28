@@ -16,7 +16,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-17-37-10.png)
 
@@ -25,7 +25,7 @@
 输出：[[1,0,1],[0,0,0],[1,0,1]]
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-17-37-16.png)
 

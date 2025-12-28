@@ -26,7 +26,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：derived = [1,1,0]
@@ -37,7 +37,7 @@ derived[1] = original[1] ⊕ original[2] = 1 ⊕ 0 = 1
 derived[2] = original[2] ⊕ original[0] = 0 ⊕ 0 = 0
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：derived = [1,1]
@@ -47,7 +47,7 @@ derived[0] = original[0] ⊕ original[1] = 1
 derived[1] = original[1] ⊕ original[0] = 1
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：derived = [1,0]

@@ -17,7 +17,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：queries = ["FooBar","FooBarTest","FootBall","FrameBuffer","ForceFeedBack"], pattern = "FB"
@@ -28,7 +28,7 @@
 "FrameBuffer" 可以这样生成："F" + "rame" + "B" + "uffer".
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：queries = ["FooBar","FooBarTest","FootBall","FrameBuffer","ForceFeedBack"], pattern = "FoBa"
@@ -38,7 +38,7 @@
 "FootBall" 可以这样生成："Fo" + "ot" + "Ba" + "ll".
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：queries = ["FooBar","FooBarTest","FootBall","FrameBuffer","ForceFeedBack"], pattern = "FoBaT"

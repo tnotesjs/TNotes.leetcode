@@ -24,7 +24,7 @@ Alice 和 Bob 在玩一个游戏，他们 轮流 从这个字符串中删除颜�
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：colors = "AAABABB"
@@ -39,7 +39,7 @@ Bob 无法执行任何操作，因为没有相邻位置都是 'B' 的颜色片�
 因此，Alice 获胜，返回 true。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：colors = "AA"
@@ -50,7 +50,7 @@ Alice 先操作。
 因此，Bob 获胜，返回 false。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：colors = "ABBBBBBBAAA"

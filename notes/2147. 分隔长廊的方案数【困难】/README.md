@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-45-52.png)
 
@@ -33,7 +33,7 @@
 上图每种方案中，每一段都恰好有 两个 座位。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-45-57.png)
 
@@ -44,7 +44,7 @@
 放置任何的屏风都会导致有一段无法恰好有 2 个座位。
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-46-03.png)
 

@@ -28,7 +28,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：words = ["acca","bbbb","caca"], target = "aba"
@@ -42,7 +42,7 @@
 "aba" -> 下标为 1 ("caca")，下标为 2 ("bbbb")，下标为 3 ("caca")
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：words = ["abba","baab"], target = "bab"
@@ -54,14 +54,14 @@
 "bab" -> 下标为 1 ("abba")，下标为 2 ("baab")，下标为 3 ("baab")
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：words = ["abcd"], target = "abcd"
 输出：1
 ```
 
-- 示例 4：
+示例 4：
 
 ```txt
 输入：words = ["abab","baba","abba","baab"], target = "abba"

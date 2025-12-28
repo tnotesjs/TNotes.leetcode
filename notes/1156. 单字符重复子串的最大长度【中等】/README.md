@@ -17,35 +17,35 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：text = "ababa"
 输出：3
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：text = "aaabaaa"
 输出：6
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：text = "aaabbaaa"
 输出：4
 ```
 
-- 示例 4：
+示例 4：
 
 ```txt
 输入：text = "aaaaa"
 输出：5
 ```
 
-- 示例 5：
+示例 5：
 
 ```txt
 输入：text = "abcdef"

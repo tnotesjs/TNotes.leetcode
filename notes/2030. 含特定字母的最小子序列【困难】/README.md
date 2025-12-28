@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：s = "leet", k = 3, letter = "e", repetition = 1
@@ -34,7 +34,7 @@
 其中字典序最小的子序列是 "eet"。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-10-00.png)
 
@@ -44,7 +44,7 @@
 解释："ecde" 是长度为 4 且满足字母 "e" 出现至少 2 次的字典序最小的子序列。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：s = "bb", k = 2, letter = "b", repetition = 2

@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-22-42-51.png)
 
@@ -37,7 +37,7 @@
 - 值为 7 的节点有两个堂兄弟，值分别为 1 和 10 ，所以值修改为 11。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-22-43-04.png)
 

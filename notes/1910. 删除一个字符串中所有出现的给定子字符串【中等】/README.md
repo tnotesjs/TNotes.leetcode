@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：s = "daabcbaabcbc", part = "abc"
@@ -33,7 +33,7 @@
 此时 s 中不再含有子字符串 "abc"。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：s = "axxxxyyyyb", part = "xy"

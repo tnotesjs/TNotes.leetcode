@@ -28,7 +28,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-20-18-52-22.png)
 
@@ -40,7 +40,7 @@
 总花费为 cost = 3.
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-20-18-52-28.png)
 
@@ -50,7 +50,7 @@
 解释：不修改任何数字你就可以从 (0, 0) 到达 (2, 2)。
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-20-18-52-38.png)
 
@@ -59,14 +59,14 @@
 输出：1
 ```
 
-- 示例 4：
+示例 4：
 
 ```txt
 输入：grid = [[2,2,2],[2,2,2]]
 输出：3
 ```
 
-- 示例 5：
+示例 5：
 
 ```txt
 输入：grid = [[4]]

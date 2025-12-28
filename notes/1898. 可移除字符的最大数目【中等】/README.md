@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：s = "abcacb", p = "ab", removable = [3,1,0]
@@ -32,7 +32,7 @@
 因此，最大的 k 是 2。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：s = "abcbddddd", p = "abcd", removable = [3,2,1,4,5,6]
@@ -41,7 +41,7 @@
 "abcd" 是 "abcddddd" 的一个子序列。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：s = "abcab", p = "abc", removable = [0,1,2,3,4]

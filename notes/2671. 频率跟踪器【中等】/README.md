@@ -22,7 +22,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入
@@ -38,7 +38,7 @@ frequencyTracker.add(3); // 数据结构现在包含 [3, 3]
 frequencyTracker.hasFrequency(2); // 返回 true ，因为 3 出现 2 次
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入
@@ -54,7 +54,7 @@ frequencyTracker.deleteOne(1); // 数据结构现在为空 []
 frequencyTracker.hasFrequency(1); // 返回 false ，因为数据结构为空
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入

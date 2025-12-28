@@ -46,7 +46,7 @@ customerId 是 Customers 表中 ID 的外键( Pandas 中的连接键)。
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：

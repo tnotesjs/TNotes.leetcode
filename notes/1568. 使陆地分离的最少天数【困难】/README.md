@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-01-49.png)
 
@@ -32,7 +32,7 @@
 将陆地 grid[1][1] 和 grid[0][2] 更改为水，得到两个分离的岛屿。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-01-53.png)
 

@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-20-30-58.png)
 
@@ -29,7 +29,7 @@
 解释: 在上面的网格中，最大加号标志的阶只能是2。一个标志已在图中标出。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-20-31-06.png)
 

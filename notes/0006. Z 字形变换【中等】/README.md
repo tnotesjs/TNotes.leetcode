@@ -27,7 +27,7 @@ string convert(string s, int numRows);
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```
 输入：s = "PAYPALISHIRING", numRows = 3
@@ -40,7 +40,7 @@ Y A   H R
 P     I
 ```
 
-- 示例 3：
+示例 3：
 
 ```
 输入：s = "A", numRows = 1

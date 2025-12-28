@@ -43,7 +43,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 输入：  
 ["Router", "addPacket", "addPacket", "addPacket", "addPacket", "addPacket", "forwardPacket", "addPacket", "getCount"]  
@@ -66,7 +66,7 @@
 
 ---
 
-- 示例 2：
+示例 2：
 
 输入：  
 ["Router", "addPacket", "forwardPacket", "forwardPacket"]  

@@ -31,7 +31,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-21-59.png)
 
@@ -43,7 +43,7 @@
 - [4,7) 颜色为 {7,9} （和为 16），分别来自第二和第三个线段。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-22-06.png)
 
@@ -57,7 +57,7 @@
 - [8,10) 颜色为 7 ，来自第三个线段。
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-22-13.png)
 

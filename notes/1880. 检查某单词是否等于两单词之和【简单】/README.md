@@ -23,7 +23,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：firstWord = "acb", secondWord = "cba", targetWord = "cdb"
@@ -35,7 +35,7 @@ targetWord 的数值为 "cdb" -> "231" -> 231
 由于 21 + 210 == 231 ，返回 true
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：firstWord = "aaa", secondWord = "a", targetWord = "aab"
@@ -47,7 +47,7 @@ targetWord 的数值为 "aab" -> "001" -> 1
 由于 0 + 0 != 1 ，返回 false
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：firstWord = "aaa", secondWord = "a", targetWord = "aaaa"

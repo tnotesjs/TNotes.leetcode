@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：maxChoosableInteger = 10, desiredTotal = 11
@@ -34,14 +34,14 @@
 同样地，第一个玩家选择任意其他整数，第二个玩家都会赢。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：maxChoosableInteger = 10, desiredTotal = 0
 输出：true
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：maxChoosableInteger = 10, desiredTotal = 1

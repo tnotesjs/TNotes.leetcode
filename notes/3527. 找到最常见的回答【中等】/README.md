@@ -22,7 +22,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 输入： responses = [["good","ok","good","ok"],["ok","bad","good","ok","ok"],["good"],["bad"]]
 
@@ -36,7 +36,7 @@
 
 ---
 
-- 示例 2：
+示例 2：
 
 输入： responses = [["good","ok","good"],["ok","bad"],["bad","notsure"],["great","good"]]
 

@@ -24,7 +24,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：s = "ilovecodingonleetcode", target = "code"
@@ -36,7 +36,7 @@
 可以形成最多 2 个 "code" 的副本，所以返回 2。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：s = "abcba", target = "abc"
@@ -47,7 +47,7 @@
 注意，尽管下标 3 和 4 分别有额外的 'a' 和 'b' ，但不能重用下标 2 处的 'c' ，所以无法形成 "abc" 的第 2 个副本。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：s = "abbaccaddaeea", target = "aaaaa"

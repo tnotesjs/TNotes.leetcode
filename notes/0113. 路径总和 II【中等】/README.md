@@ -17,7 +17,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-20-33-54.png)
 
@@ -26,7 +26,7 @@
 输出：[[5,4,11,2],[5,8,4,5]]
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-09-13-25-10.png)
 
@@ -35,7 +35,7 @@
 输出：[]
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：root = [1,2], targetSum = 0

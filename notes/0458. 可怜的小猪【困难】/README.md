@@ -25,21 +25,21 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：buckets = 1000, minutesToDie = 15, minutesToTest = 60
 输出：5
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：buckets = 4, minutesToDie = 15, minutesToTest = 15
 输出：2
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：buckets = 4, minutesToDie = 15, minutesToTest = 30

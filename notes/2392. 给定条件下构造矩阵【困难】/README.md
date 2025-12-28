@@ -29,7 +29,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-19-52-54.png)
 
@@ -46,7 +46,7 @@
 注意，可能有多种正确的答案。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：k = 3, rowConditions = [[1,2],[2,3],[3,1],[2,3]], colConditions = [[2,1]]

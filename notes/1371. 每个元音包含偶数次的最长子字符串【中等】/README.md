@@ -15,7 +15,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：s = "eleetminicoworoep"
@@ -23,7 +23,7 @@
 解释：最长子字符串是 "leetminicowor" ，它包含 e，i，o 各 2 个，以及 0 个 a，u。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：s = "leetcodeisgreat"
@@ -31,7 +31,7 @@
 解释：最长子字符串是 "leetc" ，其中包含 2 个 e。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：s = "bcbcbc"

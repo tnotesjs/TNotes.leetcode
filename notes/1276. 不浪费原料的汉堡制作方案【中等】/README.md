@@ -24,7 +24,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：tomatoSlices = 16, cheeseSlices = 7
@@ -32,7 +32,7 @@
 解释：制作 1 个巨无霸汉堡和 6 个小皇堡需要 4*1 + 2*6 = 16 片番茄和 1 + 6 = 7 片奶酪。不会剩下原料。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：tomatoSlices = 17, cheeseSlices = 4
@@ -40,7 +40,7 @@
 解释：只制作小皇堡和巨无霸汉堡无法用光全部原料。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：tomatoSlices = 4, cheeseSlices = 17
@@ -48,14 +48,14 @@
 解释：制作 1 个巨无霸汉堡会剩下 16 片奶酪，制作 2 个小皇堡会剩下 15 片奶酪。
 ```
 
-- 示例 4：
+示例 4：
 
 ```txt
 输入：tomatoSlices = 0, cheeseSlices = 0
 输出：[0,0]
 ```
 
-- 示例 5：
+示例 5：
 
 ```txt
 输入：tomatoSlices = 2, cheeseSlices = 1

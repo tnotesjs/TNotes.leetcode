@@ -20,7 +20,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-11-38-07.png)
 
@@ -34,7 +34,7 @@
 因此，出现在至少一个圆内的格点数目是 5。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-11-38-21.png)
 

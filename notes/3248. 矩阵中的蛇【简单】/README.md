@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 输入： n = 2, commands = ["RIGHT","DOWN"]
 
@@ -33,7 +33,7 @@
 
 ---
 
-- 示例 2：
+示例 2：
 
 输入： n = 3, commands = ["DOWN","RIGHT","UP"]
 

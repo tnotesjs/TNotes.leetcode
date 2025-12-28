@@ -17,7 +17,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：word1 = "abc", word2 = "pqr"
@@ -28,7 +28,7 @@ word2：    p   q   r
 合并后：  a p b q c r
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：word1 = "ab", word2 = "pqrs"
@@ -39,7 +39,7 @@ word2：    p   q   r   s
 合并后：  a p b q   r   s
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：word1 = "abcd", word2 = "pq"

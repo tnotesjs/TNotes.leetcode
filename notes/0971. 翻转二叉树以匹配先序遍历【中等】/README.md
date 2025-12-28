@@ -28,7 +28,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-07-55-02.png)
 
@@ -38,7 +38,7 @@
 解释：翻转节点无法令先序遍历匹配预期行程。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-07-55-08.png)
 
@@ -48,7 +48,7 @@
 解释：交换节点 2 和 3 来翻转节点 1 ，先序遍历可以匹配预期行程。
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-07-55-13.png)
 

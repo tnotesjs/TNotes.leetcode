@@ -21,7 +21,7 @@ struct Node { int val; Node *left; Node *right; Node \*next; }
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-20-43-39.png)
 
@@ -34,7 +34,7 @@ struct Node { int val; Node *left; Node *right; Node \*next; }
 序列化输出按层序遍历顺序（由 next 指针连接），'#' 表示每层的末尾。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：root = []

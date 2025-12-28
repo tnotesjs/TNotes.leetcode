@@ -17,7 +17,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：words = ["hello","leetcode"], order = "hlabcdefgijkmnopqrstuvwxyz"
@@ -25,7 +25,7 @@
 解释：在该语言的字母表中，'h' 位于 'l' 之前，所以单词序列是按字典序排列的。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：words = ["word","world","row"], order = "worldabcefghijkmnpqstuvxyz"
@@ -33,7 +33,7 @@
 解释：在该语言的字母表中，'d' 位于 'l' 之后，那么 words[0] > words[1]，因此单词序列不是按字典序排列的。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：words = ["apple","app"], order = "abcdefghijklmnopqrstuvwxyz"

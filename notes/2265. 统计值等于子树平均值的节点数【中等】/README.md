@@ -20,7 +20,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-11-43-05.png)
 
@@ -35,7 +35,7 @@
 对值为 6 的节点：子树的平均值 6 / 1 = 6。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-11-43-10.png)
 

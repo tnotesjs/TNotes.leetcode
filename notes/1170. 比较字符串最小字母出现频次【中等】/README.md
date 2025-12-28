@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：queries = ["cbd"], words = ["zaaaz"]
@@ -29,7 +29,7 @@
 解释：查询 f("cbd") = 1，而 f("zaaaz") = 3 所以 f("cbd") < f("zaaaz")。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：queries = ["bbb","cc"], words = ["a","aa","aaa","aaaa"]

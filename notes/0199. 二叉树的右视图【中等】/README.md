@@ -15,7 +15,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：root = [1,2,3,null,5,null,4]
@@ -26,7 +26,7 @@
 
   - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-36-28.png)
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：root = [1,2,3,4,null,null,null,5]
@@ -37,14 +37,14 @@
 
   - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-36-04.png)
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：root = [1,null,3]
 输出：[1,3]
 ```
 
-- 示例 4：
+示例 4：
 
 ```txt
 输入：root = []

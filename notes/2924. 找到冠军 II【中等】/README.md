@@ -29,7 +29,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-20-56-14.png)
 
@@ -39,7 +39,7 @@
 解释：1 队比 0 队弱。2 队比 1 队弱。所以冠军是 0 队。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-20-56-23.png)
 

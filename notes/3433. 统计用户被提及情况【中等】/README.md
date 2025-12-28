@@ -32,7 +32,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 输入： numberOfUsers = 2, events = [["MESSAGE","10","id1 id0"],["OFFLINE","11","0"],["MESSAGE","71","HERE"]]
 
@@ -50,7 +50,7 @@
 
 ---
 
-- 示例 2：
+示例 2：
 
 输入： numberOfUsers = 2, events = [["MESSAGE","10","id1 id0"],["OFFLINE","11","0"],["MESSAGE","12","ALL"]]
 
@@ -68,7 +68,7 @@
 
 ---
 
-- 示例 3：
+示例 3：
 
 输入： numberOfUsers = 2, events = [["OFFLINE","10","0"],["MESSAGE","12","HERE"]]
 

@@ -21,14 +21,14 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入: s = "abcde", goal = "cdeab"
 输出: true
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入: s = "abcde", goal = "abced"

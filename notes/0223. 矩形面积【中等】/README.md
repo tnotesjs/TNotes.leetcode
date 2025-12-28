@@ -20,7 +20,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![Rectangle Area](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-47-06.png)
 
@@ -29,7 +29,7 @@
 输出：45
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：ax1 = -2, ay1 = -2, ax2 = 2, ay2 = 2, bx1 = -2, by1 = -2, bx2 = 2, by2 = 2

@@ -31,7 +31,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-14-28.png)
 
@@ -52,7 +52,7 @@
 Alice 无法得到更高分数。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-14-37.png)
 

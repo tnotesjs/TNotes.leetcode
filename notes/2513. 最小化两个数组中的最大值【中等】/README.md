@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：divisor1 = 2, divisor2 = 7, uniqueCnt1 = 1, uniqueCnt2 = 3
@@ -33,7 +33,7 @@ arr1 = [1] 和 arr2 = [2,3,4]。
 最大值是 4 ，所以返回 4。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：divisor1 = 3, divisor2 = 5, uniqueCnt1 = 2, uniqueCnt2 = 1
@@ -43,7 +43,7 @@ arr1 = [1,2] 和 arr2 = [3] 满足所有条件。
 最大值是 3 ，所以返回 3。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：divisor1 = 2, divisor2 = 4, uniqueCnt1 = 8, uniqueCnt2 = 2

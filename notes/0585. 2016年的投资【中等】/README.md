@@ -1,4 +1,4 @@
-# [0585. 2016年的投资【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0585.%202016%E5%B9%B4%E7%9A%84%E6%8A%95%E8%B5%84%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
+# [0585. 2016 年的投资【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0585.%202016%E5%B9%B4%E7%9A%84%E6%8A%95%E8%B5%84%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
 
@@ -42,7 +42,7 @@ lon 是投保人所在城市的经度。题目数据确保 lon 不为空。
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：

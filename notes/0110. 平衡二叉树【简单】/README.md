@@ -18,7 +18,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-09-13-22-49.png)
 
@@ -27,7 +27,7 @@
 输出：true
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-09-13-23-06.png)
 
@@ -36,7 +36,7 @@
 输出：false
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：root = []

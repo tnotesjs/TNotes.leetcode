@@ -24,7 +24,7 @@ Alice 是 `n` 个花园的园丁，她想通过种花，最大化她所有花园
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：flowers = [1,3,1,1], newFlowers = 7, target = 6, full = 12, partial = 1
@@ -41,7 +41,7 @@ Alice 是 `n` 个花园的园丁，她想通过种花，最大化她所有花园
 没有其他方案可以让花园总美丽值超过 14。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：flowers = [2,4,5,3], newFlowers = 10, target = 5, full = 2, partial = 6

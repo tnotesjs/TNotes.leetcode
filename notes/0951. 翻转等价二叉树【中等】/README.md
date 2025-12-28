@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![Flipped Trees Diagram](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-21-19-02.png)
 
@@ -36,7 +36,7 @@
 输出: true
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入: root1 = [], root2 = [1]

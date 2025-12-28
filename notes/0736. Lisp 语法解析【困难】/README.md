@@ -25,7 +25,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：expression = "(let x 2 (mult x (let x 3 y 4 (add x y))))"
@@ -36,7 +36,7 @@
 首先找到 x = 3, 所以此处的 x 值是 3。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：expression = "(let x 3 x 2 x)"
@@ -44,7 +44,7 @@
 解释：let 语句中的赋值运算按顺序处理即可。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：expression = "(let x 1 y 2 x (add x y) (add x y))"

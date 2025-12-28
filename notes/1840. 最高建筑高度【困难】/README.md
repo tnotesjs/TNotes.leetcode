@@ -27,7 +27,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-33-13.png)
 
@@ -38,7 +38,7 @@
 我们可以使建筑高度分别为 [0,1,2,1,2] ，最高建筑的高度为 2。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-33-18.png)
 
@@ -49,7 +49,7 @@
 我们可以使建筑高度分别为 [0,1,2,3,4,5] ，最高建筑的高度为 5。
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-33-23.png)
 

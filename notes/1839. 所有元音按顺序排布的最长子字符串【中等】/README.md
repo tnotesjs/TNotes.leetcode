@@ -24,7 +24,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：word = "aeiaaioaaaaeiiiiouuuooaauuaeiu"
@@ -32,7 +32,7 @@
 解释：最长子字符串是 "aaaaeiiiiouuu" ，长度为 13。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：word = "aeeeiiiioooauuuaeiou"
@@ -40,7 +40,7 @@
 解释：最长子字符串是 "aeiou" ，长度为 5。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：word = "a"

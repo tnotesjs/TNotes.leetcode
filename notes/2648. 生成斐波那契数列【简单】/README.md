@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：callCount = 5
@@ -33,7 +33,7 @@ gen.next().value; // 2
 gen.next().value; // 3
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：callCount = 0

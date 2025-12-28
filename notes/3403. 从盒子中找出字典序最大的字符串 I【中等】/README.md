@@ -26,7 +26,7 @@ Alice 正在为她的 `numFriends` 位朋友组织一个游戏。游戏分为多
 
 ---
 
-- 示例 1：
+示例 1：
 
 输入: word = "dbca", numFriends = 2
 
@@ -42,7 +42,7 @@ Alice 正在为她的 `numFriends` 位朋友组织一个游戏。游戏分为多
 
 ---
 
-- 示例 2：
+示例 2：
 
 输入: word = "gggg", numFriends = 4
 

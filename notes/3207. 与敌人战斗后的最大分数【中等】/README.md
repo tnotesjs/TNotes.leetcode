@@ -30,7 +30,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 输入： enemyEnergies = [3,2,2], currentEnergy = 2
 
@@ -48,7 +48,7 @@
 
 ---
 
-- 示例 2：
+示例 2：
 
 输入： enemyEnergies = [2], currentEnergy = 10
 

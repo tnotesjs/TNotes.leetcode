@@ -19,14 +19,14 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：s1 = "this apple is sweet", s2 = "this apple is sour"
 输出：["sweet","sour"]
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：s1 = "apple apple", s2 = "banana"

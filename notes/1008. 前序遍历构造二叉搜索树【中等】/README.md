@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-15-13-45.png)
 
@@ -30,7 +30,7 @@
 输出：[8,5,10,1,7,null,12]
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入: preorder = [1,3]

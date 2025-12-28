@@ -24,7 +24,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-13-30-46.png)
 
@@ -35,7 +35,7 @@
 提取 "the quick brown fox jumps over the lazy dog" 中每个字母的首次出现可以得到替换表。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-13-30-52.png)
 

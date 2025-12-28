@@ -25,7 +25,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-22-41-55.png)
 
@@ -40,7 +40,7 @@
 所有旅行的价格总和为 6 + 7 + 10 = 23。可以证明，23 是可以实现的最小答案。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-22-42-05.png)
 

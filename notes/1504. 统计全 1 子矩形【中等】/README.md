@@ -15,7 +15,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-14-00-07.png)
 
@@ -31,7 +31,7 @@
 矩形数目总共 = 6 + 2 + 3 + 1 + 1 = 13。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-13-59-33.png)
 

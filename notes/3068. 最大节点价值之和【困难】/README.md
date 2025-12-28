@@ -23,7 +23,7 @@ Alice 想 最大化 树中所有节点价值之和。为了实现这一目标，
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-54-21.png)
 
@@ -38,7 +38,7 @@ Alice 可以通过一次操作得到最大价值和 6 ：
 6 是可以得到最大的价值之和。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-54-50.png)
 
@@ -53,7 +53,7 @@ Alice 可以通过一次操作得到最大和 9 ：
 9 是可以得到最大的价值之和。
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-54-57.png)
 

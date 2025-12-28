@@ -23,28 +23,28 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：s = "3[a]2[bc]"
 输出："aaabcbc"
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：s = "3[a2[c]]"
 输出："accaccacc"
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：s = "2[abc]3[cd]ef"
 输出："abcabccdcdcdef"
 ```
 
-- 示例 4：
+示例 4：
 
 ```txt
 输入：s = "abc3[cd]xyz"

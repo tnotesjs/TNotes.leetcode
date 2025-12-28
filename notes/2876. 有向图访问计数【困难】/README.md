@@ -23,7 +23,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-12-29-56.png)
 
@@ -37,7 +37,7 @@
 - 从节点 3 开始，访问节点 3 -> 0 -> 1 -> 2 -> 0。访问的不同节点数是 4。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-12-30-01.png)
 

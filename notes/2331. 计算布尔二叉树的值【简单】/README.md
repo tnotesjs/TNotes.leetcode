@@ -29,7 +29,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-13-32-51.png)
 
@@ -42,7 +42,7 @@ OR 运算节点的值为 True OR False = True。
 根节点的值为 True ，所以我们返回 true。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：root = [0]

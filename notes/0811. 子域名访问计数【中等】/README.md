@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：cpdomains = ["9001 discuss.leetcode.com"]
@@ -30,7 +30,7 @@
 按照前文描述，子域名 "leetcode.com" 和 "com" 都会被访问，所以它们都被访问了 9001 次。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：cpdomains = ["900 google.mail.com", "50 yahoo.com", "1 intel.mail.com", "5 wiki.org"]

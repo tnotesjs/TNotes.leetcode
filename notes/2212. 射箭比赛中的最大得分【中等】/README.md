@@ -29,7 +29,7 @@ Alice 和 Bob 是一场射箭比赛中的对手。比赛规则如下：
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-10-28-58.png)
 
@@ -41,7 +41,7 @@ Bob 获得总分 4 + 5 + 8 + 9 + 10 + 11 = 47。
 可以证明 Bob 无法获得比 47 更高的分数。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-10-29-11.png)
 

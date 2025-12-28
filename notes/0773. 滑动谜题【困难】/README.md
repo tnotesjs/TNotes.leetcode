@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-20-34-53.png)
 
@@ -29,7 +29,7 @@
 解释：交换 0 和 5 ，1 步完成
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-20-34-58.png)
 
@@ -39,7 +39,7 @@
 解释：没有办法完成谜板
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-20-35-03.png)
 

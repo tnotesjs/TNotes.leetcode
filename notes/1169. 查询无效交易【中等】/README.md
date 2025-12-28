@@ -22,7 +22,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：transactions = ["alice,20,800,mtv","alice,50,100,beijing"]
@@ -33,14 +33,14 @@
 同样，第二笔交易也是无效的。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：transactions = ["alice,20,800,mtv","alice,50,1200,mtv"]
 输出：["alice,50,1200,mtv"]
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：transactions = ["alice,20,800,mtv","bob,50,1200,mtv"]

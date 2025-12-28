@@ -31,7 +31,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：secret = "acckzz", words = ["acckzz","ccbazz","eiowzz","abcczz"], allowedGuesses = 10
@@ -45,7 +45,7 @@ master.guess("abcczz") 返回 4 ，因为 "abcczz" 共有 4 个字母匹配。
 一共调用 5 次 master.guess ，其中一个为秘密单词，所以通过测试用例。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：secret = "hamada", words = ["hamada","khaled"], allowedGuesses = 10

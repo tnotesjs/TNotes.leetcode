@@ -17,7 +17,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-21-23-58-56.png)
 
@@ -31,7 +31,7 @@
 节点 3 -> (3,1,3) 是路径中的最大值。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-21-23-59-01.png)
 
@@ -41,7 +41,7 @@
 解释：节点 2 -> (3, 3, 2) 不是好节点，因为 "3" 比它大。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：root = [1]

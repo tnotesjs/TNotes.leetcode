@@ -23,7 +23,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 输入： s = "abcdefg", pattern = "bcdffg"
 
@@ -35,7 +35,7 @@
 
 ---
 
-- 示例 2：
+示例 2：
 
 输入： s = "ababbababa", pattern = "bacaba"
 
@@ -47,7 +47,7 @@
 
 ---
 
-- 示例 3：
+示例 3：
 
 输入： s = "abcd", pattern = "dba"
 
@@ -55,7 +55,7 @@
 
 ---
 
-- 示例 4：
+示例 4：
 
 输入： s = "dde", pattern = "d"
 

@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-48-26.png)
 
@@ -35,7 +35,7 @@
 所选元素的和是 13 ，等于目标值，所以绝对差是 0。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-48-33.png)
 
@@ -49,7 +49,7 @@
 所选元素的和是 6 ，绝对差是 94。
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-48-40.png)
 

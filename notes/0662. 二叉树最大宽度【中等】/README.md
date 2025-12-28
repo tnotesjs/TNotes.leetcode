@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-12-23-34.png)
 
@@ -31,7 +31,7 @@
 解释：最大宽度出现在树的第 3 层，宽度为 4 (5,3,null,9)。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-12-23-39.png)
 
@@ -41,7 +41,7 @@
 解释：最大宽度出现在树的第 4 层，宽度为 7 (6,null,null,null,null,null,7)。
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-12-23-43.png)
 

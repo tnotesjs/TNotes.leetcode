@@ -23,7 +23,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-21-38-06.png)
 
@@ -36,7 +36,7 @@
 - 绿色：5 + 200 + 4 + 2 = 211
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-21-38-48.png)
 
@@ -49,7 +49,7 @@
 - 绿色：8 （下方中央面积为 0 的菱形）
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：grid = [[7,7,7]]

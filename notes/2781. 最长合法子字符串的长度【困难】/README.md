@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：word = "cbaaaabc", forbidden = ["aaa","cb"]
@@ -30,7 +30,7 @@
 其他子字符串都要么包含 "aaa" ，要么包含 "cb"。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：word = "leetcode", forbidden = ["de","le","e"]

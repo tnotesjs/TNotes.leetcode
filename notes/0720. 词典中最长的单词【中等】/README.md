@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：words = ["w","wo","wor","worl", "world"]
@@ -27,7 +27,7 @@
 解释： 单词"world"可由"w", "wo", "wor", 和 "worl"逐步添加一个字母组成。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：words = ["a", "banana", "app", "appl", "ap", "apply", "apple"]

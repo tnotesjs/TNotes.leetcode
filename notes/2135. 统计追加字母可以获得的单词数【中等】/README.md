@@ -30,7 +30,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：startWords = ["ant","act","tack"], targetWords = ["tack","act","acti"]
@@ -42,7 +42,7 @@
 - 为了形成 targetWords[2] = "acti" ，可以选用 startWords[1] = "act" ，追加字母 'i' ，并重排 "acti" 为 "acti" 自身。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：startWords = ["ab","a"], targetWords = ["abc","abcd"]

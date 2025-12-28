@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：text = "  this   is  a sentence "
@@ -30,7 +30,7 @@
 可以将 9 个空格平均分配到相邻单词之间，相邻单词间空格数为：9 / (4-1) = 3 个。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：text = " practice   makes   perfect"
@@ -41,21 +41,21 @@
 多余的空格需要放在字符串的末尾。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：text = "hello   world"
 输出："hello   world"
 ```
 
-- 示例 4：
+示例 4：
 
 ```txt
 输入：text = "  walks  udp package   into  bar a"
 输出："walks  udp  package  into  bar  a "
 ```
 
-- 示例 5：
+示例 5：
 
 ```txt
 输入：text = "a"

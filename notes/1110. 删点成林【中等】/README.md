@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-17-35-46.png)
 
@@ -28,7 +28,7 @@
 输出：[[1,2,null,4],[6],[7]]
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：root = [1,2,4,null,3], to_delete = [3]

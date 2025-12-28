@@ -23,21 +23,21 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：words1 = ["amazon","apple","facebook","google","leetcode"], words2 = ["e","o"]
 输出：["facebook","google","leetcode"]
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：words1 = ["amazon","apple","facebook","google","leetcode"], words2 = ["lc","eo"]
 输出：["leetcode"]
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：words1 = ["acaac","cccbb","aacbb","caacc","bcbbb"], words2 = ["c","cc","b"]

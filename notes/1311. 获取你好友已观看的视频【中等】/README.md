@@ -21,7 +21,7 @@ Level 1 的视频包含所有你好友观看过的视频，level 2 的视频包�
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-19-06-26-55.png)
 
@@ -37,7 +37,7 @@ B -> 1
 C -> 2
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-19-06-27-00.png)
 

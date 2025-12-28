@@ -24,7 +24,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-16-34-11.png)
 
@@ -38,7 +38,7 @@
  因此最终的输出是 4。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入: ring = "godding", key = "godding"

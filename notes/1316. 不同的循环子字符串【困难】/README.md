@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：text = "abcabcabc"
@@ -27,7 +27,7 @@
 解释：3 个子字符串分别为 "abcabc"，"bcabca" 和 "cabcab"。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：text = "leetcodeleetcode"

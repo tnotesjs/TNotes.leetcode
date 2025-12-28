@@ -23,7 +23,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-14-08-19.png)
 
@@ -36,7 +36,7 @@
 这样一来到每个客户的距离就都是 1，所有距离之和为 4 ，这也是可以找到的最小值。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-14-08-25.png)
 

@@ -26,7 +26,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-16-44-07.png)
 
@@ -35,21 +35,21 @@
 输出：[30,36,21,36,35,26,15,null,null,null,33,null,null,null,8]
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：root = [0,null,1]
 输出：[1,null,1]
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：root = [1,0,2]
 输出：[3,3,2]
 ```
 
-- 示例 4：
+示例 4：
 
 ```txt
 输入：root = [3,2,4,1]

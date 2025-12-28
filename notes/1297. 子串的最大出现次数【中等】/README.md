@@ -18,7 +18,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：s = "aababcaab", maxLetters = 2, minSize = 3, maxSize = 4
@@ -27,7 +27,7 @@
 它满足所有的要求：2 个不同的字母，长度为 3 （在 minSize 和 maxSize 范围内）。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：s = "aaaa", maxLetters = 1, minSize = 3, maxSize = 3
@@ -35,14 +35,14 @@
 解释：子串 "aaa" 在原字符串中出现了 2 次，且它们有重叠部分。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：s = "aabcabcab", maxLetters = 2, minSize = 2, maxSize = 3
 输出：3
 ```
 
-- 示例 4：
+示例 4：
 
 ```txt
 输入：s = "abcde", maxLetters = 2, minSize = 3, maxSize = 3

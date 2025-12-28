@@ -28,7 +28,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：sentence = "leetcode exercises sound delightful"
@@ -41,7 +41,7 @@
 这个句子是回环句。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：sentence = "eetcode"
@@ -51,7 +51,7 @@
 这个句子是回环句。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：sentence = "Leetcode is cool"

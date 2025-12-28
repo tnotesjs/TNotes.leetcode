@@ -39,7 +39,7 @@
 注意 0 -> 2 -> 3 不是一条好路径，因为 vals[2] > vals[0]。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-04-09.png)
 
@@ -50,7 +50,7 @@
 还有 2 条好路径：0 -> 1 和 2 -> 3。
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-04-14.png)
 

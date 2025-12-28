@@ -23,7 +23,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-19-50-55.png)
 
@@ -35,7 +35,7 @@
 时间范围是 [1-3]+[3-6]，共获得报酬 120 = 50 + 70。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-19-51-06.png)
 
@@ -47,7 +47,7 @@
 共获得报酬 150 = 20 + 70 + 60。
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-19-51-16.png)
 

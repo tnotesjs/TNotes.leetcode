@@ -19,7 +19,7 @@ XOR 三元组 定义为三个元素的异或值 `nums[i] XOR nums[j] XOR nums[k]
 
 ---
 
-- 示例 1：
+示例 1：
 
 输入： nums = [1,3]
 
@@ -38,7 +38,7 @@ XOR 三元组 定义为三个元素的异或值 `nums[i] XOR nums[j] XOR nums[k]
 
 ---
 
-- 示例 2：
+示例 2：
 
 输入： nums = [6,7,8,9]
 

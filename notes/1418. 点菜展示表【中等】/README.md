@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：orders = [
@@ -49,7 +49,7 @@ Table,Beef Burrito,Ceviche,Fried Chicken,Water
 餐桌 10：Corina 点了 "Beef Burrito"
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：orders = [
@@ -71,7 +71,7 @@ Table,Beef Burrito,Ceviche,Fried Chicken,Water
 而餐桌 12：James, Ratesh 和 Amadeus 都点了 "Fried Chicken"
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：orders = [

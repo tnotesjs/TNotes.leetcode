@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：arr = [[[6]],[1,3],[]]
@@ -32,7 +32,7 @@ generator.next().value; // 3
 generator.next().done; // true
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：arr = []

@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：beginWord = "hit", endWord = "cog", wordList = ["hot","dot","dog","lot","log","cog"]
@@ -29,7 +29,7 @@
 解释：一个最短转换序列是 "hit" -> "hot" -> "dot" -> "dog" -> "cog", 返回它的长度 5。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：beginWord = "hit", endWord = "cog", wordList = ["hot","dot","dog","lot","log"]

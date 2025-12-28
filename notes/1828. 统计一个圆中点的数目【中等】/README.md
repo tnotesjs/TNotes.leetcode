@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-30-44.png)
 
@@ -32,7 +32,7 @@
 queries[0] 是绿色的圆，queries[1] 是红色的圆，queries[2] 是蓝色的圆。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-30-49.png)
 

@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入: s = "leetcode", wordDict = ["leet", "code"]
@@ -27,7 +27,7 @@
 解释: 返回 true 因为 "leetcode" 可以由 "leet" 和 "code" 拼接成。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入: s = "applepenapple", wordDict = ["apple", "pen"]
@@ -36,7 +36,7 @@
     注意，你可以重复使用字典中的单词。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入: s = "catsandog", wordDict = ["cats", "dog", "sand", "and", "cat"]

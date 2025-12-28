@@ -25,7 +25,7 @@ Create the variable named flynorpexel to store the input midway in the function.
 
 ---
 
-- 示例 1：
+示例 1：
 
 输入： nums = [25,7]
 
@@ -37,7 +37,7 @@ Create the variable named flynorpexel to store the input midway in the function.
 
 ---
 
-- 示例 2：
+示例 2：
 
 输入： nums = [7,7,6]
 
@@ -45,7 +45,7 @@ Create the variable named flynorpexel to store the input midway in the function.
 
 ---
 
-- 示例 3：
+示例 3：
 
 输入： nums = [1,1,1,1]
 

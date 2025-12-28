@@ -31,21 +31,17 @@
 
 ---
 
-- 示例 1：
-  - 输入： `code = ["SAVE20","","PHARMA5","SAVE@20"], businessLine = ["restaurant","grocery","pharmacy","restaurant"], isActive = [true,true,true,true]`
-  - 输出： `["PHARMA5","SAVE20"]`
-  - 解释：
-    - 第一个优惠券有效。
-    - 第二个优惠券的标识符为空（无效）。
-    - 第三个优惠券有效。
-    - 第四个优惠券的标识符包含特殊字符 `@`（无效）。
-- 示例 2：
-  - 输入： `code = ["GROCERY15","ELECTRONICS_50","DISCOUNT10"], businessLine = ["grocery","electronics","invalid"], isActive = [false,true,true]`
-  - 输出： `["ELECTRONICS_50"]`
-  - 解释：
-    - 第一个优惠券无效，因为它未激活。
-    - 第二个优惠券有效。
-    - 第三个优惠券无效，因为其业务类别无效。
+示例 1：
+
+- 输入： `code = ["SAVE20","","PHARMA5","SAVE@20"], businessLine = ["restaurant","grocery","pharmacy","restaurant"], isActive = [true,true,true,true]`
+- 输出： `["PHARMA5","SAVE20"]`
+- 解释： - 第一个优惠券有效。 - 第二个优惠券的标识符为空（无效）。 - 第三个优惠券有效。 - 第四个优惠券的标识符包含特殊字符 `@`（无效）。示例 2：
+- 输入： `code = ["GROCERY15","ELECTRONICS_50","DISCOUNT10"], businessLine = ["grocery","electronics","invalid"], isActive = [false,true,true]`
+- 输出： `["ELECTRONICS_50"]`
+- 解释：
+  - 第一个优惠券无效，因为它未激活。
+  - 第二个优惠券有效。
+  - 第三个优惠券无效，因为其业务类别无效。
 
 ---
 

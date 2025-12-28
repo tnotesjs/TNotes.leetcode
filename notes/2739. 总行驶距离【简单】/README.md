@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：mainTank = 5, additionalTank = 10
@@ -32,7 +32,7 @@
 总行驶距离为 60km。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：mainTank = 1, additionalTank = 2

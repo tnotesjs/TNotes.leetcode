@@ -23,7 +23,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：words = ["a","b","ba","bca","bda","bdca"]
@@ -31,7 +31,7 @@
 解释：最长单词链之一为 ["a","ba","bda","bdca"]
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：words = ["xbc","pcxbcf","xb","cxbc","pcxbc"]

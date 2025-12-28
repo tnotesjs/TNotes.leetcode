@@ -33,7 +33,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-10-12-57.png)
 
@@ -52,7 +52,7 @@
   总代价为：2 + 1 + 2 + 1 + 2 + 1 = 9。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-10-13-12.png)
 

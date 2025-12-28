@@ -21,21 +21,21 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：numerator = 1, denominator = 2
 输出："0.5"
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：numerator = 2, denominator = 1
 输出："2"
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：numerator = 4, denominator = 333

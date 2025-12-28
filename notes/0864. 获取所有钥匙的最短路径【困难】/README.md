@@ -27,7 +27,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-11-55-44.png)
 
@@ -37,7 +37,7 @@
 解释：目标是获得所有钥匙，而不是打开所有锁。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-11-55-51.png)
 
@@ -46,7 +46,7 @@
 输出：6
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-11-55-56.png)
 

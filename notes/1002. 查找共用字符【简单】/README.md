@@ -15,14 +15,14 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：words = ["bella","label","roller"]
 输出：["e","l","l"]
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：words = ["cool","lock","cook"]

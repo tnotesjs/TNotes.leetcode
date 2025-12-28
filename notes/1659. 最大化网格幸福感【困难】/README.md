@@ -26,7 +26,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-16-00-22.png)
 
@@ -44,7 +44,7 @@
 上图展示该示例对应网格中每个人的幸福感。内向的人在浅绿色单元中，而外向的人在浅紫色单元中。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：m = 3, n = 1, introvertsCount = 2, extrovertsCount = 1
@@ -58,7 +58,7 @@
 网格幸福感为 90 + 80 + 90 = 260
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：m = 2, n = 2, introvertsCount = 4, extrovertsCount = 0

@@ -23,7 +23,7 @@ Excel 表中的一个单元格 `(r, c)` 会以字符串 `"<col><row>"` 的形式
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-10-22-43.png)
 
@@ -35,7 +35,7 @@ Excel 表中的一个单元格 `(r, c)` 会以字符串 `"<col><row>"` 的形式
 红色箭头指示单元格的出现顺序。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-10-22-52.png)
 

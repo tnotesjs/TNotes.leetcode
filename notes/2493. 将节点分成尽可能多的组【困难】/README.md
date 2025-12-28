@@ -24,7 +24,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-24-17.png)
 
@@ -42,7 +42,7 @@
 
 ---
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：n = 3, edges = [[1,2],[2,3],[3,1]]

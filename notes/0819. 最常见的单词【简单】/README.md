@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：paragraph = "Bob hit a ball, the hit BALL flew far after it was hit.", banned = ["hit"]
@@ -35,7 +35,7 @@
 
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：paragraph = "a.", banned = []

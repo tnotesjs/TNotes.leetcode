@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-16-55-03.png)
 
@@ -33,7 +33,7 @@
 坡度总和：0 + 0 + 1 = 1
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-16-55-13.png)
 
@@ -50,7 +50,7 @@
 坡度总和：0 + 0 + 0 + 2 + 7 + 6 = 15
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-16-55-20.png)
 

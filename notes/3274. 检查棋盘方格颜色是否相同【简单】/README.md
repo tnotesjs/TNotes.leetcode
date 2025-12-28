@@ -23,7 +23,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 输入： coordinate1 = "a1", coordinate2 = "c3"
 
@@ -35,7 +35,7 @@
 
 ---
 
-- 示例 2：
+示例 2：
 
 输入： coordinate1 = "a1", coordinate2 = "h3"
 

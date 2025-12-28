@@ -56,7 +56,7 @@ class Node {
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-16-53-12.png)
 
@@ -75,7 +75,7 @@ quadTree1 和 quadTree2 如上所示。由四叉树所表示的二进制矩阵�
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-16-53-19.png)
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：

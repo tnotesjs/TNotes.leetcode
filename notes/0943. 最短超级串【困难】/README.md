@@ -17,7 +17,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：words = ["alex","loves","leetcode"]
@@ -25,7 +25,7 @@
 解释："alex"，"loves"，"leetcode" 的所有排列都会被接受。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：words = ["catg","ctaagt","gcta","ttca","atgcatc"]

@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：words = ["hello","i","am","leetcode","hello"], target = "hello", startIndex = 1
@@ -34,7 +34,7 @@
 到达 "hello" 的最短距离是 1。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：words = ["a","b","leetcode"], target = "leetcode", startIndex = 0
@@ -45,7 +45,7 @@
 到达 "leetcode" 的最短距离是 1。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：words = ["i","eat","leetcode"], target = "ate", startIndex = 0

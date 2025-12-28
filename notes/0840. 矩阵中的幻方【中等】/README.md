@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-08-22-28.png)
 
@@ -42,7 +42,7 @@
 
 ---
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入: grid = [[8]]

@@ -17,7 +17,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-46-50.png)
 
@@ -29,7 +29,7 @@
 - 将单元格 [0][2] 中的值替换为列 2 中的最大值 9。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-46-55.png)
 

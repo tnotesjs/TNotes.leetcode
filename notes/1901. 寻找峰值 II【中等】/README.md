@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-00-16.png)
 
@@ -31,7 +31,7 @@
 解释: 3 和 4 都是峰值，所以[1,0]和[0,1]都是可接受的答案。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-00-21.png)
 

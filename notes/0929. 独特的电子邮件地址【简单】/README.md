@@ -29,7 +29,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：emails = ["test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"]
@@ -37,7 +37,7 @@
 解释：实际收到邮件的是 "testemail@leetcode.com" 和 "testemail@lee.tcode.com"。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：emails = ["a@leetcode.com","b@leetcode.com","c@leetcode.com"]

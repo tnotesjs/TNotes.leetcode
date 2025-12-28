@@ -23,7 +23,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-00-12-47.png)
 
@@ -35,7 +35,7 @@
 更改以红色显示的路线的方向，使每个城市都可以到达城市 0。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-00-12-52.png)
 
@@ -47,7 +47,7 @@
 更改以红色显示的路线的方向，使每个城市都可以到达城市 0。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：n = 3, connections = [[1,0],[2,0]]

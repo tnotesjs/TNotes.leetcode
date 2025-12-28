@@ -26,14 +26,14 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：s = "abc", t = "ahbgdc"
 输出：true
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：s = "axc", t = "ahbgdc"

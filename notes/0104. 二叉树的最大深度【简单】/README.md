@@ -18,7 +18,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-21-12-26-04.png)
 
@@ -27,7 +27,7 @@
 输出：3
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：root = [1,null,2]

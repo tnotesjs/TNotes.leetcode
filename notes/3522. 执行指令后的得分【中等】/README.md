@@ -31,7 +31,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 输入： instructions = ["jump","add","add","jump","add","jump"], values = [2,1,3,1,-2,-3]
 
@@ -50,7 +50,7 @@
 
 ---
 
-- 示例 2：
+示例 2：
 
 输入： instructions = ["jump","add","add"], values = [3,1,1]
 
@@ -65,7 +65,7 @@
 
 ---
 
-- 示例 3：
+示例 3：
 
 输入： instructions = ["jump"], values = [0]
 

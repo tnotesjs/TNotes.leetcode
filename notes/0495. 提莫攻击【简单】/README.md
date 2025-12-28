@@ -25,7 +25,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：timeSeries = [1,4], duration = 2
@@ -37,7 +37,7 @@
 
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：timeSeries = [1,2], duration = 2

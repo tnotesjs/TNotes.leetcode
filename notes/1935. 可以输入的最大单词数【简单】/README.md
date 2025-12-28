@@ -17,7 +17,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：text = "hello world", brokenLetters = "ad"
@@ -25,7 +25,7 @@
 解释：无法输入 "world" ，因为字母键 'd' 已损坏。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：text = "leet code", brokenLetters = "lt"
@@ -33,7 +33,7 @@
 解释：无法输入 "leet" ，因为字母键 'l' 和 't' 已损坏。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：text = "leet code", brokenLetters = "e"

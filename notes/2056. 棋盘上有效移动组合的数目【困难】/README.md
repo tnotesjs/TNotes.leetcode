@@ -31,7 +31,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-41-53.png)
 
@@ -41,7 +41,7 @@
 解释：上图展示了棋子所有可能的移动。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-42-03.png)
 
@@ -51,7 +51,7 @@
 解释：上图展示了棋子所有可能的移动。
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-42-13.png)
 
@@ -61,7 +61,7 @@
 解释：上图展示了棋子所有可能的移动。
 ```
 
-- 示例 4:
+示例 4:
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-42-19.png)
 
@@ -77,7 +77,7 @@
 即使棋盘状态是相同的，这两个移动组合被视为不同的，因为每个棋子移动操作是不相同的。
 ```
 
-- 示例 5：
+示例 5：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-42-28.png)
 

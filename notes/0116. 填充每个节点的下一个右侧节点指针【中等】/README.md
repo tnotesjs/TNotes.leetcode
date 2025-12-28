@@ -28,7 +28,7 @@ struct Node {
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-20-37-57.png)
 
@@ -41,7 +41,7 @@ struct Node {
 序列化的输出按层序遍历排列，同一层节点由 next 指针连接，'#' 标志着每一层的结束。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：root = []

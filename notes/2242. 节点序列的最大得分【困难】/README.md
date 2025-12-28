@@ -26,7 +26,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-11-34-48.png)
 
@@ -40,7 +40,7 @@
 序列 [0,3,2,4] 不是合法的，因为没有边连接节点 0 和 3。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-11-34-55.png)
 

@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-03-29.png)
 
@@ -33,7 +33,7 @@
 第二个机器人将会收集到 0 + 0 + 4 + 0 = 4 个点。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-03-41.png)
 
@@ -45,7 +45,7 @@
 第二个机器人将会收集到 0 + 3 + 1 + 0 = 4 个点。
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-03-52.png)
 

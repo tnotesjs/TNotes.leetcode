@@ -21,14 +21,14 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：strs = ["tars","rats","arts","star"]
 输出：2
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：strs = ["omv","ovm"]

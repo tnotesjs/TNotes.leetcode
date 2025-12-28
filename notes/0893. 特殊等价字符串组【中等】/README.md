@@ -28,7 +28,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：words = ["abcd","cdab","cbad","xyzz","zzxy","zzyx"]
@@ -38,7 +38,7 @@
 另外两组分别是 ["xyzz", "zzxy"] 和 ["zzyx"]。特别需要注意的是，"zzxy" 不与 "zzyx" 特殊等价。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：words = ["abc","acb","bac","bca","cab","cba"]

@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-16-04.png)
 
@@ -39,7 +39,7 @@
 所以最多可以满足 5 个请求。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-16-10.png)
 
@@ -53,7 +53,7 @@
 我们可以满足所有的请求。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：n = 4, requests = [[0,3],[3,1],[1,2],[2,0]]

@@ -22,7 +22,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：s = "abcdefghi", k = 3, fill = 'x'
@@ -35,7 +35,7 @@
 因此，形成 3 组，分别是 "abc"、"def" 和 "ghi"。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：s = "abcdefghij", k = 3, fill = 'x'

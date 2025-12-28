@@ -24,7 +24,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-04-34.png)
 
@@ -34,7 +34,7 @@
 解释：单词 "abc" 可以如上图放置（从上往下）。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-04-40.png)
 
@@ -44,7 +44,7 @@
 解释：无法放置单词，因为放置该单词后上方或者下方相邻格会有空格。
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-04-47.png)
 

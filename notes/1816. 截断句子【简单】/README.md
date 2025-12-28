@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：s = "Hello how are you Contestant", k = 4
@@ -30,7 +30,7 @@ s 中的单词为 ["Hello", "how" "are", "you", "Contestant"]
 因此，应当返回 "Hello how are you"
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：s = "What is the solution to this problem", k = 4
@@ -41,7 +41,7 @@ s 中的单词为 ["What", "is" "the", "solution", "to", "this", "problem"]
 因此，应当返回 "What is the solution"
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：s = "chopper is not a tanuki", k = 5

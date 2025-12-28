@@ -19,21 +19,21 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入: equation = "x+5-3+x=6+x-2"
 输出: "x=2"
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入: equation = "x=x"
 输出: "Infinite solutions"
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入: equation = "2x=x"

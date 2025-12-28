@@ -17,7 +17,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-09-13-25-01.png)
 
@@ -27,7 +27,7 @@
 解释：等于目标和的根节点到叶节点路径如上图所示。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-09-13-25-10.png)
 
@@ -40,7 +40,7 @@
 不存在 sum = 5 的根节点到叶子节点的路径。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：root = [], targetSum = 0

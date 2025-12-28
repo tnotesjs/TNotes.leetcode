@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：names = ["pes","fifa","gta","pes(2019)"]
@@ -31,7 +31,7 @@
 "pes(2019)" --> 之前未分配，仍为 "pes(2019)"
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：names = ["gta","gta(1)","gta","avalon"]
@@ -43,7 +43,7 @@
 "avalon" --> 之前未分配，仍为 "avalon"
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：names = ["onepiece","onepiece(1)","onepiece(2)","onepiece(3)","onepiece"]
@@ -51,7 +51,7 @@
 解释：当创建最后一个文件夹时，最小的正有效 k 为 4 ，文件名变为 "onepiece(4)"。
 ```
 
-- 示例 4：
+示例 4：
 
 ```txt
 输入：names = ["wano","wano","wano","wano"]
@@ -59,7 +59,7 @@
 解释：每次创建文件夹 "wano" 时，只需增加后缀中 k 的值即可。
 ```
 
-- 示例 5：
+示例 5：
 
 ```txt
 输入：names = ["kaido","kaido(1)","kaido","kaido(1)"]

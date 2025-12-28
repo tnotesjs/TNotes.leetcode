@@ -24,7 +24,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：messages = ["Hello userTwooo","Hi userThree","Wonderful day Alice","Nice day userThree"], senders = ["Alice","userTwo","userThree","Alice"]
@@ -35,7 +35,7 @@ userThree 发出了 3 个单词。
 由于 Alice 发出单词数最多，所以我们返回 "Alice"。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：messages = ["How is leetcode for everyone","Leetcode is useful for practice"], senders = ["Bob","Charlie"]

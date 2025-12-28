@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：text = "ghiabcdefhelloadamhelloabcdefghi"
@@ -29,7 +29,7 @@
 解释：我们可以把字符串拆分成 "(ghi)(abcdef)(hello)(adam)(hello)(abcdef)(ghi)"。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：text = "merchant"
@@ -37,7 +37,7 @@
 解释：我们可以把字符串拆分成 "(merchant)"。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：text = "antaprezatepzapreanta"

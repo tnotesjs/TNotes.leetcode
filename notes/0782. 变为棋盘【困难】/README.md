@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-20-40-10.png)
 
@@ -31,7 +31,7 @@
 第二次移动交换了第二行和第三行。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-20-40-17.png)
 
@@ -41,7 +41,7 @@
 解释: 注意左上角的格值为0时也是合法的棋盘，也是合法的棋盘.
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-20-40-22.png)
 

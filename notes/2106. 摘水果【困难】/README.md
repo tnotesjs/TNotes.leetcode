@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-27-27.png)
 
@@ -34,7 +34,7 @@
 移动 3 步，共摘到 3 + 6 = 9 个水果
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-27-36.png)
 
@@ -52,7 +52,7 @@
 移动 1 + 3 = 4 步，共摘到 7 + 1 + 2 + 4 = 14 个水果
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-27-44.png)
 

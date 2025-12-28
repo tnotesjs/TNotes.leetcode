@@ -22,7 +22,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：ideas = ["coffee","donuts","time","toffee"]
@@ -42,7 +42,7 @@
 - ("coffee", "toffee")：在原数组中存在交换后形成的两个名字。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：ideas = ["lack","back"]

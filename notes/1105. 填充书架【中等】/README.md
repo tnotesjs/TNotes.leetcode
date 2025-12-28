@@ -27,7 +27,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-16-22-07.png)
 
@@ -39,7 +39,7 @@
 第 2 本书不必放在第一层书架上。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入: books = [[1,3],[2,4],[3,2]], shelfWidth = 6

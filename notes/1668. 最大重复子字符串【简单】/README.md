@@ -17,7 +17,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：sequence = "ababc", word = "ab"
@@ -25,7 +25,7 @@
 解释："abab" 是 "ababc" 的子字符串。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：sequence = "ababc", word = "ba"
@@ -33,7 +33,7 @@
 解释："ba" 是 "ababc" 的子字符串，但 "baba" 不是 "ababc" 的子字符串。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：sequence = "ababc", word = "ac"

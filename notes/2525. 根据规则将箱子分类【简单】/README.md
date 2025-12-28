@@ -26,7 +26,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：length = 1000, width = 35, height = 700, mass = 300
@@ -38,7 +38,7 @@
 由于箱子不是 "Bulky" 但是是 "Heavy" ，所以我们返回 "Heavy"。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：length = 200, width = 50, height = 800, mass = 50

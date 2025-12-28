@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：words = ["are","amy","u"], left = 0, right = 2
@@ -31,7 +31,7 @@
 在上述范围中的元音字符串数目为 2。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：words = ["hey","aeo","mu","ooo","artro"], left = 1, right = 4

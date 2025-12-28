@@ -18,7 +18,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：nums = [4,14,2]
@@ -30,7 +30,7 @@
 HammingDistance(4, 14) + HammingDistance(4, 2) + HammingDistance(14, 2) = 2 + 2 + 2 = 6
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：nums = [4,14,4]

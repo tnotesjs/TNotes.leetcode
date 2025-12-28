@@ -26,7 +26,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-11-36-27.png)
 
@@ -50,7 +50,7 @@
 右侧的图也不是一条有效的转角路径，因为它需要重复访问已经访问过的单元格。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-11-36-38.png)
 

@@ -25,7 +25,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-57-55.png)
 
@@ -39,7 +39,7 @@
 
 ---
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-58-05.png)
 
@@ -53,7 +53,7 @@
 
 ---
 
-- 示例 3：
+示例 3：
 
 输入： grid = [["a"]], pattern = "a"
 

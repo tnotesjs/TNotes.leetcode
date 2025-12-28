@@ -25,7 +25,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-14-54-08.png)
 
@@ -44,7 +44,7 @@
 
 ---
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：n = 9, cuts = [5,6,1,4,2]

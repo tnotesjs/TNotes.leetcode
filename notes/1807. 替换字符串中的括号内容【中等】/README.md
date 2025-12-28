@@ -28,7 +28,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：s = "(name)is(age)yearsold", knowledge = [["name","bob"],["age","two"]]
@@ -38,7 +38,7 @@
 键 "age" 对应的值为 "two" ，所以将 "(age)" 替换为 "two"。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：s = "hi(name)", knowledge = [["a","b"]]
@@ -46,7 +46,7 @@
 解释：由于不知道键 "name" 对应的值，所以用 "?" 替换 "(name)"。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：s = "(a)(a)(a)aaa", knowledge = [["a","yes"]]

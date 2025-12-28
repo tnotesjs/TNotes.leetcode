@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-12-06-26.png)
 
@@ -35,7 +35,7 @@
 - (3,5)，路径上字符形成的字符串是 "acac" ，可以重排形成回文 "acca"。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：parent = [-1,0,0,0,0], s = "aaaaa"

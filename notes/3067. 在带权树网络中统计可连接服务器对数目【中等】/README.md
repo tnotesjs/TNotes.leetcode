@@ -24,7 +24,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-53-46.png)
 
@@ -35,7 +35,7 @@
 在输入图中，count[c] 等于服务器 c 左边服务器数目乘以右边服务器数目。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-53-52.png)
 

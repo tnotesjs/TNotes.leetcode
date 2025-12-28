@@ -48,7 +48,7 @@ empId 是 Employee 表中 empId 的外键(reference 列)。
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：

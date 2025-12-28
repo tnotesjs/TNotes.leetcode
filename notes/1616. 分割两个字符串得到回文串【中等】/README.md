@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：a = "x", b = "y"
@@ -32,14 +32,14 @@ bprefix = "", bsuffix = "y"
 那么 aprefix + bsuffix = "" + "y" = "y" 是回文串。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：a = "xbdef", b = "xecab"
 输出：false
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：a = "ulacfd", b = "jizalu"

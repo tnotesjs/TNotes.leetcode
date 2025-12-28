@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：s = 'bccb'
@@ -30,7 +30,7 @@
 注意：'bcb' 虽然出现两次但仅计数一次。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：s = 'abcdabcdabcdabcdabcdabcdabcdabcddcbadcbadcbadcbadcbadcbadcbadcba'

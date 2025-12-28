@@ -22,7 +22,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-42-29.png)
 
@@ -37,7 +37,7 @@
 因此，在第 9 天，所有种子都开花。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-42-34.png)
 
@@ -53,7 +53,7 @@
 因此，在第 9 天，所有种子都开花。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：plantTime = [1], growTime = [1]

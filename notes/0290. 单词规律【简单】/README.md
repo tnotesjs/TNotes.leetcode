@@ -22,14 +22,14 @@
 输出: true
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入:pattern = "abba", s = "dog cat cat fish"
 输出: false
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入: pattern = "aaaa", s = "dog cat cat dog"

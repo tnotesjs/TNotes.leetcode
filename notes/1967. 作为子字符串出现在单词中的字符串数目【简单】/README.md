@@ -17,7 +17,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：patterns = ["a","abc","bc","d"], word = "abc"
@@ -30,7 +30,7 @@
 patterns 中有 3 个字符串作为子字符串出现在 word 中。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：patterns = ["a","b","c"], word = "aaaaabbbbb"
@@ -42,7 +42,7 @@ patterns 中有 3 个字符串作为子字符串出现在 word 中。
 patterns 中有 2 个字符串作为子字符串出现在 word 中。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：patterns = ["a","a","a"], word = "ab"

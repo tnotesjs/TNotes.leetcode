@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：words = ["pay","attention","practice","attend"], pref = "at"
@@ -27,7 +27,7 @@
 解释：以 "at" 作为前缀的字符串有两个，分别是："attention" 和 "attend"。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：words = ["leetcode","win","loops","success"], pref = "code"

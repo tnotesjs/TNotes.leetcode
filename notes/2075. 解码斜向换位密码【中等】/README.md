@@ -39,7 +39,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：encodedText = "ch   ie   pr", rows = 3
@@ -47,7 +47,7 @@
 解释：此示例与问题描述中的例子相同。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-10-48.png)
 
@@ -58,7 +58,7 @@
 蓝色箭头展示如何从 encodedText 找到 originalText。
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-10-58.png)
 
@@ -68,7 +68,7 @@
 解释：由于只有 1 行，所以 originalText 和 encodedText 是相同的。
 ```
 
-- 示例 4：
+示例 4：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-11-03.png)
 

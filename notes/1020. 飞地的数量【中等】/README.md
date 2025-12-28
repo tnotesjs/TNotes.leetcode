@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-15-18-25.png)
 
@@ -29,7 +29,7 @@
 解释：有三个 1 被 0 包围。一个 1 没有被包围，因为它在边界上。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-15-18-31.png)
 

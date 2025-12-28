@@ -25,7 +25,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：sentence = "cat and  dog"
@@ -33,7 +33,7 @@
 解释：句子中的有效单词是 "cat"、"and" 和 "dog"
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：sentence = "!this  1-s b8d!"
@@ -43,7 +43,7 @@
 "1-s" 和 "b8d" 也不是有效单词，因为它们都包含数字
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：sentence = "alice and  bob are playing stone-game10"

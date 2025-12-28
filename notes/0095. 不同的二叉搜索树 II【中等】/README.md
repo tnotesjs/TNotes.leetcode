@@ -15,7 +15,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-17-51-42.png)
 
@@ -24,7 +24,7 @@
 输出：[[1,null,2,null,3],[1,null,3,2],[2,1,3],[3,1,null,null,2],[3,2,null,1]]
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：n = 1

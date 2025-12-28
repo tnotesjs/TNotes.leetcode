@@ -17,7 +17,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-11-12-32-58.png)
 
@@ -27,7 +27,7 @@
 解释：5 个矩形一起可以精确地覆盖一个矩形区域。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-11-12-33-02.png)
 
@@ -37,7 +37,7 @@
 解释：两个矩形之间有间隔，无法覆盖成一个矩形。
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-11-12-33-07.png)
 

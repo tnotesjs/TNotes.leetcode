@@ -38,7 +38,7 @@ Number of Bytes     |        UTF-8 octet sequence
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：data = [197,130,1]
@@ -47,7 +47,7 @@ Number of Bytes     |        UTF-8 octet sequence
 这是有效的 utf-8 编码，为一个 2 字节字符，跟着一个 1 字节字符。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：data = [235,140,4]

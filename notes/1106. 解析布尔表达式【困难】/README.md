@@ -28,7 +28,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：expression = "&(|(f))"
@@ -39,7 +39,7 @@
 最后，返回 false。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：expression = "|(f,f,f,t)"
@@ -47,7 +47,7 @@
 解释：计算 (false OR false OR false OR true) ，结果为 true。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：expression = "!(&(f,t))"

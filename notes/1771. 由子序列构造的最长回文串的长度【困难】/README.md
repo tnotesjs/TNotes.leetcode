@@ -25,7 +25,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：word1 = "cacb", word2 = "cbba"
@@ -33,7 +33,7 @@
 解释：从 word1 中选出 "ab" ，从 word2 中选出 "cba" ，得到回文串 "abcba"。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：word1 = "ab", word2 = "ab"
@@ -41,7 +41,7 @@
 解释：从 word1 中选出 "ab" ，从 word2 中选出 "a" ，得到回文串 "aba"。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：word1 = "aa", word2 = "bb"

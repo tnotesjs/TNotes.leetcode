@@ -20,7 +20,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-00-11-58.png)
 
@@ -33,7 +33,7 @@
 切割蛋糕后，绿色的那份蛋糕面积最大。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-00-12-06.png)
 
@@ -46,7 +46,7 @@
 切割蛋糕后，绿色和黄色的两份蛋糕面积最大。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：h = 5, w = 4, horizontalCuts = [3], verticalCuts = [3]

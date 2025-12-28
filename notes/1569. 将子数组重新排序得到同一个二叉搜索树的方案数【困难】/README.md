@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-02-20.png)
 
@@ -31,7 +31,7 @@
 解释：我们将 nums 重排， [2,3,1] 能得到相同的 BST。没有其他得到相同 BST 的方案了。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-02-25.png)
 
@@ -46,7 +46,7 @@
 [3,4,1,5,2]
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-02-34.png)
 

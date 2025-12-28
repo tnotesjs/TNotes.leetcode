@@ -24,7 +24,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 ![](https://assets.leetcode.com/uploads/2022/02/22/ex1drawio.png)
@@ -35,7 +35,7 @@
 上图展示了得到数组三角和的过程。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：nums = [5]

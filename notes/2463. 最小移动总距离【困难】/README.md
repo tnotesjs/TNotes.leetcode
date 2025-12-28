@@ -31,7 +31,7 @@ X 轴上有一些机器人和工厂。给你一个整数数组 `robot` ，其中
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-13-24.png)
 
@@ -47,7 +47,7 @@ X 轴上有一些机器人和工厂。给你一个整数数组 `robot` ，其中
 总移动距离是 |2 - 0| + |2 - 4| + |6 - 6| = 4。没有办法得到比 4 更少的总移动距离。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-20-13-30.png)
 

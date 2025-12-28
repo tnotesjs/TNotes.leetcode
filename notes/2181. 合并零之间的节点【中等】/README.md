@@ -17,7 +17,7 @@
 
 返回修改后链表的头节点 `head`。
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-10-18-54.png)
 
@@ -30,7 +30,7 @@
 - 标记为红色的节点之和：4 + 5 + 2 = 11
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-10-18-59.png)
 

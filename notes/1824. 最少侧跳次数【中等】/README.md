@@ -27,7 +27,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-29-44.png)
 
@@ -38,7 +38,7 @@
 注意，这只青蛙只有当侧跳时才可以跳过障碍（如上图点 2 处所示）。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-29-49.png)
 
@@ -48,7 +48,7 @@
 解释：跑道 2 没有任何障碍，所以不需要任何侧跳。
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-29-53.png)
 

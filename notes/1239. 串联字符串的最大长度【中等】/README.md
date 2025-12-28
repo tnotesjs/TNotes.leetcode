@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：arr = ["un","iq","ue"]
@@ -34,7 +34,7 @@
 最大长度为 4。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：arr = ["cha","r","act","ers"]
@@ -42,7 +42,7 @@
 解释：可能的解答有 "chaers" 和 "acters"。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：arr = ["abcdefghijklmnopqrstuvwxyz"]

@@ -17,7 +17,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-20-02.png)
 
@@ -28,7 +28,7 @@
 数组和之差的绝对值为 abs((3 + 9) - (7 + 3)) = 2。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：nums = [-36,36]
@@ -37,7 +37,7 @@
 数组和之差的绝对值为 abs((-36) - (36)) = 72。
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-20-11.png)
 

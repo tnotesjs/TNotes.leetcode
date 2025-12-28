@@ -1,4 +1,4 @@
-# [0470. 用 Rand7() 实现 Rand10()【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0470.%20%E7%94%A8%20Rand7()%20%E5%AE%9E%E7%8E%B0%20Rand10()%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
+# [0470. 用 Rand7() 实现 Rand10()【中等】](<https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0470.%20%E7%94%A8%20Rand7()%20%E5%AE%9E%E7%8E%B0%20Rand10()%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91>)
 
 <!-- region:toc -->
 
@@ -20,21 +20,21 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入: 1
 输出: [2]
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入: 2
 输出: [2,8]
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入: 3

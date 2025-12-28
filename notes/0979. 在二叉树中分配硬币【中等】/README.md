@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-08-15-13.png)
 
@@ -29,7 +29,7 @@
 解释：一枚硬币从根结点移动到左子结点，一枚硬币从根结点移动到右子结点。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-08-15-19.png)
 

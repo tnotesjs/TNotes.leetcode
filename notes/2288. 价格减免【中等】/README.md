@@ -23,7 +23,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：sentence = "there are $1 $2 and 5$ candies in the shop", discount = 50
@@ -34,7 +34,7 @@
 - "$2" 减免 50% 为 "$1" ，所以 "$2" 替换为 "$1.00"。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：sentence = "1 2 $3 4 $5 $6 7 8$ $9 $10$", discount = 100

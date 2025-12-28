@@ -23,7 +23,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-43-41.png)
 
@@ -33,7 +33,7 @@
 解释：链表 [3,1] 中不存在临界点。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-43-49.png)
 
@@ -48,7 +48,7 @@
 第三个节点和第六个节点之间距离最大。maxDistance = 6 - 3 = 3。
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-43-54.png)
 
@@ -63,7 +63,7 @@
 注意，最后一个节点不算一个局部极大值点，因为它之后就没有节点了。
 ```
 
-- 示例 4：
+示例 4：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-22-44-02.png)
 

@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-12-26.png)
 
@@ -32,7 +32,7 @@
 注意，房子 3 和房子 6 也可以产生最佳答案。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-12-32.png)
 
@@ -44,7 +44,7 @@
 房子 0 的颜色是颜色 1 ，房子 4 的颜色是颜色 3。两栋房子之间的距离是 abs(0 - 4) = 4。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：colors = [0,1]

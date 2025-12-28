@@ -24,7 +24,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：differences = [1,-3,4], lower = 1, upper = 6
@@ -35,7 +35,7 @@
 所以返回 2。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：differences = [3,-4,5,1,-2], lower = -4, upper = 5
@@ -48,7 +48,7 @@
 所以返回 4。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：differences = [4,-7,2], lower = 3, upper = 6

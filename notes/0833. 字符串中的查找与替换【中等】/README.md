@@ -31,7 +31,7 @@ _在对 `s` 执行所有替换操作后返回 结果字符串。_
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-08-17-43.png)
 

@@ -15,7 +15,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-17-49-44.png)
 
@@ -24,7 +24,7 @@
 输出：[1,4,3,2,5]
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：head = [5], left = 1, right = 1

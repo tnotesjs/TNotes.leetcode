@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：message = "this is really a very awesome message", limit = 9
@@ -33,7 +33,7 @@
 可以证明没有办法分割成少于 14 个部分。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：message = "short message", limit = 15

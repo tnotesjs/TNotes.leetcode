@@ -24,7 +24,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-27-38.png)
 
@@ -36,14 +36,14 @@
 周长为 2 * 4 = 8。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：neededApples = 13
 输出：16
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：neededApples = 1000000000

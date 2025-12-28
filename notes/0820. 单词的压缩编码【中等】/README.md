@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：words = ["time", "me", "bell"]
@@ -32,7 +32,7 @@ words[1] = "me" ，s 开始于 indices[1] = 2 到下一个 '#' 结束的子字�
 words[2] = "bell" ，s 开始于 indices[2] = 5 到下一个 '#' 结束的子字符串，如加粗部分所示 "time#bell#"
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：words = ["t"]

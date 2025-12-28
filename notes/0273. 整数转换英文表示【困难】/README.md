@@ -15,21 +15,21 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：num = 123
 输出："One Hundred Twenty Three"
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：num = 12345
 输出："Twelve Thousand Three Hundred Forty Five"
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：num = 1234567

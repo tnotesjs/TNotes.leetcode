@@ -30,7 +30,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入
@@ -85,7 +85,7 @@ undergroundSystem.checkOut(10, "Waterloo", 38);  // 乘客 10 "Leyton" -> "Water
 undergroundSystem.getAverageTime("Leyton", "Waterloo");    // 返回 12.00000。有三个 "Leyton" -> "Waterloo" 的行程，(10 + 12 + 14) / 3 = 12
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入

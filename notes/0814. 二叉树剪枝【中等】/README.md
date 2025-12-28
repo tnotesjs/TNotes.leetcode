@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-08-07-30.png)
 
@@ -30,7 +30,7 @@
 只有红色节点满足条件“所有不包含 1 的子树”。 右图为返回的答案。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-08-07-36.png)
 
@@ -39,7 +39,7 @@
 输出：[1,null,1,null,1]
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-08-07-43.png)
 

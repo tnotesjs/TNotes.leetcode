@@ -22,7 +22,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-14-47.png)
 
@@ -34,7 +34,7 @@
 可以发现如果我们只放置 1 个食物桶，其中一只仓鼠将得不到喂养。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-14-52.png)
 
@@ -45,7 +45,7 @@
 我们可以在下标为 2 处放置一个食物桶。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：street = ".HHH."

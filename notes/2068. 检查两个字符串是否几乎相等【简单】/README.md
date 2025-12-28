@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：word1 = "aaaa", word2 = "bccb"
@@ -28,7 +28,7 @@
 两者之差为 4 ，大于上限 3。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：word1 = "abcdeef", word2 = "abaaacc"
@@ -42,7 +42,7 @@
 - 'f' 在 word1 中出现了 1 次，在 word2 中出现了 0 次，差为 1。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：word1 = "cccddabba", word2 = "babababab"

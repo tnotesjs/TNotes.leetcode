@@ -67,7 +67,7 @@ sales_id 是来自销售员表 sales_id 的外键（reference 列）。
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：

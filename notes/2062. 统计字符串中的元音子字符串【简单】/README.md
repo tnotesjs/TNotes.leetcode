@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：word = "aeiouu"
@@ -29,7 +29,7 @@
 - "aeiouu"
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：word = "unicornarihan"
@@ -37,7 +37,7 @@
 解释：word 中不含 5 种元音，所以也不会存在元音子字符串。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：word = "cuaieuouac"
@@ -52,7 +52,7 @@
 - "cuaieuouac"
 ```
 
-- 示例 4：
+示例 4：
 
 ```txt
 输入：word = "bbaeixoubb"

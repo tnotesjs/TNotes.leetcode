@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-11-12-09-05.png)
 
@@ -29,7 +29,7 @@
 解释: 小偷一晚能够盗取的最高金额 3 + 3 + 1 = 7
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-11-12-09-09.png)
 

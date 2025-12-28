@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-08-33-04.png)
 
@@ -42,7 +42,7 @@
 在本例中，车能够吃掉所有的卒。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-08-33-12.png)
 
@@ -63,7 +63,7 @@
 象阻止了车吃掉任何卒。
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-08-33-20.png)
 

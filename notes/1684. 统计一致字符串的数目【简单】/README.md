@@ -17,7 +17,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：allowed = "ab", words = ["ad","bd","aaab","baa","badab"]
@@ -25,7 +25,7 @@
 解释：字符串 "aaab" 和 "baa" 都是一致字符串，因为它们只包含字符 'a' 和 'b'。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：allowed = "abc", words = ["a","b","c","ab","ac","bc","abc"]
@@ -33,7 +33,7 @@
 解释：所有字符串都是一致的。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：allowed = "cad", words = ["cc","acd","b","ba","bac","bad","ac","d"]

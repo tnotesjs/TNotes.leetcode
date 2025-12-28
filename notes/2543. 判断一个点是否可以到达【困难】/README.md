@@ -24,7 +24,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：targetX = 6, targetY = 9
@@ -34,7 +34,7 @@
 
 ---
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：targetX = 4, targetY = 7

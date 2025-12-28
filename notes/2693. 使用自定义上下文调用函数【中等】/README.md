@@ -30,7 +30,7 @@ function tax(price, taxRate) {
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：
@@ -44,7 +44,7 @@ fn.callPolyfill({"a": 5}, 7); // 12
 callPolyfill 将 "this" 上下文设置为 {"a": 5} ，并将 7 作为参数传递。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：

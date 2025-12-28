@@ -28,7 +28,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：logs = ["dig1 8 1 5 1","let1 art can","dig2 3 6","let2 own kit dig","let3 art zero"]
@@ -38,7 +38,7 @@
 数字日志保留原来的相对顺序 "dig1 8 1 5 1", "dig2 3 6"。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：logs = ["a1 9 2 3 1","g1 act car","zo4 4 7","ab1 off key dog","a8 act zoo"]

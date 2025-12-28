@@ -26,7 +26,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-08-54.png)
 
@@ -42,7 +42,7 @@
 总共有 5 种可行的关闭方案。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-28-21-09-09.png)
 
@@ -60,7 +60,7 @@
 总共有 7 种可行的关闭方案。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：n = 1, maxDistance = 10, roads = []

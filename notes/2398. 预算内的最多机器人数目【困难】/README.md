@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：chargeTimes = [3,6,1,3,4], runningCosts = [2,1,3,4,5], budget = 25
@@ -30,7 +30,7 @@
 可以看出无法在 budget 以内连续运行超过 3 个机器人，所以我们返回 3。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：chargeTimes = [11,12,19], runningCosts = [10,8,7], budget = 19

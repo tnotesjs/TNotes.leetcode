@@ -17,7 +17,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-13-31.png)
 
@@ -27,7 +27,7 @@
 解释：如上图所示，存在三种可能的涂色方案。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-13-39.png)
 
@@ -37,7 +37,7 @@
 解释：如上图所示，存在六种可能的涂色方案。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：m = 5, n = 5

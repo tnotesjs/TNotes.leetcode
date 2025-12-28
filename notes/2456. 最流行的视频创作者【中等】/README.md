@@ -22,7 +22,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：creators = ["alice","bob","alice","chris"], ids = ["one","two","three","four"], views = [5,10,5,4]
@@ -36,7 +36,7 @@ bob 播放量最高的视频 id 为 "two"。
 alice 播放量最高的视频 id 是 "one" 和 "three"。由于 "one" 的字典序比 "three" 更小，所以结果中返回的 id 是 "one"。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：creators = ["alice","alice","alice"], ids = ["a","b","c"], views = [1,2,2]

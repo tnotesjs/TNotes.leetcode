@@ -1,4 +1,4 @@
-# [0600. 不含连续1的非负整数【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0600.%20%E4%B8%8D%E5%90%AB%E8%BF%9E%E7%BB%AD1%E7%9A%84%E9%9D%9E%E8%B4%9F%E6%95%B4%E6%95%B0%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91)
+# [0600. 不含连续 1 的非负整数【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0600.%20%E4%B8%8D%E5%90%AB%E8%BF%9E%E7%BB%AD1%E7%9A%84%E9%9D%9E%E8%B4%9F%E6%95%B4%E6%95%B0%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91)
 
 <!-- region:toc -->
 
@@ -15,7 +15,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入: n = 5
@@ -31,14 +31,14 @@
 其中，只有整数 3 违反规则（有两个连续的 1 ），其他 5 个满足规则。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入: n = 1
 输出: 2
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入: n = 2

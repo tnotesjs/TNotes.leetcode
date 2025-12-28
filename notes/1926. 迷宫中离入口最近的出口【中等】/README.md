@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-10-19.png)
 
@@ -34,7 +34,7 @@
 所以，最近的出口是 (0,2) ，距离为 1 步。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-10-25.png)
 
@@ -48,7 +48,7 @@
 所以，最近的出口为 (1,2) ，距离为 2 步。
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-10-31.png)
 

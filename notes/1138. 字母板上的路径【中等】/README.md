@@ -31,14 +31,14 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：target = "leet"
 输出："DDR!UURRR!!DDD!"
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：target = "code"

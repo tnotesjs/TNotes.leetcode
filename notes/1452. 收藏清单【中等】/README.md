@@ -17,7 +17,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：favoriteCompanies = [
@@ -36,7 +36,7 @@ favoriteCompanies[3]=["google"] 是 favoriteCompanies[0]=["leetcode","google","f
 其余的收藏清单均不是其他任何人收藏的公司清单的子集，因此，答案为 [0,1,4]。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：favoriteCompanies = [
@@ -51,7 +51,7 @@ favoriteCompanies[3]=["google"] 是 favoriteCompanies[0]=["leetcode","google","f
 favoriteCompanies[2]=["facebook","google"] 是 favoriteCompanies[0]=["leetcode","google","facebook"] 的子集，因此，答案为 [0,1]。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：favoriteCompanies = [["leetcode"], ["google"], ["facebook"], ["amazon"]]

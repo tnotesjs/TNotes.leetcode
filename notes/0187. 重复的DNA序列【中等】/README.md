@@ -1,4 +1,4 @@
-# [0187. 重复的DNA序列【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0187.%20%E9%87%8D%E5%A4%8D%E7%9A%84DNA%E5%BA%8F%E5%88%97%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
+# [0187. 重复的 DNA 序列【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0187.%20%E9%87%8D%E5%A4%8D%E7%9A%84DNA%E5%BA%8F%E5%88%97%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
 
@@ -21,14 +21,14 @@ DNA 序列 由一系列核苷酸组成，缩写为 `'A'`,`'C'`,`'G'` 和 `'T'`.�
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：s = "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"
 输出：["AAAAACCCCC","CCCCCAAAAA"]
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：s = "AAAAAAAAAAAAA"

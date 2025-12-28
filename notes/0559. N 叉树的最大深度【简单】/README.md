@@ -20,7 +20,7 @@ N 叉树输入按层序遍历序列化表示，每组子节点由空值分隔（
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-16-53-46.png)
 
@@ -29,7 +29,7 @@ N 叉树输入按层序遍历序列化表示，每组子节点由空值分隔（
 输出：3
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-16-53-51.png)
 

@@ -24,7 +24,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：word1 = "cabaa", word2 = "bcaaa"
@@ -38,7 +38,7 @@
 - 将 word1 和 word2 中剩下的 5 个 a 附加到 merge 的末尾。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：word1 = "abcabc", word2 = "abdcaba"

@@ -25,7 +25,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：s = "leetcode", power = 7, modulo = 20, k = 2, hashValue = 0
@@ -34,7 +34,7 @@
 "ee" 是长度为 2 的第一个哈希值为 0 的子串，所以我们返回 "ee"。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：s = "fbxzaad", power = 31, modulo = 100, k = 3, hashValue = 32

@@ -31,7 +31,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 输入： m = 3, n = 2, horizontalCut = [1,3], verticalCut = [5]
 
@@ -51,7 +51,7 @@
 
 ---
 
-- 示例 2：
+示例 2：
 
 输入： m = 2, n = 2, horizontalCut = [7], verticalCut = [4]
 

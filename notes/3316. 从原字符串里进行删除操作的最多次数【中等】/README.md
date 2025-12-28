@@ -30,7 +30,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 输入： source = "abbaa", pattern = "aba", targetIndices = [0,1,2]
 
@@ -45,7 +45,7 @@
 
 ---
 
-- 示例 2：
+示例 2：
 
 输入： source = "bcda", pattern = "d", targetIndices = [0,3]
 
@@ -57,7 +57,7 @@
 
 ---
 
-- 示例 3：
+示例 3：
 
 输入： source = "dda", pattern = "dda", targetIndices = [0,1,2]
 
@@ -69,7 +69,7 @@
 
 ---
 
-- 示例 4：
+示例 4：
 
 输入： source = "yeyeykyded", pattern = "yeyyd", targetIndices = [0,2,3,4]
 

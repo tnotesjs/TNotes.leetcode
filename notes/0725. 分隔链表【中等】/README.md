@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-20-19-04.png)
 
@@ -33,7 +33,7 @@
 最后一个元素 output[4] 为 null ，但它作为 ListNode 的字符串表示是 []。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-20-18-58.png)
 

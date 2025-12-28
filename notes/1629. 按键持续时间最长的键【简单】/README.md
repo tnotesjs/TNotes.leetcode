@@ -23,7 +23,7 @@ LeetCode 设计了一款新式键盘，正在测试其可用性。测试人员�
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：releaseTimes = [9,29,49,50], keysPressed = "cbcd"
@@ -37,7 +37,7 @@ LeetCode 设计了一款新式键盘，正在测试其可用性。测试人员�
 'c' 按字母顺序排列比 'b' 大，所以答案是 'c'
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：releaseTimes = [12,23,36,46,62], keysPressed = "spuda"

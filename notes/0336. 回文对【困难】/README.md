@@ -27,7 +27,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：words = ["abcd","dcba","lls","s","sssll"]
@@ -35,7 +35,7 @@
 解释：可拼接成的回文串为 ["dcbaabcd","abcddcba","slls","llssssll"]
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：words = ["bat","tab","cat"]
@@ -43,7 +43,7 @@
 解释：可拼接成的回文串为 ["battab","tabbat"]
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：words = ["a",""]

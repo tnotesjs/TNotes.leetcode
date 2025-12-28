@@ -17,7 +17,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-12-14-22-16.png)
 
@@ -27,7 +27,7 @@
 解释：和等于 8 的路径有 3 条，如图所示。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：root = [5,4,8,11,null,13,4,7,2,null,null,5,1], targetSum = 22

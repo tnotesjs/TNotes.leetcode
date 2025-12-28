@@ -26,7 +26,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：s = "isawsquirrelnearmysquirrelhouseohmy", a = "my", b = "squirrel", k = 15
@@ -39,7 +39,7 @@
 
 ---
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：s = "abcd", a = "a", b = "a", k = 4

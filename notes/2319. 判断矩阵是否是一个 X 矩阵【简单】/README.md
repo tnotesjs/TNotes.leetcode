@@ -20,7 +20,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-13-28-34.png)
 
@@ -32,7 +32,7 @@ X 矩阵应该满足：绿色元素（对角线上）都不是 0 ，红色元素
 因此，grid 是一个 X 矩阵。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-13-28-40.png)
 

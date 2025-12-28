@@ -27,7 +27,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：customers = "YYNY"
@@ -43,7 +43,7 @@
 
 ---
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：customers = "NNNNN"
@@ -53,7 +53,7 @@
 
 ---
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：customers = "YYYY"

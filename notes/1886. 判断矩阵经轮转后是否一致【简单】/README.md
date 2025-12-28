@@ -15,7 +15,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-21-41-15.png)
 
@@ -25,7 +25,7 @@
 解释：顺时针轮转 90 度一次可以使 mat 和 target 一致。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-21-41-22.png)
 
@@ -35,7 +35,7 @@
 解释：无法通过轮转矩阵中的元素使 equal 与 target 一致。
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-21-41-40.png)
 

@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：products = ["mobile","mouse","moneypot","monitor","mousepad"], searchWord = "mouse"
@@ -35,21 +35,21 @@
 输入 mou， mous 和 mouse 后系统都返回 ["mouse","mousepad"]
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：products = ["havana"], searchWord = "havana"
 输出：[["havana"],["havana"],["havana"],["havana"],["havana"],["havana"]]
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：products = ["bags","baggage","banner","box","cloths"], searchWord = "bags"
 输出：[["baggage","bags","banner"],["baggage","bags","banner"],["baggage","bags"],["bags"]]
 ```
 
-- 示例 4：
+示例 4：
 
 ```txt
 输入：products = ["havana"], searchWord = "tatiana"

@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：sentences = ["alice and bob love leetcode", "i think so too", "this is great thanks very much"]
@@ -31,7 +31,7 @@
 所以，单个句子中有最多单词数的是第三个句子，总共有 6 个单词。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：sentences = ["please wait", "continue to fight", "continue to win"]

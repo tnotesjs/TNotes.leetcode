@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-20-44.png)
 
@@ -32,7 +32,7 @@
 返回结果为移除节点后的新链表。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-20-51.png)
 
@@ -44,7 +44,7 @@
 对于 n = 4 ，值为 3 的节点 2 是中间节点，用红色标注。
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-20-57.png)
 

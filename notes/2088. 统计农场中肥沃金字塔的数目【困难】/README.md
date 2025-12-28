@@ -31,7 +31,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-16-29.png)
 
@@ -49,7 +49,7 @@
 所以金字塔区域总数为 2 + 0 = 2。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-16-54.png)
 
@@ -65,7 +65,7 @@
 所以金字塔区域总数目为 1 + 1 = 2。
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-17-13.png)
 
@@ -76,7 +76,7 @@
 网格图中没有任何金字塔或倒金字塔区域。
 ```
 
-- 示例 4：
+示例 4：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-17-24.png)
 

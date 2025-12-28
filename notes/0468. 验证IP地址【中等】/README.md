@@ -1,4 +1,4 @@
-# [0468. 验证IP地址【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0468.%20%E9%AA%8C%E8%AF%81IP%E5%9C%B0%E5%9D%80%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
+# [0468. 验证 IP 地址【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0468.%20%E9%AA%8C%E8%AF%81IP%E5%9C%B0%E5%9D%80%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
 
@@ -25,7 +25,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：queryIP = "172.16.254.1"
@@ -33,7 +33,7 @@
 解释：有效的 IPv4 地址，返回 "IPv4"
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：queryIP = "2001:0db8:85a3:0:0:8A2E:0370:7334"
@@ -41,7 +41,7 @@
 解释：有效的 IPv6 地址，返回 "IPv6"
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：queryIP = "256.256.256.256"

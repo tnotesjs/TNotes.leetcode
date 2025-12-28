@@ -19,14 +19,14 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入:s = "catsanddog", wordDict = ["cat","cats","and","sand","dog"]
 输出:["cats and dog","cat sand dog"]
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入:s = "pineapplepenapple", wordDict = ["apple","pen","applepen","pine","pineapple"]

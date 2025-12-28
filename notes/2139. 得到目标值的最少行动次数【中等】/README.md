@@ -24,7 +24,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：target = 5, maxDoubles = 0
@@ -32,7 +32,7 @@
 解释：一直递增 1 直到得到 target。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：target = 19, maxDoubles = 2
@@ -45,7 +45,7 @@
 递增 1 次，x = 19。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：target = 10, maxDoubles = 4

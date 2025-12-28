@@ -24,7 +24,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：sentence1 = "My name is Haley", sentence2 = "My Haley"
@@ -32,7 +32,7 @@
 解释：可以往 `sentence2` 中 "My" 和 "Haley" 之间插入 "name is" ，得到 `sentence1`。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：sentence1 = "of", sentence2 = "A lot of words"
@@ -40,7 +40,7 @@
 解释：没法往这两个句子中的一个句子只插入一个句子就得到另一个句子。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：sentence1 = "Eating right now", sentence2 = "Eating"

@@ -1,4 +1,4 @@
-# [0698. 划分为k个相等的子集【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0698.%20%E5%88%92%E5%88%86%E4%B8%BAk%E4%B8%AA%E7%9B%B8%E7%AD%89%E7%9A%84%E5%AD%90%E9%9B%86%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
+# [0698. 划分为 k 个相等的子集【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0698.%20%E5%88%92%E5%88%86%E4%B8%BAk%E4%B8%AA%E7%9B%B8%E7%AD%89%E7%9A%84%E5%AD%90%E9%9B%86%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
 
@@ -15,7 +15,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入： nums = [4, 3, 2, 3, 5, 2, 1], k = 4
@@ -23,7 +23,7 @@
 说明： 有可能将其分成 4 个子集（5），（1,4），（2,3），（2,3）等于总和。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入: nums = [1,2,3,4], k = 3

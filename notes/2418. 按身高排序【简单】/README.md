@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：names = ["Mary","John","Emma"], heights = [180,165,170]
@@ -27,7 +27,7 @@
 解释：Mary 最高，接着是 Emma 和 John。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：names = ["Alice","Bob","Bob"], heights = [155,185,150]

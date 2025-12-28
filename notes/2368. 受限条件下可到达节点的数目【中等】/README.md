@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-19-47-22.png)
 
@@ -32,7 +32,7 @@
 在不访问受限节点的前提下，只有节点 [0,1,2,3] 可以从节点 0 到达。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-19-47-28.png)
 

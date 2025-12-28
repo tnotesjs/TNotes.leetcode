@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：croakOfFrogs = "croakcroak"
@@ -27,7 +27,7 @@
 解释：一只青蛙 “呱呱” 两次
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：croakOfFrogs = "crcoakroak"
@@ -37,7 +37,7 @@
 第二只青蛙 "crcoakroak"
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：croakOfFrogs = "croakcrook"

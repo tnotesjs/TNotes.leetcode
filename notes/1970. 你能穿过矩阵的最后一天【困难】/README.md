@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-39-53.png)
 
@@ -32,7 +32,7 @@
 可以从最上面一行到最下面一行的最后一天是第 2 天。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-40-04.png)
 
@@ -43,7 +43,7 @@
 可以从最上面一行到最下面一行的最后一天是第 1 天。
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-40-10.png)
 

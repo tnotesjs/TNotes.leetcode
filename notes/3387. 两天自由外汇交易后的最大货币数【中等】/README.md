@@ -29,7 +29,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 输入： initialCurrency = "EUR", pairs1 = [["EUR","USD"],["USD","JPY"]], rates1 = [2.0,3.0], pairs2 = [["JPY","USD"],["USD","CHF"],["CHF","EUR"]], rates2 = [4.0,5.0,6.0]
 
@@ -49,7 +49,7 @@
 
 ---
 
-- 示例 2：
+示例 2：
 
 输入： initialCurrency = "NGN", pairs1 = [["NGN","EUR"]], rates1 = [9.0], pairs2 = [["NGN","EUR"]], rates2 = [6.0]
 
@@ -61,7 +61,7 @@
 
 ---
 
-- 示例 3：
+示例 3：
 
 输入： initialCurrency = "USD", pairs1 = [["USD","EUR"]], rates1 = [1.0], pairs2 = [["EUR","JPY"]], rates2 = [10.0]
 

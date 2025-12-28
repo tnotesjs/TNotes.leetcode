@@ -29,7 +29,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：dominoes = "RR.L"
@@ -37,7 +37,7 @@
 解释：第一张多米诺骨牌没有给第二张施加额外的力。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-16-08-21-40.png)
 

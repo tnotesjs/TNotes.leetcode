@@ -26,7 +26,7 @@ Bob 站在单元格 `(0, 0)` ，想要前往目的地 `destination` ：`(row, co
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-34-54.png)
 
@@ -37,7 +37,7 @@ Bob 站在单元格 `(0, 0)` ，想要前往目的地 `destination` ：`(row, co
 ["HHHVV", "HHVHV", "HHVVH", "HVHHV", "HVHVH", "HVVHH", "VHHHV", "VHHVH", "VHVHH", "VVHHH"].
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-35-00.png)
 
@@ -46,7 +46,7 @@ Bob 站在单元格 `(0, 0)` ，想要前往目的地 `destination` ：`(row, co
 输出："HHVHV"
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-35-18.png)
 

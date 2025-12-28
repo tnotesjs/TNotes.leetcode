@@ -23,7 +23,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-17-45-04.png)
 
@@ -33,7 +33,7 @@
 解释：有两种可能的树，第一种的非叶节点的总和为 36 ，第二种非叶节点的总和为 32。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-17-45-09.png)
 

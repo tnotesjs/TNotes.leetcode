@@ -23,7 +23,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-09-13-15-10.png)
 
@@ -35,7 +35,7 @@ root2 = [3,5,1,6,7,4,2,null,null,null,null,null,null,9,8]
 输出：true
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-09-13-15-24.png)
 

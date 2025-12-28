@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-07-12.png)
 
@@ -31,7 +31,7 @@
 解释：只有一个三元组 [1,2,3]。构成度数的边在上图中已被加粗。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-07-17.png)
 

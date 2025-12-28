@@ -19,7 +19,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-20-18-51-44.png)
 
@@ -29,7 +29,7 @@
 解释：树中蓝色的节点构成了与链表对应的子路径。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-20-18-51-51.png)
 
@@ -38,7 +38,7 @@
 输出：true
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：head = [1,4,2,6,8], root = [1,4,4,null,2,2,null,1,null,6,8,null,null,null,null,1,3]

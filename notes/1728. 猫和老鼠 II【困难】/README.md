@@ -40,7 +40,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-11-57-25.png)
 
@@ -50,7 +50,7 @@
 解释：猫无法抓到老鼠，也没法比老鼠先到达食物。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-11-57-31.png)
 
@@ -59,21 +59,21 @@
 输出：true
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：grid = ["M.C...F"], catJump = 1, mouseJump = 3
 输出：false
 ```
 
-- 示例 4：
+示例 4：
 
 ```txt
 输入：grid = ["C...#","...#F","....#","M...."], catJump = 2, mouseJump = 5
 输出：false
 ```
 
-- 示例 5：
+示例 5：
 
 ```txt
 输入：grid = [".M...","..#..","#..#.","C#.#.","...#F"], catJump = 3, mouseJump = 1

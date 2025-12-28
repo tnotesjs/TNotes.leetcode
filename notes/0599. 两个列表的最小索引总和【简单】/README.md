@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入:
@@ -32,7 +32,7 @@ list2 = ["Piatti", "The Grill at Torrey Pines", "Hungry Hunter Steakhouse", "Sho
 
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入:
@@ -42,7 +42,7 @@ list2 = ["KFC", "Shogun", "Burger King"]
 解释: 具有最小索引和的公共字符串是 “Shogun”，它有最小的索引和 = (0 + 1) = 1。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：

@@ -17,7 +17,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：word1 = ["ab", "c"], word2 = ["a", "bc"]
@@ -28,14 +28,14 @@ word2 表示的字符串为 "a" + "bc" -> "abc"
 两个字符串相同，返回 true
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：word1 = ["a", "cb"], word2 = ["ab", "c"]
 输出：false
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：word1  = ["abc", "d", "defg"], word2 = ["abcddefg"]

@@ -22,7 +22,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-15-30.png)
 
@@ -38,7 +38,7 @@
 总代价为 3 + 2 + 6 + 7 = 18
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：startPos = [0, 0], homePos = [0, 0], rowCosts = [5], colCosts = [26]

@@ -38,14 +38,14 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：expression = "e + 8 - a + 5", evalvars = ["e"], evalints = [1]
 输出：["-1*a","14"]
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：expression = "e - 8 + temperature - pressure",
@@ -53,7 +53,7 @@ evalvars = ["e", "temperature"], evalints = [1, 12]
 输出：["-1*pressure","5"]
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：expression = "(e + 8) * (e - 8)", evalvars = [], evalints = []

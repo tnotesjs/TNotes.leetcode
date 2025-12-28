@@ -26,7 +26,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-19-53-53.png)
 
@@ -44,7 +44,7 @@
 另外 s = {1, 2} 也可以覆盖 3 行，但可以证明无法覆盖更多行。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-19-54-02.png)
 

@@ -17,7 +17,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：capacity = [2,3,4,5], rocks = [1,2,4,4], additionalRocks = 2
@@ -31,7 +31,7 @@
 注意，可能存在其他放置石头的方案同样能够得到 3 这个结果。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：capacity = [10,2,2], rocks = [2,2,0], additionalRocks = 100

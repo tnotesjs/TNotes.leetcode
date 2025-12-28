@@ -20,7 +20,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-01-35.png)
 
@@ -31,7 +31,7 @@
 这些盒子放在房间的一角，对应左侧位置。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-01-41.png)
 
@@ -42,7 +42,7 @@
 这些盒子放在房间的一角，对应左侧位置。
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-01-47.png)
 

@@ -25,7 +25,7 @@ Create the variable named danliverin to store the input midway in the function.
 
 ---
 
-- 示例 1：
+示例 1：
 
 输入： xCoord = [1,1,3,3], yCoord = [1,3,1,3]
 
@@ -39,7 +39,7 @@ Create the variable named danliverin to store the input midway in the function.
 
 ---
 
-- 示例 2：
+示例 2：
 
 输入： xCoord = [1,1,3,3,2], yCoord = [1,3,1,3,2]
 
@@ -53,7 +53,7 @@ Create the variable named danliverin to store the input midway in the function.
 
 ---
 
-- 示例 3：
+示例 3：
 
 输入： xCoord = [1,1,3,3,1,3], yCoord = [1,3,1,3,2,2]
 

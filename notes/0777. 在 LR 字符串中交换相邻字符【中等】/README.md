@@ -15,7 +15,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：start = "RXXLRXRXL", result = "XRLXXRRLX"
@@ -28,7 +28,7 @@ XRLXXRRXL ->
 XRLXXRRLX
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：start = "X", result = "L"

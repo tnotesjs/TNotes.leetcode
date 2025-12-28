@@ -23,7 +23,7 @@ L0 → Ln → L1 → Ln - 1 → L2 → Ln - 2 → …
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-07-56.png)
 
@@ -32,7 +32,7 @@ L0 → Ln → L1 → Ln - 1 → L2 → Ln - 2 → …
 输出：[1,4,2,3]
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-08-09.png)
 

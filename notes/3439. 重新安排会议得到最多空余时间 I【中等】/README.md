@@ -25,7 +25,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 输入： eventTime = 5, k = 1, startTime = [1,3], endTime = [2,5]
 
@@ -39,7 +39,7 @@
 
 ---
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-11-22.png)
 
@@ -53,7 +53,7 @@
 
 ---
 
-- 示例 3：
+示例 3：
 
 输入： eventTime = 5, k = 2, startTime = [0,1,2,3,4], endTime = [1,2,3,4,5]
 

@@ -24,7 +24,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：words = ["aba","aabb","abcd","bac","aabc"]
@@ -34,7 +34,7 @@
 - i = 3 且 j = 4 ：words[3] 和 words[4] 只由字符 'a'、'b' 和 'c'。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：words = ["aabb","ab","ba"]
@@ -45,7 +45,7 @@
 - i = 1 且 j = 2 ：words[1] 和 words[2] 只由字符 'a' 和 'b' 组成。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：words = ["nba","cba","dba"]

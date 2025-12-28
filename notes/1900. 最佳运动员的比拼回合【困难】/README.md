@@ -28,7 +28,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：n = 11, firstPlayer = 2, secondPlayer = 4
@@ -45,7 +45,7 @@
 回合 4：2, 4
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：n = 5, firstPlayer = 1, secondPlayer = 5

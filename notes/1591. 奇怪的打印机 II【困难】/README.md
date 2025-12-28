@@ -22,7 +22,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-10-51.png)
 
@@ -31,7 +31,7 @@
 输出：true
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-10-56.png)
 
@@ -40,7 +40,7 @@
 输出：true
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：targetGrid = [[1,2,1],[2,1,2],[1,2,1]]
@@ -48,7 +48,7 @@
 解释：没有办法得到 targetGrid ，因为每一轮操作使用的颜色互不相同。
 ```
 
-- 示例 4：
+示例 4：
 
 ```txt
 输入：targetGrid = [[1,1,1],[3,1,3]]

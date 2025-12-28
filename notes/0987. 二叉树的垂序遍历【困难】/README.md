@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-08-19-30.png)
 
@@ -35,7 +35,7 @@
 列  2 ：只有结点 7 在此列中。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-08-19-37.png)
 
@@ -52,7 +52,7 @@
 列  2 ：只有结点 7 在此列中。
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-17-08-19-43.png)
 

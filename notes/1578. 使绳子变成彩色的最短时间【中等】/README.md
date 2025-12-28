@@ -19,7 +19,7 @@ Alice 想要把绳子装扮成 五颜六色的 ，且她不希望两个连续的
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-05-35.png)
 
@@ -31,7 +31,7 @@ Bob 可以移除下标 2 的蓝色气球。这将花费 3 秒。
 移除后，不存在两个连续的气球涂着相同的颜色。总时间 = 3。
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-05-40.png)
 
@@ -41,7 +41,7 @@ Bob 可以移除下标 2 的蓝色气球。这将花费 3 秒。
 解释：绳子已经是彩色的，Bob 不需要从绳子上移除任何气球。
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-15-05-45.png)
 

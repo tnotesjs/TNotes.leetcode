@@ -23,7 +23,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-00-08-28.png)
 
@@ -34,7 +34,7 @@
 课程 0 不是课程 1 的先修课程，但课程 1 是课程 0 的先修课程。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：numCourses = 2, prerequisites = [], queries = [[1,0],[0,1]]
@@ -42,7 +42,7 @@
 解释：没有先修课程对，所以每门课程之间是独立的。
 ```
 
-- 示例 3：
+示例 3：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-00-08-37.png)
 

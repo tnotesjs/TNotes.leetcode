@@ -21,7 +21,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：beginWord = "hit", endWord = "cog", wordList = ["hot","dot","dog","lot","log","cog"]
@@ -31,7 +31,7 @@
 "hit" -> "hot" -> "lot" -> "log" -> "cog"
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：beginWord = "hit", endWord = "cog", wordList = ["hot","dot","dog","lot","log"]

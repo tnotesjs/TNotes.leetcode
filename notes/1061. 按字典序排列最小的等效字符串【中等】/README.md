@@ -29,7 +29,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：s1 = "parker", s2 = "morris", baseStr = "parser"
@@ -40,7 +40,7 @@
 每组中的字符都是等价的，并按字典序排列。所以答案是 "makkek"。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：s1 = "hello", s2 = "world", baseStr = "hold"
@@ -51,7 +51,7 @@
 所以只有 S 中的第二个字符 'o' 变成 'd'，最后答案为 "hdld"。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：s1 = "leetcode", s2 = "programs", baseStr = "sourcecode"

@@ -25,7 +25,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：candies = 7, num_people = 4
@@ -39,7 +39,7 @@
 
 ---
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：candies = 10, num_people = 3

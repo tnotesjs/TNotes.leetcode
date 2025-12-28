@@ -33,7 +33,7 @@ return res
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：nestedList = [[1,1],2,[1,1]]
@@ -41,7 +41,7 @@ return res
 解释：通过重复调用 next 直到 hasNext 返回 false，next 返回的元素的顺序应该是: [1,1,2,1,1]。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：nestedList = [1,[4,[6]]]

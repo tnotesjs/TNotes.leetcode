@@ -30,7 +30,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：instructions = "GGLLGG"
@@ -46,7 +46,7 @@
 在此基础上，我们返回true。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：instructions = "GG"
@@ -58,7 +58,7 @@
 在此基础上，返回false。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：instructions = "GL"

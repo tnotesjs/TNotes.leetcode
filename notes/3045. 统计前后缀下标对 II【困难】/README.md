@@ -26,7 +26,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：words = ["a","aba","ababa","aa"]
@@ -39,7 +39,7 @@ i = 1 且 j = 2 ，因为 isPrefixAndSuffix("aba", "ababa") 为 true。
 因此，答案是 4。
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：words = ["pa","papa","ma","mama"]
@@ -50,7 +50,7 @@ i = 2 且 j = 3 ，因为 isPrefixAndSuffix("ma", "mama") 为 true。
 因此，答案是 2。
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：words = ["abab","ab"]

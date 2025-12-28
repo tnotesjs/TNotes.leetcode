@@ -1,4 +1,4 @@
-# [0050. Pow(x, n)【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0050.%20Pow(x%2C%20n)%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
+# [0050. Pow(x, n)【中等】](<https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0050.%20Pow(x%2C%20n)%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91>)
 
 <!-- region:toc -->
 
@@ -15,21 +15,21 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：x = 2.00000, n = 10
 输出：1024.00000
 ```
 
-- 示例 2：
+示例 2：
 
 ```txt
 输入：x = 2.10000, n = 3
 输出：9.26100
 ```
 
-- 示例 3：
+示例 3：
 
 ```txt
 输入：x = 2.00000, n = -2

@@ -41,7 +41,7 @@ product_id 是产品表的外键（reference 列）。
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：

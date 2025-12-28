@@ -17,7 +17,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-20-52-11.png)
 
@@ -27,7 +27,7 @@
 解释：有两条路径 0 -> 1 -> 3 和 0 -> 2 -> 3
 ```
 
-- 示例 2：
+示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-20-52-16.png)
 
