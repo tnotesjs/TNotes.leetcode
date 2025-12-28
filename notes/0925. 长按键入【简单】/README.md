@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 解法 1](#2--s1---解法-1)
+- [2. 🎯 s.1 - 双指针](#2--s1---双指针)
 
 <!-- endregion:toc -->
 
@@ -17,7 +17,7 @@
 
 ---
 
-- 示例 1：
+示例 1：
 
 ```txt
 输入：name = "alex", typed = "aaleex"
@@ -25,7 +25,9 @@
 解释：'alex' 中的 'a' 和 'e' 被长按。
 ```
 
-- 示例 2：
+---
+
+示例 2：
 
 ```txt
 输入：name = "saeed", typed = "ssaaedd"
@@ -40,7 +42,7 @@
 - `1 <= name.length, typed.length <= 1000`
 - `name` 和 `typed` 的字符都是小写字母
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 双指针
 
 ::: code-group
 
@@ -54,5 +56,7 @@
 解题思路：
 
 - 双指针：`i` 遍历 `name`，`j` 遍历 `typed`
-- 若 `name[i] == typed[j]`，同时前进；否则仅当 `typed[j] == typed[j-1]` 视为长按，前进 `j`
-- 出现其它不匹配立即返回 `false`；最终需 `i == name.length` 才表示 `name` 全部匹配完成
+  - 当 `name[i] === typed[j]` 时，同时前进 `i` 和 `j`
+  - 当 `typed[j] == typed[j-1]` 时，视为长按，只前进 `j`
+  - 出现其它不匹配的情况时，立即返回 `false`
+- 最终需 `i === name.length` 才表示 `name` 全部匹配完成

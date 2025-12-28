@@ -20,4 +20,12 @@ RecentCounter.prototype.ping = function (t) {
   return this.times.length - l
 }
 
-// todo
+/**
+ * Your RecentCounter object will be instantiated and called as such:
+ * var obj = new RecentCounter()
+ * var param_1 = obj.ping(t)
+ */
+
+// 2025.12.28 提交测试结果记录：
+//   执行用时分布 29ms 击败 98.06%
+//   消耗内存分布 70.02MB 击败 27.91%

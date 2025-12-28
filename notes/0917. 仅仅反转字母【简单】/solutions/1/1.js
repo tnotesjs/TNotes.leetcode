@@ -7,9 +7,11 @@ var reverseOnlyLetters = function (s) {
   let l = 0
   let r = arr.length - 1
 
+  // 判断是否为字母的辅助函数
   const isLetter = (ch) => (ch >= 'A' && ch <= 'Z') || (ch >= 'a' && ch <= 'z')
 
   while (l < r) {
+    // 跳过非字母字符
     if (!isLetter(arr[l])) {
       l++
       continue
@@ -18,6 +20,7 @@ var reverseOnlyLetters = function (s) {
       r--
       continue
     }
+    // 字母字符交换
     const t = arr[l]
     arr[l] = arr[r]
     arr[r] = t
