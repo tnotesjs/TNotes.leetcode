@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 解法 1](#2--s1---解法-1)
+- [2. 🎯 s.1 - 映射数字相加](#2--s1---映射数字相加)
 
 <!-- endregion:toc -->
 
@@ -66,7 +66,7 @@ targetWord 的数值为 "aaaa" -> "0000" -> 0
 - `1 <= firstWord.length,` `secondWord.length,` `targetWord.length <= 8`
 - `firstWord`、`secondWord` 和 `targetWord` 仅由从 `'a'` 到 `'j'` （含 `'a'` 和 `'j'` ）的小写英文字母组成。
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 映射数字相加
 
 ::: code-group
 
@@ -74,5 +74,9 @@ targetWord 的数值为 "aaaa" -> "0000" -> 0
 
 :::
 
-- 时间复杂度：$O(1)$
+- 时间复杂度：$O(N)$，按位映射并求和
 - 空间复杂度：$O(1)$
+
+解题思路：
+
+- 将字母映射为 0-9 字符拼成数字串（'a'→'0'），转换为整数后判断 `first + second == target`。
