@@ -13,3 +13,18 @@
  */
 
 var getTargetCopy = function (original, cloned, target) {}
+
+// 同步遍历原树与克隆树，找到目标节点对应位置
+var getTargetCopy = function (original, cloned, target) {
+  const stack = [[original, cloned]]
+
+  while (stack.length) {
+    const [o, c] = stack.pop()
+    if (o === target) return c
+
+    if (o.right) stack.push([o.right, c.right])
+    if (o.left) stack.push([o.left, c.left])
+  }
+
+  return null
+}

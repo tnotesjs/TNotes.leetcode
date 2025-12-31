@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 解法 1](#2--s1---解法-1)
+- [2. 🎯 s.1 - 遍历分词匹配](#2--s1---遍历分词匹配)
 
 <!-- endregion:toc -->
 
@@ -21,37 +21,25 @@
 
 示例 1：
 
-```txt
-输入：sentence = "i love eating burger", searchWord = "burg"
-输出：4
-
-解释：
-"burg" 是 "burger" 的前缀，而 "burger" 是句子中第 4 个单词。
-```
+- 输入：sentence = "i love eating burger", searchWord = "burg"
+- 输出：4
+- 解释："burg" 是 "burger" 的前缀，而 "burger" 是句子中第 4 个单词。
 
 ---
 
 示例 2：
 
-```txt
-输入：sentence = "this problem is an easy problem", searchWord = "pro"
-输出：2
-
-解释：
-"pro" 是 "problem" 的前缀，而 "problem" 是句子中第 2 个也是第 6 个单词，但是应该返回最小下标 2。
-```
+- 输入：sentence = "this problem is an easy problem", searchWord = "pro"
+- 输出：2
+- 解释："pro" 是 "problem" 的前缀，而 "problem" 是句子中第 2 个也是第 6 个单词，但是应该返回最小下标 2。
 
 ---
 
 示例 3：
 
-```txt
-输入：sentence = "i am tired", searchWord = "you"
-输出：-1
-
-解释：
-"you" 不是句子中任何单词的前缀。
-```
+- 输入：sentence = "i am tired", searchWord = "you"
+- 输出：-1
+- 解释："you" 不是句子中任何单词的前缀。
 
 ---
 
@@ -62,7 +50,7 @@
 - `sentence` 由小写英文字母和空格组成。
 - `searchWord` 由小写英文字母组成。
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 遍历分词匹配
 
 ::: code-group
 
@@ -70,5 +58,10 @@
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，拆分后遍历单词总长度
+- 空间复杂度：$O(n)$，按空格分词产生的数组（可视实现为 $O(1)$ 原地扫描）
+
+解题思路：
+
+- 按空格拆分句子获得单词数组
+- 依次检查 `startsWith(searchWord)`，命中则返回下标（1-based）；遍历完未命中返回 `-1`
