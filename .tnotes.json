@@ -34,12 +34,13 @@
       "25.09": 3,
       "25.10": 161,
       "25.11": 172,
-      "25.12": 234
+      "25.12": 234,
+      "26.01": 234
     },
     "details": "Leetcode 刷题笔记",
     "link": "https://tnotesjs.github.io/TNotes.leetcode/",
     "created_at": 1741793958000,
-    "updated_at": 1767141217779,
+    "updated_at": 1767227725701,
     "days_since_birth": 9389
   },
   "menuItems": [
