@@ -3,9 +3,6 @@
  * @param {number[]} index
  * @return {number[]}
  */
-var createTargetArray = function (nums, index) {}
-
-// 按顺序模拟插入
 var createTargetArray = function (nums, index) {
   const target = []
 

@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
+- [2. 🎯 s.1 - 贪心遍历](#2--s1---贪心遍历)
 
 <!-- endregion:toc -->
 
@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/partition-array-into-three-parts-with-equal-sum/)
 
-给你一个整数数组 `arr`，只有可以将其划分为三个和相等的 非空 部分时才返回 `true`，否则返回 `false`。
+给你一个整数数组 `arr`，只有可以将其划分为三个和相等的非空部分时才返回 `true`，否则返回 `false`。
 
 形式上，如果可以找出索引 `i + 1 < j` 且满足 `(arr[0] + arr[1] + ... + arr[i] == arr[i + 1] + arr[i + 2] + ... + arr[j - 1] == arr[j] + arr[j + 1] + ... + arr[arr.length - 1])` 就可以将数组三等分。
 
@@ -47,7 +47,9 @@
 - `3 <= arr.length <= 5 * 10^4`
 - `-10^4 <= arr[i] <= 10^4`
 
-## 2. 🎯 s.1 - 暴力解法
+## 2. 🎯 s.1 - 贪心遍历
+
+![svg](./assets/1.svg)
 
 ::: code-group
 
@@ -55,5 +57,11 @@
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，其中 $n$ 为数组长度，需遍历数组计算总和并寻找等分点
+- 空间复杂度：$O(1)$，仅使用了常数个变量
+
+解题思路：
+
+- 计算总和 `totalSum`，若不能被 3 整除则返回 `false`
+- 遍历数组累加 `currentSum`，每当达到 `targetSum = totalSum / 3` 时计数器 `count` 加 1 并重置
+- 若最终 `count >= 3` 则说明可以分为三个和相等的部分

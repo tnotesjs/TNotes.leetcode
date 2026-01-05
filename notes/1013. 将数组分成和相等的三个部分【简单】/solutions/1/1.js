@@ -22,9 +22,17 @@ var canThreePartsEqualSum = function (arr) {
     // 如果当前累计和等于目标和
     if (currentSum === targetSum) {
       if (++count === 3) return true
+      // 或者：
+      // if (++count === 2 && i !== arr.length - 1) return true
       currentSum = 0 // 重置累计和，开始寻找下一个部分
     }
   }
 
   return false
 }
+
+/* 
+提交时间：2026.01.05
+执行用时分布 0 ms 击败 100.00%
+消耗内存分布 57.88 MB 击败 100.00%
+*/
