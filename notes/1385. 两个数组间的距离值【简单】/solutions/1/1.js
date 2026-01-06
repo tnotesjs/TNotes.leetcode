@@ -4,32 +4,41 @@
  * @param {number} d
  * @return {number}
  */
-var findTheDistanceValue = function (arr1, arr2, d) {}
-
-// 排序 + 二分查找相邻元素，确认是否存在距离<=d
 var findTheDistanceValue = function (arr1, arr2, d) {
-  arr2.sort((a, b) => a - b)
-
   let count = 0
 
-  for (const x of arr1) {
-    const pos = lowerBound(arr2, x)
-    const leftOk = pos - 1 >= 0 ? Math.abs(x - arr2[pos - 1]) > d : true
-    const rightOk = pos < arr2.length ? Math.abs(x - arr2[pos]) > d : true
-    if (leftOk && rightOk) count++
+  // 遍历 arr1 中的每个元素
+  for (const num1 of arr1) {
+    let isValid = true
+
+    // 检查当前元素是否与 arr2 中所有元素的距离都大于 d
+    for (const num2 of arr2) {
+      if (Math.abs(num1 - num2) <= d) {
+        isValid = false
+        break // 找到一个不符合条件的就跳出
+      }
+    }
+
+    if (isValid) {
+      count++
+    }
   }
 
   return count
 }
 
-// 返回第一个 >= target 的下标
-function lowerBound(nums, target) {
-  let l = 0
-  let r = nums.length
-  while (l < r) {
-    const m = (l + r) >> 1
-    if (nums[m] < target) l = m + 1
-    else r = m
-  }
-  return l
-}
+// 使用 every 方法的简化版本：
+/* 
+var findTheDistanceValue = function(arr1, arr2, d) {
+    let count = 0;
+    
+    for (const num1 of arr1) {
+        // 使用 every 方法检查是否所有 arr2 元素都满足条件
+        if (arr2.every(num2 => Math.abs(num1 - num2) > d)) {
+            count++;
+        }
+    }
+    
+    return count;
+};
+*/
