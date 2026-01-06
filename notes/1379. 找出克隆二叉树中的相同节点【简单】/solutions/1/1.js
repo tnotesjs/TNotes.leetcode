@@ -11,13 +11,10 @@
  * @param {TreeNode} target
  * @return {TreeNode}
  */
-
-var getTargetCopy = function (original, cloned, target) {}
-
-// 同步遍历原树与克隆树，找到目标节点对应位置
 var getTargetCopy = function (original, cloned, target) {
   const stack = [[original, cloned]]
 
+  // 同步遍历原树与克隆树，找到目标节点对应位置
   while (stack.length) {
     const [o, c] = stack.pop()
     if (o === target) return c
