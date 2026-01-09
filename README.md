@@ -1251,7 +1251,7 @@
 - [ ] [1172. 餐盘栈【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1172.%20%E9%A4%90%E7%9B%98%E6%A0%88%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
 - [ ] [1173. 即时食物配送 I【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1173.%20%E5%8D%B3%E6%97%B6%E9%A3%9F%E7%89%A9%E9%85%8D%E9%80%81%20I%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
 - [ ] [1174. 即时食物配送 II【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1174.%20%E5%8D%B3%E6%97%B6%E9%A3%9F%E7%89%A9%E9%85%8D%E9%80%81%20II%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
-- [ ] [1175. 质数排列【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1175.%20%E8%B4%A8%E6%95%B0%E6%8E%92%E5%88%97%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
+- [x] [1175. 质数排列【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1175.%20%E8%B4%A8%E6%95%B0%E6%8E%92%E5%88%97%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
 - [ ] [1176. 健身计划评估【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1176.%20%E5%81%A5%E8%BA%AB%E8%AE%A1%E5%88%92%E8%AF%84%E4%BC%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
 - [ ] [1177. 构建回文串检测【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1177.%20%E6%9E%84%E5%BB%BA%E5%9B%9E%E6%96%87%E4%B8%B2%E6%A3%80%E6%B5%8B%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [1178. 猜字谜【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1178.%20%E7%8C%9C%E5%AD%97%E8%B0%9C%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
