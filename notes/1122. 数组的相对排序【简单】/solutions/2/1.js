@@ -1,5 +1,4 @@
 /**
- * 排序 + 自定义比较器：根据 arr2 的排名进行排序
  * @param {number[]} arr1
  * @param {number[]} arr2
  * @return {number[]}

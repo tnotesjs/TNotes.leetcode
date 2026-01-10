@@ -1,5 +1,4 @@
 /**
- * 计数法：按 arr2 顺序输出，再输出剩余升序
  * @param {number[]} arr1
  * @param {number[]} arr2
  * @return {number[]}

@@ -1,18 +1,20 @@
 /**
- * 规范化骨牌 (min, max)，统计等价对数量
  * @param {number[][]} dominoes
  * @return {number}
  */
 var numEquivDominoPairs = function (dominoes) {
-  const map = new Map()
-  for (let [a, b] of dominoes) {
-    if (a > b) [a, b] = [b, a]
-    const key = a * 10 + b // 1..9，安全编码到两位数
-    map.set(key, (map.get(key) || 0) + 1)
+  const count = new Map()
+  let result = 0
+
+  for (const [a, b] of dominoes) {
+    // 标准化多米诺骨牌表示（较小的数字在前）
+    const key = a <= b ? `${a},${b}` : `${b},${a}`
+
+    // 计算当前等价类的对数
+    const currentCount = count.get(key) || 0
+    result += currentCount // 每新增一个，能与之前的所有组成对
+    count.set(key, currentCount + 1)
   }
-  let ans = 0
-  for (let c of map.values()) {
-    ans += (c * (c - 1)) / 2
-  }
-  return ans
+
+  return result
 }
