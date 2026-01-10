@@ -48,6 +48,8 @@
 
 ## 2. 🎯 s.1 - 双指针（末尾写入）
 
+![svg](./assets/1.svg)
+
 ::: code-group
 
 <<< ./solutions/1/1.js [js]
