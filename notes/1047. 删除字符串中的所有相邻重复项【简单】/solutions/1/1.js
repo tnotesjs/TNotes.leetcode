@@ -4,12 +4,16 @@
  */
 var removeDuplicates = function (s) {
   const stack = []
-  for (const ch of s) {
-    if (stack.length && stack[stack.length - 1] === ch) {
+
+  for (const char of s) {
+    // 如果栈顶元素与当前字符相同，则弹出栈顶元素（相当于删除相邻重复项）
+    if (stack.length > 0 && stack[stack.length - 1] === char) {
       stack.pop()
     } else {
-      stack.push(ch)
+      // 否则将当前字符压入栈
+      stack.push(char)
     }
   }
+
   return stack.join('')
 }
