@@ -3,12 +3,11 @@
  * @return {boolean}
  */
 var isBoomerang = function (points) {
-  const [a, b, c] = points
-  // 三点不共线：叉积不为 0
-  return (
-    (b[1] - a[1]) * (c[0] - a[0]) !== (c[1] - a[1]) * (b[0] - a[0]) &&
-    !(a[0] === b[0] && a[1] === b[1]) &&
-    !(a[0] === c[0] && a[1] === c[1]) &&
-    !(b[0] === c[0] && b[1] === c[1])
-  )
+  const [x1, y1] = points[0]
+  const [x2, y2] = points[1]
+  const [x3, y3] = points[2]
+
+  // 检查三点是否共线
+  // 判断斜率是否相等，避免除法
+  return (y2 - y1) * (x3 - x2) !== (y3 - y2) * (x2 - x1)
 }

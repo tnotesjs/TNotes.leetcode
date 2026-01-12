@@ -6,17 +6,21 @@
  * @return {number[][]}
  */
 var allCellsDistOrder = function (rows, cols, rCenter, cCenter) {
-  const res = []
-  for (let r = 0; r < rows; r++) {
-    for (let c = 0; c < cols; c++) {
-      res.push([r, c])
+  const result = []
+
+  // 生成所有坐标
+  for (let i = 0; i < rows; i++) {
+    for (let j = 0; j < cols; j++) {
+      result.push([i, j])
     }
   }
-  res.sort(
-    (a, b) =>
-      Math.abs(a[0] - rCenter) +
-      Math.abs(a[1] - cCenter) -
-      (Math.abs(b[0] - rCenter) + Math.abs(b[1] - cCenter))
-  )
-  return res
+
+  // 按曼哈顿距离排序
+  result.sort((a, b) => {
+    const distA = Math.abs(a[0] - rCenter) + Math.abs(a[1] - cCenter)
+    const distB = Math.abs(b[0] - rCenter) + Math.abs(b[1] - cCenter)
+    return distA - distB
+  })
+
+  return result
 }
