@@ -1098,7 +1098,7 @@
 - [ ] [1022. 从根到叶的二进制数之和【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1022.%20%E4%BB%8E%E6%A0%B9%E5%88%B0%E5%8F%B6%E7%9A%84%E4%BA%8C%E8%BF%9B%E5%88%B6%E6%95%B0%E4%B9%8B%E5%92%8C%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
 - [ ] [1023. 驼峰式匹配【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1023.%20%E9%A9%BC%E5%B3%B0%E5%BC%8F%E5%8C%B9%E9%85%8D%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [1024. 视频拼接【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1024.%20%E8%A7%86%E9%A2%91%E6%8B%BC%E6%8E%A5%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
-- [ ] [1025. 除数博弈【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1025.%20%E9%99%A4%E6%95%B0%E5%8D%9A%E5%BC%88%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
+- [x] [1025. 除数博弈【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1025.%20%E9%99%A4%E6%95%B0%E5%8D%9A%E5%BC%88%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
 - [ ] [1026. 节点与其祖先之间的最大差值【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1026.%20%E8%8A%82%E7%82%B9%E4%B8%8E%E5%85%B6%E7%A5%96%E5%85%88%E4%B9%8B%E9%97%B4%E7%9A%84%E6%9C%80%E5%A4%A7%E5%B7%AE%E5%80%BC%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [1027. 最长等差数列【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1027.%20%E6%9C%80%E9%95%BF%E7%AD%89%E5%B7%AE%E6%95%B0%E5%88%97%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [1028. 从先序遍历还原二叉树【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1028.%20%E4%BB%8E%E5%85%88%E5%BA%8F%E9%81%8D%E5%8E%86%E8%BF%98%E5%8E%9F%E4%BA%8C%E5%8F%89%E6%A0%91%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
