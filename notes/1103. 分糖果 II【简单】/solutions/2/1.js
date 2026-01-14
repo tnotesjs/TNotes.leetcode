@@ -1,5 +1,4 @@
 /**
- * 数学整轮分配：利用前 K 次的等差数列求和与剩余 L 快速定位每人的总分配。
  * @param {number} candies
  * @param {number} num_people
  * @return {number[]}

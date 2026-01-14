@@ -11,3 +11,10 @@ var defangIPaddr = function (address) {
   }
   return res
 }
+
+// 也可以直接使用内置的 replace 方法直接全局替换
+/* 
+var defangIPaddr = function (address) {
+  return address.replace(/\./g, '[.]')
+}
+*/
