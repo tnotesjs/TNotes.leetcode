@@ -77,6 +77,6 @@
 - 时间复杂度：$O(N)$，单次遍历 items
 - 空间复杂度：$O(1)$
 
-解题思路：
+算法思路：
 
 - 将 ruleKey 映射为索引（type/color/name → 0/1/2），遍历 items 对应位置与 ruleValue 比较，相等则计数。

@@ -85,7 +85,7 @@ nums       index     target
 - 时间复杂度：$O(n^2)$，每次 `splice` 可能触发后移
 - 空间复杂度：$O(n)$，目标数组存放结果
 
-解题思路：
+算法思路：
 
 - 维护空数组 `target`，按给定顺序遍历 `nums` 和 `index`
 - 在下标 `index[i]` 位置执行插入 `nums[i]` 的 `splice` 操作，完成后返回 `target`
@@ -101,7 +101,7 @@ nums       index     target
 - 时间复杂度：$O(n^2)$，手动移动元素模拟插入过程，最坏情况下需移动 $n$ 个元素
 - 空间复杂度：$O(n)$，用于存储结果数组
 
-解题思路：
+算法思路：
 
 - 遍历 `nums` 和 `index` 数组
 - 每次插入前先扩展 `result` 长度，然后将 `insertIndex` 及其之后的元素整体后移一位

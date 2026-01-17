@@ -73,7 +73,7 @@ var accountBalanceAfterPurchase = function (purchaseAmount) {
 - 时间复杂度：$O(1)$
 - 空间复杂度：$O(1)$
 
-解题思路：
+算法思路：
 
 找规律，假设要付 n _ 10 元，那么在数轴上，从 n _ 10 开始往前后各推 10/2，观察这些数字之间的规律。
 

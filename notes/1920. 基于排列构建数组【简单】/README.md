@@ -60,6 +60,6 @@ ans = [nums[nums[0]], nums[nums[1]], nums[nums[2]], nums[nums[3]], nums[nums[4]]
 - 时间复杂度：$O(N)$
 - 空间复杂度：$O(N)$
 
-解题思路：
+算法思路：
 
 - 题目是下标二次映射，直接遍历一次，用 `ans[i] = nums[nums[i]]` 构建新数组即可。
