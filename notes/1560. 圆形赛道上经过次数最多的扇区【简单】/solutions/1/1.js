@@ -17,3 +17,7 @@ var mostVisited = function (n, rounds) {
 
   return res
 }
+// Accepted - 2026.01.16
+// 204/204 cases passed (0 ms)
+// Your runtime beats 100 % of javascript submissions
+// Your memory usage beats 100 % of javascript submissions (54.9 MB)
