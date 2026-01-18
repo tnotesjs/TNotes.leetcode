@@ -98,7 +98,7 @@ if (['object', 'function', 'array'].includes(typeof obj)) {
 
 - 笔记：使用 Object() 将原始类型的值转为对应的包装对象
 
-提示： `Object` 函数的参数是各种原始类型的值，转换成对象就是原始类型值对应的包装对象。
+提示：`Object` 函数的参数是各种原始类型的值，转换成对象就是原始类型值对应的包装对象。
 
 ```javascript
 var obj = Object(1)

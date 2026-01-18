@@ -27,10 +27,12 @@
 
 - 输入：`fn = (x) => x * 5, args = [2], t = 20`
 - 输出：`[{"time": 20, "returned": 10}]`
-- 解释：
-  - `const cancelTimeMs = 50;`
-  - `const cancelFn = cancellable((x) => x * 5, [2], 20);`
-  - `setTimeout(cancelFn, cancelTimeMs);`
+
+解释：
+
+- `const cancelTimeMs = 50;`
+- `const cancelFn = cancellable((x) => x * 5, [2], 20);`
+- `setTimeout(cancelFn, cancelTimeMs);`
 
 取消操作被安排在延迟了 cancelTimeMs（50 毫秒）后进行，这发生在 fn(2) 在 20 毫秒时执行之后。
 
@@ -40,10 +42,12 @@
 
 - 输入：`fn = (x) => x2, args = [2], t = 100`
 - 输出：`[]`
-- 解释：
-  - `const cancelTimeMs = 50;`
-  - `const cancelFn = cancellable((x) => x2, [2], 100);`
-  - `setTimeout(cancelFn, cancelTimeMs);`
+
+解释：
+
+- `const cancelTimeMs = 50;`
+- `const cancelFn = cancellable((x) => x2, [2], 100);`
+- `setTimeout(cancelFn, cancelTimeMs);`
 
 取消操作被安排在延迟了 cancelTimeMs（50 毫秒）后进行，这发生在 fn(2) 在 100 毫秒时执行之前，导致 fn(2) 从未被调用。
 
@@ -53,12 +57,16 @@
 
 - 输入：`fn = (x1, x2) => x1 * x2, args = [2,4], t = 30`
 - 输出：`[{"time": 30, "returned": 8}]`
-- 解释：
-  - `const cancelTimeMs = 100;`
-  - `const cancelFn = cancellable((x1, x2) => x1 * x2, [2,4], 30);`
-  - `setTimeout(cancelFn, cancelTimeMs);`
+
+解释：
+
+- `const cancelTimeMs = 100;`
+- `const cancelFn = cancellable((x1, x2) => x1 * x2, [2,4], 30);`
+- `setTimeout(cancelFn, cancelTimeMs);`
 
 取消操作被安排在延迟了 cancelTimeMs（100 毫秒）后进行，这发生在 fn(2,4) 在 30 毫秒时执行之后。
+
+---
 
 提示：
 

@@ -16,7 +16,7 @@
 从中选出 3 个士兵组成一个作战单位，规则如下：
 
 - 从队伍中选出下标分别为 `i`、`j`、`k` 的 3 名士兵，他们的评分分别为 `rating[i]`、`rating[j]`、`rating[k]`
-- 作战单位需满足： `rating[i] < rating[j] < rating[k]` 或者 `rating[i] > rating[j] > rating[k]` ，其中 `0 <= i < j < k < n`
+- 作战单位需满足：`rating[i] < rating[j] < rating[k]` 或者 `rating[i] > rating[j] > rating[k]` ，其中 `0 <= i < j < k < n`
 
 请你返回按上述条件组建的作战单位的方案数。
 

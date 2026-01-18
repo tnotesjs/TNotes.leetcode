@@ -24,9 +24,9 @@
 
 示例 1：
 
-输入： responses = [["good","ok","good","ok"],["ok","bad","good","ok","ok"],["good"],["bad"]]
+输入：responses = [["good","ok","good","ok"],["ok","bad","good","ok","ok"],["good"],["bad"]]
 
-输出： "good"
+输出："good"
 
 解释：
 
@@ -38,9 +38,9 @@
 
 示例 2：
 
-输入： responses = [["good","ok","good"],["ok","bad"],["bad","notsure"],["great","good"]]
+输入：responses = [["good","ok","good"],["ok","bad"],["bad","notsure"],["great","good"]]
 
-输出： "bad"
+输出："bad"
 
 解释：
 

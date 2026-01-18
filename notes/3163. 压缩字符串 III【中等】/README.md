@@ -23,9 +23,9 @@
 
 示例 1：
 
-输入： word = "abcde"
+输入：word = "abcde"
 
-输出： "1a1b1c1d1e"
+输出："1a1b1c1d1e"
 
 解释：
 
@@ -37,9 +37,9 @@
 
 示例 2：
 
-输入： word = "aaaaaaaaaaaaaabb"
+输入：word = "aaaaaaaaaaaaaabb"
 
-输出： "9a5a2b"
+输出："9a5a2b"
 
 解释：
 

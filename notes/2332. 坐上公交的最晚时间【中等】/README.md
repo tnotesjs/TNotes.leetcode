@@ -21,7 +21,7 @@
 
 ---
 
-注意： 数组 `buses` 和 `passengers` 不一定是有序的。
+注意：数组 `buses` 和 `passengers` 不一定是有序的。
 
 ---
 

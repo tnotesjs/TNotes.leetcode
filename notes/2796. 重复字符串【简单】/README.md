@@ -17,23 +17,31 @@
 
 请尝试在不使用内置方法 `string.repeat` 的情况下实现它。
 
+---
+
 示例 1：
 
 - 输入：`str = "hello", times = 2`
 - 输出：`"hellohello"`
 - 解释："hello" 被重复了 2 次
 
+---
+
 示例 2：
 
 - 输入：`str = "code", times = 3`
 - 输出：`codecodecode"`
-- 解释： "code" 被重复了 3 次
+- 解释："code" 被重复了 3 次
+
+---
 
 示例 3：
 
 - 输入：`str = "js", times = 1`
 - 输出：`"js"`
 - 解释："js" 被重复了 1 次
+
+---
 
 提示：
 
@@ -58,8 +66,8 @@ String.prototype.replicate = function (times) {
 }
 ```
 
-- 时间复杂度： $O(n)$
-- 空间复杂度： $O(m * n)$
+- 时间复杂度：$O(n)$
+- 空间复杂度：$O(m * n)$
 
 其中 m 是原字符串的长度，n 就是 times，也就是复制的次数。
 
@@ -86,8 +94,8 @@ String.prototype.replicate = function (times) {
 }
 ```
 
-- 时间复杂度： $O(log(n))$
-- 空间复杂度： $O(m * n)$
+- 时间复杂度：$O(log(n))$
+- 空间复杂度：$O(m * n)$
 
 其中 m 是原字符串的长度，n 就是 times，也就是复制的次数。
 

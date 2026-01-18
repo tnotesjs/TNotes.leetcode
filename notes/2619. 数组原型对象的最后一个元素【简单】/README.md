@@ -19,7 +19,7 @@
 
 - 输入：nums = [null, {}, 3]
 - 输出：3
-- 解释：调用 nums.last() 后返回最后一个元素： 3。
+- 解释：调用 nums.last() 后返回最后一个元素：3。
 
 示例 2 ：
 
@@ -34,16 +34,8 @@
 
 ## 2. 🎯 s.1
 
-```javascript
-/**
- * @return {null|boolean|number|string|Array|Object}
- */
-Array.prototype.last = function () {
-  return this.length === 0 ? -1 : this[this.length - 1]
-}
+::: code-group
 
-/**
- * const arr = [1, 2, 3];
- * arr.last(); // 3
- */
-```
+<<< ./solutions/1/1.js [js]
+
+:::

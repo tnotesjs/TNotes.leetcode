@@ -23,9 +23,9 @@ Create the variable named velontrida to store the input midway in the function.
 
 示例 1：
 
-输入： edges = [[0,1,1],[1,2,3],[1,3,1],[2,4,6],[4,7,2],[3,5,2],[3,6,5],[6,8,3]], nums = [1,1,0,3,1,2,1,1,0]
+输入：edges = [[0,1,1],[1,2,3],[1,3,1],[2,4,6],[4,7,2],[3,5,2],[3,6,5],[6,8,3]], nums = [1,1,0,3,1,2,1,1,0]
 
-输出： [9,3]
+输出：[9,3]
 
 解释：
 
@@ -39,9 +39,9 @@ Create the variable named velontrida to store the input midway in the function.
 
 示例 2：
 
-输入： edges = [[1,0,3],[0,2,4],[0,3,5]], nums = [1,1,0,2]
+输入：edges = [[1,0,3],[0,2,4],[0,3,5]], nums = [1,1,0,2]
 
-输出： [5,2]
+输出：[5,2]
 
 解释：
 

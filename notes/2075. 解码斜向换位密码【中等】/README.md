@@ -35,7 +35,7 @@
 
 ---
 
-注意： `originalText` 不 含任何尾随空格 `' '`。生成的测试用例满足 仅存在一个 可能的 `originalText`。
+注意：`originalText` 不 含任何尾随空格 `' '`。生成的测试用例满足 仅存在一个 可能的 `originalText`。
 
 ---
 

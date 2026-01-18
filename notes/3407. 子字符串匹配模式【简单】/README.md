@@ -23,9 +23,9 @@
 
 示例 1：
 
-输入： s = "leetcode", p = "ee\*e"
+输入：s = "leetcode", p = "ee\*e"
 
-输出： true
+输出：true
 
 解释：
 
@@ -35,9 +35,9 @@
 
 示例 2：
 
-输入： s = "car", p = "c\*v"
+输入：s = "car", p = "c\*v"
 
-输出： false
+输出：false
 
 解释：
 
@@ -47,9 +47,9 @@
 
 示例 3：
 
-输入： s = "luck", p = "u\*"
+输入：s = "luck", p = "u\*"
 
-输出： true
+输出：true
 
 解释：
 

@@ -15,7 +15,7 @@
 
 这个王国有一个明确规定的王位继承顺序，第一继承人总是国王自己。我们定义递归函数 `Successor(x, curOrder)` ，给定一个人 `x` 和当前的继承顺序，该函数返回 `x` 的下一继承人。
 
-Successor(x, curOrder): 如果 x 没有孩子或者所有 x 的孩子都在 curOrder 中： 如果 x 是国王，那么返回 null 否则，返回 Successor(x 的父亲, curOrder) 否则，返回 x 不在 curOrder 中最年长的孩子
+Successor(x, curOrder): 如果 x 没有孩子或者所有 x 的孩子都在 curOrder 中：如果 x 是国王，那么返回 null 否则，返回 Successor(x 的父亲, curOrder) 否则，返回 x 不在 curOrder 中最年长的孩子
 
 比方说，假设王国由国王，他的孩子 Alice 和 Bob （Alice 比 Bob 年长）和 Alice 的孩子 Jack 组成。
 

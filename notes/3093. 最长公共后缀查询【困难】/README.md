@@ -21,8 +21,8 @@
 
 示例 1：
 
-- 输入： wordsContainer = ["abcd","bcd","xbcd"], wordsQuery = ["cd","bcd","xyz"]
-- 输出： [1,1,1]
+- 输入：wordsContainer = ["abcd","bcd","xbcd"], wordsQuery = ["cd","bcd","xyz"]
+- 输出：[1,1,1]
 - 解释：
   - 我们分别来看每一个 `wordsQuery[i]` ：
   - 对于 `wordsQuery[0] = "cd"` ，`wordsContainer` 中有最长公共后缀 `"cd"` 的字符串下标分别为 0 ，1 和 2。这些字符串中，答案是下标为 1 的字符串，因为它的长度为 3 ，是最短的字符串。
@@ -33,8 +33,8 @@
 
 示例 2：
 
-- 输入： wordsContainer = ["abcdefgh","poiuygh","ghghgh"], wordsQuery = ["gh","acbfgh","acbfegh"]
-- 输出： [2,0,2]
+- 输入：wordsContainer = ["abcdefgh","poiuygh","ghghgh"], wordsQuery = ["gh","acbfgh","acbfegh"]
+- 输出：[2,0,2]
 - 解释：
   - 我们分别来看每一个 `wordsQuery[i]` ：
   - 对于 `wordsQuery[0] = "gh"` ，`wordsContainer` 中有最长公共后缀 `"gh"` 的字符串下标分别为 0 ，1 和 2。这些字符串中，答案是下标为 2 的字符串，因为它的长度为 6 ，是最短的字符串。

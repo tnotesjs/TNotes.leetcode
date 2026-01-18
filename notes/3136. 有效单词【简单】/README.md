@@ -29,9 +29,9 @@
 
 示例 1：
 
-输入： word = "234Adas"
+输入：word = "234Adas"
 
-输出： true
+输出：true
 
 解释：
 
@@ -41,9 +41,9 @@
 
 示例 2：
 
-输入： word = "b3"
+输入：word = "b3"
 
-输出： false
+输出：false
 
 解释：
 
@@ -53,9 +53,9 @@
 
 示例 3：
 
-输入： word = "a3$e"
+输入：word = "a3$e"
 
-输出： false
+输出：false
 
 解释：
 

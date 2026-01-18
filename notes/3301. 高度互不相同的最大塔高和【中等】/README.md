@@ -24,9 +24,9 @@
 
 示例 1：
 
-输入： maximumHeight = [2,3,4,3]
+输入：maximumHeight = [2,3,4,3]
 
-输出： 10
+输出：10
 
 解释：
 
@@ -36,9 +36,9 @@
 
 示例 2：
 
-输入： maximumHeight = [15,10]
+输入：maximumHeight = [15,10]
 
-输出： 25
+输出：25
 
 解释：
 
@@ -48,9 +48,9 @@
 
 示例 3：
 
-输入： maximumHeight = [2,2,1]
+输入：maximumHeight = [2,2,1]
 
-输出： -1
+输出：-1
 
 解释：
 

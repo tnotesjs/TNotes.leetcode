@@ -37,9 +37,9 @@
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-21-13-47.png)
 
-输入： parent = [-1,0,0,1,1,2], s = "aababa"
+输入：parent = [-1,0,0,1,1,2], s = "aababa"
 
-输出： [true,true,false,true,true,true]
+输出：[true,true,false,true,true,true]
 
 解释：
 
@@ -56,9 +56,9 @@
 
 ![](https://assets.leetcode.com/uploads/2024/09/01/tree2drawio-1.png)
 
-输入： parent = [-1,0,0,0,0], s = "aabcb"
+输入：parent = [-1,0,0,0,0], s = "aabcb"
 
-输出： [true,true,true,true,true]
+输出：[true,true,true,true,true]
 
 解释：
 

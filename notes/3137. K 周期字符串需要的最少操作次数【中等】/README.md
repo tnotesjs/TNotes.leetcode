@@ -23,21 +23,21 @@
 
 示例 1：
 
-输入： word = "leetcodeleet", k = 4
+输入：word = "leetcodeleet", k = 4
 
-输出： 1
+输出：1
 
-解释： 可以选择 i = 4 和 j = 0 获得一个 4 周期字符串。这次操作后，word 变为 "leetleetleet"。
+解释：可以选择 i = 4 和 j = 0 获得一个 4 周期字符串。这次操作后，word 变为 "leetleetleet"。
 
 ---
 
 示例 2：
 
-输入： word = "leetcoleet", k = 2
+输入：word = "leetcoleet", k = 2
 
-输出： 3
+输出：3
 
-解释： 可以执行以下操作获得一个 2 周期字符串。
+解释：可以执行以下操作获得一个 2 周期字符串。
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-07-58-43.png)
 

@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/find-followers-count/)
 
-表： `Followers`
+表：`Followers`
 
 ```txt
 +-------------+------+

@@ -30,23 +30,23 @@
 示例 1：
 
 ```txt
-输入： words = ["Hello","Alaska","Dad","Peace"]
-输出： ["Alaska","Dad"]
-解释： 由于不区分大小写，"a" 和 "A" 都在美式键盘的第二行。
+输入：words = ["Hello","Alaska","Dad","Peace"]
+输出：["Alaska","Dad"]
+解释：由于不区分大小写，"a" 和 "A" 都在美式键盘的第二行。
 ```
 
 示例 2：
 
 ```txt
-输入： words = ["omk"]
-输出： []
+输入：words = ["omk"]
+输出：[]
 ```
 
 示例 3：
 
 ```txt
-输入： words = ["adsdf","sfd"]
-输出： ["adsdf","sfd"]
+输入：words = ["adsdf","sfd"]
+输出：["adsdf","sfd"]
 ```
 
 ---

@@ -21,3 +21,7 @@ var satisfiesConditions = function (grid) {
 
   return true
 }
+
+// 2026.01.18 20:14
+// 执行用时分布 0 ms 击败 100.00%
+// 消耗内存分布 55.82 MB 击败 100.00%

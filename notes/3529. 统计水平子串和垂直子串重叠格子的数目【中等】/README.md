@@ -29,9 +29,9 @@
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-57-55.png)
 
-输入： grid = [["a","a","c","c"],["b","b","b","c"],["a","a","b","a"],["c","a","a","c"],["a","a","b","a"]], pattern = "abaca"
+输入：grid = [["a","a","c","c"],["b","b","b","c"],["a","a","b","a"],["c","a","a","c"],["a","a","b","a"]], pattern = "abaca"
 
-输出： 1
+输出：1
 
 解释：
 
@@ -43,9 +43,9 @@
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-58-05.png)
 
-输入： grid = [["c","a","a","a"],["a","a","b","a"],["b","b","a","a"],["a","a","b","a"]], pattern = "aba"
+输入：grid = [["c","a","a","a"],["a","a","b","a"],["b","b","a","a"],["a","a","b","a"]], pattern = "aba"
 
-输出： 4
+输出：4
 
 解释：
 
@@ -55,9 +55,9 @@
 
 示例 3：
 
-输入： grid = [["a"]], pattern = "a"
+输入：grid = [["a"]], pattern = "a"
 
-输出： 1
+输出：1
 
 ---
 

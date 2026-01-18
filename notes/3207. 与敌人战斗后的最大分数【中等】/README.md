@@ -32,9 +32,9 @@
 
 示例 1：
 
-输入： enemyEnergies = [3,2,2], currentEnergy = 2
+输入：enemyEnergies = [3,2,2], currentEnergy = 2
 
-输出： 3
+输出：3
 
 解释：
 
@@ -50,9 +50,9 @@
 
 示例 2：
 
-输入： enemyEnergies = [2], currentEnergy = 10
+输入：enemyEnergies = [2], currentEnergy = 10
 
-输出： 5
+输出：5
 
 解释：
 

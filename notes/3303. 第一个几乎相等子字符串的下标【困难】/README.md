@@ -25,9 +25,9 @@
 
 示例 1：
 
-输入： s = "abcdefg", pattern = "bcdffg"
+输入：s = "abcdefg", pattern = "bcdffg"
 
-输出： 1
+输出：1
 
 解释：
 
@@ -37,9 +37,9 @@
 
 示例 2：
 
-输入： s = "ababbababa", pattern = "bacaba"
+输入：s = "ababbababa", pattern = "bacaba"
 
-输出： 4
+输出：4
 
 解释：
 
@@ -49,17 +49,17 @@
 
 示例 3：
 
-输入： s = "abcd", pattern = "dba"
+输入：s = "abcd", pattern = "dba"
 
-输出： -1
+输出：-1
 
 ---
 
 示例 4：
 
-输入： s = "dde", pattern = "d"
+输入：s = "dde", pattern = "d"
 
-输出： 0
+输出：0
 
 ---
 

@@ -27,9 +27,9 @@
 
 示例 1：
 
-输入： mountainHeight = 4, workerTimes = [2,1,1]
+输入：mountainHeight = 4, workerTimes = [2,1,1]
 
-输出： 3
+输出：3
 
 解释：
 
@@ -45,9 +45,9 @@
 
 示例 2：
 
-输入： mountainHeight = 10, workerTimes = [3,2,2,4]
+输入：mountainHeight = 10, workerTimes = [3,2,2,4]
 
-输出： 12
+输出：12
 
 解释：
 
@@ -62,9 +62,9 @@
 
 示例 3：
 
-输入： mountainHeight = 5, workerTimes = [1]
+输入：mountainHeight = 5, workerTimes = [1]
 
-输出： 15
+输出：15
 
 解释：
 

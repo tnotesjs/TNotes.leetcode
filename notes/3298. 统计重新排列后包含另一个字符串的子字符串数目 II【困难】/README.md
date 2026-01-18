@@ -28,9 +28,9 @@
 
 示例 1：
 
-输入： word1 = "bcca", word2 = "abc"
+输入：word1 = "bcca", word2 = "abc"
 
-输出： 1
+输出：1
 
 解释：
 
@@ -40,9 +40,9 @@
 
 示例 2：
 
-输入： word1 = "abcabc", word2 = "abc"
+输入：word1 = "abcabc", word2 = "abc"
 
-输出： 10
+输出：10
 
 解释：
 
@@ -52,9 +52,9 @@
 
 示例 3：
 
-输入： word1 = "abcabc", word2 = "aaabc"
+输入：word1 = "abcabc", word2 = "aaabc"
 
-输出： 0
+输出：0
 
 解释：
 

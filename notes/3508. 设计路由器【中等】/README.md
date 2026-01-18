@@ -45,12 +45,10 @@
 
 示例 1：
 
-输入：  
-["Router", "addPacket", "addPacket", "addPacket", "addPacket", "addPacket", "forwardPacket", "addPacket", "getCount"]  
+输入： ["Router", "addPacket", "addPacket", "addPacket", "addPacket", "addPacket", "forwardPacket", "addPacket", "getCount"]  
 [[3], [1, 4, 90], [2, 5, 90], [1, 4, 90], [3, 5, 95], [4, 5, 105], [], [5, 2, 110], [5, 100, 110]]
 
-输出：  
-[null, true, true, false, true, true, [2, 5, 90], true, 1]
+输出：[null, true, true, false, true, true, [2, 5, 90], true, 1]
 
 解释：
 
@@ -68,12 +66,10 @@
 
 示例 2：
 
-输入：  
-["Router", "addPacket", "forwardPacket", "forwardPacket"]  
+输入： ["Router", "addPacket", "forwardPacket", "forwardPacket"]  
 [[2], [7, 4, 90], [], []]
 
-输出：  
-[null, true, [7, 4, 90], []]
+输出：[null, true, [7, 4, 90], []]
 
 解释：
 

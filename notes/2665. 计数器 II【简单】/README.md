@@ -24,23 +24,31 @@
 
 - 输入：`init = 5, calls = ["increment","reset","decrement"]`
 - 输出：`[6,5,4]`
-- 解释：
-  - `const counter = createCounter(5);`
-  - `counter.increment(); // 6`
-  - `counter.reset(); // 5`
-  - `counter.decrement(); // 4`
+
+解释：
+
+- `const counter = createCounter(5);`
+- `counter.increment(); // 6`
+- `counter.reset(); // 5`
+- `counter.decrement(); // 4`
+
+---
 
 示例 2：
 
 - 输入：`init = 0, calls = ["increment","increment","decrement","reset","reset"]`
 - 输出：`[1,2,1,0,0]`
-- 解释：
-  - `const counter = createCounter(0);`
-  - `counter.increment(); // 1`
-  - `counter.increment(); // 2`
-  - `counter.decrement(); // 1`
-  - `counter.reset(); // 0`
-  - `counter.reset(); // 0`
+
+解释：
+
+- `const counter = createCounter(0);`
+- `counter.increment(); // 1`
+- `counter.increment(); // 2`
+- `counter.decrement(); // 1`
+- `counter.reset(); // 0`
+- `counter.reset(); // 0`
+
+---
 
 提示：
 

@@ -24,9 +24,9 @@
 
 示例 1：
 
-输入： words = ["abc","aaaaa","bcdef"], target = "aabcdabc"
+输入：words = ["abc","aaaaa","bcdef"], target = "aabcdabc"
 
-输出： 3
+输出：3
 
 解释：
 
@@ -40,9 +40,9 @@ target 字符串可以通过连接以下有效字符串形成：
 
 示例 2：
 
-输入： words = ["abababab","ab"], target = "ababaababa"
+输入：words = ["abababab","ab"], target = "ababaababa"
 
-输出： 2
+输出：2
 
 解释：
 
@@ -55,9 +55,9 @@ target 字符串可以通过连接以下有效字符串形成：
 
 示例 3：
 
-输入： words = ["abcdef"], target = "xyz"
+输入：words = ["abcdef"], target = "xyz"
 
-输出： -1
+输出：-1
 
 ---
 

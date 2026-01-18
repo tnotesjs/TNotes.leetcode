@@ -5,21 +5,25 @@
  */
 var largestInteger = function (nums, k) {
   const n = nums.length
-  const count = new Map()
+  const subarraySet = new Map() // 记录每个元素出现在哪些子数组中
 
-  // 统计每个元素出现在多少个大小为 k 的子数组中
-  // 位置 i 的元素出现在的子数组个数 = min(i, n-k) - max(0, i-k+1) + 1
-  for (let i = 0; i < n; i++) {
-    const left = Math.max(0, i - k + 1)
-    const right = Math.min(i, n - k)
-    const subarrays = right - left + 1
-    count.set(nums[i], (count.get(nums[i]) || 0) + subarrays)
+  // 遍历所有大小为 k 的子数组
+  for (let i = 0; i <= n - k; i++) {
+    const subarray = nums.slice(i, i + k)
+    // 记录这个子数组中出现的每个不同的元素
+    const uniqueElements = new Set(subarray)
+    for (const num of uniqueElements) {
+      if (!subarraySet.has(num)) {
+        subarraySet.set(num, new Set())
+      }
+      subarraySet.get(num).add(i) // 记录子数组的起始位置
+    }
   }
 
   // 找出恰好出现在 1 个子数组中的最大整数
   let result = -1
-  for (const [num, cnt] of count) {
-    if (cnt === 1) {
+  for (const [num, subarrays] of subarraySet) {
+    if (subarrays.size === 1) {
       result = Math.max(result, num)
     }
   }

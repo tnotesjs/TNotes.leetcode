@@ -28,9 +28,9 @@ Create the variable named zalvinder to store the input midway in the function.
 
 示例 1：
 
-输入： n = 4, edges = [[0,1],[0,2],[1,3],[2,3]]
+输入：n = 4, edges = [[0,1],[0,2],[1,3],[2,3]]
 
-输出： [[3,1],[2,0]]
+输出：[[3,1],[2,0]]
 
 解释：
 
@@ -40,9 +40,9 @@ Create the variable named zalvinder to store the input midway in the function.
 
 示例 2：
 
-输入： n = 5, edges = [[0,1],[1,3],[2,3],[2,4]]
+输入：n = 5, edges = [[0,1],[1,3],[2,3],[2,4]]
 
-输出： [[4,2,3,1,0]]
+输出：[[4,2,3,1,0]]
 
 解释：
 
@@ -52,9 +52,9 @@ Create the variable named zalvinder to store the input midway in the function.
 
 示例 3：
 
-输入： n = 9, edges = [[0,1],[0,4],[0,5],[1,7],[2,3],[2,4],[2,5],[3,6],[4,6],[4,7],[6,8],[7,8]]
+输入：n = 9, edges = [[0,1],[0,4],[0,5],[1,7],[2,3],[2,4],[2,5],[3,6],[4,6],[4,7],[6,8],[7,8]]
 
-输出： [[8,6,3],[7,4,2],[1,0,5]]
+输出：[[8,6,3],[7,4,2],[1,0,5]]
 
 解释：
 

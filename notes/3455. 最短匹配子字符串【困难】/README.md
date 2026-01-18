@@ -25,9 +25,9 @@
 
 示例 1：
 
-输入： s = "abaacbaecebce", p = "ba\*c\*ce"
+输入：s = "abaacbaecebce", p = "ba\*c\*ce"
 
-输出： 8
+输出：8
 
 解释：
 
@@ -37,9 +37,9 @@
 
 示例 2：
 
-输入： s = "baccbaadbc", p = "cc\*baa\*adb"
+输入：s = "baccbaadbc", p = "cc\*baa\*adb"
 
-输出： \-1
+输出：\-1
 
 解释：
 
@@ -49,9 +49,9 @@
 
 示例 3：
 
-输入： s = "a", p = ""
+输入：s = "a", p = ""
 
-输出： 0
+输出：0
 
 解释：
 
@@ -61,9 +61,9 @@
 
 示例 4：
 
-输入： s = "madlogic", p = "\*adlogi\*"
+输入：s = "madlogic", p = "\*adlogi\*"
 
-输出： 6
+输出：6
 
 解释：
 

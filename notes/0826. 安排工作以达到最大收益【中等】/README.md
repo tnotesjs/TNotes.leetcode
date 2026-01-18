@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/most-profit-assigning-work/)
 
-你有 `n` 个工作和 `m` 个工人。给定三个数组： `difficulty`, `profit` 和 `worker` ，其中:
+你有 `n` 个工作和 `m` 个工人。给定三个数组：`difficulty`, `profit` 和 `worker` ，其中:
 
 - `difficulty[i]` 表示第 `i` 个工作的难度，`profit[i]` 表示第 `i` 个工作的收益。
 - `worker[i]` 是第 `i` 个工人的能力，即该工人只能完成难度小于等于 `worker[i]` 的工作。

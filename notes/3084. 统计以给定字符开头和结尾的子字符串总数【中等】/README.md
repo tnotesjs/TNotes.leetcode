@@ -19,7 +19,7 @@
 
 - 输入：s = "abada", c = "a"
 - 输出：6
-- 解释：以 `"a"` 开头和结尾的子字符串有： `"abada"`、`"abada"`、`"abada"`、`"abada"`、`"abada"`、`"abada"`。
+- 解释：以 `"a"` 开头和结尾的子字符串有：`"abada"`、`"abada"`、`"abada"`、`"abada"`、`"abada"`、`"abada"`。
 
 ---
 

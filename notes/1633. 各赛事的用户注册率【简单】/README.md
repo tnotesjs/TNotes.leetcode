@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/percentage-of-users-attended-a-contest/)
 
-用户表： `Users`
+用户表：`Users`
 
 ```txt
 +-------------+---------+
@@ -24,7 +24,7 @@ user_id 是该表的主键(具有唯一值的列)。
 该表中的每行包括用户 ID 和用户名。
 ```
 
-注册表： `Register`
+注册表：`Register`
 
 ```txt
 +-------------+---------+

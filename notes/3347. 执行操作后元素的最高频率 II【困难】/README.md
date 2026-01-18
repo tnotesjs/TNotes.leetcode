@@ -26,9 +26,9 @@
 
 示例 1：
 
-输入： nums = [1,4,5], k = 1, numOperations = 2
+输入：nums = [1,4,5], k = 1, numOperations = 2
 
-输出： 2
+输出：2
 
 解释：
 
@@ -41,9 +41,9 @@
 
 示例 2：
 
-输入： nums = [5,11,20,20], k = 5, numOperations = 1
+输入：nums = [5,11,20,20], k = 5, numOperations = 1
 
-输出： 2
+输出：2
 
 解释：
 

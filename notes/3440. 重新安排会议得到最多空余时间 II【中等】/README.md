@@ -23,15 +23,15 @@
 
 ---
 
-注意： 重新安排会议以后，会议之间的顺序可以发生改变。
+注意：重新安排会议以后，会议之间的顺序可以发生改变。
 
 ---
 
 示例 1：
 
-输入： eventTime = 5, startTime = [1,3], endTime = [2,5]
+输入：eventTime = 5, startTime = [1,3], endTime = [2,5]
 
-输出： 2
+输出：2
 
 解释：
 
@@ -43,9 +43,9 @@
 
 示例 2：
 
-输入： eventTime = 10, startTime = [0,7,9], endTime = [1,8,10]
+输入：eventTime = 10, startTime = [0,7,9], endTime = [1,8,10]
 
-输出： 7
+输出：7
 
 解释：
 
@@ -57,9 +57,9 @@
 
 示例 3：
 
-输入： eventTime = 10, startTime = [0,3,7,9], endTime = [1,4,8,10]
+输入：eventTime = 10, startTime = [0,3,7,9], endTime = [1,4,8,10]
 
-输出： 6
+输出：6
 
 解释：
 
@@ -71,9 +71,9 @@
 
 示例 4：
 
-输入： eventTime = 5, startTime = [0,1,2,3,4], endTime = [1,2,3,4,5]
+输入：eventTime = 5, startTime = [0,1,2,3,4], endTime = [1,2,3,4,5]
 
-输出： 0
+输出：0
 
 解释：
 

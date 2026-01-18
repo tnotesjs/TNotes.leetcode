@@ -25,9 +25,9 @@
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-07-37-27.png)
 
-输入： n = 6, edges = [[0,1,4],[0,2,1],[1,3,2],[1,4,3],[1,5,1],[2,3,1],[3,5,3],[4,5,2]]
+输入：n = 6, edges = [[0,1,4],[0,2,1],[1,3,2],[1,4,3],[1,5,1],[2,3,1],[3,5,3],[4,5,2]]
 
-输出： [true,true,true,false,true,true,true,false]
+输出：[true,true,true,false,true,true,true,false]
 
 解释：
 
@@ -43,9 +43,9 @@
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-07-37-38.png)
 
-输入： n = 4, edges = [[2,0,1],[0,1,1],[0,3,4],[3,2,2]]
+输入：n = 4, edges = [[2,0,1],[0,1,1],[0,3,4],[3,2,2]]
 
-输出： [true,false,false,true]
+输出：[true,false,false,true]
 
 解释：
 

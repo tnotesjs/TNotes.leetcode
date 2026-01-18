@@ -62,7 +62,7 @@
 
 ---
 
-注意： 本题与 [542](https://leetcode.cn/problems/01-matrix/) 题相同。
+注意：本题与 [542](https://leetcode.cn/problems/01-matrix/) 题相同。
 
 ## 2. 🎯 s.1 - 解法 1
 

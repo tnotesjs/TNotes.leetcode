@@ -21,9 +21,9 @@
 
 示例 1：
 
-输入： word = "abcdeafdef"
+输入：word = "abcdeafdef"
 
-输出： 2
+输出：2
 
 解释：
 
@@ -33,9 +33,9 @@
 
 示例 2：
 
-输入： word = "bcdaaaab"
+输入：word = "bcdaaaab"
 
-输出： 1
+输出：1
 
 解释：
 

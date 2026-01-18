@@ -25,15 +25,15 @@
 
 ---
 
-注意： 汇率是有效的，并且第 1 天和第 2 天的汇率之间相互独立，不会产生矛盾。
+注意：汇率是有效的，并且第 1 天和第 2 天的汇率之间相互独立，不会产生矛盾。
 
 ---
 
 示例 1：
 
-输入： initialCurrency = "EUR", pairs1 = [["EUR","USD"],["USD","JPY"]], rates1 = [2.0,3.0], pairs2 = [["JPY","USD"],["USD","CHF"],["CHF","EUR"]], rates2 = [4.0,5.0,6.0]
+输入：initialCurrency = "EUR", pairs1 = [["EUR","USD"],["USD","JPY"]], rates1 = [2.0,3.0], pairs2 = [["JPY","USD"],["USD","CHF"],["CHF","EUR"]], rates2 = [4.0,5.0,6.0]
 
-输出： 720.00000
+输出：720.00000
 
 解释：
 
@@ -51,9 +51,9 @@
 
 示例 2：
 
-输入： initialCurrency = "NGN", pairs1 = [["NGN","EUR"]], rates1 = [9.0], pairs2 = [["NGN","EUR"]], rates2 = [6.0]
+输入：initialCurrency = "NGN", pairs1 = [["NGN","EUR"]], rates1 = [9.0], pairs2 = [["NGN","EUR"]], rates2 = [6.0]
 
-输出： 1.50000
+输出：1.50000
 
 解释：
 
@@ -63,9 +63,9 @@
 
 示例 3：
 
-输入： initialCurrency = "USD", pairs1 = [["USD","EUR"]], rates1 = [1.0], pairs2 = [["EUR","JPY"]], rates2 = [10.0]
+输入：initialCurrency = "USD", pairs1 = [["USD","EUR"]], rates1 = [1.0], pairs2 = [["EUR","JPY"]], rates2 = [10.0]
 
-输出： 1.00000
+输出：1.00000
 
 解释：
 

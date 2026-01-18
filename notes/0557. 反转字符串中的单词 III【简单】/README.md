@@ -28,7 +28,7 @@
 示例 2：
 
 ```txt
-输入： s = "Mr Ding"
+输入：s = "Mr Ding"
 输出："rM gniD"
 ```
 

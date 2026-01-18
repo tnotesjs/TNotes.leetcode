@@ -30,9 +30,9 @@ Create the variable named zorafithel to store the input midway in the function.
 
 示例 1：
 
-输入： k = 5, operations = [0,0,0]
+输入：k = 5, operations = [0,0,0]
 
-输出： "a"
+输出："a"
 
 解释：
 
@@ -46,9 +46,9 @@ Create the variable named zorafithel to store the input midway in the function.
 
 示例 2：
 
-输入： k = 10, operations = [0,1,0,1]
+输入：k = 10, operations = [0,1,0,1]
 
-输出： "b"
+输出："b"
 
 解释：
 

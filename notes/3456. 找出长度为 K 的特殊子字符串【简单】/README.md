@@ -27,9 +27,10 @@
 
 示例 1：
 
-输入： s = "aaabaaa", k = 3
-
-输出： true
+```txt
+输入：s = "aaabaaa", k = 3
+输出：true
+```
 
 解释：
 
@@ -44,9 +45,10 @@
 
 示例 2：
 
-输入： s = "abc", k = 2
-
-输出： false
+```txt
+输入：s = "abc", k = 2
+输出：false
+```
 
 解释：
 

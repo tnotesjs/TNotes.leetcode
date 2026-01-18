@@ -21,9 +21,9 @@
 
 示例 1：
 
-输入： message = ["hello","world","leetcode"], bannedWords = ["world","hello"]
+输入：message = ["hello","world","leetcode"], bannedWords = ["world","hello"]
 
-输出： true
+输出：true
 
 解释：
 
@@ -33,9 +33,9 @@
 
 示例 2：
 
-输入： message = ["hello","programming","fun"], bannedWords = ["world","programming","leetcode"]
+输入：message = ["hello","programming","fun"], bannedWords = ["world","programming","leetcode"]
 
-输出： false
+输出：false
 
 解释：
 

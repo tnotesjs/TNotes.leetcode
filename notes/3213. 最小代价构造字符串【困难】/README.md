@@ -27,9 +27,9 @@
 
 示例 1：
 
-输入： target = "abcdef", words = ["abdef","abc","d","def","ef"], costs = [100,1,1,10,5]
+输入：target = "abcdef", words = ["abdef","abc","d","def","ef"], costs = [100,1,1,10,5]
 
-输出： 7
+输出：7
 
 解释：
 
@@ -41,9 +41,9 @@
 
 示例 2：
 
-输入： target = "aaaa", words = ["z","zz","zzz"], costs = [1,10,100]
+输入：target = "aaaa", words = ["z","zz","zzz"], costs = [1,10,100]
 
-输出： -1
+输出：-1
 
 解释：
 

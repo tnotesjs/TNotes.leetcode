@@ -31,9 +31,9 @@
 
 示例 1：
 
-输入： colors = [0,1,1,0,1], queries = [[2,1,0],[1,4]]
+输入：colors = [0,1,1,0,1], queries = [[2,1,0],[1,4]]
 
-输出： [2]
+输出：[2]
 
 解释：
 
@@ -55,9 +55,9 @@
 
 示例 2：
 
-输入： colors = [0,0,1,0,1,1], queries = [[1,3],[2,3,0],[1,5]]
+输入：colors = [0,0,1,0,1,1], queries = [[1,3],[2,3,0],[1,5]]
 
-输出： [2,0]
+输出：[2,0]
 
 解释：
 
@@ -84,8 +84,8 @@
 - `1 <= queries.length <= 5 * 10^4`
 - `queries[i][0] == 1` 或 `queries[i][0] == 2`
 - 对于所有的`i`：
-  - `queries[i][0] == 1`： `queries[i].length == 2`, `3 <= queries[i][1] <= colors.length - 1`
-  - `queries[i][0] == 2`： `queries[i].length == 3`, `0 <= queries[i][1] <= colors.length - 1`, `0 <= queries[i][2] <= 1`
+  - `queries[i][0] == 1`：`queries[i].length == 2`, `3 <= queries[i][1] <= colors.length - 1`
+  - `queries[i][0] == 2`：`queries[i].length == 3`, `0 <= queries[i][1] <= colors.length - 1`, `0 <= queries[i][2] <= 1`
 
 ## 2. 🎯 s.1 - 解法 1
 

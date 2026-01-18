@@ -26,7 +26,7 @@
 
 ---
 
-注意： 你仅能验证 `targetWords` 中的字符串是否可以由 `startWords` 中的某个字符串经执行操作获得。`startWords` 中的字符串在这一过程中 不 发生实际变更。
+注意：你仅能验证 `targetWords` 中的字符串是否可以由 `startWords` 中的某个字符串经执行操作获得。`startWords` 中的字符串在这一过程中 不 发生实际变更。
 
 ---
 

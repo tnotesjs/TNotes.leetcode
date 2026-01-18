@@ -42,7 +42,7 @@
 ```txt
 输入：a = 1, b = 6, n = 3
 输出：12
-解释： 当 x = 5 时，(a XOR x) = 4 且 (b XOR x) = 3。所以，(a XOR x) * (b XOR x) = 12。
+解释：当 x = 5 时，(a XOR x) = 4 且 (b XOR x) = 3。所以，(a XOR x) * (b XOR x) = 12。
 12 是所有满足 0 <= x < 2n 中 (a XOR x) * (b XOR x) 的最大值。
 ```
 

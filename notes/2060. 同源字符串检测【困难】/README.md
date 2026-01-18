@@ -27,7 +27,7 @@
 
 ---
 
-注意： 生成的测试用例满足 `s1` 和 `s2` 中连续数字数不超过 `3`。
+注意：生成的测试用例满足 `s1` 和 `s2` 中连续数字数不超过 `3`。
 
 ---
 
@@ -38,13 +38,13 @@
 输出：true
 解释："internationalization" 可以作为原字符串
 - "internationalization"
-  -> 分割：      ["internationalization"]
+  -> 分割：     ["internationalization"]
   -> 不替换任何元素
-  -> 连接：      "internationalization"，得到 s1
+  -> 连接：     "internationalization"，得到 s1
 - "internationalization"
-  -> 分割：      ["i", "nternationalizatio", "n"]
-  -> 替换：      ["i", "18",                 "n"]
-  -> 连接：      "i18n"，得到 s2
+  -> 分割：     ["i", "nternationalizatio", "n"]
+  -> 替换：     ["i", "18",                 "n"]
+  -> 连接：     "i18n"，得到 s2
 ```
 
 示例 2：
@@ -54,13 +54,13 @@
 输出：true
 解释："leetcode" 可以作为原字符串
 - "leetcode"
-  -> 分割：       ["l", "e", "et", "cod", "e"]
-  -> 替换：       ["l", "1", "2",  "3",   "e"]
-  -> 连接：       "l123e"，得到 s1
+  -> 分割：      ["l", "e", "et", "cod", "e"]
+  -> 替换：      ["l", "1", "2",  "3",   "e"]
+  -> 连接：      "l123e"，得到 s1
 - "leetcode"
-  -> 分割：       ["leet", "code"]
-  -> 替换：       ["4",    "4"]
-  -> 连接：       "44"，得到 s2
+  -> 分割：      ["leet", "code"]
+  -> 替换：      ["4",    "4"]
+  -> 连接：      "44"，得到 s2
 ```
 
 示例 3：
@@ -80,12 +80,12 @@
 输出：true
 解释："gaaaaaaaaaaaas" 可以作为原字符串
 - "gaaaaaaaaaaaas"
-  -> 分割：       ["g", "aaaaaaaaaaaa", "s"]
-  -> 替换：       ["1", "12",           "s"]
-  -> 连接：       "112s"，得到 s1
+  -> 分割：      ["g", "aaaaaaaaaaaa", "s"]
+  -> 替换：      ["1", "12",           "s"]
+  -> 连接：      "112s"，得到 s1
 - "gaaaaaaaaaaaas"
-  -> 分割：       ["g", "aaaaaaaa", "aaaa", "s"]
-  -> 替换：       ["g", "8",        "4",    "1"]
+  -> 分割：      ["g", "aaaaaaaa", "aaaa", "s"]
+  -> 替换：      ["g", "8",        "4",    "1"]
   -> 连接         "g841"，得到 s2
 ```
 

@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/market-analysis-i/)
 
-表： `Users`
+表：`Users`
 
 ```txt
 +----------------+---------+
@@ -25,7 +25,7 @@ user_id 是此表主键（具有唯一值的列）。
 表中描述了购物网站的用户信息，用户可以在此网站上进行商品买卖。
 ```
 
-表： `Orders`
+表：`Orders`
 
 ```txt
 +---------------+---------+

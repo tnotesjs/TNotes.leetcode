@@ -23,9 +23,9 @@
 
 示例 1：
 
-输入： energyDrinkA = [1,3,1], energyDrinkB = [3,1,1]
+输入：energyDrinkA = [1,3,1], energyDrinkB = [3,1,1]
 
-输出： 5
+输出：5
 
 解释：
 
@@ -35,9 +35,9 @@
 
 示例 2：
 
-输入： energyDrinkA = [4,1,1], energyDrinkB = [1,1,3]
+输入：energyDrinkA = [4,1,1], energyDrinkB = [1,1,3]
 
-输出： 7
+输出：7
 
 解释：
 

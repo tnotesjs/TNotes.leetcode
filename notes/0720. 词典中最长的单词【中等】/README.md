@@ -24,7 +24,7 @@
 ```txt
 输入：words = ["w","wo","wor","worl", "world"]
 输出："world"
-解释： 单词"world"可由"w", "wo", "wor", 和 "worl"逐步添加一个字母组成。
+解释：单词"world"可由"w", "wo", "wor", 和 "worl"逐步添加一个字母组成。
 ```
 
 示例 2：

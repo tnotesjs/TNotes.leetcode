@@ -32,8 +32,8 @@
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-17-45-20.png)
 
 ```txt
-输入： heights = [2,4]
-输出： 4
+输入：heights = [2,4]
+输出：4
 ```
 
 ---

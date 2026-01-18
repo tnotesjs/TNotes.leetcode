@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/patients-with-a-condition/)
 
-患者信息表： `Patients`
+患者信息表：`Patients`
 
 ```txt
 +--------------+---------+

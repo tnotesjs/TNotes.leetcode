@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/sales-analysis-iii/)
 
-表： `Product`
+表：`Product`
 
 ```txt
 +--------------+---------+

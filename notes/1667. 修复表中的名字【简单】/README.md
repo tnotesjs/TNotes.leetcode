@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/fix-names-in-a-table/)
 
-表： `Users`
+表：`Users`
 
 ```txt
 +----------------+---------+

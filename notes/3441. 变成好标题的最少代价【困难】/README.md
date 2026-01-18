@@ -33,9 +33,9 @@
 
 示例 1：
 
-输入： caption = "cdcd"
+输入：caption = "cdcd"
 
-输出： "cccc"
+输出："cccc"
 
 解释：
 
@@ -50,9 +50,9 @@
 
 示例 2：
 
-输入： caption = "aca"
+输入：caption = "aca"
 
-输出： "aaa"
+输出："aaa"
 
 解释：
 
@@ -67,9 +67,9 @@
 
 示例 3：
 
-输入： caption = "bc"
+输入：caption = "bc"
 
-输出： ""
+输出：""
 
 解释：
 

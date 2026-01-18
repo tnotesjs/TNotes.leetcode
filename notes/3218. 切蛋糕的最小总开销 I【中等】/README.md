@@ -33,9 +33,9 @@
 
 示例 1：
 
-输入： m = 3, n = 2, horizontalCut = [1,3], verticalCut = [5]
+输入：m = 3, n = 2, horizontalCut = [1,3], verticalCut = [5]
 
-输出： 13
+输出：13
 
 解释：
 
@@ -53,9 +53,9 @@
 
 示例 2：
 
-输入： m = 2, n = 2, horizontalCut = [7], verticalCut = [4]
+输入：m = 2, n = 2, horizontalCut = [7], verticalCut = [4]
 
-输出： 15
+输出：15
 
 解释：
 

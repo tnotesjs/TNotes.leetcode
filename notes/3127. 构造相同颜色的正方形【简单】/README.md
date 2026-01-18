@@ -23,9 +23,9 @@
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-07-47-58.png)
 
-输入： grid = [["B","W","B"],["B","W","W"],["B","W","B"]]
+输入：grid = [["B","W","B"],["B","W","W"],["B","W","B"]]
 
-输出： true
+输出：true
 
 解释：
 
@@ -37,9 +37,9 @@
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-07-48-15.png)
 
-输入： grid = [["B","W","B"],["W","B","W"],["B","W","B"]]
+输入：grid = [["B","W","B"],["W","B","W"],["B","W","B"]]
 
-输出： false
+输出：false
 
 解释：
 
@@ -51,9 +51,9 @@
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-07-48-33.png)
 
-输入： grid = [["B","W","B"],["B","W","W"],["B","W","W"]]
+输入：grid = [["B","W","B"],["B","W","W"],["B","W","W"]]
 
-输出： true
+输出：true
 
 解释：
 

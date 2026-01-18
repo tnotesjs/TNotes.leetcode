@@ -34,9 +34,9 @@
 
 示例 1：
 
-输入： numberOfUsers = 2, events = [["MESSAGE","10","id1 id0"],["OFFLINE","11","0"],["MESSAGE","71","HERE"]]
+输入：numberOfUsers = 2, events = [["MESSAGE","10","id1 id0"],["OFFLINE","11","0"],["MESSAGE","71","HERE"]]
 
-输出： [2,2]
+输出：[2,2]
 
 解释：
 
@@ -52,9 +52,9 @@
 
 示例 2：
 
-输入： numberOfUsers = 2, events = [["MESSAGE","10","id1 id0"],["OFFLINE","11","0"],["MESSAGE","12","ALL"]]
+输入：numberOfUsers = 2, events = [["MESSAGE","10","id1 id0"],["OFFLINE","11","0"],["MESSAGE","12","ALL"]]
 
-输出： [2,2]
+输出：[2,2]
 
 解释：
 
@@ -70,9 +70,9 @@
 
 示例 3：
 
-输入： numberOfUsers = 2, events = [["OFFLINE","10","0"],["MESSAGE","12","HERE"]]
+输入：numberOfUsers = 2, events = [["OFFLINE","10","0"],["MESSAGE","12","HERE"]]
 
-输出： [0,1]
+输出：[0,1]
 
 解释：
 

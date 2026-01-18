@@ -32,9 +32,9 @@
 
 示例 1：
 
-输入： word1 = "vbcca", word2 = "abc"
+输入：word1 = "vbcca", word2 = "abc"
 
-输出： [0,1,2]
+输出：[0,1,2]
 
 解释：
 
@@ -48,9 +48,9 @@
 
 示例 2：
 
-输入： word1 = "bacdc", word2 = "abc"
+输入：word1 = "bacdc", word2 = "abc"
 
-输出： [1,2,4]
+输出：[1,2,4]
 
 解释：
 
@@ -64,9 +64,9 @@
 
 示例 3：
 
-输入： word1 = "aaaaaa", word2 = "aaabc"
+输入：word1 = "aaaaaa", word2 = "aaabc"
 
-输出： []
+输出：[]
 
 解释：
 
@@ -76,9 +76,9 @@
 
 示例 4：
 
-输入： word1 = "abc", word2 = "ab"
+输入：word1 = "abc", word2 = "ab"
 
-输出： [0,1]
+输出：[0,1]
 
 ---
 

@@ -22,7 +22,7 @@
 
 ---
 
-注意： 每种语言可能有不同的构造函数和迭代器 `Iterator`，但均支持 `int next()` 和 `boolean hasNext()` 函数。
+注意：每种语言可能有不同的构造函数和迭代器 `Iterator`，但均支持 `int next()` 和 `boolean hasNext()` 函数。
 
 ---
 
@@ -53,7 +53,7 @@ peekingIterator.hasNext(); // 返回 False
 - 对 `next` 和 `peek` 的调用均有效
 - `next`、`hasNext` 和 `peek` 最多调用 `1000` 次
 
-进阶： 你将如何拓展你的设计？使之变得通用化，从而适应所有的类型，而不只是整数型？
+进阶：你将如何拓展你的设计？使之变得通用化，从而适应所有的类型，而不只是整数型？
 
 ## 2. 🎯 s.1 - 暴力解法
 

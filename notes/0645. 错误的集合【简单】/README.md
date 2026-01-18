@@ -104,9 +104,9 @@
   - 和的差值：$\text{diff} = \text{expectedSum} - \text{sum} = missing - duplicate$
   - 平方和的差值：$\text{squareDiff} = \text{expectedSquareSum} - \text{squareSum} = missing^2 - duplicate^2$
 - 关键等式推导
-  - 利用平方差公式： $missing^2 - duplicate^2 = (missing - duplicate)(missing + duplicate)$
-  - 将已知条件代入： $\text{squareDiff} = \text{diff} \times (missing + duplicate)$
-  - 因此可得： $missing + duplicate = \dfrac{\text{squareDiff}}{\text{diff}}$
+  - 利用平方差公式：$missing^2 - duplicate^2 = (missing - duplicate)(missing + duplicate)$
+  - 将已知条件代入：$\text{squareDiff} = \text{diff} \times (missing + duplicate)$
+  - 因此可得：$missing + duplicate = \dfrac{\text{squareDiff}}{\text{diff}}$
   - 记作：$\text{sumDiff} = \dfrac{\text{squareDiff}}{\text{diff}}$
 - 现在我们有两个方程：
 

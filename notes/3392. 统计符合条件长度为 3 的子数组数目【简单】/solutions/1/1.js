@@ -17,3 +17,7 @@ var countSubarrays = function (nums) {
 
   return count
 }
+
+// 2026.01.18 20:03
+// 执行用时分布 1ms 击败 100.00%
+// 消耗内存分布 56.10MB 击败 100.00%
