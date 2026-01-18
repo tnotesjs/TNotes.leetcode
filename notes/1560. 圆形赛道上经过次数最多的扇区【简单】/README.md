@@ -62,7 +62,7 @@
 - `1 <= m <= 100`
 - `rounds.length == m + 1`
 - `1 <= rounds[i] <= n`
-- `rounds[i] != rounds[i + 1]` ，其中 `0 <= i < m`
+- `rounds[i] != rounds[i + 1]`，其中 `0 <= i < m`
 
 ## 2. 🎯 s.1 - 终圈区间输出
 
