@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 解法 1](#2--s1---解法-1)
+- [2. 🎯 s.1 - 哈希表映射](#2--s1---哈希表映射)
 
 <!-- endregion:toc -->
 
@@ -29,20 +29,32 @@
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-13-30-46.png)
 
 ```txt
-输入：key = "the quick brown fox jumps over the lazy dog", message = "vkbs bs t suepuv"
+输入：
+key = "the quick brown fox jumps over the lazy dog",
+message = "vkbs bs t suepuv"
+
 输出："this is a secret"
-解释：对照表如上图所示。
+
+解释：
+对照表如上图所示。
 提取 "the quick brown fox jumps over the lazy dog" 中每个字母的首次出现可以得到替换表。
 ```
+
+---
 
 示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-13-30-52.png)
 
 ```txt
-输入：key = "eljuxhpwnyrdgtqkviszcfmabo", message = "zwx hnfx lqantp mnoeius ycgk vcnjrdb"
+输入：
+key = "eljuxhpwnyrdgtqkviszcfmabo",
+message = "zwx hnfx lqantp mnoeius ycgk vcnjrdb"
+
 输出："the five boxing wizards jump quickly"
-解释：对照表如上图所示。
+
+解释：
+对照表如上图所示。
 提取 "eljuxhpwnyrdgtqkviszcfmabo" 中每个字母的首次出现可以得到替换表。
 ```
 
@@ -56,7 +68,7 @@
 - `1 <= message.length <= 2000`
 - `message` 由小写英文字母和 `' '` 组成
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 哈希表映射
 
 ::: code-group
 
@@ -64,5 +76,12 @@
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(N + M)$，其中 N 是 key 的长度，M 是 message 的长度
+- 空间复杂度：$O(1)$，哈希表最多存储 26 个字母的映射关系
+
+算法思路：
+
+- 遍历 key 字符串，提取每个字母第一次出现的顺序，构建映射表
+- 将 key 中首次出现的字母按顺序映射到 a-z
+- 遍历 message，使用映射表将每个字母替换为对应的解密字母
+- 空格保持不变
