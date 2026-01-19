@@ -5,13 +5,14 @@
 var countTriples = function (n) {
   let ans = 0
 
-  for (let c = 5; c <= n; c += 1) {
-    const c2 = c * c
-    for (let b = 4; b < c; b += 1) {
-      const diff = c2 - b * b
-      if (diff <= 0) continue
-      const a = Math.trunc(Math.sqrt(diff))
-      if (a * a === diff && a <= n) ans += 1
+  for (let a = 1; a <= n; a += 1) {
+    for (let b = 1; b <= n; b += 1) {
+      const c2 = a * a + b * b
+      const c = Math.trunc(Math.sqrt(c2))
+      // 检查 c 是否为整数且在范围内
+      if (c * c === c2 && c <= n) {
+        ans += 1
+      }
     }
   }
 

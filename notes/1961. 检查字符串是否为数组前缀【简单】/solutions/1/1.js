@@ -8,8 +8,13 @@ var isPrefixString = function (s, words) {
 
   for (const w of words) {
     built += w
-    if (built.length >= s.length) {
-      return built.slice(0, s.length) === s
+    // 如果拼接后恰好等于 s，返回 true
+    if (built === s) {
+      return true
+    }
+    // 如果拼接后已经超过 s 的长度，说明无法匹配
+    if (built.length > s.length) {
+      return false
     }
   }
 

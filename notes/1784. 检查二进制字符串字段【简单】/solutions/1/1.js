@@ -3,12 +3,6 @@
  * @return {boolean}
  */
 var checkOnesSegment = function (s) {
-  let cuts = 0
-  for (let i = 1; i < s.length; i += 1) {
-    if (s[i - 1] === '1' && s[i] === '0') {
-      cuts += 1
-      if (cuts > 1) return false
-    }
-  }
-  return true
+  // 如果包含 '01' 子串，说明 '0' 后面还有 '1'，即存在多个 '1' 字段
+  return !s.includes('01')
 }

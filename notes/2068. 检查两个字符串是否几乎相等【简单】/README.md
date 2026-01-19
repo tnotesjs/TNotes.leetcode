@@ -24,16 +24,22 @@
 ```txt
 输入：word1 = "aaaa", word2 = "bccb"
 输出：false
-解释：字符串 "aaaa" 中有 4 个 'a'，但是 "bccb" 中有 0 个 'a'。
+
+解释：
+字符串 "aaaa" 中有 4 个 'a'，但是 "bccb" 中有 0 个 'a'。
 两者之差为 4，大于上限 3。
 ```
+
+---
 
 示例 2：
 
 ```txt
 输入：word1 = "abcdeef", word2 = "abaaacc"
 输出：true
-解释：word1 和 word2 中每个字母出现频率之差至多为 3 ：
+
+解释：
+word1 和 word2 中每个字母出现频率之差至多为 3 ：
 - 'a' 在 word1 中出现了 1 次，在 word2 中出现了 4 次，差为 3。
 - 'b' 在 word1 中出现了 1 次，在 word2 中出现了 1 次，差为 0。
 - 'c' 在 word1 中出现了 1 次，在 word2 中出现了 2 次，差为 1。
@@ -42,12 +48,16 @@
 - 'f' 在 word1 中出现了 1 次，在 word2 中出现了 0 次，差为 1。
 ```
 
+---
+
 示例 3：
 
 ```txt
 输入：word1 = "cccddabba", word2 = "babababab"
 输出：true
-解释：word1 和 word2 中每个字母出现频率之差至多为 3 ：
+
+解释：
+word1 和 word2 中每个字母出现频率之差至多为 3 ：
 - 'a' 在 word1 中出现了 2 次，在 word2 中出现了 4 次，差为 2。
 - 'b' 在 word1 中出现了 2 次，在 word2 中出现了 5 次，差为 3。
 - 'c' 在 word1 中出现了 3 次，在 word2 中出现了 0 次，差为 3。

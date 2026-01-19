@@ -11,11 +11,11 @@
 
 - [leetcode](https://leetcode.cn/problems/check-if-string-is-a-prefix-of-array/)
 
-给你一个字符串 `s` 和一个字符串数组 `words`，请你判断 `s` 是否为 `words` 的 前缀字符串。
+给你一个字符串 `s` 和一个字符串数组 `words`，请你判断 `s` 是否为 `words` 的前缀字符串。
 
-字符串 `s` 要成为 `words` 的 前缀字符串，需要满足：`s` 可以由 `words` 中的前 `k`（`k` 为 正数 ）个字符串按顺序相连得到，且 `k` 不超过 `words.length`。
+字符串 `s` 要成为 `words` 的前缀字符串，需要满足：`s` 可以由 `words` 中的前 `k`（`k` 为正数 ）个字符串按顺序相连得到，且 `k` 不超过 `words.length`。
 
-如果 `s` 是 `words` 的 前缀字符串，返回 `true` ；否则，返回 `false`。
+如果 `s` 是 `words` 的前缀字符串，返回 `true`；否则，返回 `false`。
 
 ---
 
@@ -24,15 +24,19 @@
 ```txt
 输入：s = "iloveleetcode", words = ["i","love","leetcode","apples"]
 输出：true
+
 解释：
 s 可以由 "i"、"love" 和 "leetcode" 相连得到。
 ```
+
+---
 
 示例 2：
 
 ```txt
 输入：s = "iloveleetcode", words = ["apples","i","love","leetcode"]
 输出：false
+
 解释：
 数组的前缀相连无法得到 s。
 ```
@@ -54,9 +58,16 @@ s 可以由 "i"、"love" 和 "leetcode" 相连得到。
 
 :::
 
-- 时间复杂度：$O(M)$
-- 空间复杂度：$O(M)$
+- 时间复杂度：$O(M)$，其中 M 是 s 的长度，最多拼接到长度等于或超过 s 就停止
+- 空间复杂度：$O(M)$，需要存储拼接后的字符串
 
 算法思路：
 
-- 按顺序拼接 words，长度不少于 s 后即可停止，比较前缀是否等于 s。
+题目要求判断 s 是否能由 words 的前 k 个字符串完整拼接得到。
+
+- 依次遍历 words 数组，逐个拼接字符串到 built 中
+- 每次拼接后检查：
+  - 如果 built 恰好等于 s，说明找到了完整匹配，返回 true
+  - 如果 built 的长度已经超过 s，说明无法通过完整拼接得到 s，返回 false
+- 遍历结束后仍未匹配成功，返回 false
+- 注意：必须是完整字符串拼接，例如 s="a"、words=["aa"] 应返回 false，因为无法截取部分字符串

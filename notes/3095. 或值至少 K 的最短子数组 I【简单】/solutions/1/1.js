@@ -19,3 +19,7 @@ var minimumSubarrayLength = function (nums, k) {
   }
   return minLen === Infinity ? -1 : minLen
 }
+
+// 2026.01.19 20:20
+// 执行用时分布 0ms 击败 100.00%
+// 消耗内存分布 55.45MB 击败 100.00%
