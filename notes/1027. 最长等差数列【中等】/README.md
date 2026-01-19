@@ -13,7 +13,7 @@
 
 给你一个整数数组 `nums`，返回 `nums` 中最长等差子序列的长度。
 
-回想一下，`nums` 的子序列是一个列表 `nums[i1], nums[i2], ..., nums[ik]` ，且 `0 <= i1 < i2 < ... < ik <= nums.length - 1`。并且如果 `seq[i+1] - seq[i]`( `0 <= i < seq.length - 1`) 的值都相同，那么序列 `seq` 是等差的。
+回想一下，`nums` 的子序列是一个列表 `nums[i1], nums[i2], ..., nums[ik]`，且 `0 <= i1 < i2 < ... < ik <= nums.length - 1`。并且如果 `seq[i+1] - seq[i]`( `0 <= i < seq.length - 1`) 的值都相同，那么序列 `seq` 是等差的。
 
 ---
 

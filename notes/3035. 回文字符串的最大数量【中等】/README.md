@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/maximum-palindromes-after-operations/)
 
-给你一个下标从 0 开始的字符串数组 `words` ，数组的长度为 `n` ，且包含下标从 0 开始的若干字符串。
+给你一个下标从 0 开始的字符串数组 `words`，数组的长度为 `n`，且包含下标从 0 开始的若干字符串。
 
 你可以执行以下操作 任意 次数（包括零次）：
 

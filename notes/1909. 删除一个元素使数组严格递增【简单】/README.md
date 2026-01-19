@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/remove-one-element-to-make-the-array-strictly-increasing/)
 
-给你一个下标从 0 开始的整数数组 `nums` ，如果 恰好 删除 一个 元素后，数组 严格递增 ，那么请你返回 `true` ，否则返回 `false`。如果数组本身已经是严格递增的，请你也返回 `true`。
+给你一个下标从 0 开始的整数数组 `nums`，如果 恰好 删除 一个 元素后，数组 严格递增，那么请你返回 `true`，否则返回 `false`。如果数组本身已经是严格递增的，请你也返回 `true`。
 
 数组 `nums` 是 严格递增 的定义为：对于任意下标的 `1 <= i < nums.length` 都满足 `nums[i - 1] < nums[i]`。
 
@@ -22,7 +22,7 @@
 ```txt
 输入：nums = [1,2,10,5,7]
 输出：true
-解释：从 nums 中删除下标 2 处的 10 ，得到 [1,2,5,7]。
+解释：从 nums 中删除下标 2 处的 10，得到 [1,2,5,7]。
 [1,2,5,7] 是严格递增的，所以返回 true。
 ```
 

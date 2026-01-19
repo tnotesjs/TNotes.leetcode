@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/random-pick-index/)
 
-给你一个可能含有 重复元素 的整数数组 `nums` ，请你随机输出给定的目标数字 `target` 的索引。你可以假设给定的数字一定存在于数组中。
+给你一个可能含有 重复元素 的整数数组 `nums`，请你随机输出给定的目标数字 `target` 的索引。你可以假设给定的数字一定存在于数组中。
 
 实现 `Solution` 类：
 

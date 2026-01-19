@@ -17,7 +17,7 @@
 - 对于 `1 <= i <= k` 时，每个 `si` 都在 `wordList` 中。注意， `beginWord` 不需要在 `wordList` 中。
 - `sk == endWord`
 
-给你两个单词 `beginWord` 和 `endWord` 和一个字典 `wordList` ，返回 \*从 `beginWord` 到 `endWord` 的 最短转换序列 中的 单词数目\*。如果不存在这样的转换序列，返回 `0`。
+给你两个单词 `beginWord` 和 `endWord` 和一个字典 `wordList`，返回 \*从 `beginWord` 到 `endWord` 的 最短转换序列 中的 单词数目\*。如果不存在这样的转换序列，返回 `0`。
 
 ---
 

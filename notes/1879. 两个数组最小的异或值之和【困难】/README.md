@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/minimum-xor-sum-of-two-arrays/)
 
-给你两个整数数组 `nums1` 和 `nums2` ，它们长度都为 `n`。
+给你两个整数数组 `nums1` 和 `nums2`，它们长度都为 `n`。
 
 两个数组的 异或值之和 为 `(nums1[0] XOR nums2[0]) + (nums1[1] XOR nums2[1]) + ... + (nums1[n - 1] XOR nums2[n - 1])` （下标从 0 开始）。
 

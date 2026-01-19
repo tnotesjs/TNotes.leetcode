@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/longest-subsequence-repeated-k-times/)
 
-给你一个长度为 `n` 的字符串 `s` ，和一个整数 `k`。请你找出字符串 `s` 中 重复 `k` 次的 最长子序列。
+给你一个长度为 `n` 的字符串 `s`，和一个整数 `k`。请你找出字符串 `s` 中 重复 `k` 次的 最长子序列。
 
 子序列 是由其他字符串删除某些（或不删除）字符派生而来的一个字符串。
 

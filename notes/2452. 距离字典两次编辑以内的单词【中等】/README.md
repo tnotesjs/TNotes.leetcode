@@ -25,8 +25,8 @@
 输入：queries = ["word","note","ants","wood"], dictionary = ["wood","joke","moat"]
 输出：["word","note","wood"]
 解释：
-- 将 "word" 中的 'r' 换成 'o' ，得到 dictionary 中的单词 "wood"。
-- 将 "note" 中的 'n' 换成 'j' 且将 't' 换成 'k' ，得到 "joke"。
+- 将 "word" 中的 'r' 换成 'o'，得到 dictionary 中的单词 "wood"。
+- 将 "note" 中的 'n' 换成 'j' 且将 't' 换成 'k'，得到 "joke"。
 - "ants" 需要超过 2 次编辑才能得到 dictionary 中的单词。
 - "wood" 不需要修改（0 次编辑），就得到 dictionary 中相同的单词。
 所以我们返回 ["word","note","wood"]。

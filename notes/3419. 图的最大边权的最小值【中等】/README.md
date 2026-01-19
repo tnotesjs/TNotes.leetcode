@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/minimize-the-maximum-edge-weight-of-graph/)
 
-给你两个整数 `n` 和 `threshold` ，同时给你一个 `n` 个节点的 有向 带权图，节点编号为 `0` 到 `n - 1`。这个图用 二维 整数数组 `edges` 表示，其中 `edges[i] = [Ai, Bi, Wi]` 表示节点 `Ai` 到节点 `Bi` 之间有一条边权为 `Wi`的有向边。
+给你两个整数 `n` 和 `threshold`，同时给你一个 `n` 个节点的 有向 带权图，节点编号为 `0` 到 `n - 1`。这个图用 二维 整数数组 `edges` 表示，其中 `edges[i] = [Ai, Bi, Wi]` 表示节点 `Ai` 到节点 `Bi` 之间有一条边权为 `Wi`的有向边。
 
 你需要从这个图中删除一些边（也可能 不 删除任何边），使得这个图满足以下条件：
 

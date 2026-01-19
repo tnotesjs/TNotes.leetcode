@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/number-of-subarrays-with-and-value-of-k/)
 
-给你一个整数数组 `nums` 和一个整数 `k` ，请你返回 `nums` 中有多少个子数组满足：子数组中所有元素按位 `AND` 的结果为 `k`。
+给你一个整数数组 `nums` 和一个整数 `k`，请你返回 `nums` 中有多少个子数组满足：子数组中所有元素按位 `AND` 的结果为 `k`。
 
 > 子数组 是数组中连续的 非空 元素序列。
 

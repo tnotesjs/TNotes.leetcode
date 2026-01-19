@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/find-the-divisibility-array-of-a-string/)
 
-给你一个下标从 0 开始的字符串 `word` ，长度为 `n` ，由从 `0` 到 `9` 的数字组成。另给你一个正整数 `m`。
+给你一个下标从 0 开始的字符串 `word`，长度为 `n`，由从 `0` 到 `9` 的数字组成。另给你一个正整数 `m`。
 
 `word` 的 可整除数组 `div` 是一个长度为 `n` 的整数数组，并满足：
 

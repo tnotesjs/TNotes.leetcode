@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/minimum-white-tiles-after-covering-with-carpets/)
 
-给你一个下标从 0 开始的 二进制 字符串 `floor` ，它表示地板上砖块的颜色。
+给你一个下标从 0 开始的 二进制 字符串 `floor`，它表示地板上砖块的颜色。
 
 - `floor[i] = '0'` 表示地板上第 `i` 块砖块的颜色是 黑色。
 - `floor[i] = '1'` 表示地板上第 `i` 块砖块的颜色是 白色。
@@ -51,7 +51,7 @@
 提示：
 
 - `1 <= carpetLen <= floor.length <= 1000`
-- `floor[i]` 要么是 `'0'` ，要么是 `'1'`。
+- `floor[i]` 要么是 `'0'`，要么是 `'1'`。
 - `1 <= numCarpets <= 1000`
 
 ## 2. 🎯 s.1 - 解法 1

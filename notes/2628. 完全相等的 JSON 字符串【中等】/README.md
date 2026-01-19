@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/json-deep-equal)
 
-给定两个对象 `o1` 和 `o2` ，请你检查它们是否 完全相等。
+给定两个对象 `o1` 和 `o2`，请你检查它们是否 完全相等。
 
 对于两个 完全相等 的对象，必须满足以下条件：
 

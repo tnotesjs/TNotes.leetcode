@@ -11,10 +11,10 @@
 
 - [leetcode](https://leetcode.cn/problems/range-sum-query-mutable/)
 
-给你一个数组 `nums` ，请你完成两类查询。
+给你一个数组 `nums`，请你完成两类查询。
 
 1. 其中一类查询要求 更新 数组 `nums` 下标对应的值
-2. 另一类查询要求返回数组 `nums` 中索引 `left` 和索引 `right` 之间（ 包含 ）的 nums 元素的 和 ，其中 `left <= right`
+2. 另一类查询要求返回数组 `nums` 中索引 `left` 和索引 `right` 之间（ 包含 ）的 nums 元素的 和，其中 `left <= right`
 
 实现 `NumArray` 类：
 

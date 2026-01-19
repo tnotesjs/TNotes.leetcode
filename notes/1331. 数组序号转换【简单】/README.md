@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/rank-transform-of-an-array/)
 
-给你一个整数数组 `arr` ，请你将数组中的每个元素替换为它们排序后的序号。
+给你一个整数数组 `arr`，请你将数组中的每个元素替换为它们排序后的序号。
 
 序号代表了一个元素有多大。序号编号的规则如下：
 

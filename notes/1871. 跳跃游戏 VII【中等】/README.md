@@ -16,7 +16,7 @@
 - `i + minJump <= j <= min(i + maxJump, s.length - 1)` 且
 - `s[j] == '0'`.
 
-如果你可以到达 `s` 的下标 `s.length - 1` 处，请你返回 `true` ，否则返回 `false`。
+如果你可以到达 `s` 的下标 `s.length - 1` 处，请你返回 `true`，否则返回 `false`。
 
 ---
 
@@ -42,7 +42,7 @@
 提示：
 
 - `2 <= s.length <= 10^5`
-- `s[i]` 要么是 `'0'` ，要么是 `'1'`
+- `s[i]` 要么是 `'0'`，要么是 `'1'`
 - `s[0] == '0'`
 - `1 <= minJump <= maxJump < s.length`
 

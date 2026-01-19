@@ -13,7 +13,7 @@
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-14-58-08.png)
 
-给你一个与 `nums` 大小相同且初始值全为 0 的数组 `arr` ，请你调用以上函数得到整数数组 `nums`。
+给你一个与 `nums` 大小相同且初始值全为 0 的数组 `arr`，请你调用以上函数得到整数数组 `nums`。
 
 请你返回将 `arr` 变成 `nums` 的最少函数调用次数。
 

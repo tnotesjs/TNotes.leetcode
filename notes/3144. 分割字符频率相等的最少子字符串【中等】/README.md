@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/minimum-substring-partition-of-equal-character-frequency/)
 
-给你一个字符串 `s` ，你需要将它分割成一个或者更多的 平衡 子字符串。比方说，`s == "ababcc"` 那么 `("abab", "c", "c")` ，`("ab", "abc", "c")` 和 `("ababcc")` 都是合法分割，但是 `("a", "bab", "cc")` ，`("aba", "bc", "c")` 和 `("ab", "abcc")` 不是，不平衡的子字符串用粗体表示。
+给你一个字符串 `s`，你需要将它分割成一个或者更多的 平衡 子字符串。比方说，`s == "ababcc"` 那么 `("abab", "c", "c")`，`("ab", "abc", "c")` 和 `("ababcc")` 都是合法分割，但是 `("a", "bab", "cc")`，`("aba", "bc", "c")` 和 `("ab", "abcc")` 不是，不平衡的子字符串用粗体表示。
 
 请你返回 `s` 最少 能分割成多少个平衡子字符串。
 

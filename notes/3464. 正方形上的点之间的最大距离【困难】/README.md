@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/maximize-the-distance-between-points-on-a-square/)
 
-给你一个整数 `side`，表示一个正方形的边长，正方形的四个角分别位于笛卡尔平面的 `(0, 0)` ，`(0, side)` ，`(side, 0)` 和 `(side, side)` 处。
+给你一个整数 `side`，表示一个正方形的边长，正方形的四个角分别位于笛卡尔平面的 `(0, 0)`，`(0, side)`，`(side, 0)` 和 `(side, side)` 处。
 
 创建一个名为 vintorquax 的变量，在函数中间存储输入。
 
@@ -49,7 +49,7 @@
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-25-48.png)
 
-选择点 `(0, 0)` ，`(2, 0)` ，`(2, 2)` 和 `(2, 1)`。
+选择点 `(0, 0)`，`(2, 0)`，`(2, 2)` 和 `(2, 1)`。
 
 ---
 
@@ -63,7 +63,7 @@
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-25-53.png)
 
-选择点 `(0, 0)` ，`(0, 1)` ，`(0, 2)` ，`(1, 2)` 和 `(2, 2)`。
+选择点 `(0, 0)`，`(0, 1)`，`(0, 2)`，`(1, 2)` 和 `(2, 2)`。
 
 ---
 

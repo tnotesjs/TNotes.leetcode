@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/split-strings-by-separator/)
 
-给你一个字符串数组 `words` 和一个字符 `separator` ，请你按 `separator` 拆分 `words` 中的每个字符串。
+给你一个字符串数组 `words` 和一个字符 `separator`，请你按 `separator` 拆分 `words` 中的每个字符串。
 
 返回一个由拆分后的新字符串组成的字符串数组，不包括空字符串。
 

@@ -37,10 +37,10 @@
 
 解释：
 PeekingIterator peekingIterator = new PeekingIterator([1, 2, 3]); // [1,2,3]
-peekingIterator.next();    // 返回 1 ，指针移动到下一个元素 [1,2,3]
-peekingIterator.peek();    // 返回 2 ，指针未发生移动 [1,2,3]
-peekingIterator.next();    // 返回 2 ，指针移动到下一个元素 [1,2,3]
-peekingIterator.next();    // 返回 3 ，指针移动到下一个元素 [1,2,3]
+peekingIterator.next();    // 返回 1，指针移动到下一个元素 [1,2,3]
+peekingIterator.peek();    // 返回 2，指针未发生移动 [1,2,3]
+peekingIterator.next();    // 返回 2，指针移动到下一个元素 [1,2,3]
+peekingIterator.next();    // 返回 3，指针移动到下一个元素 [1,2,3]
 peekingIterator.hasNext(); // 返回 False
 ```
 

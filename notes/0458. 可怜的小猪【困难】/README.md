@@ -21,7 +21,7 @@
 4. 过了 `minutesToDie` 分钟后，所有喝到毒药的猪都会死去，其他所有猪都会活下来。
 5. 重复这一过程，直到时间用完。
 
-给你桶的数目 `buckets` ，`minutesToDie` 和 `minutesToTest` ，返回 _在规定时间内判断哪个桶有毒所需的 最小 猪数_。
+给你桶的数目 `buckets`，`minutesToDie` 和 `minutesToTest`，返回 _在规定时间内判断哪个桶有毒所需的 最小 猪数_。
 
 ---
 

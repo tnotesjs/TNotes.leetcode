@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/determine-the-winner-of-a-bowling-game/)
 
-给你两个下标从 0 开始的整数数组 `player1` 和 `player2` ，分别表示玩家 1 和玩家 2 击中的瓶数。
+给你两个下标从 0 开始的整数数组 `player1` 和 `player2`，分别表示玩家 1 和玩家 2 击中的瓶数。
 
 保龄球比赛由 `n` 轮组成，每轮的瓶数恰好为 `10`。
 

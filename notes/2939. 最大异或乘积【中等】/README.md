@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/maximum-xor-product/)
 
-给你三个整数 `a` ，`b` 和 `n` ，请你返回 `(a XOR x) * (b XOR x)` 的 最大值 且 `x` 需要满足 `0 <= x < 2^n`。
+给你三个整数 `a`，`b` 和 `n`，请你返回 `(a XOR x) * (b XOR x)` 的 最大值 且 `x` 需要满足 `0 <= x < 2^n`。
 
 由于答案可能会很大，返回它对 `10^9 + 7` 取余 后的结果。
 

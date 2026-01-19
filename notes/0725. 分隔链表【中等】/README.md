@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/split-linked-list-in-parts/)
 
-给你一个头结点为 `head` 的单链表和一个整数 `k` ，请你设计一个算法将链表分隔为 `k` 个连续的部分。
+给你一个头结点为 `head` 的单链表和一个整数 `k`，请你设计一个算法将链表分隔为 `k` 个连续的部分。
 
 每部分的长度应该尽可能的相等：任意两部分的长度差距不能超过 1。这可能会导致有些部分为 null。
 
@@ -29,8 +29,8 @@
 输入：head = [1,2,3], k = 5
 输出：[[1],[2],[3],[],[]]
 解释：
-第一个元素 output[0] 为 output[0].val = 1 ，output[0].next = null。
-最后一个元素 output[4] 为 null ，但它作为 ListNode 的字符串表示是 []。
+第一个元素 output[0] 为 output[0].val = 1，output[0].next = null。
+最后一个元素 output[4] 为 null，但它作为 ListNode 的字符串表示是 []。
 ```
 
 示例 2：

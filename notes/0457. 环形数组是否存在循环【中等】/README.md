@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/circular-array-loop/)
 
-存在一个不含 `0` 的 环形 数组 `nums` ，每个 `nums[i]` 都表示位于下标 `i` 的角色应该向前或向后移动的下标个数：
+存在一个不含 `0` 的 环形 数组 `nums`，每个 `nums[i]` 都表示位于下标 `i` 的角色应该向前或向后移动的下标个数：
 
 - 如果 `nums[i]` 是正数，向前（下标递增方向）移动 `|nums[i]|` 步
 - 如果 `nums[i]` 是负数，向后（下标递减方向）移动 `|nums[i]|` 步

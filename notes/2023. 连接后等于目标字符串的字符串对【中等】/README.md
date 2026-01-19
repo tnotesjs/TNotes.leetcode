@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target/)
 
-给你一个 数字 字符串数组 `nums` 和一个 数字 字符串 `target` ，请你返回 `nums[i] + nums[j]` （两个字符串连接）结果等于 `target` 的下标 `(i, j)` （需满足 `i != j`）的数目。
+给你一个 数字 字符串数组 `nums` 和一个 数字 字符串 `target`，请你返回 `nums[i] + nums[j]` （两个字符串连接）结果等于 `target` 的下标 `(i, j)` （需满足 `i != j`）的数目。
 
 ---
 

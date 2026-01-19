@@ -42,7 +42,7 @@ start_tag -> "<DIV>"
 end_tag -> "</DIV>"
 tag_content 也可被分割为：text1|cdata|text2。
 text1 -> ">>  ![cdata[]] "
-cdata -> "<![CDATA[<div>]>]]>" ，其中 CDATA_CONTENT 为 "<div>]>"
+cdata -> "<![CDATA[<div>]>]]>"，其中 CDATA_CONTENT 为 "<div>]>"
 text2 -> "]]>>]"
 start_tag 不是 "<DIV>>>" 的原因参照规则 6。
 cdata 不是 "<![CDATA[<div>]>]]>]]>" 的原因参照规则 7。

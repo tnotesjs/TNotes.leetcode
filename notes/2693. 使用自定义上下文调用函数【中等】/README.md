@@ -41,7 +41,7 @@ args = [{"a": 5}, 7]
 输出：12
 解释：
 fn.callPolyfill({"a": 5}, 7); // 12
-callPolyfill 将 "this" 上下文设置为 {"a": 5} ，并将 7 作为参数传递。
+callPolyfill 将 "this" 上下文设置为 {"a": 5}，并将 7 作为参数传递。
 ```
 
 示例 2：
@@ -53,7 +53,7 @@ fn = function tax(price, taxRate) {
 }
 args = [{"item": "burger"}, 10, 1,1]
 输出："The cost of the burger is 11"
-解释：callPolyfill 将 "this" 上下文设置为 {"item": "burger"} ，并将 10 和 1.1 作为附加参数传递。
+解释：callPolyfill 将 "this" 上下文设置为 {"item": "burger"}，并将 10 和 1.1 作为附加参数传递。
 ```
 
 ---

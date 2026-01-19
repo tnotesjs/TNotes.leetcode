@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/find-the-minimum-cost-array-permutation/)
 
-给你一个数组 `nums` ，它是 `[0, 1, 2, ..., n - 1]` 的一个排列。对于任意一个 `[0, 1, 2, ..., n - 1]` 的排列 `perm` ，其 分数 定义为：
+给你一个数组 `nums`，它是 `[0, 1, 2, ..., n - 1]` 的一个排列。对于任意一个 `[0, 1, 2, ..., n - 1]` 的排列 `perm`，其 分数 定义为：
 
 `score(perm) = |perm[0] - nums[perm[1]]| + |perm[1] - nums[perm[2]]| + ... + |perm[n - 1] - nums[perm[0]]|`
 

@@ -11,9 +11,9 @@
 
 - [leetcode](https://leetcode.cn/problems/count-the-number-of-ideal-arrays/)
 
-给你两个整数 `n` 和 `maxValue` ，用于描述一个 理想数组。
+给你两个整数 `n` 和 `maxValue`，用于描述一个 理想数组。
 
-对于下标从 0 开始、长度为 `n` 的整数数组 `arr` ，如果满足以下条件，则认为该数组是一个 理想数组 ：
+对于下标从 0 开始、长度为 `n` 的整数数组 `arr`，如果满足以下条件，则认为该数组是一个 理想数组 ：
 
 - 每个 `arr[i]` 都是从 `1` 到 `maxValue` 范围内的一个值，其中 `0 <= i < n`。
 - 每个 `arr[i]` 都可以被 `arr[i - 1]` 整除，其中 `0 < i < n`。

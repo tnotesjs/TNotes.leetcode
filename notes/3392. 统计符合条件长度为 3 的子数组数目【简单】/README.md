@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/count-subarrays-of-length-three-with-a-condition/)
 
-给你一个整数数组 `nums` ，请你返回长度为 3 的子数组的数量，满足第一个数和第三个数的和恰好为第二个数的一半。
+给你一个整数数组 `nums`，请你返回长度为 3 的子数组的数量，满足第一个数和第三个数的和恰好为第二个数的一半。
 
 > - 子数组是数组中连续的非空元素序列。
 

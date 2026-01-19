@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/minimum-length-of-anagram-concatenation/)
 
-给你一个字符串 `s` ，它由某个字符串 `t` 和若干 `t` 的 同位字符串 连接而成。
+给你一个字符串 `s`，它由某个字符串 `t` 和若干 `t` 的 同位字符串 连接而成。
 
 请你返回字符串 `t` 的 最小 可能长度。
 
@@ -39,7 +39,7 @@
 
 解释：
 
-一个可能的字符串 `t` 为 `"cdef"` ，注意 `t` 可能等于 `s`。
+一个可能的字符串 `t` 为 `"cdef"`，注意 `t` 可能等于 `s`。
 
 ---
 

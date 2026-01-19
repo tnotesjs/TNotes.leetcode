@@ -17,10 +17,10 @@
 你的 `Calculator` 类应包含以下方法：
 
 - `add` - 将给定的数字 `value` 与 `result` 相加，并返回更新后的 `Calculator` 对象。
-- `subtract` - 从 `result` 中减去给定的数字 `value` ，并返回更新后的 `Calculator` 对象。
-- `multiply` - 将 `result` 乘以给定的数字 `value` ，并返回更新后的 `Calculator` 对象。
-- `divide` - 将 `result` 除以给定的数字 `value` ，并返回更新后的 `Calculator` 对象。如果传入的值为 `0` ，则抛出错误 `"Division by zero is not allowed"`。
-- `power` - 计算 `result` 的幂，指数为给定的数字 `value` ，并返回更新后的 `Calculator` 对象。（`result = result ^ value` ）
+- `subtract` - 从 `result` 中减去给定的数字 `value`，并返回更新后的 `Calculator` 对象。
+- `multiply` - 将 `result` 乘以给定的数字 `value`，并返回更新后的 `Calculator` 对象。
+- `divide` - 将 `result` 除以给定的数字 `value`，并返回更新后的 `Calculator` 对象。如果传入的值为 `0`，则抛出错误 `"Division by zero is not allowed"`。
+- `power` - 计算 `result` 的幂，指数为给定的数字 `value`，并返回更新后的 `Calculator` 对象。（`result = result ^ value` ）
 - `getResult` - 返回 `result` 的值。
 
 结果与实际结果相差在 `10^-5` 范围内的解被认为是正确的。
@@ -32,8 +32,8 @@
 输入：
 
 ```js
-;(actions = ['Calculator', 'add', 'subtract', 'getResult']),
-  (values = [10, 5, 7])
+;((actions = ['Calculator', 'add', 'subtract', 'getResult']),
+  (values = [10, 5, 7]))
 ```
 
 输出：`8`
@@ -47,8 +47,8 @@
 输入：
 
 ```js
-;(actions = ['Calculator', 'multiply', 'power', 'getResult']),
-  (values = [2, 5, 2])
+;((actions = ['Calculator', 'multiply', 'power', 'getResult']),
+  (values = [2, 5, 2]))
 ```
 
 输出：`100`
@@ -62,7 +62,7 @@
 输入：
 
 ```js
-;(actions = ['Calculator', 'divide', 'getResult']), (values = [20, 0])
+;((actions = ['Calculator', 'divide', 'getResult']), (values = [20, 0]))
 ```
 
 输出：`"Division by zero is not allowed"`

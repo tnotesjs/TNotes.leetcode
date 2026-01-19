@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/kth-smallest-product-of-two-sorted-arrays/)
 
-给你两个 从小到大排好序 且下标从 0 开始的整数数组 `nums1` 和 `nums2` 以及一个整数 `k` ，请你返回第 `k` （从 1 开始编号）小的 `nums1[i] * nums2[j]` 的乘积，其中 `0 <= i < nums1.length` 且 `0 <= j < nums2.length`。
+给你两个 从小到大排好序 且下标从 0 开始的整数数组 `nums1` 和 `nums2` 以及一个整数 `k`，请你返回第 `k` （从 1 开始编号）小的 `nums1[i] * nums2[j]` 的乘积，其中 `0 <= i < nums1.length` 且 `0 <= j < nums2.length`。
 
 ---
 

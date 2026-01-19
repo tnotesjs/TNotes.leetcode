@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/maximize-score-after-n-operations/)
 
-给你 `nums` ，它是一个大小为 `2 * n` 的正整数数组。你必须对这个数组执行 `n` 次操作。
+给你 `nums`，它是一个大小为 `2 * n` 的正整数数组。你必须对这个数组执行 `n` 次操作。
 
 在第 `i` 次操作时（操作编号从 1 开始），你需要：
 

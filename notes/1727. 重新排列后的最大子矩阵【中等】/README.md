@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/largest-submatrix-with-rearrangements/)
 
-给你一个二进制矩阵 `matrix` ，它的大小为 `m x n` ，你可以将 `matrix` 中的 列 按任意顺序重新排列。
+给你一个二进制矩阵 `matrix`，它的大小为 `m x n`，你可以将 `matrix` 中的 列 按任意顺序重新排列。
 
 请你返回最优方案下将 `matrix` 重新排列后，全是 `1` 的子矩阵面积。
 
@@ -52,7 +52,7 @@
 ```txt
 输入：matrix = [[0,0],[0,0]]
 输出：0
-解释：由于矩阵中没有 1 ，没有任何全 1 的子矩阵，所以面积为 0。
+解释：由于矩阵中没有 1，没有任何全 1 的子矩阵，所以面积为 0。
 ```
 
 ---
@@ -62,7 +62,7 @@
 - `m == matrix.length`
 - `n == matrix[i].length`
 - `1 <= m * n <= 10^5`
-- `matrix[i][j]` 要么是 `0` ，要么是 `1`。
+- `matrix[i][j]` 要么是 `0`，要么是 `1`。
 
 ## 2. 🎯 s.1 - 解法 1
 

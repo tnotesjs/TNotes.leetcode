@@ -13,10 +13,10 @@
 
 有一个 `m x n` 大小的矩形蛋糕，需要切成 `1 x 1` 的小块。
 
-给你整数 `m` ，`n` 和两个数组：
+给你整数 `m`，`n` 和两个数组：
 
-- `horizontalCut` 的大小为 `m - 1` ，其中 `horizontalCut[i]` 表示沿着水平线 `i` 切蛋糕的开销。
-- `verticalCut` 的大小为 `n - 1` ，其中 `verticalCut[j]` 表示沿着垂直线 `j` 切蛋糕的开销。
+- `horizontalCut` 的大小为 `m - 1`，其中 `horizontalCut[i]` 表示沿着水平线 `i` 切蛋糕的开销。
+- `verticalCut` 的大小为 `n - 1`，其中 `verticalCut[j]` 表示沿着垂直线 `j` 切蛋糕的开销。
 
 一次操作中，你可以选择任意不是 `1 x 1` 大小的矩形蛋糕并执行以下操作之一：
 

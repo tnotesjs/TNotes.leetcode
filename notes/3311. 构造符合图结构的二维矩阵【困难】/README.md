@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/construct-2d-grid-matching-graph-layout/)
 
-给你一个二维整数数组 `edges` ，它表示一棵 `n` 个节点的 无向 图，其中 `edges[i] = [ui, vi]` 表示节点 `ui` 和 `vi` 之间有一条边。
+给你一个二维整数数组 `edges`，它表示一棵 `n` 个节点的 无向 图，其中 `edges[i] = [ui, vi]` 表示节点 `ui` 和 `vi` 之间有一条边。
 
 请你构造一个二维矩阵，满足以下条件：
 

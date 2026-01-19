@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/maximize-active-section-with-trade-ii/)
 
-给你一个长度为 `n` 的二进制字符串 `s` ，其中：
+给你一个长度为 `n` 的二进制字符串 `s`，其中：
 
 - `'1'` 表示一个 活跃 区域。
 - `'0'` 表示一个 非活跃 区域。

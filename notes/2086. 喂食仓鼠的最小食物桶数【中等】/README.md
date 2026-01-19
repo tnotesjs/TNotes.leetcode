@@ -11,9 +11,9 @@
 
 - [leetcode](https://leetcode.cn/problems/minimum-number-of-food-buckets-to-feed-the-hamsters/)
 
-给你一个下标从 0 开始的字符串 `hamsters` ，其中 `hamsters[i]` 要么是：
+给你一个下标从 0 开始的字符串 `hamsters`，其中 `hamsters[i]` 要么是：
 
-- `'H'` 表示有一个仓鼠在下标 `i` ，或者
+- `'H'` 表示有一个仓鼠在下标 `i`，或者
 - `'.'` 表示下标 `i` 是空的。
 
 你将要在空的位置上添加一定数量的食物桶来喂养仓鼠。如果仓鼠的左边或右边至少有一个食物桶，就可以喂食它。更正式地说，如果你在位置 `i - 1` 或者 `i + 1` 放置一个食物桶，就可以喂养位置为 `i` 处的仓鼠。
@@ -59,7 +59,7 @@
 提示：
 
 - `1 <= hamsters.length <= 10^5`
-- `hamsters[i]` 要么是 `'H'` ，要么是 `'.'`。
+- `hamsters[i]` 要么是 `'H'`，要么是 `'.'`。
 
 ## 2. 🎯 s.1 - 解法 1
 

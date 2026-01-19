@@ -12,7 +12,7 @@
 
 - [leetcode](https://leetcode.cn/problems/find-maximum-number-of-string-pairs/)
 
-给你一个下标从 0 开始的数组 `words` ，数组中包含 互不相同 的字符串。
+给你一个下标从 0 开始的数组 `words`，数组中包含 互不相同 的字符串。
 
 如果字符串 `words[i]` 与字符串 `words[j]` 满足以下条件，我们称它们可以匹配：
 

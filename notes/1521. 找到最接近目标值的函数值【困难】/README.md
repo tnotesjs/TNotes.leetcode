@@ -13,7 +13,7 @@
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-14-15-38.png)
 
-Winston 构造了一个如上所示的函数 `func`。他有一个整数数组 `arr` 和一个整数 `target` ，他想找到让 `|func(arr, l, r) - target|` 最小的 `l` 和 `r`。
+Winston 构造了一个如上所示的函数 `func`。他有一个整数数组 `arr` 和一个整数 `target`，他想找到让 `|func(arr, l, r) - target|` 最小的 `l` 和 `r`。
 
 请你返回 `|func(arr, l, r) - target|` 的最小值。
 
@@ -39,7 +39,7 @@ Winston 构造了一个如上所示的函数 `func`。他有一个整数数组 `
 输出：999999
 
 解释：
-Winston 输入函数的所有可能 [l,r] 数对得到的函数值都为 1000000 ，所以最小差值为 999999。
+Winston 输入函数的所有可能 [l,r] 数对得到的函数值都为 1000000，所以最小差值为 999999。
 ```
 
 示例 3：

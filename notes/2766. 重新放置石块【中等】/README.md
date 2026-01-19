@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/relocate-marbles/)
 
-给你一个下标从 0 开始的整数数组 `nums` ，表示一些石块的初始位置。再给你两个长度 相等 下标从 0 开始的整数数组 `moveFrom` 和 `moveTo`。
+给你一个下标从 0 开始的整数数组 `nums`，表示一些石块的初始位置。再给你两个长度 相等 下标从 0 开始的整数数组 `moveFrom` 和 `moveTo`。
 
 在 `moveFrom.length` 次操作内，你将改变石块的位置。在第 `i` 次操作中，你将位置在 `moveFrom[i]` 的所有石块移到位置 `moveTo[i]`。
 

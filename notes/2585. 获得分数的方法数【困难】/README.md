@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/number-of-ways-to-earn-points/)
 
-考试中有 `n` 种类型的题目。给你一个整数 `target` 和一个下标从 0 开始的二维整数数组 `types` ，其中 `types[i] = [counti, marksi]` 表示第 `i` 种类型的题目有 `counti` 道，每道题目对应 `marksi` 分。
+考试中有 `n` 种类型的题目。给你一个整数 `target` 和一个下标从 0 开始的二维整数数组 `types`，其中 `types[i] = [counti, marksi]` 表示第 `i` 种类型的题目有 `counti` 道，每道题目对应 `marksi` 分。
 
 返回你在考试中恰好得到 `target` 分的方法数。由于答案可能很大，结果需要对 `10^9 +7` 取余。
 

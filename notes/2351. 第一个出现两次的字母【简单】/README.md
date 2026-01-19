@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/first-letter-to-appear-twice/)
 
-给你一个由小写英文字母组成的字符串 `s` ，请你找出并返回第一个出现两次的字母。
+给你一个由小写英文字母组成的字符串 `s`，请你找出并返回第一个出现两次的字母。
 
 注意：
 

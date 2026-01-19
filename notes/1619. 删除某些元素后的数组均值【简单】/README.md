@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/mean-of-array-after-removing-some-elements/)
 
-给你一个整数数组 `arr` ，请你删除最小 `5%` 的数字和最大 `5%` 的数字后，剩余数字的平均值。
+给你一个整数数组 `arr`，请你删除最小 `5%` 的数字和最大 `5%` 的数字后，剩余数字的平均值。
 
 与 标准答案 误差在 `10^-5` 的结果都被视为正确结果。
 

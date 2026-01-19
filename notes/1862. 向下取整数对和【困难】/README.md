@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/sum-of-floored-pairs/)
 
-给你一个整数数组 `nums` ，请你返回所有下标对 `0 <= i, j < nums.length` 的 `floor(nums[i] / nums[j])` 结果之和。由于答案可能会很大，请你返回答案对`10^9 + 7` 取余 的结果。
+给你一个整数数组 `nums`，请你返回所有下标对 `0 <= i, j < nums.length` 的 `floor(nums[i] / nums[j])` 结果之和。由于答案可能会很大，请你返回答案对`10^9 + 7` 取余 的结果。
 
 函数 `floor()` 返回输入数字的整数部分。
 

@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/manhattan-distances-of-all-arrangements-of-pieces/)
 
-给你三个整数 `m` ，`n` 和 `k`。
+给你三个整数 `m`，`n` 和 `k`。
 
 给你一个大小为 `m x n` 的矩形格子，它包含 `k` 个没有差别的棋子。请你返回所有放置棋子的 合法方案 中，每对棋子之间的曼哈顿距离之和。
 

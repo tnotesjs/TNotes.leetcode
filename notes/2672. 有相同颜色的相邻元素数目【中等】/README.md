@@ -11,12 +11,12 @@
 
 - [leetcode](https://leetcode.cn/problems/number-of-adjacent-elements-with-the-same-color/)
 
-给定一个整数 `n` 表示一个长度为 `n` 的数组 `colors`，初始所有元素均为 0 ，表示是 未染色 的。同时给定一个二维整数数组 `queries`，其中 `queries[i] = [indexi, colori]`。对于第 `i` 个 查询：
+给定一个整数 `n` 表示一个长度为 `n` 的数组 `colors`，初始所有元素均为 0，表示是 未染色 的。同时给定一个二维整数数组 `queries`，其中 `queries[i] = [indexi, colori]`。对于第 `i` 个 查询：
 
 - 将 `colors[indexi]` 染色为 `colori`。
 - 统计 `colors` 中颜色相同的相邻对的数量（无论 `colori`）。
 
-请你返回一个长度与 `queries` 相等的数组 `answer` ，其中 `answer[i]`是前 `i` 个操作的答案。
+请你返回一个长度与 `queries` 相等的数组 `answer`，其中 `answer[i]`是前 `i` 个操作的答案。
 
 ---
 

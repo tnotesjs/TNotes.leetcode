@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/double-a-number-represented-as-a-linked-list/)
 
-给你一个 非空 链表的头节点 `head` ，表示一个不含前导零的非负数整数。
+给你一个 非空 链表的头节点 `head`，表示一个不含前导零的非负数整数。
 
 将链表 翻倍 后，返回头节点 `head`。
 

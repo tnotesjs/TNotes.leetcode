@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/sum-of-digit-differences-of-all-pairs/)
 
-你有一个数组 `nums` ，它只包含 正 整数，所有正整数的数位长度都 相同。
+你有一个数组 `nums`，它只包含 正 整数，所有正整数的数位长度都 相同。
 
 两个整数的 数位差 指的是两个整数 相同 位置上不同数字的数目。
 

@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/count-items-matching-a-rule/)
 
-给你一个数组 `items` ，其中 `items[i] = [typei, colori, namei]` ，描述第 `i` 件物品的类型、颜色以及名称。
+给你一个数组 `items`，其中 `items[i] = [typei, colori, namei]`，描述第 `i` 件物品的类型、颜色以及名称。
 
 另给你一条由两个字符串 `ruleKey` 和 `ruleValue` 表示的检索规则。
 

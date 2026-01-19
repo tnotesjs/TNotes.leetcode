@@ -15,7 +15,7 @@
 
 此外，给你一个二维整数数组 `queries`，其中 `queries[j] = [src1j, src2j, destj]`。
 
-返回一个长度等于 `queries.length` 的数组 `answer`，其中 `answer[j]` 表示一个子树的 最小总权重 ，使用该子树的边可以从 `src1j` 和 `src2j` 到达 `destj`。
+返回一个长度等于 `queries.length` 的数组 `answer`，其中 `answer[j]` 表示一个子树的 最小总权重，使用该子树的边可以从 `src1j` 和 `src2j` 到达 `destj`。
 
 这里的 子树 是指原树中任意节点和边组成的连通子集形成的一棵有效树。
 

@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/calculate-amount-paid-in-taxes/)
 
-给你一个下标从 0 开始的二维整数数组 `brackets` ，其中 `brackets[i] = [upperi, percenti]` ，表示第 `i` 个税级的上限是 `upperi` ，征收的税率为 `percenti`。税级按上限 从低到高排序（在满足 `0 < i < brackets.length` 的前提下，`upperi-1 < upperi`）。
+给你一个下标从 0 开始的二维整数数组 `brackets`，其中 `brackets[i] = [upperi, percenti]`，表示第 `i` 个税级的上限是 `upperi`，征收的税率为 `percenti`。税级按上限 从低到高排序（在满足 `0 < i < brackets.length` 的前提下，`upperi-1 < upperi`）。
 
 税款计算方式如下：
 

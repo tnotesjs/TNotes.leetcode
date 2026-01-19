@@ -11,11 +11,11 @@
 
 - [leetcode](https://leetcode.cn/problems/maximum-score-of-spliced-array/)
 
-给你两个下标从 0 开始的整数数组 `nums1` 和 `nums2` ，长度都是 `n`。
+给你两个下标从 0 开始的整数数组 `nums1` 和 `nums2`，长度都是 `n`。
 
-你可以选择两个整数 `left` 和 `right` ，其中 `0 <= left <= right < n` ，接着 交换 两个子数组 `nums1[left...right]` 和 `nums2[left...right]`。
+你可以选择两个整数 `left` 和 `right`，其中 `0 <= left <= right < n`，接着 交换 两个子数组 `nums1[left...right]` 和 `nums2[left...right]`。
 
-- 例如，设 `nums1 = [1,2,3,4,5]` 和 `nums2 = [11,12,13,14,15]` ，整数选择 `left = 1` 和 `right = 2`，那么 `nums1` 会变为 `[1,*12*,*13*,4,5]` 而 `nums2` 会变为 `[11,*2,3*,14,15]`。
+- 例如，设 `nums1 = [1,2,3,4,5]` 和 `nums2 = [11,12,13,14,15]`，整数选择 `left = 1` 和 `right = 2`，那么 `nums1` 会变为 `[1,*12*,*13*,4,5]` 而 `nums2` 会变为 `[11,*2,3*,14,15]`。
 
 你可以选择执行上述操作 一次 或不执行任何操作。
 
@@ -34,7 +34,7 @@
 输出：210
 
 解释：
-选择 left = 1 和 right = 1 ，得到 nums1 = [60,90,60] 和 nums2 = [10,60,10]。
+选择 left = 1 和 right = 1，得到 nums1 = [60,90,60] 和 nums2 = [10,60,10]。
 分数为 max(sum(nums1), sum(nums2)) = max(210, 80) = 210。
 ```
 
@@ -45,7 +45,7 @@
 输出：220
 
 解释：
-选择 left = 3 和 right = 4 ，得到 nums1 = [20,40,20,40,20] 和 nums2 = [50,20,50,70,30]。
+选择 left = 3 和 right = 4，得到 nums1 = [20,40,20,40,20] 和 nums2 = [50,20,50,70,30]。
 分数为 max(sum(nums1), sum(nums2)) = max(140, 220) = 220。
 ```
 

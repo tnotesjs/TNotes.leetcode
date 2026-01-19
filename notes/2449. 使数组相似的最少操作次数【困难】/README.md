@@ -11,9 +11,9 @@
 
 - [leetcode](https://leetcode.cn/problems/minimum-number-of-operations-to-make-arrays-similar/)
 
-给你两个正整数数组 `nums` 和 `target` ，两个数组长度相等。
+给你两个正整数数组 `nums` 和 `target`，两个数组长度相等。
 
-在一次操作中，你可以选择两个 不同 的下标 `i` 和 `j` ，其中 `0 <= i, j < nums.length` ，并且：
+在一次操作中，你可以选择两个 不同 的下标 `i` 和 `j`，其中 `0 <= i, j < nums.length`，并且：
 
 - 令 `nums[i] = nums[i] + 2` 且
 - 令 `nums[j] = nums[j] - 2`。
@@ -30,8 +30,8 @@
 输入：nums = [8,12,6], target = [2,14,10]
 输出：2
 解释：可以用两步操作将 nums 变得与 target 相似：
-- 选择 i = 0 和 j = 2 ，nums = [10,12,4]。
-- 选择 i = 1 和 j = 2 ，nums = [10,14,2]。
+- 选择 i = 0 和 j = 2，nums = [10,12,4]。
+- 选择 i = 1 和 j = 2，nums = [10,14,2]。
 2 次操作是最少需要的操作次数。
 ```
 
@@ -41,7 +41,7 @@
 输入：nums = [1,2,5], target = [4,1,3]
 输出：1
 解释：一步操作可以使 nums 变得与 target 相似：
-- 选择 i = 1 和 j = 2 ，nums = [1,4,3]。
+- 选择 i = 1 和 j = 2，nums = [1,4,3]。
 ```
 
 示例 3：

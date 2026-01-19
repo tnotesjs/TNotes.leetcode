@@ -40,7 +40,7 @@ abs(nums[i] - nums[j]) <= valueDiff --> abs(1 - 1) <= 0
 ```txt
 输入：nums = [1,5,9,1,5,9], indexDiff = 2, valueDiff = 3
 输出：false
-解释：尝试所有可能的下标对 (i, j) ，均无法满足这 3 个条件，因此返回 false。
+解释：尝试所有可能的下标对 (i, j)，均无法满足这 3 个条件，因此返回 false。
 ```
 
 ---

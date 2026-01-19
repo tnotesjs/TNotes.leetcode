@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/find-closest-number-to-zero/)
 
-给你一个长度为 `n` 的整数数组 `nums` ，请你返回 `nums` 中最 接近 `0` 的数字。如果有多个答案，请你返回它们中的 最大值。
+给你一个长度为 `n` 的整数数组 `nums`，请你返回 `nums` 中最 接近 `0` 的数字。如果有多个答案，请你返回它们中的 最大值。
 
 ---
 

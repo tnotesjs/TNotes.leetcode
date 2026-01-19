@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/min-stack/)
 
-设计一个支持 `push` ，`pop` ，`top` 操作，并能在常数时间内检索到最小元素的栈。
+设计一个支持 `push`，`pop`，`top` 操作，并能在常数时间内检索到最小元素的栈。
 
 实现 `MinStack` 类:
 

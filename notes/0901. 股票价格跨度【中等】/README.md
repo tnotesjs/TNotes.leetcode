@@ -20,7 +20,7 @@
 实现 `StockSpanner` 类：
 
 - `StockSpanner()` 初始化类对象。
-- `int next(int price)` 给出今天的股价 `price` ，返回该股票当日价格的 跨度。
+- `int next(int price)` 给出今天的股价 `price`，返回该股票当日价格的 跨度。
 
 示例：
 
@@ -38,7 +38,7 @@ stockSpanner.next(80);  // 返回 1
 stockSpanner.next(60);  // 返回 1
 stockSpanner.next(70);  // 返回 2
 stockSpanner.next(60);  // 返回 1
-stockSpanner.next(75);  // 返回 4 ，因为截至今天的最后 4 个股价 (包括今天的股价 75) 都小于或等于今天的股价。
+stockSpanner.next(75);  // 返回 4，因为截至今天的最后 4 个股价 (包括今天的股价 75) 都小于或等于今天的股价。
 stockSpanner.next(85);  // 返回 6
 ```
 

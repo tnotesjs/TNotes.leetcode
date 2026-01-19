@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/permutations-ii/)
 
-给定一个可包含重复数字的序列 `nums` ，_按任意顺序_ 返回所有不重复的全排列。
+给定一个可包含重复数字的序列 `nums`，_按任意顺序_ 返回所有不重复的全排列。
 
 ---
 

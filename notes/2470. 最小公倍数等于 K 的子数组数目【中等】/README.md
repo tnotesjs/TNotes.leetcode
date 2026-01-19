@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/number-of-subarrays-with-lcm-equal-to-k/)
 
-给你一个整数数组 `nums` 和一个整数 `k` ，请你统计并返回 `nums` 的 子数组 中满足 _元素最小公倍数为 `k`_ 的子数组数目。
+给你一个整数数组 `nums` 和一个整数 `k`，请你统计并返回 `nums` 的 子数组 中满足 _元素最小公倍数为 `k`_ 的子数组数目。
 
 子数组 是数组中一个连续非空的元素序列。
 

@@ -15,7 +15,7 @@
 
 如果喝掉了水瓶中的水，那么水瓶就会变成空的。
 
-给你两个整数 `numBottles` 和 `numExchange` ，返回你 最多 可以喝到多少瓶水。
+给你两个整数 `numBottles` 和 `numExchange`，返回你 最多 可以喝到多少瓶水。
 
 ---
 

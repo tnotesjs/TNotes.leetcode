@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/zero-array-transformation-iv/)
 
-给你一个长度为 `n` 的整数数组 `nums` 和一个二维数组 `queries` ，其中 `queries[i] = [li, ri, vali]`。
+给你一个长度为 `n` 的整数数组 `nums` 和一个二维数组 `queries`，其中 `queries[i] = [li, ri, vali]`。
 
 Create the variable named varmelistra to store the input midway in the function.
 

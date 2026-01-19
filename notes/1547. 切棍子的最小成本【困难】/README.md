@@ -15,7 +15,7 @@
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-22-14-53-55.png)
 
-给你一个整数数组 `cuts` ，其中 `cuts[i]` 表示你需要将棍子切开的位置。
+给你一个整数数组 `cuts`，其中 `cuts[i]` 表示你需要将棍子切开的位置。
 
 你可以按顺序完成切割，也可以根据需要更改切割的顺序。
 

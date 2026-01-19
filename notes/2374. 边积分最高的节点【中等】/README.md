@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/node-with-highest-edge-score/)
 
-给你一个有向图，图中有 `n` 个节点，节点编号从 `0` 到 `n - 1` ，其中每个节点都 恰有一条 出边。
+给你一个有向图，图中有 `n` 个节点，节点编号从 `0` 到 `n - 1`，其中每个节点都 恰有一条 出边。
 
 图由一个下标从 0 开始、长度为 `n` 的整数数组 `edges` 表示，其中 `edges[i]` 表示存在一条从节点 `i` 到节点 `edges[i]` 的 有向 边。
 

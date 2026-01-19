@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/minimum-time-to-complete-all-tasks/)
 
-你有一台电脑，它可以 同时 运行无数个任务。给你一个二维整数数组 `tasks` ，其中 `tasks[i] = [starti, endi, durationi]` 表示第 `i` 个任务需要在 闭区间 时间段 `[starti, endi]` 内运行 `durationi` 个整数时间点（但不需要连续）。
+你有一台电脑，它可以 同时 运行无数个任务。给你一个二维整数数组 `tasks`，其中 `tasks[i] = [starti, endi, durationi]` 表示第 `i` 个任务需要在 闭区间 时间段 `[starti, endi]` 内运行 `durationi` 个整数时间点（但不需要连续）。
 
 当电脑需要运行任务时，你可以打开电脑，如果空闲时，你可以将电脑关闭。
 

@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/unit-conversion-i/)
 
-有 `n` 种单位，编号从 `0` 到 `n - 1`。给你一个二维整数数组 `conversions`，长度为 `n - 1`，其中 `conversions[i] = [sourceUniti, targetUniti, conversionFactori]` ，表示一个 `sourceUniti` 类型的单位等于 `conversionFactori` 个 `targetUniti` 类型的单位。
+有 `n` 种单位，编号从 `0` 到 `n - 1`。给你一个二维整数数组 `conversions`，长度为 `n - 1`，其中 `conversions[i] = [sourceUniti, targetUniti, conversionFactori]`，表示一个 `sourceUniti` 类型的单位等于 `conversionFactori` 个 `targetUniti` 类型的单位。
 
 请你返回一个长度为 `n` 的数组 `baseUnitConversion`，其中 `baseUnitConversion[i]` 表示 一个 0 类型单位等于多少个 i 类型单位。由于结果可能很大，请返回每个 `baseUnitConversion[i]` 对 `10^9 + 7` 取模后的值。
 

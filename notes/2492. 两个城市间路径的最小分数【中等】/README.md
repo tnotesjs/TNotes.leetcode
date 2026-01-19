@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/minimum-score-of-a-path-between-two-cities/)
 
-给你一个正整数 `n` ，表示总共有 `n` 个城市，城市从 `1` 到 `n` 编号。给你一个二维数组 `roads` ，其中 `roads[i] = [ai, bi, distancei]` 表示城市 `ai` 和 `bi` 之间有一条 双向 道路，道路距离为 `distancei`。城市构成的图不一定是连通的。
+给你一个正整数 `n`，表示总共有 `n` 个城市，城市从 `1` 到 `n` 编号。给你一个二维数组 `roads`，其中 `roads[i] = [ai, bi, distancei]` 表示城市 `ai` 和 `bi` 之间有一条 双向 道路，道路距离为 `distancei`。城市构成的图不一定是连通的。
 
 两个城市之间一条路径的 分数 定义为这条路径中道路的 最小 距离。
 

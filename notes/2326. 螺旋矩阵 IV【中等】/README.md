@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/spiral-matrix-iv/)
 
-给你两个整数：`m` 和 `n` ，表示矩阵的维数。
+给你两个整数：`m` 和 `n`，表示矩阵的维数。
 
 另给你一个整数链表的头节点 `head`。
 

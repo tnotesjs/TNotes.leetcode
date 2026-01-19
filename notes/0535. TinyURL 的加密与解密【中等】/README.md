@@ -13,7 +13,7 @@
 
 TinyURL 是一种 URL 简化服务， 比如：当你输入一个 URL `https://leetcode.com/problems/design-tinyurl` 时，它将返回一个简化的 URL `http://tinyurl.com/4e9iAk`。请你设计一个类来加密与解密 TinyURL。
 
-加密和解密算法如何设计和运作是没有限制的，你只需要保证一个 URL 可以被加密成一个 TinyURL ，并且这个 TinyURL 可以用解密方法恢复成原本的 URL。
+加密和解密算法如何设计和运作是没有限制的，你只需要保证一个 URL 可以被加密成一个 TinyURL，并且这个 TinyURL 可以用解密方法恢复成原本的 URL。
 
 实现 `Solution` 类：
 

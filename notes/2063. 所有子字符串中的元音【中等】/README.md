@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/vowels-of-all-substrings/)
 
-给你一个字符串 `word` ，返回 `word` 的所有子字符串中 元音的总数 ，元音是指 `'a'`、`'e'`、`'i'`、`'o'` 和 `'u'`。
+给你一个字符串 `word`，返回 `word` 的所有子字符串中 元音的总数，元音是指 `'a'`、`'e'`、`'i'`、`'o'` 和 `'u'`。
 
 子字符串 是字符串中一个连续（非空）的字符序列。
 

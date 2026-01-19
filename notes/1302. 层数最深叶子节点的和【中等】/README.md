@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/deepest-leaves-sum/)
 
-给你一棵二叉树的根节点 `root` ，请你返回 层数最深的叶子节点的和。
+给你一棵二叉树的根节点 `root`，请你返回 层数最深的叶子节点的和。
 
 ---
 

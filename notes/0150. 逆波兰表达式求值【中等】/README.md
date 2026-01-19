@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/evaluate-reverse-polish-notation/)
 
-给你一个字符串数组 `tokens` ，表示一个根据 [逆波兰表示法](https://baike.baidu.com/item/%E9%80%86%E6%B3%A2%E5%85%B0%E5%BC%8F/128437) 表示的算术表达式。
+给你一个字符串数组 `tokens`，表示一个根据 [逆波兰表示法](https://baike.baidu.com/item/%E9%80%86%E6%B3%A2%E5%85%B0%E5%BC%8F/128437) 表示的算术表达式。
 
 请你计算该表达式。返回一个表示表达式值的整数。
 

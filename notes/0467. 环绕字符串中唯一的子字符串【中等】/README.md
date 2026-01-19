@@ -15,7 +15,7 @@
 
 - `"...zabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcd...."`.
 
-给你一个字符串 `s` ，请你统计并返回 `s` 中有多少 不同 非空子串 也在 `base` 中出现。
+给你一个字符串 `s`，请你统计并返回 `s` 中有多少 不同 非空子串 也在 `base` 中出现。
 
 示例 1：
 

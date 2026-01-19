@@ -11,9 +11,9 @@
 
 - [leetcode](https://leetcode.cn/problems/merge-bsts-to-create-single-bst/)
 
-给你 `n` 个 二叉搜索树的根节点 ，存储在数组 `trees` 中（下标从 0 开始），对应 `n` 棵不同的二叉搜索树。`trees` 中的每棵二叉搜索树 最多有 3 个节点 ，且不存在值相同的两个根节点。在一步操作中，将会完成下述步骤：
+给你 `n` 个 二叉搜索树的根节点，存储在数组 `trees` 中（下标从 0 开始），对应 `n` 棵不同的二叉搜索树。`trees` 中的每棵二叉搜索树 最多有 3 个节点，且不存在值相同的两个根节点。在一步操作中，将会完成下述步骤：
 
-- 选择两个 不同的 下标 `i` 和 `j` ，要求满足在 `trees[i]` 中的某个 叶节点 的值等于 `trees[j]` 的 根节点的值。
+- 选择两个 不同的 下标 `i` 和 `j`，要求满足在 `trees[i]` 中的某个 叶节点 的值等于 `trees[j]` 的 根节点的值。
 - 用 `trees[j]` 替换 `trees[i]` 中的那个叶节点。
 - 从 `trees` 中移除 `trees[j]`。
 
@@ -38,11 +38,11 @@
 ```
 
 - 解释：
-  - 第一步操作中，选出 i=1 和 j=0 ，并将 trees[0] 合并到 trees[1] 中。
-  - 删除 trees[0] ，trees = [[3,2,5,1],[5,4]]。
+  - 第一步操作中，选出 i=1 和 j=0，并将 trees[0] 合并到 trees[1] 中。
+  - 删除 trees[0]，trees = [[3,2,5,1],[5,4]]。
   - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-14-21.png)
-  - 在第二步操作中，选出 i=0 和 j=1 ，将 trees[1] 合并到 trees[0] 中。
-  - 删除 trees[1] ，trees = [[3,2,5,1,null,4]]。
+  - 在第二步操作中，选出 i=0 和 j=1，将 trees[1] 合并到 trees[0] 中。
+  - 删除 trees[1]，trees = [[3,2,5,1,null,4]]。
   - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-14-53.png)
   - 结果树如上图所示，为一棵有效的二叉搜索树，所以返回该树的根节点。
 
@@ -58,8 +58,8 @@
 ```
 
 - 解释：
-  - 选出 i=0 和 j=1 ，然后将 trees[1] 合并到 trees[0] 中。
-  - 删除 trees[1] ，trees = [[5,3,8,2,6]]。
+  - 选出 i=0 和 j=1，然后将 trees[1] 合并到 trees[0] 中。
+  - 删除 trees[1]，trees = [[5,3,8,2,6]]。
   - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-21-15-23.png)
   - 结果树如上图所示。仅能执行一次有效的操作，但结果树不是一棵有效的二叉搜索树，所以返回 null。
 

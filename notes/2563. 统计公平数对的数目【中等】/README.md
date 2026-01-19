@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/count-the-number-of-fair-pairs/)
 
-给你一个下标从 0 开始、长度为 `n` 的整数数组 `nums` ，和两个整数 `lower` 和 `upper` ，返回 公平数对的数目。
+给你一个下标从 0 开始、长度为 `n` 的整数数组 `nums`，和两个整数 `lower` 和 `upper`，返回 公平数对的数目。
 
 如果 `(i, j)` 数对满足以下情况，则认为它是一个 公平数对 ：
 

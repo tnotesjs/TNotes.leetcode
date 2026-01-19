@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/determine-if-two-events-have-conflict/)
 
-给你两个字符串数组 `event1` 和 `event2` ，表示发生在同一天的两个闭区间时间段事件，其中：
+给你两个字符串数组 `event1` 和 `event2`，表示发生在同一天的两个闭区间时间段事件，其中：
 
 - `event1 = [startTime1, endTime1]` 且
 - `event2 = [startTime2, endTime2]`

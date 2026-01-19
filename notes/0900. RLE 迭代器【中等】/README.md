@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/rle-iterator/)
 
-我们可以使用游程编码(即 RLE )来编码一个整数序列。在偶数长度 `encoding` ( 从 0 开始 )的游程编码数组中，对于所有偶数 `i` ，`encoding[i]` 告诉我们非负整数 `encoding[i + 1]` 在序列中重复的次数。
+我们可以使用游程编码(即 RLE )来编码一个整数序列。在偶数长度 `encoding` ( 从 0 开始 )的游程编码数组中，对于所有偶数 `i`，`encoding[i]` 告诉我们非负整数 `encoding[i + 1]` 在序列中重复的次数。
 
 - 例如，序列 `arr = [8,8,8,5,5]` 可以被编码为 `encoding =[3,8,2,5]`。`encoding =[3,8,0,9,2,5]` 和 `encoding =[2,8,1,8,2,5]` 也是 `arr` 有效的 RLE。
 

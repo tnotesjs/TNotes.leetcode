@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/function-composition)
 
-请你编写一个函数，它接收一个函数数组 `[f1, f2, f3，…， fn]` ，并返回一个新的函数 `fn` ，它是函数数组的 复合函数。
+请你编写一个函数，它接收一个函数数组 `[f1, f2, f3，…， fn]`，并返回一个新的函数 `fn`，它是函数数组的 复合函数。
 
 `[f(x)， g(x)， h(x)]` 的 复合函数 为 `fn(x) = f(g(h(x)))`。
 

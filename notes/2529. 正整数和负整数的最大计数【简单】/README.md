@@ -11,9 +11,9 @@
 
 - [leetcode](https://leetcode.cn/problems/maximum-count-of-positive-integer-and-negative-integer/)
 
-给你一个按 非递减顺序 排列的数组 `nums` ，返回正整数数目和负整数数目中的最大值。
+给你一个按 非递减顺序 排列的数组 `nums`，返回正整数数目和负整数数目中的最大值。
 
-- 换句话讲，如果 `nums` 中正整数的数目是 `pos` ，而负整数的数目是 `neg` ，返回 `pos` 和 `neg`二者中的最大值。
+- 换句话讲，如果 `nums` 中正整数的数目是 `pos`，而负整数的数目是 `neg`，返回 `pos` 和 `neg`二者中的最大值。
 
 ---
 

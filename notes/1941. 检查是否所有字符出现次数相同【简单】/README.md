@@ -11,9 +11,9 @@
 
 - [leetcode](https://leetcode.cn/problems/check-if-all-characters-have-equal-number-of-occurrences/)
 
-给你一个字符串 `s` ，如果 `s` 是一个 好 字符串，请你返回 `true` ，否则请返回 `false`。
+给你一个字符串 `s`，如果 `s` 是一个 好 字符串，请你返回 `true`，否则请返回 `false`。
 
-如果 `s` 中出现过的 所有 字符的出现次数 相同 ，那么我们称字符串 `s` 是 好 字符串。
+如果 `s` 中出现过的 所有 字符的出现次数 相同，那么我们称字符串 `s` 是 好 字符串。
 
 ---
 

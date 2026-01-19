@@ -16,3 +16,7 @@ var maxOperations = function (nums) {
   }
   return count
 }
+
+// 2026.01.19 20:00
+// 执行用时分布 0ms 击败 100.00%
+// 消耗内存分布 54.27MB 击败 100.00%

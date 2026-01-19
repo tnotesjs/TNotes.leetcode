@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/minimum-moves-to-equal-array-elements-ii/)
 
-给你一个长度为 `n` 的整数数组 `nums` ，返回使所有数组元素相等需要的最小操作数。
+给你一个长度为 `n` 的整数数组 `nums`，返回使所有数组元素相等需要的最小操作数。
 
 在一次操作中，你可以使数组中的一个元素加 `1` 或者减 `1`。
 

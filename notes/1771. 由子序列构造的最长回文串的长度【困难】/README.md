@@ -11,11 +11,11 @@
 
 - [leetcode](https://leetcode.cn/problems/maximize-palindrome-length-from-subsequences/)
 
-给你两个字符串 `word1` 和 `word2` ，请你按下述方法构造一个字符串：
+给你两个字符串 `word1` 和 `word2`，请你按下述方法构造一个字符串：
 
 - 从 `word1` 中选出某个 非空 子序列 `subsequence1`。
 - 从 `word2` 中选出某个 非空 子序列 `subsequence2`。
-- 连接两个子序列 `subsequence1 + subsequence2` ，得到字符串。
+- 连接两个子序列 `subsequence1 + subsequence2`，得到字符串。
 
 返回可按上述方法构造的最长 回文串 的 长度。如果无法构造回文串，返回 `0`。
 
@@ -30,7 +30,7 @@
 ```txt
 输入：word1 = "cacb", word2 = "cbba"
 输出：5
-解释：从 word1 中选出 "ab" ，从 word2 中选出 "cba" ，得到回文串 "abcba"。
+解释：从 word1 中选出 "ab"，从 word2 中选出 "cba"，得到回文串 "abcba"。
 ```
 
 示例 2：
@@ -38,7 +38,7 @@
 ```txt
 输入：word1 = "ab", word2 = "ab"
 输出：3
-解释：从 word1 中选出 "ab" ，从 word2 中选出 "a" ，得到回文串 "aba"。
+解释：从 word1 中选出 "ab"，从 word2 中选出 "a"，得到回文串 "aba"。
 ```
 
 示例 3：

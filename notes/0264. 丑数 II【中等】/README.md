@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/ugly-number-ii/)
 
-给你一个整数 `n` ，请你找出并返回第 `n` 个 丑数。
+给你一个整数 `n`，请你找出并返回第 `n` 个 丑数。
 
 丑数 就是质因子只包含 `2`、`3` 和 `5` 的正整数。
 

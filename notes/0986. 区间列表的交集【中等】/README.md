@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/interval-list-intersections/)
 
-给定两个由一些 闭区间 组成的列表，`firstList` 和 `secondList` ，其中 `firstList[i] = [starti, endi]` 而 `secondList[j] = [startj, endj]`。每个区间列表都是成对 不相交 的，并且 已经排序。
+给定两个由一些 闭区间 组成的列表，`firstList` 和 `secondList`，其中 `firstList[i] = [starti, endi]` 而 `secondList[j] = [startj, endj]`。每个区间列表都是成对 不相交 的，并且 已经排序。
 
 返回这 两个区间列表的交集。
 

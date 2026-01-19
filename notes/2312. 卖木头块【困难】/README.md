@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/selling-pieces-of-wood/)
 
-给你两个整数 `m` 和 `n` ，分别表示一块矩形木块的高和宽。同时给你一个二维整数数组 `prices` ，其中 `prices[i] = [hi, wi, pricei]` 表示你可以以 `pricei` 元的价格卖一块高为 `hi` 宽为 `wi` 的矩形木块。
+给你两个整数 `m` 和 `n`，分别表示一块矩形木块的高和宽。同时给你一个二维整数数组 `prices`，其中 `prices[i] = [hi, wi, pricei]` 表示你可以以 `pricei` 元的价格卖一块高为 `hi` 宽为 `wi` 的矩形木块。
 
 每一次操作中，你必须按下述方式之一执行切割操作，以得到两块更小的矩形木块：
 

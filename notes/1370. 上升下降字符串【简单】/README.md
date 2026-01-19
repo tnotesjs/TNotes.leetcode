@@ -36,7 +36,7 @@
 解释：
 第一轮的步骤 1，2，3 后，结果字符串为 result = "abc"
 第一轮的步骤 4，5，6 后，结果字符串为 result = "abccba"
-第一轮结束，现在 s = "aabbcc" ，我们再次回到步骤 1
+第一轮结束，现在 s = "aabbcc"，我们再次回到步骤 1
 第二轮的步骤 1，2，3 后，结果字符串为 result = "abccbaabc"
 第二轮的步骤 4，5，6 后，结果字符串为 result = "abccbaabccba"
 ```

@@ -11,9 +11,9 @@
 
 - [leetcode](https://leetcode.cn/problems/increment-submatrices-by-one/)
 
-给你一个正整数 `n` ，表示最初有一个 `n x n` 、下标从 0 开始的整数矩阵 `mat` ，矩阵中填满了 0。
+给你一个正整数 `n`，表示最初有一个 `n x n` 、下标从 0 开始的整数矩阵 `mat`，矩阵中填满了 0。
 
-另给你一个二维整数数组 `query`。针对每个查询 `query[i] = [row1i, col1i, row2i, col2i]` ，请你执行下述操作：
+另给你一个二维整数数组 `query`。针对每个查询 `query[i] = [row1i, col1i, row2i, col2i]`，请你执行下述操作：
 
 - 找出 左上角 为 `(row1i, col1i)` 且 右下角 为 `(row2i, col2i)` 的子矩阵，将子矩阵中的 每个元素 加 `1`。也就是给所有满足 `row1i <= x <= row2i` 和 `col1i <= y <= col2i` 的 `mat[x][y]` 加 `1`。
 

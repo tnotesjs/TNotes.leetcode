@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/boats-to-save-people)
 
-给定数组 `people`。`people[i]`表示第 `i` 个人的体重 ，船的数量不限，每艘船可以承载的最大重量为 `limit`。
+给定数组 `people`。`people[i]`表示第 `i` 个人的体重，船的数量不限，每艘船可以承载的最大重量为 `limit`。
 
 每艘船最多可同时载两人，但条件是这些人的重量之和最多为 `limit`。
 
@@ -88,7 +88,6 @@ var numRescueBoats = function (people, limit) {
 > 会发现，本题的最优解不唯一。
 >
 > - 3 + 7 | 5 + 5 | 2 => 浪费的资源 0 + 0 + 8 => 8
->
 > - 7 + 2 | 5 + 3 | 5 => 浪费的资源 1 + 2 + 5 => 8
 > - ... 等等
 >

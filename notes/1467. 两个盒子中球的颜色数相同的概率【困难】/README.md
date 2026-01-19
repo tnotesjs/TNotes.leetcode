@@ -11,9 +11,9 @@
 
 - [leetcode](https://leetcode.cn/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/)
 
-桌面上有 `2n` 个颜色不完全相同的球，球的颜色共有 `k` 种。给你一个大小为 `k` 的整数数组 `balls` ，其中 `balls[i]` 是颜色为 `i` 的球的数量。
+桌面上有 `2n` 个颜色不完全相同的球，球的颜色共有 `k` 种。给你一个大小为 `k` 的整数数组 `balls`，其中 `balls[i]` 是颜色为 `i` 的球的数量。
 
-所有的球都已经 随机打乱顺序 ，前 `n` 个球放入第一个盒子，后 `n` 个球放入另一个盒子（请认真阅读示例 2 的解释部分）。
+所有的球都已经 随机打乱顺序，前 `n` 个球放入第一个盒子，后 `n` 个球放入另一个盒子（请认真阅读示例 2 的解释部分）。
 
 ---
 

@@ -32,8 +32,8 @@
 输入：expression = "&(|(f))"
 输出：false
 解释：
-首先，计算 |(f) --> f ，表达式变为 "&(f)"。
-接着，计算 &(f) --> f ，表达式变为 "f"。
+首先，计算 |(f) --> f，表达式变为 "&(f)"。
+接着，计算 &(f) --> f，表达式变为 "f"。
 最后，返回 false。
 ```
 
@@ -42,7 +42,7 @@
 ```txt
 输入：expression = "|(f,f,f,t)"
 输出：true
-解释：计算 (false OR false OR false OR true) ，结果为 true。
+解释：计算 (false OR false OR false OR true)，结果为 true。
 ```
 
 示例 3：
@@ -51,8 +51,8 @@
 输入：expression = "!(&(f,t))"
 输出：true
 解释：
-首先，计算 &(f,t) --> (false AND true) --> false --> f ，表达式变为 "!(f)"。
-接着，计算 !(f) --> NOT false --> true ，返回 true。
+首先，计算 &(f,t) --> (false AND true) --> false --> f，表达式变为 "!(f)"。
+接着，计算 !(f) --> NOT false --> true，返回 true。
 ```
 
 ---

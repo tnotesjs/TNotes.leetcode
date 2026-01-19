@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/shortest-completing-word/)
 
-给你一个字符串 `licensePlate` 和一个字符串数组 `words` ，请你找出 `words` 中的 最短补全词。
+给你一个字符串 `licensePlate` 和一个字符串数组 `words`，请你找出 `words` 中的 最短补全词。
 
 补全词 是一个包含 `licensePlate` 中所有字母的单词。忽略 `licensePlate` 中的 数字和空格。不区分大小写。如果某个字母在 `licensePlate` 中出现不止一次，那么该字母在补全词中的出现次数应当一致或者更多。
 
@@ -39,7 +39,7 @@
 ```txt
 输入：licensePlate = "1s3 456", words = ["looks", "pest", "stew", "show"]
 输出："pest"
-解释：licensePlate 只包含字母 "s"。所有的单词都包含字母 "s" ，其中 "pest"、"stew"、和 "show" 三者最短。答案是 "pest" ，因为它是三个单词中在 words 里最靠前的那个。
+解释：licensePlate 只包含字母 "s"。所有的单词都包含字母 "s"，其中 "pest"、"stew"、和 "show" 三者最短。答案是 "pest"，因为它是三个单词中在 words 里最靠前的那个。
 ```
 
 ---

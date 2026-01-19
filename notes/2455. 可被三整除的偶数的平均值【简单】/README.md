@@ -11,9 +11,9 @@
 
 - [leetcode](https://leetcode.cn/problems/average-value-of-even-numbers-that-are-divisible-by-three/)
 
-给你一个由正整数组成的整数数组 `nums` ，返回其中可被 `3` 整除的所有偶数的平均值。
+给你一个由正整数组成的整数数组 `nums`，返回其中可被 `3` 整除的所有偶数的平均值。
 
-注意：`n` 个元素的平均值等于 `n` 个元素 求和 再除以 `n` ，结果 向下取整 到最接近的整数。
+注意：`n` 个元素的平均值等于 `n` 个元素 求和 再除以 `n`，结果 向下取整 到最接近的整数。
 
 ---
 

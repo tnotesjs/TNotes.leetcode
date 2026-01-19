@@ -26,7 +26,7 @@
 输出：true
 解释：将 words[1] 中的第一个 'a' 移动到 words[2] 的最前面。
 使 words[1] = "abc" 且 words[2] = "abc"。
-所有字符串都等于 "abc" ，所以返回 true。
+所有字符串都等于 "abc"，所以返回 true。
 ```
 
 示例 2：

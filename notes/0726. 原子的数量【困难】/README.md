@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/number-of-atoms/)
 
-给你一个字符串化学式 `formula` ，返回 每种原子的数量。
+给你一个字符串化学式 `formula`，返回 每种原子的数量。
 
 原子总是以一个大写字母开始，接着跟随 0 个或任意个小写字母，表示原子的名字。
 

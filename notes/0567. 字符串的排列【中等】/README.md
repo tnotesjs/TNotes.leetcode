@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/permutation-in-string/)
 
-给你两个字符串 `s1` 和 `s2` ，写一个函数来判断 `s2` 是否包含 `s1` 的 排列。如果是，返回 `true` ；否则，返回 `false`。
+给你两个字符串 `s1` 和 `s2`，写一个函数来判断 `s2` 是否包含 `s1` 的 排列。如果是，返回 `true` ；否则，返回 `false`。
 
 > 排列是字符串中所有字符的重新排序。
 

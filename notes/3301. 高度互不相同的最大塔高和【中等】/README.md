@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/maximize-the-total-height-of-unique-towers/)
 
-给你一个数组 `maximumHeight` ，其中 `maximumHeight[i]` 表示第 `i` 座塔可以达到的 最大 高度。
+给你一个数组 `maximumHeight`，其中 `maximumHeight[i]` 表示第 `i` 座塔可以达到的 最大 高度。
 
 你的任务是给每一座塔分别设置一个高度，使得：
 

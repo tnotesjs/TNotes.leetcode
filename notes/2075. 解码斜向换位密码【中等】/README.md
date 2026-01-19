@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/decode-the-slanted-ciphertext/)
 
-字符串 `originalText` 使用 斜向换位密码 ，经由 行数固定 为 `rows` 的矩阵辅助，加密得到一个字符串 `encodedText`。
+字符串 `originalText` 使用 斜向换位密码，经由 行数固定 为 `rows` 的矩阵辅助，加密得到一个字符串 `encodedText`。
 
 `originalText` 先按从左上到右下的方式放置到矩阵中。
 
@@ -25,13 +25,13 @@
 
 先把蓝色单元格中的字符附加到 `encodedText` 中，接着是红色单元格，最后是黄色单元格。箭头指示单元格访问顺序。
 
-例如，如果 `originalText = "cipher"` 且 `rows = 3` ，那么我们可以按下述方法将其编码：
+例如，如果 `originalText = "cipher"` 且 `rows = 3`，那么我们可以按下述方法将其编码：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-26-23-10-29.png)
 
 蓝色箭头标识 `originalText` 是如何放入矩阵中的，红色箭头标识形成 `encodedText` 的顺序。在上述例子中，`encodedText = "ch ie pr"`。
 
-给你编码后的字符串 `encodedText` 和矩阵的行数 `rows` ，返回源字符串 `originalText`。
+给你编码后的字符串 `encodedText` 和矩阵的行数 `rows`，返回源字符串 `originalText`。
 
 ---
 

@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/maximum-number-of-weeks-for-which-you-can-work/)
 
-给你 `n` 个项目，编号从 `0` 到 `n - 1`。同时给你一个整数数组 `milestones` ，其中每个 `milestones[i]` 表示第 `i` 个项目中的阶段任务数量。
+给你 `n` 个项目，编号从 `0` 到 `n - 1`。同时给你一个整数数组 `milestones`，其中每个 `milestones[i]` 表示第 `i` 个项目中的阶段任务数量。
 
 你可以按下面两个规则参与项目中的工作：
 

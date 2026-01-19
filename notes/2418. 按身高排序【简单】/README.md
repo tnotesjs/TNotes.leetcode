@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/sort-the-people/)
 
-给你一个字符串数组 `names` ，和一个由互不相同的正整数组成的数组 `heights`。两个数组的长度均为 `n`。
+给你一个字符串数组 `names`，和一个由互不相同的正整数组成的数组 `heights`。两个数组的长度均为 `n`。
 
 对于每个下标 `i`，`names[i]` 和 `heights[i]` 表示第 `i` 个人的名字和身高。
 

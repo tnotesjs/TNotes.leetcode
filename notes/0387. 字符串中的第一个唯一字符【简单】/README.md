@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/first-unique-character-in-a-string/)
 
-给定一个字符串 `s` ，找到 _它的第一个不重复的字符，并返回它的索引_。如果不存在，则返回 `-1`。
+给定一个字符串 `s`，找到 _它的第一个不重复的字符，并返回它的索引_。如果不存在，则返回 `-1`。
 
 ---
 

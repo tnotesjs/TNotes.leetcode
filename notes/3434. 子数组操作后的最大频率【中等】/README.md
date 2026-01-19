@@ -11,11 +11,11 @@
 
 - [leetcode](https://leetcode.cn/problems/maximum-frequency-after-subarray-operation/)
 
-给你一个长度为 `n` 的数组 `nums` ，同时给你一个整数 `k`。
+给你一个长度为 `n` 的数组 `nums`，同时给你一个整数 `k`。
 
 你可以对 `nums` 执行以下操作 一次 ：
 
-- 选择一个子数组 `nums[i..j]` ，其中 `0 <= i <= j <= n - 1`。
+- 选择一个子数组 `nums[i..j]`，其中 `0 <= i <= j <= n - 1`。
 - 选择一个整数 `x` 并将 `nums[i..j]` 中 所有 元素都增加 `x`。
 
 请你返回执行以上操作以后数组中 `k` 出现的 最大 频率。

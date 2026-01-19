@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/find-indices-with-index-and-value-difference-i/)
 
-给你一个下标从 0 开始、长度为 `n` 的整数数组 `nums` ，以及整数 `indexDifference` 和整数 `valueDifference`。
+给你一个下标从 0 开始、长度为 `n` 的整数数组 `nums`，以及整数 `indexDifference` 和整数 `valueDifference`。
 
 你的任务是从范围 `[0, n - 1]` 内找出 2 个满足下述所有条件的下标 `i` 和 `j` ：
 

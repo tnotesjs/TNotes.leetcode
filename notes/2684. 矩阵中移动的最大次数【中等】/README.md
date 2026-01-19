@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/maximum-number-of-moves-in-a-grid/)
 
-给你一个下标从 0 开始、大小为 `m x n` 的矩阵 `grid` ，矩阵由若干 正 整数组成。
+给你一个下标从 0 开始、大小为 `m x n` 的矩阵 `grid`，矩阵由若干 正 整数组成。
 
 你可以从矩阵第一列中的 任一 单元格出发，按以下方式遍历 `grid` ：
 

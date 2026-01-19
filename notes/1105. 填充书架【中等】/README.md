@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/filling-bookcase-shelves/)
 
-给定一个数组 `books` ，其中 `books[i] = [thicknessi, heighti]` 表示第 `i` 本书的厚度和高度。你也会得到一个整数 `shelfWidth`。
+给定一个数组 `books`，其中 `books[i] = [thicknessi, heighti]` 表示第 `i` 本书的厚度和高度。你也会得到一个整数 `shelfWidth`。
 
 按顺序 将这些书摆放到总宽度为 `shelfWidth` 的书架上。
 

@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/perfect-rectangle/)
 
-给你一个数组 `rectangles` ，其中 `rectangles[i] = [xi, yi, ai, bi]` 表示一个坐标轴平行的矩形。这个矩形的左下顶点是 `(xi, yi)` ，右上顶点是 `(ai, bi)`。
+给你一个数组 `rectangles`，其中 `rectangles[i] = [xi, yi, ai, bi]` 表示一个坐标轴平行的矩形。这个矩形的左下顶点是 `(xi, yi)`，右上顶点是 `(ai, bi)`。
 
 如果所有矩形一起精确覆盖了某个矩形区域，则返回 `true` ；否则，返回 `false`。
 

@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/find-three-consecutive-integers-that-sum-to-a-given-number/)
 
-给你一个整数 `num` ，请你返回三个连续的整数，它们的 和 为 `num`。如果 `num` 无法被表示成三个连续整数的和，请你返回一个 空 数组。
+给你一个整数 `num`，请你返回三个连续的整数，它们的 和 为 `num`。如果 `num` 无法被表示成三个连续整数的和，请你返回一个 空 数组。
 
 ---
 

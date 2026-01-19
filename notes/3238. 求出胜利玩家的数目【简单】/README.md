@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/find-the-number-of-winning-players/)
 
-给你一个整数 `n` ，表示在一个游戏中的玩家数目。同时给你一个二维整数数组 `pick` ，其中 `pick[i] = [xi, yi]` 表示玩家 `xi` 获得了一个颜色为 `yi` 的球。
+给你一个整数 `n`，表示在一个游戏中的玩家数目。同时给你一个二维整数数组 `pick`，其中 `pick[i] = [xi, yi]` 表示玩家 `xi` 获得了一个颜色为 `yi` 的球。
 
 如果玩家 `i` 获得的球中任何一种颜色球的数目 严格大于 `i` 个，那么我们说玩家 `i` 是胜利玩家。换句话说：
 

@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/find-largest-value-in-each-tree-row/)
 
-给定一棵二叉树的根节点 `root` ，请找出该二叉树中每一层的最大值。
+给定一棵二叉树的根节点 `root`，请找出该二叉树中每一层的最大值。
 
 示例 1：
 

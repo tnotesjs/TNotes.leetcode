@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/flower-planting-with-no-adjacent/)
 
-有 `n` 个花园，按从 `1` 到 `n` 标记。另有数组 `paths` ，其中 `paths[i] = [xi, yi]` 描述了花园 `xi` 到花园 `yi` 的双向路径。在每个花园中，你打算种下四种花之一。
+有 `n` 个花园，按从 `1` 到 `n` 标记。另有数组 `paths`，其中 `paths[i] = [xi, yi]` 描述了花园 `xi` 到花园 `yi` 的双向路径。在每个花园中，你打算种下四种花之一。
 
 另外，所有花园 最多 有 3 条路径可以进入或离开.
 

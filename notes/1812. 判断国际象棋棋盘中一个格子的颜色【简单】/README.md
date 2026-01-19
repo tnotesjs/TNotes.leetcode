@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/determine-color-of-a-chessboard-square/)
 
-给你一个坐标 `coordinates` ，它是一个字符串，表示国际象棋棋盘中一个格子的坐标。下图是国际象棋棋盘示意图。
+给你一个坐标 `coordinates`，它是一个字符串，表示国际象棋棋盘中一个格子的坐标。下图是国际象棋棋盘示意图。
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-25-12-26-02.png)
 

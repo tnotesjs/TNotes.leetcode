@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/find-minimum-diameter-after-merging-two-trees/)
 
-给你两棵 无向 树，分别有 `n` 和 `m` 个节点，节点编号分别为 `0` 到 `n - 1` 和 `0` 到 `m - 1`。给你两个二维整数数组 `edges1` 和 `edges2` ，长度分别为 `n - 1` 和 `m - 1` ，其中 `edges1[i] = [ai, bi]` 表示在第一棵树中节点 `ai` 和 `bi` 之间有一条边，`edges2[i] = [ui, vi]` 表示在第二棵树中节点 `ui` 和 `vi` 之间有一条边。
+给你两棵 无向 树，分别有 `n` 和 `m` 个节点，节点编号分别为 `0` 到 `n - 1` 和 `0` 到 `m - 1`。给你两个二维整数数组 `edges1` 和 `edges2`，长度分别为 `n - 1` 和 `m - 1`，其中 `edges1[i] = [ai, bi]` 表示在第一棵树中节点 `ai` 和 `bi` 之间有一条边，`edges2[i] = [ui, vi]` 表示在第二棵树中节点 `ui` 和 `vi` 之间有一条边。
 
 你必须在第一棵树和第二棵树中分别选一个节点，并用一条边连接它们。
 

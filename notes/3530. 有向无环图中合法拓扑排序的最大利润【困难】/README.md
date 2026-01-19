@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/maximum-profit-from-valid-topological-order-in-dag/)
 
-给你一个由 `n` 个节点组成的有向无环图（DAG），节点编号从 `0` 到 `n - 1`，通过二维数组 `edges` 表示，其中 `edges[i] = [ui, vi]` 表示一条从节点 `ui` 指向节点 `vi` 的有向边。每个节点都有一个对应的 得分 ，由数组 `score` 给出，其中 `score[i]` 表示节点 `i` 的得分。
+给你一个由 `n` 个节点组成的有向无环图（DAG），节点编号从 `0` 到 `n - 1`，通过二维数组 `edges` 表示，其中 `edges[i] = [ui, vi]` 表示一条从节点 `ui` 指向节点 `vi` 的有向边。每个节点都有一个对应的 得分，由数组 `score` 给出，其中 `score[i]` 表示节点 `i` 的得分。
 
 你需要以 有效的拓扑排序 顺序处理这些节点。每个节点在处理顺序中被分配一个编号从 1 开始的位置。
 

@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/average-waiting-time/)
 
-有一个餐厅，只有一位厨师。你有一个顾客数组 `customers` ，其中 `customers[i] = [arrivali, timei]` ：
+有一个餐厅，只有一位厨师。你有一个顾客数组 `customers`，其中 `customers[i] = [arrivali, timei]` ：
 
 - `arrivali` 是第 `i` 位顾客到达的时间，到达时间按 非递减 顺序排列。
 - `timei` 是给第 `i` 位顾客做菜需要的时间。

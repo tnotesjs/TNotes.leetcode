@@ -11,14 +11,14 @@
 
 - [leetcode](https://leetcode.cn/problems/triples-with-bitwise-and-equal-to-zero/)
 
-给你一个整数数组 `nums` ，返回其中 按位与三元组 的数目。
+给你一个整数数组 `nums`，返回其中 按位与三元组 的数目。
 
 按位与三元组 是由下标 `(i, j, k)` 组成的三元组，并满足下述全部条件：
 
 - `0 <= i < nums.length`
 - `0 <= j < nums.length`
 - `0 <= k < nums.length`
-- `nums[i] & nums[j] & nums[k] == 0` ，其中 `&` 表示按位与运算符。
+- `nums[i] & nums[j] & nums[k] == 0`，其中 `&` 表示按位与运算符。
 
 ---
 

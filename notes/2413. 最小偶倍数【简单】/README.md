@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/smallest-even-multiple/)
 
-给你一个正整数 `n` ，返回 `2` 和 `n` 的最小公倍数（正整数）。
+给你一个正整数 `n`，返回 `2` 和 `n` 的最小公倍数（正整数）。
 
 ---
 

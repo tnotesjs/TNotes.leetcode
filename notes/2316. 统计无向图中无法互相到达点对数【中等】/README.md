@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/)
 
-给你一个整数 `n` ，表示一张 无向图 中有 `n` 个节点，编号为 `0` 到 `n - 1`。同时给你一个二维整数数组 `edges` ，其中 `edges[i] = [ai, bi]` 表示节点 `ai` 和 `bi` 之间有一条 无向 边。
+给你一个整数 `n`，表示一张 无向图 中有 `n` 个节点，编号为 `0` 到 `n - 1`。同时给你一个二维整数数组 `edges`，其中 `edges[i] = [ai, bi]` 表示节点 `ai` 和 `bi` 之间有一条 无向 边。
 
 请你返回 无法互相到达 的不同 点对数目。
 

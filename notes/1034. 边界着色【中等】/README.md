@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/coloring-a-border/)
 
-给你一个大小为 `m x n` 的整数矩阵 `grid` ，表示一个网格。另给你三个整数 `row`、`col` 和 `color`。网格中的每个值表示该位置处的网格块的颜色。
+给你一个大小为 `m x n` 的整数矩阵 `grid`，表示一个网格。另给你三个整数 `row`、`col` 和 `color`。网格中的每个值表示该位置处的网格块的颜色。
 
 如果两个方块在任意 4 个方向上相邻，则称它们 相邻。
 

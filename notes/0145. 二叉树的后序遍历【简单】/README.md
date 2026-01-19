@@ -13,7 +13,7 @@
 
 - [leetcode](https://leetcode.cn/problems/binary-tree-postorder-traversal)
 
-给你一棵二叉树的根节点 `root` ，返回其节点值的后序遍历。
+给你一棵二叉树的根节点 `root`，返回其节点值的后序遍历。
 
 ---
 

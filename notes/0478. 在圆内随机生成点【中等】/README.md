@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/generate-random-point-in-a-circle/)
 
-给定圆的半径和圆心的位置，实现函数 `randPoint` ，在圆中产生均匀随机点。
+给定圆的半径和圆心的位置，实现函数 `randPoint`，在圆中产生均匀随机点。
 
 实现 `Solution` 类:
 

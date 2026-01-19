@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/maximum-length-of-repeated-subarray/)
 
-给两个整数数组 `nums1` 和 `nums2` ，返回两个数组中 公共的 、长度最长的子数组的长度。
+给两个整数数组 `nums1` 和 `nums2`，返回两个数组中 公共的 、长度最长的子数组的长度。
 
 ---
 

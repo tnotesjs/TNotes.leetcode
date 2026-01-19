@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/number-of-ways-to-reconstruct-a-tree/)
 
-给你一个数组 `pairs` ，其中 `pairs[i] = [xi, yi]` ，并且满足：
+给你一个数组 `pairs`，其中 `pairs[i] = [xi, yi]`，并且满足：
 
 - `pairs` 中没有重复元素
 - `xi < yi`
@@ -26,9 +26,9 @@
 
 请你返回：
 
-- 如果 `ways == 0` ，返回 `0`。
-- 如果 `ways == 1` ，返回 `1`。
-- 如果 `ways > 1` ，返回 `2`。
+- 如果 `ways == 0`，返回 `0`。
+- 如果 `ways == 1`，返回 `1`。
+- 如果 `ways > 1`，返回 `2`。
 
 一棵 有根树 指的是只有一个根节点的树，所有边都是从根往外的方向。
 

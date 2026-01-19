@@ -15,11 +15,11 @@
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-08-07-55.png)
 
-我们将每一个升序的正整数 `i` （即 1，2，3 等等）的 强数组 连接得到数组 `big_nums` ，`big_nums` 开始部分为 `[1, 2, 1, 2, 4, 1, 4, 2, 4, 1, 2, 4, 8, ...]`。
+我们将每一个升序的正整数 `i` （即 1，2，3 等等）的 强数组 连接得到数组 `big_nums`，`big_nums` 开始部分为 `[1, 2, 1, 2, 4, 1, 4, 2, 4, 1, 2, 4, 8, ...]`。
 
-给你一个二维整数数组 `queries` ，其中 `queries[i] = [fromi, toi, modi]` ，你需要计算 `(big_nums[fromi] * big_nums[fromi + 1] * ... * big_nums[toi]) % modi`。
+给你一个二维整数数组 `queries`，其中 `queries[i] = [fromi, toi, modi]`，你需要计算 `(big_nums[fromi] * big_nums[fromi + 1] * ... * big_nums[toi]) % modi`。
 
-请你返回一个整数数组 `answer` ，其中 `answer[i]` 是第 `i` 个查询的答案。
+请你返回一个整数数组 `answer`，其中 `answer[i]` 是第 `i` 个查询的答案。
 
 ---
 

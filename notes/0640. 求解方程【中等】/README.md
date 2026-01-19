@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/solve-the-equation/)
 
-求解一个给定的方程，将 `x` 以字符串 `"x=#value"` 的形式返回。该方程仅包含 `'+'` ， `'-'` 操作，变量 `x` 和其对应系数。
+求解一个给定的方程，将 `x` 以字符串 `"x=#value"` 的形式返回。该方程仅包含 `'+'`， `'-'` 操作，变量 `x` 和其对应系数。
 
 如果方程没有解或存在的解不为整数，请返回 `"No solution"`。如果方程有无限解，则返回 `“Infinite solutions”`。
 

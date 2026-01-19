@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/best-poker-hand/)
 
-给你一个整数数组 `ranks` 和一个字符数组 `suit`。你有 `5` 张扑克牌，第 `i` 张牌大小为 `ranks[i]` ，花色为 `suits[i]`。
+给你一个整数数组 `ranks` 和一个字符数组 `suit`。你有 `5` 张扑克牌，第 `i` 张牌大小为 `ranks[i]`，花色为 `suits[i]`。
 
 下述是从好到坏你可能持有的 手牌类型 ：
 
@@ -48,7 +48,7 @@
 
 解释：
 第一、二和四张牌组成三张相同大小的扑克牌，所以得到 "Three of a Kind"。
-注意我们也可以得到 "Pair" ，但是 "Three of a Kind" 是更好的手牌类型。
+注意我们也可以得到 "Pair"，但是 "Three of a Kind" 是更好的手牌类型。
 有其他的 3 张牌也可以组成 "Three of a Kind" 手牌类型。
 ```
 

@@ -20,7 +20,7 @@
   - `arr[0] < arr[1] < ... < arr[i - 1] < arr[i]`
   - `arr[i] > arr[i + 1] > ... > arr[arr.length - 1]`
 
-给定一个山脉数组 `mountainArr` ，返回 最小 的 `index` 使得 `mountainArr.get(index) == target`。如果不存在这样的 `index`，返回 `-1`。
+给定一个山脉数组 `mountainArr`，返回 最小 的 `index` 使得 `mountainArr.get(index) == target`。如果不存在这样的 `index`，返回 `-1`。
 
 你无法直接访问山脉数组。你只能使用 `MountainArray` 接口来访问数组：
 

@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/amount-of-time-for-binary-tree-to-be-infected/)
 
-给你一棵二叉树的根节点 `root` ，二叉树中节点的值 互不相同。另给你一个整数 `start`。在第 `0` 分钟，感染 将会从值为 `start` 的节点开始爆发。
+给你一棵二叉树的根节点 `root`，二叉树中节点的值 互不相同。另给你一个整数 `start`。在第 `0` 分钟，感染 将会从值为 `start` 的节点开始爆发。
 
 每分钟，如果节点满足以下全部条件，就会被感染：
 

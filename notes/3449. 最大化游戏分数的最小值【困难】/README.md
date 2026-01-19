@@ -11,12 +11,12 @@
 
 - [leetcode](https://leetcode.cn/problems/maximize-the-minimum-game-score/)
 
-给你一个长度为 `n` 的数组 `points` 和一个整数 `m`。同时有另外一个长度为 `n` 的数组 `gameScore` ，其中 `gameScore[i]` 表示第 `i` 个游戏得到的分数。一开始对于所有的 `i` 都有 `gameScore[i] == 0`。
+给你一个长度为 `n` 的数组 `points` 和一个整数 `m`。同时有另外一个长度为 `n` 的数组 `gameScore`，其中 `gameScore[i]` 表示第 `i` 个游戏得到的分数。一开始对于所有的 `i` 都有 `gameScore[i] == 0`。
 
 你开始于下标 -1 处，该下标在数组以外（在下标 0 前面一个位置）。你可以执行 至多 `m` 次操作，每一次操作中，你可以执行以下两个操作之一：
 
-- 将下标增加 1 ，同时将 `points[i]` 添加到 `gameScore[i]`。
-- 将下标减少 1 ，同时将 `points[i]` 添加到 `gameScore[i]`。
+- 将下标增加 1，同时将 `points[i]` 添加到 `gameScore[i]`。
+- 将下标减少 1，同时将 `points[i]` 添加到 `gameScore[i]`。
 
 注意，在第一次移动以后，下标必须始终保持在数组范围以内。
 
@@ -36,7 +36,7 @@
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-19-17.png)
 
-`gameScore` 中的最小值为 4 ，这是所有方案中可以得到的最大值，所以返回 4。
+`gameScore` 中的最小值为 4，这是所有方案中可以得到的最大值，所以返回 4。
 
 ---
 
@@ -52,7 +52,7 @@
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-29-22-19-29.png)
 
-`gameScore` 中的最小值为 2 ，这是所有方案中可以得到的最大值，所以返回 2。
+`gameScore` 中的最小值为 2，这是所有方案中可以得到的最大值，所以返回 2。
 
 ---
 

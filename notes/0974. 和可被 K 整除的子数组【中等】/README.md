@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/subarray-sums-divisible-by-k/)
 
-给定一个整数数组 `nums` 和一个整数 `k` ，返回其中元素之和可被 `k` 整除的非空 子数组 的数目。
+给定一个整数数组 `nums` 和一个整数 `k`，返回其中元素之和可被 `k` 整除的非空 子数组 的数目。
 
 子数组 是数组中 连续 的部分。
 

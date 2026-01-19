@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/unique-length-3-palindromic-subsequences/)
 
-给你一个字符串 `s` ，返回 `s` 中 长度为 3 的不同回文子序列 的个数。
+给你一个字符串 `s`，返回 `s` 中 长度为 3 的不同回文子序列 的个数。
 
 即便存在多种方法来构建相同的子序列，但相同的子序列只计数一次。
 

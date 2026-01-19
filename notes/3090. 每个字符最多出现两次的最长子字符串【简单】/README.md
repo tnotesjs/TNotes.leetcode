@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/maximum-length-substring-with-two-occurrences/)
 
-给你一个字符串 `s` ，请找出满足每个字符最多出现两次的最长子字符串，并返回该子字符串的 最大 长度。
+给你一个字符串 `s`，请找出满足每个字符最多出现两次的最长子字符串，并返回该子字符串的 最大 长度。
 
 > 子字符串 是字符串中连续的字符序列。
 

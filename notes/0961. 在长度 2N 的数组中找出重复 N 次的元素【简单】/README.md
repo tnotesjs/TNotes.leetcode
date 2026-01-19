@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/n-repeated-element-in-size-2n-array/)
 
-给你一个整数数组 `nums` ，该数组具有以下属性：
+给你一个整数数组 `nums`，该数组具有以下属性：
 
 - `nums.length == 2 * n`.
 - `nums` 包含 `n + 1` 个不同的元素

@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/partition-array-such-that-maximum-difference-is-k/)
 
-给你一个整数数组 `nums` 和一个整数 `k`。你可以将 `nums` 划分成一个或多个 子序列 ，使 `nums` 中的每个元素都 恰好 出现在一个子序列中。
+给你一个整数数组 `nums` 和一个整数 `k`。你可以将 `nums` 划分成一个或多个 子序列，使 `nums` 中的每个元素都 恰好 出现在一个子序列中。
 
 在满足每个子序列中最大值和最小值之间的差值最多为 `k` 的前提下，返回需要划分的 最少 子序列数目。
 

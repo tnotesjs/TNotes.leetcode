@@ -18,7 +18,7 @@
 注意：
 
 - 如果某个整数大于 `1`，且不存在除 `1` 和自身之外的正整数因子，则认为该整数是一个质数。
-- 如果存在整数 `i` ，使得 `nums[i][i] = val` 或者 `nums[i][nums.length - i - 1]= val`，则认为整数 `val` 位于 `nums` 的一条对角线上。
+- 如果存在整数 `i`，使得 `nums[i][i] = val` 或者 `nums[i][nums.length - i - 1]= val`，则认为整数 `val` 位于 `nums` 的一条对角线上。
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-27-21-14-22.png)
 

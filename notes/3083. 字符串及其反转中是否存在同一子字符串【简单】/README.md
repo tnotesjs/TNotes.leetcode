@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/existence-of-a-substring-in-a-string-and-its-reverse/)
 
-给你一个字符串 `s` ，请你判断字符串 `s` 是否存在一个长度为 `2` 的子字符串，在 `s` 反转后的字符串中也出现。
+给你一个字符串 `s`，请你判断字符串 `s` 是否存在一个长度为 `2` 的子字符串，在 `s` 反转后的字符串中也出现。
 
 如果存在这样的子字符串，返回 `true`；如果不存在，返回 `false`。
 

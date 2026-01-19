@@ -28,7 +28,7 @@
 [null, 0]
 解释
 WordFilter wordFilter = new WordFilter(["apple"]);
-wordFilter.f("a", "e"); // 返回 0 ，因为下标为 0 的单词：前缀 prefix = "a" 且 后缀 suffix = "e"。
+wordFilter.f("a", "e"); // 返回 0，因为下标为 0 的单词：前缀 prefix = "a" 且 后缀 suffix = "e"。
 ```
 
 ---

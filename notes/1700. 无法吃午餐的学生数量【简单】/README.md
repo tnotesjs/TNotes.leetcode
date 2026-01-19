@@ -19,7 +19,7 @@
 
 这个过程会一直持续到队列里所有学生都不喜欢栈顶的三明治为止。
 
-给你两个整数数组 `students` 和 `sandwiches` ，其中 `sandwiches[i]` 是栈里面第 `i^​​​​​​` 个三明治的类型（`i = 0` 是栈的顶部）， `students[j]` 是初始队列里第 `j^​​​​​​` 名学生对三明治的喜好（`j = 0` 是队列的最开始位置）。请你返回无法吃午餐的学生数量。
+给你两个整数数组 `students` 和 `sandwiches`，其中 `sandwiches[i]` 是栈里面第 `i^​​​​​​` 个三明治的类型（`i = 0` 是栈的顶部）， `students[j]` 是初始队列里第 `j^​​​​​​` 名学生对三明治的喜好（`j = 0` 是队列的最开始位置）。请你返回无法吃午餐的学生数量。
 
 ---
 
@@ -56,8 +56,8 @@
 
 - `1 <= students.length, sandwiches.length <= 100`
 - `students.length == sandwiches.length`
-- `sandwiches[i]` 要么是 `0` ，要么是 `1`。
-- `students[i]` 要么是 `0` ，要么是 `1`。
+- `sandwiches[i]` 要么是 `0`，要么是 `1`。
+- `students[i]` 要么是 `0`，要么是 `1`。
 
 ## 2. 🎯 s.1 - 计数匹配
 

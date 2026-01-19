@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/minimum-length-of-string-after-deleting-similar-ends/)
 
-给你一个只包含字符 `'a'`，`'b'` 和 `'c'` 的字符串 `s` ，你可以执行下面这个操作（5 个步骤）任意次：
+给你一个只包含字符 `'a'`，`'b'` 和 `'c'` 的字符串 `s`，你可以执行下面这个操作（5 个步骤）任意次：
 
 1. 选择字符串 `s` 一个 非空 的前缀，这个前缀的所有字符都相同。
 2. 选择字符串 `s` 一个 非空 的后缀，这个后缀的所有字符都相同。

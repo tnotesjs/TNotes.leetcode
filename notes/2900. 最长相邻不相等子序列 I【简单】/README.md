@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/longest-unequal-adjacent-groups-subsequence-i/)
 
-给定一个字符串数组 `words` ，和一个 二进制 数组 `groups` ，两个数组长度都是 `n`。
+给定一个字符串数组 `words`，和一个 二进制 数组 `groups`，两个数组长度都是 `n`。
 
 如果 `words` 的一个 子序列 是交替的，那么对于序列中的任意两个连续字符串，它们在 `groups` 中相同索引的对应元素是 不同 的（也就是说，不能有连续的 0 或 1），
 
@@ -34,9 +34,9 @@
 
 解释：
 
-- 一个可行的子序列是 `[0,2]` ，因为 `groups[0] != groups[2]`。
+- 一个可行的子序列是 `[0,2]`，因为 `groups[0] != groups[2]`。
 - 所以一个可行的答案是 `[words[0],words[2]] = ["e","b"]`。
-- 另一个可行的子序列是 `[1,2]` ，因为 `groups[1] != groups[2]`。
+- 另一个可行的子序列是 `[1,2]`，因为 `groups[1] != groups[2]`。
 - 得到答案为 `[words[1],words[2]] = ["a","b"]`。
 - 这也是一个可行的答案。
 - 符合题意的最长子序列的长度为 2。

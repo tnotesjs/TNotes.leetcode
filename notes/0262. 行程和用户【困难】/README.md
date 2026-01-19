@@ -25,7 +25,7 @@
 | request_at  | varchar  |
 +-------------+----------+
 id 是这张表的主键（具有唯一值的列）。
-这张表中存所有出租车的行程信息。每段行程有唯一 id ，其中 client_id 和 driver_id 是 Users 表中 users_id 的外键。
+这张表中存所有出租车的行程信息。每段行程有唯一 id，其中 client_id 和 driver_id 是 Users 表中 users_id 的外键。
 status 是一个表示行程状态的枚举类型，枚举成员为(‘completed’, ‘cancelled_by_driver’, ‘cancelled_by_client’)。
 ```
 
@@ -40,7 +40,7 @@ status 是一个表示行程状态的枚举类型，枚举成员为(‘completed
 | role        | enum     |
 +-------------+----------+
 users_id 是这张表的主键（具有唯一值的列）。
-这张表中存所有用户，每个用户都有一个唯一的 users_id ，role 是一个表示用户身份的枚举类型，枚举成员为 (‘client’, ‘driver’, ‘partner’)。
+这张表中存所有用户，每个用户都有一个唯一的 users_id，role 是一个表示用户身份的枚举类型，枚举成员为 (‘client’, ‘driver’, ‘partner’)。
 banned 是一个表示用户是否被禁止的枚举类型，枚举成员为 (‘Yes’, ‘No’)。
 ```
 

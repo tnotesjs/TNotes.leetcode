@@ -70,7 +70,7 @@ textEditor.cursorRight(6); // 返回 "practi"
 
 - `1 <= text.length, k <= 40`
 - `text` 只含有小写英文字母。
-- 调用 `addText` ，`deleteText` ，`cursorLeft` 和 `cursorRight` 的 总 次数不超过 `2 * 10^4` 次。
+- 调用 `addText`，`deleteText`，`cursorLeft` 和 `cursorRight` 的 总 次数不超过 `2 * 10^4` 次。
 
 进阶：你能设计并实现一个每次调用时间复杂度为 `O(k)` 的解决方案吗？
 

@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/top-k-frequent-words/)
 
-给定一个单词列表 `words` 和一个整数 `k` ，返回前 `k` 个出现次数最多的单词。
+给定一个单词列表 `words` 和一个整数 `k`，返回前 `k` 个出现次数最多的单词。
 
 返回的答案应该按单词出现频率由高到低排序。如果不同的单词有相同出现频率， 按字典顺序 排序。
 

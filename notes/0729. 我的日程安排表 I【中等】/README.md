@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/my-calendar-i/)
 
-实现一个 `MyCalendar` 类来存放你的日程安排。如果要添加的日程安排不会造成 重复预订 ，则可以存储这个新的日程安排。
+实现一个 `MyCalendar` 类来存放你的日程安排。如果要添加的日程安排不会造成 重复预订，则可以存储这个新的日程安排。
 
 当两个日程安排有一些时间上的交叉时（例如两个日程安排都在同一时间内），就会产生 重复预订。
 
@@ -34,8 +34,8 @@
 解释：
 MyCalendar myCalendar = new MyCalendar();
 myCalendar.book(10, 20); // return True
-myCalendar.book(15, 25); // return False ，这个日程安排不能添加到日历中，因为时间 15 已经被另一个日程安排预订了。
-myCalendar.book(20, 30); // return True ，这个日程安排可以添加到日历中，因为第一个日程安排预订的每个时间都小于 20 ，且不包含时间 20。
+myCalendar.book(15, 25); // return False，这个日程安排不能添加到日历中，因为时间 15 已经被另一个日程安排预订了。
+myCalendar.book(20, 30); // return True，这个日程安排可以添加到日历中，因为第一个日程安排预订的每个时间都小于 20，且不包含时间 20。
 ```
 
 ---

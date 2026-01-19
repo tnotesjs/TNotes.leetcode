@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/minimum-sum-of-squared-difference/)
 
-给你两个下标从 0 开始的整数数组 `nums1` 和 `nums2` ，长度为 `n`。
+给你两个下标从 0 开始的整数数组 `nums1` 和 `nums2`，长度为 `n`。
 
 数组 `nums1` 和 `nums2` 的 差值平方和 定义为所有满足 `0 <= i < n` 的 `(nums1[i] - nums2[i])^2` 之和。
 

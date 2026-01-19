@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/maximum-xor-after-operations/)
 
-给你一个下标从 0 开始的整数数组 `nums`。一次操作中，选择 任意 非负整数 `x` 和一个下标 `i` ，更新 `nums[i]` 为 `nums[i] AND (nums[i] XOR x)`。
+给你一个下标从 0 开始的整数数组 `nums`。一次操作中，选择 任意 非负整数 `x` 和一个下标 `i`，更新 `nums[i]` 为 `nums[i] AND (nums[i] XOR x)`。
 
 注意，`AND` 是逐位与运算，`XOR` 是逐位异或运算。
 

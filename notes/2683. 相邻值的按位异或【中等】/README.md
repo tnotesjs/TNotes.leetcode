@@ -15,10 +15,10 @@
 
 特别地，对于范围 `[0, n - 1]` 内的每个下标 `i` ：
 
-- 如果 `i = n - 1` ，那么 `derived[i] = original[i] ⊕ original[0]`
+- 如果 `i = n - 1`，那么 `derived[i] = original[i] ⊕ original[0]`
 - 否则 `derived[i] = original[i] ⊕ original[i + 1]`
 
-给你一个数组 `derived` ，请判断是否存在一个能够派生得到 `derived` 的 有效原始二进制数组 `original`。
+给你一个数组 `derived`，请判断是否存在一个能够派生得到 `derived` 的 有效原始二进制数组 `original`。
 
 如果存在满足要求的原始二进制数组，返回 _true_ ；否则，返回 _false_。
 

@@ -11,9 +11,9 @@
 
 - [leetcode](https://leetcode.cn/problems/maximum-score-of-a-node-sequence/)
 
-给你一个 `n` 个节点的 无向图 ，节点编号为 `0` 到 `n - 1`。
+给你一个 `n` 个节点的 无向图，节点编号为 `0` 到 `n - 1`。
 
-给你一个下标从 0 开始的整数数组 `scores` ，其中 `scores[i]` 是第 `i` 个节点的分数。同时给你一个二维整数数组 `edges` ，其中 `edges[i] = [ai, bi]` ，表示节点 `ai` 和 `bi` 之间有一条 无向 边。
+给你一个下标从 0 开始的整数数组 `scores`，其中 `scores[i]` 是第 `i` 个节点的分数。同时给你一个二维整数数组 `edges`，其中 `edges[i] = [ai, bi]`，表示节点 `ai` 和 `bi` 之间有一条 无向 边。
 
 一个合法的节点序列如果满足以下条件，我们称它是 合法的 ：
 

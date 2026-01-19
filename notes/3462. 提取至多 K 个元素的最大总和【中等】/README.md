@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/maximum-sum-with-at-most-k-elements/)
 
-给你一个大小为 `n x m` 的二维矩阵 `grid` ，以及一个长度为 `n` 的整数数组 `limits` ，和一个整数 `k`。你的目标是从矩阵 `grid` 中提取出 至多 `k` 个元素，并计算这些元素的最大总和，提取时需满足以下限制：
+给你一个大小为 `n x m` 的二维矩阵 `grid`，以及一个长度为 `n` 的整数数组 `limits`，和一个整数 `k`。你的目标是从矩阵 `grid` 中提取出 至多 `k` 个元素，并计算这些元素的最大总和，提取时需满足以下限制：
 
 - 从 `grid` 的第 `i` 行提取的元素数量不超过 `limits[i]`。
 

@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/put-marbles-in-bags/)
 
-你有 `k` 个背包。给你一个下标从 0 开始的整数数组 `weights` ，其中 `weights[i]` 是第 `i` 个珠子的重量。同时给你整数 `k`。
+你有 `k` 个背包。给你一个下标从 0 开始的整数数组 `weights`，其中 `weights[i]` 是第 `i` 个珠子的重量。同时给你整数 `k`。
 
 请你按照如下规则将所有的珠子放进 `k` 个背包。
 

@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/smallest-index-with-equal-value/)
 
-给你一个下标从 0 开始的整数数组 `nums` ，返回 `nums` 中满足 `i mod 10 == nums[i]` 的最小下标 `i` ；如果不存在这样的下标，返回 `-1`。
+给你一个下标从 0 开始的整数数组 `nums`，返回 `nums` 中满足 `i mod 10 == nums[i]` 的最小下标 `i` ；如果不存在这样的下标，返回 `-1`。
 
 `x mod y` 表示 `x` 除以 `y` 的 余数。
 
@@ -26,7 +26,7 @@
 i=0: 0 mod 10 = 0 == nums[0].
 i=1: 1 mod 10 = 1 == nums[1].
 i=2: 2 mod 10 = 2 == nums[2].
-所有下标都满足 i mod 10 == nums[i] ，所以返回最小下标 0
+所有下标都满足 i mod 10 == nums[i]，所以返回最小下标 0
 ```
 
 示例 2：

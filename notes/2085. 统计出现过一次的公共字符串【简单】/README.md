@@ -12,7 +12,7 @@
 
 - [leetcode](https://leetcode.cn/problems/count-common-words-with-one-occurrence/)
 
-给你两个字符串数组 `words1` 和 `words2` ，请你返回在两个字符串数组中 都恰好出现一次 的字符串的数目。
+给你两个字符串数组 `words1` 和 `words2`，请你返回在两个字符串数组中 都恰好出现一次 的字符串的数目。
 
 ---
 

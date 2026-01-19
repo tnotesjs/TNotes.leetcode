@@ -15,7 +15,7 @@
 
 请你建立并返回一个整数数组 `result`，它跟 `nums` 长度相同，且`result[i]` 等于 `nums[i]` 与数组中所有其他元素差的绝对值之和。
 
-换句话说， `result[i]` 等于 `sum(|nums[i]-nums[j]|)` ，其中 `0 <= j < nums.length` 且 `j != i` （下标从 0 开始）。
+换句话说， `result[i]` 等于 `sum(|nums[i]-nums[j]|)`，其中 `0 <= j < nums.length` 且 `j != i` （下标从 0 开始）。
 
 ---
 

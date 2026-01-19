@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/minimum-cost-to-make-array-equal/)
 
-给你两个下标从 0 开始的数组 `nums` 和 `cost` ，分别包含 `n` 个 正 整数。
+给你两个下标从 0 开始的数组 `nums` 和 `cost`，分别包含 `n` 个 正 整数。
 
 你可以执行下面操作 任意 次：
 

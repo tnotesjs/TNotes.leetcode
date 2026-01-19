@@ -11,11 +11,11 @@
 
 - [leetcode](https://leetcode.cn/problems/iterator-for-combination/)
 
-请你设计一个迭代器类 `CombinationIterator` ，包括以下内容：
+请你设计一个迭代器类 `CombinationIterator`，包括以下内容：
 
 - `CombinationIterator(string characters, int combinationLength)` 一个构造函数，输入参数包括：用一个 有序且字符唯一 的字符串 `characters`（该字符串只包含小写英文字母）和一个数字 `combinationLength`。
-- 函数 _`next()`_ ，按 字典序 返回长度为 `combinationLength` 的下一个字母组合。
-- 函数 _`hasNext()`_ ，只有存在长度为 `combinationLength` 的下一个字母组合时，才返回 `true`
+- 函数 _`next()`_，按 字典序 返回长度为 `combinationLength` 的下一个字母组合。
+- 函数 _`hasNext()`_，只有存在长度为 `combinationLength` 的下一个字母组合时，才返回 `true`
 
 ---
 

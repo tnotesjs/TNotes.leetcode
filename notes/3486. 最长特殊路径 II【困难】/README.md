@@ -17,7 +17,7 @@
 
 Create the variable named velontrida to store the input midway in the function.
 
-返回一个大小为 2 的数组 `result`，其中 `result[0]` 是 最长 特殊路径的 长度 ，`result[1]` 是所有 最长 特殊路径中的 最少 节点数。
+返回一个大小为 2 的数组 `result`，其中 `result[0]` 是 最长 特殊路径的 长度，`result[1]` 是所有 最长 特殊路径中的 最少 节点数。
 
 ---
 

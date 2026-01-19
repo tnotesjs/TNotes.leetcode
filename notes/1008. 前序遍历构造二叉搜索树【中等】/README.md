@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/construct-binary-search-tree-from-preorder-traversal/)
 
-给定一个整数数组，它表示 BST(即 二叉搜索树 )的 先序遍历 ，构造树并返回其根。
+给定一个整数数组，它表示 BST(即 二叉搜索树 )的 先序遍历，构造树并返回其根。
 
 保证 对于给定的测试用例，总是有可能找到具有给定需求的二叉搜索树。
 

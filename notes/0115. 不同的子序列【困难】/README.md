@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/distinct-subsequences/)
 
-给你两个字符串 `s` 和 `t` ，统计并返回在 `s` 的 子序列 中 `t` 出现的个数。
+给你两个字符串 `s` 和 `t`，统计并返回在 `s` 的 子序列 中 `t` 出现的个数。
 
 测试用例保证结果在 32 位有符号整数范围内。
 

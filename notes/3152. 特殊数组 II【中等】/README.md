@@ -17,7 +17,7 @@
 
 > 子数组 是数组中元素的连续序列。
 
-返回布尔数组 `answer`，如果 `nums[fromi..toi]` 是特殊数组，则 `answer[i]` 为 `true` ，否则，`answer[i]` 为 `false`。
+返回布尔数组 `answer`，如果 `nums[fromi..toi]` 是特殊数组，则 `answer[i]` 为 `true`，否则，`answer[i]` 为 `false`。
 
 ---
 

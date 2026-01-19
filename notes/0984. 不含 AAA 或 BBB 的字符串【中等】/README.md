@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/string-without-aaa-or-bbb/)
 
-给定两个整数 `a` 和 `b` ，返回 任意 字符串 `s` ，要求满足：
+给定两个整数 `a` 和 `b`，返回 任意 字符串 `s`，要求满足：
 
 - `s` 的长度为 `a + b`，且正好包含 `a` 个 `'a'` 字母与 `b` 个 `'b'` 字母；
 - 子串 `'aaa'` 没有出现在 `s` 中；

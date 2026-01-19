@@ -33,9 +33,9 @@
 输入：s = "leetcod*e"
 输出："lecoe"
 解释：从左到右执行移除操作：
-- 距离第 1 个星号最近的字符是 "leetcod*e" 中的 't' ，s 变为 "lee*cod*e"。
-- 距离第 2 个星号最近的字符是 "lee*cod*e" 中的 'e' ，s 变为 "lecod*e"。
-- 距离第 3 个星号最近的字符是 "lecod*e" 中的 'd' ，s 变为 "lecoe"。
+- 距离第 1 个星号最近的字符是 "leetcod*e" 中的 't'，s 变为 "lee*cod*e"。
+- 距离第 2 个星号最近的字符是 "lee*cod*e" 中的 'e'，s 变为 "lecod*e"。
+- 距离第 3 个星号最近的字符是 "lecod*e" 中的 'd'，s 变为 "lecoe"。
 不存在其他星号，返回 "lecoe"。
 ```
 

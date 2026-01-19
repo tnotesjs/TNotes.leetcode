@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/maximize-happiness-of-selected-children/)
 
-给你一个长度为 `n` 的数组 `happiness` ，以及一个 正整数 `k`。
+给你一个长度为 `n` 的数组 `happiness`，以及一个 正整数 `k`。
 
 `n` 个孩子站成一队，其中第 `i` 个孩子的 幸福值 是 `happiness[i]`。你计划组织 `k` 轮筛选从这 `n` 个孩子中选出 `k` 个孩子。
 

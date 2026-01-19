@@ -13,7 +13,7 @@
 
 设计一个算法：接收一个字符流，并检查这些字符的后缀是否是字符串数组 `words` 中的一个字符串。
 
-例如，`words = ["abc", "xyz"]` 且字符流中逐个依次加入 4 个字符 `'a'`、`'x'`、`'y'` 和 `'z'` ，你所设计的算法应当可以检测到 `"axyz"` 的后缀 `"xyz"` 与 `words` 中的字符串 `"xyz"` 匹配。
+例如，`words = ["abc", "xyz"]` 且字符流中逐个依次加入 4 个字符 `'a'`、`'x'`、`'y'` 和 `'z'`，你所设计的算法应当可以检测到 `"axyz"` 的后缀 `"xyz"` 与 `words` 中的字符串 `"xyz"` 匹配。
 
 按下述要求实现 `StreamChecker` 类：
 
@@ -34,15 +34,15 @@ StreamChecker streamChecker = new StreamChecker(["cd", "f", "kl"]);
 streamChecker.query("a"); // 返回 False
 streamChecker.query("b"); // 返回 False
 streamChecker.query("c"); // 返回n False
-streamChecker.query("d"); // 返回 True ，因为 'cd' 在 words 中
+streamChecker.query("d"); // 返回 True，因为 'cd' 在 words 中
 streamChecker.query("e"); // 返回 False
-streamChecker.query("f"); // 返回 True ，因为 'f' 在 words 中
+streamChecker.query("f"); // 返回 True，因为 'f' 在 words 中
 streamChecker.query("g"); // 返回 False
 streamChecker.query("h"); // 返回 False
 streamChecker.query("i"); // 返回 False
 streamChecker.query("j"); // 返回 False
 streamChecker.query("k"); // 返回 False
-streamChecker.query("l"); // 返回 True ，因为 'kl' 在 words 中
+streamChecker.query("l"); // 返回 True，因为 'kl' 在 words 中
 ```
 
 ---

@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/all-nodes-distance-k-in-binary-tree/)
 
-给定一个二叉树（具有根结点 `root`）， 一个目标结点 `target` ，和一个整数值 `k` ，返回到目标结点 `target` 距离为 `k` 的所有结点的值的数组。
+给定一个二叉树（具有根结点 `root`）， 一个目标结点 `target`，和一个整数值 `k`，返回到目标结点 `target` 距离为 `k` 的所有结点的值的数组。
 
 答案可以以 任何顺序 返回。
 

@@ -19,7 +19,7 @@
 
 - `OrderedStream(int n)` 构造一个能接收 `n` 个值的流，并将当前指针 `ptr` 设为 `1`。
 - `String[] insert(int id, String value)` 向流中存储新的 `(id, value)` 对。存储后：
-  - 如果流存储有 `id = ptr` 的 `(id, value)` 对，则找出从 `id = ptr` 开始的 最长 id 连续递增序列 ，并 按顺序 返回与这些 id 关联的值的列表。然后，将 `ptr` 更新为最后那个 `id + 1`。
+  - 如果流存储有 `id = ptr` 的 `(id, value)` 对，则找出从 `id = ptr` 开始的 最长 id 连续递增序列，并 按顺序 返回与这些 id 关联的值的列表。然后，将 `ptr` 更新为最后那个 `id + 1`。
   - 否则，返回一个空列表。
 
 ---

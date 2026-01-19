@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/score-after-flipping-matrix/)
 
-给你一个大小为 `m x n` 的二元矩阵 `grid` ，矩阵中每个元素的值为 `0` 或 `1`。
+给你一个大小为 `m x n` 的二元矩阵 `grid`，矩阵中每个元素的值为 `0` 或 `1`。
 
 一次 移动 是指选择任一行或列，并转换该行或列中的每一个值：将所有 `0` 都更改为 `1`，将所有 `1` 都更改为 `0`。
 

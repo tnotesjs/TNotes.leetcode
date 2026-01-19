@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)
 
-给你一个二进制字符串 `s` 和一个整数 `k`。如果所有长度为 `k` 的二进制字符串都是 `s` 的子串，请返回 `true` ，否则请返回 `false`。
+给你一个二进制字符串 `s` 和一个整数 `k`。如果所有长度为 `k` 的二进制字符串都是 `s` 的子串，请返回 `true`，否则请返回 `false`。
 
 ---
 

@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/count-the-number-of-inversions/)
 
-给你一个整数 `n` 和一个二维数组 `requirements` ，其中 `requirements[i] = [endi, cnti]` 表示这个要求中的末尾下标和 逆序对 的数目。
+给你一个整数 `n` 和一个二维数组 `requirements`，其中 `requirements[i] = [endi, cnti]` 表示这个要求中的末尾下标和 逆序对 的数目。
 
 整数数组 `nums` 中一个下标对 `(i, j)` 如果满足以下条件，那么它们被称为一个 逆序对 ：
 

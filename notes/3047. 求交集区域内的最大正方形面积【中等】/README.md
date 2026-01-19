@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/find-the-largest-area-of-square-inside-two-rectangles/)
 
-在二维平面上存在 `n` 个矩形。给你两个下标从 0 开始的二维整数数组 `bottomLeft` 和 `topRight`，两个数组的大小都是 `n x 2` ，其中 `bottomLeft[i]` 和 `topRight[i]` 分别代表第 `i` 个矩形的 左下角 和 右上角 坐标。
+在二维平面上存在 `n` 个矩形。给你两个下标从 0 开始的二维整数数组 `bottomLeft` 和 `topRight`，两个数组的大小都是 `n x 2`，其中 `bottomLeft[i]` 和 `topRight[i]` 分别代表第 `i` 个矩形的 左下角 和 右上角 坐标。
 
 我们定义 向右 的方向为 x 轴正半轴（x 坐标增加），向左 的方向为 x 轴负半轴（x 坐标减少）。同样地，定义 向上 的方向为 y 轴正半轴（y 坐标增加），向下 的方向为 y 轴负半轴（y 坐标减少）。
 

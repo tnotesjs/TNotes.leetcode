@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/change-minimum-characters-to-satisfy-one-of-three-conditions/)
 
-给你两个字符串 `a` 和 `b` ，二者均由小写字母组成。一步操作中，你可以将 `a` 或 `b` 中的 任一字符 改变为 任一小写字母。
+给你两个字符串 `a` 和 `b`，二者均由小写字母组成。一步操作中，你可以将 `a` 或 `b` 中的 任一字符 改变为 任一小写字母。
 
 操作的最终目标是满足下列三个条件 之一 ：
 

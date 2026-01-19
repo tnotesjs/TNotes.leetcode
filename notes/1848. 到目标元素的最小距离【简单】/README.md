@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/minimum-distance-to-the-target-element/)
 
-给你一个整数数组 `nums` （下标 从 0 开始 计数）以及两个整数 `target` 和 `start` ，请你找出一个下标 `i` ，满足 `nums[i] == target` 且 `abs(i - start)` 最小化。注意：`abs(x)` 表示 `x` 的绝对值。
+给你一个整数数组 `nums` （下标 从 0 开始 计数）以及两个整数 `target` 和 `start`，请你找出一个下标 `i`，满足 `nums[i] == target` 且 `abs(i - start)` 最小化。注意：`abs(x)` 表示 `x` 的绝对值。
 
 返回 `abs(i - start)`。
 
@@ -40,7 +40,7 @@
 ```txt
 输入：nums = [1,1,1,1,1,1,1,1,1,1], target = 1, start = 0
 输出：0
-解释：nums 中的每个值都是 1 ，但 nums[0] 使 abs(i - start) 的结果得以最小化，所以答案是 abs(0 - 0) = 0。
+解释：nums 中的每个值都是 1，但 nums[0] 使 abs(i - start) 的结果得以最小化，所以答案是 abs(0 - 0) = 0。
 ```
 
 ---

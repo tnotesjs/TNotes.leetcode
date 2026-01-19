@@ -48,7 +48,7 @@
 ```txt
 输入：names = ["onepiece","onepiece(1)","onepiece(2)","onepiece(3)","onepiece"]
 输出：["onepiece","onepiece(1)","onepiece(2)","onepiece(3)","onepiece(4)"]
-解释：当创建最后一个文件夹时，最小的正有效 k 为 4 ，文件名变为 "onepiece(4)"。
+解释：当创建最后一个文件夹时，最小的正有效 k 为 4，文件名变为 "onepiece(4)"。
 ```
 
 示例 4：

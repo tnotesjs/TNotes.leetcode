@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/binary-search-tree-iterator/)
 
-实现一个二叉搜索树迭代器类`BSTIterator` ，表示一个按中序遍历二叉搜索树（BST）的迭代器：
+实现一个二叉搜索树迭代器类`BSTIterator`，表示一个按中序遍历二叉搜索树（BST）的迭代器：
 
 - `BSTIterator(TreeNode root)` 初始化 `BSTIterator` 类的一个对象。BST 的根节点 `root` 会作为构造函数的一部分给出。指针应初始化为一个不存在于 BST 中的数字，且该数字小于 BST 中的任何元素。
 - `boolean hasNext()` 如果向指针右侧遍历存在数字，则返回 `true` ；否则返回 `false`。
@@ -55,7 +55,7 @@ bSTIterator.hasNext(); // 返回 False
 
 进阶：
 
-- 你可以设计一个满足下述条件的解决方案吗？`next()` 和 `hasNext()` 操作均摊时间复杂度为 `O(1)` ，并使用 `O(h)` 内存。其中 `h` 是树的高度。
+- 你可以设计一个满足下述条件的解决方案吗？`next()` 和 `hasNext()` 操作均摊时间复杂度为 `O(1)`，并使用 `O(h)` 内存。其中 `h` 是树的高度。
 
 ## 2. 🎯 s.1 - 暴力解法
 

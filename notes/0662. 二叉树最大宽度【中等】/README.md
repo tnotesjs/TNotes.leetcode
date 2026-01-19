@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/maximum-width-of-binary-tree/)
 
-给你一棵二叉树的根节点 `root` ，返回树的 最大宽度。
+给你一棵二叉树的根节点 `root`，返回树的 最大宽度。
 
 树的 最大宽度 是所有层中最大的 宽度。
 

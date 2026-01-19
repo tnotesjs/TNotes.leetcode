@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/count-lattice-points-inside-a-circle/)
 
-给你一个二维整数数组 `circles` ，其中 `circles[i] = [xi, yi, ri]` 表示网格上圆心为 `(xi, yi)` 且半径为 `ri` 的第 `i` 个圆，返回出现在 至少一个 圆内的 格点数目。
+给你一个二维整数数组 `circles`，其中 `circles[i] = [xi, yi, ri]` 表示网格上圆心为 `(xi, yi)` 且半径为 `ri` 的第 `i` 个圆，返回出现在 至少一个 圆内的 格点数目。
 
 注意：
 

@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/remove-duplicates-from-sorted-list)
 
-给定一个已排序的链表的头 `head` ， _删除所有重复的元素，使每个元素只出现一次_。返回 _已排序的链表_。
+给定一个已排序的链表的头 `head`， _删除所有重复的元素，使每个元素只出现一次_。返回 _已排序的链表_。
 
 ---
 

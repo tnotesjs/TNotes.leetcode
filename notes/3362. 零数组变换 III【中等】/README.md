@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/zero-array-transformation-iii/)
 
-给你一个长度为 `n` 的整数数组 `nums` 和一个二维数组 `queries` ，其中 `queries[i] = [li, ri]`。
+给你一个长度为 `n` 的整数数组 `nums` 和一个二维数组 `queries`，其中 `queries[i] = [li, ri]`。
 
 每一个 `queries[i]` 表示对于 `nums` 的以下操作：
 
@@ -22,7 +22,7 @@
 
 零数组 指的是一个数组里所有元素都等于 0。
 
-请你返回 最多 可以从 `queries` 中删除多少个元素，使得 `queries` 中剩下的元素仍然能将 `nums` 变为一个 零数组。如果无法将 `nums` 变为一个 零数组 ，返回 -1。
+请你返回 最多 可以从 `queries` 中删除多少个元素，使得 `queries` 中剩下的元素仍然能将 `nums` 变为一个 零数组。如果无法将 `nums` 变为一个 零数组，返回 -1。
 
 ---
 
@@ -36,8 +36,8 @@
 
 删除 `queries[2]` 后，`nums` 仍然可以变为零数组。
 
-- 对于 `queries[0]` ，将 `nums[0]` 和 `nums[2]` 减少 1 ，将 `nums[1]` 减少 0。
-- 对于 `queries[1]` ，将 `nums[0]` 和 `nums[2]` 减少 1 ，将 `nums[1]` 减少 0。
+- 对于 `queries[0]`，将 `nums[0]` 和 `nums[2]` 减少 1，将 `nums[1]` 减少 0。
+- 对于 `queries[1]`，将 `nums[0]` 和 `nums[2]` 减少 1，将 `nums[1]` 减少 0。
 
 ---
 

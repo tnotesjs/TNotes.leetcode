@@ -12,7 +12,7 @@
 
 - [leetcode](https://leetcode.cn/problems/reverse-words-in-a-string)
 
-给你一个字符串 `s` ，请你反转字符串中 单词 的顺序。
+给你一个字符串 `s`，请你反转字符串中 单词 的顺序。
 
 单词 是由非空格字符组成的字符串。`s` 中使用至少一个空格将字符串中的 单词 分隔开。
 

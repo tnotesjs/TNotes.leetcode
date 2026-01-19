@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/distinct-prime-factors-of-product-of-array/)
 
-给你一个正整数数组 `nums` ，对 `nums` 所有元素求积之后，找出并返回乘积中 不同质因数 的数目。
+给你一个正整数数组 `nums`，对 `nums` 所有元素求积之后，找出并返回乘积中 不同质因数 的数目。
 
 注意：
 

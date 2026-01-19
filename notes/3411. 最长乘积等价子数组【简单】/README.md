@@ -13,7 +13,7 @@
 
 给你一个由 正整数 组成的数组 `nums`。
 
-如果一个数组 `arr` 满足 `prod(arr) == lcm(arr) * gcd(arr)`，则称其为 乘积等价数组 ，其中：
+如果一个数组 `arr` 满足 `prod(arr) == lcm(arr) * gcd(arr)`，则称其为 乘积等价数组，其中：
 
 - `prod(arr)` 表示 `arr` 中所有元素的乘积。
 - `gcd(arr)` 表示 `arr` 中所有元素的最大公因数 (GCD)。

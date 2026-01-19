@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/sum-of-numbers-with-units-digit-k/)
 
-给你两个整数 `num` 和 `k` ，考虑具有以下属性的正整数多重集：
+给你两个整数 `num` 和 `k`，考虑具有以下属性的正整数多重集：
 
 - 每个整数个位数字都是 `k`。
 - 所有整数之和是 `num`。
