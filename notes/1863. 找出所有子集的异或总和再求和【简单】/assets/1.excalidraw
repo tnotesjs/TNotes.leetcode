@@ -1,0 +1,51 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "id": "-0o7ps1-UBBhsZrl0xJ9Y",
+      "type": "text",
+      "x": -111.49832153320312,
+      "y": 293.22265625,
+      "width": 646.7596435546875,
+      "height": 150,
+      "angle": 0,
+      "strokeColor": "#6741d9",
+      "backgroundColor": "#d0bfff",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a0",
+      "roundness": null,
+      "seed": 720011563,
+      "version": 147,
+      "versionNonce": 536290251,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1769087125241,
+      "link": null,
+      "locked": false,
+      "text": "                        dfs(0,0)\n                      /            \\\n              dfs(1,0)            dfs(1,1)           // nums[0]=1 不选/选\n             /        \\           /         \\\n        dfs(2,0)  dfs(2,2) dfs(2,1)  dfs(2,3)  // nums[1]=2 不选/选\n           ...          ...          ...           ...     // nums[idx] 不选/选",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "                        dfs(0,0)\n                      /            \\\n              dfs(1,0)            dfs(1,1)           // nums[0]=1 不选/选\n             /        \\           /         \\\n        dfs(2,0)  dfs(2,2) dfs(2,1)  dfs(2,3)  // nums[1]=2 不选/选\n           ...          ...          ...           ...     // nums[idx] 不选/选",
+      "autoResize": true,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
