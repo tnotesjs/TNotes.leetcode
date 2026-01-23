@@ -7,11 +7,9 @@ var maxAscendingSum = function (nums) {
   let best = nums[0]
 
   for (let i = 1; i < nums.length; i += 1) {
-    if (nums[i] > nums[i - 1]) {
-      cur += nums[i]
-    } else {
-      cur = nums[i]
-    }
+    if (nums[i] > nums[i - 1]) cur += nums[i]
+    else cur = nums[i]
+
     if (cur > best) best = cur
   }
 

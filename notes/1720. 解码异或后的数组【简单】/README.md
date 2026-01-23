@@ -26,7 +26,9 @@
 ```txt
 输入：encoded = [1,2,3], first = 1
 输出：[1,0,2,1]
-解释：若 arr = [1,0,2,1]，那么 first = 1 且 encoded = [1 XOR 0, 0 XOR 2, 2 XOR 1] = [1,2,3]
+
+解释：
+若 arr = [1,0,2,1]，那么 first = 1 且 encoded = [1 XOR 0, 0 XOR 2, 2 XOR 1] = [1,2,3]
 ```
 
 示例 2：
@@ -53,9 +55,13 @@
 
 :::
 
-- 时间复杂度：$O(N)$，单次遍历解码
-- 空间复杂度：$O(1)$，原地或常数额外变量
+- 时间复杂度：$O(N)$，其中 N 是数组 encoded 的长度
+- 空间复杂度：$O(N)$，需要创建长度为 N+1 的结果数组（不计入返回值的空间）
 
 算法思路：
 
-- 已知 `arr[0]=first`，利用 `encoded[i]=arr[i] XOR arr[i+1]` 得出 `arr[i+1]=encoded[i] XOR arr[i]`，顺序推进填充数组即可。
+- 创建长度为 `N+1` 的结果数组 `arr`，并将 `arr[0]` 初始化为 `first`
+- 利用异或性质：由 `encoded[i] = arr[i] XOR arr[i+1]` 推导出 `arr[i+1] = encoded[i] XOR arr[i]`
+- 遍历 `encoded` 数组，依次计算并填充 `arr[i+1]`：
+  - `arr[i+1] = encoded[i] ^ arr[i]`
+- 返回完整的解码数组 `arr`

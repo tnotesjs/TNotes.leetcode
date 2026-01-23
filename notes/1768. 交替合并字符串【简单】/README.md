@@ -22,7 +22,9 @@
 ```txt
 输入：word1 = "abc", word2 = "pqr"
 输出："apbqcr"
-解释：字符串合并情况如下所示：
+
+解释：
+字符串合并情况如下所示：
 word1： a   b   c
 word2：   p   q   r
 合并后： a p b q c r
@@ -33,7 +35,9 @@ word2：   p   q   r
 ```txt
 输入：word1 = "ab", word2 = "pqrs"
 输出："apbqrs"
-解释：注意，word2 比 word1 长，"rs" 需要追加到合并后字符串的末尾。
+
+解释：
+注意，word2 比 word1 长，"rs" 需要追加到合并后字符串的末尾。
 word1： a   b
 word2：   p   q   r   s
 合并后： a p b q   r   s
@@ -44,7 +48,9 @@ word2：   p   q   r   s
 ```txt
 输入：word1 = "abcd", word2 = "pq"
 输出："apbqcd"
-解释：注意，word1 比 word2 长，"cd" 需要追加到合并后字符串的末尾。
+
+解释：
+注意，word1 比 word2 长，"cd" 需要追加到合并后字符串的末尾。
 word1： a   b   c   d
 word2：   p   q
 合并后： a p b q c   d
@@ -65,9 +71,14 @@ word2：   p   q
 
 :::
 
-- 时间复杂度：$O(N)$，按位遍历两个字符串
-- 空间复杂度：$O(N)$，结果字符串占用
+- 时间复杂度：$O(M + N)$，其中 M 和 N 分别是字符串 word1 和 word2 的长度
+- 空间复杂度：$O(M + N)$，结果数组需要存储合并后的所有字符
 
 算法思路：
 
-- 双指针同时扫描 `word1`、`word2`，每轮依次追加各自当前字符（若存在），指针递增，直到两串都耗尽。
+- 初始化两个指针 `i` 和 `j` 为 0，分别指向 word1 和 word2 的当前位置
+- 创建结果数组 `res`
+- 循环直到两个字符串都遍历完毕：
+  - 如果 `i` 未越界，将 `word1[i]` 追加到 `res`，并递增 `i`
+  - 如果 `j` 未越界，将 `word2[j]` 追加到 `res`，并递增 `j`
+- 将结果数组拼接成字符串并返回

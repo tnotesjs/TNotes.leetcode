@@ -5,6 +5,9 @@
 var squareIsWhite = function (coordinates) {
   const col = coordinates.charCodeAt(0) - 96 // 'a' -> 1, 'b' -> 2, ..., 'h' -> 8
   const row = coordinates.charCodeAt(1) - 48 // '1' -> 1, '2' -> 2, ..., '8' -> 8
+
+  // 黑色格子：col + row 为偶数
+  // 白色格子：col + row 为奇数
   return ((col + row) & 1) === 1
 }
 

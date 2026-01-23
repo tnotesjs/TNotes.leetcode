@@ -22,7 +22,9 @@
 ```txt
 输入：sequence = "ababc", word = "ab"
 输出：2
-解释："abab" 是 "ababc" 的子字符串。
+
+解释：
+"abab" 是 "ababc" 的子字符串。
 ```
 
 示例 2：
@@ -30,7 +32,9 @@
 ```txt
 输入：sequence = "ababc", word = "ba"
 输出：1
-解释："ba" 是 "ababc" 的子字符串，但 "baba" 不是 "ababc" 的子字符串。
+
+解释：
+"ba" 是 "ababc" 的子字符串，但 "baba" 不是 "ababc" 的子字符串。
 ```
 
 示例 3：
@@ -38,7 +42,9 @@
 ```txt
 输入：sequence = "ababc", word = "ac"
 输出：0
-解释："ac" 不是 "ababc" 的子字符串。
+
+解释：
+"ac" 不是 "ababc" 的子字符串。
 ```
 
 ---
@@ -57,9 +63,15 @@
 
 :::
 
-- 时间复杂度：$O(N \cdot K)$，枚举倍数并查找子串
-- 空间复杂度：$O(1)$，常数变量
+- 时间复杂度：$O(N \times K \times M)$，其中 N 是 sequence 的长度，K 是最大重复次数（最多 N/M 次），M 是 word 的长度，includes 方法需要 O(N×M) 时间
+- 空间复杂度：$O(K \times M)$，重复字符串 rep 的最大长度
 
 算法思路：
 
-- 最多重复次数不超过 `sequence.length / word.length`。逐次累加 `word` 构造重复串，检查是否仍是 `sequence` 的子串，不满足即停止，记录最大重复数。
+- 计算最大可能的重复次数 `maxTimes = ⌊sequence.length / word.length⌋`
+- 初始化重复字符串 `rep` 为空，最大重复值 `ans` 为 0
+- 从 k=1 到 maxTimes 枚举重复次数：
+  - 将 `word` 追加到 `rep`，构造 k 次重复的字符串
+  - 如果 `rep` 是 `sequence` 的子串，更新 `ans = k`
+  - 否则说明更多重复不可能是子串，提前退出循环
+- 返回 `ans`

@@ -11,14 +11,14 @@
 
 - [leetcode](https://leetcode.cn/problems/maximum-units-on-a-truck/)
 
-请你将一些箱子装在 一辆卡车 上。给你一个二维数组 `boxTypes`，其中 `boxTypes[i] = [numberOfBoxesi, numberOfUnitsPerBoxi]` ：
+请你将一些箱子装在一辆卡车上。给你一个二维数组 `boxTypes`，其中 `boxTypes[i] = [numberOfBoxesi, numberOfUnitsPerBoxi]`：
 
 - `numberOfBoxesi` 是类型 `i` 的箱子的数量。
 - `numberOfUnitsPerBoxi` 是类型 `i` 每个箱子可以装载的单元数量。
 
-整数 `truckSize` 表示卡车上可以装载 箱子 的 最大数量。只要箱子数量不超过 `truckSize`，你就可以选择任意箱子装到卡车上。
+整数 `truckSize` 表示卡车上可以装载箱子的最大数量。只要箱子数量不超过 `truckSize`，你就可以选择任意箱子装到卡车上。
 
-返回卡车可以装载 单元 的 最大 总数*。*
+返回卡车可以装载单元的最大总数。
 
 ---
 
@@ -27,7 +27,9 @@
 ```txt
 输入：boxTypes = [[1,3],[2,2],[3,1]], truckSize = 4
 输出：8
-解释：箱子的情况如下：
+
+解释：
+箱子的情况如下：
 - 1 个第一类的箱子，里面含 3 个单元。
 - 2 个第二类的箱子，每个里面含 2 个单元。
 - 3 个第三类的箱子，每个里面含 1 个单元。
@@ -58,9 +60,16 @@
 
 :::
 
-- 时间复杂度：$O(N \log N)$，按单元数排序后线性取箱
-- 空间复杂度：$O(1)$，原地或常数额外变量
+- 时间复杂度：$O(N \log N)$，其中 N 是数组 boxTypes 的长度，排序需要 $O(N \log N)$，遍历需要 $O(N)$
+- 空间复杂度：$O(\log N)$，排序所需的栈空间
 
 算法思路：
 
-- 按每箱单元数从大到小排序，依次取能装的箱子数量（取 min 剩余容量与箱数），累计单元并减少容量，容量为 0 时结束。
+- 将箱子类型按每箱单元数从大到小排序（贪心策略：优先选择单元数多的箱子）
+- 初始化剩余容量 `remaining` 为 `truckSize`，总单元数 `total` 为 0
+- 遍历排序后的箱子类型 `[count, perBox]`：
+  - 如果剩余容量为 0，提前结束循环
+  - 计算可装载的箱子数量：`take = Math.min(count, remaining)`
+  - 累加总单元数：`total += take * perBox`
+  - 更新剩余容量：`remaining -= take`
+- 返回总单元数 `total`

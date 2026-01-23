@@ -2,11 +2,11 @@
   "bilibili": [],
   "tnotes": [],
   "yuque": [],
-  "done": false,
+  "done": true,
   "deprecated": false,
-  "enableDiscussions": false,
+  "enableDiscussions": true,
   "description": "",
   "id": "44950941-a210-4f2b-b582-41205927d760",
   "created_at": 1748433329000,
-  "updated_at": 1766282375134
+  "updated_at": 1769174278642
 }
