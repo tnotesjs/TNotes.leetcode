@@ -19,9 +19,9 @@ var incremovableSubarrayCount = function (nums) {
     for (let j = i; j < n; j++) {
       // 移除 [i, j] 后的剩余数组
       const remaining = [...nums.slice(0, i), ...nums.slice(j + 1)]
-      if (isStrictlyIncreasing(remaining)) {
-        count++
-      }
+
+      // 检查剩余数组是否严格递增
+      if (isStrictlyIncreasing(remaining)) count++
     }
   }
   return count
