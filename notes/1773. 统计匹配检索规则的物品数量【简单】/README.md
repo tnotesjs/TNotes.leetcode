@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 逐项匹配计数](#2--s1---逐项匹配计数)
+- [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 
 <!-- endregion:toc -->
 
@@ -15,46 +15,55 @@
 
 另给你一条由两个字符串 `ruleKey` 和 `ruleValue` 表示的检索规则。
 
-如果第 `i` 件物品能满足下述条件之一，则认为该物品与给定的检索规则 匹配 ：
+如果第 `i` 件物品能满足下述条件之一，则认为该物品与给定的检索规则匹配：
 
 - `ruleKey == "type"` 且 `ruleValue == typei`。
 - `ruleKey == "color"` 且 `ruleValue == colori`。
 - `ruleKey == "name"` 且 `ruleValue == namei`。
 
-统计并返回 匹配检索规则的物品数量。
+统计并返回匹配检索规则的物品数量。
 
 ---
 
 示例 1：
 
 ```txt
-输入：items = [
+输入：
+items = [
   ["phone", "blue", "pixel"],
   ["computer", "silver", "lenovo"],
   ["phone", "gold", "iphone"]
-], ruleKey = "color", ruleValue = "silver"
+],
+ruleKey = "color",
+ruleValue = "silver"
 
 输出：1
 
 解释：
-只有一件物品匹配检索规则，这件物品是 ["computer","silver","lenovo"]。
+只有一件物品匹配检索规则
+这件物品是 ["computer","silver","lenovo"]
 ```
+
+---
 
 示例 2：
 
 ```txt
-输入：items = [
+输入：
+items = [
   ["phone", "blue", "pixel"],
   ["computer", "silver", "phone"],
   ["phone", "gold", "iphone"]
-], ruleKey = "type", ruleValue = "phone"
+],
+ruleKey = "type",
+ruleValue = "phone"
 
 输出：2
 
 解释：
-只有两件物品匹配检索规则，这两件物品分别是 ["phone","blue","pixel"] 和 ["phone","gold","iphone"]。
-
-注意，["computer","silver","phone"] 未匹配检索规则。
+只有两件物品匹配检索规则
+这两件物品分别是 ["phone","blue","pixel"] 和 ["phone","gold","iphone"]
+注意 ["computer","silver","phone"] 未匹配检索规则
 ```
 
 ---
@@ -66,7 +75,7 @@
 - `ruleKey` 等于 `"type"`、`"color"` 或 `"name"`
 - 所有字符串仅由小写字母组成
 
-## 2. 🎯 s.1 - 逐项匹配计数
+## 2. 🎯 s.1 - 暴力解法
 
 ::: code-group
 
@@ -79,8 +88,10 @@
 
 算法思路：
 
-- 根据 `ruleKey` 确定需要比对的属性索引：`type` → 0，`color` → 1，`name` → 2
+- 根据 `ruleKey` 确定需要比对的属性索引：
+  - `type` -> 0
+  - `color` -> 1
+  - `name` -> 2
 - 初始化计数器 `ans` 为 0
-- 遍历 `items` 数组中的每个物品：
-  - 如果物品在对应索引位置的值等于 `ruleValue`，计数器加 1
-- 返回计数器的值
+- 遍历 `items` 数组中的每个物品：如果物品在对应索引位置的值等于 `ruleValue`，计数器 `ans` 加 1
+- 最后返回计数器的值

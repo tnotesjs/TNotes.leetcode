@@ -1,0 +1,51 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "id": "Rd077cAo1quW1tOt6b-sR",
+      "type": "text",
+      "x": 396,
+      "y": 182,
+      "width": 466.8599853515625,
+      "height": 150,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a0",
+      "roundness": null,
+      "seed": 1355216546,
+      "version": 276,
+      "versionNonce": 937417954,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1769310697116,
+      "link": null,
+      "locked": false,
+      "text": "交替 2 进制只有两种形式：\n形式一：0101...\n形式二：1010...\n\ns 要么转为形式一，要么转为形式二。\n对比 s 转为这两种形式的成本，取最小值返回即可。",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "交替 2 进制只有两种形式：\n形式一：0101...\n形式二：1010...\n\ns 要么转为形式一，要么转为形式二。\n对比 s 转为这两种形式的成本，取最小值返回即可。",
+      "autoResize": true,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}

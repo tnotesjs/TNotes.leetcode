@@ -1,0 +1,51 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "id": "pI4rPdiV9ZtZ6YKJNFLhP",
+      "type": "text",
+      "x": 297.86737028515626,
+      "y": 266.569977265625,
+      "width": 419.4599304199219,
+      "height": 225,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "a1",
+      "roundness": null,
+      "seed": 1843450788,
+      "version": 403,
+      "versionNonce": 595793818,
+      "isDeleted": false,
+      "boundElements": [],
+      "updated": 1769309377902,
+      "link": null,
+      "locked": false,
+      "text": "已知：\ns[0] 是 1\n且题目要求连续的 1 的片段不能超过 1 个\n\n那么唯一的可能：1 ... 1 0 ... 0\n  前边儿一段全是 1\n  后边儿一段全是 0\n\n如果 s 中不存在 '01' 片段，那么 s 就满足要求",
+      "fontSize": 20,
+      "fontFamily": 5,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "已知：\ns[0] 是 1\n且题目要求连续的 1 的片段不能超过 1 个\n\n那么唯一的可能：1 ... 1 0 ... 0\n  前边儿一段全是 1\n  后边儿一段全是 0\n\n如果 s 中不存在 '01' 片段，那么 s 就满足要求",
+      "autoResize": true,
+      "lineHeight": 1.25
+    }
+  ],
+  "appState": {
+    "gridSize": 20,
+    "gridStep": 5,
+    "gridModeEnabled": false,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
