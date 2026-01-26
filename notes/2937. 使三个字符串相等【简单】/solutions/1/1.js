@@ -16,11 +16,11 @@ var findMinimumOperations = function (s1, s2, s3) {
     }
   }
   // 如果没有公共前缀，无法使三个字符串相等
-  if (prefixLen === 0) {
-    return -1
-  }
+  if (prefixLen === 0) return -1
+
   // 操作次数 = 各字符串需要删除的字符数之和
-  return (
-    s1.length - prefixLen + (s2.length - prefixLen) + (s3.length - prefixLen)
-  )
+  const s1Operations = s1.length - prefixLen
+  const s2Operations = s2.length - prefixLen
+  const s3Operations = s3.length - prefixLen
+  return s1Operations + s2Operations + s3Operations
 }
