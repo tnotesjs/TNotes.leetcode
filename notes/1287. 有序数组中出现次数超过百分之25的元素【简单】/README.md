@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/element-appearing-more-than-25-in-sorted-array/)
 
-给你一个非递减的 有序 整数数组，已知这个数组中恰好有一个整数，它的出现次数超过数组元素总数的 25%。
+给你一个非递减的有序整数数组，已知这个数组中恰好有一个整数，它的出现次数超过数组元素总数的 25%。
 
 请你找到并返回这个整数
 
