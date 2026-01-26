@@ -4,7 +4,10 @@
  * @return {number}
  */
 var countBalls = function (lowLimit, highLimit) {
+  // 记录每个盒子中的小球数量
   const box = new Map()
+
+  // 最早出现的最大值
   let best = 0
 
   // 将每个编号按数位和分配到对应盒子
