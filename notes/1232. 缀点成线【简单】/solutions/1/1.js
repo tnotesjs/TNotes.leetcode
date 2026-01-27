@@ -3,15 +3,19 @@
  * @return {boolean}
  */
 var checkStraightLine = function (coordinates) {
-  const [x0, y0] = coordinates[0]
-  const [x1, y1] = coordinates[1]
-  const dx = x1 - x0
-  const dy = y1 - y0
+  if (coordinates.length <= 2) return true
 
-  for (let i = 2; i < coordinates.length; i += 1) {
+  const [x1, y1] = coordinates[0]
+  const [x2, y2] = coordinates[1]
+
+  // 使用前两个点计算直线的斜率
+  // 为了避免除法和除零错误，使用交叉相乘比较
+  for (let i = 2; i < coordinates.length; i++) {
     const [x, y] = coordinates[i]
-    // 叉积为 0 表示共线
-    if (dx * (y - y0) - dy * (x - x0) !== 0) return false
+
+    // 检查 (y2-y1)/(x2-x1) 是否等于 (y-y1)/(x-x1)
+    // 即检查 (y2-y1) * (x-x1) 是否等于 (y-y1) * (x2-x1)
+    if ((y2 - y1) * (x - x1) !== (y - y1) * (x2 - x1)) return false
   }
 
   return true
