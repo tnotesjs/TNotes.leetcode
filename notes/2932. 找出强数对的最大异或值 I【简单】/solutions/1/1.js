@@ -11,9 +11,7 @@ var maximumStrongPairXor = function (nums) {
       const x = nums[i]
       const y = nums[j]
       // 检查是否为强数对：|x - y| <= min(x, y)
-      if (Math.abs(x - y) <= Math.min(x, y)) {
-        maxXor = Math.max(maxXor, x ^ y)
-      }
+      if (Math.abs(x - y) <= Math.min(x, y)) maxXor = Math.max(maxXor, x ^ y)
     }
   }
   return maxXor

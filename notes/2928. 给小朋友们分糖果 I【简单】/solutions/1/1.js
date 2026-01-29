@@ -11,9 +11,7 @@ var distributeCandies = function (n, limit) {
     for (let j = 0; j <= Math.min(n - i, limit); j++) {
       // 第三位小朋友分到剩余的糖果
       const k = n - i - j
-      if (k >= 0 && k <= limit) {
-        count++
-      }
+      if (k >= 0 && k <= limit) count++
     }
   }
   return count
