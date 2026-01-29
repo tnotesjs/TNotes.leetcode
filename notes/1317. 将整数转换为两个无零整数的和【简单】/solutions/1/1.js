@@ -3,20 +3,16 @@
  * @return {number[]}
  */
 var getNoZeroIntegers = function (n) {
-  // 检查一个数字是否包含0
-  const hasZero = (num) => {
-    return num.toString().includes('0')
-  }
+  // 检查一个数字是否包含 0
+  const hasZero = (num) => num.toString().includes('0')
 
-  // 从1开始尝试，找到第一个合适的分解
+  // 从 1 开始尝试，找到第一个合适的分解
   for (let a = 1; a < n; a++) {
     const b = n - a
-    if (!hasZero(a) && !hasZero(b)) {
-      return [a, b]
-    }
+    if (!hasZero(a) && !hasZero(b)) return [a, b]
   }
 
-  // 理论上总会找到解
+  // 理论上执行到这一行，题目描述中说了保证至少有一个有效的解决方案。
   return [1, n - 1]
 }
 
