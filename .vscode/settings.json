@@ -159,6 +159,24 @@
     "editor.formatOnSave": false
   },
 
+  // Python 文件：4 个空格
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true
+  },
+
+  // C 文件：4 个空格
+  "[c]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true
+  },
+
+  // C++ 文件：4 个空格
+  "[cpp]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true
+  },
+
   // #endregion
 
   // #region - Extensions（扩展相关配置）

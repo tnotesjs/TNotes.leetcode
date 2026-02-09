@@ -55,6 +55,10 @@
 
 <<< ./solutions/1/1.js [js]
 
+<<< ./solutions/1/1.c [c]
+
+<<< ./solutions/1/1.py [py]
+
 :::
 
 - 时间复杂度：$O(d)$，$d$ 为数字位数
