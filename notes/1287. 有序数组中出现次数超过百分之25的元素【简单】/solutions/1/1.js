@@ -7,12 +7,7 @@ var findSpecialInteger = function (arr) {
   let count = 1
 
   for (let i = 1; i < arr.length; i += 1) {
-    if (arr[i] === arr[i - 1]) {
-      count += 1
-    } else {
-      count = 1
-    }
-
+    count = arr[i] === arr[i - 1] ? count + 1 : 1
     if (count > limit) return arr[i]
   }
 
