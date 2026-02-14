@@ -28,14 +28,15 @@
 [[1, 1, 0], [1], [2], [3], [1]]
 输出：
 [null, true, true, false, false]
+```
 
 解释：
-ParkingSystem parkingSystem = new ParkingSystem(1, 1, 0);
-parkingSystem.addCar(1); // 返回 true，因为有 1 个空的大车位
-parkingSystem.addCar(2); // 返回 true，因为有 1 个空的中车位
-parkingSystem.addCar(3); // 返回 false，因为没有空的小车位
-parkingSystem.addCar(1); // 返回 false，因为没有空的大车位，唯一一个大车位已经被占据了
-```
+
+- `ParkingSystem parkingSystem = new ParkingSystem(1, 1, 0);`
+- `parkingSystem.addCar(1); // 返回 true，因为有 1 个空的大车位`
+- `parkingSystem.addCar(2); // 返回 true，因为有 1 个空的中车位`
+- `parkingSystem.addCar(3); // 返回 false，因为没有空的小车位`
+- `parkingSystem.addCar(1); // 返回 false，因为没有空的大车位，唯一一个大车位已经被占据了`
 
 ---
 
@@ -49,7 +50,11 @@ parkingSystem.addCar(1); // 返回 false，因为没有空的大车位，唯一�
 
 ::: code-group
 
+<<< ./solutions/1/1.c [c]
+
 <<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
 
 :::
 
@@ -59,7 +64,10 @@ parkingSystem.addCar(1); // 返回 false，因为没有空的大车位，唯一�
 算法思路：
 
 - 构造函数：创建数组 `rem` 存储三种车位的剩余数量
-  - `rem[0]` 不使用，`rem[1]` 对应大车位，`rem[2]` 对应中车位，`rem[3]` 对应小车位
+  - `rem[0]` 不使用
+  - `rem[1]` 对应大车位
+  - `rem[2]` 对应中车位
+  - `rem[3]` 对应小车位
 - `addCar` 方法：根据车型 `carType` 检查对应车位
   - 如果 `rem[carType] > 0`，说明有空车位，将计数减 1 并返回 `true`
   - 否则返回 `false`

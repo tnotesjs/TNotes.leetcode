@@ -1696,7 +1696,7 @@
 
 - [ ] [1601. 最多可达成的换楼请求数目【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1601.%20%E6%9C%80%E5%A4%9A%E5%8F%AF%E8%BE%BE%E6%88%90%E7%9A%84%E6%8D%A2%E6%A5%BC%E8%AF%B7%E6%B1%82%E6%95%B0%E7%9B%AE%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
 - [ ] [1602. 找到二叉树中最近的右侧节点【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1602.%20%E6%89%BE%E5%88%B0%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E6%9C%80%E8%BF%91%E7%9A%84%E5%8F%B3%E4%BE%A7%E8%8A%82%E7%82%B9%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
-- [ ] [1603. 设计停车系统【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1603.%20%E8%AE%BE%E8%AE%A1%E5%81%9C%E8%BD%A6%E7%B3%BB%E7%BB%9F%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
+- [x] [1603. 设计停车系统【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1603.%20%E8%AE%BE%E8%AE%A1%E5%81%9C%E8%BD%A6%E7%B3%BB%E7%BB%9F%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
 - [ ] [1604. 警告一小时内使用相同员工卡大于等于三次的人【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1604.%20%E8%AD%A6%E5%91%8A%E4%B8%80%E5%B0%8F%E6%97%B6%E5%86%85%E4%BD%BF%E7%94%A8%E7%9B%B8%E5%90%8C%E5%91%98%E5%B7%A5%E5%8D%A1%E5%A4%A7%E4%BA%8E%E7%AD%89%E4%BA%8E%E4%B8%89%E6%AC%A1%E7%9A%84%E4%BA%BA%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [1605. 给定行和列的和求可行矩阵【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1605.%20%E7%BB%99%E5%AE%9A%E8%A1%8C%E5%92%8C%E5%88%97%E7%9A%84%E5%92%8C%E6%B1%82%E5%8F%AF%E8%A1%8C%E7%9F%A9%E9%98%B5%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [1606. 找到处理最多请求的服务器【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1606.%20%E6%89%BE%E5%88%B0%E5%A4%84%E7%90%86%E6%9C%80%E5%A4%9A%E8%AF%B7%E6%B1%82%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
