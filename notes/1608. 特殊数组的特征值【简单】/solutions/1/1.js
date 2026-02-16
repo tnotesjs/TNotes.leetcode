@@ -3,6 +3,7 @@
  * @return {number}
  */
 var specialArray = function (nums) {
+  // 升序排序
   nums.sort((a, b) => a - b)
   const n = nums.length
 

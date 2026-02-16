@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/special-array-with-x-elements-greater-than-or-equal-x/)
 
-给你一个非负整数数组 `nums`。如果存在一个数 `x`，使得 `nums` 中恰好有 `x` 个元素 大于或者等于 `x`，那么就称 `nums` 是一个 特殊数组，而 `x` 是该数组的特征值。
+给你一个非负整数数组 `nums`。如果存在一个数 `x`，使得 `nums` 中恰好有 `x` 个元素大于或者等于 `x`，那么就称 `nums` 是一个特殊数组，而 `x` 是该数组的特征值。
 
 注意：`x` 不必是 `nums` 的中的元素。
 
@@ -74,9 +74,15 @@
 
 ## 2. 🎯 s.1 - 排序枚举
 
+![1](./assets/1.svg)
+
 ::: code-group
 
+<<< ./solutions/1/1.c [c]
+
 <<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
 
 :::
 
