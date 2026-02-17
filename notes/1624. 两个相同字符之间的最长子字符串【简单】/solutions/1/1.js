@@ -8,11 +8,8 @@ var maxLengthBetweenEqualCharacters = function (s) {
 
   for (let i = 0; i < s.length; i++) {
     const idx = s.charCodeAt(i) - 97
-    if (first[idx] === -1) {
-      first[idx] = i
-    } else {
-      ans = Math.max(ans, i - first[idx] - 1)
-    }
+    if (first[idx] === -1) first[idx] = i
+    else ans = Math.max(ans, i - first[idx] - 1)
   }
 
   return ans
