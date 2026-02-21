@@ -1793,7 +1793,7 @@
 - [ ] [1697. 检查边长度限制的路径是否存在【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1697.%20%E6%A3%80%E6%9F%A5%E8%BE%B9%E9%95%BF%E5%BA%A6%E9%99%90%E5%88%B6%E7%9A%84%E8%B7%AF%E5%BE%84%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
 - [ ] [1698. 字符串的不同子字符串个数【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1698.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9A%84%E4%B8%8D%E5%90%8C%E5%AD%90%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AA%E6%95%B0%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [1699. 两人之间的通话次数【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1699.%20%E4%B8%A4%E4%BA%BA%E4%B9%8B%E9%97%B4%E7%9A%84%E9%80%9A%E8%AF%9D%E6%AC%A1%E6%95%B0%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
-- [ ] [1700. 无法吃午餐的学生数量【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1700.%20%E6%97%A0%E6%B3%95%E5%90%83%E5%8D%88%E9%A4%90%E7%9A%84%E5%AD%A6%E7%94%9F%E6%95%B0%E9%87%8F%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
+- [x] [1700. 无法吃午餐的学生数量【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1700.%20%E6%97%A0%E6%B3%95%E5%90%83%E5%8D%88%E9%A4%90%E7%9A%84%E5%AD%A6%E7%94%9F%E6%95%B0%E9%87%8F%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
 
 ## 18. 1701~1800
 
