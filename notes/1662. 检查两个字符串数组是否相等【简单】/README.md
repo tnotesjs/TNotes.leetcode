@@ -22,12 +22,13 @@
 ```txt
 输入：word1 = ["ab", "c"], word2 = ["a", "bc"]
 输出：true
+```
 
 解释：
-word1 表示的字符串为 "ab" + "c" -> "abc"
-word2 表示的字符串为 "a" + "bc" -> "abc"
-两个字符串相同，返回 true
-```
+
+- word1 表示的字符串为 `"ab" + "c"` -> `"abc"`
+- word2 表示的字符串为 `"a" + "bc"` -> `"abc"`
+- 两个字符串相同，返回 `true`
 
 ---
 
@@ -60,7 +61,11 @@ word2 表示的字符串为 "a" + "bc" -> "abc"
 
 ::: code-group
 
+<<< ./solutions/1/1.c [c]
+
 <<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
 
 :::
 

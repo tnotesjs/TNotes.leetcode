@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/goal-parser-interpretation/)
 
-请你设计一个可以解释字符串 `command` 的 Goal 解析器。`command` 由 `"G"`、`"()"` 和/或 `"(al)"` 按某种顺序组成。Goal 解析器会将 `"G"` 解释为字符串 `"G"`、`"()"` 解释为字符串 `"o"`，`"(al)"` 解释为字符串 `"al"`。然后，按原顺序将经解释得到的字符串连接成一个字符串。
+请你设计一个可以解释字符串 `command` 的 Goal 解析器。`command` 由 `"G"`、`"()"` 和 `"(al)"` 按某种顺序组成。Goal 解析器会将 `"G"` 解释为字符串 `"G"`、`"()"` 解释为字符串 `"o"`，`"(al)"` 解释为字符串 `"al"`。然后，按原顺序将经解释得到的字符串连接成一个字符串。
 
 给你字符串 `command`，返回 Goal 解析器 对 `command` 的解释结果。
 
@@ -50,13 +50,17 @@ G -> G
 提示：
 
 - `1 <= command.length <= 100`
-- `command` 由 `"G"`、`"()"` 和/或 `"(al)"` 按某种顺序组成
+- `command` 由 `"G"`、`"()"` 和 `"(al)"` 按某种顺序组成
 
 ## 2. 🎯 s.1 - 扫描替换
 
 ::: code-group
 
+<<< ./solutions/1/1.c [c]
+
 <<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
 
 :::
 

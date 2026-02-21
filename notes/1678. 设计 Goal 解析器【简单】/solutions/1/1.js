@@ -3,17 +3,17 @@
  * @return {string}
  */
 var interpret = function (command) {
-  let res = ''
+  let res = ""
 
   for (let i = 0; i < command.length; ) {
-    if (command[i] === 'G') {
-      res += 'G'
+    if (command[i] === "G") {
+      res += "G"
       i += 1
-    } else if (command[i + 1] === ')') {
-      res += 'o'
+    } else if (command[i + 1] === ")") {
+      res += "o"
       i += 2
     } else {
-      res += 'al'
+      res += "al"
       i += 4
     }
   }

@@ -115,6 +115,9 @@
   // 小地图滑块始终显示
   "editor.minimap.showSlider": "always",
 
+  // Prettier 不添加语句结尾分号
+  "prettier.semi": false,
+
   // HTML 文件的编辑器配置
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -176,6 +179,9 @@
     "editor.tabSize": 4,
     "editor.insertSpaces": true
   },
+
+  // 禁用 C/C++ 插件的 IntelliSense 错误提示（避免因缺少头文件导致的误报）
+  "C_Cpp.errorSquiggles": "disabled",
 
   // #endregion
 

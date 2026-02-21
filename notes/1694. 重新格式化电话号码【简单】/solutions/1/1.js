@@ -3,7 +3,7 @@
  * @return {string}
  */
 var reformatNumber = function (number) {
-  const digits = number.replace(/[ \-]/g, '')
+  const digits = number.replace(/[ \-]/g, "")
   const res = []
   let i = 0
   while (digits.length - i > 4) {
@@ -19,5 +19,5 @@ var reformatNumber = function (number) {
     res.push(digits.slice(i))
   }
 
-  return res.join('-')
+  return res.join("-")
 }

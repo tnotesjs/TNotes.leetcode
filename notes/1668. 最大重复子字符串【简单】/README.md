@@ -11,9 +11,9 @@
 
 - [leetcode](https://leetcode.cn/problems/maximum-repeating-substring/)
 
-给你一个字符串 `sequence`，如果字符串 `word` 连续重复 `k` 次形成的字符串是 `sequence` 的一个子字符串，那么单词 `word` 的 重复值为 `k`。单词 `word` 的 最大重复值 是单词 `word` 在 `sequence` 中最大的重复值。如果 `word` 不是 `sequence` 的子串，那么重复值 `k` 为 `0`。
+给你一个字符串 `sequence`，如果字符串 `word` 连续重复 `k` 次形成的字符串是 `sequence` 的一个子字符串，那么单词 `word` 的重复值为 `k`。单词 `word` 的最大重复值是单词 `word` 在 `sequence` 中最大的重复值。如果 `word` 不是 `sequence` 的子串，那么重复值 `k` 为 `0`。
 
-给你一个字符串 `sequence` 和 `word`，请你返回 最大重复值 `k`。
+给你一个字符串 `sequence` 和 `word`，请你返回最大重复值 `k`。
 
 ---
 
@@ -22,30 +22,31 @@
 ```txt
 输入：sequence = "ababc", word = "ab"
 输出：2
-
-解释：
-"abab" 是 "ababc" 的子字符串。
 ```
+
+解释："abab" 是 "ababc" 的子字符串。
+
+---
 
 示例 2：
 
 ```txt
 输入：sequence = "ababc", word = "ba"
 输出：1
-
-解释：
-"ba" 是 "ababc" 的子字符串，但 "baba" 不是 "ababc" 的子字符串。
 ```
+
+解释："ba" 是 "ababc" 的子字符串，但 "baba" 不是 "ababc" 的子字符串。
+
+---
 
 示例 3：
 
 ```txt
 输入：sequence = "ababc", word = "ac"
 输出：0
-
-解释：
-"ac" 不是 "ababc" 的子字符串。
 ```
+
+解释："ac" 不是 "ababc" 的子字符串。
 
 ---
 
@@ -59,18 +60,22 @@
 
 ::: code-group
 
+<<< ./solutions/1/1.c [c]
+
 <<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(N \times K \times M)$，其中 N 是 sequence 的长度，K 是最大重复次数（最多 N/M 次），M 是 word 的长度，includes 方法需要 O(N×M) 时间
+- 时间复杂度：$O(N \times K \times M)$，其中 N 是 sequence 的长度，K 是最大重复次数（最多 N/M 次），M 是 word 的长度，includes 方法需要 $O(N \times M)$ 时间
 - 空间复杂度：$O(K \times M)$，重复字符串 rep 的最大长度
 
 算法思路：
 
 - 计算最大可能的重复次数 `maxTimes = ⌊sequence.length / word.length⌋`
-- 初始化重复字符串 `rep` 为空，最大重复值 `ans` 为 0
-- 从 k=1 到 maxTimes 枚举重复次数：
+- 初始化重复字符串 `rep` 为空，最大重复值 `ans` 为 `0`
+- 从 `k = 1` 到 `maxTimes` 枚举重复次数：
   - 将 `word` 追加到 `rep`，构造 k 次重复的字符串
   - 如果 `rep` 是 `sequence` 的子串，更新 `ans = k`
   - 否则说明更多重复不可能是子串，提前退出循环
