@@ -54,7 +54,11 @@ a = "text" 且 b = "book"。a 中有 1 个元音，b 中有 2 个元音。
 
 ::: code-group
 
+<<< ./solutions/1/1.c [c]
+
 <<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
 
 :::
 
