@@ -4,6 +4,7 @@
 
 - [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 前缀异或还原](#2--s1---前缀异或还原)
+  - [2.1. 核心公式推导](#21-核心公式推导)
 
 <!-- endregion:toc -->
 
@@ -11,7 +12,7 @@
 
 - [leetcode](https://leetcode.cn/problems/decode-xored-array/)
 
-未知 整数数组 `arr` 由 `n` 个非负整数组成。
+未知整数数组 `arr` 由 `n` 个非负整数组成。
 
 经编码后变为长度为 `n - 1` 的另一个整数数组 `encoded`，其中 `encoded[i] = arr[i] XOR arr[i + 1]`。例如，`arr = [1,0,2,1]` 经编码后得到 `encoded = [1,2,3]`。
 
@@ -26,10 +27,11 @@
 ```txt
 输入：encoded = [1,2,3], first = 1
 输出：[1,0,2,1]
-
-解释：
-若 arr = [1,0,2,1]，那么 first = 1 且 encoded = [1 XOR 0, 0 XOR 2, 2 XOR 1] = [1,2,3]
 ```
+
+解释：若 `arr = [1,0,2,1]`，那么 `first = 1` 且 `encoded = [1 XOR 0, 0 XOR 2, 2 XOR 1] = [1,2,3]`
+
+---
 
 示例 2：
 
@@ -51,7 +53,11 @@
 
 ::: code-group
 
+<<< ./solutions/1/1.c [c]
+
 <<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
 
 :::
 
@@ -62,6 +68,75 @@
 
 - 创建长度为 `N+1` 的结果数组 `arr`，并将 `arr[0]` 初始化为 `first`
 - 利用异或性质：由 `encoded[i] = arr[i] XOR arr[i+1]` 推导出 `arr[i+1] = encoded[i] XOR arr[i]`
-- 遍历 `encoded` 数组，依次计算并填充 `arr[i+1]`：
-  - `arr[i+1] = encoded[i] ^ arr[i]`
+- 遍历 `encoded` 数组，依次计算并填充 `arr[i+1]`：`arr[i+1] = encoded[i] ^ arr[i]`
 - 返回完整的解码数组 `arr`
+
+### 2.1. 核心公式推导
+
+已知条件：
+
+$$
+\text{encoded}[i] = \text{arr}[i] \oplus \text{arr}[i+1]
+$$
+
+这里 $\oplus$ 表示按位异或 (XOR)。
+
+已知异或的几个基本性质：
+
+1. 交换律：$a \oplus b = b \oplus a$
+2. 结合律：$(a \oplus b) \oplus c = a \oplus (b \oplus c)$
+3. 恒等律：$a \oplus 0 = a$
+4. 归零律：$a \oplus a = 0$
+5. 可逆性：$a \oplus b = c \implies b = a \oplus c$（即两边同时异或 $a$）。
+
+推导目标：
+
+从
+
+$$
+\text{encoded}[i] = \text{arr}[i] \oplus \text{arr}[i+1]
+$$
+
+推出
+
+$$
+\text{arr}[i+1] = \text{encoded}[i] \oplus \text{arr}[i]
+$$
+
+推导过程：
+
+等式两边同时异或 $\text{arr}[i]$：
+
+$$
+\text{encoded}[i] \oplus \text{arr}[i] = (\text{arr}[i] \oplus \text{arr}[i+1]) \oplus \text{arr}[i]
+$$
+
+利用结合律：
+
+$$
+(\text{arr}[i] \oplus \text{arr}[i+1]) \oplus \text{arr}[i] = \text{arr}[i] \oplus \text{arr}[i+1] \oplus \text{arr}[i]
+$$
+
+交换律（为了结合方便）：
+
+$$
+= \text{arr}[i] \oplus \text{arr}[i] \oplus \text{arr}[i+1]
+$$
+
+利用归零律 $\text{arr}[i] \oplus \text{arr}[i] = 0$：
+
+$$
+= 0 \oplus \text{arr}[i+1]
+$$
+
+利用恒等律 $0 \oplus a = a$：
+
+$$
+= \text{arr}[i+1]
+$$
+
+于是得到结论：
+
+$$
+\boxed{\text{arr}[i+1] = \text{encoded}[i] \oplus \text{arr}[i]}
+$$
