@@ -1,9 +1,7 @@
 {
   "author": "tnotesjs",
   "repoName": "TNotes.leetcode",
-  "keywords": [
-    "TNotes.leetcode"
-  ],
+  "keywords": ["TNotes.leetcode"],
   "sidebar_isNotesIDVisible": true,
   "sidebar_isCollapsed": true,
   "ignore_dirs": [
@@ -91,6 +89,6 @@
       "icon": "github"
     }
   ],
-  "id": "b21928bb-10f5-47d8-9af5-e9f714decc34",
+  "id": "d40afd1b-69f1-43c5-928b-1dd8e537ec7f",
   "sidebarShowNoteId": true
 }
