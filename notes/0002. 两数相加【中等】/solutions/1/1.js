@@ -11,9 +11,10 @@
  * @return {ListNode}
  */
 var addTwoNumbers = function (l1, l2) {
-  let head = null,
-    tail = null
-  let carry = 0
+  let head = null // 新链表的头节点
+  let tail = null // 新链表的尾节点
+  let carry = 0 // 模拟逐位求和的进位
+
   while (l1 || l2) {
     const n1 = l1 ? l1.val : 0
     const n2 = l2 ? l2.val : 0
@@ -25,15 +26,14 @@ var addTwoNumbers = function (l1, l2) {
       tail = tail.next
     }
     carry = Math.floor(sum / 10)
-    if (l1) {
-      l1 = l1.next
-    }
-    if (l2) {
-      l2 = l2.next
-    }
+
+    // 移动指针，继续检查后续位
+    if (l1) l1 = l1.next
+    if (l2) l2 = l2.next
   }
-  if (carry > 0) {
-    tail.next = new ListNode(carry)
-  }
+
+  // 最后检查是否有新的进位
+  if (carry > 0) tail.next = new ListNode(carry)
+
   return head
 }
