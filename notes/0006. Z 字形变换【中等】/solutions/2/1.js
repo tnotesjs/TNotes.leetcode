@@ -4,11 +4,10 @@
  * @return {string}
  */
 var convert = function (s, numRows) {
-  const n = s.length,
-    r = numRows
-  if (r === 1 || r >= n) {
-    return s
-  }
+  const n = s.length
+  const r = numRows
+  if (r === 1 || r >= n) return s
+
   const mat = new Array(r).fill(0)
   for (let i = 0; i < r; ++i) {
     mat[i] = []
