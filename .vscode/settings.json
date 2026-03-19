@@ -347,7 +347,8 @@
   // 禁用 Less 内置验证
   "less.validate": false,
   // 禁用 SCSS 内置验证
-  "scss.validate": false
+  "scss.validate": false,
+  "git.ignoreLimitWarning": true
 
   // #endregion - Others（其他相关配置）
 
