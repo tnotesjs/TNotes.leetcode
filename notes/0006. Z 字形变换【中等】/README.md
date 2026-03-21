@@ -77,9 +77,15 @@ P     I
 
 ## 2. 🎯 s.1 - 利用二维矩阵模拟
 
+![svg](./assets/1.svg)
+
 ::: code-group
 
+<<< ./solutions/1/1.c [c]
+
 <<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
 
 :::
 
@@ -144,8 +150,6 @@ $$
 \text{cycles} = \lceil \frac{n}{t} \rceil
 $$
 
-在整数运算中，$\lceil \frac{a}{b} \rceil$ 等价于 `Math.floor((a + b - 1) / b)`。所以代码中使用：`Math.floor((n + t - 1) / t)`。
-
 总列数计算：
 
 $$
@@ -164,9 +168,15 @@ $$
 
 ## 3. 🎯 s.2 - 压缩矩阵空间
 
+![svg](./assets/2.svg)
+
 ::: code-group
 
+<<< ./solutions/2/1.c [c]
+
 <<< ./solutions/2/1.js [js]
+
+<<< ./solutions/2/1.py [py]
 
 :::
 
@@ -183,7 +193,11 @@ $$
 
 ::: code-group
 
+<<< ./solutions/3/1.c [c]
+
 <<< ./solutions/3/1.js [js]
+
+<<< ./solutions/3/1.py [py]
 
 :::
 
@@ -193,5 +207,7 @@ $$
 算法思路：
 
 - 直接按照读取顺序构造结果，无需中间矩阵
-- 周期 `t = 2r - 2`，外层枚举行号 `i`，内层按周期譿 `j` 依次取同一行的字符
-- 每个周期第一个字符对应下标 `j + i`，中间行（`0 < i < r-1`）还有第二个字符对应下标 `j + t - i`
+- 周期 `t = 2r - 2`，外层枚举行号 `i`，内层偏移量 `j` 按周期 `t` 为步长，依次取同一行的字符
+- 在遍历每个周期的时候，需要注意插入的第二个成员的条件：
+  - 同一个周期内，第一行和第 r - 1 行只会存在一个成员
+  - 确保插入的成员索引 `j + t - i` 未越界
