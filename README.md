@@ -53,7 +53,7 @@
 - [x] [0005. 最长回文子串【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0005.%20%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [x] [0006. Z 字形变换【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0006.%20Z%20%E5%AD%97%E5%BD%A2%E5%8F%98%E6%8D%A2%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [x] [0007. 整数反转【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0007.%20%E6%95%B4%E6%95%B0%E5%8F%8D%E8%BD%AC%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
-- [ ] [0008. 字符串转换整数 (atoi)【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0008.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E6%8D%A2%E6%95%B4%E6%95%B0%20(atoi)%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
+- [x] [0008. 字符串转换整数 (atoi)【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0008.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E8%BD%AC%E6%8D%A2%E6%95%B4%E6%95%B0%20(atoi)%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [x] [0009. 回文数【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0009.%20%E5%9B%9E%E6%96%87%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
 - [ ] [0010. 正则表达式匹配【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0010.%20%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F%E5%8C%B9%E9%85%8D%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
 - [ ] [0011. 盛最多水的容器【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0011.%20%E7%9B%9B%E6%9C%80%E5%A4%9A%E6%B0%B4%E7%9A%84%E5%AE%B9%E5%99%A8%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
