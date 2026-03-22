@@ -1,1 +1,3 @@
-// todo
+int strStr(char* haystack, char* needle) {
+    
+}

@@ -1,1 +1,3 @@
-// todo
+char* countAndSay(int n) {
+    
+}
