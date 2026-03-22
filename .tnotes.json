@@ -37,12 +37,12 @@
       "25.12": 234,
       "26.01": 379,
       "26.02": 415,
-      "26.03": 420
+      "26.03": 421
     },
     "details": "Leetcode 刷题笔记",
     "link": "https://tnotesjs.github.io/TNotes.leetcode/",
     "created_at": 1741793958000,
-    "updated_at": 1774153766965,
+    "updated_at": 1774184545067,
     "days_since_birth": 9389
   },
   "menuItems": [
@@ -53,14 +53,6 @@
     {
       "text": "⚙️ Settings",
       "link": "/Settings"
-    },
-    {
-      "text": "🎯 Words",
-      "link": "/Words"
-    },
-    {
-      "text": "🔗 引用",
-      "link": "/References"
     },
     {
       "text": "📒 TNotes",
