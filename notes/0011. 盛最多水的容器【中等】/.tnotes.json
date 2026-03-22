@@ -1,11 +1,11 @@
 {
   "bilibili": [],
   "tnotes": [],
-  "yuque": ["leetcode.0011"],
-  "done": false,
-  "enableDiscussions": false,
+  "yuque": [],
+  "done": true,
+  "enableDiscussions": true,
   "description": "",
   "id": "0cef3aef-2738-4e71-9e84-2a7c683c7612",
   "created_at": 1741793958000,
-  "updated_at": 1757429065000
+  "updated_at": 1774153771595
 }
