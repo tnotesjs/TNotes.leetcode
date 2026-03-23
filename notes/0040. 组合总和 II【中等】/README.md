@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
+- [2. 🎯 s.1 - 回溯 + 排序去重剪枝](#2--s1---回溯--排序去重剪枝)
 
 <!-- endregion:toc -->
 
@@ -51,13 +51,24 @@
 - `1 <= candidates[i] <= 50`
 - `1 <= target <= 30`
 
-## 2. 🎯 s.1 - 暴力解法
+## 2. 🎯 s.1 - 回溯 + 排序去重剪枝
 
 ::: code-group
 
+<<< ./solutions/1/1.c [c]
+
 <<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(2^n \cdot n)$，其中 $n$ 是 `candidates` 的长度，最多有 $2^n$ 个子集，每个结果复制需 $O(n)$
+- 空间复杂度：$O(n)$，递归栈深度最多为 $n$（不计输出结果）
+
+算法思路：
+
+- 先对 `candidates` 升序排序，使相同元素相邻，方便去重剪枝
+- `backtrack(start, remain, path)`：从下标 `start` 开始枚举，每次取 `candidates[i]` 后，下一层从 `i + 1` 开始（每个元素只能用一次）
+- 同层枚举时，若 `i > start && candidates[i] == candidates[i-1]`，跳过该元素，避免产生重复组合
+- `remain == 0` 时收集结果；`candidates[i] > remain` 时 `break`（已排序，后续更大）

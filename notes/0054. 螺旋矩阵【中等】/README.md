@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
+- [2. 🎯 s.1 - xxx](#2--s1---xxx)
 
 <!-- endregion:toc -->
 
@@ -42,11 +42,15 @@
 - `1 <= m, n <= 10`
 - `-100 <= matrix[i][j] <= 100`
 
-## 2. 🎯 s.1 - 暴力解法
+## 2. 🎯 s.1 - xxx
 
 ::: code-group
 
+<<< ./solutions/1/1.c [c]
+
 <<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
 
 :::
 
