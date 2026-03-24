@@ -15,7 +15,7 @@
 
 示例 1：
 
-![](https://assets.leetcode.com/uploads/2020/08/21/largest_e1.jpg)
+![img](https://assets.leetcode.com/uploads/2020/08/21/largest_e1.jpg)
 
 ```txt
 输入: root = [1,3,2,5,3,null,9]
@@ -36,13 +36,21 @@
 - 二叉树的节点个数的范围是 `[0,10^4]`
 - `-2^31 <= Node.val <= 2^31 - 1`
 
-## 2. 🎯 s.1 - 暴力解法
+## 2. 🎯 s.1 - BFS
 
 ::: code-group
 
+<<< ./solutions/1/1.c [c]
+
 <<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$
+- 空间复杂度：$O(n)$
+
+算法思路：
+
+- 层序遍历，每层取最大值加入结果

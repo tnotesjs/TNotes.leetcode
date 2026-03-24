@@ -50,13 +50,23 @@
 - `isConnected[i][i] == 1`
 - `isConnected[i][j] == isConnected[j][i]`
 
-## 2. 🎯 s.1 - 暴力解法
+## 2. 🎯 s.1 - 并查集
 
 ::: code-group
 
+<<< ./solutions/1/1.c [c]
+
 <<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n^2 \cdot \alpha(n))$，其中 n 是城市数量，$\alpha$ 是反阿克曼函数
+- 空间复杂度：$O(n)$
+
+算法思路：
+
+- 初始化每个城市为独立的省份
+- 遍历连接矩阵，将直接相连的城市合并到同一集合
+- 最终并查集中的连通分量数即为省份数量

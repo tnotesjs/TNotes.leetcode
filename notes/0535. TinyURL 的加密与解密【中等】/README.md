@@ -40,13 +40,22 @@ string ans = obj.decode(tiny); // 返回解密后得到的原本的 URL。
 - `1 <= url.length <= 10^4`
 - 题目数据保证 `url` 是一个有效的 URL
 
-## 2. 🎯 s.1 - 暴力解法
+## 2. 🎯 s.1 - 自增 ID + 哈希表
 
 ::: code-group
 
+<<< ./solutions/1/1.c [c]
+
 <<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：`encode` 和 `decode` 均为 $O(1)$
+- 空间复杂度：$O(n)$，$n$ 为已编码 URL 数量
+
+算法思路：
+
+- 为每个 URL 分配自增 ID，作为短链接后缀
+- 哈希表存储短链接到原始 URL 的映射

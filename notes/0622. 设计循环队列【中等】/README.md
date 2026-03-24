@@ -55,7 +55,7 @@ circularQueue.Rear();  // 返回 4
 
 ## 2. 🎯 s.1 - 设计循环队列
 
-![](assets/622.%20设计循环队列-题解.gif)
+![img](assets/622.%20设计循环队列-题解.gif)
 
 ```javascript
 /**
