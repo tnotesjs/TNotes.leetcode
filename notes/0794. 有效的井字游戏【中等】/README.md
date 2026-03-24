@@ -36,6 +36,8 @@
 解释：玩家 1 总是放字符 "X"。
 ```
 
+---
+
 示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-15-20-50-55.png)
@@ -45,6 +47,8 @@
 输出：false
 解释：玩家应该轮流放字符。
 ```
+
+---
 
 示例 3：
 
@@ -63,13 +67,22 @@
 - `board[i].length == 3`
 - `board[i][j]` 为 `'X'`、`'O'` 或 `' '`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 模拟
 
 ::: code-group
 
+<<< ./solutions/1/1.c [c]
+
 <<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
+- 时间复杂度：$O(1)$，棋盘大小固定为 $3 \times 3$
 - 空间复杂度：$O(1)$
+
+算法思路：
+
+- 统计 X 和 O 的数量，必须满足 xCnt == oCnt 或 xCnt == oCnt + 1
+- X 获胜时 xCnt 必须多于 oCnt； O 获胜时 xCnt 必须等于 oCnt

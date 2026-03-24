@@ -53,13 +53,23 @@ myLinkedList.get(1);              // 返回 3
 - 请不要使用内置的 LinkedList 库。
 - 调用 `get`、`addAtHead`、`addAtTail`、`addAtIndex` 和 `deleteAtIndex` 的次数不超过 `2000`。
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 单链表
 
 ::: code-group
 
+<<< ./solutions/1/1.c [c]
+
 <<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：get/addAtIndex/deleteAtIndex 均为 $O(n)$，addAtHead 为 $O(1)$
+- 空间复杂度：$O(n)$，其中 n 是链表中的元素数
+
+算法思路：
+
+- 维护单链表头指针和 size 计数
+- get/delete 通过遍历到目标索引实现
+- addAtIndex 先找到前驱节点，再插入新节点

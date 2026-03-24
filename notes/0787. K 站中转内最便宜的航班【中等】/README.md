@@ -84,13 +84,22 @@ n = 3, flights = [
 - `0 <= src, dst, k < n`
 - `src != dst`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - Bellman-Ford
 
 ::: code-group
 
+<<< ./solutions/1/1.c [c]
+
 <<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(k \times m)$，其中 m 是航班数量
+- 空间复杂度：$O(n)$
+
+算法思路：
+
+- 限制最多 k 次中转即最多经过 k+1 条边，进行 k+1 轮 Bellman-Ford 松弛
+- 每轮使用上一轮的副本更新，避免在同一轮中多次松弛

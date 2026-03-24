@@ -43,13 +43,23 @@ XRLXXRRLX
 - `start.length == result.length`
 - `start` 和 `result` 都只包含 `'L'`, `'R'` 或 `'X'`。
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 双指针
 
 ::: code-group
 
+<<< ./solutions/1/1.c [c]
+
 <<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，其中 n 是字符串长度
 - 空间复杂度：$O(1)$
+
+算法思路：
+
+- 去掉 X 后两个字符串的 L、R 顺序必须一致
+- L 只能左移，所以 start 中 L 的位置必须 >= end 中对应 L 的位置
+- R 只能右移，所以 start 中 R 的位置必须 <= end 中对应 R 的位置
