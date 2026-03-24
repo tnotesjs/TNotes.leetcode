@@ -23,7 +23,6 @@
 ```
 
 - 解释：
-
   - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-36-28.png)
 
 示例 2：
@@ -34,7 +33,6 @@
 ```
 
 - 解释：
-
   - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-36-04.png)
 
 示例 3：
@@ -58,13 +56,21 @@
 - 二叉树的节点个数的范围是 `[0,100]`
 - `-100 <= Node.val <= 100`
 
-## 2. 🎯 s.1 - 暴力解法
+## 2. 🎯 s.1 - BFS
 
 ::: code-group
 
+<<< ./solutions/1/1.c [c]
+
 <<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，其中 $n$ 是二叉树的节点数
+- 空间复杂度：$O(n)$，队列最多存储一层的节点
+
+算法思路：
+
+- BFS 层序遍历，每层取最后一个节点的值（即该层最右侧的节点）
