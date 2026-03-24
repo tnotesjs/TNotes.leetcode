@@ -45,20 +45,28 @@
 - `0 <= citations[i] <= 1000`
 - `citations` 按 升序排列
 
-## 2. 🎯 s.1 - 暴力解法
+## 2. 🎯 s.1 - 二分查找
 
 ::: code-group
 
+<<< ./solutions/1/1.c [c]
+
 <<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
+- 时间复杂度：$O(\log n)$，其中 $n$ 是数组长度
 - 空间复杂度：$O(1)$
+
+算法思路：
+
+- 数组已升序排列，二分查找第一个满足 `citations[mid] >= n - mid` 的位置
+- `n - lo` 即为 H 指数
 
 ## 3. 🔗 引用
 
-- [h 指数的定义][1]
-  - 百度百科
+- [h 指数的定义 - 百度百科][1]
 
 [1]: https://baike.baidu.com/item/h-index/3991452?fr=aladdin

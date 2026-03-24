@@ -1,4 +1,4 @@
-# [0208. 实现 Trie (前缀树)【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0208.%20%E5%AE%9E%E7%8E%B0%20Trie%20(%E5%89%8D%E7%BC%80%E6%A0%91)%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
+# [0208. 实现 Trie (前缀树)【中等】](<https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0208.%20%E5%AE%9E%E7%8E%B0%20Trie%20(%E5%89%8D%E7%BC%80%E6%A0%91)%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91>)
 
 <!-- region:toc -->
 
@@ -48,20 +48,29 @@ trie.search("app");     // 返回 True
 - `word` 和 `prefix` 仅由小写英文字母组成
 - `insert`、`search` 和 `startsWith` 调用次数 总计 不超过 `3 * 10^4` 次
 
-## 2. 🎯 s.1 - 暴力解法
+## 2. 🎯 s.1 - 字典树
 
 ::: code-group
 
+<<< ./solutions/1/1.c [c]
+
 <<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：`insert`/`search`/`startsWith` 均为 $O(m)$，其中 $m$ 是单词或前缀的长度
+- 空间复杂度：$O(T)$，其中 $T$ 是所有插入单词的字符总数
+
+算法思路：
+
+- 每个节点包含子节点映射和是否为单词结尾的标记
+- `insert`：逐字符遍历，不存在则创建新节点，最后标记结尾
+- `search` 和 `startsWith` 复用前缀搜索逻辑，区别在于是否检查 `isEnd`
 
 ## 3. 🔗 引用
 
-- [Trie][1]
-  - 百度百科
+- [Trie - 百度百科][1]
 
 [1]: https://baike.baidu.com/item/字典树/9825209?fr=aladdin

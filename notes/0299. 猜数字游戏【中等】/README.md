@@ -58,20 +58,29 @@
 - `secret.length == guess.length`
 - `secret` 和 `guess` 仅由数字组成
 
-## 2. 🎯 s.1 - 暴力解法
+## 2. 🎯 s.1 - 一次遍历
 
 ::: code-group
 
+<<< ./solutions/1/1.c [c]
+
 <<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，其中 $n$ 是字符串长度
+- 空间复杂度：$O(1)$，计数数组固定大小 10
+
+算法思路：
+
+- 同位置相同即为 Bull，否则用计数数组统计匹配
+- secret 的数字使计数 +1，guess 的数字使计数 -1
+- 若 secret 数字对应计数 < 0 说明之前 guess 已记录过，cows++；反之亦然
 
 ## 3. 🔗 引用
 
-- [猜数字（Bulls and Cows）][1]
-  - 百度百科
+- [猜数字（Bulls and Cows） - 百度百科][1]
 
 [1]: https://baike.baidu.com/item/%E7%8C%9C%E6%95%B0%E5%AD%97/83200?fromtitle=Bulls+and+Cows&fromid=12003488&fr=aladdin

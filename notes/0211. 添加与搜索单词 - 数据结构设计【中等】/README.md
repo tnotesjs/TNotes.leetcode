@@ -48,13 +48,22 @@ wordDictionary.search("b.."); // 返回 True
 - `search` 中的 `word` 由 '.' 或小写英文字母组成
 - 最多调用 `10^4` 次 `addWord` 和 `search`
 
-## 2. 🎯 s.1 - 暴力解法
+## 2. 🎯 s.1 - 字典树 + DFS
 
 ::: code-group
 
+<<< ./solutions/1/1.c [c]
+
 <<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：`addWord` 为 $O(m)$，`search` 最坏 $O(26^m)$，其中 $m$ 是单词长度
+- 空间复杂度：$O(T)$，其中 $T$ 是所有插入单词的字符总数
+
+算法思路：
+
+- 使用字典树存储单词，`addWord` 与普通 Trie 插入相同
+- `search` 时遇到 `.` 需要遍历当前节点的所有子节点进行 DFS 匹配
