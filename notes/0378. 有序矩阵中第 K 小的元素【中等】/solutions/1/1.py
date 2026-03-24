@@ -1,1 +1,16 @@
-# todo
+class Solution:
+    def kthSmallest(self, matrix: List[List[int]], k: int) -> int:
+        n = len(matrix)
+        lo, hi = matrix[0][0], matrix[n - 1][n - 1]
+        while lo < hi:
+            mid = (lo + hi) // 2
+            count, j = 0, n - 1
+            for i in range(n):
+                while j >= 0 and matrix[i][j] > mid:
+                    j -= 1
+                count += j + 1
+            if count < k:
+                lo = mid + 1
+            else:
+                hi = mid
+        return lo

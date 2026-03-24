@@ -83,13 +83,23 @@ queries = [["a","b"],["b","a"],["a","c"],["x","y"]]
 - `1 <= Cj.length, Dj.length <= 5`
 - `Ai, Bi, Cj, Dj` 由小写英文字母与数字组成
 
-## 2. 🎯 s.1 - 暴力解法
+## 2. 🎯 s.1 - 带权并查集
 
 ::: code-group
 
+<<< ./solutions/1/1.c [c]
+
 <<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O((N + Q) \cdot \alpha(N))$，其中 $N$ 是等式数，$Q$ 是查询数
+- 空间复杂度：$O(N)$
+
+算法思路：
+
+- 建立带权并查集，$weight[x] = x / root(x)$
+- `a / b = val` 即合并 a、b，权值传递除法关系
+- 查询时若同根则 $a/b = weight[a] / weight[b]$

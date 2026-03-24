@@ -71,13 +71,22 @@ numMatrix.sumRegion(1, 2, 2, 4); // return 12 (蓝色矩形框的元素总和)
 - `0 <= col1 <= col2 < n`
 - 最多调用 `10^4` 次 `sumRegion` 方法
 
-## 2. 🎯 s.1 - 暴力解法
+## 2. 🎯 s.1 - 二维前缀和
 
 ::: code-group
 
+<<< ./solutions/1/1.c [c]
+
 <<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：初始化 $O(m \times n)$，查询 $O(1)$
+- 空间复杂度：$O(m \times n)$，前缀和数组
+
+算法思路：
+
+- 预处理二维前缀和数组，$prefix[i][j]$ 表示左上角 $(0,0)$ 到 $(i-1,j-1)$ 的元素总和
+- 查询时利用容斥原理：$sum = prefix[r2+1][c2+1] - prefix[r1][c2+1] - prefix[r2+1][c1] + prefix[r1][c1]$

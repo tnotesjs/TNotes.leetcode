@@ -58,16 +58,25 @@
 
 - `1 <= x, y, target <= 10^3`
 
-## 2. 🎯 s.1 - 暴力解法
+## 2. 🎯 s.1 - 裴蕴定理
 
 ::: code-group
 
+<<< ./solutions/1/1.c [c]
+
 <<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(\log(\min(x, y)))$，GCD 计算
+- 空间复杂度：$O(\log(\min(x, y)))$，递归栈
+
+算法思路：
+
+- 裴蕴定理：$ax + by = z$ 有解当且仅当 $z$ 是 $\gcd(x, y)$ 的倍数
+- 判断 `targetCapacity % gcd(jug1, jug2) === 0` 且总容量足够
 
 ## 3. 🔗 引用
 

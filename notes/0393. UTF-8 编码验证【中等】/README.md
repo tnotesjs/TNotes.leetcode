@@ -65,13 +65,22 @@ Number of Bytes     |        UTF-8 octet sequence
 - `1 <= data.length <= 2 * 10^4`
 - `0 <= data[i] <= 255`
 
-## 2. 🎯 s.1 - 暴力解法
+## 2. 🎯 s.1 - 位运算模拟
 
 ::: code-group
 
+<<< ./solutions/1/1.c [c]
+
 <<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，其中 $n$ 是数据长度
 - 空间复杂度：$O(1)$
+
+算法思路：
+
+- 通过高位移位判断字节类型：1字节/2字节/3字节/4字节
+- 后续字节必须以 `10` 开头，通过 `remaining` 计数验证

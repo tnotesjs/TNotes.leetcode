@@ -45,13 +45,23 @@
 - `1 <= prices.length <= 5000`
 - `0 <= prices[i] <= 1000`
 
-## 2. 🎯 s.1 - 暴力解法
+## 2. 🎯 s.1 - 状态机 DP
 
 ::: code-group
 
+<<< ./solutions/1/1.c [c]
+
 <<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，其中 $n$ 是价格数组长度
+- 空间复杂度：$O(1)$，只使用常数额外空间
+
+算法思路：
+
+- 三种状态：持有股票（hold）、刚卖出（sold）、冷冻/空闲（rest）
+- `hold = max(hold, rest - price)`，`sold = hold + price`，`rest = max(rest, prevSold)`
+- 卖出后下一天必须冷冻，所以只能从 rest 状态买入

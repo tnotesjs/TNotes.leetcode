@@ -51,13 +51,23 @@ numArray.sumRange(0, 2); // 返回 1 + 2 + 5 = 8
 - `0 <= left <= right < nums.length`
 - 调用 `update` 和 `sumRange` 方法次数不大于 `3 * 10^4`
 
-## 2. 🎯 s.1 - 暴力解法
+## 2. 🎯 s.1 - 树状数组
 
 ::: code-group
 
+<<< ./solutions/1/1.c [c]
+
 <<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：初始化 $O(n \log n)$，`update` 和 `sumRange` 均为 $O(\log n)$
+- 空间复杂度：$O(n)$
+
+算法思路：
+
+- 使用树状数组（Binary Indexed Tree）维护前缀和
+- `update` 时从当前索引向上更新所有包含该元素的节点
+- `sumRange` 通过两次前缀和查询相减得到区间和
