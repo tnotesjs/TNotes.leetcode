@@ -53,4 +53,23 @@ circularDeque.getFront();				// 返回 4
 - `0 <= value <= 1000`
 - `insertFront`, `insertLast`, `deleteFront`, `deleteLast`, `getFront`, `getRear`, `isEmpty`, `isFull` 调用次数不大于 `2000` 次
 
-## 2. 🎯 s.1
+## 2. 🎯 s.1 - 循环数组
+
+::: code-group
+
+<<< ./solutions/1/1.c [c]
+
+<<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
+
+:::
+
+- 时间复杂度：$O(1)$，所有操作均为常数时间
+- 空间复杂度：$O(k)$
+
+算法思路：
+
+- 用大小为 `k + 1` 的循环数组，维护 `front` 和 `rear` 两个指针
+- 空判断：`front == rear`；满判断：`(rear + 1) % cap == front`
+- 头部插入向前移动 `front`，尾部插入向后移动 `rear`

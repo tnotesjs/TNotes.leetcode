@@ -50,13 +50,22 @@ mapSum.sum("ap");           // 返回 5 (apple + app = 3 + 2 = 5)
 - `1 <= val <= 1000`
 - 最多调用 `50` 次 `insert` 和 `sum`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 哈希表
 
 ::: code-group
 
+<<< ./solutions/1/1.c [c]
+
 <<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：insert $O(1)$，sum $O(n \times l)$，其中 n 是键值对数量，l 是前缀长度
+- 空间复杂度：$O(n \times l)$
+
+算法思路：
+
+- 用哈希表存储所有键值对
+- sum 时遍历所有 key，累加前缀匹配的 value

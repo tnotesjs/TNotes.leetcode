@@ -56,13 +56,22 @@
 - 一名员工最多有一名直接领导，并可能有多名下属。
 - `employees[i].subordinates` 中的 ID 都有效。
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - DFS
 
 ::: code-group
 
+<<< ./solutions/1/1.c [c]
+
 <<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，其中 n 是员工数量
+- 空间复杂度：$O(n)$
+
+算法思路：
+
+- 建立 id 到员工的哈希映射
+- 从目标员工开始DFS，累加自身 importance 和所有下属的递归结果

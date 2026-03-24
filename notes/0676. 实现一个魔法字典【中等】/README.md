@@ -50,13 +50,22 @@ magicDictionary.search("leetcoded"); // 返回 False
 - `buildDict` 仅在 `search` 之前调用一次
 - 最多调用 `100` 次 `search`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 枚举
 
 ::: code-group
 
+<<< ./solutions/1/1.c [c]
+
 <<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：buildDict $O(1)$，search $O(n \times l)$，其中 n 是字典大小，l 是单词长度
+- 空间复杂度：$O(n \times l)$
+
+算法思路：
+
+- 直接存储字典中所有单词
+- 搜索时遍历字典，找长度相同且恰好差一个字符的单词
