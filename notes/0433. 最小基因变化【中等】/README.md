@@ -56,13 +56,22 @@
 - `bank[i].length == 8`
 - `start`、`end` 和 `bank[i]` 仅由字符 `['A', 'C', 'G', 'T']` 组成
 
-## 2. 🎯 s.1 - 暴力解法
+## 2. 🎯 s.1 - BFS
 
 ::: code-group
 
+<<< ./solutions/1/1.c [c]
+
 <<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(C \times n \times |\Sigma|)$，其中 $C=8$ 是基因长度，$|\Sigma|=4$
+- 空间复杂度：$O(n)$
+
+算法思路：
+
+- BFS 求最短路径，每次变化一个字符
+- 只有基因库中的序列才是合法状态

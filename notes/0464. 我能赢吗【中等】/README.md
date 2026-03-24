@@ -55,13 +55,23 @@
 - `1 <= maxChoosableInteger <= 20`
 - `0 <= desiredTotal <= 300`
 
-## 2. 🎯 s.1 - 暴力解法
+## 2. 🎯 s.1 - 状压 DP + 记忆化搜索
 
 ::: code-group
 
+<<< ./solutions/1/1.c [c]
+
 <<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(2^n \times n)$，其中 $n$ = `maxChoosableInteger`
+- 空间复杂度：$O(2^n)$
+
+算法思路：
+
+- 用位掩码表示已选整数集合
+- DFS 遍历每个可选整数，若能直接达到目标或者对手必败，则当前玩家胜
+- 记忆化缓存已搜索状态

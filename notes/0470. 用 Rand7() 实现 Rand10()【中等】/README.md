@@ -1,4 +1,4 @@
-# [0470. 用 Rand7() 实现 Rand10()【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0470.%20%E7%94%A8%20Rand7()%20%E5%AE%9E%E7%8E%B0%20Rand10()%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
+# [0470. 用 Rand7() 实现 Rand10()【中等】](<https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0470.%20%E7%94%A8%20Rand7()%20%E5%AE%9E%E7%8E%B0%20Rand10()%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91>)
 
 <!-- region:toc -->
 
@@ -52,16 +52,25 @@
 - `rand7()`调用次数的 [期望值][1] 是多少?
 - 你能否尽量少调用 `rand7()` ?
 
-## 2. 🎯 s.1 - 暴力解法
+## 2. 🎯 s.1 - 拒绝采样
 
 ::: code-group
 
+<<< ./solutions/1/1.c [c]
+
 <<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
+- 时间复杂度：期望 $O(1)$（每次采样成功概率 40/49）
 - 空间复杂度：$O(1)$
+
+算法思路：
+
+- 调用两次 `rand7()` 生成 $[1, 49]$ 的均匀分布
+- 拒绝大于 40 的值，对 40 取模得到 $[1, 10]$
 
 ## 3. 🔗 引用
 

@@ -45,20 +45,28 @@ HammingDistance(4, 14) + HammingDistance(4, 2) + HammingDistance(14, 2) = 2 + 2 
 - `0 <= nums[i] <= 10^9`
 - 给定输入的对应答案符合 32-bit 整数范围
 
-## 2. 🎯 s.1 - 暴力解法
+## 2. 🎯 s.1 - 逐位统计
 
 ::: code-group
 
+<<< ./solutions/1/1.c [c]
+
 <<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
+- 时间复杂度：$O(30n)$，即 $O(n)$
 - 空间复杂度：$O(1)$
+
+算法思路：
+
+- 对每一个二进制位，统计有 $k$ 个数该位为 1
+- 该位的汉明距离贡献为 $k \times (n - k)$，累加即可
 
 ## 3. 🔗 引用
 
-- [汉明距离][1]
-  - 百度百科
+- [汉明距离 - 百度百科][1]
 
 [1]: https://baike.baidu.com/item/%E6%B1%89%E6%98%8E%E8%B7%9D%E7%A6%BB/475174?fr=aladdin
