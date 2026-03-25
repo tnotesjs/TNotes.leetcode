@@ -48,13 +48,20 @@
 - `1 <= arr.length <= 10^4`
 - `1 <= arr[i], target <= 10^5`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 排序 + 枚举
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n \log n + M \log n)$，其中 $n$ 是数组长度，$M$ 是数组最大值
+- 空间复杂度：$O(n)$，前缀和数组的空间
+
+算法思路：
+
+- 先对数组排序，构建前缀和数组
+- 枚举 value 从 0 到 max(arr)，对每个 value，通过二分查找找到第一个 >= value 的位置
+- 位置左侧的元素保持原值（前缀和），右侧的元素全部替换为 value，计算总和与 target 的差
+- 记录使差值最小的 value，若差值相同取较小的 value

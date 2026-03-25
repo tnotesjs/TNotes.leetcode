@@ -52,13 +52,19 @@ stk.pop();              // 返回 -1 --> 栈为空，返回 -1
 - `0 <= val <= 100`
 - 每种方法 `increment`，`push` 以及 `pop` 分别最多调用 `1000` 次
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 懒增量
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：push、pop、increment 均为 $O(1)$
+- 空间复杂度：$O(maxSize)$，栈和增量数组的空间
+
+算法思路：
+
+- 维护一个额外的 inc 数组，记录每个位置的累计增量
+- increment(k, val) 时只在 inc[min(k, size)-1] 上加 val（懒标记）
+- pop 时将当前位置的增量下传给下一个位置，并将增量加到弹出元素上

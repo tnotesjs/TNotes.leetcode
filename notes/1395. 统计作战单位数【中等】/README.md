@@ -54,13 +54,20 @@
 - `1 <= rating[i] <= 10^5`
 - `rating` 中的元素都是唯一的
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 枚举中间元素
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n^2)$，其中 $n$ 是数组长度
+- 空间复杂度：$O(1)$，只使用了常数级别的额外空间
+
+算法思路：
+
+- 枚举中间位置 j，统计左侧比 rating[j] 小/大的个数，右侧比 rating[j] 大/小的个数
+- 递增三元组数 = leftLess × rightGreater
+- 递减三元组数 = leftGreater × rightLess
+- 两者之和即为以 j 为中间的方案数

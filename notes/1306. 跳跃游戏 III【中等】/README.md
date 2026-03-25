@@ -56,13 +56,19 @@
 - `0 <= arr[i] < arr.length`
 - `0 <= start < arr.length`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - BFS
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，其中 $n$ 是数组长度，每个位置最多入队一次
+- 空间复杂度：$O(n)$，visited 数组和队列的空间
+
+算法思路：
+
+- 从 start 出发进行 BFS，每次可以跳到 i + arr[i] 或 i - arr[i]
+- 使用 visited 数组避免重复访问
+- 当访问到某个位置 arr[i] === 0 时返回 true，队列耗尽则返回 false

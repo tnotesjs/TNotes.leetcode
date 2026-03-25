@@ -141,13 +141,19 @@ undergroundSystem.getAverageTime("Leyton", "Paradise"); // 返回 6.66667，(5 +
 - 总共最多调用 `checkIn`、`checkOut` 和 `getAverageTime` 方法 `2 * 10^4` 次
 - 与标准答案误差在 `10^-5` 以内的结果都被视为正确结果
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 哈希表
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：checkIn、checkOut、getAverageTime 均为 $O(1)$
+- 空间复杂度：$O(P + S^2)$，其中 $P$ 是乘客数，$S$ 是站点数
+
+算法思路：
+
+- checkIn：用哈希表记录乘客 id 的进站信息（站名 + 时间）
+- checkOut：根据 id 查找进站信息，计算行程时间，累加到路线哈希表中
+- getAverageTime：从路线哈希表中取出总时间和次数，返回平均值

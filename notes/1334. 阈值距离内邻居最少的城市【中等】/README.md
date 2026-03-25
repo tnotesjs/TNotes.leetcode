@@ -63,13 +63,19 @@
 - `1 <= weighti, distanceThreshold <= 10^4`
 - 所有 `(fromi, toi)` 都是不同的。
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - Floyd-Warshall
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n^3)$，其中 $n$ 是城市数量
+- 空间复杂度：$O(n^2)$，存储距离矩阵
+
+算法思路：
+
+- 使用 Floyd-Warshall 算法计算所有城市对之间的最短距离
+- 对每个城市，统计在阈值距离内可达的城市数
+- 返回可达城市数最少的城市，若相同则返回编号最大的

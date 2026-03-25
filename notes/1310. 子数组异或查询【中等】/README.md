@@ -54,13 +54,19 @@
 - `queries[i].length == 2`
 - `0 <= queries[i][0] <= queries[i][1] < arr.length`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 前缀异或
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n + q)$，其中 $n$ 是数组长度，$q$ 是查询数量
+- 空间复杂度：$O(n)$，前缀异或数组的空间
+
+算法思路：
+
+- 构建前缀异或数组 prefix，其中 prefix[i] = arr[0] ^ arr[1] ^ ... ^ arr[i-1]
+- 对于每个查询 [L, R]，子数组异或值 = prefix[R+1] ^ prefix[L]
+- 这利用了异或的自反性质：a ^ a = 0

@@ -79,13 +79,19 @@ tweetCounts.getTweetCountsPerFrequency("hour", "tweet3", 0, 210);  // 返回 [4]
 - `0 <= endTime - startTime <= 10^4`
 - `recordTweet` 和 `getTweetCountsPerFrequency`，最多有 `10^4` 次操作。
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 哈希表 + 桶计数
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：recordTweet $O(1)$，getTweetCountsPerFrequency $O(T)$，其中 $T$ 是该用户的推文数
+- 空间复杂度：$O(n)$，其中 $n$ 是所有推文总数
+
+算法思路：
+
+- 用哈希表存储每个用户的推文时间列表
+- 查询时根据频率计算时间块大小，遍历该用户所有推文时间
+- 将每条推文分配到对应的时间桶中计数

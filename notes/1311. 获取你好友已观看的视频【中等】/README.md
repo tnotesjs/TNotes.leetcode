@@ -62,13 +62,19 @@ C -> 2
 - `1 <= level < n`
 - 如果 `friends[i]` 包含 `j`，那么 `friends[j]` 包含 `i`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - BFS + 哈希表
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n + V \log V)$，其中 $n$ 是人数，$V$ 是视频总数
+- 空间复杂度：$O(n + V)$，visited 数组和哈希表的空间
+
+算法思路：
+
+- 从 id 出发进行 BFS，扩展恰好 level 层，找到所有第 level 层的好友
+- 统计这些好友观看过的视频频率，存入哈希表
+- 按频率升序、同频率按字母序排序后返回

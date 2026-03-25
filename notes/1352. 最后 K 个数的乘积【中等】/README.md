@@ -56,13 +56,19 @@ productOfNumbers.getProduct(2); // 返回 32。最后 2 个数字的乘积是 4 
 
 进阶：您能否 同时 将 `GetProduct` 和 `Add` 的实现改为 `O(1)` 时间复杂度，而不是 `O(k)` 时间复杂度？
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 前缀乘积
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：add 和 getProduct 均为 $O(1)$
+- 空间复杂度：$O(n)$，其中 $n$ 是添加的元素数量
+
+算法思路：
+
+- 维护前缀乘积数组，prefix[i] = a[0] × a[1] × ... × a[i-1]
+- 当遇到 0 时，重置前缀数组为 [1]，因为包含 0 的乘积必为 0
+- getProduct(k) 时，若 k >= 数组长度则含 0 返回 0，否则返回 prefix[-1] / prefix[-1-k]

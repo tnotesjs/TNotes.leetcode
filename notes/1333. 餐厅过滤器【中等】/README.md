@@ -60,13 +60,19 @@
 - `veganFriendlyi` 和 `veganFriendly` 的值为 0 或 1。
 - 所有 `idi` 各不相同。
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 过滤 + 排序
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n \log n)$，其中 $n$ 是餐厅数量，排序主导
+- 空间复杂度：$O(n)$，过滤后的数组空间
+
+算法思路：
+
+- 根据条件过滤餐厅：素食者友好、价格不超过 maxPrice、距离不超过 maxDistance
+- 对过滤结果按 rating 降序排序，rating 相同则按 id 降序
+- 返回排序后的 id 数组
