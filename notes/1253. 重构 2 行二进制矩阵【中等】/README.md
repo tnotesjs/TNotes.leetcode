@@ -56,13 +56,19 @@
 - `0 <= upper, lower <= colsum.length`
 - `0 <= colsum[i] <= 2`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 贪心
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，其中 $n$ 是列数
+- 空间复杂度：$O(n)$，存储结果矩阵
+
+算法思路：
+
+- 先处理 colsum 为 2 的列，两行都置 1，同时减少 upper 和 lower
+- 再处理 colsum 为 1 的列，贪心分配给剩余容量较大的那一行
+- 最终检查 upper 和 lower 是否都为 0，否则无解

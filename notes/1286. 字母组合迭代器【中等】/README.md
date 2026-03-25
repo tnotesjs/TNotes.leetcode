@@ -46,13 +46,18 @@ iterator.hasNext(); // 返回 false
 - 每组测试数据最多对 `next` 和 `hasNext` 调用 `10^4`次
 - 题目保证每次调用函数 `next` 时都存在下一个字母组合。
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 预计算组合
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：初始化 $O(C_n^k)$，next 和 hasNext 均 $O(1)$
+- 空间复杂度：$O(C_n^k \times k)$，存储所有组合
+
+算法思路：
+
+- 构造时通过回溯预计算所有长度为 combinationLength 的组合，字典序存储
+- next 每次返回下一个组合，hasNext 检查是否还有剩余组合

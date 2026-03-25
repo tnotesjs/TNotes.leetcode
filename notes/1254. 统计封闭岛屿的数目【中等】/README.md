@@ -72,13 +72,18 @@
 - `1 <= grid.length, grid[0].length <= 100`
 - `0 <= grid[i][j] <=1`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - DFS
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(m \times n)$，其中 $m$、$n$ 是矩阵的行数和列数
+- 空间复杂度：$O(m \times n)$，递归栈的深度
+
+算法思路：
+
+- 先从边界出发 DFS 淡化所有与边界相连的岛屿（置为水）
+- 再遍历内部区域，每次发现陆地就 DFS 淡化并计数，即为封闭岛屿

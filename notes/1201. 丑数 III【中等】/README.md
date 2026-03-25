@@ -49,13 +49,19 @@
 - `1 <= a * b * c <= 10^18`
 - 本题结果在 `[1, 2 * 10^9]` 的范围内
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 二分查找 + 容斥原理
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(\log(2 \times 10^9))$，二分查找的范围
+- 空间复杂度：$O(1)$，只使用常数额外空间
+
+算法思路：
+
+- 二分查找第 `n` 个丑数的值，对于给定的 `x`，用容斥原理计算 `[1, x]` 中能被 `a`、`b`、`c` 整除的数的个数
+- 容斥公式：$count(x) = \lfloor x/a \rfloor + \lfloor x/b \rfloor + \lfloor x/c \rfloor - \lfloor x/lcm(a,b) \rfloor - \lfloor x/lcm(a,c) \rfloor - \lfloor x/lcm(b,c) \rfloor + \lfloor x/lcm(a,b,c) \rfloor$
+- 找到最小的 `x` 使得 `count(x) >= n`

@@ -69,13 +69,19 @@
 - `0 <= tomatoSlices <= 10^7`
 - `0 <= cheeseSlices <= 10^7`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 数学
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
 - 时间复杂度：$O(1)$
 - 空间复杂度：$O(1)$
+
+算法思路：
+
+- 设巨无霸为 $x$ 个，小皇堡为 $y$ 个，列方程：$4x + 2y = t$，$x + y = c$
+- 解出 $x = (t - 2c) / 2$，$y = c - x$
+- 检查 $t$ 的奇偶性以及 $x$、$y$ 是否非负即可
