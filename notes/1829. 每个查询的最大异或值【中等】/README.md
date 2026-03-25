@@ -61,13 +61,19 @@
 - `0 <= nums[i] < 2^maximumBit`
 - `nums`​​​ 中的数字已经按 升序 排好序。
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 前缀异或
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，其中 n 是数组长度
+- 空间复杂度：$O(n)$，存储前缀异或和结果数组
+
+算法思路：
+
+- 计算前缀异或 `prefixXor[i] = nums[0] ^ nums[1] ^ ... ^ nums[i]`
+- 对于 `maximumBit`，最大化异或值的 k 就是前缀异或与 $(2^{maximumBit} - 1)$ 的异或
+- 从后往前遍历即可得到每次移除最后元素后的答案

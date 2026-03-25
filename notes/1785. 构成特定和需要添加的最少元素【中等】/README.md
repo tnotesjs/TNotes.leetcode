@@ -43,13 +43,19 @@
 - `-limit <= nums[i] <= limit`
 - `-10^9 <= goal <= 10^9`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 数学
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，其中 n 是数组长度
+- 空间复杂度：$O(1)$，只使用了常数级别的额外空间
+
+算法思路：
+
+- 计算数组和与目标值的差值 diff
+- 每次添加的元素绝对值不超过 limit
+- 所需元素数 = ceil(|diff| / limit)

@@ -70,13 +70,19 @@
 - `1 <= mat[i][j] <= 70`
 - `1 <= target <= 800`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - DP / 集合
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(m \times n \times maxSum)$，其中 maxSum 是最大可能和
+- 空间复杂度：$O(maxSum)$，可达和集合的空间
+
+算法思路：
+
+- 每行选一个元素，维护所有可达和的集合
+- 对每行枚举每个元素，更新可达和集合
+- 最终找出与 target 最接近的可达和

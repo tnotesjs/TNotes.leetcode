@@ -71,13 +71,19 @@
 - `keyi` 和 `valuei` 只包含小写英文字母。
 - `knowledge` 中的 `keyi` 不会重复。
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 哈希表
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n + m)$，其中 n 是字符串长度，m 是 knowledge 的长度
+- 空间复杂度：$O(m)$，哈希表的空间
+
+算法思路：
+
+- 将 knowledge 构建为哈希表，key 到 value 的映射
+- 遍历字符串，遇到 `(` 时提取括号内的 key
+- 在哈希表中查找并替换，找不到则替换为 `?`

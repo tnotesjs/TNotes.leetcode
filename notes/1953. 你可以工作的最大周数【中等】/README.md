@@ -65,13 +65,19 @@
 - `1 <= n <= 10^5`
 - `1 <= milestones[i] <= 10^9`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 贪心
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，其中 n 是任务数量
+- 空间复杂度：$O(1)$，只使用常数额外空间
+
+算法思路：
+
+- 找出最大的里程碑 maxVal 和总和 sum
+- 如果 maxVal > sum - maxVal + 1，则答案是 (sum - maxVal) \* 2 + 1
+- 否则答案是 sum（所有任务都能完成）

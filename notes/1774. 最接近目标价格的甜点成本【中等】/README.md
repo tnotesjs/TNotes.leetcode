@@ -88,13 +88,19 @@
 - `1 <= baseCosts[i], toppingCosts[i] <= 10^4`
 - `1 <= target <= 10^4`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - DFS 枚举
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(3^m)$，其中 m 是配料数量
+- 空间复杂度：$O(m)$，递归栈的深度
+
+算法思路：
+
+- 每种配料有三种选择：不加、加 1 份、加 2 份
+- DFS 枚举所有组合，记录最接近 target 的成本
+- 剩枝优化：当当前成本已超过 target 时可以提前返回

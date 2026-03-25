@@ -46,13 +46,19 @@
 - `s[0] == '0'`
 - `1 <= minJump <= maxJump < s.length`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - DP + 前缀和
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，其中 n 是字符串长度
+- 空间复杂度：$O(n)$，DP 数组的空间
+
+算法思路：
+
+- `dp[i]` 表示是否能到达位置 i
+- 用前缀和维护窗口 `[i-maxJump, i-minJump]` 内可达位置的数量
+- 当前位置为 '0' 且窗口内存在可达位置时，当前位置可达

@@ -42,13 +42,19 @@
 - `n` 是奇数。
 - `encoded.length == n - 1`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 位运算
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，其中 n 是数组长度
+- 空间复杂度：$O(n)$，用于存储结果数组
+
+算法思路：
+
+- encoded[i] = perm[i] XOR perm[i+1]，只要知道 perm[0] 就能求出全部
+- 利用所有元素异或和奇数位异或可求出 perm[0]
+- 然后逐个异或恢复整个排列
