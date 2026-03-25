@@ -43,13 +43,19 @@ push(5), pop() -> 5, pop() -> 3, pop() -> 2, pop() -> 1
 - `popped.length == pushed.length`
 - `popped` 是 `pushed` 的一个排列
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 模拟栈
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，其中 n 是数组长度
+- 空间复杂度：$O(n)$，栈空间
+
+算法思路：
+
+- 按 `pushed` 顺序依次入栈
+- 每次入栈后，检查栈顶是否等于 `popped` 的当前元素，若相等则出栈，直到不匹配
+- 最终栈为空则说明是有效的栈序列

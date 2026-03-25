@@ -47,13 +47,20 @@
 - `0 <= nums[i] <= 10^6`
 - 可以保证至少有一种方法能够按题目所描述的那样对 `nums` 进行划分。
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 一次遍历
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，其中 n 是数组长度
+- 空间复杂度：$O(1)$，只使用常数额外空间
+
+算法思路：
+
+- 维护 `leftMax`（左部分最大值）、`curMax`（当前全局最大值）以及分割点索引 `partitionIdx`
+- 遍历数组，如果当前元素小于 `leftMax`，说明当前元素必须属于左部分，更新分割点并将 `leftMax` 更新为 `curMax`
+- 否则更新 `curMax`
+- 返回 `partitionIdx + 1`

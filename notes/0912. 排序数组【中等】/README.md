@@ -43,22 +43,25 @@
 - `1 <= nums.length <= 5 * 10^4`
 - `-5 * 10^4 <= nums[i] <= 5 * 10^4`
 
-## 3. 🎯 s.1 - 原生排序方法
+## 3. 🎯 s.1 - 归并排序
 
-```javascript
-/**
- * @param {number[]} nums
- * @return {number[]}
- */
-var sortArray = function (nums) {
-  // 在 JavaScript 中，数组的原生排序方法是 Array.prototype.sort
-  return nums.sort((a, b) => a - b)
-}
-```
+::: code-group
 
-写法最简单，并且性能表现也是最优秀的那一批。
+<<< ./solutions/1/1.c [c]
 
-![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-25-17-19-13.png)
+<<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
+
+:::
+
+- 时间复杂度：$O(n \log n)$，其中 n 是数组长度
+- 空间复杂度：$O(n)$
+
+算法思路：
+
+- 归并排序：递归将数组一分为二，排序后合并
+- 稳定排序，且不会退化为 $O(n^2)$
 
 ## 4. 🎯 s.2 - 冒泡排序
 
