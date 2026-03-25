@@ -61,13 +61,19 @@
 - `0 <= starti <= endi <= 100`
 - `1 <= time <= 100`
 
-## 2. 🎯 s.1 - 暴力解法
+## 2. 🎯 s.1 - 贪心
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n + T)$，其中 $n$ 是 clips 的长度，$T$ 是 time
+- 空间复杂度：$O(T)$，用于存储每个起点的最远终点
+
+算法思路：
+
+- 预处理每个起点能到达的最远终点 `maxEnd[s] = max(e)`
+- 贪心遍历：维护当前覆盖的终点 `curEnd` 和能到达的最远点 `farthest`
+- 当遍历到 `curEnd` 时，必须选择一个新片段，更新 `curEnd = farthest`，计数 +1

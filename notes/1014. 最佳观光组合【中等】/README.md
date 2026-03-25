@@ -41,13 +41,19 @@
 - `2 <= values.length <= 5 * 10^4`
 - `1 <= values[i] <= 1000`
 
-## 2. 🎯 s.1 - 暴力解法
+## 2. 🎯 s.1 - 动态规划
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，其中 $n$ 是数组的长度
+- 空间复杂度：$O(1)$，只使用了常数级别的额外空间
+
+算法思路：
+
+- 将得分公式 `values[i] + values[j] + i - j` 拆分为 `(values[i] + i) + (values[j] - j)`
+- 遍历 `j`，维护左侧最大的 `values[i] + i`
+- 每次用当前 `maxI + values[j] - j` 更新答案，同时更新 `maxI`

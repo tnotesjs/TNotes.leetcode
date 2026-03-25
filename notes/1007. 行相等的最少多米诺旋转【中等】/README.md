@@ -49,13 +49,20 @@
 - `bottoms.length == tops.length`
 - `1 <= tops[i], bottoms[i] <= 6`
 
-## 2. 🎯 s.1 - 暴力解法
+## 2. 🎯 s.1 - 贪心
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，其中 $n$ 是多米诺骨牌的数量
+- 空间复杂度：$O(1)$，只使用了常数级别的额外空间
+
+算法思路：
+
+- 如果存在答案，目标值必然是 `tops[0]` 或 `bottoms[0]` 之一
+- 对于一个目标值 `target`，遍历所有多米诺：
+  - 如果某个多米诺两面都不含 `target`，则不可行
+  - 否则分别统计把 `target` 放到上面和下面各需多少次旋转，取较小值

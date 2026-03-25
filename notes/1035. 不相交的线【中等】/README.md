@@ -56,13 +56,19 @@
 - `1 <= nums1.length, nums2.length <= 500`
 - `1 <= nums1[i], nums2[j] <= 2000`
 
-## 2. 🎯 s.1 - 暴力解法
+## 2. 🎯 s.1 - 动态规划 (LCS)
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(m \times n)$，其中 $m$ 和 $n$ 分别是两个数组的长度
+- 空间复杂度：$O(m \times n)$，DP 数组
+
+算法思路：
+
+- 本质是求两个数组的最长公共子序列 (LCS)
+- `dp[i][j]` 表示 `nums1[0..i-1]` 和 `nums2[0..j-1]` 的最长公共子序列长度
+- 若 `nums1[i-1] == nums2[j-1]`，则 `dp[i][j] = dp[i-1][j-1] + 1`，否则取 `max(dp[i-1][j], dp[i][j-1])`

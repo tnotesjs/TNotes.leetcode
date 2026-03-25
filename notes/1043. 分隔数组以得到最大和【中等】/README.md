@@ -47,13 +47,19 @@
 - `0 <= arr[i] <= 10^9`
 - `1 <= k <= arr.length`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 动态规划
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n \cdot k)$，其中 $n$ 是数组长度
+- 空间复杂度：$O(n)$，DP 数组
+
+算法思路：
+
+- `dp[i]` 表示前 `i` 个元素分割后的最大和
+- 对于每个位置 `i`，枚举最后一个子数组的长度 `j`（从 1 到 k）
+- 维护子数组中的最大值 `maxVal`，更新 `dp[i] = max(dp[i-j] + maxVal * j)`

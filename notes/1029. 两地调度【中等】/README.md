@@ -54,13 +54,18 @@
 - `costs.length` 为偶数
 - `1 <= aCosti, bCosti <= 1000`
 
-## 2. 🎯 s.1 - 暴力解法
+## 2. 🎯 s.1 - 贪心
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n \log n)$，其中 $n$ 是 costs 的长度
+- 空间复杂度：$O(\log n)$，排序的栈空间
+
+算法思路：
+
+- 按“去 a 市与去 b 市的费用差” `costs[i][0] - costs[i][1]` 升序排序
+- 前半部分人去 a 市（差值小，去 a 更划算），后半部分人去 b 市

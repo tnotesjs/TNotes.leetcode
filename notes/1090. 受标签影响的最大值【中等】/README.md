@@ -61,13 +61,19 @@
 - `0 <= values[i], labels[i] <= 2 * 10^4`
 - `1 <= numWanted, useLimit <= n`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 贪心 + 排序
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n \log n)$，其中 $n$ 是数组的长度
+- 空间复杂度：$O(n)$，排序和哈希表的开销
+
+算法思路：
+
+- 将所有项按值降序排序
+- 贪心选取值最大的项，用哈希表记录每个标签已用次数
+- 若某标签已达 useLimit 则跳过，直到选够 numWanted 个项

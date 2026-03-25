@@ -55,13 +55,19 @@
 - `1 <= queries[i].length <= 100`
 - `queries[i]` 和 `pattern` 由英文字母组成
 
-## 2. 🎯 s.1 - 暴力解法
+## 2. 🎯 s.1 - 双指针匹配
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n \cdot m)$，其中 $n$ 是 queries 的长度，$m$ 是单个 query 的平均长度
+- 空间复杂度：$O(1)$，不计算输出空间
+
+算法思路：
+
+- 对每个 query，用指针 `j` 遍历 pattern
+- 遍历 query 中的每个字符：如果与 pattern[j] 匹配则 `j++`，否则如果是大写字母则匹配失败
+- 最终检查 `j` 是否达到 pattern 末尾

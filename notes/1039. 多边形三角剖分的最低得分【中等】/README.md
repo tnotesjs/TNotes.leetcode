@@ -57,13 +57,19 @@
 - `3 <= n <= 50`
 - `1 <= values[i] <= 100`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 区间 DP
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n^3)$，其中 $n$ 是顶点数
+- 空间复杂度：$O(n^2)$，DP 数组
+
+算法思路：
+
+- `dp[i][j]` 表示将顶点 `i` 到 `j` 的多边形进行三角剖分的最低得分
+- 枚举中间点 `k`，将多边形分为三角形 `(i, k, j)` 和两个子多边形
+- 转移方程：`dp[i][j] = min(dp[i][k] + dp[k][j] + values[i] * values[k] * values[j])`

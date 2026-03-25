@@ -51,13 +51,19 @@
 - `2 <= nums.length <= 1000`
 - `0 <= nums[i] <= 500`
 
-## 2. 🎯 s.1 - 暴力解法
+## 2. 🎯 s.1 - 动态规划
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n^2)$，其中 $n$ 是数组的长度
+- 空间复杂度：$O(n \cdot d)$，其中 $d$ 是不同公差的数量
+
+算法思路：
+
+- `dp[i][diff]` 表示以 `nums[i]` 结尾、公差为 `diff` 的等差数列的最大长度
+- 对于每对 `(j, i)`，计算 `diff = nums[i] - nums[j]`，更新 `dp[i][diff] = dp[j][diff] + 1`
+- 过程中维护全局最大值
