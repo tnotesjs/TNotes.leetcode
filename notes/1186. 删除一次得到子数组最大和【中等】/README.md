@@ -49,13 +49,20 @@
 - `1 <= arr.length <= 10^5`
 - `-10^4 <= arr[i] <= 10^4`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 动态规划
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，其中 $n$ 是数组的长度
+- 空间复杂度：$O(1)$，只使用常数额外空间
+
+算法思路：
+
+- 维护两个状态：`noDelete` 表示不删除元素时以当前位置结尾的最大子数组和，`withDelete` 表示删除了一个元素后的最大子数组和
+- `noDelete = max(arr[i], noDelete + arr[i])`（标准 Kadane）
+- `withDelete = max(noDelete_prev, withDelete + arr[i])`（删除当前元素或保留当前元素）
+- 答案为所有状态的最大值

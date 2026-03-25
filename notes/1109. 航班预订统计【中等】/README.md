@@ -56,13 +56,18 @@
 - `1 <= firsti <= lasti <= n`
 - `1 <= seatsi <= 10^4`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 差分数组
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(m + n)$，其中 $m$ 是 bookings 的长度
+- 空间复杂度：$O(n)$，差分数组的开销
+
+算法思路：
+
+- 建立差分数组，对每条预订记录在 first 处加上 seats，在 last+1 处减去 seats
+- 前缀和还原得到每个航班的实际预订总数

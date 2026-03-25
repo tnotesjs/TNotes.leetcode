@@ -60,13 +60,19 @@ class FooBar {
 
 - `1 <= n <= 1000`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 信号量
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，循环 n 次
+- 空间复杂度：$O(1)$，只使用常数级别的同步原语
+
+算法思路：
+
+- 使用两个信号量控制 foo 和 bar 的交替执行
+- foo 执行后释放 bar 的信号量，bar 执行后释放 foo 的信号量
+- 初始时 foo 的信号量为 1，bar 的为 0，保证 foo 先执行

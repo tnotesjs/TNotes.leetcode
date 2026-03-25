@@ -52,13 +52,19 @@
 - `1 <= text1.length, text2.length <= 1000`
 - `text1` 和 `text2` 仅由小写英文字符组成。
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 动态规划
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(mn)$，其中 $m$ 和 $n$ 分别是两个字符串的长度
+- 空间复杂度：$O(mn)$，DP 表的大小
+
+算法思路：
+
+- 定义 `dp[i][j]` 为 `text1[0:i]` 和 `text2[0:j]` 的最长公共子序列长度
+- 如果 `text1[i-1] === text2[j-1]`，则 `dp[i][j] = dp[i-1][j-1] + 1`
+- 否则 `dp[i][j] = max(dp[i-1][j], dp[i][j-1])`

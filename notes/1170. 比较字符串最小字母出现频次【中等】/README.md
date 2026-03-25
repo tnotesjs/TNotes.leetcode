@@ -46,13 +46,19 @@
 - `1 <= queries[i].length, words[i].length <= 10`
 - `queries[i][j]`、`words[i][j]` 都由小写英文字母组成
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 排序 + 二分查找
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O((m + n) \log n)$，其中 $m$ 是 queries 的长度，$n$ 是 words 的长度
+- 空间复杂度：$O(n)$，存储 words 的 $f$ 值数组
+
+算法思路：
+
+- 定义 `f(s)` 为字符串中字典序最小字符的出现次数
+- 对 words 数组计算所有 `f` 值并排序
+- 对每个 query，计算 `f(query)` 后二分查找第一个大于该值的位置，剩余元素个数即为答案

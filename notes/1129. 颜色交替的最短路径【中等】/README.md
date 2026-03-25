@@ -45,13 +45,19 @@
 - `redEdges[i].length == blueEdges[j].length == 2`
 - `0 <= ai, bi, uj, vj < n`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - BFS
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n + E)$，其中 $E$ 是边的总数
+- 空间复杂度：$O(n + E)$，邻接表和距离数组
+
+算法思路：
+
+- 将状态定义为 (node, lastColor)，从节点 0 开始 BFS
+- 每次只能走与上一次不同颜色的边
+- 每个节点的答案是两种颜色状态下距离的最小值
