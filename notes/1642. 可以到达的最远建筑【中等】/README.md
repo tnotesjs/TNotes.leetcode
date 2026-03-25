@@ -62,13 +62,19 @@
 - `0 <= bricks <= 10^9`
 - `0 <= ladders <= heights.length`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 贪心 + 最小堆
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n\log n)$，其中 $n$ 是建筑数量
+- 空间复杂度：$O(n)$，堆的大小
+
+算法思路：
+
+- 遍历建筑，遇到需要爬升的高度差 diff 时，优先使用梯子（将 diff 入堆）
+- 当梯子用完时（堆大小超过 ladders），将堆中最小的 diff 弹出，改用砖块
+- 砖块不够用时返回当前位置

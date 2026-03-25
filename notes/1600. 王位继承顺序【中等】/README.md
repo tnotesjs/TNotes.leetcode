@@ -68,13 +68,20 @@ t.getInheritanceOrder(); // 返回 ["king", "andy", "matthew", "alex", "asha", "
 - 最多调用 `10^5` 次`birth` 和 `death`。
 - 最多调用 `10` 次 `getInheritanceOrder`。
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 多叉树 + 前序遍历
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，`getInheritanceOrder` 遍历所有节点，其中 $n$ 是总人数
+- 空间复杂度：$O(n)$，存储所有节点的子女关系
+
+算法思路：
+
+- 使用哈希表 `children` 记录每个人的子女列表，用集合 `dead` 记录已死亡的人
+- `birth(parentName, childName)` 将 childName 加入 parentName 的子女列表
+- `death(name)` 将 name 加入死亡集合
+- `getInheritanceOrder()` 从国王开始前序遍历多叉树，跳过死亡的人

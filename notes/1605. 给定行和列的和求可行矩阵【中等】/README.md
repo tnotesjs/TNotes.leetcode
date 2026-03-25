@@ -75,13 +75,19 @@
 - `0 <= rowSum[i], colSum[i] <= 10^8`
 - `sum(rowSum) == sum(colSum)`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 贪心
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(m \times n)$，遍历矩阵每个位置
+- 空间复杂度：$O(m \times n)$，存储结果矩阵
+
+算法思路：
+
+- 逐格填充矩阵，对于位置 (i, j) 取 min(rowSum[i], colSum[j])
+- 填入后同时更新 rowSum[i] 和 colSum[j]
+- 贪心正确性保证：每次取最小值不会导致后续无法满足约束

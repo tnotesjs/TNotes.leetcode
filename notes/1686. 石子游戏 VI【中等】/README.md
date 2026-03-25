@@ -67,13 +67,19 @@ Bob 会获胜。
 - `1 <= n <= 10^5`
 - `1 <= aliceValues[i], bobValues[i] <= 100`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 排序 + 贪心
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n\log n)$，其中 $n$ 是石子堆数
+- 空间复杂度：$O(n)$，索引数组
+
+算法思路：
+
+- 按两人估值之和 aliceValues[i] + bobValues[i] 降序排列
+- Alice 先手，交替选择估值和最大的石子
+- 最终比较双方得分，返回 1（Alice 赢）、-1（Bob 赢）或 0（平局）

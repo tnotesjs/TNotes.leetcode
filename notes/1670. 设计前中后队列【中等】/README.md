@@ -59,13 +59,19 @@ q.popFront();     // 返回 -1 -> [] （队列为空）
 - `1 <= val <= 10^9`
 - 最多调用 `1000` 次 `pushFront`， `pushMiddle`， `pushBack`， `popFront`， `popMiddle` 和 `popBack`。
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 数组模拟
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：单次操作 $O(n)$，其中 $n$ 为队列长度
+- 空间复杂度：$O(n)$，存储队列元素
+
+算法思路：
+
+- 使用数组存储所有元素
+- pushMiddle 在 ⌊n/2⌋ 位置插入，popMiddle 在 ⌊(n-1)/2⌋ 位置删除
+- pushFront/pushBack/popFront/popBack 在首尾操作

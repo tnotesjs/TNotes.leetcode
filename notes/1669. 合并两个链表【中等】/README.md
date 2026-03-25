@@ -51,13 +51,19 @@
 - `1 <= a <= b < list1.length - 1`
 - `1 <= list2.length <= 10^4`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 链表操作
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，其中 $n$ 是 list1 的长度
+- 空间复杂度：$O(1)$，只使用常数额外空间
+
+算法思路：
+
+- 遍历 list1 找到第 a-1 个节点和第 b+1 个节点
+- 将第 a-1 个节点的 next 指向 list2 的头节点
+- 遍历 list2 到尾部，将尾节点的 next 指向 list1 的第 b+1 个节点

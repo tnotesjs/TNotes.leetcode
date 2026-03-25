@@ -44,13 +44,19 @@ result[2] = |5-2| + |5-3| + |5-5| = 3 + 2 + 0 = 5。
 - `2 <= nums.length <= 10^5`
 - `1 <= nums[i] <= nums[i + 1] <= 10^4`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 前缀和
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，其中 $n$ 是数组长度
+- 空间复杂度：$O(n)$，前缀和数组
+
+算法思路：
+
+- 数组有序，对于 nums[i]：左边元素都 ≤ nums[i]，右边元素都 ≥ nums[i]
+- result[i] = nums[i] × i - leftSum + rightSum - nums[i] × (n - i - 1)
+- 使用前缀和快速计算 leftSum 和 rightSum
