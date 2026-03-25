@@ -74,13 +74,20 @@
 - `0 <= customers[i] <= 50`
 - `1 <= boardingCost, runningCost <= 100`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 模拟
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(N)$，其中 $N$ 是总旋转轮次
+- 空间复杂度：$O(1)$，只使用了常数级别的额外空间
+
+算法思路：
+
+- 模拟摩天轮的运行过程
+- 每轮最多上 4 人，若有等待乘客则继续转
+- 维护当前利润 = 累计登舱人数 × boardingCost - 累计轮次 × runningCost
+- 记录利润最大时的轮次，若利润始终非正则返回 -1

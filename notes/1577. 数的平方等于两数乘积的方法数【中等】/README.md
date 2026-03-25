@@ -61,13 +61,20 @@
 - `1 <= nums1.length, nums2.length <= 1000`
 - `1 <= nums1[i], nums2[i] <= 10^5`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 哈希表
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n \times m)$，其中 $n$ 和 $m$ 分别是两个数组的长度
+- 空间复杂度：$O(n + m)$，哈希表的空间
+
+算法思路：
+
+- 分别用哈希表统计 `nums1` 和 `nums2` 中每个数的出现次数
+- 对 `nums1` 中每个数 $a$，计算 $a^2$，在 `nums2` 的哈希表中查找所有 $(b, c)$ 使得 $b \times c = a^2$
+- 反向对 `nums2` 做同样操作
+- 注意避免重复计数

@@ -66,13 +66,20 @@
 - `1 <= arr.length <= 10^5`
 - `0 <= arr[i] <= 10^9`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 双指针
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，其中 $n$ 是数组长度
+- 空间复杂度：$O(1)$，只使用了常数级别的额外空间
+
+算法思路：
+
+- 找到右侧最长非递减后缀 `[right, n-1]`
+- 初始答案为删除 `[0, right-1]` 前缀
+- 从左侧逐个扩展非递减前缀，对于每个 `left`，移动 `right` 使 `arr[left] <= arr[right]`
+- 更新答案为 `min(ans, right - left - 1)`
