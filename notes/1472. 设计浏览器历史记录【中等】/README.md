@@ -66,13 +66,23 @@ browserHistory.back(7);                   // 你原本在浏览 "google.com"， 
 - `homepage` 和 `url` 都只包含 '.' 或者小写英文字母。
 - 最多调用 `5000` 次 `visit`， `back` 和 `forward` 函数。
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 数组 + 指针
 
 ::: code-group
 
 <<< ./solutions/1/1.js [js]
 
+<<< ./solutions/1/1.c [c]
+
+<<< ./solutions/1/1.py [py]
+
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：各操作均为 $O(1)$
+- 空间复杂度：$O(n)$，其中 n 是访问的页面总数
+
+算法思路：
+
+- 用数组存储历史记录，用指针 `cur` 记录当前位置
+- `visit`：截断当前位置之后的记录，将新页面加入末尾
+- `back`/`forward`：移动指针并限制在有效范围内

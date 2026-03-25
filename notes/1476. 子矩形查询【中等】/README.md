@@ -15,8 +15,7 @@
 
 1. `updateSubrectangle(int row1, int col1, int row2, int col2, int newValue)`
 
-- 用 `newValue` 更新以 `(row1,col1)` 为左上角且以 `(row2,col2)` 为右下角的子矩形。
-  2. `getValue(int row, int col)`
+- 用 `newValue` 更新以 `(row1,col1)` 为左上角且以 `(row2,col2)` 为右下角的子矩形。2. `getValue(int row, int col)`
 
 - 返回矩形中坐标 `(row,col)` 的当前值。
 
@@ -88,13 +87,23 @@ subrectangleQueries.getValue(2, 2); // 返回 20
 - `0 <= row < rows`
 - `0 <= col < cols`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 更新历史记录
 
 ::: code-group
 
 <<< ./solutions/1/1.js [js]
 
+<<< ./solutions/1/1.c [c]
+
+<<< ./solutions/1/1.py [py]
+
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：`updateSubrectangle` 为 $O(1)$，`getValue` 为 $O(u)$，其中 u 是更新次数
+- 空间复杂度：$O(u)$，存储更新历史
+
+算法思路：
+
+- 不直接修改矩阵，而是将每次更新操作记录在历史数组中
+- 查询时从后往前遍历更新历史，找到第一个覆盖目标位置的更新即返回
+- 若无覆盖，返回原始矩阵中的值

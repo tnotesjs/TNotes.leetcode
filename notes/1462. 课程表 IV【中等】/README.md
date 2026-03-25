@@ -66,13 +66,23 @@
 - `0 <= ui, vi <= numCourses - 1`
 - `ui != vi`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - Floyd-Warshall 传递闭包
 
 ::: code-group
 
 <<< ./solutions/1/1.js [js]
 
+<<< ./solutions/1/1.c [c]
+
+<<< ./solutions/1/1.py [py]
+
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n^3)$，其中 n 是课程数量
+- 空间复杂度：$O(n^2)$，存储可达矩阵
+
+算法思路：
+
+- 构建可达矩阵 `reach[i][j]` 表示课程 i 是否为课程 j 的先修课
+- 用 Floyd-Warshall 传递闭包算法：若 i 可达 k 且 k 可达 j，则 i 可达 j
+- 对每个查询直接查表返回结果

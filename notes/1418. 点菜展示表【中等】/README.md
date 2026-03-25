@@ -96,13 +96,19 @@ Table,Beef Burrito,Ceviche,Fried Chicken,Water
 - `customerNamei` 和 `foodItemi` 由大小写英文字母及空格字符 `' '` 组成。
 - `tableNumberi` 是 `1` 到 `500` 范围内的整数。
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 哈希表 + 排序
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(N + F \log F + T \log T)$，其中 $N$ 是订单数，$F$ 是菜品数，$T$ 是桌号数
+- 空间复杂度：$O(N)$，哈希表存储
+
+算法思路：
+
+- 用哈希表记录每张桌子每种菜品的订购数量
+- 菜品名按字母序排列，桌号按数字升序排列
+- 组装表格输出

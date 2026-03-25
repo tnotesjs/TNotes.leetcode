@@ -69,13 +69,23 @@ favoriteCompanies[2]=["facebook","google"] 是 favoriteCompanies[0]=["leetcode",
 - 用户收藏的公司清单也 各不相同，也就是说，即便我们按字母顺序排序每个清单， `favoriteCompanies[i] != favoriteCompanies[j]` 仍然成立。
 - 所有字符串仅包含小写英文字母。
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 集合比较
 
 ::: code-group
 
 <<< ./solutions/1/1.js [js]
 
+<<< ./solutions/1/1.c [c]
+
+<<< ./solutions/1/1.py [py]
+
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n^2 \times m)$，其中 n 是清单数量，m 是清单平均长度
+- 空间复杂度：$O(n \times m)$，存储每个清单的哈希集合
+
+算法思路：
+
+- 将每个清单转为集合以便快速查找
+- 对每个清单，检查它是否是某个更长清单的子集
+- 若不是任何其他清单的子集，则将其索引加入结果

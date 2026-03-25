@@ -80,13 +80,18 @@
 - `1 <= target[i] <= n`
 - `target` 严格递增
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 模拟
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，其中 $n$ 是 target 最后一个元素的值
+- 空间复杂度：$O(1)$，不计结果数组
+
+算法思路：
+
+- 遍历 1 到 n 的整数流，每个数先 Push
+- 若与 target 当前元素匹配则保留，否则紧跟 Pop
