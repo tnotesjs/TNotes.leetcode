@@ -39,13 +39,22 @@
 - `nums2.length == nums1.length`
 - `0 <= nums1[i], nums2[i] <= 10^9`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 贪心（田忌赛马）
 
 ::: code-group
 
+<<< ./solutions/1/1.c [c]
+
 <<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n \log n)$，其中 n 是数组长度
+- 空间复杂度：$O(n)$
+
+算法思路：
+
+- 将 nums1 升序排列，nums2 的索引按值降序排列
+- 对 nums2 中最大的元素，若 nums1 最大值能赢则匹配，否则用 nums1 最小值浪费

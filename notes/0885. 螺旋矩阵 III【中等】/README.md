@@ -83,13 +83,22 @@
 - `0 <= rStart < rows`
 - `0 <= cStart < cols`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 模拟
 
 ::: code-group
 
+<<< ./solutions/1/1.c [c]
+
 <<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(\max(rows, cols)^2)$，螺旋覆盖的最大范围
+- 空间复杂度：$O(rows \times cols)$，存储结果
+
+算法思路：
+
+- 从起点开始按顺时针螺旋行走，每两个方向后步长 +1
+- 只记录落在矩阵范围内的坐标
