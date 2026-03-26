@@ -78,13 +78,19 @@ Alice 按照路径 0->1 移动，同时 Bob 按照路径 1->0 移动。
 - `amount.length == n`
 - `amount[i]` 是范围 `[-10^4, 10^4]` 之间的一个 偶数。
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - BFS + DFS
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，其中 n 是节点数
+- 空间复杂度：$O(n)$
+
+算法思路：
+
+- BFS 找出 Bob 到节点 0 的路径，记录 Bob 到达每个节点的时间
+- DFS 从节点 0 出发（Alice），根据 Alice 和 Bob 到达时间决定收益
+- Alice 先到则获得全部收益，同时到达则各半，Bob 先到则无收益

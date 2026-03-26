@@ -45,13 +45,18 @@
 
 - `4 <= n <= 10^5`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 数学证明
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
 - 时间复杂度：$O(1)$
 - 空间复杂度：$O(1)$
+
+算法思路：
+
+- 对于 $n \geq 4$，n 在任何 $b \in [2, n-2]$ 进制下都不是回文
+- 因此直接返回 false

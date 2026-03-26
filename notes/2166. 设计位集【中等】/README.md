@@ -59,13 +59,19 @@ bs.toString(); // 返回 "01010"，即 bitset 的当前组成情况。
 - 至少调用 `all`、`one`、`count` 或 `toString` 方法一次
 - 至多调用 `toString` 方法 `5` 次
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 懒翻转标记
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：`fix`、`unfix`、`flip`、`all`、`one`、`count` 均为 $O(1)$，`toString` 为 $O(n)$
+- 空间复杂度：$O(n)$，其中 $n$ 是位集大小
+
+算法思路：
+
+- 使用数组存储每一位的值，维护一个 `flipped` 懒翻转标记和 `ones` 计数
+- `flip` 操作只需翻转标记并更新 `ones = size - ones`，无需遍历数组
+- `fix`/`unfix` 操作根据 `flipped` 标记判断实际含义，保证 $O(1)$ 复杂度

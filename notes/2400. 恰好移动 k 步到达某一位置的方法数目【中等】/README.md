@@ -49,13 +49,19 @@
 
 - `1 <= startPos, endPos, k <= 1000`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 组合数学
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(k)$，计算阶乘和逆元
+- 空间复杂度：$O(k)$，阶乘数组
+
+算法思路：
+
+- k 步中向右走 right 步、向左走 left 步，则 right - left = diff，right + left = k
+- 解得 right = (k + diff) / 2，若不是整数或 right < 0 则无解
+- 答案为组合数 $C(k, right) \mod 10^9+7$

@@ -50,13 +50,19 @@
 - `rectangles[i].length == 2`
 - `1 <= widthi, heighti <= 10^5`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 哈希表 + GCD
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，其中 n 是矩形数组的长度
+- 空间复杂度：$O(n)$，哈希表最多存储 n 个不同的宽高比
+
+算法思路：
+
+- 对每个矩形，用 GCD 将宽高比化简为最简分数，作为哈希表的 key
+- 遍历矩形时，若当前 key 在哈希表中已有 cnt 个，则新增 cnt 对可互换矩形
+- 累加计数即为答案

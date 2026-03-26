@@ -62,13 +62,19 @@
 - `items[i].length == 2`
 - `1 <= pricei, beautyi, queries[j] <= 10^9`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 排序 + 二分查找
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n \log n + q \log n)$，其中 n 是 items 长度，q 是查询次数
+- 空间复杂度：$O(q)$，用于存储答案数组
+
+算法思路：
+
+- 将 items 按价格排序，维护前缀最大美丽值
+- 对每个查询，二分查找价格不超过查询值的最后一个商品
+- 直接读取该位置的前缀最大美丽值作为答案

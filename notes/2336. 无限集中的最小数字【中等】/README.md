@@ -48,13 +48,20 @@ smallestInfiniteSet.popSmallest(); // 返回 5，并将其从集合中移除。
 - `1 <= num <= 1000`
 - 最多调用 `popSmallest` 和 `addBack` 方法 共计 `1000` 次
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 最小堆
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：popSmallest 和 addBack 均为 $O(\log n)$，其中 n 是堆中元素数量
+- 空间复杂度：$O(n)$，堆和哈希集合存储被加回的元素
+
+算法思路：
+
+- 维护一个指针 cur 表示当前无限集的起始位置，初始为 1
+- 用最小堆 + 哈希集合存储被加回的小于 cur 的数字
+- popSmallest：堆顶小于 cur 则弹出堆顶，否则返回 cur++
+- addBack：只有 num < cur 且不在堆中时才加入堆

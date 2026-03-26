@@ -58,13 +58,19 @@ bank.withdraw(10, 50);   // 返回 false，交易无效，因为账户 10 并不
 - `0 <= balance[i], money <= 10^12`
 - `transfer`, `deposit`, `withdraw` 三个函数，每个 最多调用 `10^4` 次
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 数组模拟
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：每次操作 $O(1)$
+- 空间复杂度：$O(n)$，其中 n 是账户数量
+
+算法思路：
+
+- 用数组存储每个账户的余额，初始化时记录账户总数
+- `transfer`：校验账户编号范围和余额是否充足，合法则执行转账
+- `deposit` / `withdraw`：校验账户编号范围（withdraw 额外校验余额），合法则更新余额

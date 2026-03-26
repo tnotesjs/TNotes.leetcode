@@ -55,13 +55,19 @@
 - `0 <= rocks[i] <= capacity[i]`
 - `1 <= additionalRocks <= 10^9`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 贪心 + 排序
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n \log n)$，其中 n 是背包数量
+- 空间复杂度：$O(n)$，需要额外数组存储每个背包的差值
+
+算法思路：
+
+- 计算每个背包还需要多少石头才能装满：need[i] = capacity[i] - rocks[i]
+- 将 need 从小到大排序，优先填满需求少的背包
+- 依次填充直到额外石头用完，统计装满的背包数

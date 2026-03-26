@@ -45,13 +45,19 @@
 - `1 <= nums1.length, nums2.length <= 10^5`
 - `0 <= nums1[i], nums2[j] <= 10^9`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 位运算
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
+- 时间复杂度：$O(n + m)$，其中 n 和 m 分别是两个数组的长度
 - 空间复杂度：$O(1)$
+
+算法思路：
+
+- nums1 中每个元素出现 len(nums2) 次，若 len(nums2) 为奇数则 XOR 贡献保留
+- 同理 nums2 中每个元素出现 len(nums1) 次
+- 根据对方数组长度的奇偶性决定是否异或累加

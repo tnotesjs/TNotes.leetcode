@@ -56,13 +56,19 @@
 - `3 <= nums.length <= 10^5`
 - `1 <= nums[i] <= 10^5`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 前缀最大值 + 后缀最小值
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，其中 n 是数组长度
+- 空间复杂度：$O(n)$，前缀最大值和后缀最小值数组各占 $O(n)$
+
+算法思路：
+
+- 预处理 `prefixMax[i]` 表示 `nums[0..i]` 的最大值，`suffixMin[i]` 表示 `nums[i..n-1]` 的最小值
+- 遍历中间元素 `i`（1 到 n-2），若 `prefixMax[i-1] < nums[i] < suffixMin[i+1]` 则美丽值 +2
+- 否则若 `nums[i-1] < nums[i] < nums[i+1]` 则美丽值 +1

@@ -99,13 +99,19 @@
 - `grid[row][col] > 0`
 - `1 <= k <= m * n`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - BFS + 排序
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(m \cdot n \cdot \log(m \cdot n))$，其中 m 和 n 是网格的行列数
+- 空间复杂度：$O(m \cdot n)$，用于 visited 数组和 BFS 队列
+
+算法思路：
+
+- 从起点开始 BFS 遍历网格，每层收集价格在 [low, high] 范围内的物品
+- 每层的物品按距离、价格、行、列多级排序
+- 将排序后的物品依次加入结果，达到 k 个时提前返回

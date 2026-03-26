@@ -49,13 +49,19 @@
 - `1 <= pref.length <= 10^5`
 - `0 <= pref[i] <= 10^6`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 异或还原
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，其中 n 是数组长度
+- 空间复杂度：$O(n)$
+
+算法思路：
+
+- 前缀异或数组 pref[i] = arr[0] ^ arr[1] ^ ... ^ arr[i]
+- 原数组 arr[0] = pref[0]，arr[i] = pref[i] ^ pref[i-1] (i > 0)
+- 直接遍历还原即可

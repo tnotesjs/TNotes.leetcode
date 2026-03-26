@@ -62,13 +62,19 @@ stockPrice.minimum();     // 返回 2，最低价格时间戳为 4，价格为 2
 - `update`，`current`，`maximum` 和 `minimum` 总 调用次数不超过 `10^5`。
 - `current`，`maximum` 和 `minimum` 被调用时，`update` 操作 至少 已经被调用过 一次。
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 哈希表 + 堆（懒删除）
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：`update` $O(\log n)$，`current` $O(1)$，`maximum/minimum` 均摊 $O(\log n)$
+- 空间复杂度：$O(n)$，其中 n 是 update 操作次数
+
+算法思路：
+
+- 用哈希表存储每个时间戳对应的最新价格，记录最新时间戳
+- 维护一个大顶堆和一个小顶堆用于查询最大/最小价格
+- 查询时若堆顶元素的价格与哈希表中不一致（已被更新），则弹出堆顶（懒删除），直到堆顶有效

@@ -1,1 +1,8 @@
-// todo
+int minimumNumbers(int num, int k) {
+    if (num == 0) return 0;
+    for (int cnt = 1; cnt <= 10; cnt++) {
+        if (cnt * k > num) return -1;
+        if ((cnt * k) % 10 == num % 10) return cnt;
+    }
+    return -1;
+}

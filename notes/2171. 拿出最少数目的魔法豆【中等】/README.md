@@ -58,13 +58,19 @@
 - `1 <= beans.length <= 10^5`
 - `1 <= beans[i] <= 10^5`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 排序 + 枚举阈值
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n \log n)$，其中 $n$ 是数组长度，主要是排序开销
+- 空间复杂度：$O(\log n)$，排序所需空间
+
+算法思路：
+
+- 将豆子数量排序，枚举每个 `beans[i]` 作为最终每袋的最小豆子数
+- 以 `beans[i]` 为阈值，小于它的全部清空，大于等于它的保留 `beans[i]` 个
+- 剩余豆子数为 `beans[i] * (n - i)`，移除数为 `total - remaining`，取最小值

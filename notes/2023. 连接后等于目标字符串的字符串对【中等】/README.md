@@ -61,13 +61,19 @@
 - `nums[i]` 和 `target` 只包含数字。
 - `nums[i]` 和 `target` 不含有任何前导 0。
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 哈希表 + 枚举前后缀
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n + L)$，其中 n 是数组长度，L 是 target 的长度
+- 空间复杂度：$O(n)$，哈希表存储字符串频次
+
+算法思路：
+
+- 用哈希表统计数组中每个字符串的出现次数
+- 枚举 target 的所有分割点，将 target 拆为前缀 prefix 和后缀 suffix
+- 若 prefix 和 suffix 相同则计数为 `cnt * (cnt - 1)`，否则为 `cnt(prefix) * cnt(suffix)`

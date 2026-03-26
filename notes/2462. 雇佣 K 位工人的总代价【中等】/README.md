@@ -58,13 +58,19 @@
 - `1 <= costs[i] <= 10^5`
 - `1 <= k, candidates <= costs.length`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 双最小堆
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O((k + candidates) \log candidates)$
+- 空间复杂度：$O(candidates)$
+
+算法思路：
+
+- 维护两个最小堆，分别存储左侧和右侧的 candidates 个候选工人
+- 每次从两个堆中取代价较小的，并从对应侧补充新候选
+- 重复 k 次

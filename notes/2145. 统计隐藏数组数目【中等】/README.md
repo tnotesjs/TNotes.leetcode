@@ -65,13 +65,19 @@
 - `-10^5 <= differences[i] <= 10^5`
 - `-10^5 <= lower <= upper <= 10^5`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 前缀和
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，其中 n 是 differences 数组的长度
+- 空间复杂度：$O(1)$，只使用了常数级别的额外空间
+
+算法思路：
+
+- 计算 differences 的前缀和，记录前缀和的最小值 minP 和最大值 maxP
+- hidden[0] 的取值范围为 [lower - minP, upper - maxP]
+- 结果为该区间的长度：max(0, upper - maxP - lower + minP + 1)

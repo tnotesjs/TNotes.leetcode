@@ -48,13 +48,18 @@
 - `1 <= players.length, trainers.length <= 10^5`
 - `1 <= players[i], trainers[j] <= 10^9`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 排序 + 双指针
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n \log n + m \log m)$，其中 n 和 m 分别是运动员和训练师的数量
+- 空间复杂度：$O(\log n + \log m)$，排序空间
+
+算法思路：
+
+- 将运动员和训练师分别排序
+- 双指针贪心匹配：若训练师能力值 ≥ 运动员能力值，则配对成功，否则训练师指针前移

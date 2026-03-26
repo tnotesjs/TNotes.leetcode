@@ -61,13 +61,19 @@
 - `startWords` 和 `targetWords` 中的每个字符串都仅由小写英文字母组成
 - 在 `startWords` 或 `targetWords` 的任一字符串中，每个字母至多出现一次
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 位运算 + 哈希集合
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n \cdot L + m \cdot L)$，其中 n 和 m 分别是两个数组长度，L 是单词平均长度
+- 空间复杂度：$O(n)$，用于存储 startWords 的位掩码集合
+
+算法思路：
+
+- 将每个 startWord 编码为 26 位的位掩码，存入集合
+- 对每个 targetWord 编码为位掩码，尝试去掉其中每一个字母
+- 如果去掉某个字母后的掩码在集合中存在，说明可以通过追加该字母得到

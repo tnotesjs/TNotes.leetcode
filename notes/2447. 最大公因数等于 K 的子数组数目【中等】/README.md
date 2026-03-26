@@ -46,13 +46,18 @@
 - `1 <= nums.length <= 1000`
 - `1 <= nums[i], k <= 10^9`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 枚举子数组
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
+- 时间复杂度：$O(n^2 \log C)$，其中 n 是数组长度，C 是值域
 - 空间复杂度：$O(1)$
+
+算法思路：
+
+- 枚举所有子数组，维护滚动 GCD
+- 若 GCD 等于 k 则计数，若 GCD 小于 k 则提前终止当前子数组

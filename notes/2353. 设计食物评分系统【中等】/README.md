@@ -65,13 +65,19 @@ foodRatings.highestRated("japanese"); // 返回 "ramen"
 - 在对 `highestRated` 的所有调用中，`cuisine` 是系统中 至少一种 食物的烹饪方式。
 - 最多调用 `changeRating` 和 `highestRated` 总计 `2 * 10^4` 次
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 哈希表
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：changeRating $O(1)$，highestRated $O(n)$，其中 n 是该菜系的食物数量
+- 空间复杂度：$O(n)$，存储所有食物信息
+
+算法思路：
+
+- 维护三个哈希表：食物→菜系、食物→评分、菜系→食物列表
+- changeRating 直接更新食物的评分
+- highestRated 遍历该菜系的所有食物，找评分最高且字典序最小的

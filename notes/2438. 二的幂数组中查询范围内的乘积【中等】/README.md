@@ -50,13 +50,19 @@
 - `1 <= queries.length <= 10^5`
 - `0 <= starti <= endi < powers.length`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - lowbit 拆分 + 区间乘积
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(B + q \times B)$，其中 B 是 n 的位数，q 是查询数
+- 空间复杂度：$O(B + q)$
+
+算法思路：
+
+- 将 n 拆分为 2 的幂次数组 powers（通过 lowbit 操作）
+- 对每个查询 [l, r]，计算 powers[l] 到 powers[r] 的乘积
+- 结果对 $10^9+7$ 取模

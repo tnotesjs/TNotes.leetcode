@@ -53,13 +53,19 @@
 - `1 <= spells[i], potions[i] <= 10^5`
 - `1 <= success <= 10^10`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 排序 + 二分查找
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O((n + m) \log m)$，其中 n 是 spells 长度，m 是 potions 长度
+- 空间复杂度：$O(n)$，存储结果数组
+
+算法思路：
+
+- 将 potions 排序
+- 对每个 spell，二分查找 potions 中第一个使得 spell × potion >= success 的位置
+- 该位置及其右侧所有药水均为成功组合，数量为 m - lo

@@ -56,13 +56,19 @@
 - `questions[i].length == 2`
 - `1 <= pointsi, brainpoweri <= 10^5`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 动态规划
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，其中 n 是 questions 数组的长度
+- 空间复杂度：$O(n)$，用于 dp 数组
+
+算法思路：
+
+- 定义 dp[i] 表示从第 i 题开始能获得的最大分数，从后向前遍历
+- 对于每道题有两种选择：跳过（dp[i+1]）或解决（得分 + dp[i+brainpower+1]）
+- dp[i] = max(跳过, 解决)，最终答案为 dp[0]

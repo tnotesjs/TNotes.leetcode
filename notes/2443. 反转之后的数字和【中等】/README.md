@@ -47,13 +47,19 @@
 
 - `0 <= num <= 10^5`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 枚举
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n \times d)$，其中 n 是 num 的大小，d 是位数
+- 空间复杂度：$O(d)$，字符串反转空间
+
+算法思路：
+
+- 从 0 到 num 枚举每个整数 i
+- 计算 i + reverse(i)，若等于 num 则返回 true
+- 遍历完毕无匹配则返回 false

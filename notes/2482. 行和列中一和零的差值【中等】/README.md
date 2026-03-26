@@ -72,13 +72,18 @@
 - `1 <= m * n <= 10^5`
 - `grid[i][j]` 要么是 `0`，要么是 `1`。
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 预计算行列计数
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(m \times n)$
+- 空间复杂度：$O(m + n)$
+
+算法思路：
+
+- 预计算每行和每列中 1 的个数
+- diff[i][j] = 2 × rowOnes[i] + 2 × colOnes[j] - n - m

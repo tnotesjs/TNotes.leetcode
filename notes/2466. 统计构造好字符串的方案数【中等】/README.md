@@ -50,13 +50,19 @@
 - `1 <= low <= high <= 10^5`
 - `1 <= zero, one <= low`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 动态规划
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(high)$
+- 空间复杂度：$O(high)$
+
+算法思路：
+
+- dp[i] 表示构造长度为 i 的字符串的方案数
+- 转移：dp[i] = dp[i - zero] + dp[i - one]
+- 累加 low 到 high 范围内的 dp 值为答案

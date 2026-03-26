@@ -57,13 +57,19 @@
 - `1 <= n <= 10^5`
 - `0 <= nums[i] <= 10^9`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 位运算 + 从右往左
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n \times B)$，其中 B 是位数（约 30）
+- 空间复杂度：$O(n + B)$
+
+算法思路：
+
+- 从右到左遍历，维护 lastBit[b] 表示第 b 位最近出现 1 的位置
+- 对于每个位置 i，找所有位的 lastBit 的最远位置 farthest
+- ans[i] = farthest - i + 1 即为从 i 开始能达到最大 OR 的最小子数组长度

@@ -62,13 +62,19 @@
 - `1 <= security.length <= 10^5`
 - `0 <= security[i], time <= 10^5`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 前缀数组
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，其中 n 是 security 数组长度
+- 空间复杂度：$O(n)$，用于存储 dec 和 inc 辅助数组
+
+算法思路：
+
+- 预处理 dec[i]：以 i 结尾的连续非递增天数；inc[i]：以 i 开头的连续非递减天数
+- 遍历每个位置，若 dec[i] ≥ time 且 inc[i] ≥ time，则该日适合野炊
+- 只需检查 [time, n - time) 范围内的位置

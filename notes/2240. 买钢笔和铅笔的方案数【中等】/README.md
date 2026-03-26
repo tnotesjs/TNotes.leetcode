@@ -43,13 +43,19 @@
 
 - `1 <= total, cost1, cost2 <= 10^6`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 枚举
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(total / cost1)$，枚举钢笔数量
+- 空间复杂度：$O(1)$，只使用常数额外空间
+
+算法思路：
+
+- 枚举购买钢笔的数量（从 0 到 `total / cost1`）
+- 对于每种钢笔数量，剩余金额最多能买 `remaining / cost2` 支铅笔
+- 铅笔数量可以从 0 到最大值，共 `Math.floor(remaining / cost2) + 1` 种选择

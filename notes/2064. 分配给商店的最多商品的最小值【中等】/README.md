@@ -69,13 +69,19 @@
 - `1 <= m <= n <= 10^5`
 - `1 <= quantities[i] <= 10^5`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 二分查找
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(m \log(\max(quantities)))$，其中 m 是 quantities 的长度
+- 空间复杂度：$O(1)$，只使用了常数级别的额外空间
+
+算法思路：
+
+- 二分查找答案（每个商店最多分配的商品数量）
+- 对于给定的上限 mid，计算所需商店数量：每种商品需要 $\lceil q / mid \rceil$ 个商店
+- 如果所需商店数 ≤ n，说明 mid 可行，尝试更小值；否则增大 mid

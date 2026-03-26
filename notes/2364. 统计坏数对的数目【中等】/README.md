@@ -45,13 +45,19 @@
 - `1 <= nums.length <= 10^5`
 - `1 <= nums[i] <= 10^9`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 哈希表 + 正难则反
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，其中 n 是数组长度
+- 空间复杂度：$O(n)$，哈希表空间
+
+算法思路：
+
+- 坏数对条件 $j - i \neq nums[j] - nums[i]$ 等价于 $nums[j] - j \neq nums[i] - i$
+- 用哈希表统计 $nums[i] - i$ 相同的「好数对」数量
+- 总对数减去好数对数即为坏数对数

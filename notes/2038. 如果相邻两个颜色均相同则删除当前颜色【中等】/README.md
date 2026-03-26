@@ -75,13 +75,19 @@ ABBBBBBBAA -> ABBBBBBAA
 - `1 <= colors.length <= 10^5`
 - `colors` 只包含字母 `'A'` 和 `'B'`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 计数
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，其中 n 是字符串长度
+- 空间复杂度：$O(1)$，只使用常数额外空间
+
+算法思路：
+
+- 遍历字符串，统计 Alice 可删除的位置数 a（连续三个 A 的中间位置）和 Bob 可删除的位置数 b（连续三个 B 的中间位置）
+- Alice 先手，每次操作消耗一个可删除位置
+- 若 `a > b` 则 Alice 赢，否则 Bob 赢

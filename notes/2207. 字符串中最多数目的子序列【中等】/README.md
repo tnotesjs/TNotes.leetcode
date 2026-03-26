@@ -50,13 +50,19 @@
 - `pattern.length == 2`
 - `text` 和 `pattern` 都只包含小写英文字母。
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 贪心 + 计数
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，其中 $n$ 是字符串长度
+- 空间复杂度：$O(1)$，只使用常数额外空间
+
+算法思路：
+
+- 遍历字符串，统计 `pattern[0]` 和 `pattern[1]` 的出现次数
+- 每遇到 `pattern[1]` 时，当前已有的 `pattern[0]` 数量即为新增的子序列数
+- 最后还可以在开头插入 `pattern[0]` 或末尾插入 `pattern[1]`，取两者中较大值累加

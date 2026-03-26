@@ -62,13 +62,19 @@ Bob 获得总分 8 + 9 + 10 = 27。
 - `0 <= aliceArrows[i], bobArrows[i] <= numArrows`
 - `sum(aliceArrows[i]) == numArrows`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 状态压缩枚举
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(2^{12} \times 12)$，枚举所有区域的选取状态
+- 空间复杂度：$O(1)$，只使用常数额外空间
+
+算法思路：
+
+- 共 12 个得分区域（0~11），用 12 位二进制掩码枚举 Bob 赢得哪些区域
+- 对于每种选择，计算所需箭数（比 Alice 多 1）和总得分
+- 选出箭数不超过 `numArrows` 且得分最大的方案，多余的箭分配到区域 0

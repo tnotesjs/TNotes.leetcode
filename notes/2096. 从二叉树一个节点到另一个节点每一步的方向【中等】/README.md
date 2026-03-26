@@ -54,13 +54,19 @@
 - `1 <= startValue, destValue <= n`
 - `startValue != destValue`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - DFS + LCA
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，其中 n 是二叉树节点数
+- 空间复杂度：$O(n)$，用于存储路径和递归栈
+
+算法思路：
+
+- DFS 分别找到从根到 start 和从根到 dest 的路径
+- 跳过两条路径的公共前缀（即找到 LCA）
+- start 到 LCA 的部分全部替换为 U，拼接 LCA 到 dest 的路径

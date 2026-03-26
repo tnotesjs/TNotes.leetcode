@@ -88,13 +88,19 @@
 - `1 <= rows <= 1000`
 - 生成的测试用例满足 仅存在一个 可能的 `originalText`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 矩阵对角线遍历
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(rows \times cols)$，其中 rows 和 cols 是矩阵的行数和列数
+- 空间复杂度：$O(rows \times cols)$，用于存储解码结果字符串
+
+算法思路：
+
+- 将编码字符串看作 rows 行 cols 列的矩阵
+- 从每一列的第一行开始，沿对角线方向（行+1，列+1）读取字符
+- 去除末尾空格得到原文

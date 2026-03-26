@@ -48,13 +48,19 @@ rangeFreqQuery.query(0, 11, 33); // 返回 2。33 在整个子数组中出现 2 
 - `0 <= left <= right < arr.length`
 - 调用 `query` 不超过 `10^5` 次。
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 哈希表 + 二分查找
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：构造 $O(n)$，每次查询 $O(\log n)$，其中 n 是数组长度
+- 空间复杂度：$O(n)$，用于存储每个值的索引列表
+
+算法思路：
+
+- 构造时将每个值的出现索引存入哈希表，索引自然有序
+- 查询时对该值的索引列表做两次二分查找（lowerBound 和 upperBound）
+- 两次二分的差值即为 [left, right] 区间内该值的出现次数

@@ -69,13 +69,19 @@
 - `start != goal`
 - `nums` 中的所有整数互不相同
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - BFS
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(1001 \times n)$，其中 n 是 nums 数组长度，状态空间为 [0, 1000]
+- 空间复杂度：$O(1001)$，visited 数组大小固定
+
+算法思路：
+
+- 从 start 出发做 BFS，每一步对当前值 x 尝试三种运算：x+num、x-num、x^num
+- 如果结果等于 goal 直接返回步数，否则若在 [0, 1000] 范围内且未访问则入队
+- 范围外的值不入队但仍可作为 goal 的判定结果
