@@ -65,26 +65,21 @@
 
 - 备注：本题是仿照 Lodash 中的 `_.chunk` 的实现手写一个 `chunk` 函数。
 
-## 3. 🎯 s.1
+## 3. 🎯 s.1 - 分块遍历
 
-```javascript
-/**
- * @param {Array} arr
- * @param {number} size
- * @return {Array}
- */
-var chunk = function (arr, size) {
-  const len = arr.length
-  if (len === 0) return []
-  if (size >= len) return [[...arr]]
-  const ansLen = Math.ceil(len / size)
-  const ans = new Array(ansLen)
-  for (let i = 0; i < ansLen; i++) {
-    ans[i] = arr.slice(i * size, i * size + size)
-  }
-  return ans
-}
-```
+::: code-group
+
+<<< ./solutions/1/1.js [js]
+
+:::
+
+- 时间复杂度：$O(N)$，其中 N 是数组长度
+- 空间复杂度：$O(N)$，存储结果数组
+
+算法思路：
+
+- 计算分块数量，用 slice 截取每个分块
+- 处理最后一块长度可能不足 size 的情况
 
 ## 4. 🔗 引用
 

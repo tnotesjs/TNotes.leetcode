@@ -68,7 +68,7 @@ promiseAll(functions).then(console.log); // [5]
 - 函数 `functions` 是一个返回 promise 的函数数组
 - `1 <= functions.length <= 10`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - Promise 手动实现
 
 ::: code-group
 
@@ -76,5 +76,11 @@ promiseAll(functions).then(console.log); // [5]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(N)$，其中 N 是函数数组的长度
+- 空间复杂度：$O(N)$
+
+算法思路：
+
+- 创建新 Promise，遍历所有函数并立即调用
+- 每个函数 resolve 时，将结果按原索引存入数组并计数
+- 全部 resolve 后调用 `resolve(results)`，任意一个 reject 则直接 `reject`

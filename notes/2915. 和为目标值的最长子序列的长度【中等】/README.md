@@ -51,13 +51,19 @@
 - `1 <= nums[i] <= 1000`
 - `1 <= target <= 1000`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 0-1 背包
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n \times target)$，其中 n 是数组长度
+- 空间复杂度：$O(target)$，dp 数组大小
+
+算法思路：
+
+- 定义 `dp[j]` 表示和为 j 的子序列的最大长度，初始 `dp[0] = 0`，其余为 -1
+- 对每个元素，从大到小遍历 j，若 `dp[j - x] != -1` 则转移 `dp[j] = max(dp[j], dp[j - x] + 1)`
+- 最终返回 `dp[target]`

@@ -48,32 +48,18 @@
 - `1 <= calls[i].length <= 100`
 - `2 <= JSON.stringify(calls).length <= 1000`
 
-## 2. 🎯 s.1
+## 2. 🎯 s.1 - 闭包
 
-```javascript
-/**
- * @param {Function} fn
- * @return {Function}
- */
-var once = function (fn) {
-  let isCalled = false
-  return function (...args) {
-    if (!isCalled) {
-      isCalled = true
-      return fn(...args)
-    } else {
-      return undefined
-    }
-  }
-}
+::: code-group
 
-/**
- * let fn = (a,b,c) => (a + b + c)
- * let onceFn = once(fn)
- *
- * onceFn(1,2,3); // 6
- * onceFn(2,3,6); // returns undefined without calling fn
- */
-```
+<<< ./solutions/1/1.js [js]
 
-本题考察的依旧是闭包相关的知识点，只需要在函数 `once` 内部维护一个变量，记录 `fn` 是否被调用过即可。
+:::
+
+- 时间复杂度：$O(1)$，每次调用为常数时间
+- 空间复杂度：$O(1)$，只用了一个布尔变量
+
+算法思路：
+
+- 利用闭包维护一个标志变量 isCalled，记录 fn 是否已被调用
+- 第一次调用时执行 fn 并返回结果，后续调用返回 undefined

@@ -67,13 +67,19 @@ abs(0 - 0) >= 0 且 abs(nums[0] - nums[0]) >= 0。
 - `0 <= indexDifference <= 10^5`
 - `0 <= valueDifference <= 10^9`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 维护前缀最大最小值
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，一次遍历
+- 空间复杂度：$O(1)$，只使用常数额外空间
+
+算法思路：
+
+- 从左到右遍历，对于下标 i，需要在 `[0, i - indexDifference]` 范围内找到满足值差条件的下标
+- 维护前缀 `[0, i - indexDifference]` 中的最大值和最小值及其下标
+- 用当前值分别与前缀最小值、最大值比较，若差值满足要求则返回

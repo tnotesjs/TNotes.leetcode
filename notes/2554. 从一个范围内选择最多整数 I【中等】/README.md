@@ -56,13 +56,22 @@
 - `1 <= banned[i], n <= 10^4`
 - `1 <= maxSum <= 10^9`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 贪心 + 哈希集合
 
 ::: code-group
 
 <<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.c [c]
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n + m \log m)$，其中 n 是范围大小，m 是 banned 数组长度
+- 空间复杂度：$O(m)$，哈希集合存储 banned 数组
+
+算法思路：
+
+- 将 banned 数组放入哈希集合
+- 从 1 到 n 遍历，跳过 banned 中的整数
+- 每次选择当前最小的合法整数，累加到 sum
+- 当 sum 超过 maxSum 时停止，返回已选择的个数

@@ -56,13 +56,18 @@ nums 的 MEX 是 2。可以证明 2 是可以取到的最大 MEX。
 - `1 <= nums.length, value <= 10^5`
 - `-10^9 <= nums[i] <= 10^9`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 贪心 + 取模
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(N)$，其中 N 是数组长度
+- 空间复杂度：$O(V)$，其中 V 是 value 的大小
+
+算法思路：
+
+- 对每个 nums[i] 可以加减任意次 value，所以 nums[i] 可以变成任何与它模 value 同余的非负整数
+- 统计每个余数的出现次数，然后从 0 开始枚举 mex，若余数 mex % value 还有剩余名额则消耗一个，否则返回 mex

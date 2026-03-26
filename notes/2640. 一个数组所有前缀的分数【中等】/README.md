@@ -55,13 +55,19 @@
 - `1 <= nums.length <= 10^5`
 - `1 <= nums[i] <= 10^9`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 前缀和 + 维护最大值
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，遍历一次数组
+- 空间复杂度：$O(n)$，结果数组的空间
+
+算法思路：
+
+- `conver[i] = nums[i] + max(nums[0..i])`，`score = sum(conver[0..i])`
+- 维护前缀最大值 `maxVal` 和前缀分数 `score`
+- 每次 `score += nums[i] + maxVal`，即可递推得到 `ans[i]`

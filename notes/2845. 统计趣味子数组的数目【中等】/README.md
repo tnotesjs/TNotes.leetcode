@@ -69,13 +69,21 @@
 - `1 <= modulo <= 10^9`
 - `0 <= k < modulo`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 前缀和 + 哈希表
 
 ::: code-group
 
 <<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.c [c]
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(N)$，其中 N 是数组长度
+- 空间复杂度：$O(\min(N, \text{modulo}))$，哈希表存储前缀和余数
+
+算法思路：
+
+- 定义前缀计数 prefix[i] = 前 i 个元素中满足 nums[j] % modulo == k 的个数
+- 子数组 [l, r] 趣味的条件等价于 (prefix[r+1] - prefix[l]) % modulo == k
+- 用哈希表记录 prefix % modulo 的出现次数，遍历时查找满足条件的前缀

@@ -78,13 +78,21 @@
 - `0 <= stock[i] <= 10^8`
 - `1 <= cost[i] <= 100`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 二分答案
 
 ::: code-group
 
 <<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.c [c]
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(K \cdot N \cdot \log(\text{max}))$，其中 K 是机器数，N 是金属种类数
+- 空间复杂度：$O(1)$，只使用常数额外空间
+
+算法思路：
+
+- 对每台机器，二分搜索能生产的最大合金数
+- 检查函数：生产 mid 份合金需要的总花费 = Σ max(0, mid × composition[m][j] - stock[j]) × cost[j]
+- 若总花费 ≤ budget 则可行，取所有机器的最大值

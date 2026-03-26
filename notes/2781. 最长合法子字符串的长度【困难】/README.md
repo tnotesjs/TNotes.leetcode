@@ -49,13 +49,19 @@
 - `1 <= forbidden[i].length <= 10`
 - `forbidden[i]` 只包含小写英文字母。
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 滑动窗口 + 哈希集合
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n \cdot L + m \cdot L)$，其中 $n$ 为字符串长度，$L$ 为 forbidden 字符串最大长度（最多 10），$m$ 为 forbidden 数组长度
+- 空间复杂度：$O(m \cdot L)$，哈希集合的空间
+
+算法思路：
+
+- 将所有 forbidden 字符串加入哈希集合
+- 从右向左遍历，维护右边界 `right`，对每个左端点检查以它开头、长度不超过 10 的子串是否在 forbidden 中
+- 若找到则收缩 `right` 到该禁止子串起点，确保窗口内无禁止子串

@@ -56,13 +56,21 @@
 - `1 <= queries.length <= 10^5`
 - `0 <= queries[j][0] <= queries[j][1] < words.length`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 前缀和
 
 ::: code-group
 
 <<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.c [c]
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n + q)$，其中 n 是 words 长度，q 是查询次数
+- 空间复杂度：$O(n)$，前缀和数组的空间
+
+算法思路：
+
+- 预处理：判断每个字符串是否以元音开头且以元音结尾
+- 构建前缀和数组 `prefix[i]`，表示前 i 个字符串中满足条件的个数
+- 对于每个查询 `[l, r]`，答案为 `prefix[r+1] - prefix[l]`

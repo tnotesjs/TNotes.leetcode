@@ -59,13 +59,21 @@
 - `s.length == t.length`
 - `s` 和 `t` 都只包含小写英文字母。
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - KMP + 数学推导
 
 ::: code-group
 
 <<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.c [c]
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(N)$，其中 N 是字符串长度
+- 空间复杂度：$O(N)$，KMP 失败函数数组
+
+算法思路：
+
+- 每次操作是将 s 循环右移若干位，k 次操作后需要总旋转量使 s 变为 t
+- 用 KMP 在 s+s 中搜索 t，统计有 p 个旋转位置使 rotate(s) = t
+- 推导递推公式 $h(k+1, r) = (n-1)^k - h(k, r)$，解得闭式解：$f_k = [(-1)^k \cdot (c \cdot n - p) + p \cdot (n-1)^k] / n$，其中 c = [s == t]

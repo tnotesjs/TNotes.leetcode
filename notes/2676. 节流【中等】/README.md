@@ -95,32 +95,19 @@
 - `0 <= calls[i].t <= 1000`
 - `0 <= calls[i].inputs[i], calls[i].inputs.length <= 10`
 
-## 3. 🎯 s.1
+## 3. 🎯 s.1 - 节流（setTimeout）
 
-```javascript
-/**
- * @param {Function} fn
- * @param {number} t
- * @return {Function}
- */
-var throttle = function (fn, t) {
-  const now = Date.now
+::: code-group
 
-  let timer
-  let nextTimeToCallFn = 0
-  return (...args) => {
-    const delay = Math.max(0, nextTimeToCallFn - now())
-    clearTimeout(timer)
-    timer = setTimeout(() => {
-      fn(...args)
-      nextTimeToCallFn = now() + t
-    }, delay)
-  }
-}
+<<< ./solutions/1/1.js [js]
 
-/**
- * const throttled = throttle(console.log, 100);
- * throttled("log"); // logged immediately.
- * throttled("log"); // logged at t=100ms.
- */
-```
+:::
+
+- 时间复杂度：$O(1)$，每次调用为常数时间
+- 空间复杂度：$O(1)$，只用了常数额外空间
+
+算法思路：
+
+- 维护 nextTimeToCallFn 记录下一次允许执行的最早时间
+- 每次调用时计算需要延迟多久，用 setTimeout 安排执行
+- clearTimeout 确保只保留最新的待执行调用

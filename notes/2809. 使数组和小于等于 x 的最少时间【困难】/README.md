@@ -53,13 +53,20 @@
 - `nums1.length == nums2.length`
 - `0 <= x <= 10^6`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 动态规划 + 排序
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n^2)$，双重循环的 0-1 背包
+- 空间复杂度：$O(n)$，一维 dp 数组
+
+算法思路：
+
+- 经过 t 秒不重置时，总和为 $\sum nums1[i] + t \cdot \sum nums2[i]$
+- 在第 j 秒重置元素 i 可节省 $nums1[i] + j \cdot nums2[i]$
+- 按 nums2 升序排序后，用 0-1 背包求选 j 个元素重置的最大总节省 dp[j]
+- 枚举 t = 0..n，若 $\text{sum1} + \text{sum2} \cdot t - dp[t] \leq x$ 则返回 t

@@ -61,39 +61,19 @@
 - `1 <= JSON.stringify(o2).length <= 10^5`
 - `maxNestingDepth <= 1000`
 
-## 2. 🎯 s.递归
+## 2. 🎯 s.1 - 递归
 
-```js
-/**
- * @param {null|boolean|number|string|Array|Object} o1
- * @param {null|boolean|number|string|Array|Object} o2
- * @return {boolean}
- */
-var areDeeplyEqual = function (o1, o2) {
-  // 如果两者都是原始类型，直接使用 === 比较。
-  if (
-    typeof o1 !== 'object' ||
-    o1 === null ||
-    typeof o2 !== 'object' ||
-    o2 === null
-  )
-    return o1 === o2
+::: code-group
 
-  // 如果一个是数组而另一个不是，直接返回 false。
-  if (Array.isArray(o1) !== Array.isArray(o2)) return false
+<<< ./solutions/1/1.js [js]
 
-  const keys1 = Object.keys(o1).sort()
-  const keys2 = Object.keys(o2).sort()
+:::
 
-  if (keys1.length !== keys2.length) return false
+- 时间复杂度：$O(N)$，其中 N 是两个对象中所有键值对的总数
+- 空间复杂度：$O(D)$，其中 D 是对象的最大嵌套深度
 
-  for (let i = 0; i < keys1.length; i++) {
-    const key = keys1[i]
-    if (!areDeeplyEqual(o1[key], o2[key])) {
-      return false
-    }
-  }
+算法思路：
 
-  return true
-}
-```
+- 如果两者有任一不是对象（或为 null），直接用 `===` 比较
+- 如果一个是数组另一个不是，返回 false
+- 对两个对象的键排序后逐个递归比较对应的值

@@ -48,22 +48,17 @@
 - `fn` 是一个函数，返回一个数字
 - `1 <= arr.length <= 5 * 10^5`
 
-## 2. 🎯 s.1
+## 2. 🎯 s.1 - Array.sort
 
-```javascript
-/**
- * @param {Array} arr
- * @param {Function} fn
- * @return {Array}
- */
-var sortBy = function (arr, fn) {
-  return arr.sort((next, cur) => fn(next) - fn(cur))
-}
-```
+::: code-group
 
-可以通过 `Array.prototype.sort` 快速解题，题目描述中提到：按照 fn 的输出值排序。最先想到的就是数组的 sort 方法，只需要将数组的每一项作为 fn 函数的入参丢给它然后做差即可。
+<<< ./solutions/1/1.js [js]
 
-## 3. 🔗 引用
+:::
 
-- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
-  - MDN，`Array.prototype.sort`
+- 时间复杂度：$O(N \log N)$，其中 N 是数组长度
+- 空间复杂度：$O(\log N)$，排序所需栈空间
+
+算法思路：
+
+- 调用 `Array.prototype.sort`，比较函数为 `fn(a) - fn(b)`，按 fn 返回值升序排序

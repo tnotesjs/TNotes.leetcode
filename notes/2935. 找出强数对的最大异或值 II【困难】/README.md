@@ -63,13 +63,21 @@
 - `1 <= nums.length <= 5 * 10^4`
 - `1 <= nums[i] <= 2^20 - 1`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 排序 + 0-1 Trie
 
 ::: code-group
 
 <<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.c [c]
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n \log n + n \cdot \log C)$，其中 $C = 2^{20}$ 是数组最大值
+- 空间复杂度：$O(n \cdot \log C)$，Trie 节点数
+
+算法思路：
+
+- 强数对条件 $|x - y| \leq \min(x, y)$ 等价于排序后 $y \leq 2x$
+- 排序后用滑动窗口维护满足 $y \leq 2x$ 的范围
+- 使用支持插入和删除的 0-1 Trie，对每个右端点贪心查询最大异或值

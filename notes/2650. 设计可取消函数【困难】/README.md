@@ -148,7 +148,7 @@ cancelledAt = null
 - `cancelledAt == null or 0 <= cancelledAt <= 1000`
 - `generatorFunction` 返回一个生成器对象
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 生成器驱动 + 取消标记
 
 ::: code-group
 
@@ -156,5 +156,12 @@ cancelledAt = null
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，其中 n 是 yield 的次数
+- 空间复杂度：$O(1)$，只使用常数额外空间
+
+算法思路：
+
+- 用 `step` 函数驱动生成器的执行：调用 `generator.next(val)` 或 `generator.throw(err)`
+- 每个 yield 的 Promise resolve 后，检查 `cancelled` 标记
+- 如果已取消，向生成器 throw `"Cancelled"`；否则传入 resolve 的值继续执行
+- 生成器 done 时 resolve 最终值，未捕获的异常则 reject

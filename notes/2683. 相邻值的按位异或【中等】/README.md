@@ -63,13 +63,18 @@ derived[1] = original[1] ⊕ original[0] = 1
 - `1 <= n <= 10^5`
 - `derived` 中的值不是 0 就是 1。
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 异或性质
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(N)$，遍历数组一次
+- 空间复杂度：$O(1)$，只用了常数额外空间
+
+算法思路：
+
+- derived[i] = original[i] ⊕ original[i+1]，所有 derived 异或后每个 original 元素恰好出现两次
+- 因此，当且仅当 derived 所有元素异或为 0 时，存在合法的 original 数组

@@ -70,13 +70,27 @@
 - `1 <= n == maxHeights <= 10^5`
 - `1 <= maxHeights[i] <= 10^9`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 单调栈
 
 ::: code-group
 
 <<< ./solutions/1/1.js [js]
 
+<<< ./solutions/1/1.c [c]
+
+<<< ./solutions/1/1.py [py]
+
 :::
+
+- 时间复杂度：$O(n)$，每个元素最多入栈出栈各一次
+- 空间复杂度：$O(n)$，单调栈和辅助数组的空间
+
+算法思路：
+
+- 用单调栈分别计算 $left[i]$（以 $i$ 为峰值，左侧含 $i$ 的最大高度和）和 $right[i]$（右侧含 $i$ 的最大高度和）
+- 对于 $left[i]$：维护单调递增栈，若栈为空则 $left[i] = maxHeights[i] \times (i+1)$，否则 $left[i] = left[j] + maxHeights[i] \times (i-j)$，其中 $j$ 为栈顶
+- $right[i]$ 同理从右向左计算
+- 答案为 $\max(left[i] + right[i] - maxHeights[i])$
 
 - 时间复杂度：$O(1)$
 - 空间复杂度：$O(1)$

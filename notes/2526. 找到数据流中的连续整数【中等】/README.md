@@ -47,13 +47,19 @@ dataStream.consec(3); // 最后 k 个整数分别是 [4,4,3]。
 - `1 <= k <= 10^5`
 - 至多调用 `consec` 次数为 `10^5` 次。
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 计数器
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：每次 `consec` 调用 $O(1)$
+- 空间复杂度：$O(1)$，只使用常数额外空间
+
+算法思路：
+
+- 维护一个计数器 `count`，记录当前连续等于 `value` 的整数个数
+- 当 `num === value` 时 `count++`，否则重置为 0
+- 返回 `count >= k`

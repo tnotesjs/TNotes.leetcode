@@ -51,38 +51,17 @@
 
 你可以在 `O(1)` 时间复杂度内解决这个问题吗？
 
-## 2. 🎯 s.1
+## 2. 🎯 s.1 - Object.keys
 
-```javascript
-/**
- * @param {Object|Array} obj
- * @return {boolean}
- */
-var isEmpty = function (obj) {
-  return Object.keys(obj).length === 0
-}
-```
+::: code-group
 
-`Object.keys(obj)` 这个操作是 `O n`
+<<< ./solutions/1/1.js [js]
 
-题目描述：“你可以在 O(1) 时间复杂度内解决这个问题吗？”
+:::
 
-答：不能。数组可以，对象不行。
+- 时间复杂度：$O(N)$，其中 N 是对象的键数量
+- 空间复杂度：$O(N)$
 
-`if (Array.isArray(obj)) return obj.length === 0`
+算法思路：
 
----
-
-`JSON.stringify(obj) === "{}" || JSON.stringify(obj) === "[]"`、`JSON.stringify(obj).length === 2`
-
-在 `JSON.stringify` 方法中，它需要遍历整个对象或数组以将其转换为 JSON 字符串。因此，这种写法的复杂度也是 `O n`，其中 n 是对象或数组中的元素或属性的数量。
-
-从官方测试用例的执行结果来分析，`Object.keys` 这种解法的效果要比 `JSON.stringify` 好一些。应该是 JS 引擎内部对 `Object.keys` 等相关 API 做了优化处理，复杂度也许到不了 `O n`，且比字符串处理的效果略好。
-
-JSON.stringify
-
-![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-26-22-41-48.png)
-
-Object.keys
-
-![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-26-22-42-11.png)
+- 通过 `Object.keys(obj).length === 0` 判断对象或数组是否为空

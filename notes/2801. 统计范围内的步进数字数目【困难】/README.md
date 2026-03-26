@@ -56,13 +56,20 @@
 - `low` 和 `high` 只包含数字。
 - `low` 和 `high` 都不含前导 0。
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 数位 DP
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(L \times 10 \times 2 \times 2)$，其中 L 为数字位数（最大 100）
+- 空间复杂度：$O(L \times 10)$，记忆化缓存
+
+算法思路：
+
+- 经典数位 DP，计算 $[1, \text{high}]$ 和 $[1, \text{low}-1]$ 中步进数字的数量，相减得结果
+- 状态：当前位 pos、上一位数字 last、是否受上界约束 tight、是否已开始填数 started
+- 转移：枚举当前位填入的数字 d，若已开始填数则要求 $|d - \text{last}| = 1$
+- 对 low 做字符串减 1 操作以简化边界处理

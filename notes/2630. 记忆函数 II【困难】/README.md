@@ -72,39 +72,19 @@ fn = function (a, b) { return ({...a, ...b}); }
 - `0 <= inputs.flat().length <= 10^5`
 - `inputs[i][j] != NaN`
 
-## 2. 🎯 s.双哈希表
+## 2. 🎯 s.1 - 双哈希表
 
-```ts
-type Fn = (...params: any) => any
+::: code-group
 
-function memoize(fn: Fn): Fn {
-  const idxMap: Map<string, number> = new Map()
-  const cache: Map<string, any> = new Map()
+<<< ./solutions/1/1.js [js]
 
-  const getIdx = (obj: any): number => {
-    if (!idxMap.has(obj)) {
-      idxMap.set(obj, idxMap.size)
-    }
-    return idxMap.get(obj)!
-  }
+:::
 
-  return function (...params: any) {
-    const key = params.map(getIdx).join(',')
-    if (!cache.has(key)) {
-      cache.set(key, fn(...params))
-    }
-    return cache.get(key)!
-  }
-}
+- 时间复杂度：$O(n)$，其中 n 是参数个数，每次调用需要 $O(n)$ 构建 key
+- 空间复杂度：$O(m \cdot n)$，其中 m 是不同调用次数，n 是参数个数
 
-/**
- * let callCount = 0;
- * const memoizedFn = memoize(function (a, b) {
- *   callCount += 1;
- *   return a + b;
- * })
- * memoizedFn(2, 3) // 5
- * memoizedFn(2, 3) // 5
- * console.log(callCount) // 1
- */
-```
+算法思路：
+
+- 用 `idxMap`（Map）为每个参数值分配唯一整数 ID（基于 `===` 引用相等）
+- 将参数列表映射为 ID 序列再拼接成字符串作为缓存 key
+- 用 `cache`（Map）存储已计算的结果，相同 key 直接返回缓存值

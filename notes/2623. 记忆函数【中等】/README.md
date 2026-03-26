@@ -86,93 +86,18 @@ fib(5) = 8 // "call"
 - `actions[i]` 为 "call" 和 "getCallCount" 中的一个
 - `fnName` 为 "sum", "factorial" 和 "fib" 中的一个
 
-## 2. 🎯 s.1 - 双哈希表
+## 2. 🎯 s.1 - 哈希表
 
-如果使用上述的单哈希表 cache 来缓存函数的返回值，当参数是两个对象时，例如 `[{}, {}]`，`[{}, {}]`，`[{}, {}]`，则 `[{}, {}]` 和 `[{}, {}]` 的索引值是相同的，导致缓存命中。
+::: code-group
 
-- 示例
+<<< ./solutions/1/1.js [js]
 
-```txt
-输入：
-getInputs = () => [[{},{}],[{},{}],[{},{}]]
-fn = function (a, b) { return a + b; }
-输出：[{"val":{},"calls":1},{"val":{},"calls":2},{"val":{},"calls":3}]
-解释：
-将两个空对象合并总是会得到一个空对象。尽管看起来应该缓存命中并只调用一次 fn()，但是这些空对象彼此之间都不是 === 相等的。
-```
+:::
 
-> 这是来自【2630. 记忆函数 II】的示例 2。【solutions - 哈希表】无法满足这个示例的要求。而双哈希表的解决，可以同时满足【2623. 记忆函数】和【2630. 记忆函数 II】两道题。根本原因在于内部单独维护了一个 idxMap 用来映射每一个参数的索引值。
+- 时间复杂度：$O(1)$，每次调用的哈希查找和缓存操作为常数时间
+- 空间复杂度：$O(N)$，其中 N 是不同参数组合的数量
 
-```ts
-type Fn = (...params: any) => any
+算法思路：
 
-function memoize(fn: Fn): Fn {
-  const idxMap: Map<string, number> = new Map()
-  const cache: Map<string, any> = new Map()
-
-  const getIdx = (obj: any): number => {
-    if (!idxMap.has(obj)) {
-      idxMap.set(obj, idxMap.size)
-    }
-    return idxMap.get(obj)!
-  }
-
-  return function (...params: any) {
-    const key = params.map(getIdx).join(',')
-    if (!cache.has(key)) {
-      cache.set(key, fn(...params))
-    }
-    return cache.get(key)!
-  }
-}
-
-/**
- * let callCount = 0;
- * const memoizedFn = memoize(function (a, b) {
- *   callCount += 1;
- *   return a + b;
- * })
- * memoizedFn(2, 3) // 5
- * memoizedFn(2, 3) // 5
- * console.log(callCount) // 1
- */
-```
-
-- 笔记：将数字数组直接作为 key
-
-```js
-const arr = [1, 2]
-const cache = {}
-cache[arr] = 3
-
-console.log(arr in cache) // true
-
-console.log(JSON.stringify(arr)) // [1,2]
-
-console.log(cache[arr]) // 3
-console.log(cache['[1,2]']) // undefined
-console.log(cache[JSON.stringify(arr)]) // undefined
-
-console.log(cache) // { '1,2': 3 }
-
-console.log(arr.join(',')) // 1,2
-console.log(cache['1,2']) // 3
-console.log(cache[arr.join(',')]) // 3
-```
-
-## 3. 🎯 s.哈希表
-
-```js
-function memoize(fn) {
-  const cache = {}
-
-  return function (...args) {
-    if (args in cache) {
-      return cache[args]
-    }
-    const result = fn(...args)
-    cache[args] = result
-    return result
-  }
-}
-```
+- 使用 Map 缓存函数调用结果，键为参数用逗号拼接的字符串
+- 调用时先检查缓存是否命中，命中则直接返回缓存值，否则执行原函数并缓存结果

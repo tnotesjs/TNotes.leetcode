@@ -60,32 +60,19 @@
 
 - 这道题和 2620 类似，都是考察闭包，只不过这个题目做了一些扩展。可以在衍生作用域的时候多维护一个变量来解决本题。
 
-## 3. 🎯 s.1
+## 3. 🎯 s.1 - 闭包
 
-```javascript
-/**
- * @param {integer} init
- * @return { increment: Function, decrement: Function, reset: Function }
- */
-var createCounter = function (init) {
-  let changedInit = init
-  return {
-    increment() {
-      return ++changedInit
-    },
-    reset() {
-      return (changedInit = init)
-    },
-    decrement() {
-      return --changedInit
-    },
-  }
-}
+::: code-group
 
-/**
- * const counter = createCounter(5)
- * counter.increment(); // 6
- * counter.reset(); // 5
- * counter.decrement(); // 4
- */
-```
+<<< ./solutions/1/1.js [js]
+
+:::
+
+- 时间复杂度：$O(1)$，每次操作均为常数时间
+- 空间复杂度：$O(1)$，只用了常数额外空间
+
+算法思路：
+
+- 利用闭包维护一个变量 changedInit，记录当前计数值
+- increment/decrement 直接修改 changedInit
+- reset 将 changedInit 重置为初始值 init

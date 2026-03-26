@@ -108,121 +108,19 @@ arr.length = 0
 arr // []
 ```
 
-## 3. 🎯 s.1
+## 3. 🎯 s.1 - 递归收集参数
 
-```javascript
-/**
- * @param {Function} fn
- * @return {Function}
- */
-var curry = function (fn) {
-  const receivedArgs = []
-  return function curried(...args) {
-    receivedArgs.push(...args)
-    if (receivedArgs.length >= fn.length) return fn(...receivedArgs)
-    else return curried
-  }
-}
+::: code-group
 
-/**
- * function sum(a, b) { return a + b; }
- * const csum = curry(sum);
- * csum(1)(2) // 3
- */
-```
+<<< ./solutions/1/1.js [js]
 
-实现逻辑：
+:::
 
-通过闭包来维护一个 `receivedArgs` 变量，所有传入的参数都 push 到这个数组中，直到接收的参数数量 ≥ 函数 fn 的形参数量 `fn.length` 为止，调用 fn 函数并将结果返回。
+- 时间复杂度：$O(n)$，其中 n 是原函数的参数个数
+- 空间复杂度：$O(n)$，闭包中累积存储参数
 
-在接收的参数数量不够的情况下，直接将 `curried` 返回，继续收集参数。
+算法思路：
 
----
-
-分析上述程序存在的问题
-
-在 `2024.06.16 22:32` 这个时间点，官方提供的测试用例都是可以顺利通过的。
-
-![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-26-21-57-15.png)
-
-但是，实际上这种写法是存在一些问题的，问题就在于没有重置 `receivedArgs` 数组。可以看看以下测试用例。
-
-```javascript
-var curry = function (fn) {
-  const receivedArgs = []
-  return function curried(...args) {
-    receivedArgs.push(...args)
-    if (receivedArgs.length >= fn.length) return fn(...receivedArgs)
-    else return curried
-  }
-}
-
-function sum1(a, b, c, d, e) {
-  return a + b + c + d + e
-}
-
-const sum2 = curry(sum1)
-console.log(sum2(1)(2)(3)(4, 5)) // 15 ✅
-console.log(sum2(1)(2)(3, 4, 5)) // 15 ❌
-console.log(sum2(1)(2, 3, 4, 5)) // 15 ❌
-
-// 只有第一次执行 sum2 时，才能确保正确输出。
-// 后续调用 sum2 就会出问题。
-```
-
-![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-26-21-57-36.png)
-
-问题在于首次调用之后，`receivedArgs` 数组中记录的上一次调用所需的参数并没有被清空，清楚问题之后，解决起来就很简单了。
-
-```javascript
-/**
- * @param {Function} fn
- * @return {Function}
- */
-var curry = function (fn) {
-  const receivedArgs = []
-  return function curried(...args) {
-    receivedArgs.push(...args)
-    if (receivedArgs.length >= fn.length) {
-      const res = fn(...receivedArgs) // 缓存结果
-      receivedArgs.length = 0 // 清空之前调用的参数
-      return res // 返回结果
-    } else return curried
-  }
-}
-
-/**
- * function sum(a, b) { return a + b; }
- * const csum = curry(sum);
- * csum(1)(2) // 3
- */
-```
-
-处理过之后，再提交试试。
-
-![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-26-21-57-46.png)
-
-## 4. 🎯 s.2
-
-```javascript
-/**
- * @param {Function} fn
- * @return {Function}
- */
-var curry = function (fn, ...rest1) {
-  return (...rest2) => {
-    const receivedArgs = rest1.concat(rest2)
-    return receivedArgs.length >= fn.length
-      ? fn(...receivedArgs)
-      : curry(fn, ...receivedArgs)
-  }
-}
-
-/**
- * function sum(a, b) { return a + b; }
- * const csum = curry(sum);
- * csum(1)(2) // 3
- */
-```
-
-这种做法通过递归 curry 来收集剩余参数，如果参数数量不够，就返回 `curry(fn, ...receivedArgs)`。从写法上来看，这种写法显然会更加简洁一些。
+- 返回 `curried` 函数，每次调用时检查累积参数是否 >= `fn.length`
+- 参数够了直接调用 `fn`，不够则返回新函数继续收集
+- 利用 `(...args, ...nextArgs)` 展开合并参数，避免共享闭包数组的复用 bug

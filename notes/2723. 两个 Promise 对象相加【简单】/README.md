@@ -50,24 +50,17 @@
 
 - `promise1 和 promise2` 都是被解析为一个数字的 promise 对象
 
-## 2. 🎯 s.1
+## 2. 🎯 s.1 - async/await
 
-```javascript
-/**
- * @param {Promise} promise1
- * @param {Promise} promise2
- * @return {Promise}
- */
-var addTwoPromises = async function (promise1, promise2) {
-  return (await promise1) + (await promise2)
-}
+::: code-group
 
-/**
- * addTwoPromises(Promise.resolve(2), Promise.resolve(2))
- *   .then(console.log); // 4
- */
-```
+<<< ./solutions/1/1.js [js]
 
-## 3. 🫧 评价
+:::
 
-- 考察对 Promise 的理解。
+- 时间复杂度：$O(1)$
+- 空间复杂度：$O(1)$
+
+算法思路：
+
+- 使用 `async/await` 分别等待两个 Promise 解析，返回两个结果之和

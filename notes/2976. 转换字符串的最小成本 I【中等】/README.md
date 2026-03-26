@@ -68,13 +68,19 @@
 - `1 <= cost[i] <= 10^6`
 - `original[i] != changed[i]`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - Floyd-Warshall
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(|\Sigma|^3 + n + m)$，其中 $|\Sigma| = 26$ 为字符集大小，$n$ 是字符串长度，$m$ 是转换规则数
+- 空间复杂度：$O(|\Sigma|^2)$，距离矩阵
+
+算法思路：
+
+- 建立 $26 \times 26$ 的距离矩阵，初始化为转换规则的最小代价
+- 用 Floyd-Warshall 计算任意两字符间的最短转换代价
+- 逐位比较 `source` 和 `target`，累加每个位置的转换代价，若某位无法转换则返回 -1

@@ -65,13 +65,22 @@ nums[3] - nums[0] >= 3 - 0。
 - `1 <= nums.length <= 10^5`
 - `-10^9 <= nums[i] <= 10^9`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 线段树优化 DP
 
 ::: code-group
 
 <<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.c [c]
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n \log n)$，坐标压缩排序 + 线段树查询更新
+- 空间复杂度：$O(n)$，线段树和辅助数组
+
+算法思路：
+
+- 平衡条件 $nums[j] - nums[i] \geq j - i$ 等价于 $(nums[j] - j) \geq (nums[i] - i)$
+- 令 $b[i] = nums[i] - i$，问题转化为在 b 数组上选择非递减子序列使原数组元素和最大
+- $dp[i] = nums[i] + \max(0, \max\{dp[j] : j < i, b[j] \leq b[i]\})$
+- 通过坐标压缩 + 线段树维护前缀最大值，将查询和更新优化至 $O(\log n)$

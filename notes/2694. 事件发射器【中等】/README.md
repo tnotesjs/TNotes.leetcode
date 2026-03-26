@@ -26,13 +26,13 @@
 输入：
 
 ```js
-;(actions = ['EventEmitter', 'emit', 'subscribe', 'subscribe', 'emit']),
+;((actions = ['EventEmitter', 'emit', 'subscribe', 'subscribe', 'emit']),
   (values = [
     [],
     ['firstEvent', 'function cb1() { return 5; }'],
     ['firstEvent', 'function cb1() { return 5; }'],
     ['firstEvent'],
-  ])
+  ]))
 ```
 
 输出：`[[],["emitted",[]],["subscribed"],["subscribed"],["emitted",[5,6]]]`
@@ -58,13 +58,13 @@ emitter.emit('firstEvent') // [5, 6], 返回 cb1 和 cb2 的输出
 输入：
 
 ```js
-;(actions = ['EventEmitter', 'subscribe', 'emit', 'emit']),
+;((actions = ['EventEmitter', 'subscribe', 'emit', 'emit']),
   (values = [
     [],
     ['firstEvent', "function cb1(...args) { return args.join(','); }"],
     ['firstEvent', [1, 2, 3]],
     ['firstEvent', [3, 4, 6]],
-  ])
+  ]))
 ```
 
 输出：`[[],["subscribed"],["emitted",["1,2,3"]],["emitted",["3,4,6"]]]`
@@ -85,14 +85,14 @@ emitter.emit("firstEvent", [3, 4, 6]); // ["3,4,6"]
 输入：
 
 ```js
-;(actions = ['EventEmitter', 'subscribe', 'emit', 'unsubscribe', 'emit']),
+;((actions = ['EventEmitter', 'subscribe', 'emit', 'unsubscribe', 'emit']),
   (values = [
     [],
     ['firstEvent', "(...args) => args.join(',')"],
     ['firstEvent', [1, 2, 3]],
     [0],
     ['firstEvent', [4, 5, 6]],
-  ])
+  ]))
 ```
 
 输出：`[[],["subscribed"],["emitted",["1,2,3"]],["unsubscribed",0],["emitted",[]]]`
@@ -114,14 +114,14 @@ emitter.emit('firstEvent', [4, 5, 6]) // [], 没有订阅者
 输入：
 
 ```js
-;(actions = ['EventEmitter', 'subscribe', 'subscribe', 'unsubscribe', 'emit']),
+;((actions = ['EventEmitter', 'subscribe', 'subscribe', 'unsubscribe', 'emit']),
   (values = [
     [],
     ['firstEvent', 'x => x + 1'],
     ['firstEvent', 'x => x + 2'],
     [0],
     ['firstEvent', [5]],
-  ])
+  ]))
 ```
 
 输出：`[[],["subscribed"],["emitted",["1,2,3"]],["unsubscribed",0],["emitted",[7]]]`
@@ -152,54 +152,19 @@ emitter.emit('firstEvent', [5]) // [7]
 
 - 模拟 NodeJS 中的 EventEmitter 模块的效果，仿写一个 EventEmitter 类。
 
-## 3. 🎯 s.1
+## 3. 🎯 s.1 - 哈希表
 
-```javascript
-class EventEmitter {
-  constructor() {
-    this.handlers = []
-  }
+::: code-group
 
-  /**
-   * @param {string} eventName
-   * @param {Function} callback
-   * @return {Object}
-   */
-  subscribe(eventName, callback) {
-    const eventId = Math.random().toString().slice(2)
-    this.handlers.push({ eventName, callback, eventId })
+<<< ./solutions/1/1.js [js]
 
-    return {
-      unsubscribe: () => {
-        this.handlers = this.handlers.filter((h) => h.eventId !== eventId)
-      },
-    }
-  }
+:::
 
-  /**
-   * @param {string} eventName
-   * @param {Array} args
-   * @return {Array}
-   */
-  emit(eventName, args = []) {
-    const ans = []
-    const handlers = this.handlers.filter((h) => h.eventName === eventName)
-    const len = handlers.length
-    if (len === 0) return ans
-    for (let i = 0; i < len; i++) ans.push(handlers[i].callback(...args))
-    return ans
-  }
-}
+- 时间复杂度：subscribe $O(1)$，emit $O(K)$ 其中 K 是该事件的回调数
+- 空间复杂度：$O(N)$，其中 N 是总订阅数
 
-/**
- * const emitter = new EventEmitter();
- *
- * // Subscribe to the onClick event with onClickCallback
- * function onClickCallback() { return 99 }
- * const sub = emitter.subscribe('onClick', onClickCallback);
- *
- * emitter.emit('onClick'); // [99]
- * sub.unsubscribe(); // undefined
- * emitter.emit('onClick'); // []
- */
-```
+算法思路：
+
+- 维护一个 handlers 数组存储所有订阅信息（事件名、回调、唯一 ID）
+- subscribe 添加一条记录，返回含 unsubscribe 方法的对象
+- emit 筛选对应事件名的回调并依次执行，收集返回值

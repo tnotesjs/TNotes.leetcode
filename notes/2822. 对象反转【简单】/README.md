@@ -45,55 +45,18 @@
 - `typeof obj[key] === "string"`
 - `2 <= JSON.stringify(obj).length <= 105`
 
-## 2. 🎯 s.1
+## 2. 🎯 s.1 - 遍历
 
-```javascript
-/**
- * @param {Object|Array} obj
- * @return {Object}
- */
-var invertObject = function (obj) {
-  const ans = {}
-  const keysAndVals = Object.entries(obj)
-  for (let i = 0; i < keysAndVals.length; i++) {
-    const [k, v] = keysAndVals[i]
-    if (Object.hasOwn(ans, v)) {
-      // ans[v] = Array.isArray(ans[v]) ? [...ans[v], k] : [ans[v], k]
-      if (Array.isArray(ans[v])) ans[v].push(k)
-      else ans[v] = [ans[v], k]
-    } else {
-      ans[v] = k
-    }
-  }
-  return ans
-}
-```
+::: code-group
 
-`ans[v] = Array.isArray(ans[v]) ? [...ans[v], k] : [ans[v], k]`
+<<< ./solutions/1/1.js [js]
 
-题目描述中提到：“如果在 `obj` 中有多个具有相同值的键，那么 `invertedObj` 应该将该值映射到一个包含所有相应键的数组中”
+:::
 
-因此在对调 key、val 时，还需要做一个校验。如果 `ans[v]` 的值已经是数组了，那么将 k 插入到数组结尾，否则新建一个数组。
+- 时间复杂度：$O(N)$，其中 N 是 obj 的键值对数量
+- 空间复杂度：$O(N)$，存储结果对象
 
-```typescript
-if (Array.isArray(ans[v])) ans[v].push(k)
-else ans[v] = [ans[v], k]
-```
+算法思路：
 
-若数组已经存在了，其实没必要每次都开辟一块新空间来创建一个新数组 `[...ans[v], k]`。这种写法可以改为 `push` 操作，这样能更有效地使用之前已经创建好的数组的空间。
-
-使用 `Array.prototype.reduce` 方法还能进一步简化代码的书写。
-
-```javascript
-/**
- * @param {Object|Array} obj
- * @return {Object}
- */
-var invertObject = function (obj) {
-  return Object.entries(obj).reduce((ans, [k, v]) => {
-    if (!Object.hasOwn(ans, v)) ans[v] = k
-    else Array.isArray(ans[v]) ? ans[v].push(k) : (ans[v] = [ans[v], k])
-    return ans
-  }, {})
-}
-```
+- 遍历 obj 的所有键值对，交换 key 和 value
+- 如果反转后的 key 已存在于结果中，将其转为数组存储所有对应原始 key

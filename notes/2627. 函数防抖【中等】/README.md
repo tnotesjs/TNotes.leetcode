@@ -100,41 +100,19 @@ calls = [
 - `0 <= calls[i].t <= 1000`
 - `0 <= calls[i].inputs.length <= 10`
 
-## 2. 🎯 s.1
+## 2. 🎯 s.1 - 闭包 + setTimeout
 
-```javascript
-/**
- * @param {Function} fn
- * @param {number} t milliseconds
- * @return {Function}
- */
-var debounce = function (fn, t) {
-  let timer
-  return function (...args) {
-    if (timer) clearTimeout(timer)
-    timer = setTimeout((_) => fn(...args), t)
-  }
-}
+::: code-group
 
-/**
- * const log = debounce(console.log, 100);
- * log('Hello'); // cancelled
- * log('Hello'); // cancelled
- * log('Hello'); // Logged at t=100ms
- */
-```
+<<< ./solutions/1/1.js [js]
 
-- 逻辑分析
-  - 每次 `debounce` 返回的函数被调用时，都做以下两件事儿：
-  1. `clearTimeout(timer)` 清空之前的延迟触发器，无论有没有都清空。（这里的 if 判断逻辑没有多大意义，有没有都行）
-  2. `timer = setTimeout(_ => fn(...args), t)` 绑定新的触发器，延迟时间为 `t`。
+:::
 
-## 3. 🔗 引用
+- 时间复杂度：$O(1)$，每次调用只做常数操作
+- 空间复杂度：$O(1)$，闭包中仅保存一个定时器引用
 
-- [Lodash 👉 `_.debounce(func, [wait=0], [options={}])`][1]
-- [github Lodash，debounce 实现源码][2]
-- [0037. 防抖、节流][3]
+算法思路：
 
-[1]: https://lodash.com/docs/4.17.15#debounce
-[2]: https://github.com/lodash/lodash/blob/4.17.15/lodash.js#L10304
-[3]: https://github.com/Tdahuyou/javascript
+- 每次调用时先 `clearTimeout` 清除上一次的定时器
+- 然后重新 `setTimeout` 设置新的定时器，延迟 `t` 毫秒后执行 `fn`
+- 如果在 `t` 毫秒内再次调用，之前的定时器被取消，只有最后一次调用会真正执行

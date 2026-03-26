@@ -61,13 +61,22 @@
 - `0 <= edges[i][0], edges[i][1] < n`
 - `0 <= k <= 10^4`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 树形 DP
 
 ::: code-group
 
 <<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.c [c]
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n \log C)$，其中 C 是 coins 数组的最大值，$\log C \leq 14$
+- 空间复杂度：$O(n \log C)$，记忆化数组的大小
+
+算法思路：
+
+- 对于每个节点有两种收集方式：方式一得 $coins[i] - k$，方式二得 $\lfloor coins[i] / 2 \rfloor$ 并使子树金币减半
+- 用 j 记录祖先节点累计执行减半操作的次数，当前节点实际金币为 $coins[i] \gg j$
+- 由于 $coins[i] \leq 10^4$，j 最多到 14 时金币变为 0，因此状态数有限
+- 迭代式后序遍历，自底向上计算 $dp[node][j] = \max(opt1, opt2)$

@@ -56,13 +56,24 @@
 - `1 <= nums[i] <= 10^5`
 - `1 <= target <= 10^9`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 滑动窗口 + 取模
 
 ::: code-group
 
 <<< ./solutions/1/1.js [js]
 
+<<< ./solutions/1/1.c [c]
+
+<<< ./solutions/1/1.py [py]
+
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，在双倍数组上进行一次滑动窗口
+- 空间复杂度：$O(1)$，只使用常数额外空间
+
+算法思路：
+
+- 计算数组总和 $totalSum$，将 $target$ 分解为 $fullCycles \times totalSum + remainder$
+- 若 $remainder = 0$，直接返回 $fullCycles \times n$
+- 否则在逻辑上的双倍数组 $nums + nums$ 上使用滑动窗口，找和恰好为 $remainder$ 的最短子数组
+- 最终答案为 $fullCycles \times n + minLen$

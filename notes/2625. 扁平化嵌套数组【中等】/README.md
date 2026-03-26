@@ -74,72 +74,19 @@ n = 2
 - `-1000 <= each number <= 1000`
 - `0 <= n <= 1000`
 
-## 2. 🎯 s.1 - 暴力解法
+## 2. 🎯 s.1 - 递归
 
-```js
-/**
- * @param {Array} arr
- * @param {number} depth
- * @return {Array}
- */
-var flat = function (arr, depth) {
-  if (depth === 0) return arr
+::: code-group
 
-  while (depth > 0) {
-    let nextArr = []
+<<< ./solutions/1/1.js [js]
 
-    for (let i = 0; i < arr.length; i++) {
-      if (Array.isArray(arr[i])) {
-        nextArr.push(...arr[i])
-      } else {
-        nextArr.push(arr[i])
-      }
-    }
+:::
 
-    arr = nextArr
-    depth--
-  }
+- 时间复杂度：$O(N)$，其中 N 是数组中所有元素的总数
+- 空间复杂度：$O(N)$，递归栈深度加上结果数组的空间
 
-  return arr
-}
-```
+算法思路：
 
-- 每次都是从头开始找，然后新建一个临时的数组 nextArr 来存储最新展开的数据。空间方面问题不太大，时间方面的问题很明显，随着展开的层次越多，遍历的次数也将会不断递增。
-- 这种解法虽然通过了，但是距离超时已经不远了，很可能再补充一些测试示例之后，这种法子就没法用了。
-- ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-26-20-01-36.png)
-
-## 3. 🎯 s.2 - 递归
-
-```js
-/**
- * @param {Array} arr
- * @param {number} depth
- * @return {Array}
- */
-var flat = function (arr, depth) {
-  if (depth === 0) return arr
-
-  const result = []
-
-  function flatten(array, currentDepth) {
-    for (const item of array) {
-      if (Array.isArray(item) && currentDepth > 0) {
-        flatten(item, currentDepth - 1)
-      } else {
-        result.push(item)
-      }
-    }
-  }
-
-  flatten(arr, depth)
-  return result
-}
-```
-
-- ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-26-20-02-07.png)
-
-## 4. 🔗 引用
-
-- [MDN Array.flat()][1]
-
-[1]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat
+- 递归地遍历数组中的每个元素
+- 如果当前元素是数组且剩余展开深度 > 0，则递归展开该子数组
+- 否则直接将元素加入结果数组

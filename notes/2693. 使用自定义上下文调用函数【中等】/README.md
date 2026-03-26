@@ -64,7 +64,7 @@ args = [{"item": "burger"}, 10, 1,1]
 - `1 <= args.length <= 100`
 - `2 <= JSON.stringify(args[0]).length <= 10^5`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - Symbol + 临时属性
 
 ::: code-group
 
@@ -74,3 +74,9 @@ args = [{"item": "burger"}, 10, 1,1]
 
 - 时间复杂度：$O(1)$
 - 空间复杂度：$O(1)$
+
+算法思路：
+
+- 用 Symbol 创建唯一键，将函数作为 context 的临时属性
+- 通过 context[key](...args) 调用，this 自动绑定为 context
+- 调用后删除临时属性，避免污染

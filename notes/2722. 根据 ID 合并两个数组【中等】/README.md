@@ -101,35 +101,19 @@ arr2 = [{ id: 1, b: { c: 84 }, v: [1, 3] }]
 - `2 <= JSON.stringify(arr1).length <= 10^6`
 - `2 <= JSON.stringify(arr2).length <= 10^6`
 
-## 2. 🎯 s.1
+## 2. 🎯 s.1 - 哈希表
 
-```javascript
-/**
- * @param {Array} arr1
- * @param {Array} arr2
- * @return {Array}
- */
-var join = function (arr1, arr2) {
-  const ans = [...arr1] // 防止修改 arr1
+::: code-group
 
-  // 初始化 map
-  const map = new Map() // 存储 id -> index 的映射
-  for (let i = 0; i < ans.length; i++) map.set(ans[i].id, i)
+<<< ./solutions/1/1.js [js]
 
-  // 查 arr2
-  for (let i = 0; i < arr2.length; i++) {
-    const item = arr2[i]
-    if (!map.has(item.id)) {
-      // id 不存在
-      ans.push(item)
-      map.set(item.id, ans.length - 1)
-    } else {
-      // id 存在
-      const existedItem = ans[map.get(item.id)]
-      ans[map.get(item.id)] = { ...existedItem, ...item }
-    }
-  }
+:::
 
-  return ans.sort((a, b) => a.id - b.id) // 按照 id 升序排序
-}
-```
+- 时间复杂度：$O((M + N) \log(M + N))$，其中 M 和 N 分别是两个数组的长度
+- 空间复杂度：$O(M + N)$
+
+算法思路：
+
+- 用 Map 以 id 为键存储 arr1 的对象
+- 遍历 arr2，若 id 已存在则合并属性（arr2 覆盖 arr1），否则直接存入
+- 最后按 id 升序排序返回

@@ -84,41 +84,18 @@ timeDelays = [0, 0, 40, 50, 120, 200, 250]
 
 ## 2. 🎯 s.1 - 哈希表
 
-```ts
-class TimeLimitedCache {
-  #cache: Map<number, [value: number, expire: number]> = new Map()
+::: code-group
 
-  set(key: number, value: number, duration: number): boolean {
-    const isExist = this.#cache.has(key)
+<<< ./solutions/1/1.js [js]
 
-    if (!this.#isExpired(key)) {
-      this.#cache.set(key, [value, Date.now() + duration])
-    }
+:::
 
-    return isExist
-  }
+- 时间复杂度：$O(1)$，set/get/count 操作均为常数时间
+- 空间复杂度：$O(N)$，其中 N 是缓存中的键数量
 
-  get(key: number): number {
-    if (this.#isExpired(key)) return -1
-    const res = this.#cache.get(key)?.[0] ?? -1
-    return res
-  }
+算法思路：
 
-  count(): number {
-    const xs = Array.from(this.#cache).filter(([key]) => !this.#isExpired(key))
-    return xs.length
-  }
-
-  #isExpired = (key: number) =>
-    this.#cache.has(key) &&
-    (this.#cache.get(key)?.[1] ?? Number.NEGATIVE_INFINITY) < Date.now()
-}
-
-/**
- * Your TimeLimitedCache object will be instantiated and called as such:
- * var obj = new TimeLimitedCache()
- * obj.set(1, 42, 1000); // false
- * obj.get(1) // 42
- * obj.count() // 1
- */
-```
+- 使用 Map 存储每个键的值和对应的定时器
+- set 时若键已存在则清除旧定时器，创建新定时器在 duration 后自动删除该键
+- get 直接从 Map 中取值，不存在返回 -1
+- count 返回 Map 的大小（过期键已被定时器自动清理）

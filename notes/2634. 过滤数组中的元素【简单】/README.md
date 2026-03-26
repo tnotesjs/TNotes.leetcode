@@ -45,23 +45,18 @@
 - `0 <= arr.length <= 1000`
 - `-10^9 <= arr[i] <= 10^9`
 
-## 2. 🎯 s.1
+## 2. 🎯 s.1 - 遍历过滤
 
-```javascript
-var filter = function (arr, fn) {
-  const ans = []
-  for (let i = 0; i < arr.length; i++) {
-    const item = arr[i]
-    const res = fn(item, i)
-    if (res) ans.push(item)
-  }
-  return ans
-}
-```
+::: code-group
 
-- 时间复杂度：$O(n)$，就一个 `for` 循环。
-- 空间复杂度：$O(n)$，主要是结果数组 `ans` 占的空间。
+<<< ./solutions/1/1.js [js]
 
-理解回调：
+:::
 
-`fn` 是调用者传入的回调函数，我们需要注入的是每次遍历数组 `arr` 时，当前项的值 `item` 和索引 `index`。然后根据返回结果的真、假，判断是否加入到返回的数组中。
+- 时间复杂度：$O(n)$，遍历一次数组
+- 空间复杂度：$O(n)$，结果数组占的空间
+
+算法思路：
+
+- 遍历数组，对每个元素调用 `fn(item, i)`
+- 如果返回值为真值，则将该元素加入结果数组

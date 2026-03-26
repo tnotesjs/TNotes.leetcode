@@ -49,8 +49,19 @@ ms = 70
 - `10 <= ms <= 500`
 - `1 <= functions.length <= 10`
 
-## 2. 🎯 s.1
+## 2. 🎯 s.1 - Promise 包装 + setTimeout
 
-```
+::: code-group
 
-```
+<<< ./solutions/1/1.js [js]
+
+:::
+
+- 时间复杂度：$O(n)$，遍历函数数组
+- 空间复杂度：$O(n)$，创建新的函数数组
+
+算法思路：
+
+- 对每个原始函数 fn 生成一个包装函数
+- 包装函数返回一个新的 Promise，先调用 fn() 等待原始 Promise 解析
+- 原始 Promise 解析后，通过 `setTimeout` 延迟 ms 毫秒再 resolve 结果

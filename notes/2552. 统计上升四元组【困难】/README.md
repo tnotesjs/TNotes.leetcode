@@ -47,13 +47,23 @@
 - `1 <= nums[i] <= nums.length`
 - `nums` 中所有数字 互不相同，`nums` 是一个排列。
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 枚举 + 前缀计数
 
 ::: code-group
 
 <<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.c [c]
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n^2)$，其中 n 是数组长度
+- 空间复杂度：$O(n)$，辅助数组 f 的空间
+
+算法思路：
+
+- 需要统计满足 `i < j < k < l` 且 `nums[i] < nums[k] < nums[j] < nums[l]` 的四元组数
+- 定义 `f[j]` = 满足 `i < j < k` 且 `nums[i] < nums[k] < nums[j]` 的 (i, k) 对数
+- 从左到右枚举 k，维护 cntLess 表示 j 之前小于 `nums[k]` 的元素个数
+- 若 `nums[j] < nums[k]`：k 作为 l 角色，`ans += f[j]`；同时 `cntLess++`
+- 若 `nums[j] > nums[k]`：(j, k) 作为中间对，`f[j] += cntLess`

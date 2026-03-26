@@ -63,13 +63,19 @@
 - `queries[i] = [ai, bi]`
 - `0 <= ai, bi <= heights.length - 1`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 离线查询 + 单调栈
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O((N + Q) \log N)$，其中 N 是 heights 的长度，Q 是 queries 的长度
+- 空间复杂度：$O(N + Q)$，单调栈和待处理列表的空间
+
+算法思路：
+
+- 对每个查询 `[a, b]`（确保 `a ≤ b`），若 `a == b` 或 `heights[a] < heights[b]`，直接返回 b
+- 否则，将查询挂到下标 b 上，等待后续在更高建筑处处理
+- 从右到左维护一个高度递减的单调栈，对于每个挂在当前下标上的查询，在栈中二分查找第一个高度严格大于 `heights[a]` 的建筑

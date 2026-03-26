@@ -63,47 +63,22 @@ Explanation: 2 * 2 = 4, 且原数组 [1,3] 的长度为 2; 所以，输入是无
 - `1 <= rowsCount <= 250`
 - `1 <= colsCount <= 250`
 
-## 2. 🎯 s.1
+## 2. 🎯 s.1 - 模拟
 
-```ts
-interface Array<T> {
-  snail(rowsCount: number, colsCount: number): number[][]
-}
+::: code-group
 
-Array.prototype.snail = function (
-  rowsCount: number,
-  colsCount: number,
-): number[][] {
-  // 处理无效输入
-  if (rowsCount * colsCount !== this.length) {
-    return []
-  }
+<<< ./solutions/1/1.js [js]
 
-  // 二维数组初始化
-  const ans: number[][] = Array.from({ length: rowsCount }, () =>
-    Array(colsCount),
-  )
+:::
 
-  for (let i = 0, j = 1, r = 0, c = 0; i < this.length; i++) {
-    ans[r][c] = this[i]
+- 时间复杂度：$O(N)$，其中 N 是数组长度
+- 空间复杂度：$O(N)$，结果二维数组的空间
 
-    r += j // 偏移
+算法思路：
 
-    // 越界处理
-    if (r === rowsCount || r === -1) {
-      r -= j
-      j = -j
-      c++
-    }
-  }
-  return ans
-}
-
-/**
- * const arr = [1,2,3,4];
- * arr.snail(1,4); // [[1,2,3,4]]
- */
-```
+- 用方向变量 j 控制行的移动方向（+1 向下，-1 向上）
+- 遍历原数组，将每个元素填入 (r, c) 位置
+- 当行越界时反转方向并移到下一列，实现蛇形填充
 
 ## 3. 🔗 引用
 

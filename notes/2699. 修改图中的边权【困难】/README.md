@@ -70,13 +70,20 @@
 - `1 <= target <= 10^9`
 - 输入的图是连通图，且没有自环和重边。
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 两遍 Dijkstra
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(N \times E)$，其中 N 是节点数，E 是边数
+- 空间复杂度：$O(N + E)$，存储图和距离数组
+
+算法思路：
+
+- 第一遍 Dijkstra：从终点出发，仅用正权边，求各点到终点的最短距离 dDest[v]
+- 若 dDest[source] < target，说明已有更短路径，无解
+- 第二遍 Dijkstra：从起点出发，对每条可修改边设置权值为 max(1, target - dist[u] - dDest[v])
+- 若最终 dist[destination] ≠ target，无解；否则将未使用的可修改边设为大值

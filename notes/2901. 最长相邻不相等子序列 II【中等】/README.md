@@ -70,13 +70,19 @@
 - `words` 中的字符串 互不相同。
 - `words[i]` 只包含小写英文字母。
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 动态规划 + 汉明距离
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n^2 \cdot L)$，其中 n 是数组长度，L 是单词最大长度
+- 空间复杂度：$O(n)$，用于存储 dp 和 prev 数组
+
+算法思路：
+
+- 定义 `dp[i]` 表示以下标 i 结尾的最长合法子序列长度
+- 对于每对 (j, i)，若 `groups[i] != groups[j]` 且 `words[i]` 与 `words[j]` 等长且汉明距离为 1，则转移 `dp[i] = max(dp[i], dp[j] + 1)`
+- 通过 prev 数组记录路径，从 dp 最大值处回溯重建答案

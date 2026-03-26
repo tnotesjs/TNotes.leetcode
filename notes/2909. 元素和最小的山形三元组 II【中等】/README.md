@@ -59,13 +59,19 @@
 - `3 <= nums.length <= 10^5`
 - `1 <= nums[i] <= 10^8`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 前后缀最小值
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，其中 n 是数组长度
+- 空间复杂度：$O(n)$，存储后缀最小值数组
+
+算法思路：
+
+- 预处理后缀最小值数组 `rightMin[i]`，表示 `nums[i..n-1]` 的最小值
+- 从左到右遍历，维护前缀最小值 `leftMin`
+- 对每个山峰 j，若 `leftMin < nums[j]` 且 `rightMin[j+1] < nums[j]`，则更新答案

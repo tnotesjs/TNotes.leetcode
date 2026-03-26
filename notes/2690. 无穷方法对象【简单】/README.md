@@ -45,29 +45,18 @@
 
 - `0 <= method.length <= 1000`
 
-## 2. 🎯 s.1
+## 2. 🎯 s.1 - Proxy
 
-```javascript
-/**
- * @return {Object}
- */
-var createInfiniteObject = function () {
-  return new Proxy(
-    {},
-    {
-      get(target, prop) {
-        if (typeof prop === 'string') return () => prop
-      },
-    },
-  )
-}
+::: code-group
 
-/**
- * const obj = createInfiniteObject();
- * obj['abc123'](); // "abc123"
- */
-```
+<<< ./solutions/1/1.js [js]
 
-原理简述：
+:::
 
-返回一个 Proxy 代理，包装一层 get，每次访问某个属性的时候，都会被这个 get 拦截，然后我们在这个拦截器里面丢一个 `return () => prop` 函数回去，当函数被调用的时候，将 `prop` 给返回即可。
+- 时间复杂度：$O(1)$，每次方法调用为常数时间
+- 空间复杂度：$O(1)$，只创建了一个 Proxy 对象
+
+算法思路：
+
+- 返回一个 Proxy 代理对象，拦截所有属性访问
+- get 拦截器中返回一个函数，该函数返回属性名 prop

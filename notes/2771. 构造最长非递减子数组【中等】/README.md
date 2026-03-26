@@ -61,13 +61,19 @@ nums3 = [nums1[0], nums1[1]] => [1,1]
 - `1 <= nums1.length == nums2.length == n <= 10^5`
 - `1 <= nums1[i], nums2[i] <= 10^9`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 动态规划
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，遍历一次数组
 - 空间复杂度：$O(1)$
+
+算法思路：
+
+- 对每个位置 `i`，可以从 `nums1[i]` 或 `nums2[i]` 中选一个
+- `dp1` 表示以 `nums1[i]` 结尾的最长非递减子数组长度，`dp2` 表示以 `nums2[i]` 结尾
+- 转移时考虑上一个位置选了哪个数组，是否能接上当前值

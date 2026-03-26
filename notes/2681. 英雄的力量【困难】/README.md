@@ -50,13 +50,19 @@
 - `1 <= nums.length <= 10^5`
 - `1 <= nums[i] <= 10^9`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 排序 + 贡献法
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(N \log N)$，排序为瓶颈
+- 空间复杂度：$O(1)$，只用了常数额外空间
+
+算法思路：
+
+- 排序后，对于每个元素 nums[j] 作为子集的最大值，计算它对答案的贡献
+- 贡献 = nums[j]² × (prefix + nums[j])，其中 prefix 是之前元素的加权和
+- 递推关系：prefix(j+1) = 2 × prefix(j) + nums[j]，全程取模 $10^9 + 7$

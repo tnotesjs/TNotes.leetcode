@@ -40,13 +40,17 @@
 - `args` 是一个有效的 JSON 数组
 - `0 <= args.length <= 100`
 
-## 2. 🎯 s.1
+## 2. 🎯 s.1 - 直接返回
 
-```javascript
-var argumentsLength = function (...args) {
-  return args.length
-}
-```
+::: code-group
 
-- 评论区点个赞～
-  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-26-22-26-49.png)
+<<< ./solutions/1/1.js [js]
+
+:::
+
+- 时间复杂度：$O(1)$
+- 空间复杂度：$O(1)$
+
+算法思路：
+
+- 利用剩余参数 `...args` 收集所有传入的参数为数组，直接返回数组的 `length` 属性即可

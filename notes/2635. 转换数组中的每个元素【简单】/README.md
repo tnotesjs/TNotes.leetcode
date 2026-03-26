@@ -42,18 +42,18 @@
 - `-10^9 <= arr[i] <= 10^9`
 - `fn` 返回一个数
 
-## 2. 🎯 s.1
+## 2. 🎯 s.1 - 遍历映射
 
-```javascript
-var map = function (arr, fn) {
-  const ans = new Array(arr.length)
-  for (let i = 0; i < arr.length; i++) {
-    ans[i] = fn(arr[i], i)
-  }
-  return ans
-}
-```
+::: code-group
 
-## 3. 🫧 评价
+<<< ./solutions/1/1.js [js]
 
-- 本题的要求是实现数组原生 API `Array.map`。
+:::
+
+- 时间复杂度：$O(n)$，遍历一次数组
+- 空间复杂度：$O(n)$，结果数组的空间
+
+算法思路：
+
+- 遍历数组，对每个元素调用 `fn(arr[i], i)` 并将结果存入新数组的对应位置
+- 本质上就是实现数组原生 API `Array.map`

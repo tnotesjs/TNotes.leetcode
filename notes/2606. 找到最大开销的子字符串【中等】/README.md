@@ -56,13 +56,18 @@
 - `vals.length == chars.length`
 - `-1000 <= vals[i] <= 1000`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - Kadane 算法
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(N + |\Sigma|)$，其中 N 是字符串长度，$|\Sigma| = 26$
+- 空间复杂度：$O(|\Sigma|)$，存储每个字符的价值
+
+算法思路：
+
+- 先构建每个字符的价值映射，默认是字母序号，chars 中的用 vals 覆盖
+- 用 Kadane 算法求最大子数组和：维护当前子串开销，若为负则重置为 0（空字符串开销为 0）

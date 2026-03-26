@@ -75,13 +75,20 @@
 - `1 <= k <= 1000`
 - `s` 仅由小写英文字母组成。
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 前缀和 + 哈希表
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n + \sqrt{k})$，其中 n 是字符串 s 的长度
+- 空间复杂度：$O(n)$，哈希表的空间
+
+算法思路：
+
+- 美丽子串要求 `vowels == consonants` 且 `vowels * consonants % k == 0`，即 `vowels^2 % k == 0`
+- 先求最小的 $v_0$ 使得 $v_0^2 \bmod k = 0$（对 k 做质因数分解，每个质因子取 $\lceil e/2 \rceil$ 次幂）
+- 设 `mod = 2 * v0`，维护前缀差值 `diff = vowels - consonants`，以 `(diff, index % mod)` 为键统计哈希表
+- 若两个位置的键相同，说明对应子串满足元音等于辅音且乘积整除 k

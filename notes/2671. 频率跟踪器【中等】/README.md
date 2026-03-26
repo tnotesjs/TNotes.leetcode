@@ -78,13 +78,19 @@ frequencyTracker.hasFrequency(1); // 返回 true，因为 3 出现 1 次
 - `1 <= frequency <= 10^5`
 - 最多调用 `add`、`deleteOne` 和 `hasFrequency` 共计 `2 * 10^5` 次
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 双哈希表
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：每次操作 $O(1)$
+- 空间复杂度：$O(N)$，其中 N 是不同数字的数量
+
+算法思路：
+
+- 维护两个哈希表：numCount 记录每个数字的出现次数，freqCount 记录每个频率对应多少个数字
+- add/deleteOne 时同步更新两个哈希表
+- hasFrequency 直接查询 freqCount

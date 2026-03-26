@@ -70,8 +70,20 @@ setTimeout(() => {
 - `20 <= delay, period <= 250`
 - `20 <= stopTime <= 1000`
 
-## 2. 🎯 s.1
+## 2. 🎯 s.1 - setTimeout 递归链
 
-```
+::: code-group
 
-```
+<<< ./solutions/1/1.js [js]
+
+:::
+
+- 时间复杂度：$O(1)$，每次调度为常数时间
+- 空间复杂度：$O(1)$，只使用常数额外空间
+
+算法思路：
+
+- 使用 `Map` 存储活跃的定时器 id 和对应的 `setTimeout` 返回值
+- `customInterval`：首次延迟 delay 后执行 fn，之后每次延迟 `delay + period * count`（count 从 1 递增）
+- 每次执行后通过 `setTimeout` 递归调度下一次，实现递增间隔
+- `customClearInterval`：清除对应 `setTimeout` 并从 Map 中删除，后续回调检测到 id 不存在自动停止

@@ -95,17 +95,19 @@ init = 25
 - `0 <= nums[i] <= 1000`
 - `0 <= init <= 1000`
 
-## 2. 🎯 s.1
+## 2. 🎯 s.1 - 遍历累加
 
-```javascript
-var reduce = function (nums, fn, init) {
-  for (let i = 0; i < nums.length; i++) {
-    init = fn(init, nums[i])
-  }
-  return init
-}
-```
+::: code-group
 
-`init = fn(init, nums[i])`
+<<< ./solutions/1/1.js [js]
 
-上一次的处理结果作为下一次的输入之一。
+:::
+
+- 时间复杂度：$O(n)$，遍历一次数组
+- 空间复杂度：$O(1)$，只使用常数额外空间
+
+算法思路：
+
+- 用 `init` 作为累加器，依次对每个元素执行 `fn(init, nums[i])`
+- 上一次的处理结果作为下一次的输入之一
+- 数组为空时直接返回 `init`

@@ -52,13 +52,25 @@
 - `3 <= nums.length <= 10^5`
 - `1 <= nums[i] <= 10^6`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 一次遍历
 
 ::: code-group
 
 <<< ./solutions/1/1.js [js]
 
+<<< ./solutions/1/1.c [c]
+
+<<< ./solutions/1/1.py [py]
+
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，一次遍历数组
+- 空间复杂度：$O(1)$，只使用常数额外空间
+
+算法思路：
+
+- 从左到右遍历，每个元素 $x$ 依次扮演三个角色：
+  1. 作为 $nums[k]$：用当前最大差值 $maxDiff \times x$ 更新答案
+  2. 作为 $nums[j]$：用 $prefixMax - x$ 更新 $maxDiff$
+  3. 作为 $nums[i]$：用 $x$ 更新 $prefixMax$
+- 这样一次遍历即可求得 $(nums[i] - nums[j]) \times nums[k]$ 的最大值

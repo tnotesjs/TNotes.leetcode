@@ -52,38 +52,21 @@
 - `0 <= functions.length <= 1000`
 - 所有函数都接受并返回一个整型
 
-## 2. 🎯 s.1
+## 2. 🎯 s.1 - 从右向左迭代
 
-```javascript
-/**
- * @param {Function[]} functions
- * @return {Function}
- */
-var compose = function (functions) {
-  return function (x) {
-    let ans,
-      i = functions.length - 1
+::: code-group
 
-    while (i >= 0) {
-      const func = functions[i]
-      ans = ans ? func(ans) : func(x)
-      i--
-    }
+<<< ./solutions/1/1.js [js]
 
-    return ans ? ans : x
-  }
-}
+:::
 
-/**
- * const fn = compose([x => x + 1, x => 2 * x])
- * fn(4) // 9
- */
-```
+- 时间复杂度：$O(n)$，其中 n 是函数数组的长度
+- 空间复杂度：$O(1)$，只使用常数额外空间
 
-【复杂度分析】
+算法思路：
 
-- 时间复杂度：$O(n)$
-- 空间复杂度：$O(1)$
+- 从右向左遍历函数数组，依次将上一次的结果作为下一次的输入
+- 空函数列表直接返回输入值（恒等函数）
 
 【流程分析】
 

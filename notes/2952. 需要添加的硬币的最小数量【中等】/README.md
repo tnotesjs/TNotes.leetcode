@@ -61,13 +61,20 @@
 - `1 <= coins.length <= 10^5`
 - `1 <= coins[i] <= target`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 贪心
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n \log n + \log(\text{target}))$，其中 n 是 coins 的长度
+- 空间复杂度：$O(1)$，仅使用常数额外空间（排序为原地排序）
+
+算法思路：
+
+- 先将硬币排序，维护当前可覆盖范围 `[1, reach]`
+- 遍历硬币，若当前硬币 `coins[i] <= reach + 1`，直接将 reach 扩展为 `reach + coins[i]`
+- 否则需要添加一枚面值为 `reach + 1` 的硬币，将 reach 翻倍扩展
+- 重复直到 `reach >= target`

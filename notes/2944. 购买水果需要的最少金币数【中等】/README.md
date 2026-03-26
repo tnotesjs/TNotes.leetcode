@@ -74,13 +74,19 @@
 - `1 <= prices.length <= 1000`
 - `1 <= prices[i] <= 10^5`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 动态规划
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n^2)$，其中 n 是 prices 的长度
+- 空间复杂度：$O(n)$，dp 数组的空间
+
+算法思路：
+
+- 定义 `dp[i]` 为获取前 i 个水果的最小花费（1-indexed）
+- 购买第 j 个水果可以免费获得第 `j+1` 到 `2j` 个水果，因此要覆盖到第 i 个水果，购买位置 j 需满足 `j >= ceil(i/2)`
+- 状态转移：`dp[i] = min(dp[j-1] + prices[j-1])`，其中 `ceil(i/2) <= j <= i`

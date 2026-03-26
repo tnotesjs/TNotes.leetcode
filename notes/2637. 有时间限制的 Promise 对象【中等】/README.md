@@ -98,7 +98,7 @@ t = 1000
 - `0 <= t <= 1000`
 - `fn` 返回一个 Promise 对象
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - Promise.race
 
 ::: code-group
 
@@ -106,5 +106,11 @@ t = 1000
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(1)$，每次调用只做常数操作
+- 空间复杂度：$O(1)$，只创建了一个额外的 Promise
+
+算法思路：
+
+- 使用 `Promise.race` 让原始函数的 Promise 与超时 Promise 竞争
+- 超时 Promise 在 `t` 毫秒后 reject `"Time Limit Exceeded"`
+- 哪个先完成就返回哪个的结果

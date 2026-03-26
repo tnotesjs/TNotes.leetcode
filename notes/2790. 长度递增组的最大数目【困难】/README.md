@@ -68,13 +68,20 @@
 - `1 <= usageLimits.length <= 10^5`
 - `1 <= usageLimits[i] <= 10^9`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 贪心 + 排序
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n \log n)$，排序的时间开销
+- 空间复杂度：$O(1)$，只使用常数额外空间（排序原地进行）
+
+算法思路：
+
+- 将 usageLimits 升序排序
+- 从小到大遍历，维护盈余 surplus，每次累加当前 limit
+- 若 surplus $\geq$ k+1（即能够凑出第 k+1 组所需的 k+1 个元素），则组数 k 加 1，surplus 减去 k
+- 排序后贪心保证了使用次数少的数字优先安排到小组中

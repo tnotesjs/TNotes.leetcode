@@ -133,49 +133,19 @@ setTimeout(cancelFn, cancelTimeMs)
 - `30 <= t <= 100`
 - `10 <= cancelT <= 500`
 
-## 2. 🎯 s.1
+## 2. 🎯 s.1 - setInterval + clearInterval
 
-```javascript
-/**
- * @param {Function} fn
- * @param {Array} args
- * @param {number} t
- * @return {Function}
- */
-var cancellable = function (fn, args, t) {
-  fn(...args)
-  const timer = setInterval(() => {
-    fn(...args)
-  }, t)
-  return () => clearInterval(timer)
-}
+::: code-group
 
-/**
- *  const result = [];
- *
- *  const fn = (x) => x * 2;
- *  const args = [4], t = 35, cancelTimeMs = 190;
- *
- *  const start = performance.now();
- *
- *  const log = (...argsArr) => {
- *      const diff = Math.floor(performance.now() - start);
- *      result.push({"time": diff, "returned": fn(...argsArr)});
- *  }
- *
- *  const cancel = cancellable(log, args, t);
- *
- *  setTimeout(cancel, cancelTimeMs);
- *
- *  setTimeout(() => {
- *      console.log(result); // [
- *                           //     {"time":0,"returned":8},
- *                           //     {"time":35,"returned":8},
- *                           //     {"time":70,"returned":8},
- *                           //     {"time":105,"returned":8},
- *                           //     {"time":140,"returned":8},
- *                           //     {"time":175,"returned":8}
- *                           // ]
- *  }, cancelTimeMs + t + 15)
- */
-```
+<<< ./solutions/1/1.js [js]
+
+:::
+
+- 时间复杂度：$O(1)$
+- 空间复杂度：$O(1)$
+
+算法思路：
+
+- 先立即执行一次 `fn(...args)`
+- 使用 `setInterval` 每隔 t 毫秒重复执行
+- 返回取消函数，内部调用 `clearInterval` 停止定时器

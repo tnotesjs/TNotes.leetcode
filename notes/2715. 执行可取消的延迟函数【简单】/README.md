@@ -76,11 +76,18 @@
 - `20 <= t <= 1000`
 - `10 <= cancelTimeMs <= 1000`
 
-## 2. 🎯 s.1
+## 2. 🎯 s.1 - setTimeout + clearTimeout
 
-```javascript
-var cancellable = function (fn, args, t) {
-  const timer = setTimeout((_) => fn(...args), t)
-  return (_) => clearInterval(timer)
-}
-```
+::: code-group
+
+<<< ./solutions/1/1.js [js]
+
+:::
+
+- 时间复杂度：$O(1)$
+- 空间复杂度：$O(1)$
+
+算法思路：
+
+- 使用 `setTimeout` 延迟 t 毫秒后执行 `fn(...args)`
+- 返回取消函数，内部调用 `clearTimeout` 取消定时器

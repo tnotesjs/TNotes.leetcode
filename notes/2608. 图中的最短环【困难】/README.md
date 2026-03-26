@@ -52,13 +52,18 @@
 - `ui != vi`
 - 不存在重复的边
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - BFS 枚举
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(N \cdot (N + E))$，其中 N 是节点数，E 是边数
+- 空间复杂度：$O(N + E)$，邻接表和 BFS 队列的空间
+
+算法思路：
+
+- 以每个节点为起点做 BFS，当发现一个已访问的邻居 v 且 dist[v] >= dist[u] 时，说明找到了一个环
+- 环长 = dist[u] + dist[v] + 1，取所有环的最小值

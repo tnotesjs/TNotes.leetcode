@@ -53,13 +53,22 @@
 - `1 <= nums.length <= 10^5`
 - `0 <= nums[i] < nums.length`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 排序 + 枚举
 
 ::: code-group
 
 <<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.c [c]
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(N \log N)$，其中 N 是学生数量
+- 空间复杂度：$O(1)$，排序后原地比较
+
+算法思路：
+
+- 将 nums 排序后，枚举选中人数 s（0 到 n）
+- s=0：所有人未选中，需所有 nums[i] > 0
+- s=n：所有人选中，一定满足（约束保证 nums[i] < n）
+- 1 ≤ s ≤ n-1：选最小的 s 个人，需 nums[s-1] < s 且 nums[s] > s

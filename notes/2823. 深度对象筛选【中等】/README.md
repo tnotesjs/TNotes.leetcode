@@ -62,8 +62,19 @@ fn = (x) => Array.isArray(x)
 - `obj` 是一个有效的 JSON 对象
 - `2 <= JSON.stringify(obj).length <= 105`
 
-## 2. 🎯 s.1
+## 2. 🎯 s.1 - 递归
 
-```
+::: code-group
 
-```
+<<< ./solutions/1/1.js [js]
+
+:::
+
+- 时间复杂度：$O(N)$，其中 N 是对象中所有节点的数量
+- 空间复杂度：$O(D)$，其中 D 是对象的最大嵌套深度
+
+算法思路：
+
+- 对于原始值（非数组非对象），用 fn 判断是否保留
+- 对于数组，递归过滤每个元素，移除 undefined 结果，若数组为空返回 undefined
+- 对于对象，递归过滤每个属性值，移除 undefined 结果，若对象为空返回 undefined

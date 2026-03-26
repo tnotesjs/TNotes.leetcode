@@ -42,13 +42,20 @@
 - `2 <= nums.length <= 14`
 - `1 <= nums[i] <= 10^9`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 状压 DP
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n^2 \cdot 2^n)$，其中 $n$ 为数组长度
+- 空间复杂度：$O(n \cdot 2^n)$
+
+算法思路：
+
+- 用二进制掩码 `mask` 表示已选元素的集合，`dp[mask][i]` 表示已选集合为 `mask`、最后选的是 `nums[i]` 的方案数
+- 初始化：每个元素单独选时方案数为 1
+- 状态转移：枚举下一个要选的元素 `j`，若 `nums[j] % nums[i] == 0` 或 `nums[i] % nums[j] == 0`，则可以从状态 `(mask, i)` 转移到 `(mask | (1 << j), j)`
+- 最终答案为所有 `dp[full][i]` 的和

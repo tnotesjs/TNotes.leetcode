@@ -53,13 +53,18 @@
 - `1 <= ai, bi, ci, mi <= 10^3`
 - `0 <= target <= 10^3`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 模拟 + 快速幂
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(L \cdot \log M)$，其中 $L$ 是 `variables` 长度，$M$ 是指数最大值
+- 空间复杂度：$O(1)$，只使用了常数级别的额外空间
+
+算法思路：
+
+- 遍历每个 $[a, b, c, m]$，用快速幂依次计算 $a^b \bmod 10$ 和 $(a^b \bmod 10)^c \bmod m$
+- 判断结果是否等于 `target`，等于则记录下标

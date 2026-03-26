@@ -62,13 +62,21 @@
 - `0 < low <= high <= 10^9`
 - `0 < k <= 20`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 数位 DP
 
 ::: code-group
 
 <<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.c [c]
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(\log^2(high) \cdot k)$，其中 k 是给定的除数
+- 空间复杂度：$O(\log(high) \cdot k \cdot \log(high))$，记忆化搜索的状态数
+
+算法思路：
+
+- 使用数位 DP 计算 [1, num] 中的美丽整数数量，答案 = count(high) - count(low-1)
+- 状态：当前位、是否紧贴上界、当前数 mod k、偶数位与奇数位的数量差、是否已开始
+- 当遍历完所有位时，若 mod k = 0 且偶数位数 = 奇数位数则计数 +1

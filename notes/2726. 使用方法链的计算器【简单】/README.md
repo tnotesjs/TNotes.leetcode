@@ -83,77 +83,19 @@
 - 第一个操作总是 "Calculator"
 - 最后一个操作总是 "getResult"
 
-## 2. 🎯 s.1
+## 2. 🎯 s.1 - 方法链
 
-```javascript
-class Calculator {
-  /**
-   * @param {number} value
-   */
-  constructor(value) {
-    this.val = value
-  }
+::: code-group
 
-  /**
-   * @param {number} value
-   * @return {Calculator}
-   */
-  add(value) {
-    this.val += value
-    return this
-  }
+<<< ./solutions/1/1.js [js]
 
-  /**
-   * @param {number} value
-   * @return {Calculator}
-   */
-  subtract(value) {
-    this.val -= value
-    return this
-  }
+:::
 
-  /**
-   * @param {number} value
-   * @return {Calculator}
-   */
-  multiply(value) {
-    this.val *= value
-    return this
-  }
+- 时间复杂度：$O(1)$，每个操作均为常数时间
+- 空间复杂度：$O(1)$
 
-  /**
-   * @param {number} value
-   * @return {Calculator}
-   */
-  divide(value) {
-    if (value === 0) throw new Error('Division by zero is not allowed')
-    this.val /= value
-    return this
-  }
+算法思路：
 
-  /**
-   * @param {number} value
-   * @return {Calculator}
-   */
-  power(value) {
-    this.val = value
-    return this
-  }
-
-  /**
-   * @return {number}
-   */
-  getResult() {
-    return this.val
-  }
-}
-```
-
-题解分析
-
-- 链式调用，每次 `return this` 即可。
-- 除法运算时校验 value 不能为 0，否则抛出错误 `throw new Error('Division by zero is not allowed')`
-
-## 3. 🫧 评价
-
-- 题目有些长，但逻辑很简单，根据描述一步步实现相关方法即可。
+- 构造函数接收初始值存入 `this.result`
+- 每个运算方法修改 `result` 后返回 `this`，支持链式调用
+- `divide` 方法需检查除数是否为 0，是则抛出错误

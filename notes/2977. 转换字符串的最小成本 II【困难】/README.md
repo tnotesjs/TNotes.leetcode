@@ -75,13 +75,20 @@
 - `original[i] != changed[i]`
 - `1 <= cost[i] <= 10^6`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - Floyd-Warshall + DP
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(S^3 + n \cdot L \cdot l)$，其中 $S$ 是唯一字符串数，$L$ 是不同长度数，$l$ 是最大字符串长度
+- 空间复杂度：$O(S^2 + n)$，距离矩阵和 DP 数组
+
+算法思路：
+
+- 将 `original` 和 `changed` 中的字符串映射为编号，建立距离矩阵
+- 用 Floyd-Warshall 计算任意两字符串间的最短转换代价
+- DP：$dp[i]$ 表示将 `source[0..i-1]` 转换为 `target[0..i-1]` 的最小代价
+- 转移：若 `source[i] == target[i]` 则可跳过；否则枚举所有出现过的字符串长度，检查 `source` 和 `target` 对应子串是否在映射中，若在则用最短路代价转移

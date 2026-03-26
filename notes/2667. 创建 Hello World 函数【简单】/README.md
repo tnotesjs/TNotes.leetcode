@@ -42,23 +42,20 @@
 
 - `0 <= args.length <= 10`
 
-## 2. 🎯 s.1
+## 2. 🎯 s.1 - 闭包
 
-```javascript
-/**
- * @return {Function}
- */
-var createHelloWorld = function () {
-  return function (...args) {
-    return 'Hello World'
-  }
-}
+::: code-group
 
-/**
- * const f = createHelloWorld();
- * f(); // "Hello World"
- */
-```
+<<< ./solutions/1/1.js [js]
+
+:::
+
+- 时间复杂度：$O(1)$
+- 空间复杂度：$O(1)$
+
+算法思路：
+
+- 返回一个始终返回 "Hello World" 的函数
 
 ## 3. 🫧 评价
 

@@ -40,28 +40,19 @@
 - 输出：`{"value": true}`
 - 解释：`5 !== null` 因此该表达式返回 `true`.
 
-## 2. 🎯 s.1
+## 2. 🎯 s.1 - 闭包
 
-```javascript
-/**
- * @param {string} val
- * @return {Object}
- */
-var expect = function (val) {
-  return {
-    toBe(newVal) {
-      if (newVal === val) return true
-      else throw new Error('Not Equal')
-    },
-    notToBe(newVal) {
-      if (newVal !== val) return true
-      else throw new Error('Equal')
-    },
-  }
-}
+::: code-group
 
-/**
- * expect(5).toBe(5); // true
- * expect(5).notToBe(5); // throws "Equal"
- */
-```
+<<< ./solutions/1/1.js [js]
+
+:::
+
+- 时间复杂度：$O(1)$
+- 空间复杂度：$O(1)$
+
+算法思路：
+
+- 利用闭包捕获传入的 `val`，返回包含 `toBe` 和 `notToBe` 方法的对象
+- `toBe` 使用严格等于 `===` 判断，不等则抛出 `"Not Equal"`
+- `notToBe` 使用严格不等 `!==` 判断，相等则抛出 `"Equal"`

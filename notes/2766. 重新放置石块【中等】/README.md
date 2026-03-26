@@ -57,13 +57,19 @@
 - `1 <= nums[i], moveFrom[i], moveTo[i] <= 10^9`
 - 测试数据保证在进行第 `i` 步操作时，`moveFrom[i]` 处至少有一个石块。
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 哈希集合
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O((n + k) \log (n + k))$，其中 $n$ 为初始石块数，$k$ 为操作次数
+- 空间复杂度：$O(n + k)$
+
+算法思路：
+
+- 用哈希集合记录有石块的位置
+- 每次操作从集合中删除 `moveFrom[i]`，添加 `moveTo[i]`
+- 最后将集合排序返回

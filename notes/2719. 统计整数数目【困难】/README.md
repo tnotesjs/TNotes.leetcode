@@ -45,13 +45,21 @@
 - `1 <= num1 <= num2 <= 10^22`
 - `1 <= min_sum <= max_sum <= 400`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 数位 DP
 
 ::: code-group
 
 <<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.c [c]
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(D \cdot S \cdot 10)$，其中 D 是数字位数，S 是 max\_sum
+- 空间复杂度：$O(D \cdot S)$
+
+算法思路：
+
+- 利用数位 DP 计算 `[1, num]` 范围内数位和在 `[min_sum, max_sum]` 之间的整数个数
+- 答案为 `count(num2) - count(num1 - 1)`
+- DP 状态：当前位置、已累加的数位和、是否紧贴上界
