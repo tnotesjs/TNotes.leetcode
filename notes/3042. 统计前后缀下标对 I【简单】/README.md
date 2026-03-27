@@ -82,15 +82,15 @@ i = 2 且 j = 3，因为 isPrefixAndSuffix("ma", "mama") 为 true。
 ::: code-group
 
 <<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.c [c]
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(n^2 \times m)$，其中 n 是数组长度，m 是字符串的平均长度
-- 空间复杂度：$O(1)$，只使用了常数级别的额外空间
+- 时间复杂度：$O(n^2 \cdot L)$，其中 n 为数组长度，L 为字符串最大长度
+- 空间复杂度：$O(1)$，只使用常数额外空间
 
 算法思路：
 
-- 枚举所有满足 `i < j` 的下标对 `(i, j)`
-- 对于每对，检查 `words[i]` 是否同时是 `words[j]` 的前缀和后缀
-- 使用 `startsWith` 和 `endsWith` 方法进行判断
-- 统计满足条件的下标对数量
+- 枚举所有下标对 (i, j)，i < j
+- 检查 words[i] 是否同时是 words[j] 的前缀和后缀

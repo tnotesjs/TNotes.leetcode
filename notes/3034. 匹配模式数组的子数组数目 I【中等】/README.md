@@ -54,13 +54,21 @@
 - `1 <= m == pattern.length < n`
 - `-1 <= pattern[i] <= 1`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 模拟匹配
 
 ::: code-group
 
 <<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.c [c]
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(nm)$，其中 n 为 nums 长度，m 为 pattern 长度
+- 空间复杂度：$O(1)$，只使用常数额外空间
+
+算法思路：
+
+- 枚举 nums 的每个起始位置 i
+- 对于每个位置检查长度为 m+1 的子数组是否匹配 pattern
+- 比较相邻元素的大小关系（大于/小于/等于）与 pattern 对应位置

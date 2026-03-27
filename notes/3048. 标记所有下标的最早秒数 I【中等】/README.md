@@ -79,13 +79,21 @@ Explanation: 这个例子中，无法标记所有下标，因为下标 1 不在 
 - `1 <= m == changeIndices.length <= 2000`
 - `1 <= changeIndices[i] <= n`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 二分答案
 
 ::: code-group
 
 <<< ./solutions/1/1.js [js]
+<<< ./solutions/1/1.c [c]
+<<< ./solutions/1/1.py [py]
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(m \log m \cdot n)$，二分答案，每次检查 O(m + n log n)
+- 空间复杂度：$O(n + m)$，存储标记位置和事件
+
+算法思路：
+
+- 二分答案：在前 t 秒内能否标记所有下标
+- 检查函数：对每个下标取 changeIndices 中最后出现的位置作为标记时刻
+- 按标记时刻排序，贪心地分配空闲时间槽用于减少操作

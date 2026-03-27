@@ -55,13 +55,24 @@
 - `n`是偶数。
 - `1 <= nums1[i], nums2[i] <= 10^9`
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 贪心
 
 ::: code-group
 
 <<< ./solutions/1/1.js [js]
 
+<<< ./solutions/1/1.c [c]
+
+<<< ./solutions/1/1.py [py]
+
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n)$，其中 n 是数组长度
+- 空间复杂度：$O(n)$，用于存储集合
+
+算法思路：
+
+- 将 nums1 和 nums2 各自去重，分别得到 set1 和 set2
+- 统计仅属于 set1 的元素数 only1、仅属于 set2 的元素数 only2、以及公共元素数 common
+- 贪心策略：优先保留各自独有的元素（最多保留 n/2 个），剩余名额用公共元素填充
+- 最终结果 = $\min(\text{only1}, n/2) + \min(\text{only2}, n/2) + \min(\text{common}, \text{剩余名额})$
