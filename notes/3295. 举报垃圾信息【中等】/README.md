@@ -49,7 +49,7 @@
 - `1 <= message[i].length, bannedWords[i].length <= 15`
 - `message[i]` 和 `bannedWords[i]` 都只由小写英文字母组成。
 
-## 2. 🎯 s.1 - 解法 1
+## 2. 🎯 s.1 - 哈希集合
 
 ::: code-group
 
@@ -57,5 +57,11 @@
 
 :::
 
-- 时间复杂度：$O(1)$
-- 空间复杂度：$O(1)$
+- 时间复杂度：$O(n + m)$，n 是 message 长度，m 是 bannedWords 长度
+- 空间复杂度：$O(m)$，哈希集合
+
+算法思路：
+
+- 将 bannedWords 存入 Set
+- 遍历 message，匹配到 2 个以上 banned 词即为垃圾信息
+
