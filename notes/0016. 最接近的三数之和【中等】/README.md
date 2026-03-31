@@ -66,5 +66,11 @@
 
 - 先对数组升序排序，初始化最接近值 `closest` 为前三个数之和
 - 固定第一个数 `nums[i]`，左右双指针 `left = i+1`、`right = n-1` 向中收缩
-- 每次计算三数之和 `sum`，若 `|sum - target|` 更小则更新 `closest`
-- `sum < target` 则 `left++`（让和变大），`sum > target` 则 `right--`（让和变小），`sum == target` 则直接返回
+  - `i` 指向的是三元组中最小的成员
+  - `left` 指向的是三元组中中间的成员
+  - `right` 指向的是三元组中最大的成员
+- 每次扫描的时候固定 `i`，剩余俩成员在 `i` 后边儿新建窗口不断收缩区间查找最优解
+  - 每次指针移动，重新计算三数之和 `sum`，若 `|sum - target|` 更小则更新 `closest`
+  - 若 `sum < target` 则 `left++`（让和变大）
+  - 若 `sum > target` 则 `right--`（让和变小）
+  - 若 `sum == target` 则直接返回
