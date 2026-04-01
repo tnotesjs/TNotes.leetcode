@@ -1,0 +1,2 @@
+overrides:
+  '@tnotesjs/core': link:../core
