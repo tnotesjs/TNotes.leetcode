@@ -1,9 +1,9 @@
-# [0470. 用 Rand7() 实现 Rand10()【中等】](<https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0470.%20%E7%94%A8%20Rand7()%20%E5%AE%9E%E7%8E%B0%20Rand10()%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91>)
+# [0470. 用 Rand7() 实现 Rand10()【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0470.%20%E7%94%A8%20Rand7()%20%E5%AE%9E%E7%8E%B0%20Rand10()%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91)
 
 <!-- region:toc -->
 
 - [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
+- [2. 🎯 s.1 - 拒绝采样](#2--s1---拒绝采样)
 - [3. 🔗 引用](#3--引用)
 
 <!-- endregion:toc -->
