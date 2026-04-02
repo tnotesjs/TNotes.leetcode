@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 解法 1](#2--s1---解法-1)
+- [2. 🎯 s.1 - Dijkstra + DP](#2--s1---dijkstra--dp)
 
 <!-- endregion:toc -->
 

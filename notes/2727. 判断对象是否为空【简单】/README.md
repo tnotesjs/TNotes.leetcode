@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1](#2--s1)
+- [2. 🎯 s.1 - Object.keys](#2--s1---objectkeys)
 
 <!-- endregion:toc -->
 

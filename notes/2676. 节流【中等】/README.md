@@ -4,7 +4,7 @@
 
 - [1. 🔗 links](#1--links)
 - [2. 📝 题目描述](#2--题目描述)
-- [3. 🎯 s.1](#3--s1)
+- [3. 🎯 s.1 - 节流（setTimeout）](#3--s1---节流settimeout)
 
 <!-- endregion:toc -->
 

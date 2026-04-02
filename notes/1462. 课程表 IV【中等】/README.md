@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 解法 1](#2--s1---解法-1)
+- [2. 🎯 s.1 - Floyd-Warshall 传递闭包](#2--s1---floyd-warshall-传递闭包)
 
 <!-- endregion:toc -->
 

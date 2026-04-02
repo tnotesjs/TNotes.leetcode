@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 解法 1](#2--s1---解法-1)
+- [2. 🎯 s.1 - 枚举子集 + Floyd-Warshall](#2--s1---枚举子集--floyd-warshall)
 
 <!-- endregion:toc -->
 

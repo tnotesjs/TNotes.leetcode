@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1](#2--s1)
+- [2. 🎯 s.1 - Promise 包装 + setTimeout](#2--s1---promise-包装--settimeout)
 
 <!-- endregion:toc -->
 

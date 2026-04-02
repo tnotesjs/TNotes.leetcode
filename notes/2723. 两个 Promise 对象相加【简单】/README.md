@@ -3,8 +3,7 @@
 <!-- region:toc -->
 
 - [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1](#2--s1)
-- [3. 🫧 评价](#3--评价)
+- [2. 🎯 s.1 - async/await](#2--s1---asyncawait)
 
 <!-- endregion:toc -->
 

@@ -3,7 +3,7 @@
 <!-- region:toc -->
 
 - [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1](#2--s1)
+- [2. 🎯 s.1 - setTimeout 递归链](#2--s1---settimeout-递归链)
 
 <!-- endregion:toc -->
 
