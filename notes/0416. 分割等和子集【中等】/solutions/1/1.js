@@ -12,6 +12,7 @@ var canPartition = function (nums) {
     for (let j = target; j >= num; j--) {
       dp[j] |= dp[j - num]
     }
+    // if (dp[target] === 1) return true // 可提前退出
   }
-  return dp[target] === 1
+  return false
 }

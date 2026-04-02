@@ -473,7 +473,7 @@
 - [ ] [0413. 等差数列划分【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0413.%20%E7%AD%89%E5%B7%AE%E6%95%B0%E5%88%97%E5%88%92%E5%88%86%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [x] [0414. 第三大的数【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0414.%20%E7%AC%AC%E4%B8%89%E5%A4%A7%E7%9A%84%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
 - [x] [0415. 字符串相加【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0415.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9B%B8%E5%8A%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
-- [ ] [0416. 分割等和子集【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0416.%20%E5%88%86%E5%89%B2%E7%AD%89%E5%92%8C%E5%AD%90%E9%9B%86%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
+- [x] [0416. 分割等和子集【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0416.%20%E5%88%86%E5%89%B2%E7%AD%89%E5%92%8C%E5%AD%90%E9%9B%86%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0417. 太平洋大西洋水流问题【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0417.%20%E5%A4%AA%E5%B9%B3%E6%B4%8B%E5%A4%A7%E8%A5%BF%E6%B4%8B%E6%B0%B4%E6%B5%81%E9%97%AE%E9%A2%98%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0418. 屏幕可显示句子的数量【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0418.%20%E5%B1%8F%E5%B9%95%E5%8F%AF%E6%98%BE%E7%A4%BA%E5%8F%A5%E5%AD%90%E7%9A%84%E6%95%B0%E9%87%8F%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0419. 棋盘上的战舰【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0419.%20%E6%A3%8B%E7%9B%98%E4%B8%8A%E7%9A%84%E6%88%98%E8%88%B0%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
