@@ -2,10 +2,10 @@
   "bilibili": [],
   "tnotes": [],
   "yuque": [],
-  "done": false,
-  "enableDiscussions": false,
+  "done": true,
+  "enableDiscussions": true,
   "description": "",
   "id": "8ad7ec34-8364-4f2e-8b7b-104cf19abe7a",
   "created_at": 1748433329000,
-  "updated_at": 1774359251641
+  "updated_at": 1775141645616
 }
