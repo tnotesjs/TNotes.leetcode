@@ -24,17 +24,25 @@
 ```txt
 输入: s = "leetcode", wordDict = ["leet", "code"]
 输出: true
-解释: 返回 true 因为 "leetcode" 可以由 "leet" 和 "code" 拼接成。
 ```
+
+解释: 返回 true 因为 "leetcode" 可以由 "leet" 和 "code" 拼接成。
+
+---
 
 示例 2：
 
 ```txt
 输入: s = "applepenapple", wordDict = ["apple", "pen"]
 输出: true
-解释: 返回 true 因为 "applepenapple" 可以由 "apple" "pen" "apple" 拼接成。
-    注意，你可以重复使用字典中的单词。
 ```
+
+解释:
+
+- 返回 true 因为 `"applepenapple"` 可以由 `"apple"` `"pen"` `"apple"` 拼接成。
+- 注意，你可以重复使用字典中的单词。
+
+---
 
 示例 3：
 
@@ -51,9 +59,17 @@
 - `1 <= wordDict.length <= 1000`
 - `1 <= wordDict[i].length <= 20`
 - `s` 和 `wordDict[i]` 仅由小写英文字母组成
-- `wordDict` 中的所有字符串 互不相同
+- `wordDict` 中的所有字符串互不相同
 
 ## 2. 🎯 s.1 - 动态规划
+
+::: swiper
+
+![示例 1](./assets/1.case1.svg)
+
+![示例 3](./assets/1.case3.svg)
+
+:::
 
 ::: code-group
 
