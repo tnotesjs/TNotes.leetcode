@@ -19,6 +19,3 @@ var permute = function (nums) {
   backtrack(0)
   return res
 }
-
-// test1
-permute([1, 2, 3, 4])

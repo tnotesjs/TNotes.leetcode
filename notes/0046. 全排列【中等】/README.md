@@ -57,6 +57,18 @@
 
 ## 2. 🎯 s.1 - 回溯 + 交换
 
+![svg](./assets/1.svg)
+
+::: swiper
+
+![1](./assets/1-1.svg)
+
+![2](./assets/1-2.svg)
+
+![3](./assets/1-3.svg)
+
+:::
+
 ::: code-group
 
 <<< ./solutions/1/1.c [c]
