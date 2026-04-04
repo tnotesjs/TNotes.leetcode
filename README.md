@@ -96,7 +96,7 @@
 - [ ] [0048. 旋转图像【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0048.%20%E6%97%8B%E8%BD%AC%E5%9B%BE%E5%83%8F%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0049. 字母异位词分组【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0049.%20%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D%E5%88%86%E7%BB%84%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0050. Pow(x, n)【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0050.%20Pow(x%2C%20n)%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
-- [ ] [0051. N 皇后【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0051.%20N%20%E7%9A%87%E5%90%8E%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
+- [x] [0051. N 皇后【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0051.%20N%20%E7%9A%87%E5%90%8E%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
 - [ ] [0052. N 皇后 II【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0052.%20N%20%E7%9A%87%E5%90%8E%20II%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
 - [ ] [0053. 最大子数组和【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0053.%20%E6%9C%80%E5%A4%A7%E5%AD%90%E6%95%B0%E7%BB%84%E5%92%8C%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0054. 螺旋矩阵【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0054.%20%E8%9E%BA%E6%97%8B%E7%9F%A9%E9%98%B5%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
