@@ -46,6 +46,8 @@ jobs:
         uses: actions/configure-pages@v4
       - name: Create swap (extend memory for large builds)
         run: |
+          sudo swapoff /swapfile || true
+          sudo rm -f /swapfile
           sudo fallocate -l 8G /swapfile
           sudo chmod 600 /swapfile
           sudo mkswap /swapfile
@@ -57,7 +59,7 @@ jobs:
       - name: Build with VitePress
         env:
           NODE_OPTIONS: --max-old-space-size=8192
-        run: pnpm tn:build
+        run: pnpm exec tnotes --build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
