@@ -51,6 +51,8 @@
 
 ## 2. 🎯 s.1 - 回溯 + 排序去重
 
+![svg](./assets/1.svg)
+
 ::: code-group
 
 <<< ./solutions/1/1.c [c]
