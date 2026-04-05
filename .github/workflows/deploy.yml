@@ -44,6 +44,12 @@ jobs:
           cache: pnpm # npm 或 pnpm / yarn
       - name: Setup Pages
         uses: actions/configure-pages@v4
+      - name: Create swap (extend memory for large builds)
+        run: |
+          sudo fallocate -l 8G /swapfile
+          sudo chmod 600 /swapfile
+          sudo mkswap /swapfile
+          sudo swapon /swapfile
       - name: Install dependencies
         run: pnpm install # npm ci 或 pnpm install / yarn install / bun install
       - name: Gen Toc

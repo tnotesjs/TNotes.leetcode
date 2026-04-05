@@ -1,7 +1,7 @@
 {
   "type": "module",
   "scripts": {
-    "tn:build": "                       tnotes --build",
+    "tn:build": "                       NODE_OPTIONS='--max-old-space-size=16384' tnotes --build",
     "tn:create-notes": "                tnotes --create-notes",
     "tn:dev": "                         tnotes --dev",
     "tn:fix-timestamps": "              tnotes --fix-timestamps",
