@@ -3,7 +3,8 @@
 <!-- region:toc -->
 
 - [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 回溯](#2--s1---回溯)
+- [2. 🎯 s.1 - 回溯 + 剪枝](#2--s1---回溯--剪枝)
+  - [2.1. 剪枝策略](#21-剪枝策略)
 
 <!-- endregion:toc -->
 
@@ -13,7 +14,9 @@
 
 给定两个整数 `n` 和 `k`，返回范围 `[1, n]` 中所有可能的 `k` 个数的组合。
 
-你可以按 任何顺序 返回答案。
+你可以按任何顺序返回答案。
+
+---
 
 示例 1：
 
@@ -21,14 +24,12 @@
 输入：n = 4, k = 2
 输出：
 [
-  [2,4],
-  [3,4],
-  [2,3],
-  [1,2],
-  [1,3],
-  [1,4],
+  [2, 4], [3, 4], [2, 3],
+  [1, 2], [1, 3], [1, 4],
 ]
 ```
+
+---
 
 示例 2：
 
@@ -37,135 +38,45 @@
 输出：[[1]]
 ```
 
+---
+
 提示：
 
 - `1 <= n <= 20`
 - `1 <= k <= n`
 
-## 2. 🎯 s.1 - 回溯
+## 2. 🎯 s.1 - 回溯 + 剪枝
 
-```javascript
-var combine = function (n, k) {
-  // 初始化选择列表
-  const nums = []
-  for (let i = 1; i <= n; i++) {
-    nums.push(i)
-  }
-  const ans = []
-  const backtracking = (path, startIndex) => {
-    // console.log('已选', path, '选择列表', nums.slice(startIndex));
-    if (path.length === k) {
-      ans.push(path.slice())
-      return
-    }
-    for (let i = startIndex; i < nums.length; i++) {
-      path.push(nums[i]) // 做选择
-      // console.log('选择', nums[i]);
-      backtracking(path, i + 1)
-      path.pop() // 撤销选择
-      // console.log('撤销', nums[i]);
-    }
-  }
-  backtracking([], 0)
-  return ans
-}
-```
+::: code-group
 
-- 下面是图解的流程，可结合打印结果来分析回溯的过程。
-- ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-21-50-32.png)
+<<< ./solutions/1/1.c [c]
 
-```md
-已选 [] 选择列表 [ 1, 2, 3, 4 ] 选择 1 已选 [ 1 ] 选择列表 [ 2, 3, 4 ] 选择 2 已选 [ 1, 2 ] 选择列表 [ 3, 4 ] 撤销 2 选择 3 已选 [ 1, 3 ] 选择列表 [ 4 ] 撤销 3 选择 4 已选 [ 1, 4 ] 选择列表 [] 撤销 4 撤销 1 选择 2 已选 [ 2 ] 选择列表 [ 3, 4 ] 选择 3 已选 [ 2, 3 ] 选择列表 [ 4 ] 撤销 3 选择 4 已选 [ 2, 4 ] 选择列表 [] 撤销 4 撤销 2 选择 3 已选 [ 3 ] 选择列表 [ 4 ] 选择 4 已选 [ 3, 4 ] 选择列表 [] 撤销 4 撤销 3 选择 4 已选 [ 4 ] 选择列表 [] 撤销 4
-```
+<<< ./solutions/1/1.js [js]
 
-- ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-21-51-22.png)
-- 回溯的其他写法
+<<< ./solutions/1/1.py [py]
 
-```javascript
-var combine = function (n, k) {
-  const ans = []
-  const backtracking = (path, startIndex, endIndex) => {
-    if (path.length === k) {
-      ans.push([...path])
-      return
-    }
-    for (let i = startIndex; i <= endIndex; i++) {
-      path.push(i) // 做选择
-      backtracking(path, i + 1, endIndex)
-      path.pop() // 撤销选择
-    }
-  }
-  backtracking([], 1, n)
-  return ans
-}
-// 由于 n 它是一个整数，选择列表就是 1~n，其实没有必要再去初始化一个选择列表。
-```
+:::
 
-- ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-21-52-02.png)
+- 时间复杂度：$O(k \times C(n, k))$，一共需要生成 $C(n, k)$ 个长度为 $k$ 的组合，每次加入答案都要复制当前路径
+- 空间复杂度：$O(k)$，递归栈深度和当前路径长度都不会超过 $k$；若计入返回结果，总空间为 $O(k \times C(n, k))$
 
-```javascript
-var combine = function (n, k) {
-  const ans = []
-  const backtracking = (path, startIndex, endIndex) => {
-    if (path.length + (endIndex - startIndex + 1) < k) return // 剪枝优化
-    if (path.length === k) {
-      ans.push([...path])
-      return
-    }
-    for (let i = startIndex; i <= endIndex; i++) {
-      path.push(i) // 做选择
-      backtracking(path, i + 1, endIndex)
-      path.pop() // 撤销选择
-    }
-  }
-  backtracking([], 1, n)
-  return ans
-}
-// 剪枝优化，就是去掉没有必要遍历的分支。
-// 在这个组合问题中，若已选项加可选项小于目标长度，那么就可以剪枝。
-```
+算法思路：
 
-- ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-21-52-25.png)
+- 用 `path` 记录当前已经选出的组合，用 `start` 表示下一次只能从哪个数字开始选，保证组合中的元素严格递增，从而避免重复
+- 每次从区间 `[start, n]` 中挑一个数字加入 `path`，然后递归去选择下一个数字
+- 当 `path` 的长度等于 `k` 时，说明已经构造出一个合法组合，将其拷贝加入答案
 
-```javascript
-var combine = function (n, k) {
-  const ans = []
-  const backtracking = (path, startIndex, endIndex) => {
-    if (path.length + (endIndex - startIndex + 1) < k) return
-    if (path.length === k) {
-      ans.push([...path])
-      return
-    }
-    path.push(startIndex) // 选择
-    backtracking(path, startIndex + 1, endIndex)
-    path.pop() // 撤销
-    backtracking(path, startIndex + 1, endIndex)
-  }
-  backtracking([], 1, n)
-  return ans
-}
-// 结合上述的「循环」+「递归」来看，会发现每次撤销选择后，再次进入下次循环时，发生变化的仅有 startIndex，直接在撤销时，再次调用 backtracking 也同样能实现循环的效果。
-```
+### 2.1. 剪枝策略
 
-- ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-21-52-34.png)
+`path.length` 表示当前已经固定的数字的数量，还差 `x` 个数字凑满 `k` 个数，`x = k - path.length`。
 
-```javascript
-var combine = function (n, k) {
-  const ans = []
-  const backtracking = (path, startIndex, endIndex) => {
-    if (path.length + (endIndex - startIndex + 1) < k) return
-    if (path.length === k) {
-      ans.push(path)
-      return
-    }
-    backtracking([...path, startIndex], startIndex + 1, endIndex)
-    backtracking([...path], startIndex + 1, endIndex)
-  }
-  backtracking([], 1, n)
-  return ans
-}
-// 写法上还可以简化为上面这种形式，将「选择」「撤销」操作合并到递归函数的参数中。
-// 若采用上面这种写法，那么我们在记录结果 ans.push(path) 时，就不用再去 path.slice() 拷贝 path 了，因为每次传入的 path 都是一个全新的 path，和之前的 path 没有关系。
-```
+如果当前枚举的起点太靠后，后面剩余数字数量（小于 `x`）不足以凑满长度为 `k` 的组合，就没有继续搜索的必要。
 
-- ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-03-21-52-43.png)
+边界区间：
+
+- `[n - x + 1, n]` => 这段区间的数字全算上，一共 `x` 个数字，正好可以让 `path.length` 凑满 `k` 个数
+- `[n - x + 2, n]` => 这段区间的数字全算上，一共 `x - 1` 个数字
+
+综上：循环上界可以写成 `n - (k - path.length) + 1`。
+
+这种剪枝不会改变结果，只是提前跳过不可能得到合法组合的分支，提高搜索效率。
