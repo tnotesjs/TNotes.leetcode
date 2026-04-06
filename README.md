@@ -85,7 +85,7 @@
 - [ ] [0037. 解数独【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0037.%20%E8%A7%A3%E6%95%B0%E7%8B%AC%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
 - [ ] [0038. 外观数列【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0038.%20%E5%A4%96%E8%A7%82%E6%95%B0%E5%88%97%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [x] [0039. 组合总和【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0039.%20%E7%BB%84%E5%90%88%E6%80%BB%E5%92%8C%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
-- [ ] [0040. 组合总和 II【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0040.%20%E7%BB%84%E5%90%88%E6%80%BB%E5%92%8C%20II%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
+- [x] [0040. 组合总和 II【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0040.%20%E7%BB%84%E5%90%88%E6%80%BB%E5%92%8C%20II%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0041. 缺失的第一个正数【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0041.%20%E7%BC%BA%E5%A4%B1%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%AD%A3%E6%95%B0%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
 - [ ] [0042. 接雨水【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0042.%20%E6%8E%A5%E9%9B%A8%E6%B0%B4%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
 - [ ] [0043. 字符串相乘【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0043.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9B%B8%E4%B9%98%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)

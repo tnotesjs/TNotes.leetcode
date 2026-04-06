@@ -9,7 +9,7 @@ var subsetsWithDup = function (nums) {
   const backtrack = (start, path) => {
     result.push([...path])
     for (let i = start; i < nums.length; i++) {
-      if (i > start && nums[i] === nums[i - 1]) continue // 跳过同层重复
+      if (i > start && nums[i] === nums[i - 1]) continue // 剪枝，跳过同层重复
       path.push(nums[i])
       backtrack(i + 1, path)
       path.pop()
