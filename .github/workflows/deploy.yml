@@ -48,7 +48,7 @@ jobs:
         run: |
           sudo swapoff /swapfile || true
           sudo rm -f /swapfile
-          sudo fallocate -l 8G /swapfile
+          sudo fallocate -l 14G /swapfile
           sudo chmod 600 /swapfile
           sudo mkswap /swapfile
           sudo swapon /swapfile
@@ -58,8 +58,16 @@ jobs:
         run: pnpm tn:update
       - name: Build with VitePress
         env:
-          NODE_OPTIONS: --max-old-space-size=8192
+          NODE_OPTIONS: --max-old-space-size=16384
         run: pnpm exec tnotes --build
+      - name: Verify build output
+        run: |
+          if [ ! -f .vitepress/dist/index.html ]; then
+            echo "::error::Build output is incomplete - index.html not found"
+            echo "The build likely ran out of memory during SSR rendering."
+            exit 1
+          fi
+          echo "Build output verified: $(find .vitepress/dist -name '*.html' | wc -l) HTML files generated"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

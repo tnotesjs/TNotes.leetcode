@@ -10,5 +10,5 @@
 import { defineNotesConfig } from '@tnotesjs/core/vitepress/config'
 
 export default defineNotesConfig({
-  buildConcurrency: process.env.CI ? 4 : 16,
+  buildConcurrency: process.env.CI ? 2 : 16,
 })
