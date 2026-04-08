@@ -2,51 +2,88 @@
  * Return an array of arrays of strings.
  * The sizes of these arrays are returned as *returnSize and **returnColumnSizes respectively.
  */
-void backtrack(char* s, int n, bool** dp, char**** res, int* returnSize, int** returnColumnSizes, char** path, int pathLen, int start) {
-    if (start == n) {
-        *res = realloc(*res, sizeof(char**) * (*returnSize + 1));
-        (*res)[*returnSize] = malloc(sizeof(char*) * pathLen);
-        *returnColumnSizes = realloc(*returnColumnSizes, sizeof(int) * (*returnSize + 1));
-        (*returnColumnSizes)[*returnSize] = pathLen;
-        for (int i = 0; i < pathLen; i++) {
-            (*res)[*returnSize][i] = malloc(strlen(path[i]) + 1);
-            strcpy((*res)[*returnSize][i], path[i]);
-        }
-        (*returnSize)++;
+bool dp[16][16];
+int pathStarts[16];
+int pathLens[16];
+int totalRows;
+int totalCells;
+int totalChars;
+int rowIndex;
+int cellIndex;
+int charIndex;
+char* source;
+int sourceLen;
+char*** answers;
+int* columnSizes;
+char** cellPool;
+char* charPool;
+
+void countPartitions(int start, int depth, int charsUsed) {
+    if (start == sourceLen) {
+        totalRows++;
+        totalCells += depth;
+        totalChars += charsUsed;
         return;
     }
-    for (int end = start; end < n; end++) {
-        if (dp[start][end]) {
-            int len = end - start + 1;
-            path[pathLen] = malloc(len + 1);
-            strncpy(path[pathLen], s + start, len);
-            path[pathLen][len] = '\0';
-            backtrack(s, n, dp, res, returnSize, returnColumnSizes, path, pathLen + 1, end + 1);
-            free(path[pathLen]);
+
+    for (int end = start; end < sourceLen; end++) {
+        if (!dp[start][end]) continue;
+        countPartitions(end + 1, depth + 1, charsUsed + (end - start + 2));
+    }
+}
+
+void buildPartitions(int start, int depth) {
+    if (start == sourceLen) {
+        answers[rowIndex] = cellPool + cellIndex;
+        columnSizes[rowIndex] = depth;
+
+        for (int i = 0; i < depth; i++) {
+            int len = pathLens[i];
+            answers[rowIndex][i] = charPool + charIndex;
+            memcpy(charPool + charIndex, source + pathStarts[i], len);
+            charIndex += len;
+            charPool[charIndex++] = '\0';
         }
+
+        cellIndex += depth;
+        rowIndex++;
+        return;
+    }
+
+    for (int end = start; end < sourceLen; end++) {
+        if (!dp[start][end]) continue;
+        pathStarts[depth] = start;
+        pathLens[depth] = end - start + 1;
+        buildPartitions(end + 1, depth + 1);
     }
 }
 
 char*** partition(char* s, int* returnSize, int** returnColumnSizes) {
-    int n = strlen(s);
-    // 预处理回文串 DP
-    bool** dp = malloc(sizeof(bool*) * n);
-    for (int i = 0; i < n; i++) {
-        dp[i] = malloc(sizeof(bool) * n);
-        for (int j = 0; j < n; j++) dp[i][j] = true;
-    }
-    for (int i = n - 1; i >= 0; i--) {
-        for (int j = i + 1; j < n; j++) {
-            dp[i][j] = (s[i] == s[j]) && dp[i + 1][j - 1];
+    source = s;
+    sourceLen = strlen(s);
+
+    for (int i = sourceLen - 1; i >= 0; i--) {
+        for (int j = i; j < sourceLen; j++) {
+            dp[i][j] = s[i] == s[j] && (j - i < 2 || dp[i + 1][j - 1]);
         }
     }
-    char*** res = NULL;
-    *returnSize = 0;
-    *returnColumnSizes = NULL;
-    char** path = malloc(sizeof(char*) * n);
-    backtrack(s, n, dp, &res, returnSize, returnColumnSizes, path, 0, 0);
-    free(path);
-    for (int i = 0; i < n; i++) free(dp[i]);
-    free(dp);
-    return res;
+
+    totalRows = 0;
+    totalCells = 0;
+    totalChars = 0;
+    countPartitions(0, 0, 0);
+
+    answers = (char***)malloc(sizeof(char**) * totalRows);
+    columnSizes = (int*)malloc(sizeof(int) * totalRows);
+    cellPool = (char**)malloc(sizeof(char*) * totalCells);
+    charPool = (char*)malloc(sizeof(char) * totalChars);
+
+    rowIndex = 0;
+    cellIndex = 0;
+    charIndex = 0;
+    buildPartitions(0, 0);
+
+    *returnSize = totalRows;
+    *returnColumnSizes = columnSizes;
+    return answers;
 }

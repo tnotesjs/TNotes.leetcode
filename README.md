@@ -179,7 +179,7 @@
 - [ ] [0128. 最长连续序列【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0128.%20%E6%9C%80%E9%95%BF%E8%BF%9E%E7%BB%AD%E5%BA%8F%E5%88%97%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0129. 求根节点到叶节点数字之和【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0129.%20%E6%B1%82%E6%A0%B9%E8%8A%82%E7%82%B9%E5%88%B0%E5%8F%B6%E8%8A%82%E7%82%B9%E6%95%B0%E5%AD%97%E4%B9%8B%E5%92%8C%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0130. 被围绕的区域【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0130.%20%E8%A2%AB%E5%9B%B4%E7%BB%95%E7%9A%84%E5%8C%BA%E5%9F%9F%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
-- [ ] [0131. 分割回文串【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0131.%20%E5%88%86%E5%89%B2%E5%9B%9E%E6%96%87%E4%B8%B2%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
+- [x] [0131. 分割回文串【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0131.%20%E5%88%86%E5%89%B2%E5%9B%9E%E6%96%87%E4%B8%B2%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0132. 分割回文串 II【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0132.%20%E5%88%86%E5%89%B2%E5%9B%9E%E6%96%87%E4%B8%B2%20II%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
 - [ ] [0133. 克隆图【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0133.%20%E5%85%8B%E9%9A%86%E5%9B%BE%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0134. 加油站【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0134.%20%E5%8A%A0%E6%B2%B9%E7%AB%99%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
