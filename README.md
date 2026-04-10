@@ -530,7 +530,7 @@
 - [ ] [0470. 用 Rand7() 实现 Rand10()【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0470.%20%E7%94%A8%20Rand7()%20%E5%AE%9E%E7%8E%B0%20Rand10()%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0471. 编码最短长度的字符串【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0471.%20%E7%BC%96%E7%A0%81%E6%9C%80%E7%9F%AD%E9%95%BF%E5%BA%A6%E7%9A%84%E5%AD%97%E7%AC%A6%E4%B8%B2%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
 - [ ] [0472. 连接词【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0472.%20%E8%BF%9E%E6%8E%A5%E8%AF%8D%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
-- [ ] [0473. 火柴拼正方形【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0473.%20%E7%81%AB%E6%9F%B4%E6%8B%BC%E6%AD%A3%E6%96%B9%E5%BD%A2%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
+- [x] [0473. 火柴拼正方形【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0473.%20%E7%81%AB%E6%9F%B4%E6%8B%BC%E6%AD%A3%E6%96%B9%E5%BD%A2%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [x] [0474. 一和零【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0474.%20%E4%B8%80%E5%92%8C%E9%9B%B6%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0475. 供暖器【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0475.%20%E4%BE%9B%E6%9A%96%E5%99%A8%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [x] [0476. 数字的补数【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0476.%20%E6%95%B0%E5%AD%97%E7%9A%84%E8%A1%A5%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
