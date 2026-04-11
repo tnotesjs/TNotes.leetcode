@@ -1052,7 +1052,7 @@
 - [x] [0977. 有序数组的平方【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0977.%20%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E7%9A%84%E5%B9%B3%E6%96%B9%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
 - [ ] [0978. 最长湍流子数组【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0978.%20%E6%9C%80%E9%95%BF%E6%B9%8D%E6%B5%81%E5%AD%90%E6%95%B0%E7%BB%84%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0979. 在二叉树中分配硬币【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0979.%20%E5%9C%A8%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E5%88%86%E9%85%8D%E7%A1%AC%E5%B8%81%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
-- [ ] [0980. 不同路径 III【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0980.%20%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%84%20III%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
+- [x] [0980. 不同路径 III【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0980.%20%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%84%20III%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
 - [ ] [0981. 基于时间的键值存储【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0981.%20%E5%9F%BA%E4%BA%8E%E6%97%B6%E9%97%B4%E7%9A%84%E9%94%AE%E5%80%BC%E5%AD%98%E5%82%A8%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0982. 按位与为零的三元组【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0982.%20%E6%8C%89%E4%BD%8D%E4%B8%8E%E4%B8%BA%E9%9B%B6%E7%9A%84%E4%B8%89%E5%85%83%E7%BB%84%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
 - [ ] [0983. 最低票价【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0983.%20%E6%9C%80%E4%BD%8E%E7%A5%A8%E4%BB%B7%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
