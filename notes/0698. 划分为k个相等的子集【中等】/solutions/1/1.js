@@ -25,3 +25,6 @@ var canPartitionKSubsets = function (nums, k) {
   }
   return backtrack(0)
 }
+
+canPartitionKSubsets([4, 3, 2, 3, 5, 2, 1], 4) // true
+// canPartitionKSubsets([10, 1, 10, 9, 6, 1, 9, 5, 9, 10, 7, 8, 5, 2, 10, 8], 11)
