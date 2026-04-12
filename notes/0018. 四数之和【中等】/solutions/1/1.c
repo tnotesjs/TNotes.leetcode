@@ -21,6 +21,7 @@ int** fourSum(int* nums, int numsSize, int target, int* returnSize, int** return
             if (j > i + 1 && nums[j] == nums[j - 1]) continue;
             int left = j + 1, right = numsSize - 1;
             while (left < right) {
+                // C 版本用 long long 防止四数相加溢出（数有效内容可达 -4 * 10^9 ~ 4 * 10^9）
                 long long sum = (long long)nums[i] + nums[j] + nums[left] + nums[right];
                 if (sum == target) {
                     if (*returnSize == capacity) {
