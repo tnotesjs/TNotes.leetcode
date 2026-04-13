@@ -69,7 +69,7 @@
 - [x] [0021. 合并两个有序链表【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0021.%20%E5%90%88%E5%B9%B6%E4%B8%A4%E4%B8%AA%E6%9C%89%E5%BA%8F%E9%93%BE%E8%A1%A8%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
 - [x] [0022. 括号生成【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0022.%20%E6%8B%AC%E5%8F%B7%E7%94%9F%E6%88%90%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0023. 合并 K 个升序链表【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0023.%20%E5%90%88%E5%B9%B6%20K%20%E4%B8%AA%E5%8D%87%E5%BA%8F%E9%93%BE%E8%A1%A8%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
-- [ ] [0024. 两两交换链表中的节点【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0024.%20%E4%B8%A4%E4%B8%A4%E4%BA%A4%E6%8D%A2%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E8%8A%82%E7%82%B9%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
+- [x] [0024. 两两交换链表中的节点【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0024.%20%E4%B8%A4%E4%B8%A4%E4%BA%A4%E6%8D%A2%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E8%8A%82%E7%82%B9%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0025. K 个一组翻转链表【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0025.%20K%20%E4%B8%AA%E4%B8%80%E7%BB%84%E7%BF%BB%E8%BD%AC%E9%93%BE%E8%A1%A8%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
 - [x] [0026. 删除有序数组中的重复项【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0026.%20%E5%88%A0%E9%99%A4%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E9%A1%B9%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
 - [x] [0027. 移除元素【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0027.%20%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)

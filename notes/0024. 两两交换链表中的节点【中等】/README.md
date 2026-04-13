@@ -20,8 +20,8 @@
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-09-21-20-02.png)
 
 ```txt
-输入：head = [1,2,3,4]
-输出：[2,1,4,3]
+输入：head = [1, 2, 3, 4]
+输出：[2, 1, 4, 3]
 ```
 
 ---
@@ -51,6 +51,8 @@
 
 ## 2. 🎯 s.1 - 虚拟头节点 + 迭代
 
+![svg](./assets/1.svg)
+
 ::: code-group
 
 <<< ./solutions/1/1.c [c]
@@ -67,6 +69,10 @@
 算法思路：
 
 - 引入虚拟头节点 `dummy`，避免对头节点做特殊处理
-- 用 `cur` 指向当前对的前驱节点，`first = cur.next`、`second = cur.next.next`
-- 交换操作：`first.next = second.next` → `second.next = first` → `cur.next = second`，顺序不可丹换
-- 每轮结束后 `cur = first`，`first` 就是下一对的前驱，继续循环
+- 用 `cur` 指向当前对的前驱节点，每次交换之前，根据 `cur` 初始化辅助指针 `first`、`second` 的指向：
+  - `first = cur.next`
+  - `second = cur.next.next`
+- 交换操作：`1. first.next = second.next` → `2. second.next = first` → `3. cur.next = second`
+  - 注意：顺序不可调换，每一次交换操作完成，相当于将链表相邻的俩成员调换了位置
+  - 提示：若理解起来比较吃力，可拿纸笔画一下指针指向的变化
+- 每轮结束后 `first` 就是下一对的前驱，更新 `cur` 的指向 `cur = first`，继续循环
