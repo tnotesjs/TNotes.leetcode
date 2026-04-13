@@ -2,15 +2,9 @@
 
 <!-- region:toc -->
 
-::: details 📚 相关资源
-
-- [📂 TNotes.yuque（笔记附件资源）](https://www.yuque.com/tdahuyou/tnotes.yuque/)
-  - [TNotes.yuque.leetcode.0026](https://www.yuque.com/tdahuyou/tnotes.yuque/leetcode.0026)
-
-:::
-
 - [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 快慢指针](#2--s1---快慢指针)
+- [3. 🔗 引用](#3--引用)
 
 <!-- endregion:toc -->
 
@@ -18,7 +12,7 @@
 
 - [leetcode](https://leetcode.cn/problems/remove-duplicates-from-sorted-array)
 
-给你一个 非严格递增排列 的数组 `nums`，请你 [原地](http://baike.baidu.com/item/%E5%8E%9F%E5%9C%B0%E7%AE%97%E6%B3%95) 删除重复出现的元素，使每个元素 只出现一次，返回删除后数组的新长度。元素的 相对顺序 应该保持 一致。然后返回 `nums` 中唯一元素的个数。
+给你一个非严格递增排列的数组 `nums`，请你 [原地][1] 删除重复出现的元素，使每个元素只出现一次，返回删除后数组的新长度。元素的相对顺序应该保持一致。然后返回 `nums` 中唯一元素的个数。
 
 考虑 `nums` 的唯一元素的数量为 `k`，你需要做以下事情确保你的题解可以被通过：
 
@@ -41,72 +35,67 @@ for (int i = 0; i < k; i++) {
 }
 ```
 
-如果所有断言都通过，那么您的题解将被 通过。
+如果所有断言都通过，那么您的题解将被通过。
+
+---
 
 示例 1：
 
 ```txt
 输入：nums = [1,1,2]
 输出：2, nums = [1,2,_]
-解释：函数应该返回新的长度 2，并且原数组 nums 的前两个元素被修改为 1, 2。不需要考虑数组中超出新长度后面的元素。
 ```
+
+解释：函数应该返回新的长度 2，并且原数组 nums 的前两个元素被修改为 1, 2。不需要考虑数组中超出新长度后面的元素。
+
+---
 
 示例 2：
 
 ```txt
 输入：nums = [0,0,1,1,1,2,2,3,3,4]
 输出：5, nums = [0,1,2,3,4]
-解释：函数应该返回新的长度 5， 并且原数组 nums 的前五个元素被修改为 0, 1, 2, 3, 4。不需要考虑数组中超出新长度后面的元素。
 ```
+
+解释：函数应该返回新的长度 5，并且原数组 nums 的前五个元素被修改为 0, 1, 2, 3, 4。不需要考虑数组中超出新长度后面的元素。
+
+---
 
 提示：
 
 - `1 <= nums.length <= 3 * 10^4`
 - `-10^4 <= nums[i] <= 10^4`
-- `nums` 已按 非严格递增 排列
+- `nums` 已按非严格递增排列
 
 ## 2. 🎯 s.1 - 快慢指针
 
-::: swiper
-
-![1](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-04-11-08-47-33.png)
-
-![2](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-04-11-08-47-43.png)
-
-![3](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-04-11-08-48-33.png)
-
-![4](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-04-11-08-48-42.png)
-
-![5](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-04-11-08-48-51.png)
-
-![6](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-04-11-08-49-00.png)
-
-:::
+![svg](./assets/1.svg)
 
 ::: code-group
 
-```js
-/**
- * 22-08-15
- * @param {number[]} nums
- * @return {number}
- */
-var removeDuplicates = function (nums) {
-  let slow = 0,
-    fast = 1
-  while (fast < nums.length) {
-    if (nums[fast] !== nums[slow]) nums[++slow] = nums[fast++]
-    else fast++
-  }
-  return slow + 1
-}
-```
+<<< ./solutions/1/1.c [c]
+
+<<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
 
 :::
 
-::: details
+- 时间复杂度：$O(n)$，其中 $n$ 是数组长度；快指针从左到右扫描一遍数组，每个元素最多访问一次
+- 空间复杂度：$O(1)$，只使用了快慢指针这几个常数级别的额外变量
 
-- 题解说明：
-  - 定义俩指针 `fast` `slow`，其中快指针 `fast` 不断往后探索，一旦发现 `fast` 指向的成员和 `slow` 指向的成员不等时，`slow` 指针才会往后移动，并将此时 `fast` 指针指向的值赋值给 `slow` 指向的值。直到 `fast` 遍历完整个 `nums`，最后将 `slow + 1` 返回即可。
+算法思路：
 
-:::
+- 因为数组已经按非严格递增顺序排列，所以重复元素一定连续出现，这使得我们可以只比较相邻的“新元素”和当前已保留区间的最后一个元素
+- 用慢指针 `slow` 表示当前去重后数组最后一个有效元素的位置，也就是下一个唯一元素应该写入位置的前一个下标
+- 用快指针 `fast` 从左到右扫描数组，负责寻找新的唯一元素
+- 如果 `nums[fast] != nums[slow]`，说明找到了一个新的唯一值，就先将 `slow` 向后移动一位，再把 `nums[fast]` 写到 `nums[slow]` 上
+- 如果 `nums[fast] == nums[slow]`，说明当前元素是重复项，直接跳过即可
+- 遍历结束后，数组前 `slow + 1` 个位置就是去重后的结果，因此返回 `slow + 1`
+- 这种写法在原地完成去重，不需要额外数组，同时只扫描一次输入数组，是这题的标准最优解
+
+## 3. 🔗 引用
+
+- [原地算法 - 百度百科][1]
+
+[1]: http://baike.baidu.com/item/%E5%8E%9F%E5%9C%B0%E7%AE%97%E6%B3%95
