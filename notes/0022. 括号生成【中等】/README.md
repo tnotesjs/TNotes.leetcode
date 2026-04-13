@@ -2,22 +2,18 @@
 
 <!-- region:toc -->
 
-- [1. 🔗 links](#1--links)
-- [2. 📝 题目描述](#2--题目描述)
-- [3. 🎯 s.1 - 回溯算法](#3--s1---回溯算法)
+- [1. 📝 题目描述](#1--题目描述)
+- [2. 🎯 s.1 - 回溯 + 合法性剪枝](#2--s1---回溯--合法性剪枝)
 
 <!-- endregion:toc -->
 
-## 1. 🔗 links
-
-- https://leetcode.cn/problems/generate-parentheses/solutions/418884/shou-hua-tu-jie-gua-hao-sheng-cheng-hui-su-suan-fa/
-  - 「手画图解」从 22. 括号生成 看回溯算法的三个要点
-
-## 2. 📝 题目描述
+## 1. 📝 题目描述
 
 - [leetcode](https://leetcode.cn/problems/generate-parentheses/)
 
-数字 `n` 代表生成括号的对数，请你设计一个函数，用于能够生成所有可能的并且 有效的 括号组合。
+数字 `n` 代表生成括号的对数，请你设计一个函数，用于能够生成所有可能的并且有效的括号组合。
+
+---
 
 示例 1：
 
@@ -26,6 +22,8 @@
 输出：["((()))","(()())","(())()","()(())","()()()"]
 ```
 
+---
+
 示例 2：
 
 ```
@@ -33,38 +31,33 @@
 输出：["()"]
 ```
 
+---
+
 提示：
 
 - `1 <= n <= 8`
 
+## 2. 🎯 s.1 - 回溯 + 合法性剪枝
+
+![svg](./assets/1.svg)
+
+::: code-group
+
+<<< ./solutions/1/1.c [c]
+
+<<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
+
 :::
 
-## 3. 🎯 s.1 - 回溯算法
+- 时间复杂度：$O(C_n \times n)$，其中 $C_n$ 是第 $n$ 个卡特兰数；合法括号组合一共有 $C_n$ 个，而构造每个结果都需要 $O(n)$ 的拷贝或拼接开销
+- 空间复杂度：$O(n)$，递归栈深度和当前构造路径的长度都与括号对数成正比（不计答案）
 
-```js
-var generateParenthesis = function (n) {
-  const ans = []
+算法思路：
 
-  const dfs = (lRemain, rRemain, str) => {
-    if (str.length === n * 2) {
-      ans.push(str)
-      return
-    }
-
-    if (lRemain > 0) dfs(lRemain - 1, rRemain, str + '(')
-    if (rRemain > lRemain) dfs(lRemain, rRemain - 1, str + ')')
-  }
-
-  dfs(n, n, '')
-  return ans
-}
-```
-
-- ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-10-27-00-17-34.png)
-  - from: 「手画图解」从 22. 括号生成 看回溯算法的三个要点
-  - 该图片来自参考题解，图片中标注的顺序，是 dfs 依次入栈的次序。
-  - 图片中标注的顺序，是 dfs 依次入栈的次序。
-- 已选：`str`
-- 可选：由 `lRemain` 和 `rRemain` 决定
-- 结束：`str.length === n * 2`
-- 回溯的套路中，难点通常在于确定「可选」是什么，「已选」、「结束」往往都很容易明确。
+- 用回溯逐位构造答案，`leftUsed` 和 `rightUsed` 分别表示当前已经放入的左括号和右括号数量，`path` 表示当前构造中的括号序列
+- 任意时刻只要 `leftUsed < n`，就可以继续放左括号，因为左括号总数最多只能使用 `n` 个
+- 只有当 `rightUsed < leftUsed` 时，才允许放右括号；这保证了任意前缀中右括号数量都不会超过左括号数量，从而始终保持前缀合法
+- 当 `leftUsed == n` 且 `rightUsed == n` 时，说明已经构造出一个长度为 `2n` 的合法括号串，将其加入答案
+- 这种写法不会先生成所有长度为 `2n` 的括号序列再去校验，而是只在合法状态上继续搜索，因此是这题的标准最优解
