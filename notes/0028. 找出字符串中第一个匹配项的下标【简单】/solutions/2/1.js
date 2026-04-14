@@ -7,20 +7,33 @@ var strStr = function (haystack, needle) {
   const n = haystack.length
   const m = needle.length
 
-  if (m === 0) return 0 // 特殊情况处理：空字符串
+  if (m === 0) return 0
 
-  for (let i = 0; i <= n - m; i++) {
-    // 外层循环遍历主串
-    let match = true
-    for (let j = 0; j < m; j++) {
-      // 内层循环检查子串是否匹配
-      if (haystack[i + j] !== needle[j]) {
-        match = false
-        break
-      }
+  const next = new Array(m).fill(0)
+  let j = 0
+
+  for (let i = 1; i < m; i++) {
+    while (j > 0 && needle[i] !== needle[j]) {
+      j = next[j - 1]
     }
-    if (match) return i // 如果匹配成功，返回起始索引
+    if (needle[i] === needle[j]) {
+      j++
+    }
+    next[i] = j
   }
 
-  return -1 // 如果没有找到匹配的子串，返回 -1
+  j = 0
+  for (let i = 0; i < n; i++) {
+    while (j > 0 && haystack[i] !== needle[j]) {
+      j = next[j - 1]
+    }
+    if (haystack[i] === needle[j]) {
+      j++
+    }
+    if (j === m) {
+      return i - m + 1
+    }
+  }
+
+  return -1
 }
