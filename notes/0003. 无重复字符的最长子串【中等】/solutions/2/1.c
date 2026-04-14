@@ -1,5 +1,3 @@
-#include <string.h>
-
 int lengthOfLongestSubstring(char* s) {
     int len = strlen(s);
     int seen[128] = {0};
@@ -11,7 +9,8 @@ int lengthOfLongestSubstring(char* s) {
             seen[(unsigned char)s[right]] = 1;
             right++;
             int cur = right - left;
-            if (cur > ans) ans = cur;
+            if (cur > ans)
+                ans = cur;
         } else {
             // 窗口缩小
             seen[(unsigned char)s[left]] = 0;

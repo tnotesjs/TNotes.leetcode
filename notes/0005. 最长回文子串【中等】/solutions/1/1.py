@@ -14,4 +14,4 @@ class Solution:
                 if cur_len > max_len:
                     start, max_len = s0, cur_len
 
-        return s[start:start + max_len]
+        return s[start : start + max_len]

@@ -1,5 +1,29 @@
+# 以 clang-format 内置的 LLVM 风格为基础，再覆盖当前仓库关心的规则。
 BasedOnStyle: LLVM
+
+# 每一级缩进使用 4 个空格。
 IndentWidth: 4
-ColumnLimit: 100
+
+# 缩进时始终使用空格，不使用 Tab。
+UseTab: Never
+
+# 单行长度超过 80 列时自动换行。
+ColumnLimit: 80
+
+# 函数和控制语句的左花括号保持在同一行。
+BreakBeforeBraces: Attach
+
+# 指针声明采用和 LeetCode 统一的 C 风格，例如 `int* twoSum(int* nums, int numsSize, int target, int* returnSize) { }`。
 PointerAlignment: Left
+
+# 不根据现有文件内容自动推断指针对齐方式。
+DerivePointerAlignment: false
+
+# `switch` 语句中的 `case` 标签相对 `switch` 本体缩进一级。
+IndentCaseLabels: true
+
+# 仅允许空函数体保留在同一行。
 AllowShortFunctionsOnASingleLine: Empty
+
+# 循环语句始终展开为多行，不保留单行写法。
+AllowShortLoopsOnASingleLine: false

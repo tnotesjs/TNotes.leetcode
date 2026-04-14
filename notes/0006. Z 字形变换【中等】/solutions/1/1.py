@@ -7,7 +7,7 @@ class Solution:
 
         t = r * 2 - 2
         c = ((n + t - 1) // t) * (r - 1)
-        mat = [[''] * c for _ in range(r)]
+        mat = [[""] * c for _ in range(r)]
 
         x, y = 0, 0
         for i, ch in enumerate(s):
@@ -18,4 +18,4 @@ class Solution:
                 x -= 1
                 y += 1  # 向右上移动
 
-        return ''.join(ch for row in mat for ch in row if ch)
+        return "".join(ch for row in mat for ch in row if ch)

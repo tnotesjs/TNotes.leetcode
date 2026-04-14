@@ -1,7 +1,8 @@
 char* convert(char* s, int numRows) {
     int n = strlen(s);
     int r = numRows;
-    if (r == 1 || r >= n) return s;
+    if (r == 1 || r >= n)
+        return s;
 
     int t = r * 2 - 2;
     // 每行分配足够空间（最多 n 个字符）

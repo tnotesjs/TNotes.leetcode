@@ -2,12 +2,14 @@ int myAtoi(char* s) {
     int i = 0;
 
     // 1. 跳过前导空格
-    while (s[i] == ' ') i++;
+    while (s[i] == ' ')
+        i++;
 
     // 2. 判断符号
     int sign = 1;
     if (s[i] == '+' || s[i] == '-') {
-        if (s[i] == '-') sign = -1;
+        if (s[i] == '-')
+            sign = -1;
         i++;
     }
 

@@ -15,4 +15,4 @@ class Solution:
             else:
                 x -= 1  # 模拟指针移动，计算下一个 s[i] 应该插入到 rows[x] 的哪一行
 
-        return ''.join(''.join(row) for row in rows)
+        return "".join("".join(row) for row in rows)

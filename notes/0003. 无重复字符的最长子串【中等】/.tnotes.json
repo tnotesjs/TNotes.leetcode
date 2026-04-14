@@ -1,9 +1,7 @@
 {
   "bilibili": [],
   "tnotes": [],
-  "yuque": [
-    "leetcode.0003"
-  ],
+  "yuque": ["leetcode.0003"],
   "done": true,
   "enableDiscussions": true,
   "description": "",

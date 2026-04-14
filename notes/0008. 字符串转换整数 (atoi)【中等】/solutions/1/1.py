@@ -6,13 +6,13 @@ class Solution:
         i, n = 0, len(s)
 
         # 1. 跳过前导空格
-        while i < n and s[i] == ' ':
+        while i < n and s[i] == " ":
             i += 1
 
         # 2. 判断符号
         sign = 1
-        if i < n and s[i] in ('+', '-'):
-            if s[i] == '-':
+        if i < n and s[i] in ("+", "-"):
+            if s[i] == "-":
                 sign = -1
             i += 1
 

@@ -15,11 +15,12 @@ void centerSpread(char* s, int len, int l, int r, int* start, int* maxLen) {
 
 char* longestPalindrome(char* s) {
     int len = strlen(s);
-    if (len < 2) return s;
+    if (len < 2)
+        return s;
 
     int start = 0, maxLen = 1;
     for (int i = 0; i < len - 1; i++) {
-        centerSpread(s, len, i, i,     &start, &maxLen); // 奇数中心
+        centerSpread(s, len, i, i, &start, &maxLen);     // 奇数中心
         centerSpread(s, len, i, i + 1, &start, &maxLen); // 偶数中心
     }
 

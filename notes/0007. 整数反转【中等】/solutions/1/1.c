@@ -11,6 +11,7 @@ int reverse(int x) {
     }
 
     long long ans = atoll(buf);
-    if (ans < -2147483648 || ans > 2147483647) return 0;
+    if (ans < -2147483648 || ans > 2147483647)
+        return 0;
     return (int)ans;
 }

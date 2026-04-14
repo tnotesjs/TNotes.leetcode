@@ -118,6 +118,11 @@
   // Prettier 不添加语句结尾分号
   "prettier.semi": false,
 
+  // Black Formatter 优先使用当前 Python 环境中的 black
+  "black-formatter.importStrategy": "fromEnvironment",
+  // Python 扩展默认使用工作区根目录下的 .venv 作为解释器来源
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv",
+
   // HTML 文件的编辑器配置
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -162,23 +167,31 @@
     "editor.formatOnSave": false
   },
 
-  // Python 文件：4 个空格
+  // Python 文件：4 个空格，并在保存时自动使用 Black 格式化
   "[python]": {
     "editor.tabSize": 4,
-    "editor.insertSpaces": true
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true
   },
 
   // C 文件：4 个空格
   "[c]": {
     "editor.tabSize": 4,
-    "editor.insertSpaces": true
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "ms-vscode.cpptools"
   },
 
   // C++ 文件：4 个空格
   "[cpp]": {
     "editor.tabSize": 4,
-    "editor.insertSpaces": true
+    "editor.insertSpaces": true,
+    "editor.defaultFormatter": "ms-vscode.cpptools"
   },
+
+  // C/C++ 使用仓库根目录下的 .clang-format 作为统一格式化规则
+  "C_Cpp.clang_format_style": "file",
 
   // 禁用 C/C++ 插件的 IntelliSense 错误提示（避免因缺少头文件导致的误报）
   "C_Cpp.errorSquiggles": "disabled",
