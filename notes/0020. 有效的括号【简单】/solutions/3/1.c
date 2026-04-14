@@ -1,3 +1,1 @@
-bool isValid(char* s) {
-    
-}
+// todo

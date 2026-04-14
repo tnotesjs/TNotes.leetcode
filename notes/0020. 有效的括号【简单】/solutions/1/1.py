@@ -6,12 +6,12 @@ class Solution:
         stack = []
 
         for ch in s:
-            if ch == '(':
-                stack.append(')')
-            elif ch == '[':
-                stack.append(']')
-            elif ch == '{':
-                stack.append('}')
+            if ch == "(":
+                stack.append(")")
+            elif ch == "[":
+                stack.append("]")
+            elif ch == "{":
+                stack.append("}")
             else:
                 if not stack or ch != stack.pop():
                     return False

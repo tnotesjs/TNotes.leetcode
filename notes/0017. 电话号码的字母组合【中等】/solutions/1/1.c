@@ -1,10 +1,11 @@
 /**
  * Note: The returned array must be malloced, assume caller calls free().
  */
-const char* MAP[] = {"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
+const char* MAP[] = {"",    "",    "abc",  "def", "ghi",
+                     "jkl", "mno", "pqrs", "tuv", "wxyz"};
 
-void backtrack(char* digits, int index, char* path, int pathLen,
-               char** ans, int* returnSize) {
+void backtrack(char* digits, int index, char* path, int pathLen, char** ans,
+               int* returnSize) {
     if (digits[index] == '\0') {
         ans[*returnSize] = (char*)malloc((pathLen + 1) * sizeof(char));
         strncpy(ans[*returnSize], path, pathLen);
@@ -22,7 +23,8 @@ void backtrack(char* digits, int index, char* path, int pathLen,
 char** letterCombinations(char* digits, int* returnSize) {
     *returnSize = 0;
     int n = strlen(digits);
-    if (n == 0) return NULL;
+    if (n == 0)
+        return NULL;
 
     // 最多 4 个数字，每个最多 4 个字母，最多 4^4 = 256 种组合
     char** ans = (char**)malloc(256 * sizeof(char*));

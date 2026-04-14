@@ -2,7 +2,8 @@ char* longestCommonPrefix(char** strs, int strsSize) {
     // 找最短字符串
     char* minStr = strs[0];
     for (int i = 1; i < strsSize; i++)
-        if (strlen(strs[i]) < strlen(minStr)) minStr = strs[i];
+        if (strlen(strs[i]) < strlen(minStr))
+            minStr = strs[i];
 
     int m = strlen(minStr);
     for (int i = 0; i < m; i++)

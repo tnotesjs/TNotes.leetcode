@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 // node scripts/format-check/format-check.js
+// node scripts/format-check/format-check.js --fix
 // node scripts/format-check/format-check.js --notes-range=all
 // node scripts/format-check/format-check.js --notes-range=0001-0100
 // node scripts/format-check/format-check.js --notes-range=0026,0131,0200-0210
@@ -15,34 +16,23 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 const repoRoot = path.resolve(__dirname, '../..')
 const notesRoot = path.join(repoRoot, 'notes')
-const scriptsRoot = path.join(repoRoot, 'scripts')
-
-const IGNORE_DIRS = new Set([
-  '.git',
-  'node_modules',
-  'dist',
-  'out',
-  '.vitepress',
-  '.venv',
-  'assets',
-])
 
 const PRETTIER_EXTS = new Set(['.js'])
 const CLANG_EXTS = new Set(['.c', '.cpp'])
 const PYTHON_EXTS = new Set(['.py'])
 
 function printHelp() {
-  console.log(
-    '用法：node scripts/format-check/format-check.js [--notes-range=范围]',
-  )
+  console.log('用法：node scripts/format-check/format-check.js [选项]')
   console.log('')
-  console.log('参数说明：')
-  console.log('- --notes-range=all')
-  console.log('  扫描全部 notes 目录（默认值）')
-  console.log('- --notes-range=0001-0100')
-  console.log('  只扫描编号落在 0001~0100 的题目目录')
-  console.log('- --notes-range=0026,0131,0200-0210')
-  console.log('  支持多个编号或编号区间，使用英文逗号分隔')
+  console.log('选项：')
+  console.log('  --fix                      自动修复格式问题')
+  console.log('  --notes-range=范围         指定检查的题目范围')
+  console.log('  --help, -h                 显示帮助信息')
+  console.log('')
+  console.log('范围示例：')
+  console.log('  --notes-range=all              扫描全部题目（默认值）')
+  console.log('  --notes-range=0001-0100        只扫描编号 0001~0100')
+  console.log('  --notes-range=0026,0131,0200-0210  多个编号或区间，逗号分隔')
 }
 
 function parseNotesRange(rangeText) {
@@ -71,12 +61,18 @@ function parseArgs(argv) {
   const options = {
     notesRanges: null,
     notesRangeText: 'all',
+    fix: false,
     showHelp: false,
   }
 
   for (const arg of argv) {
     if (arg === '--help' || arg === '-h') {
       options.showHelp = true
+      continue
+    }
+
+    if (arg === '--fix') {
+      options.fix = true
       continue
     }
 
@@ -91,10 +87,6 @@ function parseArgs(argv) {
   }
 
   return options
-}
-
-function toPosix(filePath) {
-  return path.relative(repoRoot, filePath).split(path.sep).join('/')
 }
 
 function getLocalBin(name) {
@@ -180,53 +172,31 @@ function isNoteInRange(dirName, notesRanges) {
   )
 }
 
-function collectFiles(dirPath, result = []) {
-  if (!fs.existsSync(dirPath)) return result
-
-  const entries = fs.readdirSync(dirPath, { withFileTypes: true })
-  for (const entry of entries) {
-    if (entry.isDirectory()) {
-      if (IGNORE_DIRS.has(entry.name)) continue
-      collectFiles(path.join(dirPath, entry.name), result)
-      continue
-    }
-
-    const filePath = path.join(dirPath, entry.name)
-    const ext = path.extname(entry.name).toLowerCase()
-    if (PRETTIER_EXTS.has(ext) || CLANG_EXTS.has(ext) || PYTHON_EXTS.has(ext)) {
-      result.push(filePath)
-    }
-  }
-
-  return result
-}
-
-// notes 目录按题号分目录组织，这里允许通过命令行参数只检查某一段题号范围。
-function collectNoteFiles(notesRanges) {
+// 递归收集 solutions 目录下的所有可格式化文件
+function collectSolutionFiles(solutionsDir) {
   const result = []
+  if (!fs.existsSync(solutionsDir)) return result
 
-  if (!fs.existsSync(notesRoot)) return result
+  function walk(dir) {
+    const entries = fs.readdirSync(dir, { withFileTypes: true })
+    for (const entry of entries) {
+      if (entry.isDirectory()) {
+        walk(path.join(dir, entry.name))
+        continue
+      }
 
-  const entries = fs.readdirSync(notesRoot, { withFileTypes: true })
-  for (const entry of entries) {
-    const fullPath = path.join(notesRoot, entry.name)
-
-    if (!entry.isDirectory()) {
       const ext = path.extname(entry.name).toLowerCase()
       if (
         PRETTIER_EXTS.has(ext) ||
         CLANG_EXTS.has(ext) ||
         PYTHON_EXTS.has(ext)
       ) {
-        result.push(fullPath)
+        result.push(path.join(dir, entry.name))
       }
-      continue
     }
-
-    if (!isNoteInRange(entry.name, notesRanges)) continue
-    collectFiles(fullPath, result)
   }
 
+  walk(solutionsDir)
   return result
 }
 
@@ -237,50 +207,23 @@ function run(command, args) {
   })
 }
 
-function checkBasicTextRules(filePath, issues) {
-  const content = fs.readFileSync(filePath, 'utf8')
-  const ext = path.extname(filePath).toLowerCase()
+// ---- 检查函数 ----
 
-  if (content.includes('\r')) {
-    issues.push({ file: toPosix(filePath), reason: '包含 CRLF 或 CR 换行符' })
-  }
-
-  if (content.length > 0 && !content.endsWith('\n')) {
-    issues.push({ file: toPosix(filePath), reason: '文件末尾缺少换行' })
-  }
-
-  if (ext === '.md') return
-
-  const lines = content.split('\n')
-  for (let i = 0; i < lines.length; i++) {
-    if (/[ \t]+$/.test(lines[i])) {
-      issues.push({
-        file: toPosix(filePath),
-        reason: `第 ${i + 1} 行存在行尾空白字符`,
-      })
-      break
-    }
-  }
-}
-
-function checkWithPrettier(filePath, prettier, issues, errors) {
+function checkWithPrettier(filePath, prettier) {
   const result = run(prettier.command, [
     ...prettier.argsPrefix,
     '--check',
     filePath,
   ])
-  if (result.status === 0) return
-  if (result.status === 1) {
-    issues.push({ file: toPosix(filePath), reason: 'Prettier 检查未通过' })
-    return
-  }
-  errors.push({
-    file: toPosix(filePath),
+  if (result.status === 0) return null
+  if (result.status === 1) return { reason: 'Prettier 检查未通过' }
+  return {
     reason: (result.stderr || result.stdout || 'Prettier 执行失败').trim(),
-  })
+    isError: true,
+  }
 }
 
-function checkWithClangFormat(filePath, clangFormat, issues, errors) {
+function checkWithClangFormat(filePath, clangFormat) {
   const original = fs.readFileSync(filePath, 'utf8')
   const result = run(clangFormat.command, [
     ...clangFormat.argsPrefix,
@@ -289,46 +232,119 @@ function checkWithClangFormat(filePath, clangFormat, issues, errors) {
   ])
 
   if (result.status !== 0) {
-    errors.push({
-      file: toPosix(filePath),
+    return {
       reason: (
         result.stderr ||
         result.stdout ||
         'clang-format 执行失败'
       ).trim(),
-    })
-    return
+      isError: true,
+    }
   }
 
-  if (result.stdout !== original) {
-    issues.push({ file: toPosix(filePath), reason: 'clang-format 检查未通过' })
-  }
+  if (result.stdout !== original) return { reason: 'clang-format 检查未通过' }
+  return null
 }
 
-function checkWithBlack(filePath, black, issues, errors) {
+function checkWithBlack(filePath, black) {
   const result = run(black.command, [
     ...black.argsPrefix,
     '--check',
     '--quiet',
     filePath,
   ])
-  if (result.status === 0) return
-  if (result.status === 1) {
-    issues.push({ file: toPosix(filePath), reason: 'Black 检查未通过' })
-    return
-  }
-  errors.push({
-    file: toPosix(filePath),
+  if (result.status === 0) return null
+  if (result.status === 1) return { reason: 'Black 检查未通过' }
+  return {
     reason: (result.stderr || result.stdout || 'Black 执行失败').trim(),
-  })
+    isError: true,
+  }
 }
 
-function printSection(title, items) {
-  if (items.length === 0) return
-  console.log(`\n${title}`)
-  for (const item of items) {
-    console.log(`- ${item.file}: ${item.reason}`)
+// ---- 修复函数 ----
+
+function fixWithPrettier(filePath, prettier) {
+  const before = fs.readFileSync(filePath, 'utf8')
+  const result = run(prettier.command, [
+    ...prettier.argsPrefix,
+    '--write',
+    filePath,
+  ])
+  if (result.status !== 0) {
+    return {
+      reason: (result.stderr || result.stdout || 'Prettier 修复失败').trim(),
+      isError: true,
+    }
   }
+  const after = fs.readFileSync(filePath, 'utf8')
+  if (before !== after) return { reason: 'Prettier 已修复', isFixed: true }
+  return null
+}
+
+function fixWithClangFormat(filePath, clangFormat) {
+  const before = fs.readFileSync(filePath, 'utf8')
+  const result = run(clangFormat.command, [
+    ...clangFormat.argsPrefix,
+    '-i',
+    '--style=file',
+    filePath,
+  ])
+  if (result.status !== 0) {
+    return {
+      reason: (
+        result.stderr ||
+        result.stdout ||
+        'clang-format 修复失败'
+      ).trim(),
+      isError: true,
+    }
+  }
+  const after = fs.readFileSync(filePath, 'utf8')
+  if (before !== after) return { reason: 'clang-format 已修复', isFixed: true }
+  return null
+}
+
+function fixWithBlack(filePath, black) {
+  const before = fs.readFileSync(filePath, 'utf8')
+  const result = run(black.command, [...black.argsPrefix, '--quiet', filePath])
+  if (result.status !== 0) {
+    return {
+      reason: (result.stderr || result.stdout || 'Black 修复失败').trim(),
+      isError: true,
+    }
+  }
+  const after = fs.readFileSync(filePath, 'utf8')
+  if (before !== after) return { reason: 'Black 已修复', isFixed: true }
+  return null
+}
+
+// ---- 统一处理入口 ----
+
+function processFile(filePath, fix, formatters) {
+  const ext = path.extname(filePath).toLowerCase()
+
+  if (PRETTIER_EXTS.has(ext)) {
+    if (!formatters.prettier) return null
+    return fix
+      ? fixWithPrettier(filePath, formatters.prettier)
+      : checkWithPrettier(filePath, formatters.prettier)
+  }
+
+  if (CLANG_EXTS.has(ext)) {
+    if (!formatters.clangFormat) return null
+    return fix
+      ? fixWithClangFormat(filePath, formatters.clangFormat)
+      : checkWithClangFormat(filePath, formatters.clangFormat)
+  }
+
+  if (PYTHON_EXTS.has(ext)) {
+    if (!formatters.black) return null
+    return fix
+      ? fixWithBlack(filePath, formatters.black)
+      : checkWithBlack(filePath, formatters.black)
+  }
+
+  return null
 }
 
 function main() {
@@ -338,107 +354,134 @@ function main() {
     return
   }
 
-  const files = [
-    ...collectNoteFiles(options.notesRanges),
-    ...collectFiles(scriptsRoot),
-  ]
-  const prettierFiles = []
-  const clangFiles = []
-  const pythonFiles = []
-
-  for (const filePath of files) {
-    const ext = path.extname(filePath).toLowerCase()
-    if (PRETTIER_EXTS.has(ext)) prettierFiles.push(filePath)
-    else if (CLANG_EXTS.has(ext)) clangFiles.push(filePath)
-    else if (PYTHON_EXTS.has(ext)) pythonFiles.push(filePath)
+  const formatters = {
+    prettier: resolvePrettier(),
+    clangFormat: resolveClangFormat(),
+    black: resolveBlack(),
   }
 
-  const basicIssues = []
-  const formatterIssues = []
-  const formatterErrors = []
   const warnings = []
-
-  for (const filePath of files) {
-    checkBasicTextRules(filePath, basicIssues)
+  if (!formatters.prettier) {
+    warnings.push('未找到 Prettier，建议执行 `pnpm add -D prettier`')
+  }
+  if (!formatters.clangFormat) {
+    warnings.push('未找到 clang-format，无法处理 C/C++ 文件')
+  }
+  if (!formatters.black) {
+    warnings.push(
+      process.platform === 'win32'
+        ? '未找到 Black，建议执行 `py -3 -m venv .venv && .venv\\Scripts\\python.exe -m pip install black`'
+        : '未找到 Black，建议执行 `python3 -m venv .venv && ./.venv/bin/python -m pip install black`',
+    )
   }
 
-  const prettier = resolvePrettier()
-  const clangFormat = resolveClangFormat()
-  const black = resolveBlack()
+  if (warnings.length > 0) {
+    for (const w of warnings) console.log(`⚠ ${w}`)
+    console.log('')
+  }
 
-  if (prettierFiles.length > 0) {
-    if (!prettier) {
-      warnings.push({
-        file: 'prettier',
-        reason:
-          '未找到 Prettier。建议在仓库根目录执行 `pnpm add -D prettier` 后重试。',
-      })
-    } else {
-      for (const filePath of prettierFiles) {
-        checkWithPrettier(filePath, prettier, formatterIssues, formatterErrors)
+  const mode = options.fix ? '修复' : '检查'
+  console.log(`格式${mode} — notes 范围：${options.notesRangeText}`)
+  console.log('')
+
+  if (!fs.existsSync(notesRoot)) {
+    console.log('notes 目录不存在')
+    return
+  }
+
+  const noteEntries = fs
+    .readdirSync(notesRoot, { withFileTypes: true })
+    .filter(
+      (e) => e.isDirectory() && isNoteInRange(e.name, options.notesRanges),
+    )
+    .sort((a, b) => a.name.localeCompare(b.name))
+
+  let totalFiles = 0
+  let totalIssues = 0
+  let totalFixed = 0
+  let totalErrors = 0
+
+  for (const noteEntry of noteEntries) {
+    const noteDir = path.join(notesRoot, noteEntry.name)
+    const solutionsDir = path.join(noteDir, 'solutions')
+    const files = collectSolutionFiles(solutionsDir)
+
+    if (files.length === 0) continue
+
+    const results = []
+
+    for (const filePath of files) {
+      const result = processFile(filePath, options.fix, formatters)
+      if (result) {
+        const displayPath = path
+          .relative(noteDir, filePath)
+          .split(path.sep)
+          .join('/')
+        results.push({ ...result, displayPath })
       }
     }
-  }
 
-  if (clangFiles.length > 0) {
-    if (!clangFormat) {
-      warnings.push({
-        file: 'clang-format',
-        reason: '未找到 clang-format，无法检查 C/C++ 文件格式',
-      })
-    } else {
-      for (const filePath of clangFiles) {
-        checkWithClangFormat(
-          filePath,
-          clangFormat,
-          formatterIssues,
-          formatterErrors,
+    totalFiles += files.length
+
+    const errors = results.filter((r) => r.isError)
+    const fixed = results.filter((r) => r.isFixed)
+    const issues = results.filter((r) => !r.isError && !r.isFixed)
+
+    totalErrors += errors.length
+    totalFixed += fixed.length
+    totalIssues += issues.length
+
+    // 按题目为单位输出进度
+    if (options.fix) {
+      if (errors.length > 0) {
+        console.log(
+          `✗ ${noteEntry.name} — ${errors.length} errors, ${fixed.length} fixed`,
         )
+      } else if (fixed.length > 0) {
+        console.log(`✓ ${noteEntry.name} — ${fixed.length} fixed`)
+      } else {
+        console.log(`✓ ${noteEntry.name} — ${files.length} files`)
       }
-    }
-  }
-
-  if (pythonFiles.length > 0) {
-    if (!black) {
-      warnings.push({
-        file: 'black',
-        reason:
-          process.platform === 'win32'
-            ? '未找到 Black。建议先创建虚拟环境并安装：`py -3 -m venv .venv`，再执行 `.venv\\Scripts\\python.exe -m pip install black`。'
-            : '未找到 Black。建议先创建虚拟环境并安装：`python3 -m venv .venv`，再执行 `./.venv/bin/python -m pip install black`。',
-      })
     } else {
-      for (const filePath of pythonFiles) {
-        checkWithBlack(filePath, black, formatterIssues, formatterErrors)
+      if (issues.length > 0 || errors.length > 0) {
+        console.log(
+          `✗ ${noteEntry.name} — ${issues.length + errors.length}/${files.length} files need formatting`,
+        )
+      } else {
+        console.log(`✓ ${noteEntry.name} — ${files.length} files`)
       }
+    }
+
+    for (const r of [...issues, ...errors, ...fixed]) {
+      console.log(`  - ${r.displayPath}: ${r.reason}`)
     }
   }
 
-  console.log('格式检查摘要')
-  console.log(`- notes 扫描范围：${options.notesRangeText}`)
-  console.log(`- 扫描文件总数：${files.length}`)
-  console.log(`- Prettier 检查文件数：${prettierFiles.length}`)
-  console.log(`- clang-format 检查文件数：${clangFiles.length}`)
-  console.log(`- Black 检查文件数：${pythonFiles.length}`)
+  // 汇总
+  console.log('')
+  console.log('摘要')
+  console.log(`- 扫描文件总数：${totalFiles}`)
+  if (options.fix) {
+    console.log(`- 已修复文件数：${totalFixed}`)
+    if (totalErrors > 0) console.log(`- 修复失败数：${totalErrors}`)
+  } else {
+    if (totalIssues > 0) console.log(`- 格式问题数：${totalIssues}`)
+    if (totalErrors > 0) console.log(`- 工具执行失败数：${totalErrors}`)
+  }
 
-  printSection('基础文本规则问题：', basicIssues)
-  printSection('格式化检查未通过：', formatterIssues)
-  printSection('格式化工具执行失败：', formatterErrors)
-  printSection('缺少格式化工具：', warnings)
-
-  const hasProblems =
-    basicIssues.length > 0 ||
-    formatterIssues.length > 0 ||
-    formatterErrors.length > 0 ||
-    warnings.length > 0
-
-  if (hasProblems) {
-    console.log('\n格式检查未通过')
+  if (totalIssues > 0 || totalErrors > 0) {
+    if (!options.fix && totalIssues > 0) {
+      console.log('')
+      console.log('提示：可使用 --fix 参数自动修复格式问题')
+    }
     process.exitCode = 1
     return
   }
 
-  console.log('\n所有已检查文件都符合当前格式规则')
+  console.log('')
+  console.log(
+    options.fix ? '所有格式问题已修复' : '所有已检查文件都符合当前格式规则',
+  )
 }
 
 try {

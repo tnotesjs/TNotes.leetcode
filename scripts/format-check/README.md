@@ -2,25 +2,28 @@
 
 用于存放格式检查相关脚本。
 
-| 文件              | 简介                                                           |
-| ----------------- | -------------------------------------------------------------- |
-| `format-check.js` | 检查 `notes/` 与 `scripts/` 下的文件是否符合仓库约定的格式规则 |
+| 文件              | 简介                                         |
+| ----------------- | -------------------------------------------- |
+| `format-check.js` | 检查或修复各题目 solutions/ 下的题解文件格式 |
 
 ## 用法
 
 ```bash
 node scripts/format-check/format-check.js
+node scripts/format-check/format-check.js --fix
 node scripts/format-check/format-check.js --notes-range=all
 node scripts/format-check/format-check.js --notes-range=0001-0100
 node scripts/format-check/format-check.js --notes-range=0026,0131,0200-0210
+node scripts/format-check/format-check.js --fix --notes-range=0001-0100
 node scripts/format-check/format-check.js --help
 ```
 
 ## 说明
 
-- 默认会扫描 `notes/` 与 `scripts/` 目录
-- 只检查格式，不会改写文件
+- 只扫描 `notes/` 下各题目目录中的 `solutions/` 子目录
+- 默认为检查模式，不改写文件；传入 `--fix` 后自动修复格式问题
 - `--notes-range` 支持单个编号、编号区间和多个条件组合
+- 按题目为单位实时输出检查/修复进度
 - 检查规则会结合仓库中的 `.editorconfig`、`.clang-format` 以及本机可用的 Prettier、clang-format、Black
 
 ## 格式化配置信息的分布
@@ -38,8 +41,8 @@ node scripts/format-check/format-check.js --help
   - 负责 VS Code 中各语言格式化器的绑定方式
   - 例如 JS / Markdown 默认走 Prettier，Python 默认走 Black，C / C++ 默认走 cpptools + `.clang-format`
 - `scripts/format-check/format-check.js`
-  - 负责将上述规则串起来执行检查
-  - 只负责检测，不负责改写文件
+  - 负责将上述规则串起来执行检查或修复
+  - 默认只检测不改写；传入 `--fix` 参数时自动修复
 
 ## 格式化配置规范
 

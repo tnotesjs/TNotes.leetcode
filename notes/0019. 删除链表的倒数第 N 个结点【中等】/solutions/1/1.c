@@ -12,7 +12,8 @@ struct ListNode* removeNthFromEnd(struct ListNode* head, int n) {
     struct ListNode* slow = &dummy;
 
     // fast 先走 n + 1 步
-    for (int i = 0; i <= n; i++) fast = fast->next;
+    for (int i = 0; i <= n; i++)
+        fast = fast->next;
 
     // fast 和 slow 同步前进，直到 fast 到达末尾
     while (fast) {
