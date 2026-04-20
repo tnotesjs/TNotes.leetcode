@@ -22,22 +22,26 @@
 示例 1：
 
 ```txt
-输入：nums = [5,7,7,8,8,10], target = 8
-输出：[3,4]
+输入：nums = [5, 7, 7, 8, 8, 10], target = 8
+输出：[3, 4]
 ```
+
+---
 
 示例 2：
 
 ```txt
-输入：nums = [5,7,7,8,8,10], target = 6
-输出：[-1,-1]
+输入：nums = [5, 7, 7, 8, 8, 10], target = 6
+输出：[-1, -1]
 ```
+
+---
 
 示例 3：
 
 ```txt
 输入：nums = [], target = 0
-输出：[-1,-1]
+输出：[-1, -1]
 ```
 
 ---
@@ -66,6 +70,11 @@
 
 算法思路：
 
-- 封装一个 `lowerBound(t)` 函数，返回数组中第一个 **大于等于** `t` 的元素下标（左闭右开区间 `[0, n]` 内二分）
-- `start = lowerBound(target)`：若越界或 `nums[start] != target` 则直接返回 `[-1, -1]`
-- `end = lowerBound(target + 1) - 1`：`target + 1` 的左边界就是 `target` 的右边界 + 1
+- 封装一个 `lowerBound(t)` 函数，返回数组中第一个大于等于 `t` 的元素下标（左闭右开区间 `[0, n)` 内二分）
+- `start = lowerBound(target)`
+  - 直接返回 `[-1, -1]` 的两种情况：
+  - 情况 1：所有元素都 `< target`，会导致越界，即 `start = len(nums)`
+  - 情况 2：未找到目标成员 `nums[start] != target`
+  - 在 `start` 合法的情况下，再继续查找 `end`
+- `end = lowerBound(target + 1) - 1`
+  - `target + 1` 的左边界就是 `target` 的右边界 + 1
