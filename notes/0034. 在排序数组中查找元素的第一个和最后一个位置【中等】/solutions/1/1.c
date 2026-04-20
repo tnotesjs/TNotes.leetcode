@@ -6,8 +6,10 @@ int lowerBound(int* nums, int numsSize, int t) {
     int left = 0, right = numsSize;
     while (left < right) {
         int mid = left + (right - left) / 2;
-        if (nums[mid] < t) left = mid + 1;
-        else right = mid;
+        if (nums[mid] < t)
+            left = mid + 1;
+        else
+            right = mid;
     }
     return left;
 }

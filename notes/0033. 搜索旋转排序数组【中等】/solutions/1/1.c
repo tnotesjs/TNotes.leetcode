@@ -3,7 +3,8 @@ int search(int* nums, int numsSize, int target) {
 
     while (left <= right) {
         int mid = left + (right - left) / 2;
-        if (nums[mid] == target) return mid;
+        if (nums[mid] == target)
+            return mid;
 
         // 左半有序
         if (nums[left] <= nums[mid]) {

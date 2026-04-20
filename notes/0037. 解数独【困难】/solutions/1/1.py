@@ -12,11 +12,11 @@ class Solution:
         # rows / cols / boxes 用位掩码记录 1~9 的占用情况。
         for row in range(9):
             for col in range(9):
-                if board[row][col] == '.':
+                if board[row][col] == ".":
                     empties.append((row, col))
                     continue
 
-                bit = 1 << (ord(board[row][col]) - ord('1'))
+                bit = 1 << (ord(board[row][col]) - ord("1"))
                 box = get_box_index(row, col)
                 rows[row] |= bit
                 cols[col] |= bit
@@ -66,7 +66,7 @@ class Solution:
                 rows[row] ^= bit
                 cols[col] ^= bit
                 boxes[box] ^= bit
-                board[row][col] = '.'
+                board[row][col] = "."
 
             empties[pos], empties[best] = empties[best], empties[pos]
             return False

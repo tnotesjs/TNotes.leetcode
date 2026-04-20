@@ -3,7 +3,7 @@
  * @return {boolean}
  */
 var isValidSudoku = function (board) {
-  // rows[i] / cols[j] / boxes[k] 分别记录数字出现情况，位收槄
+  // rows[i] / cols[j] / boxes[k] 分别用位运算记录数字出现情况
   const rows = Array.from({ length: 9 }, () => 0)
   const cols = Array.from({ length: 9 }, () => 0)
   const boxes = Array.from({ length: 9 }, () => 0)
