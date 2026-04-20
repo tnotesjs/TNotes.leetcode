@@ -14,11 +14,11 @@ var nextPermutation = function (nums) {
     let j = n - 1
     while (nums[j] <= nums[i])
       j--
-      // 步骤 3：交换
+      // 交换
     ;[nums[i], nums[j]] = [nums[j], nums[i]]
   }
 
-  // 步骤 4：将 i+1 右侧区域最小化
+  // 步骤 3：将 i+1 右侧区域最小化
   let left = i + 1
   let right = n - 1
   while (left < right) {

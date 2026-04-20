@@ -62,6 +62,8 @@
 
 ## 2. 🎯 s.1 - 从右找降序拐点 + 交换 + 翻转
 
+![svg](./assets/1.svg)
+
 ::: code-group
 
 <<< ./solutions/1/1.c [c]
