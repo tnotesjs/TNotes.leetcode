@@ -18,6 +18,5 @@ class Solution:
             # 步骤 3：交换
             nums[i], nums[j] = nums[j], nums[i]
 
-        # 步骤 4：将 i+1 右侧的降序序列翻转为升序
-        nums[i + 1:] = nums[i + 1:][::-1]
-        
+        # 步骤 4：将 i+1 右侧区域最小化
+        nums[i + 1 :] = nums[i + 1 :][::-1]

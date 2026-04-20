@@ -18,7 +18,7 @@ var nextPermutation = function (nums) {
     ;[nums[i], nums[j]] = [nums[j], nums[i]]
   }
 
-  // 步骤 4：将 i+1 右侧的降序序列翻转为升序（即最小化）
+  // 步骤 4：将 i+1 右侧区域最小化
   let left = i + 1
   let right = n - 1
   while (left < right) {
