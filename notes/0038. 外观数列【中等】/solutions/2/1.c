@@ -1,3 +1,0 @@
-char* countAndSay(int n) {
-    
-}
