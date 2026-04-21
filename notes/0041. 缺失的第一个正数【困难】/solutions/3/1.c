@@ -1,3 +1,1 @@
-int firstMissingPositive(int* nums, int numsSize) {
-    
-}
+int firstMissingPositive(int* nums, int numsSize) {}

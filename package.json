@@ -1,6 +1,7 @@
 {
   "type": "module",
   "scripts": {
+    "tn:format": "                      node scripts/format-check/format-check.js",
     "tn:build": "                       NODE_OPTIONS='--max-old-space-size=16384' tnotes --build",
     "tn:create-notes": "                tnotes --create-notes",
     "tn:dev": "                         tnotes --dev",

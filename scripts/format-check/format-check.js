@@ -1,14 +1,14 @@
 #!/usr/bin/env node
 
 // node scripts/format-check/format-check.js
-// node scripts/format-check/format-check.js --fix
-// node scripts/format-check/format-check.js --notes-range=all
+// node scripts/format-check/format-check.js --mode=2
 // node scripts/format-check/format-check.js --notes-range=0001-0100
-// node scripts/format-check/format-check.js --notes-range=0026,0131,0200-0210
+// node scripts/format-check/format-check.js --notes-range=0026,0131,0200-0210 --mode=1 --ext=js,py
 // node scripts/format-check/format-check.js --help
 
 import fs from 'fs'
 import path from 'path'
+import readline from 'readline'
 import { spawnSync } from 'child_process'
 import { fileURLToPath } from 'url'
 
@@ -17,22 +17,72 @@ const __dirname = path.dirname(__filename)
 const repoRoot = path.resolve(__dirname, '../..')
 const notesRoot = path.join(repoRoot, 'notes')
 
-const PRETTIER_EXTS = new Set(['.js'])
-const CLANG_EXTS = new Set(['.c', '.cpp'])
-const PYTHON_EXTS = new Set(['.py'])
+const DEFAULT_NOTES_RANGE = '0001'
+const DEFAULT_MODE = '1'
+const DEFAULT_EXTENSION_FILTER = 'all'
+
+const FORMATTER_CONFIGS = [
+  {
+    key: 'prettier',
+    label: 'Prettier',
+    extensions: ['.js'],
+    resolve: resolvePrettier,
+    check: checkWithPrettier,
+    fix: fixWithPrettier,
+    warning: '未找到 Prettier，建议执行 `pnpm add -D prettier`',
+  },
+  {
+    key: 'clangFormat',
+    label: 'clang-format',
+    extensions: ['.c', '.cpp'],
+    resolve: resolveClangFormat,
+    check: checkWithClangFormat,
+    fix: fixWithClangFormat,
+    warning: '未找到 clang-format，无法处理 C/C++ 文件',
+  },
+  {
+    key: 'black',
+    label: 'Black',
+    extensions: ['.py'],
+    resolve: resolveBlack,
+    check: checkWithBlack,
+    fix: fixWithBlack,
+    warning:
+      process.platform === 'win32'
+        ? '未找到 Black，建议执行 `py -3 -m venv .venv && .venv\\Scripts\\python.exe -m pip install black`'
+        : '未找到 Black，建议执行 `python3 -m venv .venv && ./.venv/bin/python -m pip install black`',
+  },
+]
+
+const SUPPORTED_EXTENSIONS = Array.from(
+  new Set(FORMATTER_CONFIGS.flatMap((config) => config.extensions)),
+)
 
 function printHelp() {
   console.log('用法：node scripts/format-check/format-check.js [选项]')
   console.log('')
   console.log('选项：')
-  console.log('  --fix                      自动修复格式问题')
-  console.log('  --notes-range=范围         指定检查的题目范围')
+  console.log(
+    `  --notes-range=范围         指定检查的题目范围（默认 ${DEFAULT_NOTES_RANGE}）`,
+  )
+  console.log(
+    '  --mode=1|2                 选择执行模式：1=只检查，2=检查并修复',
+  )
+  console.log(
+    `  --ext=后缀列表             指定检查后缀，支持 ${SUPPORTED_EXTENSIONS.map((ext) => ext.slice(1)).join(', ')} 或 all`,
+  )
+  console.log('  --fix                      等价于 --mode=2，保留为兼容别名')
   console.log('  --help, -h                 显示帮助信息')
   console.log('')
   console.log('范围示例：')
-  console.log('  --notes-range=all              扫描全部题目（默认值）')
+  console.log(`  默认范围：${DEFAULT_NOTES_RANGE}`)
+  console.log('  --notes-range=all              扫描全部题目')
   console.log('  --notes-range=0001-0100        只扫描编号 0001~0100')
   console.log('  --notes-range=0026,0131,0200-0210  多个编号或区间，逗号分隔')
+  console.log('')
+  console.log('后缀示例：')
+  console.log('  --ext=all                      扫描所有受支持后缀（默认值）')
+  console.log('  --ext=js,py                    只扫描 JS 和 Python 题解')
 }
 
 function parseNotesRange(rangeText) {
@@ -57,33 +107,191 @@ function parseNotesRange(rangeText) {
   })
 }
 
-function parseArgs(argv) {
-  const options = {
-    notesRanges: null,
-    notesRangeText: 'all',
-    fix: false,
-    showHelp: false,
+function parseMode(modeText) {
+  if (!modeText || modeText === '1') return false
+  if (modeText === '2') return true
+  throw new Error('无效的执行模式：仅支持 1（只检查）或 2（检查并修复）')
+}
+
+function normalizeExtensionToken(token) {
+  const value = token.trim().toLowerCase()
+  if (!value) return null
+  return value.startsWith('.') ? value : `.${value}`
+}
+
+function parseExtensionFilter(filterText) {
+  if (!filterText || filterText === DEFAULT_EXTENSION_FILTER) {
+    return {
+      extensionFilterText: DEFAULT_EXTENSION_FILTER,
+      activeExtensions: new Set(SUPPORTED_EXTENSIONS),
+    }
   }
 
+  const activeExtensions = new Set()
+
+  for (const segment of filterText.split(',')) {
+    const extension = normalizeExtensionToken(segment)
+    if (!extension) continue
+    if (!SUPPORTED_EXTENSIONS.includes(extension)) {
+      throw new Error(`不支持的后缀：${segment.trim()}`)
+    }
+    activeExtensions.add(extension)
+  }
+
+  if (activeExtensions.size === 0) {
+    throw new Error('后缀列表不能为空')
+  }
+
+  return {
+    extensionFilterText: Array.from(activeExtensions)
+      .map((extension) => extension.slice(1))
+      .join(','),
+    activeExtensions,
+  }
+}
+
+function createDefaultOptions() {
+  return {
+    notesRanges: parseNotesRange(DEFAULT_NOTES_RANGE),
+    notesRangeText: DEFAULT_NOTES_RANGE,
+    fix: parseMode(DEFAULT_MODE),
+    modeText: DEFAULT_MODE,
+    extensionFilterText: DEFAULT_EXTENSION_FILTER,
+    activeExtensions: new Set(SUPPORTED_EXTENSIONS),
+    showHelp: false,
+    notesRangeProvided: false,
+    modeProvided: false,
+    extensionProvided: false,
+  }
+}
+
+function applyNotesRangeOption(options, rangeText) {
+  options.notesRanges = parseNotesRange(rangeText)
+  options.notesRangeText = rangeText || DEFAULT_NOTES_RANGE
+  options.notesRangeProvided = true
+}
+
+function applyModeOption(options, modeText) {
+  options.fix = parseMode(modeText)
+  options.modeText = modeText || DEFAULT_MODE
+  options.modeProvided = true
+}
+
+function applyExtensionOption(options, filterText) {
+  const parsed = parseExtensionFilter(filterText)
+  options.activeExtensions = parsed.activeExtensions
+  options.extensionFilterText = parsed.extensionFilterText
+  options.extensionProvided = true
+}
+
+function parseArgs(argv) {
+  const options = createDefaultOptions()
+
   for (const arg of argv) {
+    if (arg === '--') {
+      continue
+    }
+
     if (arg === '--help' || arg === '-h') {
       options.showHelp = true
       continue
     }
 
     if (arg === '--fix') {
-      options.fix = true
+      applyModeOption(options, '2')
       continue
     }
 
     if (arg.startsWith('--notes-range=')) {
       const rangeText = arg.slice('--notes-range='.length).trim()
-      options.notesRanges = parseNotesRange(rangeText || 'all')
-      options.notesRangeText = rangeText || 'all'
+      applyNotesRangeOption(options, rangeText || DEFAULT_NOTES_RANGE)
+      continue
+    }
+
+    if (arg.startsWith('--mode=')) {
+      const modeText = arg.slice('--mode='.length).trim()
+      applyModeOption(options, modeText || DEFAULT_MODE)
+      continue
+    }
+
+    if (arg.startsWith('--ext=')) {
+      const filterText = arg.slice('--ext='.length).trim()
+      applyExtensionOption(options, filterText || DEFAULT_EXTENSION_FILTER)
       continue
     }
 
     throw new Error(`不支持的参数：${arg}`)
+  }
+
+  return options
+}
+
+function shouldPromptForMissingOptions(options) {
+  return (
+    process.stdin.isTTY &&
+    process.stdout.isTTY &&
+    (!options.notesRangeProvided ||
+      !options.modeProvided ||
+      !options.extensionProvided)
+  )
+}
+
+function askQuestion(rl, message) {
+  return new Promise((resolve) => rl.question(message, resolve))
+}
+
+async function promptOption(rl, message, applyValue) {
+  while (true) {
+    const answer = (await askQuestion(rl, message)).trim()
+    if (!answer) return
+
+    try {
+      applyValue(answer)
+      return
+    } catch (error) {
+      console.log(`输入无效：${error.message}`)
+      console.log('')
+    }
+  }
+}
+
+async function completeOptionsWithPrompts(options) {
+  if (!shouldPromptForMissingOptions(options)) return options
+
+  const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout,
+  })
+
+  try {
+    console.log('格式化配置：直接回车表示使用默认值。')
+    console.log('')
+
+    if (!options.notesRangeProvided) {
+      await promptOption(
+        rl,
+        `请输入 notes 范围（默认 ${DEFAULT_NOTES_RANGE}）：`,
+        (value) => applyNotesRangeOption(options, value),
+      )
+    }
+
+    if (!options.modeProvided) {
+      await promptOption(
+        rl,
+        `请选择执行模式（1: 只检查, 2: 检查 + 修复，默认 ${DEFAULT_MODE}）：`,
+        (value) => applyModeOption(options, value),
+      )
+    }
+
+    if (!options.extensionProvided) {
+      await promptOption(
+        rl,
+        `请输入检查后缀（默认 ${DEFAULT_EXTENSION_FILTER}，支持 c,cpp,js,py 或逗号组合）：`,
+        (value) => applyExtensionOption(options, value),
+      )
+    }
+  } finally {
+    rl.close()
   }
 
   return options
@@ -156,6 +364,18 @@ function resolveBlack() {
   return null
 }
 
+function getFormatterConfigByExtension(extension) {
+  return FORMATTER_CONFIGS.find((config) =>
+    config.extensions.includes(extension),
+  )
+}
+
+function getActiveFormatterConfigs(activeExtensions) {
+  return FORMATTER_CONFIGS.filter((config) =>
+    config.extensions.some((extension) => activeExtensions.has(extension)),
+  )
+}
+
 function extractNoteNumber(dirName) {
   const match = dirName.match(/^(\d+)\./)
   return match ? Number(match[1]) : null
@@ -173,7 +393,7 @@ function isNoteInRange(dirName, notesRanges) {
 }
 
 // 递归收集 solutions 目录下的所有可格式化文件
-function collectSolutionFiles(solutionsDir) {
+function collectSolutionFiles(solutionsDir, activeExtensions) {
   const result = []
   if (!fs.existsSync(solutionsDir)) return result
 
@@ -186,11 +406,7 @@ function collectSolutionFiles(solutionsDir) {
       }
 
       const ext = path.extname(entry.name).toLowerCase()
-      if (
-        PRETTIER_EXTS.has(ext) ||
-        CLANG_EXTS.has(ext) ||
-        PYTHON_EXTS.has(ext)
-      ) {
+      if (activeExtensions.has(ext)) {
         result.push(path.join(dir, entry.name))
       }
     }
@@ -323,56 +539,40 @@ function fixWithBlack(filePath, black) {
 function processFile(filePath, fix, formatters) {
   const ext = path.extname(filePath).toLowerCase()
 
-  if (PRETTIER_EXTS.has(ext)) {
-    if (!formatters.prettier) return null
-    return fix
-      ? fixWithPrettier(filePath, formatters.prettier)
-      : checkWithPrettier(filePath, formatters.prettier)
-  }
+  const formatterConfig = getFormatterConfigByExtension(ext)
+  if (!formatterConfig) return null
 
-  if (CLANG_EXTS.has(ext)) {
-    if (!formatters.clangFormat) return null
-    return fix
-      ? fixWithClangFormat(filePath, formatters.clangFormat)
-      : checkWithClangFormat(filePath, formatters.clangFormat)
-  }
+  const formatter = formatters[formatterConfig.key]
+  if (!formatter) return null
 
-  if (PYTHON_EXTS.has(ext)) {
-    if (!formatters.black) return null
-    return fix
-      ? fixWithBlack(filePath, formatters.black)
-      : checkWithBlack(filePath, formatters.black)
-  }
+  return fix
+    ? formatterConfig.fix(filePath, formatter)
+    : formatterConfig.check(filePath, formatter)
 
   return null
 }
 
-function main() {
+async function main() {
   const options = parseArgs(process.argv.slice(2))
   if (options.showHelp) {
     printHelp()
     return
   }
 
-  const formatters = {
-    prettier: resolvePrettier(),
-    clangFormat: resolveClangFormat(),
-    black: resolveBlack(),
-  }
+  await completeOptionsWithPrompts(options)
+
+  const activeFormatterConfigs = getActiveFormatterConfigs(
+    options.activeExtensions,
+  )
+  const formatters = Object.fromEntries(
+    FORMATTER_CONFIGS.map((config) => [config.key, config.resolve()]),
+  )
 
   const warnings = []
-  if (!formatters.prettier) {
-    warnings.push('未找到 Prettier，建议执行 `pnpm add -D prettier`')
-  }
-  if (!formatters.clangFormat) {
-    warnings.push('未找到 clang-format，无法处理 C/C++ 文件')
-  }
-  if (!formatters.black) {
-    warnings.push(
-      process.platform === 'win32'
-        ? '未找到 Black，建议执行 `py -3 -m venv .venv && .venv\\Scripts\\python.exe -m pip install black`'
-        : '未找到 Black，建议执行 `python3 -m venv .venv && ./.venv/bin/python -m pip install black`',
-    )
+  for (const config of activeFormatterConfigs) {
+    if (!formatters[config.key]) {
+      warnings.push(config.warning)
+    }
   }
 
   if (warnings.length > 0) {
@@ -380,8 +580,10 @@ function main() {
     console.log('')
   }
 
-  const mode = options.fix ? '修复' : '检查'
-  console.log(`格式${mode} — notes 范围：${options.notesRangeText}`)
+  const mode = options.fix ? '检查并修复' : '检查'
+  console.log(
+    `格式${mode} — notes 范围：${options.notesRangeText} — 后缀：${options.extensionFilterText}`,
+  )
   console.log('')
 
   if (!fs.existsSync(notesRoot)) {
@@ -404,7 +606,7 @@ function main() {
   for (const noteEntry of noteEntries) {
     const noteDir = path.join(notesRoot, noteEntry.name)
     const solutionsDir = path.join(noteDir, 'solutions')
-    const files = collectSolutionFiles(solutionsDir)
+    const files = collectSolutionFiles(solutionsDir, options.activeExtensions)
 
     if (files.length === 0) continue
 
@@ -472,7 +674,7 @@ function main() {
   if (totalIssues > 0 || totalErrors > 0) {
     if (!options.fix && totalIssues > 0) {
       console.log('')
-      console.log('提示：可使用 --fix 参数自动修复格式问题')
+      console.log('提示：可重新执行并选择模式 2 自动修复格式问题')
     }
     process.exitCode = 1
     return
@@ -484,9 +686,7 @@ function main() {
   )
 }
 
-try {
-  main()
-} catch (error) {
+main().catch((error) => {
   console.error(`格式检查脚本执行失败：${error.message}`)
   process.exitCode = 1
-}
+})

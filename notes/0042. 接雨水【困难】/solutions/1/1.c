@@ -1,3 +1,1 @@
-int trap(int* height, int heightSize) {
-    
-}
+int trap(int* height, int heightSize) {}

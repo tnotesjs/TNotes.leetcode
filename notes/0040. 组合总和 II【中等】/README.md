@@ -31,6 +31,8 @@
 ]
 ```
 
+---
+
 示例 2：
 
 ```txt
@@ -66,7 +68,9 @@
 
 算法思路：
 
-- 先对 `candidates` 升序排序，使相同元素相邻，方便去重剪枝
-- `backtrack(start, remain, path)`：从下标 `start` 开始枚举，每次取 `candidates[i]` 后，下一层从 `i + 1` 开始（每个元素只能用一次）
-- 同层枚举时，若 `i > start && candidates[i] == candidates[i-1]`，跳过该元素，避免产生重复组合
-- `remain == 0` 时收集结果；`candidates[i] > remain` 时 `break`（已排序，后续更大）
+- 排序：先对 `candidates` 升序排序，使相同元素相邻，方便去重剪枝
+- 剪枝：`candidates[i] > remain` 时 `break`（已排序，后续更大）
+- 去重：
+  - `backtrack(i + 1, ...)`：表示下一层从 `i + 1` 开始（限制每个元素只能用一次）
+  - `i > start && candidates[i] == candidates[i-1]`：表示跳过同层枚举中的重复成员，其中 `i > start` 表示同层枚举，`candidates[i] == candidates[i-1]` 表示相同成员
+- 收集结果：当 `remain == 0` 时收集结果

@@ -17,8 +17,10 @@ void backtrack(int* candidates, int candidatesSize, int start, int remain) {
         return;
     }
     for (int i = start; i < candidatesSize; i++) {
-        if (candidates[i] > remain) break;  // 剪枝
-        if (i > start && candidates[i] == candidates[i - 1]) continue;  // 跳过同层重复
+        if (candidates[i] > remain)
+            break; // 剪枝
+        if (i > start && candidates[i] == candidates[i - 1])
+            continue; // 跳过同层重复
         g_path[g_pathLen++] = candidates[i];
         backtrack(candidates, candidatesSize, i + 1, remain - candidates[i]);
         g_pathLen--;
@@ -28,9 +30,11 @@ void backtrack(int* candidates, int candidatesSize, int start, int remain) {
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
- * Note: Both returned array and *columnSizes array must be malloced, assume caller calls free().
+ * Note: Both returned array and *columnSizes array must be malloced, assume
+ * caller calls free().
  */
-int** combinationSum2(int* candidates, int candidatesSize, int target, int* returnSize, int** returnColumnSizes) {
+int** combinationSum2(int* candidates, int candidatesSize, int target,
+                      int* returnSize, int** returnColumnSizes) {
     qsort(candidates, candidatesSize, sizeof(int), compare);
     g_ans = (int**)malloc(2000 * sizeof(int*));
     g_colSizes = (int*)malloc(2000 * sizeof(int));

@@ -13,7 +13,7 @@ ColumnLimit: 80
 # 函数和控制语句的左花括号保持在同一行。
 BreakBeforeBraces: Attach
 
-# 指针声明采用和 LeetCode 统一的 C 风格，例如 `int* twoSum(int* nums, int numsSize, int target, int* returnSize) { }`。
+# 指针声明采用仓库统一的 C 风格，例如 `int* twoSum(int* nums, int numsSize, int target, int* returnSize) { }`。
 PointerAlignment: Left
 
 # 不根据现有文件内容自动推断指针对齐方式。
