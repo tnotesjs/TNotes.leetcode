@@ -265,7 +265,7 @@
 - [ ] [0211. 添加与搜索单词 - 数据结构设计【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0211.%20%E6%B7%BB%E5%8A%A0%E4%B8%8E%E6%90%9C%E7%B4%A2%E5%8D%95%E8%AF%8D%20-%20%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E8%AE%BE%E8%AE%A1%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0212. 单词搜索 II【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0212.%20%E5%8D%95%E8%AF%8D%E6%90%9C%E7%B4%A2%20II%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
 - [ ] [0213. 打家劫舍 II【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0213.%20%E6%89%93%E5%AE%B6%E5%8A%AB%E8%88%8D%20II%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
-- [ ] [0214. 最短回文串【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0214.%20%E6%9C%80%E7%9F%AD%E5%9B%9E%E6%96%87%E4%B8%B2%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
+- [x] [0214. 最短回文串【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0214.%20%E6%9C%80%E7%9F%AD%E5%9B%9E%E6%96%87%E4%B8%B2%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
 - [ ] [0215. 数组中的第K个最大元素【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0215.%20%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E7%AC%ACK%E4%B8%AA%E6%9C%80%E5%A4%A7%E5%85%83%E7%B4%A0%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0216. 组合总和 III【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0216.%20%E7%BB%84%E5%90%88%E6%80%BB%E5%92%8C%20III%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [x] [0217. 存在重复元素【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0217.%20%E5%AD%98%E5%9C%A8%E9%87%8D%E5%A4%8D%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
