@@ -1476,7 +1476,7 @@
 - [x] [1389. 按既定顺序创建目标数组【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1389.%20%E6%8C%89%E6%97%A2%E5%AE%9A%E9%A1%BA%E5%BA%8F%E5%88%9B%E5%BB%BA%E7%9B%AE%E6%A0%87%E6%95%B0%E7%BB%84%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
 - [ ] [1390. 四因数【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1390.%20%E5%9B%9B%E5%9B%A0%E6%95%B0%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [1391. 检查网格中是否存在有效路径【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1391.%20%E6%A3%80%E6%9F%A5%E7%BD%91%E6%A0%BC%E4%B8%AD%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8%E6%9C%89%E6%95%88%E8%B7%AF%E5%BE%84%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
-- [ ] [1392. 最长快乐前缀【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1392.%20%E6%9C%80%E9%95%BF%E5%BF%AB%E4%B9%90%E5%89%8D%E7%BC%80%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
+- [x] [1392. 最长快乐前缀【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1392.%20%E6%9C%80%E9%95%BF%E5%BF%AB%E4%B9%90%E5%89%8D%E7%BC%80%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
 - [ ] [1393. 股票的资本损益【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1393.%20%E8%82%A1%E7%A5%A8%E7%9A%84%E8%B5%84%E6%9C%AC%E6%8D%9F%E7%9B%8A%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [x] [1394. 找出数组中的幸运数【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1394.%20%E6%89%BE%E5%87%BA%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E5%B9%B8%E8%BF%90%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
 - [ ] [1395. 统计作战单位数【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1395.%20%E7%BB%9F%E8%AE%A1%E4%BD%9C%E6%88%98%E5%8D%95%E4%BD%8D%E6%95%B0%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
