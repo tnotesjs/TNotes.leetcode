@@ -3,8 +3,9 @@
  * @param {number[]} pattern
  * @return {number}
  */
-var countMatchingSubarrays = function(nums, pattern) {
-  const n = nums.length, m = pattern.length
+var countMatchingSubarrays = function (nums, pattern) {
+  const n = nums.length,
+    m = pattern.length
   // 将 nums 转换为差分模式
   const text = new Array(n - 1)
   for (let i = 0; i < n - 1; i++) {
@@ -19,7 +20,8 @@ var countMatchingSubarrays = function(nums, pattern) {
     while (j >= 0 && pattern[j + 1] !== pattern[i]) j = fail[j]
     fail[i] = pattern[j + 1] === pattern[i] ? j + 1 : -1
   }
-  let count = 0, j = -1
+  let count = 0,
+    j = -1
   for (let i = 0; i < text.length; i++) {
     while (j >= 0 && pattern[j + 1] !== text[i]) j = fail[j]
     if (pattern[j + 1] === text[i]) j++

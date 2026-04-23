@@ -100,7 +100,7 @@
 - [x] [0052. N 皇后 II【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0052.%20N%20%E7%9A%87%E5%90%8E%20II%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
 - [ ] [0053. 最大子数组和【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0053.%20%E6%9C%80%E5%A4%A7%E5%AD%90%E6%95%B0%E7%BB%84%E5%92%8C%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0054. 螺旋矩阵【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0054.%20%E8%9E%BA%E6%97%8B%E7%9F%A9%E9%98%B5%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
-- [ ] [0055. 跳跃游戏【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0055.%20%E8%B7%B3%E8%B7%83%E6%B8%B8%E6%88%8F%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
+- [x] [0055. 跳跃游戏【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0055.%20%E8%B7%B3%E8%B7%83%E6%B8%B8%E6%88%8F%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0056. 合并区间【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0056.%20%E5%90%88%E5%B9%B6%E5%8C%BA%E9%97%B4%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0057. 插入区间【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0057.%20%E6%8F%92%E5%85%A5%E5%8C%BA%E9%97%B4%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [x] [0058. 最后一个单词的长度【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0058.%20%E6%9C%80%E5%90%8E%E4%B8%80%E4%B8%AA%E5%8D%95%E8%AF%8D%E7%9A%84%E9%95%BF%E5%BA%A6%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
