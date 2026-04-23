@@ -90,7 +90,7 @@
 - [ ] [0042. 接雨水【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0042.%20%E6%8E%A5%E9%9B%A8%E6%B0%B4%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
 - [ ] [0043. 字符串相乘【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0043.%20%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%9B%B8%E4%B9%98%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0044. 通配符匹配【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0044.%20%E9%80%9A%E9%85%8D%E7%AC%A6%E5%8C%B9%E9%85%8D%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
-- [ ] [0045. 跳跃游戏 II【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0045.%20%E8%B7%B3%E8%B7%83%E6%B8%B8%E6%88%8F%20II%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
+- [x] [0045. 跳跃游戏 II【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0045.%20%E8%B7%B3%E8%B7%83%E6%B8%B8%E6%88%8F%20II%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [x] [0046. 全排列【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0046.%20%E5%85%A8%E6%8E%92%E5%88%97%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [x] [0047. 全排列 II【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0047.%20%E5%85%A8%E6%8E%92%E5%88%97%20II%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0048. 旋转图像【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0048.%20%E6%97%8B%E8%BD%AC%E5%9B%BE%E5%83%8F%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
