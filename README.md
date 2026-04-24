@@ -1390,7 +1390,7 @@
 - [ ] [1303. 求团队人数【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1303.%20%E6%B1%82%E5%9B%A2%E9%98%9F%E4%BA%BA%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
 - [x] [1304. 和为零的 N 个不同整数【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1304.%20%E5%92%8C%E4%B8%BA%E9%9B%B6%E7%9A%84%20N%20%E4%B8%AA%E4%B8%8D%E5%90%8C%E6%95%B4%E6%95%B0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
 - [ ] [1305. 两棵二叉搜索树中的所有元素【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1305.%20%E4%B8%A4%E6%A3%B5%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E4%B8%AD%E7%9A%84%E6%89%80%E6%9C%89%E5%85%83%E7%B4%A0%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
-- [ ] [1306. 跳跃游戏 III【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1306.%20%E8%B7%B3%E8%B7%83%E6%B8%B8%E6%88%8F%20III%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
+- [x] [1306. 跳跃游戏 III【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1306.%20%E8%B7%B3%E8%B7%83%E6%B8%B8%E6%88%8F%20III%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [1307. 口算难题【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1307.%20%E5%8F%A3%E7%AE%97%E9%9A%BE%E9%A2%98%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
 - [ ] [1308. 不同性别每日分数总计【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1308.%20%E4%B8%8D%E5%90%8C%E6%80%A7%E5%88%AB%E6%AF%8F%E6%97%A5%E5%88%86%E6%95%B0%E6%80%BB%E8%AE%A1%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [x] [1309. 解码字母到整数映射【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/1309.%20%E8%A7%A3%E7%A0%81%E5%AD%97%E6%AF%8D%E5%88%B0%E6%95%B4%E6%95%B0%E6%98%A0%E5%B0%84%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
