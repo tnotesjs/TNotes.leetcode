@@ -25,10 +25,14 @@
 ```txt
 输入：s = "011010", minJump = 2, maxJump = 3
 输出：true
-解释：
-第一步，从下标 0 移动到下标 3。
-第二步，从下标 3 移动到下标 5。
 ```
+
+解释：
+
+- 第一步，从下标 0 移动到下标 3。
+- 第二步，从下标 3 移动到下标 5。
+
+---
 
 示例 2：
 
@@ -50,7 +54,11 @@
 
 ::: code-group
 
-<<< ./solutions/1/1.js [js] <<< ./solutions/1/1.c [c] <<< ./solutions/1/1.py [py]
+<<< ./solutions/1/1.c [c]
+
+<<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
 
 :::
 
