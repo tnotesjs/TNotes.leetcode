@@ -3,8 +3,8 @@
 <!-- region:toc -->
 
 - [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
-- [3. 🎯 s.2 - 翻转](#3--s2---翻转)
+- [2. 🎯 s.1 - 根据规律翻转图像](#2--s1---根据规律翻转图像)
+- [3. 🔗 引用](#3--引用)
 
 <!-- endregion:toc -->
 
@@ -12,27 +12,52 @@
 
 - [leetcode](https://leetcode.cn/problems/rotate-image)
 
-给定一个 _n_ × _n_ 的二维矩阵 `matrix` 表示一个图像。请你将图像顺时针旋转 90 度。
+给定一个 n × n 的二维矩阵 `matrix` 表示一个图像。请你将图像顺时针旋转 90 度。
 
-你必须在 [原地](https://baike.baidu.com/item/%E5%8E%9F%E5%9C%B0%E7%AE%97%E6%B3%95) 旋转图像，这意味着你需要直接修改输入的二维矩阵。请不要 使用另一个矩阵来旋转图像。
+你必须在 [原地][1] 旋转图像，这意味着你需要直接修改输入的二维矩阵。请不要使用另一个矩阵来旋转图像。
+
+---
 
 示例 1：
 
-- ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-10-08-10-39.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-10-08-10-39.png)
 
 ```txt
-输入：matrix = [[1,2,3],[4,5,6],[7,8,9]]
-输出：[[7,4,1],[8,5,2],[9,6,3]]
+输入：matrix = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9]
+]
+
+输出：[
+  [7, 4, 1],
+  [8, 5, 2],
+  [9, 6, 3]
+]
 ```
+
+---
 
 示例 2：
 
-- ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-10-08-10-51.png)
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-10-08-10-51.png)
 
 ```txt
-输入：matrix = [[5,1,9,11],[2,4,8,10],[13,3,6,7],[15,14,12,16]]
-输出：[[15,13,2,5],[14,3,4,1],[12,6,8,9],[16,7,10,11]]
+输入：matrix = [
+  [5, 1, 9, 11],
+  [2, 4, 8, 10],
+  [13, 3, 6, 7],
+  [15, 14, 12, 16]
+]
+输出：[
+  [15, 13, 2, 5],
+  [14, 3, 4, 1],
+  [12, 6, 8, 9],
+  [16, 7, 10, 11]
+]
 ```
+
+---
 
 提示：
 
@@ -40,94 +65,31 @@
 - `1 <= n <= 20`
 - `-1000 <= matrix[i][j] <= 1000`
 
-## 2. 🎯 s.1 - 暴力解法
+## 2. 🎯 s.1 - 根据规律翻转图像
 
-```js
-/**
- * 22-10-27
- * @param {number[][]} matrix
- * @return {void} Do not return anything, modify matrix in-place instead.
- */
-var rotate = function (matrix) {
-  const n = matrix.length,
-    arr = []
+![svg](./assets/1.svg)
 
-  for (let c = 0; c < n; c++) {
-    for (let r = n - 1; r >= 0; r--) {
-      arr.push(matrix[r][c])
-    }
-  }
-  // console.log(arr)
-  // => [7, 4, 1, 8, 5, 2, 9, 6, 3]
+::: code-group
 
-  for (let i = 0; i < n * n; i++) {
-    const r = Math.floor(i / n)
-    const c = i % n
-    matrix[r][c] = arr[i]
-  }
-}
-```
+<<< ./solutions/1/1.c [c]
 
-- 思路：
-  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-10-08-27-33.png)
-  - 把图像顺时针 🔃 旋转 90° 后来看，其实就是从每一列的最后一行开始遍历到第一行的内容。
-- 【注意】这种解法不符合题目要求的 原地 旋转。
+<<< ./solutions/1/1.js [js]
 
-## 3. 🎯 s.2 - 翻转
+<<< ./solutions/1/1.py [py]
 
-```js
-/**
- * 22-09-22
- * @param {number[][]} matrix
- * @return {void} Do not return anything, modify matrix in-place instead.
- */
-var rotate = function (matrix) {
-  const n = matrix.length
-  for (let i = 0; i < Math.floor(n / 2); i++) {
-    // 上下翻转
-    for (let j = 0; j < n; j++) {
-      ;[matrix[i][j], matrix[n - i - 1][j]] = [
-        matrix[n - i - 1][j],
-        matrix[i][j],
-      ]
-    }
-  }
-  for (let i = 0; i < n; i++) {
-    // 对角线不动，以对角线为对称轴交换两侧位置
-    for (let j = 0; j < i; j++) {
-      if (i === j) continue
-      ;[matrix[i][j], matrix[j][i]] = [matrix[j][i], matrix[i][j]]
-    }
-  }
-}
-```
+:::
 
-- 思路：先完成垂直反向上的水平翻转，再进行对角线翻转。
-  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-10-08-40-16.png)
-  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-10-08-40-26.png)
-  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-10-08-40-34.png)
-- 矩阵类的题目，多在纸上画一画，结合矩阵图形来辅助思考。找到规律后，实现起来可能就很简单，没找到规律那就一头雾水了。
-- 优化：垂直反向上的水平翻转可以直接改变整行内容，将第 `i` 行的头指针和第 `n - i - 1` 行的头指针互换即可。
-  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-10-08-53-26.png)
+- 时间复杂度：$O(n^2)$，两次翻转都需要遍历矩阵中的元素
+- 空间复杂度：$O(1)$，只使用了常数级别的额外空间
 
-```js
-/**
- * 22-10-27
- * @param {number[][]} matrix
- * @return {void} Do not return anything, modify matrix in-place instead.
- */
-var rotate = function (matrix) {
-  const n = matrix.length
-  for (let i = 0; i < Math.floor(n / 2); i++) {
-    // 上下翻转
-    ;[matrix[i], matrix[n - i - 1]] = [matrix[n - i - 1], matrix[i]]
-  }
-  for (let i = 0; i < n; i++) {
-    // 对角线不动，以对角线为对称轴交换两侧位置
-    for (let j = 0; j < i; j++) {
-      if (i === j) continue
-      ;[matrix[i][j], matrix[j][i]] = [matrix[j][i], matrix[i][j]]
-    }
-  }
-}
-```
+算法思路：
+
+- 先将第 $i$ 行与第 $n-i-1$ 行交换，对整个矩阵做一次上下翻转
+- 再沿主对角线交换 `matrix[i][j]` 和 `matrix[j][i]`，完成矩阵转置
+- 这两个操作组合后的效果，恰好等价于将矩阵顺时针旋转 $90$ 度，且全程原地修改
+
+## 3. 🔗 引用
+
+- [百度百科 - 原地算法][1]
+
+[1]: https://baike.baidu.com/item/%E5%8E%9F%E5%9C%B0%E7%AE%97%E6%B3%95
