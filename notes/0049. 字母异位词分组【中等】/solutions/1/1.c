@@ -2,8 +2,8 @@
 #define HASH_SIZE 20011
 
 typedef struct Entry {
-    char key[110];       // 排序后的 key
-    int* indices;        // 原字符串下标列表
+    char key[110]; // 排序后的 key
+    int* indices;  // 原字符串下标列表
     int count;
     int cap;
 } Entry;
@@ -11,15 +11,25 @@ typedef struct Entry {
 static Entry table[HASH_SIZE];
 static int used[HASH_SIZE];
 
-int charCmp(const void* a, const void* b) { return *(char*)a - *(char*)b; }
+int charCmp(const void* a, const void* b) {
+    return *(char*)a - *(char*)b;
+}
 
 static unsigned int hashStr(const char* s) {
     unsigned int h = 5381;
-    while (*s) h = h * 33 + (unsigned char)*s++;
+    while (*s)
+        h = h * 33 + (unsigned char)*s++;
     return h % HASH_SIZE;
 }
 
-char*** groupAnagrams(char** strs, int strsSize, int* returnSize, int** returnColumnSizes) {
+/**
+ * Return an array of arrays of size *returnSize.
+ * The sizes of the arrays are returned as *returnColumnSizes array.
+ * Note: Both returned array and *columnSizes array must be malloced, assume
+ * caller calls free().
+ */
+char*** groupAnagrams(char** strs, int strsSize, int* returnSize,
+                      int** returnColumnSizes) {
     memset(used, 0, sizeof(used));
 
     for (int i = 0; i < strsSize; i++) {
@@ -41,20 +51,24 @@ char*** groupAnagrams(char** strs, int strsSize, int* returnSize, int** returnCo
         }
         if (table[h].count == table[h].cap) {
             table[h].cap *= 2;
-            table[h].indices = (int*)realloc(table[h].indices, table[h].cap * sizeof(int));
+            table[h].indices =
+                (int*)realloc(table[h].indices, table[h].cap * sizeof(int));
         }
         table[h].indices[table[h].count++] = i;
     }
 
     // 统计组数
     int groups = 0;
-    for (int i = 0; i < HASH_SIZE; i++) if (used[i]) groups++;
+    for (int i = 0; i < HASH_SIZE; i++)
+        if (used[i])
+            groups++;
 
     char*** ans = (char***)malloc(groups * sizeof(char**));
     *returnColumnSizes = (int*)malloc(groups * sizeof(int));
     int g = 0;
     for (int i = 0; i < HASH_SIZE; i++) {
-        if (!used[i]) continue;
+        if (!used[i])
+            continue;
         int cnt = table[i].count;
         ans[g] = (char**)malloc(cnt * sizeof(char*));
         (*returnColumnSizes)[g] = cnt;

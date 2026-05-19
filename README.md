@@ -94,7 +94,7 @@
 - [x] [0046. 全排列【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0046.%20%E5%85%A8%E6%8E%92%E5%88%97%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [x] [0047. 全排列 II【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0047.%20%E5%85%A8%E6%8E%92%E5%88%97%20II%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [x] [0048. 旋转图像【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0048.%20%E6%97%8B%E8%BD%AC%E5%9B%BE%E5%83%8F%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
-- [ ] [0049. 字母异位词分组【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0049.%20%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D%E5%88%86%E7%BB%84%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
+- [x] [0049. 字母异位词分组【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0049.%20%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D%E5%88%86%E7%BB%84%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0050. Pow(x, n)【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0050.%20Pow(x%2C%20n)%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [x] [0051. N 皇后【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0051.%20N%20%E7%9A%87%E5%90%8E%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
 - [x] [0052. N 皇后 II【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0052.%20N%20%E7%9A%87%E5%90%8E%20II%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
