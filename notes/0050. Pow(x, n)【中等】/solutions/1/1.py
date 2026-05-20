@@ -5,7 +5,8 @@ class Solution:
             n = -n
         result = 1
         while n > 0:
-            if n & 1: result *= x  # 当前位为 1，累乘当前底数
+            if n & 1:
+                result *= x  # 当前位为 1，累乘当前底数
             x *= x  # 底数平方
             n >>= 1
         return result

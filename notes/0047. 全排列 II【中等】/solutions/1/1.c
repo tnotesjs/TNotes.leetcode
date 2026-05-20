@@ -1,7 +1,8 @@
 /**
  * Return an array of arrays of size *returnSize.
  * The sizes of the arrays are returned as *returnColumnSizes array.
- * Note: Both returned array and *columnSizes array must be malloced, assume caller calls free().
+ * Note: Both returned array and *columnSizes array must be malloced, assume
+ * caller calls free().
  */
 int compare(const void* a, const void* b) {
     return *(int*)a - *(int*)b;
@@ -23,8 +24,10 @@ void backtrack(int* nums, int n) {
         return;
     }
     for (int i = 0; i < n; i++) {
-        if (g_used[i]) continue;
-        if (i > 0 && nums[i] == nums[i - 1] && !g_used[i - 1]) continue;  // 同层去重
+        if (g_used[i])
+            continue;
+        if (i > 0 && nums[i] == nums[i - 1] && !g_used[i - 1])
+            continue; // 同层去重
         g_used[i] = 1;
         g_path[g_pathLen++] = nums[i];
         backtrack(nums, n);
@@ -33,7 +36,8 @@ void backtrack(int* nums, int n) {
     }
 }
 
-int** permuteUnique(int* nums, int numsSize, int* returnSize, int** returnColumnSizes) {
+int** permuteUnique(int* nums, int numsSize, int* returnSize,
+                    int** returnColumnSizes) {
     qsort(nums, numsSize, sizeof(int), compare);
     g_ans = (int**)malloc(50000 * sizeof(int*));
     g_colSizes = (int*)malloc(50000 * sizeof(int));

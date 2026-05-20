@@ -6,8 +6,9 @@ double myPow(double x, int n) {
     }
     double result = 1.0;
     while (N > 0) {
-        if (N & 1) result *= x; // 当前位为 1，累乘当前底数
-        x *= x; // 底数平方
+        if (N & 1)
+            result *= x; // 当前位为 1，累乘当前底数
+        x *= x;          // 底数平方
         N >>= 1;
     }
     return result;
