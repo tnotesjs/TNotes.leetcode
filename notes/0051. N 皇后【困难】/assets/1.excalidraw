@@ -1287,10 +1287,10 @@
     {
       "id": "h3wQPpzPcV3ggfrCNeSj7",
       "type": "arrow",
-      "x": -168.14257069070322,
-      "y": 41.24968872745717,
-      "width": 284.71513640231154,
-      "height": 284.71513640231154,
+      "x": -168.03162405822331,
+      "y": 41.5275598986652,
+      "width": 284.60418976983163,
+      "height": 284.43726523110354,
       "angle": 0,
       "strokeColor": "#e03131",
       "backgroundColor": "#b2f2bb",
@@ -1306,11 +1306,11 @@
         "type": 2
       },
       "seed": 723433500,
-      "version": 559,
-      "versionNonce": 1169050780,
+      "version": 561,
+      "versionNonce": 238107859,
       "isDeleted": false,
       "boundElements": [],
-      "updated": 1775321011427,
+      "updated": 1779236744727,
       "link": null,
       "locked": false,
       "points": [
@@ -1319,12 +1319,12 @@
           0
         ],
         [
-          284.71513640231154,
-          284.71513640231154
+          284.60418976983163,
+          284.43726523110354
         ]
       ],
       "startBinding": {
-        "elementId": "e9pkzVwwbHAMx6BSkjNej",
+        "elementId": "uODJhafYiJIHPLKSGqecc",
         "focus": 0.3439091622531124,
         "gap": 1
       },
@@ -1335,7 +1335,7 @@
       "lastCommittedPoint": null
     },
     {
-      "id": "e9pkzVwwbHAMx6BSkjNej",
+      "id": "uODJhafYiJIHPLKSGqecc",
       "type": "text",
       "x": -195.1109440037178,
       "y": 15.524948924318096,
@@ -1353,9 +1353,9 @@
       "frameId": null,
       "index": "aa",
       "roundness": null,
-      "seed": 2001294492,
-      "version": 44,
-      "versionNonce": 871520540,
+      "seed": 773968157,
+      "version": 47,
+      "versionNonce": 624437875,
       "isDeleted": false,
       "boundElements": [
         {
@@ -1363,7 +1363,7 @@
           "type": "arrow"
         }
       ],
-      "updated": 1775321011427,
+      "updated": 1779236744727,
       "link": null,
       "locked": false,
       "text": "diag1",
@@ -1458,6 +1458,48 @@
       "endArrowhead": "arrow",
       "elbowed": false,
       "lastCommittedPoint": null
+    },
+    {
+      "id": "e9pkzVwwbHAMx6BSkjNej",
+      "type": "text",
+      "x": -116.29614191673255,
+      "y": 404.2308406714287,
+      "width": 338.39984130859375,
+      "height": 80,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "dotted",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "ad",
+      "roundness": null,
+      "seed": 2001294492,
+      "version": 570,
+      "versionNonce": 255961798,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "h3wQPpzPcV3ggfrCNeSj7",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1779236912846,
+      "link": null,
+      "locked": false,
+      "text": "提示：\ndfs 开启下一层 row + 1 搜索时\ndiag1 中的 << 1 左移，相当于棋盘上的右移\ndiag2 中的 >>> 1 右移，相当于棋盘上的左移",
+      "fontSize": 16,
+      "fontFamily": 8,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "提示：\ndfs 开启下一层 row + 1 搜索时\ndiag1 中的 << 1 左移，相当于棋盘上的右移\ndiag2 中的 >>> 1 右移，相当于棋盘上的左移",
+      "autoResize": true,
+      "lineHeight": 1.25
     }
   ],
   "appState": {
