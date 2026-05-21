@@ -1,7 +1,8 @@
 int minDistance(char* word1, char* word2) {
     int m = strlen(word1), n = strlen(word2);
     int dp[n + 1];
-    for (int j = 0; j <= n; j++) dp[j] = j; // word1 为空时，插入 j 次
+    for (int j = 0; j <= n; j++)
+        dp[j] = j; // word1 为空时，插入 j 次
 
     for (int i = 1; i <= m; i++) {
         int prev = dp[0]; // 保存左上角 dp[i-1][j-1]

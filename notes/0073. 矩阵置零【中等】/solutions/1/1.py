@@ -19,6 +19,8 @@ class Solution:
 
         # 处理第一行和第一列
         if first_row_zero:
-            for j in range(n): matrix[0][j] = 0
+            for j in range(n):
+                matrix[0][j] = 0
         if first_col_zero:
-            for i in range(m): matrix[i][0] = 0
+            for i in range(m):
+                matrix[i][0] = 0

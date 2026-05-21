@@ -26,6 +26,8 @@
 输出：true
 ```
 
+---
+
 示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-21-12-21-51.png)
@@ -34,6 +36,8 @@
 输入：p = [1,2], q = [1,null,2]
 输出：false
 ```
+
+---
 
 示例 3：
 

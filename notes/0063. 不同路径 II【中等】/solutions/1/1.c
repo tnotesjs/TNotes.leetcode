@@ -1,4 +1,5 @@
-int uniquePathsWithObstacles(int** obstacleGrid, int obstacleGridSize, int* obstacleGridColSize) {
+int uniquePathsWithObstacles(int** obstacleGrid, int obstacleGridSize,
+                             int* obstacleGridColSize) {
     int m = obstacleGridSize, n = obstacleGridColSize[0];
     int dp[n];
     dp[0] = obstacleGrid[0][0] == 0 ? 1 : 0;

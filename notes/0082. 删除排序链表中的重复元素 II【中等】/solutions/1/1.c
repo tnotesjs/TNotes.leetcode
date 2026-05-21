@@ -12,7 +12,8 @@ struct ListNode* deleteDuplicates(struct ListNode* head) {
     while (prev->next) {
         struct ListNode* cur = prev->next;
         // 跳过所有重复节点
-        while (cur->next && cur->val == cur->next->val) cur = cur->next;
+        while (cur->next && cur->val == cur->next->val)
+            cur = cur->next;
         if (prev->next == cur) {
             prev = prev->next; // 无重复，前进
         } else {

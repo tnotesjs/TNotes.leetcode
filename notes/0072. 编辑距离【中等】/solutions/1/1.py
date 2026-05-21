@@ -5,7 +5,7 @@ class Solution:
 
         for i in range(1, m + 1):
             prev = dp[0]  # 保存左上角 dp[i-1][j-1]
-            dp[0] = i      # word2 为空时，删除 i 次
+            dp[0] = i  # word2 为空时，删除 i 次
             for j in range(1, n + 1):
                 temp = dp[j]
                 if word1[i - 1] == word2[j - 1]:

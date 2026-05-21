@@ -11,7 +11,8 @@ class Solution:
         while prev.next:
             cur = prev.next
             # 跳过所有重复节点
-            while cur.next and cur.val == cur.next.val: cur = cur.next
+            while cur.next and cur.val == cur.next.val:
+                cur = cur.next
             if prev.next is cur:
                 prev = prev.next  # 无重复，前进
             else:

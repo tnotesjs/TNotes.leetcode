@@ -20,13 +20,15 @@ class Solution:
                 else:
                     pred.right = None
                     if prev and prev.val > cur.val:
-                        if not first: first = prev
+                        if not first:
+                            first = prev
                         second = cur
                     prev = cur
                     cur = cur.right
             else:
                 if prev and prev.val > cur.val:
-                    if not first: first = prev
+                    if not first:
+                        first = prev
                     second = cur
                 prev = cur
                 cur = cur.right

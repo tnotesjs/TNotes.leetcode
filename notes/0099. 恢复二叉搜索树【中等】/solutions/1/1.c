@@ -8,11 +8,11 @@
  */
 void recoverTree(struct TreeNode* root) {
     struct TreeNode *first = NULL, *second = NULL, *prev = NULL;
-    struct TreeNode *cur = root;
+    struct TreeNode* cur = root;
     // Morris 中序遍历
     while (cur) {
         if (cur->left) {
-            struct TreeNode *pred = cur->left;
+            struct TreeNode* pred = cur->left;
             while (pred->right && pred->right != cur)
                 pred = pred->right;
             if (!pred->right) {
@@ -21,7 +21,8 @@ void recoverTree(struct TreeNode* root) {
             } else {
                 pred->right = NULL;
                 if (prev && prev->val > cur->val) {
-                    if (!first) first = prev;
+                    if (!first)
+                        first = prev;
                     second = cur;
                 }
                 prev = cur;
@@ -29,7 +30,8 @@ void recoverTree(struct TreeNode* root) {
             }
         } else {
             if (prev && prev->val > cur->val) {
-                if (!first) first = prev;
+                if (!first)
+                    first = prev;
                 second = cur;
             }
             prev = cur;
