@@ -107,7 +107,7 @@
 - [x] [0059. 螺旋矩阵 II【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0059.%20%E8%9E%BA%E6%97%8B%E7%9F%A9%E9%98%B5%20II%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [x] [0060. 排列序列【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0060.%20%E6%8E%92%E5%88%97%E5%BA%8F%E5%88%97%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
 - [x] [0061. 旋转链表【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0061.%20%E6%97%8B%E8%BD%AC%E9%93%BE%E8%A1%A8%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
-- [ ] [0062. 不同路径【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0062.%20%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%84%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
+- [x] [0062. 不同路径【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0062.%20%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%84%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0063. 不同路径 II【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0063.%20%E4%B8%8D%E5%90%8C%E8%B7%AF%E5%BE%84%20II%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0064. 最小路径和【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0064.%20%E6%9C%80%E5%B0%8F%E8%B7%AF%E5%BE%84%E5%92%8C%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0065. 有效数字【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0065.%20%E6%9C%89%E6%95%88%E6%95%B0%E5%AD%97%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)

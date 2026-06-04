@@ -72,6 +72,8 @@
 
 ## 2. 🎯 s.1 - 动态规划（滚动数组）
 
+![svg](./assets/1.svg)
+
 ::: code-group
 
 <<< ./solutions/1/1.c [c]
