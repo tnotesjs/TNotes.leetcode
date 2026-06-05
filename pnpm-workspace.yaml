@@ -1,3 +1,6 @@
 # 本地开发时取消注释以 link 本地 core（不要提交到远程）
 # overrides:
 #   '@tnotesjs/core': link:../core
+
+allowBuilds:
+  esbuild: false
