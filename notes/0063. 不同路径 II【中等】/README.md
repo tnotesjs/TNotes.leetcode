@@ -26,7 +26,11 @@
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-17-31-06.png)
 
 ```txt
-输入：obstacleGrid = [[0,0,0],[0,1,0],[0,0,0]]
+输入：obstacleGrid = [
+  [0, 0, 0],
+  [0, 1, 0],
+  [0, 0, 0]
+]
 输出：2
 ```
 
@@ -44,7 +48,10 @@
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-17-31-12.png)
 
 ```txt
-输入：obstacleGrid = [[0,1],[0,0]]
+输入：obstacleGrid = [
+  [0, 1],
+  [0, 0]
+]
 输出：1
 ```
 
