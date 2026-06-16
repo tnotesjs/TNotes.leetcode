@@ -1,5 +1,4 @@
 /**
- * 二分查找法
  * @param {number} x
  * @return {number}
  */

@@ -1,5 +1,4 @@
 /**
- * 牛顿法
  * @param {number} x
  * @return {number}
  */
