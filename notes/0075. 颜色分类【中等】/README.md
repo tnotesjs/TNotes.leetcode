@@ -3,11 +3,7 @@
 <!-- region:toc -->
 
 - [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 调用自带的 sort 函数](#2--s1---调用自带的-sort-函数)
-- [3. 🎯 s.2 - 冒泡排序](#3--s2---冒泡排序)
-- [4. 🎯 s.3 - 三路快速排序方法](#4--s3---三路快速排序方法)
-- [5. 🎯 s.4 - 基排序](#5--s4---基排序)
-- [6. 🫧 评价](#6--评价)
+- [2. 🎯 s.1 - 三指针分区](#2--s1---三指针分区)
 
 <!-- endregion:toc -->
 
@@ -21,12 +17,16 @@
 
 必须在不使用库内置的 sort 函数的情况下解决这个问题。
 
+---
+
 示例 1：
 
 ```
 输入：nums = [2,0,2,1,1,0]
 输出：[0,0,1,1,2,2]
 ```
+
+---
 
 示例 2：
 
@@ -35,107 +35,41 @@
 输出：[0,1,2]
 ```
 
+---
+
 提示：
 
 - `n == nums.length`
 - `1 <= n <= 300`
 - `nums[i]` 为 `0`、`1` 或 `2`
 
+---
+
 进阶：
 
 - 你能想出一个仅使用常数空间的一趟扫描算法吗？
 
-## 2. 🎯 s.1 - 调用自带的 sort 函数
+## 2. 🎯 s.1 - 三指针分区
 
-```js
-/**
- * 22-08-29
- * @param {number[]} nums
- * @return {void} Do not return anything, modify nums in-place instead.
- */
-var sortColors = function (nums) {
-  nums.sort()
-}
-```
+![svg](./assets/1.svg)
 
-- 虽然题目描述中明确表示不能使用库内置的 sort 函数，但实际上在开发时，这么做效率反而可能是更好的，因为内置的 sort 排序已经帮我们做了不少的优化。
-- 提交记录：
-  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-10-14-35-56.png)
+::: code-group
 
-## 3. 🎯 s.2 - 冒泡排序
+<<< ./solutions/1/1.c [c]
 
-```js
-/**
- * 22-08-29
- * @param {number[]} nums
- * @return {void} Do not return anything, modify nums in-place instead.
- */
-var sortColors = function (nums) {
-  const len = nums.length
-  for (let i = 0; i < len - 1; i++)
-    for (let j = 0; j < len - 1 - i; j++)
-      if (nums[j] > nums[j + 1]) [nums[j], nums[j + 1]] = [nums[j + 1], nums[j]]
-}
-```
+<<< ./solutions/1/1.js [js]
 
-## 4. 🎯 s.3 - 三路快速排序方法
+<<< ./solutions/1/1.py [py]
 
-```js
-/**
- * 22-08-30
- * @param {number[]} nums
- * @return {void} Do not return anything, modify nums in-place instead.
- */
-var sortColors = function (nums) {
-  const len = nums.length
+:::
 
-  let lt = -1,
-    gt = len,
-    i = 0
+- 时间复杂度：$O(n)$，只需遍历数组一次
+- 空间复杂度：$O(1)$，原地交换，只使用常数额外空间
 
-  while (i < gt) {
-    if (nums[i] < 1) {
-      // 0
-      lt++
-      ;[nums[i], nums[lt]] = [nums[lt], nums[i]]
-      i++
-    } else if (nums[i] > 1) {
-      // 2
-      gt--
-      ;[nums[i], nums[gt]] = [nums[gt], nums[i]]
-    } else {
-      // 1
-      i++
-    }
-  }
-}
-```
+算法思路：
 
-- 设置三个 `lt`, `gt`, `i` 定义：`nums[0...lt] == 0`，`nums[lt+1...i-1] = 1`，`nums[gt...n-1] == 2`，每次遍历的时候保持这个定义。
-- ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-10-14-49-54.png)
-
-## 5. 🎯 s.4 - 基排序
-
-```js
-/**
- * 22-08-30
- * @param {number[]} nums
- * @return {void} Do not return anything, modify nums in-place instead.
- */
-var sortColors = function (nums) {
-  // 初始化一个辅助数组 arr
-  const arr = [0, 0, 0]
-  for (let i = 0; i < nums.length; i++) arr[nums[i]]++
-  // 依据 arr 来设置 nums
-  let j = 0
-  for (let i = 0; i < arr.length; i++) while (arr[i]-- > 0) nums[j++] = i
-}
-```
-
-- 思路：
-  1. 用一个辅助数组 `arr` 记录下 `nums` 中的 0，1，2 的出现次数。
-  2. 根据 `arr` 来重写 `nums`
-
-## 6. 🫧 评价
-
-- 本质是考察升序排序。
+- 维护三个指针：`p0` 指向 0 区域的右边界，`p2` 指向 2 区域的左边界，`i` 为当前扫描指针
+- 当 `nums[i] == 0` 时，与 `nums[p0]` 交换并同时推进 `p0` 和 `i`
+- 当 `nums[i] == 2` 时，与 `nums[p2]` 交换并只推进 `p2`（`i` 不动，因为换来的元素尚未检查）
+- 当 `nums[i] == 1` 时，直接推进 `i`
+- 循环结束时 `[0, p0-1]` 全为 0，`[p2+1, n-1]` 全为 2，中间全为 1
