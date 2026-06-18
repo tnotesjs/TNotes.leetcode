@@ -118,7 +118,7 @@
 - [x] [0070. 爬楼梯【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0070.%20%E7%88%AC%E6%A5%BC%E6%A2%AF%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
 - [x] [0071. 简化路径【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0071.%20%E7%AE%80%E5%8C%96%E8%B7%AF%E5%BE%84%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [x] [0072. 编辑距离【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0072.%20%E7%BC%96%E8%BE%91%E8%B7%9D%E7%A6%BB%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
-- [ ] [0073. 矩阵置零【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0073.%20%E7%9F%A9%E9%98%B5%E7%BD%AE%E9%9B%B6%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
+- [x] [0073. 矩阵置零【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0073.%20%E7%9F%A9%E9%98%B5%E7%BD%AE%E9%9B%B6%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0074. 搜索二维矩阵【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0074.%20%E6%90%9C%E7%B4%A2%E4%BA%8C%E7%BB%B4%E7%9F%A9%E9%98%B5%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0075. 颜色分类【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0075.%20%E9%A2%9C%E8%89%B2%E5%88%86%E7%B1%BB%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0076. 最小覆盖子串【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0076.%20%E6%9C%80%E5%B0%8F%E8%A6%86%E7%9B%96%E5%AD%90%E4%B8%B2%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)
