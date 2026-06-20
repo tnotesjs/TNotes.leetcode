@@ -3,9 +3,8 @@
 <!-- region:toc -->
 
 - [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
-- [3. 🎯 s.2 - 快慢指针](#3--s2---快慢指针)
-- [4. 📒 尝试正则解法失败](#4--尝试正则解法失败)
+- [2. 🎯 s.1 - 快慢指针](#2--s1---快慢指针)
+- [3. 引用](#3-引用)
 
 <!-- endregion:toc -->
 
@@ -13,9 +12,9 @@
 
 - [leetcode](https://leetcode.cn/problems/remove-duplicates-from-sorted-array-ii)
 
-给你一个有序数组 `nums`，请你 [原地](http://baike.baidu.com/item/%E5%8E%9F%E5%9C%B0%E7%AE%97%E6%B3%95) 删除重复出现的元素，使得出现次数超过两次的元素只出现两次，返回删除后数组的新长度。
+给你一个有序数组 `nums`，请你 [原地][1] 删除重复出现的元素，使得出现次数超过两次的元素只出现两次，返回删除后数组的新长度。
 
-不要使用额外的数组空间，你必须在 [原地](https://baike.baidu.com/item/%E5%8E%9F%E5%9C%B0%E7%AE%97%E6%B3%95) 修改输入数组 并在使用 O(1) 额外空间的条件下完成。
+不要使用额外的数组空间，你必须在 [原地][1] 修改输入数组 并在使用 O(1) 额外空间的条件下完成。
 
 说明：
 
@@ -36,23 +35,37 @@ for (int i = 0; i < len; i++) {
 }
 ```
 
+---
+
 示例 1：
 
 ```
-输入：nums = [1,1,1,2,2,3]
-输出：5, nums = [1,1,2,2,3]
-解释：函数应返回新长度 length = 5, 并且原数组的前五个元素被修改为 1, 1, 2, 2, 3。
-不需要考虑数组中超出新长度后面的元素。
+输入：nums = [1, 1, 1, 2, 2, 3]
+输出：5, nums = [1, 1, 2, 2, 3]
 ```
+
+解释：
+
+函数应返回新长度 length = 5, 并且原数组的前五个元素被修改为 1, 1, 2, 2, 3。
+
+不需要考虑数组中超出新长度后面的元素。
+
+---
 
 示例 2：
 
 ```
-输入：nums = [0,0,1,1,1,1,2,3,3]
-输出：7, nums = [0,0,1,1,2,3,3]
-解释：函数应返回新长度 length = 7, 并且原数组的前七个元素被修改为 0, 0, 1, 1, 2, 3, 3。
-不需要考虑数组中超出新长度后面的元素。
+输入：nums = [0, 0, 1, 1, 1, 1, 2, 3, 3]
+输出：7, nums = [0, 0, 1, 1, 2, 3, 3]
 ```
+
+解释：
+
+函数应返回新长度 length = 7, 并且原数组的前七个元素被修改为 0, 0, 1, 1, 2, 3, 3。
+
+不需要考虑数组中超出新长度后面的元素。
+
+---
 
 提示：
 
@@ -60,97 +73,33 @@ for (int i = 0; i < len; i++) {
 - `-10^4 <= nums[i] <= 10^4`
 - `nums` 已按升序排列
 
-## 2. 🎯 s.1 - 暴力解法
+## 2. 🎯 s.1 - 快慢指针
 
-```js
-/**
- * 22-08-28
- * @param {number[]} nums
- * @return {number}
- */
-var removeDuplicates = function (nums) {
-  let i = (j = 0),
-    len = nums.length,
-    n = 2
-  while (i < len) {
-    // 找第一个和 nums[i] 不等的成员
-    while (++j < len) if (nums[j] !== nums[i]) break
-    // 判断下标 i, j 之间的差值
-    if (j - i < n) {
-      i = j
-    } else {
-      // 缩减 len
-      len -= j - i - n
-      // 移动 i
-      i += n
-      // 将后续片段往前挪
-      for (let k = i; k < len; ) nums[k++] = nums[j++]
-      // j 复位，以便下次查找
-      j = i
-    }
-  }
-  return len
-}
-```
+![svg](./assets/1.svg)
 
-- 时间复杂度：O(n)
-- 空间复杂度：O(1)
-- 流程说明：
-  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-10-18-40-59.png)
-- 这种解法的优势在于 n 可配置，本题要求重复次数最大两次，如果修改要求，改为 3、4 次，只需要将 n 赋值为 3、4 即可。
+::: code-group
 
-## 3. 🎯 s.2 - 快慢指针
+<<< ./solutions/1/1.c [c]
 
-```js
-/**
- * 22-08-28
- * @param {number[]} nums
- * @return {number}
- */
-var removeDuplicates = function (nums) {
-  let len = nums.length
-  if (len <= 2) return len
+<<< ./solutions/1/1.js [js]
 
-  let i = 1,
-    k = i - 1,
-    j = i + 1
-  for (; j < len; j++) {
-    // 3 者相等，不做任何处理，j 继续往后挪。
-    if (nums[j] === nums[k] && nums[j] === nums[i]) continue
-    // 3 者不相等，i、k 往后挪一步
-    k++
-    i++
-    // 更新 i，相当于将 nums[j] 插入“新数组”
-    nums[i] = nums[j]
-  }
+<<< ./solutions/1/1.py [py]
 
-  return i + 1
-}
-```
+:::
 
-- 时间复杂度：O(n)
-- 空间复杂度：O(1)
-- 变量说明：
-  - `i` 是慢指针
-  - `j` 是快指针
-  - `k` 是一个紧跟着 `i` 的辅助指针
-- 流程说明：
-- ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-10-18-55-21.png)
+- 时间复杂度：$O(n)$，只需遍历数组一次
+- 空间复杂度：$O(1)$，原地修改，只使用常数额外空间
 
-## 4. 📒 尝试正则解法失败
+算法思路：
 
-```js
-var removeDuplicates = function (nums) {
-  const reg = /(\d)\1{0,}/g
-  const ansArr = nums
-    .join('')
-    .replace(reg, (match) => match.slice(0, 2))
-    .split('')
-  for (let i = 0; i < ansArr.length; i++) nums[i] = Number(ansArr[i])
-  return ansArr.length
-}
-```
+- 用快慢指针，`slow` 为写指针，`fast` 为读指针
+  - `slow` 是“慢指针”，它标记着下一个合法元素应该存放的位置，同时也代表了处理后数组的新长度。
+  - `fast` 是“快指针”，它的任务是依次遍历整个原始数组，检查每个元素是否应该被安全写入到 `slow` 中。
+- 由于数组已排序，只需判断 `nums[slow - 2]` 是否等于 `nums[fast]`：若不相等，说明 `nums[fast]` 不会构成第三个重复，可以写入 `nums[slow]`；否则跳过
+- 循环结束后 `slow` 即为新数组的长度
 
-- 这道题一开始想要使用正则表达式（捕获组、反向引用）来实现，但是由于题目中也许会出现负数，所以正则逻辑还需要优化。目前的逻辑，也许仅适用于 nums 中只出现 0~9 的情况。
-- 提交记录：虽然能够通过一些示例，但 `nums[i]` 一旦出现负数或者大于 9 的数，这法子就行不通了。
-  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-10-19-07-44.png)
+## 3. 引用
+
+- [原地算法 - 百度百科][1]
+
+[1]: http://baike.baidu.com/item/%E5%8E%9F%E5%9C%B0%E7%AE%97%E6%B3%95

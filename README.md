@@ -125,7 +125,7 @@
 - [x] [0077. 组合【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0077.%20%E7%BB%84%E5%90%88%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [x] [0078. 子集【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0078.%20%E5%AD%90%E9%9B%86%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [x] [0079. 单词搜索【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0079.%20%E5%8D%95%E8%AF%8D%E6%90%9C%E7%B4%A2%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
-- [ ] [0080. 删除有序数组中的重复项 II【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0080.%20%E5%88%A0%E9%99%A4%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E9%A1%B9%20II%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
+- [x] [0080. 删除有序数组中的重复项 II【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0080.%20%E5%88%A0%E9%99%A4%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E9%A1%B9%20II%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0081. 搜索旋转排序数组 II【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0081.%20%E6%90%9C%E7%B4%A2%E6%97%8B%E8%BD%AC%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%20II%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0082. 删除排序链表中的重复元素 II【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0082.%20%E5%88%A0%E9%99%A4%E6%8E%92%E5%BA%8F%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E5%85%83%E7%B4%A0%20II%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [x] [0083. 删除排序链表中的重复元素【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0083.%20%E5%88%A0%E9%99%A4%E6%8E%92%E5%BA%8F%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E5%85%83%E7%B4%A0%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
