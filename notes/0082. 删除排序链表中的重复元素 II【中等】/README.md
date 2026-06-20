@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/remove-duplicates-from-sorted-list-ii/)
 
-给定一个已排序的链表的头 `head`，_删除原始链表中所有重复数字的节点，只留下不同的数字_。返回 _已排序的链表_。
+给定一个已排序的链表的头 `head`，删除原始链表中所有重复数字的节点，只留下不同的数字。返回已排序的链表。
 
 ---
 
@@ -20,8 +20,8 @@
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-17-44-33.png)
 
 ```txt
-输入：head = [1,2,3,3,4,4,5]
-输出：[1,2,5]
+输入：head = [1, 2, 3, 3, 4, 4, 5]
+输出：[1, 2, 5]
 ```
 
 ---
@@ -31,8 +31,8 @@
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-17-44-38.png)
 
 ```txt
-输入：head = [1,1,1,2,3]
-输出：[2,3]
+输入：head = [1, 1, 1, 2, 3]
+输出：[2, 3]
 ```
 
 ---
@@ -41,7 +41,7 @@
 
 - 链表中节点数目在范围 `[0, 300]` 内
 - `-100 <= Node.val <= 100`
-- 题目数据保证链表已经按升序 排列
+- 题目数据保证链表已经按升序排列
 
 ## 2. 🎯 s.1 - 哨兵节点 + 双指针
 
@@ -62,4 +62,4 @@
 
 - 创建哨兵节点 `dummy` 指向 `head`，用 `prev` 指向最后一个确认不重复的节点
 - 从 `prev.next` 出发，用 `cur` 向后扫描跳过所有相同值的节点
-- 若 `prev.next == cur` 说明无重复，`prev` 前进；否则 `prev.next = cur.next` 删除所有重复节点
+- 若 `prev.next == cur` 说明无重复，`prev` 安全前进；否则 `prev.next = cur.next` 删除所有重复节点
