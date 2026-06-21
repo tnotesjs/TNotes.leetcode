@@ -22,8 +22,8 @@
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-25-16-52-06.png)
 
 ```txt
-输入：root = [1,null,2,3]
-输出：[1,3,2]
+输入：root = [1, null, 2, 3]
+输出：[1, 3, 2]
 ```
 
 ---
@@ -57,9 +57,11 @@
 
 ::: code-group
 
-<<< ./solutions/1/1.js
+<<< ./solutions/1/1.c [c]
 
-<<< ./solutions/1/2.js
+<<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
 
 :::
 
@@ -76,7 +78,11 @@
 
 ::: code-group
 
-<<< ./solutions/2/1.js
+<<< ./solutions/2/1.c [c]
+
+<<< ./solutions/2/1.js [js]
+
+<<< ./solutions/2/1.py [py]
 
 :::
 
