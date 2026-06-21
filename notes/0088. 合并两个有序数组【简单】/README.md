@@ -3,8 +3,7 @@
 <!-- region:toc -->
 
 - [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
-- [3. 🎯 s.2 - 尾插法](#3--s2---尾插法)
+- [2. 🎯 s.1 - 逆向双指针](#2--s1---逆向双指针)
 
 <!-- endregion:toc -->
 
@@ -17,6 +16,8 @@
 请你合并 `nums2` 到 `nums1` 中，使合并后的数组同样按非递减顺序排列。
 
 注意：最终，合并后数组不应由函数返回，而是存储在数组 `nums1` 中。为了应对这种情况，`nums1` 的初始长度为 `m + n`，其中前 `m` 个元素表示应合并的元素，后 `n` 个元素为 `0`，应忽略。`nums2` 的长度为 `n`。
+
+---
 
 示例 1：
 
@@ -83,95 +84,27 @@
 
 进阶：你可以设计实现一个时间复杂度为 `O(m + n)` 的算法解决此问题吗？
 
-## 2. 🎯 s.1 - 暴力解法
+## 2. 🎯 s.1 - 逆向双指针
 
-```js
-/**
- * 22-09-02
- * @param {number[]} nums1
- * @param {number} m
- * @param {number[]} nums2
- * @param {number} n
- * @return {void} Do not return anything, modify nums1 in-place instead.
- */
-var merge = function (nums1, m, nums2, n) {
-  ;[...nums1.slice(0, m), ...nums2.slice(0, n)] // 1. 切片合并
-    .sort((a, b) => a - b) // 2. 排序
-    .forEach((it, i) => (nums1[i] = it)) // 3. 重新给 nums1 赋值
-}
-```
+![svg](./assets/1.svg)
 
-- 注意：
-  - Do not return anything, modify nums1 in-place instead.
-  - 头部注释信息中强调，不需要返回任何内容，直接基于 nums1 原地修改即可。
+::: code-group
 
-## 3. 🎯 s.2 - 尾插法
+<<< ./solutions/1/1.c [c]
 
-```js
-/**
- * 22-09-03
- * @param {number[]} nums1
- * @param {number} m
- * @param {number[]} nums2
- * @param {number} n
- * @return {void} Do not return anything, modify nums1 in-place instead.
- */
-var merge = function (nums1, m, nums2, n) {
-  // 处理特殊情况
-  if (n < 1) return
-  if (m < 1) {
-    for (let i = 0; i < nums2.length; i++) nums1[i] = nums2[i]
-    return
-  }
+<<< ./solutions/1/1.js [js]
 
-  let k = m + n - 1, // k 指向 nums1.length - 1 也就是 nums1 的结尾
-    i = m - 1, // i 指向 nums1 中参与合并的片段的结尾
-    j = n - 1 // j 指向 nums2 中参与合并的片段的结尾
+<<< ./solutions/1/1.py [py]
 
-  while (k >= 0) {
-    if (nums1[i] > nums2[j] || j < 0) nums1[k--] = nums1[i--]
-    if (nums2[j] >= nums1[i] || i < 0) nums1[k--] = nums2[j--]
-  }
-}
-```
+:::
 
-- 执行流程：
-  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-10-20-55-40.png)
-- `if ((nums1[i] > nums2[j]) || (j < 0)) nums1[k--] = nums1[i--]`
-  - 如果 `nums1[i]` 大于 `nums2[j]` 或者 `nums2` 已经查完了，那么使用 `nums1[i]` 跟 `nums1[k]` 交换，交换后俩指针往前挪一步。
-- `if ((nums2[j] >= nums1[i]) || (i < 0)) nums1[k--] = nums2[j--]`
-  - 如果 `nums2[j]` 大于等于 `nums1[i]` 或者 `nums1` 已经查完了，那么使用 `nums2[j]` 跟 `nums1[k]` 交换，交换后俩指针往前挪一步。
-- 优化：
-  - 可以适当对 while 的循环体做一些优化处理，省去一些不必要的比较。
+复杂度分析：
 
-```js
-/**
- * 24-11-10
- * @param {number[]} nums1
- * @param {number} m
- * @param {number[]} nums2
- * @param {number} n
- * @return {void} Do not return anything, modify nums1 in-place instead.
- */
-var merge = function (nums1, m, nums2, n) {
-  // 处理特殊情况
-  if (n < 1) return
-  if (m < 1) {
-    for (let i = 0; i < nums2.length; i++) nums1[i] = nums2[i]
-    return
-  }
+- 时间复杂度: $O(m + n)$，因为最坏情况下需要遍历两个数组的所有元素。
+- 空间复杂度: $O(1)$，只使用了常数级别的额外空间。
 
-  let k = m + n - 1, // k 指向 nums1.length - 1 也就是 nums1 的结尾
-    i = m - 1, // i 指向 nums1 中参与合并的片段的结尾
-    j = n - 1 // j 指向 nums2 中参与合并的片段的结尾
+算法思路：
 
-  while (k >= 0) {
-    // nums1[i] 和 nums2[j] 中，较大的成员跟 nums1[k] 交换。
-    if (nums1[i] > nums2[j]) nums1[k--] = nums1[i--]
-    else nums1[k--] = nums2[j--]
-
-    // 若某次交换后，发现 i 和 k 指向相同了，后续就没必要再处理了。
-    if (i === k) return
-  }
-}
-```
+- 指针初始化：`p1` 指向 `nums1` 最后一个有效元素 `m-1`，`p2` 指向 `nums2` 最后一个元素 `n-1`，`p` 指向 `nums1` 的最后一个位置 `m+n-1`。
+- 从后往前填充：比较 `nums1[p1]` 和 `nums2[p2]`，将较大的元素放入 `nums1[p]`，然后移动相应的指针。
+- 处理剩余元素：如果 `nums2` 中还有剩余元素 `p2 >= 0`，将它们按顺序复制到 `nums1` 的前面。`nums1` 中剩余的元素已经在正确的位置上，无需额外处理。
