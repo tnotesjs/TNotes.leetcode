@@ -1,3 +1,11 @@
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     struct TreeNode *left;
+ *     struct TreeNode *right;
+ * };
+ */
 int kthSmallest(struct TreeNode* root, int k) {
     struct TreeNode* stack[10000];
     int top = 0;
@@ -8,7 +16,8 @@ int kthSmallest(struct TreeNode* root, int k) {
             node = node->left;
         }
         node = stack[--top];
-        if (--k == 0) return node->val;
+        if (--k == 0)
+            return node->val;
         node = node->right;
     }
     return -1;

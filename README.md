@@ -144,7 +144,7 @@
 - [x] [0096. 不同的二叉搜索树【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0096.%20%E4%B8%8D%E5%90%8C%E7%9A%84%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [x] [0097. 交错字符串【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0097.%20%E4%BA%A4%E9%94%99%E5%AD%97%E7%AC%A6%E4%B8%B2%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [x] [0098. 验证二叉搜索树【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0098.%20%E9%AA%8C%E8%AF%81%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
-- [ ] [0099. 恢复二叉搜索树【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0099.%20%E6%81%A2%E5%A4%8D%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
+- [x] [0099. 恢复二叉搜索树【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0099.%20%E6%81%A2%E5%A4%8D%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [x] [0100. 相同的树【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0100.%20%E7%9B%B8%E5%90%8C%E7%9A%84%E6%A0%91%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
 
 ## 2. 0101~0200
@@ -281,7 +281,7 @@
 - [ ] [0227. 基本计算器 II【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0227.%20%E5%9F%BA%E6%9C%AC%E8%AE%A1%E7%AE%97%E5%99%A8%20II%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [x] [0228. 汇总区间【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0228.%20%E6%B1%87%E6%80%BB%E5%8C%BA%E9%97%B4%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
 - [ ] [0229. 多数元素 II【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0229.%20%E5%A4%9A%E6%95%B0%E5%85%83%E7%B4%A0%20II%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
-- [ ] [0230. 二叉搜索树中第 K 小的元素【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0230.%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E4%B8%AD%E7%AC%AC%20K%20%E5%B0%8F%E7%9A%84%E5%85%83%E7%B4%A0%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
+- [x] [0230. 二叉搜索树中第 K 小的元素【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0230.%20%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91%E4%B8%AD%E7%AC%AC%20K%20%E5%B0%8F%E7%9A%84%E5%85%83%E7%B4%A0%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [x] [0231. 2 的幂【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0231.%202%20%E7%9A%84%E5%B9%82%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
 - [x] [0232. 用栈实现队列【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0232.%20%E7%94%A8%E6%A0%88%E5%AE%9E%E7%8E%B0%E9%98%9F%E5%88%97%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
 - [ ] [0233. 数字 1 的个数【困难】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0233.%20%E6%95%B0%E5%AD%97%201%20%E7%9A%84%E4%B8%AA%E6%95%B0%E3%80%90%E5%9B%B0%E9%9A%BE%E3%80%91/README.md)

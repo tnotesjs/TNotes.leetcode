@@ -20,16 +20,18 @@
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-49-14.png)
 
 ```txt
-输入：root = [3,1,4,null,2], k = 1
+输入：root = [3, 1, 4, null, 2], k = 1
 输出：1
 ```
+
+---
 
 示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-49-24.png)
 
 ```txt
-输入：root = [5,3,6,2,4,null,null,1], k = 3
+输入：root = [5, 3, 6, 2, 4, null, null, 1], k = 3
 输出：3
 ```
 

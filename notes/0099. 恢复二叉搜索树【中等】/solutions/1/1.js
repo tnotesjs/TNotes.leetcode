@@ -11,35 +11,43 @@
  * @return {void} Do not return anything, modify root in-place instead.
  */
 var recoverTree = function (root) {
-  let first = null,
-    second = null,
-    prev = null
-  // Morris 中序遍历
-  let cur = root
-  while (cur) {
-    if (cur.left) {
-      let pred = cur.left
-      while (pred.right && pred.right !== cur) pred = pred.right
-      if (!pred.right) {
-        pred.right = cur
-        cur = cur.left
+  const values = []
+
+  // 中序遍历收集所有值
+  function inorder(node) {
+    if (!node) return
+    inorder(node.left)
+    values.push(node.val)
+    inorder(node.right)
+  }
+
+  inorder(root)
+
+  // 找到两个被交换的节点值
+  let first = null
+  let second = null
+  for (let i = 0; i < values.length - 1; i++) {
+    if (values[i] > values[i + 1]) {
+      if (first === null) {
+        first = values[i]
+        second = values[i + 1]
       } else {
-        pred.right = null
-        if (prev && prev.val > cur.val) {
-          if (!first) first = prev
-          second = cur
-        }
-        prev = cur
-        cur = cur.right
+        second = values[i + 1]
+        break
       }
-    } else {
-      if (prev && prev.val > cur.val) {
-        if (!first) first = prev
-        second = cur
-      }
-      prev = cur
-      cur = cur.right
     }
   }
-  ;[first.val, second.val] = [second.val, first.val]
+
+  // 再次中序遍历，交换节点值
+  let index = 0
+  function recover(node) {
+    if (!node) return
+    recover(node.left)
+    if (values[index] === first) node.val = second
+    else if (values[index] === second) node.val = first
+    index++
+    recover(node.right)
+  }
+
+  recover(root)
 }

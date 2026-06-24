@@ -5,7 +5,9 @@
 - [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 递归](#2--s1---递归)
 - [3. 🎯 s.2 - 迭代](#3--s2---迭代)
-- [4. 🔗 引用](#4--引用)
+- [4. 🎯 s.3 - Morris 遍历](#4--s3---morris-遍历)
+- [5. Morris 遍历是什么？](#5-morris-遍历是什么)
+- [6. 🔗 引用](#6--引用)
 
 <!-- endregion:toc -->
 
@@ -95,8 +97,38 @@
 - 当无法继续左移时，弹出栈顶节点并访问
 - 然后转向该节点的右子树继续处理
 
-## 4. 🔗 引用
+## 4. 🎯 s.3 - Morris 遍历
+
+::: code-group
+
+<<< ./solutions/3/1.c [c]
+
+<<< ./solutions/3/1.js [js]
+
+<<< ./solutions/3/1.py [py]
+
+:::
+
+- 时间复杂度：$O(n)$，每个节点最多被访问两次（建立线索时一次，通过线索回到节点时一次）
+- 空间复杂度：$O(1)$，只使用了常数个额外变量，不使用栈或递归
+
+算法思路：
+
+- Morris 遍历的核心思想：利用叶子节点的空右指针，临时建立「线索」指向中序遍历序列中的后继节点，从而在遍历左子树后能回到当前节点，实现 O(1) 空间的中序遍历
+- 对于当前节点 `cur`：
+  - 若没有左子树，直接访问 `cur`，然后转向右子树
+  - 若有左子树，找到其中序前驱节点 `pred`（左子树的最右节点）：
+    - 第一次来到 `cur`（`pred.right == null`）：建立线索 `pred.right = cur`，然后向左走
+    - 第二次回到 `cur`（`pred.right == cur`）：断开线索恢复原树结构，访问 `cur`，然后向右走
+
+## 5. Morris 遍历是什么？
+
+有关 Morris 遍历的相关内容，可以参考笔记：[TNotes.algorithms - 0007. Morris 遍历][2]
+
+## 6. 🔗 引用
 
 - [TNotes.algorithms - 0005. 二叉树的遍历][1]
+- [TNotes.algorithms - 0007. Morris 遍历][2]
 
 [1]: https://tnotesjs.github.io/TNotes.algorithms/notes/0005.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%81%8D%E5%8E%86/README
+[2]: https://tnotesjs.github.io/TNotes.algorithms/notes/0007.%20Morris%20%E9%81%8D%E5%8E%86/README

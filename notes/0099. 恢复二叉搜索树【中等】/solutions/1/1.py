@@ -6,30 +6,45 @@
 #         self.right = right
 class Solution:
     def recoverTree(self, root: Optional[TreeNode]) -> None:
-        first = second = prev = None
-        cur = root
-        # Morris 中序遍历
-        while cur:
-            if cur.left:
-                pred = cur.left
-                while pred.right and pred.right is not cur:
-                    pred = pred.right
-                if not pred.right:
-                    pred.right = cur
-                    cur = cur.left
+        """
+        Do not return anything, modify root in-place instead.
+        """
+        values = []
+
+        # 中序遍历收集所有值
+        def inorder(node):
+            if not node:
+                return
+            inorder(node.left)
+            values.append(node.val)
+            inorder(node.right)
+
+        inorder(root)
+
+        # 找到两个被交换的节点值
+        first = second = None
+        for i in range(len(values) - 1):
+            if values[i] > values[i + 1]:
+                if first is None:
+                    first = values[i]
+                    second = values[i + 1]
                 else:
-                    pred.right = None
-                    if prev and prev.val > cur.val:
-                        if not first:
-                            first = prev
-                        second = cur
-                    prev = cur
-                    cur = cur.right
-            else:
-                if prev and prev.val > cur.val:
-                    if not first:
-                        first = prev
-                    second = cur
-                prev = cur
-                cur = cur.right
-        first.val, second.val = second.val, first.val
+                    second = values[i + 1]
+                    break
+
+        # 再次中序遍历，交换节点值
+        index = 0
+
+        def recover(node):
+            nonlocal index
+            if not node:
+                return
+            recover(node.left)
+            if values[index] == first:
+                node.val = second
+            elif values[index] == second:
+                node.val = first
+            index += 1
+            recover(node.right)
+
+        recover(root)
