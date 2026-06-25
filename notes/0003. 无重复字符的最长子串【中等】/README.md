@@ -2,13 +2,6 @@
 
 <!-- region:toc -->
 
-::: details 📚 相关资源
-
-- [📂 TNotes.yuque（笔记附件资源）](https://www.yuque.com/tdahuyou/tnotes.yuque/)
-  - [TNotes.yuque.leetcode.0003](https://www.yuque.com/tdahuyou/tnotes.yuque/leetcode.0003)
-
-:::
-
 - [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
 - [3. 🎯 s.2 - 滑动窗口](#3--s2---滑动窗口)
