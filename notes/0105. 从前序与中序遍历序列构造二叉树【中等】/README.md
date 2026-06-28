@@ -3,7 +3,8 @@
 <!-- region:toc -->
 
 - [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1](#2--s1)
+- [2. 🎯 s.1 - 切片递归法](#2--s1---切片递归法)
+- [3. 🎯 s.2 - 哈希表 + 区间递归法](#3--s2---哈希表--区间递归法)
 
 <!-- endregion:toc -->
 
@@ -13,53 +14,77 @@
 
 给定两个整数数组 `preorder` 和 `inorder`，其中 `preorder` 是二叉树的先序遍历， `inorder` 是同一棵树的中序遍历，请构造二叉树并返回其根节点。
 
+---
+
 示例 1：
 
 ![img](https://assets.leetcode.com/uploads/2021/02/19/tree.jpg)
 
-- 输入: preorder = [3,9,20,15,7], inorder = [9,3,15,20,7]
-- 输出: [3,9,20,null,null,15,7]
+```
+输入: preorder = [3, 9, 20, 15, 7], inorder = [9, 3, 15, 20, 7]
+输出: [3, 9, 20, null, null, 15, 7]
+```
+
+---
 
 示例 2：
 
-- 输入: preorder = [-1], inorder = [-1]
-- 输出: [-1]
+```
+输入: preorder = [-1], inorder = [-1]
+输出: [-1]
+```
+
+---
 
 提示：
 
 - `1 <= preorder.length <= 3000`
 - `inorder.length == preorder.length`
 - `-3000 <= preorder[i], inorder[i] <= 3000`
-- `preorder` 和 `inorder` 均 无重复 元素
+- `preorder` 和 `inorder` 均无重复元素
 - `inorder` 均出现在 `preorder`
-- `preorder` 保证 为二叉树的前序遍历序列
-- `inorder` 保证 为二叉树的中序遍历序列
+- `preorder` 保证为二叉树的前序遍历序列
+- `inorder` 保证为二叉树的中序遍历序列
 
-## 2. 🎯 s.1
+## 2. 🎯 s.1 - 切片递归法
 
-```javascript
-/**
- * Definition for a binary tree node.
- * function TreeNode(val, left, right) {
- *     this.val = (val===undefined ? 0 : val)
- *     this.left = (left===undefined ? null : left)
- *     this.right = (right===undefined ? null : right)
- * }
- */
-/**
- * @param {number[]} preorder
- * @param {number[]} inorder
- * @return {TreeNode}
- */
-var buildTree = function (preorder, inorder) {
-  if (preorder.length === 0 || inorder.length === 0) return null
+::: code-group
 
-  const root = new TreeNode(preorder[0])
-  const idx = inorder.indexOf(root.val)
+<<< ./solutions/1/1.c [c]
 
-  root.left = buildTree(preorder.slice(1, 1 + idx), inorder.slice(0, idx))
-  root.right = buildTree(preorder.slice(1 + idx), inorder.slice(1 + idx))
+<<< ./solutions/1/1.js [js]
 
-  return root
-}
-```
+<<< ./solutions/1/1.py [py]
+
+:::
+
+- 时间复杂度：$O(n^2)$，`indexOf` 每次查找为 $O(n)$，递归共 $n$ 层
+- 空间复杂度：$O(n^2)$，每次递归切片创建新数组
+
+算法思路：
+
+- 前序遍历的第一个元素即为根节点，用它在中序遍历中找到根的位置 `idx`
+- `inorder[0..idx-1]` 是左子树的中序，`inorder[idx+1..]` 是右子树的中序
+- 根据左子树的节点数 `idx`，对前序遍历做对应切片：`preorder[1..1+idx]` 为左子树前序，`preorder[1+idx..]` 为右子树前序
+- 递归构建左右子树
+
+## 3. 🎯 s.2 - 哈希表 + 区间递归法
+
+::: code-group
+
+<<< ./solutions/2/1.c [c]
+
+<<< ./solutions/2/1.js [js]
+
+<<< ./solutions/2/1.py [py]
+
+:::
+
+- 时间复杂度：$O(n)$，哈希表将中序查找降为 $O(1)$，每个节点恰好处理一次
+- 空间复杂度：$O(n)$，哈希表占 $O(n)$，递归栈最坏为 $O(n)$
+
+算法思路：
+
+- 预处理中序遍历，建立 `值 → 下标` 的哈希表，实现 $O(1)$ 定位根节点
+- 用前序索引 `preorderIndex` 按前序顺序依次取根节点，递归传入中序的左右边界区间而非切片数组
+- 左子树的中序区间为 `[inLeft, rootIndex - 1]`，右子树为 `[rootIndex + 1, inRight]`
