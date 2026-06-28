@@ -7,7 +7,6 @@
  * }
  */
 /**
- * 方法二：迭代解法（层序遍历）
  * @param {TreeNode} root
  * @return {number}
  */
