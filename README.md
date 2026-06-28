@@ -150,7 +150,7 @@
 ## 2. 0101~0200
 
 - [x] [0101. 对称二叉树【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0101.%20%E5%AF%B9%E7%A7%B0%E4%BA%8C%E5%8F%89%E6%A0%91%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
-- [ ] [0102. 二叉树的层序遍历【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0102.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E5%BA%8F%E9%81%8D%E5%8E%86%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
+- [x] [0102. 二叉树的层序遍历【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0102.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%B1%82%E5%BA%8F%E9%81%8D%E5%8E%86%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [ ] [0103. 二叉树的锯齿形层序遍历【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0103.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%94%AF%E9%BD%BF%E5%BD%A2%E5%B1%82%E5%BA%8F%E9%81%8D%E5%8E%86%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
 - [x] [0104. 二叉树的最大深度【简单】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0104.%20%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E6%9C%80%E5%A4%A7%E6%B7%B1%E5%BA%A6%E3%80%90%E7%AE%80%E5%8D%95%E3%80%91/README.md)
 - [ ] [0105. 从前序与中序遍历序列构造二叉树【中等】](https://github.com/tnotesjs/TNotes.leetcode/tree/main/notes/0105.%20%E4%BB%8E%E5%89%8D%E5%BA%8F%E4%B8%8E%E4%B8%AD%E5%BA%8F%E9%81%8D%E5%8E%86%E5%BA%8F%E5%88%97%E6%9E%84%E9%80%A0%E4%BA%8C%E5%8F%89%E6%A0%91%E3%80%90%E4%B8%AD%E7%AD%89%E3%80%91/README.md)
