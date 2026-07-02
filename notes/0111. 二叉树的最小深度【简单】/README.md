@@ -24,14 +24,14 @@
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-09-13-23-47.png)
 
 ```txt
-输入：root = [3,9,20,null,null,15,7]
+输入：root = [3, 9, 20, null, null, 15, 7]
 输出：2
 ```
 
 示例 2：
 
 ```txt
-输入：root = [2,null,3,null,4,null,5,null,6]
+输入：root = [2, null, 3, null, 4, null, 5, null, 6]
 输出：5
 ```
 

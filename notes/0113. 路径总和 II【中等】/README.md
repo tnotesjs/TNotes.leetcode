@@ -22,8 +22,11 @@
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-20-33-54.png)
 
 ```txt
-输入：root = [5,4,8,11,null,13,4,7,2,null,null,5,1], targetSum = 22
-输出：[[5,4,11,2],[5,8,4,5]]
+输入：root = [5, 4, 8, 11, null, 13, 4, 7, 2, null, null, 5, 1], targetSum = 22
+输出：[
+  [5, 4, 11, 2],
+  [5, 8, 4, 5]
+]
 ```
 
 示例 2：
@@ -31,14 +34,14 @@
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-09-13-25-10.png)
 
 ```txt
-输入：root = [1,2,3], targetSum = 5
+输入：root = [1, 2, 3], targetSum = 5
 输出：[]
 ```
 
 示例 3：
 
 ```txt
-输入：root = [1,2], targetSum = 0
+输入：root = [1, 2], targetSum = 0
 输出：[]
 ```
 
