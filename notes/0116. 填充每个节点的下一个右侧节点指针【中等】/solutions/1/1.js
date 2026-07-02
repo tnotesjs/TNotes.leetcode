@@ -7,6 +7,7 @@
  *    this.next = next === undefined ? null : next;
  * };
  */
+
 /**
  * @param {_Node} root
  * @return {_Node}
