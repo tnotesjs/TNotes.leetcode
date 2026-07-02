@@ -4,7 +4,8 @@
 
 - [1. 📝 题目描述](#1--题目描述)
 - [2. 🎯 s.1 - 迭代（寻找前驱节点）](#2--s1---迭代寻找前驱节点)
-- [3. 🔗 引用](#3--引用)
+- [3. Morris 遍历](#3-morris-遍历)
+- [4. 🔗 引用](#4--引用)
 
 <!-- endregion:toc -->
 
@@ -53,9 +54,13 @@
 - 树中结点数在范围 `[0, 2000]` 内
 - `-100 <= Node.val <= 100`
 
+---
+
 进阶：你可以使用原地算法（`O(1)` 额外空间）展开这棵树吗？
 
 ## 2. 🎯 s.1 - 迭代（寻找前驱节点）
+
+![svg](./assets/1.svg)
 
 ::: code-group
 
@@ -73,13 +78,19 @@
 算法思路：
 
 - 从根节点开始遍历，对于当前节点 `cur`，若存在左子树：
-  1. 找到左子树的最右节点 `pre`（即先序遍历中左子树的最后一个节点）
-  2. 将 `cur.right` 挂到 `pre.right`
-  3. 将 `cur.left` 移到 `cur.right`，并将 `cur.left` 置空
+  - 找到左子树的最右节点 `pre`（即先序遍历中左子树的最后一个节点）
+  - 将 `cur.right` 挂到 `pre.right`
+  - 将 `cur.left` 移到 `cur.right`，并将 `cur.left` 置空
 - 然后沿 `cur = cur.right` 继续处理下一个节点
 
-## 3. 🔗 引用
+## 3. Morris 遍历
+
+这道题 s.1 的实现，和 [TNotes.algorithms - Morris 遍历][2] 中的“找线索”很类似。
+
+## 4. 🔗 引用
 
 - [先序遍历 - 百度百科][1]
+- [TNotes.algorithms - Morris 遍历][2]
 
 [1]: https://baike.baidu.com/item/%E5%85%88%E5%BA%8F%E9%81%8D%E5%8E%86/6442839?fr=aladdin
+[2]: https://tnotesjs.github.io/TNotes.algorithms/notes/0007.%20Morris%20%E9%81%8D%E5%8E%86/README
