@@ -11,7 +11,9 @@
 
 - [leetcode](https://leetcode.cn/problems/convert-sorted-array-to-binary-search-tree)
 
-给你一个整数数组 `nums`，其中元素已经按 升序 排列，请你将其转换为一棵 平衡 二叉搜索树。
+给你一个整数数组 `nums`，其中元素已经按升序排列，请你将其转换为一棵平衡二叉搜索树。
+
+> 平衡二叉树：是指该树所有节点的左右子树的高度相差不超过 1。
 
 ---
 
@@ -19,11 +21,12 @@
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-02-07-02-27.png)
 
-输入：nums = [-10,-3,0,5,9]
+```
+输入：nums = [-10, -3, 0, 5, 9]
+输出：[0, -3, 9, -10, null, 5]
+```
 
-输出：[0,-3,9,-10,null,5]
-
-解释：[0,-10,5,null,-3,null,9] 也将被视为正确答案：
+解释：`[0, -10, 5, null, -3, null, 9]` 也将被视为正确答案：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-02-07-02-39.png)
 
@@ -33,11 +36,12 @@
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-08-02-07-02-55.png)
 
-输入：nums = [1,3]
+```
+输入：nums = [1, 3]
+输出：[3, 1]
+```
 
-输出：[3,1]
-
-解释：[1,null,3] 和 [3,1] 都是高度平衡二叉搜索树。
+解释：`[1, null, 3]` 和 `[3, 1]` 都是高度平衡二叉搜索树。
 
 ---
 
@@ -45,7 +49,7 @@
 
 - `1 <= nums.length <= 10^4`
 - `-10^4 <= nums[i] <= 10^4`
-- `nums` 按 严格递增 顺序排列
+- `nums` 按严格递增顺序排列
 
 ## 2. 🎯 s.1 - 递归（取中点建树）
 
