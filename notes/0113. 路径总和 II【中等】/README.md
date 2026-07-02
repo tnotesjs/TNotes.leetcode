@@ -11,9 +11,9 @@
 
 - [leetcode](https://leetcode.cn/problems/path-sum-ii/)
 
-给你二叉树的根节点 `root` 和一个整数目标和 `targetSum`，找出所有 从根节点到叶子节点 路径总和等于给定目标和的路径。
+给你二叉树的根节点 `root` 和一个整数目标和 `targetSum`，找出所有从根节点到叶子节点路径总和等于给定目标和的路径。
 
-叶子节点 是指没有子节点的节点。
+叶子节点是指没有子节点的节点。
 
 ---
 
@@ -29,6 +29,8 @@
 ]
 ```
 
+---
+
 示例 2：
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-09-13-25-10.png)
@@ -37,6 +39,8 @@
 输入：root = [1, 2, 3], targetSum = 5
 输出：[]
 ```
+
+---
 
 示例 3：
 
