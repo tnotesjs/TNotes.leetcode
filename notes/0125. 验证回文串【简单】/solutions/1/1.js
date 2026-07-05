@@ -3,12 +3,26 @@
  * @return {boolean}
  */
 var isPalindrome = function (s) {
-  // 字符串预处理：
-  // 1. 将所有字母统一转为小写
-  // 2. 替换掉所有非法字符：空白字符、非字母字符、非数字字符
-  s = s.toLowerCase().replace(/[^a-z0-9]|\s/g, '')
-  // 翻转比较：
-  // 3. 字符串逆置
-  // 4. 返回比较原字符串和逆置后的字符串的结果
-  return s === [...s].reverse().join('')
+  let i = 0
+  let j = s.length - 1
+
+  while (i < j) {
+    // 跳过非字母数字字符
+    while (i < j && !isAlphanumeric(s[i])) i++
+    while (i < j && !isAlphanumeric(s[j])) j--
+
+    // 比较字符
+    if (s[i].toLowerCase() !== s[j].toLowerCase()) return false
+
+    // 移动指针
+    i++
+    j--
+  }
+
+  return true
+}
+
+// 辅助函数，判断字符是否为字母或数字
+function isAlphanumeric(char) {
+  return /[a-zA-Z0-9]/.test(char)
 }
