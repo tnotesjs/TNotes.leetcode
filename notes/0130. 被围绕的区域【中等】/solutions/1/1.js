@@ -15,12 +15,12 @@ var solve = function (board) {
   }
   // 从边界的 O 开始 DFS 标记为 #
   for (let i = 0; i < m; i++) {
-    dfs(i, 0)
-    dfs(i, n - 1)
+    dfs(i, 0) // 左
+    dfs(i, n - 1) // 右
   }
   for (let j = 0; j < n; j++) {
-    dfs(0, j)
-    dfs(m - 1, j)
+    dfs(0, j) // 上
+    dfs(m - 1, j) // 下
   }
   // 还原：# -> O，O -> X
   for (let i = 0; i < m; i++) {
