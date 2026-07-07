@@ -1,6 +1,8 @@
 /**
- * Return an array of arrays of strings.
- * The sizes of these arrays are returned as *returnSize and **returnColumnSizes respectively.
+ * Return an array of arrays of size *returnSize.
+ * The sizes of the arrays are returned as *returnColumnSizes array.
+ * Note: Both returned array and *columnSizes array must be malloced, assume
+ * caller calls free().
  */
 bool dp[16][16];
 int pathStarts[16];
@@ -27,7 +29,8 @@ void countPartitions(int start, int depth, int charsUsed) {
     }
 
     for (int end = start; end < sourceLen; end++) {
-        if (!dp[start][end]) continue;
+        if (!dp[start][end])
+            continue;
         countPartitions(end + 1, depth + 1, charsUsed + (end - start + 2));
     }
 }
@@ -51,7 +54,8 @@ void buildPartitions(int start, int depth) {
     }
 
     for (int end = start; end < sourceLen; end++) {
-        if (!dp[start][end]) continue;
+        if (!dp[start][end])
+            continue;
         pathStarts[depth] = start;
         pathLens[depth] = end - start + 1;
         buildPartitions(end + 1, depth + 1);
