@@ -5,6 +5,7 @@
  *    this.neighbors = neighbors === undefined ? [] : neighbors;
  * };
  */
+
 /**
  * @param {_Node} node
  * @return {_Node}
