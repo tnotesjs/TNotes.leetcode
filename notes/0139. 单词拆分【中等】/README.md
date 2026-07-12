@@ -2,12 +2,12 @@
 
 <!-- region:toc -->
 
-- [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 动态规划](#2--s1---动态规划)
+- [1. 题目描述](#1-题目描述)
+- [2. s.1 - 动态规划](#2-s1---动态规划)
 
 <!-- endregion:toc -->
 
-## 1. 📝 题目描述
+## 1. 题目描述
 
 - [leetcode](https://leetcode.cn/problems/word-break/)
 
@@ -61,15 +61,9 @@
 - `s` 和 `wordDict[i]` 仅由小写英文字母组成
 - `wordDict` 中的所有字符串互不相同
 
-## 2. 🎯 s.1 - 动态规划
+## 2. s.1 - 动态规划
 
-::: swiper
-
-![示例 1](./assets/1.case1.svg)
-
-![示例 3](./assets/1.case3.svg)
-
-:::
+![svg](./assets/1.svg)
 
 ::: code-group
 
