@@ -25,7 +25,7 @@
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-10-06.png)
 
 ```txt
-输入：head = [3,2,0,-4], pos = 1
+输入：head = [3, 2, 0, -4], pos = 1
 输出：返回索引为 1 的链表节点
 ```
 
@@ -38,7 +38,7 @@
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-10-16.png)
 
 ```txt
-输入：head = [1,2], pos = 0
+输入：head = [1, 2], pos = 0
 输出：返回索引为 0 的链表节点
 ```
 
@@ -71,7 +71,11 @@
 
 ::: code-group
 
+<<< ./solutions/1/1.c [c]
+
 <<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
 
 :::
 
