@@ -2,12 +2,12 @@
 
 <!-- region:toc -->
 
-- [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - DFS](#2--s1---dfs)
+- [1. 题目描述](#1-题目描述)
+- [2. s.1 - DFS](#2-s1---dfs)
 
 <!-- endregion:toc -->
 
-## 1. 📝 题目描述
+## 1. 题目描述
 
 - [leetcode](https://leetcode.cn/problems/sum-root-to-leaf-numbers/)
 
@@ -64,7 +64,7 @@
 - `0 <= Node.val <= 9`
 - 树的深度不超过 `10`
 
-## 2. 🎯 s.1 - DFS
+## 2. s.1 - DFS
 
 ::: code-group
 

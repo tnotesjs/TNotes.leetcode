@@ -2,12 +2,12 @@
 
 <!-- region:toc -->
 
-- [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - DFS 回溯](#2--s1---dfs-回溯)
+- [1. 题目描述](#1-题目描述)
+- [2. s.1 - DFS 回溯](#2-s1---dfs-回溯)
 
 <!-- endregion:toc -->
 
-## 1. 📝 题目描述
+## 1. 题目描述
 
 - [leetcode](https://leetcode.cn/problems/path-sum-ii/)
 
@@ -57,7 +57,7 @@
 - `-1000 <= Node.val <= 1000`
 - `-1000 <= targetSum <= 1000`
 
-## 2. 🎯 s.1 - DFS 回溯
+## 2. s.1 - DFS 回溯
 
 ::: code-group
 

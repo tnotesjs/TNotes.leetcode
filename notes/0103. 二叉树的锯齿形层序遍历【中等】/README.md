@@ -2,12 +2,12 @@
 
 <!-- region:toc -->
 
-- [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - BFS + 方向交替](#2--s1---bfs--方向交替)
+- [1. 题目描述](#1-题目描述)
+- [2. s.1 - BFS + 方向交替](#2-s1---bfs--方向交替)
 
 <!-- endregion:toc -->
 
-## 1. 📝 题目描述
+## 1. 题目描述
 
 - [leetcode](https://leetcode.cn/problems/binary-tree-zigzag-level-order-traversal/)
 
@@ -49,7 +49,7 @@
 - 树中节点数目在范围 `[0, 2000]` 内
 - `-100 <= Node.val <= 100`
 
-## 2. 🎯 s.1 - BFS + 方向交替
+## 2. s.1 - BFS + 方向交替
 
 ::: code-group
 

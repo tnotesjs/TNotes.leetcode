@@ -2,13 +2,13 @@
 
 <!-- region:toc -->
 
-- [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 快慢指针](#2--s1---快慢指针)
+- [1. 题目描述](#1-题目描述)
+- [2. s.1 - 快慢指针](#2-s1---快慢指针)
 - [3. 引用](#3-引用)
 
 <!-- endregion:toc -->
 
-## 1. 📝 题目描述
+## 1. 题目描述
 
 - [leetcode](https://leetcode.cn/problems/remove-duplicates-from-sorted-array-ii)
 
@@ -73,7 +73,7 @@ for (int i = 0; i < len; i++) {
 - `-10^4 <= nums[i] <= 10^4`
 - `nums` 已按升序排列
 
-## 2. 🎯 s.1 - 快慢指针
+## 2. s.1 - 快慢指针
 
 ![svg](./assets/1.svg)
 

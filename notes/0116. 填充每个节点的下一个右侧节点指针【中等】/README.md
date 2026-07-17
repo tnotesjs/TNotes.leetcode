@@ -2,12 +2,12 @@
 
 <!-- region:toc -->
 
-- [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 基于 next 指针的层序遍历](#2--s1---基于-next-指针的层序遍历)
+- [1. 题目描述](#1-题目描述)
+- [2. s.1 - 基于 next 指针的层序遍历](#2-s1---基于-next-指针的层序遍历)
 
 <!-- endregion:toc -->
 
-## 1. 📝 题目描述
+## 1. 题目描述
 
 - [leetcode](https://leetcode.cn/problems/populating-next-right-pointers-in-each-node/)
 
@@ -67,7 +67,7 @@ struct Node {
 - 你只能使用常量级额外空间。
 - 使用递归解题也符合要求，本题中递归程序占用的栈空间不算做额外的空间复杂度。
 
-## 2. 🎯 s.1 - 基于 next 指针的层序遍历
+## 2. s.1 - 基于 next 指针的层序遍历
 
 ![svg](./assets/1.svg)
 

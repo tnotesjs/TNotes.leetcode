@@ -2,12 +2,12 @@
 
 <!-- region:toc -->
 
-- [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1](#2--s1)
+- [1. 题目描述](#1-题目描述)
+- [2. s.1](#2-s1)
 
 <!-- endregion:toc -->
 
-## 1. 📝 题目描述
+## 1. 题目描述
 
 - [leetcode](https://leetcode.cn/problems/median-of-two-sorted-arrays)
 
@@ -44,7 +44,7 @@
 - `1 <= m + n <= 2000`
 - `-10^6 <= nums1[i], nums2[i] <= 10^6`
 
-## 2. 🎯 s.1
+## 2. s.1
 
 ```
 

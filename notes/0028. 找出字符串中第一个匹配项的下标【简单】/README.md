@@ -2,14 +2,14 @@
 
 <!-- region:toc -->
 
-- [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 朴素匹配](#2--s1---朴素匹配)
-- [3. 🎯 s.2 - next 数组 + KMP](#3--s2---next-数组--kmp)
-- [4. 🔗 引用](#4--引用)
+- [1. 题目描述](#1-题目描述)
+- [2. s.1 - 朴素匹配](#2-s1---朴素匹配)
+- [3. s.2 - next 数组 + KMP](#3-s2---next-数组--kmp)
+- [4. 引用](#4-引用)
 
 <!-- endregion:toc -->
 
-## 1. 📝 题目描述
+## 1. 题目描述
 
 - [leetcode](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/)
 
@@ -48,7 +48,7 @@
 - `1 <= haystack.length, needle.length <= 10^4`
 - `haystack` 和 `needle` 仅由小写英文字符组成
 
-## 2. 🎯 s.1 - 朴素匹配
+## 2. s.1 - 朴素匹配
 
 ::: code-group
 
@@ -70,7 +70,7 @@
 - 一旦出现失配，立即结束当前起点的检查并尝试下一个起点
 - 如果某个起点能连续匹配完全部 $m$ 个字符，那么它就是第一个匹配项的下标
 
-## 3. 🎯 s.2 - next 数组 + KMP
+## 3. s.2 - next 数组 + KMP
 
 ![svg](./assets/1.svg)
 
@@ -94,7 +94,7 @@
 - 如果发生失配，不是直接暴力回退 haystack 指针到位置 0，而是利用 next 数组把 needle 指针跳到上一个可复用的位置
 - 当 needle 指针走到长度 $m$ 时，说明已经找到完整匹配，起始下标就是当前下标减去 $m - 1$
 
-## 4. 🔗 引用
+## 4. 引用
 
 - [KMP 算法 - TNotes.algorithms][1]
 

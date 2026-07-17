@@ -2,12 +2,12 @@
 
 <!-- region:toc -->
 
-- [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 递归（取中点建树）](#2--s1---递归取中点建树)
+- [1. 题目描述](#1-题目描述)
+- [2. s.1 - 递归（取中点建树）](#2-s1---递归取中点建树)
 
 <!-- endregion:toc -->
 
-## 1. 📝 题目描述
+## 1. 题目描述
 
 - [leetcode](https://leetcode.cn/problems/convert-sorted-array-to-binary-search-tree)
 
@@ -51,7 +51,7 @@
 - `-10^4 <= nums[i] <= 10^4`
 - `nums` 按严格递增顺序排列
 
-## 2. 🎯 s.1 - 递归（取中点建树）
+## 2. s.1 - 递归（取中点建树）
 
 ::: code-group
 

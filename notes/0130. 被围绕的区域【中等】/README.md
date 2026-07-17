@@ -2,12 +2,12 @@
 
 <!-- region:toc -->
 
-- [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - DFS 从边界出发](#2--s1---dfs-从边界出发)
+- [1. 题目描述](#1-题目描述)
+- [2. s.1 - DFS 从边界出发](#2-s1---dfs-从边界出发)
 
 <!-- endregion:toc -->
 
-## 1. 📝 题目描述
+## 1. 题目描述
 
 - [leetcode](https://leetcode.cn/problems/surrounded-regions/)
 
@@ -61,7 +61,7 @@
 - `1 <= m, n <= 200`
 - `board[i][j]` 为 `'X'` 或 `'O'`
 
-## 2. 🎯 s.1 - DFS 从边界出发
+## 2. s.1 - DFS 从边界出发
 
 ::: code-group
 

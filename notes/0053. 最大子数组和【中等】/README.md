@@ -2,13 +2,13 @@
 
 <!-- region:toc -->
 
-- [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - Kadane（DP/贪心） 算法](#2--s1---kadanedp贪心-算法)
-- [3. 🎯 s.2 - 分治](#3--s2---分治)
+- [1. 题目描述](#1-题目描述)
+- [2. s.1 - Kadane（DP/贪心） 算法](#2-s1---kadanedp贪心-算法)
+- [3. s.2 - 分治](#3-s2---分治)
 
 <!-- endregion:toc -->
 
-## 1. 📝 题目描述
+## 1. 题目描述
 
 - [leetcode](https://leetcode.cn/problems/maximum-subarray/)
 
@@ -56,7 +56,7 @@
 
 进阶：如果你已经实现复杂度为 `O(n)` 的解法，尝试使用更为精妙的分治法求解。
 
-## 2. 🎯 s.1 - Kadane（DP/贪心） 算法
+## 2. s.1 - Kadane（DP/贪心） 算法
 
 ::: code-group
 
@@ -80,7 +80,7 @@
 - 每次更新完 `currentSum` 后，用它刷新 `bestSum`
 - 遍历结束后，`bestSum` 就是答案
 
-## 3. 🎯 s.2 - 分治
+## 3. s.2 - 分治
 
 ::: code-group
 

@@ -2,12 +2,12 @@
 
 <!-- region:toc -->
 
-- [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 滚动变量 DP](#2--s1---滚动变量-dp)
+- [1. 题目描述](#1-题目描述)
+- [2. s.1 - 滚动变量 DP](#2-s1---滚动变量-dp)
 
 <!-- endregion:toc -->
 
-## 1. 📝 题目描述
+## 1. 题目描述
 
 - [leetcode](https://leetcode.cn/problems/climbing-stairs/)
 
@@ -50,7 +50,7 @@
 
 - `1 <= n <= 45`
 
-## 2. 🎯 s.1 - 滚动变量 DP
+## 2. s.1 - 滚动变量 DP
 
 ::: code-group
 

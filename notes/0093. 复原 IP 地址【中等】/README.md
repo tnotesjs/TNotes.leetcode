@@ -2,12 +2,12 @@
 
 <!-- region:toc -->
 
-- [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 回溯](#2--s1---回溯)
+- [1. 题目描述](#1-题目描述)
+- [2. s.1 - 回溯](#2-s1---回溯)
 
 <!-- endregion:toc -->
 
-## 1. 📝 题目描述
+## 1. 题目描述
 
 - [leetcode](https://leetcode.cn/problems/restore-ip-addresses/)
 
@@ -60,7 +60,7 @@
 - `1 <= s.length <= 20`
 - `s` 仅由数字组成
 
-## 2. 🎯 s.1 - 回溯
+## 2. s.1 - 回溯
 
 ::: code-group
 

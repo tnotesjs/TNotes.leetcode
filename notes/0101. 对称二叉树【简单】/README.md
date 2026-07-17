@@ -2,13 +2,13 @@
 
 <!-- region:toc -->
 
-- [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 递归 DFS](#2--s1---递归-dfs)
-- [3. 🎯 s.2 - 迭代 BFS / 队列](#3--s2---迭代-bfs--队列)
+- [1. 题目描述](#1-题目描述)
+- [2. s.1 - 递归 DFS](#2-s1---递归-dfs)
+- [3. s.2 - 迭代 BFS / 队列](#3-s2---迭代-bfs--队列)
 
 <!-- endregion:toc -->
 
-## 1. 📝 题目描述
+## 1. 题目描述
 
 - [leetcode](https://leetcode.cn/problems/symmetric-tree)
 
@@ -45,7 +45,7 @@
 
 进阶：你可以运用递归和迭代两种方法解决这个问题吗？
 
-## 2. 🎯 s.1 - 递归 DFS
+## 2. s.1 - 递归 DFS
 
 ::: code-group
 
@@ -68,7 +68,7 @@
   - 只有一个为空或值不同 → 不镜像
   - 递归比较 `left.left` 与 `right.right`，以及 `left.right` 与 `right.left`
 
-## 3. 🎯 s.2 - 迭代 BFS / 队列
+## 3. s.2 - 迭代 BFS / 队列
 
 ::: code-group
 

@@ -2,12 +2,12 @@
 
 <!-- region:toc -->
 
-- [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 快慢指针](#2--s1---快慢指针)
+- [1. 题目描述](#1-题目描述)
+- [2. s.1 - 快慢指针](#2-s1---快慢指针)
 
 <!-- endregion:toc -->
 
-## 1. 📝 题目描述
+## 1. 题目描述
 
 - [leetcode](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/description/)
 
@@ -53,7 +53,7 @@
 
 进阶：你能尝试使用一趟扫描实现吗？
 
-## 2. 🎯 s.1 - 快慢指针
+## 2. s.1 - 快慢指针
 
 ![svg](./assets/1.svg)
 

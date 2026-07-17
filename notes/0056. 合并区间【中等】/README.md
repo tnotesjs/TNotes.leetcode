@@ -2,12 +2,12 @@
 
 <!-- region:toc -->
 
-- [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 排序 + 贪心合并](#2--s1---排序--贪心合并)
+- [1. 题目描述](#1-题目描述)
+- [2. s.1 - 排序 + 贪心合并](#2-s1---排序--贪心合并)
 
 <!-- endregion:toc -->
 
-## 1. 📝 题目描述
+## 1. 题目描述
 
 - [leetcode](https://leetcode.cn/problems/merge-intervals)
 
@@ -59,7 +59,7 @@
 - `intervals[i].length == 2`
 - `0 <= starti <= endi <= 10^4`
 
-## 2. 🎯 s.1 - 排序 + 贪心合并
+## 2. s.1 - 排序 + 贪心合并
 
 ::: code-group
 

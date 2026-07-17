@@ -2,12 +2,12 @@
 
 <!-- region:toc -->
 
-- [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 二分查找左边界](#2--s1---二分查找左边界)
+- [1. 题目描述](#1-题目描述)
+- [2. s.1 - 二分查找左边界](#2-s1---二分查找左边界)
 
 <!-- endregion:toc -->
 
-## 1. 📝 题目描述
+## 1. 题目描述
 
 - [leetcode](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/)
 
@@ -53,7 +53,7 @@
 - `nums` 是一个非递减数组
 - `-10^9 <= target <= 10^9`
 
-## 2. 🎯 s.1 - 二分查找左边界
+## 2. s.1 - 二分查找左边界
 
 ::: code-group
 

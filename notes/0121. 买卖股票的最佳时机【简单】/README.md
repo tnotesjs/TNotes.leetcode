@@ -2,12 +2,12 @@
 
 <!-- region:toc -->
 
-- [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 一次遍历 + 贪心](#2--s1---一次遍历--贪心)
+- [1. 题目描述](#1-题目描述)
+- [2. s.1 - 一次遍历 + 贪心](#2-s1---一次遍历--贪心)
 
 <!-- endregion:toc -->
 
-## 1. 📝 题目描述
+## 1. 题目描述
 
 - [leetcode](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock)
 
@@ -49,7 +49,7 @@
 - `1 <= prices.length <= 10^5`
 - `0 <= prices[i] <= 10^4`
 
-## 2. 🎯 s.1 - 一次遍历 + 贪心
+## 2. s.1 - 一次遍历 + 贪心
 
 ::: code-group
 

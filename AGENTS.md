@@ -1,9 +1,9 @@
-# copilot 行为指南
+# Agent 行为指南
 
 ## 项目背景
 
-- `TNotes.leetcode` 是一个基于 vitepress 搭建的开源的 Leetcode 知识库，在 [tnotes](../.vitepress/tnotes) 中内置的笔记管理的一系列功能，用于记录 Leetcode 的相关例题及解题思路。
-- 所有题目记录在 [notes](../notes) 笔记目录下，从 0001 开始到 3000+ 结束，每个目录对应一道 Leetcode 例题。
+- `TNotes.leetcode` 是一个基于 vitepress 搭建的开源的 Leetcode 知识库，在 [tnotes](./.vitepress/tnotes) 中内置的笔记管理的一系列功能，用于记录 Leetcode 的相关例题及解题思路。
+- 所有题目记录在 [notes](./notes) 笔记目录下，从 0001 开始到 3000+ 结束，每个目录对应一道 Leetcode 例题。
 
 ```txt
 0001. 两数之和【简单】

@@ -2,12 +2,12 @@
 
 <!-- region:toc -->
 
-- [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 回溯 + DP 预处理](#2--s1---回溯--dp-预处理)
+- [1. 题目描述](#1-题目描述)
+- [2. s.1 - 回溯 + DP 预处理](#2-s1---回溯--dp-预处理)
 
 <!-- endregion:toc -->
 
-## 1. 📝 题目描述
+## 1. 题目描述
 
 - [leetcode](https://leetcode.cn/problems/palindrome-partitioning/)
 
@@ -41,7 +41,7 @@
 - `1 <= s.length <= 16`
 - `s` 仅由小写英文字母组成
 
-## 2. 🎯 s.1 - 回溯 + DP 预处理
+## 2. s.1 - 回溯 + DP 预处理
 
 ::: code-group
 

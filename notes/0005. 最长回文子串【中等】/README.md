@@ -2,12 +2,12 @@
 
 <!-- region:toc -->
 
-- [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 中心扩散](#2--s1---中心扩散)
+- [1. 题目描述](#1-题目描述)
+- [2. s.1 - 中心扩散](#2-s1---中心扩散)
 
 <!-- endregion:toc -->
 
-## 1. 📝 题目描述
+## 1. 题目描述
 
 - [leetcode](https://leetcode.cn/problems/longest-palindromic-substring/)
 
@@ -43,7 +43,7 @@
 - `1 <= s.length <= 1000`
 - `s` 仅由数字和英文字母组成
 
-## 2. 🎯 s.1 - 中心扩散
+## 2. s.1 - 中心扩散
 
 ::: code-group
 

@@ -2,12 +2,12 @@
 
 <!-- region:toc -->
 
-- [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 回溯](#2--s1---回溯)
+- [1. 题目描述](#1-题目描述)
+- [2. s.1 - 回溯](#2-s1---回溯)
 
 <!-- endregion:toc -->
 
-## 1. 📝 题目描述
+## 1. 题目描述
 
 - [leetcode](https://leetcode.cn/problems/letter-combinations-of-a-phone-number/)
 
@@ -51,7 +51,7 @@
 - `0 <= digits.length <= 4`
 - `digits[i]` 是范围 `['2', '9']` 的一个数字。
 
-## 2. 🎯 s.1 - 回溯
+## 2. s.1 - 回溯
 
 ::: code-group
 

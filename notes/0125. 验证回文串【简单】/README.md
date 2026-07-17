@@ -2,12 +2,12 @@
 
 <!-- region:toc -->
 
-- [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 双指针](#2--s1---双指针)
+- [1. 题目描述](#1-题目描述)
+- [2. s.1 - 双指针](#2-s1---双指针)
 
 <!-- endregion:toc -->
 
-## 1. 📝 题目描述
+## 1. 题目描述
 
 - [leetcode](https://leetcode.cn/problems/valid-palindrome)
 
@@ -60,7 +60,7 @@
 - `1 <= s.length <= 2 * 10^5`
 - `s` 仅由可打印的 ASCII 字符组成
 
-## 2. 🎯 s.1 - 双指针
+## 2. s.1 - 双指针
 
 ::: code-group
 
