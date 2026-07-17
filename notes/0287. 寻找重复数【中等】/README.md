@@ -398,5 +398,7 @@ nums[index]
 ## 4. 引用
 
 - [TNotes.algorithms - 0019. Floyd 判圈算法][1]
+- [鸽巢原理 - wikipedia][2]
 
 [1]: https://tnotesjs.github.io/TNotes.algorithms/notes/0019.%20Floyd%20%E5%88%A4%E5%9C%88%E7%AE%97%E6%B3%95/README
+[2]: https://zh.wikipedia.org/wiki/%E9%B4%BF%E5%B7%A2%E5%8E%9F%E7%90%86
