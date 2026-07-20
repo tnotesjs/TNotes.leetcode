@@ -57,9 +57,11 @@
 
 ::: code-group
 
-<<< ./solutions/1/1.js
+<<< ./solutions/1/1.c [c]
 
-<<< ./solutions/1/2.js
+<<< ./solutions/1/1.js [js]
+
+<<< ./solutions/1/1.py [py]
 
 :::
 
@@ -76,7 +78,11 @@
 
 ::: code-group
 
-<<< ./solutions/2/1.js
+<<< ./solutions/2/1.c [c]
+
+<<< ./solutions/2/1.js [js]
+
+<<< ./solutions/2/1.py [py]
 
 :::
 
