@@ -21,7 +21,7 @@ var reorderList = function (head) {
   // 反转后半部分
   let prev = null,
     cur = slow.next
-  slow.next = null
+  slow.next = null // 把链表从中间切断，分成前后两个独立的子链表
   while (cur) {
     const next = cur.next
     cur.next = prev
