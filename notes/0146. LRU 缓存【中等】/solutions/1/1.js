@@ -3,7 +3,7 @@
  */
 var LRUCache = function (capacity) {
   this.capacity = capacity
-  this.map = new Map()
+  this.map = new Map() // JS 版本利用 Map 的插入顺序特性简化实现
 }
 
 /**
@@ -26,7 +26,7 @@ LRUCache.prototype.get = function (key) {
  */
 LRUCache.prototype.put = function (key, value) {
   if (this.map.has(key)) {
-    this.map.delete(key)
+    this.map.delete(key) // 删除后重新插入，保证最近使用的在最后
   }
   this.map.set(key, value)
   if (this.map.size > this.capacity) {
@@ -35,3 +35,10 @@ LRUCache.prototype.put = function (key, value) {
     this.map.delete(firstKey)
   }
 }
+
+/**
+ * Your LRUCache object will be instantiated and called as such:
+ * var obj = new LRUCache(capacity)
+ * var param_1 = obj.get(key)
+ * obj.put(key,value)
+ */

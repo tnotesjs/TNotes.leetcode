@@ -30,7 +30,8 @@ DLinkedNode* hashGet(LRUCache* cache, int key) {
     int h = hashKey(key);
     HashEntry* e = cache->table[h];
     while (e) {
-        if (e->key == key) return e->node;
+        if (e->key == key)
+            return e->node;
         e = e->next;
     }
     return NULL;
@@ -51,8 +52,10 @@ void hashRemove(LRUCache* cache, int key) {
     HashEntry* prev = NULL;
     while (e) {
         if (e->key == key) {
-            if (prev) prev->next = e->next;
-            else cache->table[h] = e->next;
+            if (prev)
+                prev->next = e->next;
+            else
+                cache->table[h] = e->next;
             free(e);
             return;
         }
@@ -78,14 +81,17 @@ LRUCache* lRUCacheCreate(int capacity) {
     cache->capacity = capacity;
     cache->head = (DLinkedNode*)malloc(sizeof(DLinkedNode));
     cache->tail = (DLinkedNode*)malloc(sizeof(DLinkedNode));
+    cache->head->prev = NULL;
     cache->head->next = cache->tail;
     cache->tail->prev = cache->head;
+    cache->tail->next = NULL;
     return cache;
 }
 
 int lRUCacheGet(LRUCache* obj, int key) {
     DLinkedNode* node = hashGet(obj, key);
-    if (!node) return -1;
+    if (!node)
+        return -1;
     removeNode(node);
     addToHead(obj, node);
     return node->val;
@@ -131,3 +137,13 @@ void lRUCacheFree(LRUCache* obj) {
     }
     free(obj);
 }
+
+/**
+ * Your LRUCache struct will be instantiated and called as such:
+ * LRUCache* obj = lRUCacheCreate(capacity);
+ * int param_1 = lRUCacheGet(obj, key);
+
+ * lRUCachePut(obj, key, value);
+
+ * lRUCacheFree(obj);
+*/
