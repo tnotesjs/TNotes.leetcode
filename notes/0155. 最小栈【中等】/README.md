@@ -2,12 +2,12 @@
 
 <!-- region:toc -->
 
-- [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 辅助栈](#2--s1---辅助栈)
+- [1. 题目描述](#1-题目描述)
+- [2. s.1 - 辅助栈](#2-s1---辅助栈)
 
 <!-- endregion:toc -->
 
-## 1. 📝 题目描述
+## 1. 题目描述
 
 - [leetcode](https://leetcode.cn/problems/min-stack/)
 
@@ -27,11 +27,11 @@
 
 ```txt
 输入：
-["MinStack","push","push","push","getMin","pop","top","getMin"]
-[[],[-2],[0],[-3],[],[],[],[]]
+["MinStack", "push", "push", "push", "getMin", "pop", "top", "getMin"]
+[[], [-2], [0], [-3], [], [], [], []]
 
 输出：
-[null,null,null,null,-3,null,0,-2]
+[null, null, null, null, -3, null, 0, -2]
 
 解释：
 MinStack minStack = new MinStack();
@@ -52,7 +52,7 @@ minStack.getMin();   --> 返回 -2.
 - `pop`、`top` 和 `getMin` 操作总是在 非空栈 上调用
 - `push`,`pop`,`top`, and`getMin`最多被调用 `3 * 10^4` 次
 
-## 2. 🎯 s.1 - 辅助栈
+## 2. s.1 - 辅助栈
 
 ::: code-group
 
