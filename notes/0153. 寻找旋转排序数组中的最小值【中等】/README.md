@@ -67,6 +67,8 @@
 
 ## 2. s.1 - 二分查找
 
+![svg](./assets/1.svg)
+
 ::: code-group
 
 <<< ./solutions/1/1.c [c]
