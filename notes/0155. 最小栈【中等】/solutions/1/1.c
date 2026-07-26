@@ -39,3 +39,17 @@ int minStackGetMin(MinStack* obj) {
 void minStackFree(MinStack* obj) {
     free(obj);
 }
+
+/**
+ * Your MinStack struct will be instantiated and called as such:
+ * MinStack* obj = minStackCreate();
+ * minStackPush(obj, value);
+
+ * minStackPop(obj);
+
+ * int param_3 = minStackTop(obj);
+
+ * int param_4 = minStackGetMin(obj);
+
+ * minStackFree(obj);
+*/

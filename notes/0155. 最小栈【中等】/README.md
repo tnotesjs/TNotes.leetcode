@@ -49,8 +49,8 @@ minStack.getMin();   --> 返回 -2.
 提示：
 
 - `-2^31 <= val <= 2^31 - 1`
-- `pop`、`top` 和 `getMin` 操作总是在 非空栈 上调用
-- `push`,`pop`,`top`, and`getMin`最多被调用 `3 * 10^4` 次
+- `pop`、`top` 和 `getMin` 操作总是在非空栈上调用
+- `push`、`pop`、`top`、`getMin` 最多被调用 `3 * 10^4` 次
 
 ## 2. s.1 - 辅助栈
 
@@ -69,6 +69,7 @@ minStack.getMin();   --> 返回 -2.
 
 算法思路：
 
-- 使用一个辅助栈 `minStack` 同步记录当前栈中的最小值
+- 使用一个辅助栈 `minStack` 同步记录当 `val` 压入当前栈顶时，当前栈中的最小值
+  - 这个辅助栈 `minStack` 主要服务于 `getMin` 接口
 - `push` 时，若新元素 $\leq$ 辅助栈栈顶，则同时压入辅助栈
 - `pop` 时，若弹出元素等于辅助栈栈顶，则辅助栈也弹出
