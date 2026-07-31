@@ -18,3 +18,6 @@ int compareVersion(char* version1, char* version2) {
     }
     return 0;
 }
+
+// 空间复杂度：O(1)，双指针原地解析，不额外分割数组
+
