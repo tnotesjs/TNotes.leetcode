@@ -4,15 +4,11 @@
  */
 var convertToTitle = function (columnNumber) {
   let result = ''
-
   while (columnNumber > 0) {
-    // 因为是从 1 开始而不是 0，所以需要减 1
+    // 1-indexed → 0-indexed，才能按普通 26 进制取模
     columnNumber--
-    // 获取当前位对应的字符
     result = String.fromCharCode((columnNumber % 26) + 65) + result
-    // 更新数字
     columnNumber = Math.floor(columnNumber / 26)
   }
-
   return result
 }
