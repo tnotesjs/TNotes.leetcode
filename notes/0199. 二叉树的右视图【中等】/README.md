@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/binary-tree-right-side-view/)
 
-给定一个二叉树的 根节点 `root`，想象自己站在它的右侧，按照从顶部到底部的顺序，返回从右侧所能看到的节点值。
+给定一个二叉树的根节点 `root`，想象自己站在它的右侧，按照从顶部到底部的顺序，返回从右侧所能看到的节点值。
 
 ---
 
@@ -22,8 +22,11 @@
 输出：[1,3,4]
 ```
 
-- 解释：
-  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-36-28.png)
+解释：
+
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-36-28.png)
+
+---
 
 示例 2：
 
@@ -32,8 +35,11 @@
 输出：[1,3,4,5]
 ```
 
-- 解释：
-  - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-36-04.png)
+解释：
+
+![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2025-09-10-21-36-04.png)
+
+---
 
 示例 3：
 
@@ -41,6 +47,8 @@
 输入：root = [1,null,3]
 输出：[1,3]
 ```
+
+---
 
 示例 4：
 
