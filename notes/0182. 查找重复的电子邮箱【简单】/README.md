@@ -2,12 +2,12 @@
 
 <!-- region:toc -->
 
-- [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
+- [1. 题目描述](#1-题目描述)
+- [2. s.1 - 暴力解法](#2-s1---暴力解法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 题目描述
+## 1. 题目描述
 
 - [leetcode](https://leetcode.cn/problems/duplicate-emails/)
 
@@ -51,7 +51,7 @@ Person 表:
 解释: a@b.com 出现了两次。
 ```
 
-## 2. 🎯 s.1 - 暴力解法
+## 2. s.1 - 暴力解法
 
 ::: code-group
 

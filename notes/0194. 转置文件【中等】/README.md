@@ -2,12 +2,12 @@
 
 <!-- region:toc -->
 
-- [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - awk 转置](#2--s1---awk-转置)
+- [1. 题目描述](#1-题目描述)
+- [2. s.1 - awk 转置](#2-s1---awk-转置)
 
 <!-- endregion:toc -->
 
-## 1. 📝 题目描述
+## 1. 题目描述
 
 - [leetcode](https://leetcode.cn/problems/transpose-file/)
 
@@ -32,7 +32,7 @@ name alice ryan
 age 21 30
 ```
 
-## 2. 🎯 s.1 - awk 转置
+## 2. s.1 - awk 转置
 
 ::: code-group
 

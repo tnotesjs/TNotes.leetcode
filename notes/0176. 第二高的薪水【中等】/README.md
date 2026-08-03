@@ -2,12 +2,12 @@
 
 <!-- region:toc -->
 
-- [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1](#2--s1)
+- [1. 题目描述](#1-题目描述)
+- [2. s.1](#2-s1)
 
 <!-- endregion:toc -->
 
-## 1. 📝 题目描述
+## 1. 题目描述
 
 - [leetcode](https://leetcode.cn/problems/second-highest-salary)
 
@@ -69,7 +69,7 @@ Employee 表：
 +---------------------+
 ```
 
-## 2. 🎯 s.1
+## 2. s.1
 
 ```
 

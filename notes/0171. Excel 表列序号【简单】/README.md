@@ -2,16 +2,16 @@
 
 <!-- region:toc -->
 
-- [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
+- [1. 题目描述](#1-题目描述)
+- [2. s.1 - 暴力解法](#2-s1---暴力解法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 题目描述
+## 1. 题目描述
 
 - [leetcode](https://leetcode.cn/problems/excel-sheet-column-number/)
 
-给你一个字符串 `columnTitle`，表示 Excel 表格中的列名称。返回 _该列名称对应的列序号_。
+给你一个字符串 `columnTitle`，表示 Excel 表格中的列名称。返回该列名称对应的列序号。
 
 例如：
 
@@ -35,12 +35,16 @@ AB -> 28
 输出: 1
 ```
 
+---
+
 示例 2：
 
 ```txt
 输入: columnTitle = "AB"
 输出: 28
 ```
+
+---
 
 示例 3：
 
@@ -57,7 +61,7 @@ AB -> 28
 - `columnTitle` 仅由大写英文组成
 - `columnTitle` 在范围 `["A", "FXSHRXW"]` 内
 
-## 2. 🎯 s.1 - 暴力解法
+## 2. s.1 - 暴力解法
 
 ::: code-group
 

@@ -2,16 +2,16 @@
 
 <!-- region:toc -->
 
-- [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 暴力解法 1 - 使用原生 API - unshift、pop](#2--s1---暴力解法-1---使用原生-api---unshiftpop)
-- [3. 🎯 s.2 - 暴力解法 2](#3--s2---暴力解法-2)
-- [4. 🎯 s.3 - 暴力解法 3 - 使用原生 API - splice、reverse](#4--s3---暴力解法-3---使用原生-api---splicereverse)
-- [5. 🎯 s.4 - 暴力解法 4](#5--s4---暴力解法-4)
-- [6. 🎯 s.5 - 双指针](#6--s5---双指针)
+- [1. 题目描述](#1-题目描述)
+- [2. s.1 - 暴力解法 1 - 使用原生 API - unshift、pop](#2-s1---暴力解法-1---使用原生-api---unshiftpop)
+- [3. s.2 - 暴力解法 2](#3-s2---暴力解法-2)
+- [4. s.3 - 暴力解法 3 - 使用原生 API - splice、reverse](#4-s3---暴力解法-3---使用原生-api---splicereverse)
+- [5. s.4 - 暴力解法 4](#5-s4---暴力解法-4)
+- [6. s.5 - 双指针](#6-s5---双指针)
 
 <!-- endregion:toc -->
 
-## 1. 📝 题目描述
+## 1. 题目描述
 
 - [leetcode](https://leetcode.cn/problems/rotate-array/)
 
@@ -55,7 +55,7 @@
 
 :::
 
-## 2. 🎯 s.1 - 暴力解法 1 - 使用原生 API - unshift、pop
+## 2. s.1 - 暴力解法 1 - 使用原生 API - unshift、pop
 
 ```js
 var rotate = function (nums, k) {
@@ -70,7 +70,7 @@ var rotate = function (nums, k) {
   - 思路或许没问题，不过这么写在 leetcode 上提交后会提示运行超时。
   - ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-11-16-20-22-55.png)
 
-## 3. 🎯 s.2 - 暴力解法 2
+## 3. s.2 - 暴力解法 2
 
 ```js
 var rotate = function (nums, k) {
@@ -90,7 +90,7 @@ var rotate = function (nums, k) {
 
 - 会超时
 
-## 4. 🎯 s.3 - 暴力解法 3 - 使用原生 API - splice、reverse
+## 4. s.3 - 暴力解法 3 - 使用原生 API - splice、reverse
 
 ```js
 var rotate = function (nums, k) {
@@ -123,7 +123,7 @@ console.log(months)
 // Expected output: Array ["Jan", "Feb", "March", "April", "May"]
 ```
 
-## 5. 🎯 s.4 - 暴力解法 4
+## 5. s.4 - 暴力解法 4
 
 ```js
 var rotate = function (nums, k) {
@@ -147,7 +147,7 @@ var rotate = function (nums, k) {
   - 先把后半部分装入原数组
   - 再把前半部分装入原数组
 
-## 6. 🎯 s.5 - 双指针
+## 6. s.5 - 双指针
 
 ```js
 // 反转数组(left_index ~ right_index)

@@ -2,12 +2,12 @@
 
 <!-- region:toc -->
 
-- [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - BFS](#2--s1---bfs)
+- [1. 题目描述](#1-题目描述)
+- [2. s.1 - BFS](#2-s1---bfs)
 
 <!-- endregion:toc -->
 
-## 1. 📝 题目描述
+## 1. 题目描述
 
 - [leetcode](https://leetcode.cn/problems/binary-tree-right-side-view/)
 
@@ -56,7 +56,7 @@
 - 二叉树的节点个数的范围是 `[0,100]`
 - `-100 <= Node.val <= 100`
 
-## 2. 🎯 s.1 - BFS
+## 2. s.1 - BFS
 
 ::: code-group
 

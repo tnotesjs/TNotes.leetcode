@@ -2,12 +2,12 @@
 
 <!-- region:toc -->
 
-- [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 使用 `outer join`](#2--s1---使用-outer-join)
+- [1. 题目描述](#1-题目描述)
+- [2. s.1 - 使用 `outer join`](#2-s1---使用-outer-join)
 
 <!-- endregion:toc -->
 
-## 1. 📝 题目描述
+## 1. 题目描述
 
 - [leetcode](https://leetcode.cn/problems/combine-two-tables)
 
@@ -79,7 +79,7 @@ Address表:
 addressId = 1 包含了 personId = 2 的地址信息。
 ```
 
-## 2. 🎯 s.1 - 使用 `outer join`
+## 2. s.1 - 使用 `outer join`
 
 ::: code-group
 

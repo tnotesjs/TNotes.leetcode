@@ -2,12 +2,12 @@
 
 <!-- region:toc -->
 
-- [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - DFS](#2--s1---dfs)
+- [1. 题目描述](#1-题目描述)
+- [2. s.1 - DFS](#2-s1---dfs)
 
 <!-- endregion:toc -->
 
-## 1. 📝 题目描述
+## 1. 题目描述
 
 - [leetcode](https://leetcode.cn/problems/number-of-islands/)
 
@@ -52,7 +52,7 @@
 - `1 <= m, n <= 300`
 - `grid[i][j]` 的值为 `'0'` 或 `'1'`
 
-## 2. 🎯 s.1 - DFS
+## 2. s.1 - DFS
 
 ::: code-group
 
