@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/repeated-dna-sequences/)
 
-DNA 序列由一系列核苷酸组成，缩写为 `'A'`,`'C'`,`'G'` 和 `'T'`.。
+DNA 序列由一系列核苷酸组成，缩写为 `'A'`、`'C'`、`'G'` 和 `'T'`。
 
 - 例如，`"ACGAATTCCG"` 是一个 DNA 序列。
 
@@ -42,7 +42,7 @@ DNA 序列由一系列核苷酸组成，缩写为 `'A'`,`'C'`,`'G'` 和 `'T'`.�
 提示：
 
 - `0 <= s.length <= 10^5`
-- `s[i]=='A'`、`'C'`、`'G'`or`'T'`
+- `s[i]=='A'`、`'C'`、`'G'` or `'T'`
 
 ## 2. s.1 - 哈希集合
 
