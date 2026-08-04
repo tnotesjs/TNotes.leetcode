@@ -6,7 +6,8 @@
  *     struct TreeNode *right;
  * };
  */
-typedef struct {
+
+ typedef struct {
     struct TreeNode** stack;
     int top;
 } BSTIterator;
@@ -40,3 +41,13 @@ void bSTIteratorFree(BSTIterator* obj) {
     free(obj->stack);
     free(obj);
 }
+
+/**
+ * Your BSTIterator struct will be instantiated and called as such:
+ * BSTIterator* obj = bSTIteratorCreate(root);
+ * int param_1 = bSTIteratorNext(obj);
+ 
+ * bool param_2 = bSTIteratorHasNext(obj);
+ 
+ * bSTIteratorFree(obj);
+*/

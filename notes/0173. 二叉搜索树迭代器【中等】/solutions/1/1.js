@@ -36,3 +36,10 @@ BSTIterator.prototype.next = function () {
 BSTIterator.prototype.hasNext = function () {
   return this.stack.length > 0
 }
+
+/** 
+ * Your BSTIterator object will be instantiated and called as such:
+ * var obj = new BSTIterator(root)
+ * var param_1 = obj.next()
+ * var param_2 = obj.hasNext()
+ */
