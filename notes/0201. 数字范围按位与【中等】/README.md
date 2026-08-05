@@ -11,7 +11,7 @@
 
 - [leetcode](https://leetcode.cn/problems/bitwise-and-of-numbers-range/)
 
-给你两个整数 `left` 和 `right`，表示区间 `[left, right]`，返回此区间内所有数字 按位与 的结果（包含 `left` 、`right` 端点）。
+给你两个整数 `left` 和 `right`，表示区间 `[left, right]`，返回此区间内所有数字按位与的结果（包含 `left` 、`right` 端点）。
 
 ---
 
@@ -22,12 +22,16 @@
 输出：4
 ```
 
+---
+
 示例 2：
 
 ```txt
 输入：left = 0, right = 0
 输出：0
 ```
+
+---
 
 示例 3：
 
