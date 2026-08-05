@@ -6,7 +6,10 @@
  *     struct TreeNode *right;
  * };
  */
-int* rightSideView(struct TreeNode* root, int* returnSize) {
+/**
+ * Note: The returned array must be malloced, assume caller calls free().
+ */
+ int* rightSideView(struct TreeNode* root, int* returnSize) {
     *returnSize = 0;
     if (!root) return NULL;
     int* res = (int*)malloc(sizeof(int) * 10000);
