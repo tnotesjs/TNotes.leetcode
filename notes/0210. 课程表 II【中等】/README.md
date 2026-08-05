@@ -2,12 +2,12 @@
 
 <!-- region:toc -->
 
-- [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - BFS 拓扑排序](#2--s1---bfs-拓扑排序)
+- [1. 题目描述](#1-题目描述)
+- [2. s.1 - BFS 拓扑排序](#2-s1---bfs-拓扑排序)
 
 <!-- endregion:toc -->
 
-## 1. 📝 题目描述
+## 1. 题目描述
 
 - [leetcode](https://leetcode.cn/problems/course-schedule-ii/)
 
@@ -60,7 +60,7 @@
 - `ai != bi`
 - 所有`[ai, bi]` 互不相同
 
-## 2. 🎯 s.1 - BFS 拓扑排序
+## 2. s.1 - BFS 拓扑排序
 
 ::: code-group
 

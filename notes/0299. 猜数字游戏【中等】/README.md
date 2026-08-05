@@ -2,13 +2,13 @@
 
 <!-- region:toc -->
 
-- [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 一次遍历](#2--s1---一次遍历)
-- [3. 🔗 引用](#3--引用)
+- [1. 题目描述](#1-题目描述)
+- [2. s.1 - 一次遍历](#2-s1---一次遍历)
+- [3. 引用](#3-引用)
 
 <!-- endregion:toc -->
 
-## 1. 📝 题目描述
+## 1. 题目描述
 
 - [leetcode](https://leetcode.cn/problems/bulls-and-cows/)
 
@@ -58,7 +58,7 @@
 - `secret.length == guess.length`
 - `secret` 和 `guess` 仅由数字组成
 
-## 2. 🎯 s.1 - 一次遍历
+## 2. s.1 - 一次遍历
 
 ::: code-group
 
@@ -79,7 +79,7 @@
 - secret 的数字使计数 +1，guess 的数字使计数 -1
 - 若 secret 数字对应计数 < 0 说明之前 guess 已记录过，cows++；反之亦然
 
-## 3. 🔗 引用
+## 3. 引用
 
 - [猜数字（Bulls and Cows） - 百度百科][1]
 

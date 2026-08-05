@@ -2,12 +2,12 @@
 
 <!-- region:toc -->
 
-- [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
+- [1. 题目描述](#1-题目描述)
+- [2. s.1 - 暴力解法](#2-s1---暴力解法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 题目描述
+## 1. 题目描述
 
 - [leetcode](https://leetcode.cn/problems/contains-duplicate-iii/)
 
@@ -52,7 +52,7 @@ abs(nums[i] - nums[j]) <= valueDiff --> abs(1 - 1) <= 0
 - `1 <= indexDiff <= nums.length`
 - `0 <= valueDiff <= 10^9`
 
-## 2. 🎯 s.1 - 暴力解法
+## 2. s.1 - 暴力解法
 
 ::: code-group
 

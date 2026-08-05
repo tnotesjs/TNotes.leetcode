@@ -2,12 +2,12 @@
 
 <!-- region:toc -->
 
-- [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 快速选择](#2--s1---快速选择)
+- [1. 题目描述](#1-题目描述)
+- [2. s.1 - 快速选择](#2-s1---快速选择)
 
 <!-- endregion:toc -->
 
-## 1. 📝 题目描述
+## 1. 题目描述
 
 - [leetcode](https://leetcode.cn/problems/kth-largest-element-in-an-array/)
 
@@ -40,7 +40,7 @@
 - `1 <= k <= nums.length <= 10^5`
 - `-10^4 <= nums[i] <= 10^4`
 
-## 2. 🎯 s.1 - 快速选择
+## 2. s.1 - 快速选择
 
 ::: code-group
 

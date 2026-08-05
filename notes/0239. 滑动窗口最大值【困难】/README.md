@@ -2,8 +2,8 @@
 
 <!-- region:toc -->
 
-- [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - Deque](#2--s1---deque)
+- [1. 题目描述](#1-题目描述)
+- [2. s.1 - Deque](#2-s1---deque)
 - [3. 🤖 什么是双端队列？](#3--什么是双端队列)
   - [3.1. 特性](#31-特性)
   - [3.2. 常见操作](#32-常见操作)
@@ -13,7 +13,7 @@
 
 <!-- endregion:toc -->
 
-## 1. 📝 题目描述
+## 1. 题目描述
 
 - [leetcode](https://leetcode.cn/problems/sliding-window-maximum)
 
@@ -47,7 +47,7 @@
 - `-10^4 <= nums[i] <= 10^4`
 - `1 <= k <= nums.length`
 
-## 2. 🎯 s.1 - Deque
+## 2. s.1 - Deque
 
 ![img](https://cdn.jsdelivr.net/gh/tnotesjs/imgs@main/2024-09-25-17-07-42.png)
 

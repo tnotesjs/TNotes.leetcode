@@ -2,12 +2,12 @@
 
 <!-- region:toc -->
 
-- [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
+- [1. 题目描述](#1-题目描述)
+- [2. s.1 - 暴力解法](#2-s1---暴力解法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 题目描述
+## 1. 题目描述
 
 - [leetcode](https://leetcode.cn/problems/find-median-from-data-stream/)
 
@@ -50,7 +50,7 @@ medianFinder.findMedian(); // return 2.0
 - 在调用 `findMedian` 之前，数据结构中至少有一个元素
 - 最多 `5 * 10^4` 次调用 `addNum` 和 `findMedian`
 
-## 2. 🎯 s.1 - 暴力解法
+## 2. s.1 - 暴力解法
 
 ::: code-group
 

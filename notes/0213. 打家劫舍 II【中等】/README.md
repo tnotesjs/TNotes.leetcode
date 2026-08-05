@@ -2,12 +2,12 @@
 
 <!-- region:toc -->
 
-- [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 环形 DP](#2--s1---环形-dp)
+- [1. 题目描述](#1-题目描述)
+- [2. s.1 - 环形 DP](#2-s1---环形-dp)
 
 <!-- endregion:toc -->
 
-## 1. 📝 题目描述
+## 1. 题目描述
 
 - [leetcode](https://leetcode.cn/problems/house-robber-ii/)
 
@@ -50,7 +50,7 @@
 - `1 <= nums.length <= 100`
 - `0 <= nums[i] <= 1000`
 
-## 2. 🎯 s.1 - 环形 DP
+## 2. s.1 - 环形 DP
 
 ::: code-group
 

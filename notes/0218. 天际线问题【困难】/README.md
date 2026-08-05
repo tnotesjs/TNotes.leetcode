@@ -2,12 +2,12 @@
 
 <!-- region:toc -->
 
-- [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 暴力解法](#2--s1---暴力解法)
+- [1. 题目描述](#1-题目描述)
+- [2. s.1 - 暴力解法](#2-s1---暴力解法)
 
 <!-- endregion:toc -->
 
-## 1. 📝 题目描述
+## 1. 题目描述
 
 - [leetcode](https://leetcode.cn/problems/the-skyline-problem/)
 
@@ -57,7 +57,7 @@
 - `1 <= heighti <= 2^31 - 1`
 - `buildings` 按 `lefti` 非递减排序
 
-## 2. 🎯 s.1 - 暴力解法
+## 2. s.1 - 暴力解法
 
 ::: code-group
 

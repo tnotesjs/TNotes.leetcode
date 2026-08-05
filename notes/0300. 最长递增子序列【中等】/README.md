@@ -2,12 +2,12 @@
 
 <!-- region:toc -->
 
-- [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 贪心 + 二分](#2--s1---贪心--二分)
+- [1. 题目描述](#1-题目描述)
+- [2. s.1 - 贪心 + 二分](#2-s1---贪心--二分)
 
 <!-- endregion:toc -->
 
-## 1. 📝 题目描述
+## 1. 题目描述
 
 - [leetcode](https://leetcode.cn/problems/longest-increasing-subsequence/)
 
@@ -52,7 +52,7 @@
 
 - 你能将算法的时间复杂度降低到 `O(n log(n))` 吗?
 
-## 2. 🎯 s.1 - 贪心 + 二分
+## 2. s.1 - 贪心 + 二分
 
 ::: code-group
 

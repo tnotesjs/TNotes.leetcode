@@ -2,12 +2,12 @@
 
 <!-- region:toc -->
 
-- [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 公共前缀](#2--s1---公共前缀)
+- [1. 题目描述](#1-题目描述)
+- [2. s.1 - 公共前缀](#2-s1---公共前缀)
 
 <!-- endregion:toc -->
 
-## 1. 📝 题目描述
+## 1. 题目描述
 
 - [leetcode](https://leetcode.cn/problems/bitwise-and-of-numbers-range/)
 
@@ -42,7 +42,7 @@
 
 - `0 <= left <= right <= 2^31 - 1`
 
-## 2. 🎯 s.1 - 公共前缀
+## 2. s.1 - 公共前缀
 
 ::: code-group
 

@@ -2,12 +2,12 @@
 
 <!-- region:toc -->
 
-- [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 字典树 + DFS](#2--s1---字典树--dfs)
+- [1. 题目描述](#1-题目描述)
+- [2. s.1 - 字典树 + DFS](#2-s1---字典树--dfs)
 
 <!-- endregion:toc -->
 
-## 1. 📝 题目描述
+## 1. 题目描述
 
 - [leetcode](https://leetcode.cn/problems/design-add-and-search-words-data-structure/)
 
@@ -48,7 +48,7 @@ wordDictionary.search("b.."); // 返回 True
 - `search` 中的 `word` 由 '.' 或小写英文字母组成
 - 最多调用 `10^4` 次 `addWord` 和 `search`
 
-## 2. 🎯 s.1 - 字典树 + DFS
+## 2. s.1 - 字典树 + DFS
 
 ::: code-group
 

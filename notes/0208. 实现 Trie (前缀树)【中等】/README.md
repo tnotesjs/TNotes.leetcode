@@ -2,13 +2,13 @@
 
 <!-- region:toc -->
 
-- [1. 📝 题目描述](#1--题目描述)
-- [2. 🎯 s.1 - 字典树](#2--s1---字典树)
-- [3. 🔗 引用](#3--引用)
+- [1. 题目描述](#1-题目描述)
+- [2. s.1 - 字典树](#2-s1---字典树)
+- [3. 引用](#3-引用)
 
 <!-- endregion:toc -->
 
-## 1. 📝 题目描述
+## 1. 题目描述
 
 - [leetcode](https://leetcode.cn/problems/implement-trie-prefix-tree/)
 
@@ -48,7 +48,7 @@ trie.search("app");     // 返回 True
 - `word` 和 `prefix` 仅由小写英文字母组成
 - `insert`、`search` 和 `startsWith` 调用次数 总计 不超过 `3 * 10^4` 次
 
-## 2. 🎯 s.1 - 字典树
+## 2. s.1 - 字典树
 
 ::: code-group
 
@@ -69,7 +69,7 @@ trie.search("app");     // 返回 True
 - `insert`：逐字符遍历，不存在则创建新节点，最后标记结尾
 - `search` 和 `startsWith` 复用前缀搜索逻辑，区别在于是否检查 `isEnd`
 
-## 3. 🔗 引用
+## 3. 引用
 
 - [Trie - 百度百科][1]
 
