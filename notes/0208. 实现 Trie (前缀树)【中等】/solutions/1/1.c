@@ -41,3 +41,15 @@ void trieFree(Trie* obj) {
     }
     free(obj);
 }
+
+/**
+ * Your Trie struct will be instantiated and called as such:
+ * Trie* obj = trieCreate();
+ * trieInsert(obj, word);
+ 
+ * bool param_2 = trieSearch(obj, word);
+ 
+ * bool param_3 = trieStartsWith(obj, prefix);
+ 
+ * trieFree(obj);
+*/
