@@ -5,7 +5,6 @@
     "tn:build": "                       NODE_OPTIONS='--max-old-space-size=16384' tnotes --build",
     "tn:create-notes": "                tnotes --create-notes",
     "tn:dev": "                         tnotes --dev",
-    "tn:fix-timestamps": "              tnotes --fix-timestamps",
     "tn:help": "                        tnotes --help",
     "tn:preview": "                     tnotes --preview",
     "tn:pull": "                        tnotes --pull",
@@ -20,6 +19,6 @@
     "vue": "^3.5.27"
   },
   "dependencies": {
-    "@tnotesjs/core": "^0.2.2"
+    "@tnotesjs/core": "^0.3.0"
   }
 }
