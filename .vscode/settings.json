@@ -2,9 +2,7 @@
   // -------------------------------------------
   // #region - TNotes 所使用的 VSCode 内置配置
   // -------------------------------------------
-
   // #region - Workbench（工作台相关配置）
-
   // 控制列表和树是否具有平滑滚动效果。
   "workbench.list.smoothScrolling": false,
   // 控制树形视图的缩进像素值
@@ -23,7 +21,7 @@
   // 启动时不打开任何编辑器
   "workbench.startupEditor": "none",
   // 设置颜色主题
-  "workbench.colorTheme": "GitHub Dark",
+  "workbench.colorTheme": "Cursor Dark",
   // 隐藏空编辑器的提示信息
   "workbench.editor.empty.hint": "hidden",
   // 将固定的标签页显示在单独的行上
@@ -37,11 +35,8 @@
   "workbench.editor.wrapTabs": true,
   // 将面板默认显示在右侧
   "workbench.panel.defaultLocation": "right",
-
   // #endregion
-
   // #region - Editor（编辑器相关配置）
-
   // 启用代码镜头功能，显示引用、实现等信息
   "editor.codeLens": true,
   // 在输入触发字符时显示建议
@@ -114,15 +109,12 @@
   "editor.minimap.renderCharacters": false,
   // 小地图滑块始终显示
   "editor.minimap.showSlider": "always",
-
   // 仅在仓库存在 Prettier 配置时启用，避免扩展默认值介入仓库规则
   "prettier.requireConfig": true,
-
   // Black Formatter 优先使用当前 Python 环境中的 black
   "black-formatter.importStrategy": "fromEnvironment",
   // Python 扩展默认使用工作区根目录下的 .venv 作为解释器来源
   "python.defaultInterpreterPath": "${workspaceFolder}/.venv",
-
   // HTML 文件的编辑器配置
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -166,7 +158,6 @@
     "editor.defaultFormatter": "jock.svg",
     "editor.formatOnSave": false
   },
-
   // Python 文件：4 个空格，并在保存时使用 Black 格式化
   "[python]": {
     "editor.tabSize": 4,
@@ -175,38 +166,28 @@
     "editor.formatOnSave": true,
     "editor.formatOnType": false
   },
-
   // C 文件：4 个空格
   "[c]": {
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
-
   // C++ 文件：4 个空格
   "[cpp]": {
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
     "editor.defaultFormatter": "ms-vscode.cpptools"
   },
-
   // C/C++ 使用仓库根目录下的 .clang-format 作为统一格式化规则
   "C_Cpp.clang_format_style": "file",
-
   // 禁用 C/C++ 插件的 IntelliSense 错误提示（避免因缺少头文件导致的误报）
   "C_Cpp.errorSquiggles": "disabled",
-
   // #endregion
-
   // #region - Extensions（扩展相关配置）
-
   // 忽略扩展推荐提示
   "extensions.ignoreRecommendations": true,
-
   // #endregion - Extensions（扩展相关配置）
-
   // #region - Terminal（终端相关配置）
-
   // 启用终端光标闪烁
   "terminal.integrated.cursorBlinking": true,
   // "editor.mouseWheelZoom": true,
@@ -223,11 +204,8 @@
   // 设置终端字体大小
   "terminal.integrated.fontSize": 14,
   // "terminal.integrated.cursorStyle": "underline",
-
   // #endregion - Terminal（终端相关配置）
-
   // #region - Files（文件相关配置）
-
   // 禁用文件参与者超时限制
   "files.participants.timeout": 0,
   // 设置文件行尾符为 LF
@@ -246,7 +224,6 @@
     "package.json": "json",
     "*.md": "markdown"
   },
-
   // 配置在资源管理器中隐藏的文件和文件夹
   "files.exclude": {
     "**/.eslintcache": true,
@@ -274,16 +251,12 @@
     "**/dist/**": true,
     "**/yarn.lock": true
   },
-
   // #endregion - Files（文件相关配置）
-
   // #region - Search（搜索相关配置）
-
   // 搜索编辑器中单击结果时预览定义
   "search.searchEditor.singleClickBehaviour": "peekDefinition",
   // 搜索时不跟踪符号链接
   "search.followSymlinks": false,
-
   // 在使用搜索功能时，将这些文件夹/文件排除在外
   "search.exclude": {
     "**/node_modules": true,
@@ -295,16 +268,12 @@
     "dist": true,
     "node_modules": true
   },
-
   // #endregion - Search（搜索相关配置）
-
   // #region - Explorer（资源管理器相关配置）
-
   // 删除文件时显示确认对话框
   "explorer.confirmDelete": true,
   // 拖放文件时显示确认对话框
   "explorer.confirmDragAndDrop": true,
-
   // 控制相关文件嵌套展示
   "explorer.fileNesting.enabled": true,
   // 默认不展开嵌套的文件
@@ -321,16 +290,11 @@
     "tailwind.config.mjs": "postcss.*",
     ".tnotes.json": "Settings.md,sidebar.json,TOC.md,Words.md,References.md,Introduction.md,index.md,Loading.md"
   },
-
   // #endregion - Explorer（资源管理器相关配置）
-
   // #region - breadcrumbs（面包屑导航）
-
   // 面包屑导航中仅显示最后一个符号
   "breadcrumbs.symbolPath": "last",
-
   // #endregion - breadcrumbs（面包屑导航）
-
   // #region - markdown
   // Markdown 语法检查配置
   "markdownlint.config": {
@@ -345,16 +309,13 @@
     "MD051": false
   },
   // #endregion - markdown
-
   // #region - Others（其他相关配置）
-
   // 任务出错时仍然继续调试
   "debug.onTaskErrors": "debugAnyway",
   // 差异编辑器不忽略首尾空白字符
   "diffEditor.ignoreTrimWhitespace": false,
   // 指定 npm 包管理器
   "npm.packageManager": "npm",
-
   // 禁用 CSS 内置验证
   "css.validate": false,
   // 禁用 Less 内置验证
@@ -362,9 +323,7 @@
   // 禁用 SCSS 内置验证
   "scss.validate": false,
   "git.ignoreLimitWarning": true
-
   // #endregion - Others（其他相关配置）
-
   // -------------------------------------------
   // #endregion - TNotes 所使用的 VSCode 内置配置
   // -------------------------------------------
