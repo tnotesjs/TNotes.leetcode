@@ -40,3 +40,14 @@ void wordDictionaryFree(WordDictionary* obj) {
     }
     free(obj);
 }
+
+
+/**
+ * Your WordDictionary struct will be instantiated and called as such:
+ * WordDictionary* obj = wordDictionaryCreate();
+ * wordDictionaryAddWord(obj, word);
+ 
+ * bool param_2 = wordDictionarySearch(obj, word);
+ 
+ * wordDictionaryFree(obj);
+*/

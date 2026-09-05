@@ -21,3 +21,9 @@ class WordDictionary:
                 return False
             return dfs(node.children[word[i]], i + 1)
         return dfs(self, 0)
+
+
+# Your WordDictionary object will be instantiated and called as such:
+# obj = WordDictionary()
+# obj.addWord(word)
+# param_2 = obj.search(word)
