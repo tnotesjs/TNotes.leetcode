@@ -12,8 +12,8 @@ importers:
         specifier: ^0.2.1
         version: 0.2.1
       '@tnotesjs/ssg':
-        specifier: ^0.1.5
-        version: 0.1.5(@types/markdown-it@14.2.0)(sass@1.100.0)
+        specifier: ^0.1.6
+        version: 0.1.6(@types/markdown-it@14.2.0)(sass@1.100.0)
 
 packages:
 
@@ -496,8 +496,8 @@ packages:
     resolution: {integrity: sha512-uDMllL2l7zq0d63K8i1cnzdBZfwnkXLw+t48cXIhYg3tvVCpb38YOy0QFAhHTg8xRreV+Jdh3jBaf+wo0FAEFg==}
     engines: {node: '>=18.0.0'}
 
-  '@tnotesjs/ssg@0.1.5':
-    resolution: {integrity: sha512-Mf4bffv8JKFR0nwnZvxMQYpH4A4f6+J8T+IpDzCXr/TJaz+dJVGQ6BmJFkkRlkBmJe1Dg4O7a2zZuNQH6Z6IIg==}
+  '@tnotesjs/ssg@0.1.6':
+    resolution: {integrity: sha512-MYgbtZQ6RyPZ6iM88zGUqQOYZuzRknVP1ZLyLWVNvwQ+VHcFmN0h7jDuxaIp7pUccwkBchtra9pi3aX8uHTN4w==}
     engines: {node: '>=22.0.0'}
     hasBin: true
 
@@ -1918,7 +1918,7 @@ snapshots:
 
   '@tnotesjs/mindmap-core@0.2.2': {}
 
-  '@tnotesjs/ssg@0.1.5(@types/markdown-it@14.2.0)(sass@1.100.0)':
+  '@tnotesjs/ssg@0.1.6(@types/markdown-it@14.2.0)(sass@1.100.0)':
     dependencies:
       '@mdit-vue/plugin-component': 2.1.4
       '@mdit-vue/plugin-frontmatter': 2.1.4
