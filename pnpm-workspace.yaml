@@ -1,11 +1,7 @@
-# 本地开发时取消注释以 link 本地 core（不要提交到远程）
-# overrides:
-#   '@tnotesjs/core': link:../core
-
 allowBuilds:
-  '@parcel/watcher': false
-  esbuild: false
+  esbuild: true
+  '@parcel/watcher': true
 minimumReleaseAgeExclude:
-  - '@tnotesjs/core@0.2.2 || 0.3.0 || 0.8.0'
-  - '@tnotesjs/mindmap-core@0.2.2'
-  - '@tnotesjs/ui@0.1.1'
+  - '@tnotesjs/ui'
+  - '@tnotesjs/kb'
+  - '@tnotesjs/ssg'
