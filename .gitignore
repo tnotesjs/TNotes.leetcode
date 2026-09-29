@@ -1,3 +1,4 @@
 node_modules/
 .tnotes/dist
 .DS_Store
+playgrounds/
