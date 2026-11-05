@@ -842,8 +842,8 @@ packages:
     engines: {node: '>=22.0.0'}
     hasBin: true
 
-  '@tnotesjs/ui@0.4.3':
-    resolution: {integrity: sha512-kNSx3S18LsOyDSoNbzE0wVMhDmXNKh9LgIg66Si4KggQzhYZE3N8zukeM2ruqdNzoozBVLCkrnwfMlOz9sps8A==}
+  '@tnotesjs/ui@0.4.4':
+    resolution: {integrity: sha512-1VhXBRaaizFWww63b9NaApqzhCbCEdFIwrWfpcI7BCm3LZP4EuGKaXxEUiHgHqv61TOA6Dv3A0H2YXSaR0KcSA==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       vue: ^3.5.0
@@ -2938,7 +2938,7 @@ snapshots:
       '@mdit-vue/plugin-frontmatter': 2.1.4
       '@mdit-vue/plugin-sfc': 2.1.4
       '@tnotesjs/kb': 0.5.4
-      '@tnotesjs/ui': 0.4.3(vue@3.5.44)
+      '@tnotesjs/ui': 0.4.4(vue@3.5.44)
       '@vitejs/plugin-vue': 6.0.10(vite@7.3.7(sass-embedded@1.107.1)(sass@1.107.1))(vue@3.5.44)
       '@vue/server-renderer': 3.5.44
       github-slugger: 2.0.0
@@ -2972,7 +2972,7 @@ snapshots:
       - typescript
       - yaml
 
-  '@tnotesjs/ui@0.4.3(vue@3.5.44)':
+  '@tnotesjs/ui@0.4.4(vue@3.5.44)':
     dependencies:
       '@excalidraw/excalidraw': 0.18.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@tnotesjs/mindmap-core': 0.2.5
