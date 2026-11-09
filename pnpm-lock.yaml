@@ -9,11 +9,11 @@ importers:
   .:
     devDependencies:
       '@tnotesjs/kb':
-        specifier: ^0.5.4
-        version: 0.5.4
+        specifier: ^0.5.5
+        version: 0.5.5
       '@tnotesjs/ssg':
-        specifier: ^0.4.5
-        version: 0.4.5(@types/markdown-it@14.2.0)(sass@1.107.1)
+        specifier: ^0.4.6
+        version: 0.4.6(@types/markdown-it@14.2.0)(sass@1.107.1)
 
 packages:
 
@@ -828,8 +828,8 @@ packages:
   '@shikijs/vscode-textmate@10.1.0':
     resolution: {integrity: sha512-cVBuhDQjBZaNMTwBquYfPydrUP+E3hE6oYGasx8h6ZrODIM7/r+gxLDXdd66oszbrggZHEntdE6j+5gYIVyMWQ==}
 
-  '@tnotesjs/kb@0.5.4':
-    resolution: {integrity: sha512-Ghgnb1KmWunvZ6ACmws/j1zi6y59OAIiVAqNV94xlOr62U707mbQrZnOWUhU2IBdg2fdahpNmLniEyIvUx/8Yg==}
+  '@tnotesjs/kb@0.5.5':
+    resolution: {integrity: sha512-GpjXKTyszaKq6wD+slpQ0VfFUo6TnKFTKC8aqKHTVjaGiuntOLsnZc74nn18qxjQPAeMMX/6NMAH4Oq1VVDSUA==}
     engines: {node: '>=22.0.0'}
     hasBin: true
 
@@ -837,13 +837,13 @@ packages:
     resolution: {integrity: sha512-hIghNAuhW/c+4MsyhEQSXaGJN+AxZCfAPfs12fi8bskVaIJ+KOF3MM+vYBkmwo4ASTOICKaavOulQk72kg3nrw==}
     engines: {node: '>=18.0.0'}
 
-  '@tnotesjs/ssg@0.4.5':
-    resolution: {integrity: sha512-BjC8qo30xmYLX8VaIyHgehQhU0xSgqJYnayslKzWRPFggK60kZALP2N1zEu86pnzGqZtxNNGpO3tdaVPmtG8CA==}
+  '@tnotesjs/ssg@0.4.6':
+    resolution: {integrity: sha512-Zj2b0ZhIx9nkCRm69gBVf/CpZKk+hjEI+mX+gd46+9ZgSydBfbwRqh22wIXFuiZDRSnOUj7jlKfcHd3jUDRXcg==}
     engines: {node: '>=22.0.0'}
     hasBin: true
 
-  '@tnotesjs/ui@0.4.4':
-    resolution: {integrity: sha512-1VhXBRaaizFWww63b9NaApqzhCbCEdFIwrWfpcI7BCm3LZP4EuGKaXxEUiHgHqv61TOA6Dv3A0H2YXSaR0KcSA==}
+  '@tnotesjs/ui@0.4.5':
+    resolution: {integrity: sha512-8+rueyaHjHxIO+i0x1/qsSYrAQYsGuHLgubsJOXalfIxDhJVmqhN+qLzIF022RJc2xYj8JQ4SQwveyi0W86AsQ==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       vue: ^3.5.0
@@ -2926,19 +2926,19 @@ snapshots:
 
   '@shikijs/vscode-textmate@10.1.0': {}
 
-  '@tnotesjs/kb@0.5.4':
+  '@tnotesjs/kb@0.5.5':
     dependencies:
       gray-matter: 4.0.3
 
   '@tnotesjs/mindmap-core@0.2.5': {}
 
-  '@tnotesjs/ssg@0.4.5(@types/markdown-it@14.2.0)(sass@1.107.1)':
+  '@tnotesjs/ssg@0.4.6(@types/markdown-it@14.2.0)(sass@1.107.1)':
     dependencies:
       '@mdit-vue/plugin-component': 2.1.4
       '@mdit-vue/plugin-frontmatter': 2.1.4
       '@mdit-vue/plugin-sfc': 2.1.4
-      '@tnotesjs/kb': 0.5.4
-      '@tnotesjs/ui': 0.4.4(vue@3.5.44)
+      '@tnotesjs/kb': 0.5.5
+      '@tnotesjs/ui': 0.4.5(vue@3.5.44)
       '@vitejs/plugin-vue': 6.0.10(vite@7.3.7(sass-embedded@1.107.1)(sass@1.107.1))(vue@3.5.44)
       '@vue/server-renderer': 3.5.44
       github-slugger: 2.0.0
@@ -2972,7 +2972,7 @@ snapshots:
       - typescript
       - yaml
 
-  '@tnotesjs/ui@0.4.4(vue@3.5.44)':
+  '@tnotesjs/ui@0.4.5(vue@3.5.44)':
     dependencies:
       '@excalidraw/excalidraw': 0.18.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@tnotesjs/mindmap-core': 0.2.5
