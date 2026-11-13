@@ -69,6 +69,8 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
+        with:
+          timeout: 1800000 # 30 分钟，避免大站点同步超时
 
   # 部署完成后通知根仓重新收集（根站数据管道已迁新格式，2026-09-09 恢复）。
   # payload 带 sha：根仓 collect 按 commit 精确拉取本库数据，绕过 raw CDN 缓存。
