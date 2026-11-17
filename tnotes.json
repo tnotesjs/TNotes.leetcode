@@ -13,5 +13,11 @@
     "enabled": true
   },
   "discussions": true,
-  "id": "38744ce5-0046-4715-b573-61ae3d38ad0a"
+  "id": "38744ce5-0046-4715-b573-61ae3d38ad0a",
+  "push": {
+    "runUpdateBefore": true
+  },
+  "markdown": {
+    "lineBreaks": "visual"
+  }
 }
